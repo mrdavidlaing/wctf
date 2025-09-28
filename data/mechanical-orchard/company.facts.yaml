@@ -38,28 +38,46 @@ financial_health:
       date: "2024-02-07"
       confidence: "explicit_statement"
 
+    - fact: "Lost one of their 2 customers end of 2023 due to customer acquisition"
+      source: "Insider information"
+      date: "2025-09-27"
+      confidence: "explicit_statement"
+
+    - fact: "Stopped being profitable after losing major customer"
+      source: "Insider information"
+      date: "2025-09-27"
+      confidence: "explicit_statement"
+
+    - fact: "Maintains 18 months of runway as of late 2024"
+      source: "Insider information"
+      date: "2025-09-27"
+      confidence: "explicit_statement"
+
     - fact: "Investors include GV, Emergence Capital, Fin Capital, MongoDB, Industry Ventures, Spider Capital"
       source: "Mechanical Orchard press release"
       date: "2025-06-09"
       confidence: "explicit_statement"
 
-    - fact: "No layoffs reported in past 18 months"
-      source: "Multiple sources checked"
+    - fact: "Head of Sales laid off end of 2024"
+      source: "Insider information"
       date: "2025-09-27"
-      confidence: "implied"
+      confidence: "explicit_statement"
 
   missing_information:
     - "Specific burn rate not publicly disclosed"
-    - "Runway duration not disclosed"
-    - "Customer concentration percentages unavailable"
+    - "Customer concentration percentages unavailable (though insider info reveals it was 50%)"
     - "MRR/ARR breakdown not available"
-    - "Specific path to profitability timeline beyond 2023 achievement"
 
 market_position:
   facts_found:
     - fact: "Main product is Imogen, an end-to-end mainframe modernization platform launched April 2025"
       source: "Business Wire"
       date: "2025-04-03"
+      confidence: "explicit_statement"
+
+    - fact: "Product is currently vaporware despite public launch announcement"
+      source: "Insider information"
+      date: "2025-09-27"
       confidence: "explicit_statement"
 
     - fact: "Uses AI-enhanced tools to rebuild legacy applications into cloud-native systems"
@@ -107,6 +125,31 @@ market_position:
       date: "2025-04-03"
       confidence: "explicit_statement"
 
+    - fact: "Partnership with Thoughtworks used to get foot in door at Fortune 500 clients"
+      source: "Insider information"
+      date: "2025-09-27"
+      confidence: "explicit_statement"
+
+    - fact: "Failed to land any new customers throughout 2024"
+      source: "Insider information"
+      date: "2025-09-27"
+      confidence: "explicit_statement"
+
+    - fact: "Pivoted end of 2024 to position as product company rather than services"
+      source: "Insider information"
+      date: "2025-09-27"
+      confidence: "explicit_statement"
+
+    - fact: "Launched 'demo ware' at Google conference as part of pivot"
+      source: "Insider information"
+      date: "2025-09-27"
+      confidence: "explicit_statement"
+
+    - fact: "Landed 5 paid proof of concept contracts at Fortune 500 companies"
+      source: "Insider information"
+      date: "2025-09-27"
+      confidence: "explicit_statement"
+
     - fact: "Clients include global retailers, public sector, logistics and CPG companies"
       source: "Mechanical Orchard press release"
       date: "2025-06-09"
@@ -121,7 +164,7 @@ market_position:
     - "Customer reviews on G2, Capterra, or Gartner Peer Insights not available"
     - "Specific market share percentage not disclosed"
     - "Pricing model and typical contract values not public"
-    - "Customer case studies with metrics not available"
+    - "Conversion rate of POCs to full contracts unknown"
 
 organizational_stability:
   facts_found:
@@ -183,8 +226,9 @@ organizational_stability:
   missing_information:
     - "No CTO role identified, VP R&D appears to be senior technical leader"
     - "Glassdoor engineering-specific rating not available (only 2 total reviews)"
-    - "Specific details on Kent Beck's departure timing and reasons"
+    - "Specific details on Kent Beck's departure timing and reasons (though correlates with business struggles)"
     - "LinkedIn hiring velocity metrics not accessible"
+    - "Impact of sales leadership departure on organization"
 
 technical_culture:
   facts_found:
@@ -253,9 +297,10 @@ technical_culture:
     - "Hacker News discussion threads not significant"
     - "Specific open source contribution metrics beyond repository count"
     - "Detailed GitHub activity metrics (commits, contributors)"
+    - "Engineering allocation between vaporware demos vs real product development"
 
 summary:
-  total_facts_found: 53
+  total_facts_found: 61
   information_completeness: "high"
   most_recent_data_point: "2025-09-27"
   oldest_data_point: "2022-10-17"
