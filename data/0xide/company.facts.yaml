@@ -1,0 +1,156 @@
+FINANCIAL_HEALTH:
+  facts_found:
+    latest_funding:
+      - series_b_date: "2025-07-30"
+      - series_b_amount: "$100M"
+      - series_b_lead: "US Innovative Technology Fund (USIT)"
+      - series_a_date: "2023-10-26"
+      - series_a_amount: "$44M"
+      - series_a_lead: "Eclipse Ventures"
+      - total_raised: "~$189M across 3 rounds"
+    investors:
+      - lead_investors: ["Eclipse Ventures", "USIT"]
+      - other_investors: ["Intel Capital", "Riot Ventures", "Counterpart Ventures", "Rally Ventures", "In-Q-Tel"]
+      - all_existing_investors_participated_in_series_b: true
+    revenue_metrics:
+      - estimated_arr: "$15.1M (2024-2025, third-party estimate)"
+      - revenue_status: "Accelerating customer growth per CEO"
+    runway_and_burn:
+      - recent_funding: "$100M provides substantial runway"
+      - estimated_runway: "3+ years at current scale (estimated)"
+      - historical_burn: "$89M over 6 years (2019-2025)"
+    profitability:
+      - status: "Not profitable, typical for growth-stage hardware company"
+      - focus: "Scaling manufacturing and customer support"
+    layoffs:
+      - past_18_months: "None found"
+      - employee_trajectory: "Growth from ~23 to 75-84 employees"
+      - hiring_status: "Actively hiring multiple positions"
+    customer_concentration:
+      - known_customers: ["Lawrence Livermore National Lab", "Idaho National Lab", "CoreWeave", "Unnamed global financial services firm"]
+      - customer_diversity: "Government, Financial Services, Cloud/AI Infrastructure sectors"
+      - concentration_risk: "Moderate - diversified across sectors"
+  missing_information:
+    - "Post-money valuations for all funding rounds"
+    - "Specific burn rate and cash flow data"
+    - "Detailed revenue growth metrics and ARR/MRR trends"
+    - "Timeline to profitability"
+    - "SEC filings or regulatory disclosures"
+
+MARKET_POSITION:
+  facts_found:
+    main_product:
+      - product_name: "Oxide Cloud Computer"
+      - rack_scale_specs:
+        - compute: "Up to 32 sleds with 64-core AMD Milan CPUs (2,048 cores total)"
+        - memory: "512GB-1TB DDR4 per sled (16-32TB total)"
+        - storage: "1PB raw NVMe storage capacity"
+        - networking: "Intel Tofino 2 switch, 12.8Tbps capacity"
+        - power: "15kW maximum, 55% more efficient than traditional"
+      - software_stack: "Fully integrated cloud management with APIs, web console, SDKs"
+      - pricing_model: "Estimated $500K-$1M per rack, zero licensing fees"
+      - deployment_time: "Hours vs weeks/months for traditional setups"
+    competitors:
+      - direct_competitors: ["VMware/Broadcom", "Nutanix", "Dell EMC", "HPE", "Microsoft Azure Stack HCI"]
+      - differentiation:
+        - "Full-stack hardware/software integration"
+        - "Rack-scale design vs individual servers"
+        - "No ongoing licensing fees"
+        - "Custom firmware and DC power distribution"
+        - "Open source software stack"
+    market_size:
+      - private_cloud_server_market: "$92.56B (2023) → $508.50B (2030), 28.3% CAGR"
+      - private_cloud_overall: "$195B by 2030"
+      - key_stat: "85% of global IT workloads still run on-premises"
+      - target_segment: "Large enterprises with thousands of CPU cores"
+    customer_reviews:
+      - llnl_quote: "Oxide's Cloud Computer will allow us to securely support new types of workloads"
+      - customer_feedback_themes: ["Faster deployment", "Simplified operations", "Enhanced security"]
+      - market_recognition: "Included in Gartner 2024 Market Guide for Full-Stack HCI Software"
+    key_differentiators:
+      - technology: ["Rack-scale architecture", "Custom silicon integration", "DC power distribution"]
+      - software: ["Rust-based systems", "API-driven management", "Zero licensing model"]
+      - operational: ["Power efficiency 55% better", "Whisper-quiet operation", "Hot-swappable components"]
+  missing_information:
+    - "Market share estimates"
+    - "Exact pricing and TCO comparisons"
+    - "GPU/AI acceleration roadmap"
+    - "Large-scale deployment proof points"
+    - "Detailed competitive win/loss data"
+
+ORGANIZATIONAL_STABILITY:
+  facts_found:
+    executive_leadership:
+      - ceo: "Steve Tuck (Co-Founder, former President/COO at Joyent)"
+      - cto: "Bryan Cantrill (Co-Founder, Sun Microsystems veteran)"
+      - cpo: "Jessie Frazelle (Co-Founder, ex-Docker, Google, Microsoft)"
+      - board: "Seth Winterroth (Board Member since Nov 2019)"
+    executive_changes:
+      - past_24_months: "No major departures found"
+      - founding_team: "All three co-founders remain in original roles"
+      - leadership_activity: "CEO and CTO actively representing company in 2025"
+    headcount_and_hiring:
+      - current_employees: "75-84 (various sources)"
+      - growth_rate: "3.3x growth over 4 years (from ~23 employees)"
+      - open_positions: ["Control Plane Engineer", "Electrical Engineer", "Field Sales", "Manufacturing PM", "Networking Engineers"]
+      - team_focus: "Heavy engineering emphasis"
+    employee_reviews:
+      - glassdoor_data: "Unreliable - shows incorrect compensation data"
+      - compensation_model:
+        - current_salary: "$235,000 uniform for all employees"
+        - progression: "$175K (2019) → $180K (2020) → $235K (current)"
+        - exception: "Some sales roles have base + commission"
+      - retention_indicators: "Stable leadership since 2019, successful scaling"
+    work_environment:
+      - headquarters: "1251 Park Avenue, Emeryville, CA 94608"
+      - remote_policy: "Remote-first, 4-hour Pacific Time overlap required"
+      - benefits: "100% healthcare premiums for employees and dependents"
+      - culture: "Values-driven, engineering-focused, transparent"
+  missing_information:
+    - "Reliable employee satisfaction ratings"
+    - "Engineering vs non-engineering headcount breakdown"
+    - "Employee discussions on Blind or Reddit"
+    - "Comparison to industry average satisfaction scores"
+    - "Specific reasons for any employee departures"
+
+TECHNICAL_CULTURE:
+  facts_found:
+    tech_stack:
+      - primary_language: "Rust dominates entire stack (firmware to userspace)"
+      - github_presence: "324+ public repositories, Rust as top language"
+      - key_projects:
+        - hubris: "Embedded OS (855 GitHub stars)"
+        - helios: "illumos distribution (364 stars)"
+        - propolis: "Rust-based VMM (176 stars)"
+        - humility: "Debugger (527 stars)"
+      - hardware_software_codesign: "Custom hardware with integrated software stack"
+      - development_tools: ["Progenitor (OpenAPI generator)", "Typify (JSON Schema converter)", "RFD process"]
+    engineering_blog:
+      - activity_level: "Regular posts at oxide.computer/blog"
+      - recent_topics: ["Systems Software in the Large", "Engineering a Culture", "FAQ Friday series"]
+      - authors: "Bryan Cantrill (CTO), Dave Pacheco, various engineers"
+      - technical_depth: "Deep dives on systems programming, hardware design"
+      - rfd_system: "Public technical design documents at rfd.shared.oxide.computer"
+    open_source:
+      - github_metrics:
+        - repositories: "324+ public repos"
+        - followers: "2.2k organization followers"
+        - top_projects: ["Hubris (855 stars)", "Humility (527 stars)", "Progenitor (503 stars)"]
+      - philosophy: "Open source first, most software publicly available"
+      - community: "Active issue tracking, accepts external contributions"
+    conference_presence:
+      - podcasts: ["On the Metal", "Oxide and Friends weekly Discord show"]
+      - presentations: ["P99 CONF 2024", "InfoQ presentations", "Multiple industry podcasts"]
+      - internal_conference: "OxCon annual conference with public presentations"
+    ai_ml_stance:
+      - current_focus: "Limited public AI/ML initiatives"
+      - infrastructure_approach: "General-purpose computing for various workloads"
+      - hpc_capability: "Lawrence Livermore partnership indicates HPC readiness"
+      - ai_specific_marketing: "None - focus on traditional enterprise/government"
+  missing_information:
+    - "Specific AI/ML strategy or roadmap"
+    - "Detailed technical benchmarks vs competitors"
+    - "Long-term product development plans"
+    - "International expansion strategy"
+    - "Specific performance metrics for deployed systems"
+
