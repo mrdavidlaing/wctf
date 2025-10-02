@@ -1,0 +1,668 @@
+company: "Fly.io"
+research_date: "2025-10-02"
+
+financial_health:
+  facts_found:
+    - fact: "Series C funding of $70 million announced"
+      source: "Crunchbase"
+      date: "2023-06-27"
+      confidence: "explicit_statement"
+
+    - fact: "Series C funding round of $70 million raised in June 2023"
+      source: "EdgeIR"
+      date: "2023-07-09"
+      confidence: "explicit_statement"
+
+    - fact: "Series C led by EQT Ventures with participation from Andreessen Horowitz, Dell Technologies Capital, and Intel Capital"
+      source: "Crunchbase"
+      date: "2023-06-27"
+      confidence: "explicit_statement"
+
+    - fact: "Series C round led by EQT Ventures with participation from existing investors Andreessen Horowitz, Dell Technologies Capital and Intel Capital"
+      source: "SiliconANGLE"
+      date: "2023-06-27"
+      confidence: "explicit_statement"
+
+    - fact: "Post-money valuation of $397M for Series C"
+      source: "Crunchbase"
+      date: "2023-06-27"
+      confidence: "explicit_statement"
+
+    - fact: "Post-money valuation of $467M from June 2023"
+      source: "Clay.com"
+      date: "2023-06-27"
+      confidence: "explicit_statement"
+
+    - fact: "Post-money valuation of $467 million from June 2023 Series C round"
+      source: "Clay.com"
+      date: "2023-01-05"
+      confidence: "explicit_statement"
+
+    - fact: "Series B of $25M closed in July 2022, led by Andreessen Horowitz"
+      source: "TechCrunch"
+      date: "2022-07-28"
+      confidence: "explicit_statement"
+
+    - fact: "Previous Series B round raised $25 million in July 2022 led by Andreessen Horowitz"
+      source: "Fly.io Blog"
+      date: "2019-12-31"
+      confidence: "explicit_statement"
+
+    - fact: "Series A of $12M raised in August 2021, led by Intel Capital"
+      source: "TechCrunch"
+      date: "2022-07-28"
+      confidence: "explicit_statement"
+
+    - fact: "Total funding raised is $111M across all rounds"
+      source: "PitchBook"
+      date: "2023-06-27"
+      confidence: "explicit_statement"
+
+    - fact: "Total funding raised is $110.5 million across multiple rounds"
+      source: "Clay.com"
+      date: "2023-01-05"
+      confidence: "explicit_statement"
+
+    - fact: "Revenue of $11.2M in 2024"
+      source: "Getlatka"
+      date: "2024-12-31"
+      confidence: "explicit_statement"
+
+    - fact: "Revenue of $7.6M in 2023"
+      source: "Getlatka"
+      date: "2023-12-31"
+      confidence: "explicit_statement"
+
+    - fact: "Revenue of $882K in 2021"
+      source: "Getlatka"
+      date: "2021-12-31"
+      confidence: "explicit_statement"
+
+    - fact: "Virtual machines grew approximately 12X in the past year"
+      source: "FinSMEs"
+      date: "2023-06-27"
+      confidence: "explicit_statement"
+
+    - fact: "Experienced 12x growth in virtual machines from June 2022 to June 2023"
+      source: "Boring Business Nerd"
+      date: "2022-07-27"
+      confidence: "explicit_statement"
+
+    - fact: "Over 3 million apps launched on Fly.io"
+      source: "Fly.io website"
+      date: "2025-10-02"
+      confidence: "explicit_statement"
+
+    - fact: "Company states Hardware is what makes the margins work"
+      source: "Fly.io Blog"
+      date: "2023-06-28"
+      confidence: "explicit_statement"
+
+    - fact: "Hardware ownership approach chosen for economic reasons to make margins work for long-term viability"
+      source: "Fly.io Blog"
+      date: "2019-12-31"
+      confidence: "explicit_statement"
+
+    - fact: "Glassdoor review states Not yet a self funded company"
+      source: "Glassdoor"
+      date: "2024-10-10"
+      confidence: "explicit_statement"
+
+    - fact: "Layoffs mentioned in Hacker News discussion thread"
+      source: "Hacker News"
+      date: "2024-09-01"
+      confidence: "explicit_statement"
+
+    - fact: "Company laid off around 40 employees in September 2024"
+      source: "StartupNews.fyi"
+      date: "2024-09-04"
+      confidence: "explicit_statement"
+
+    - fact: "Fly.io laid off around 40 employees in September 2024 as part of restructuring effort"
+      source: "TechStory"
+      date: "2024-09-14"
+      confidence: "explicit_statement"
+
+    - fact: "Layoffs occurred on September 3, 2024 affecting both white collar and factory workers"
+      source: "6figr.com"
+      date: "2025-09-06"
+      confidence: "explicit_statement"
+
+    - fact: "Everyone laid off received 4 months of severance, cuts were primarily to business units in company reconfiguration"
+      source: "Hacker News"
+      date: "2024-09-03"
+      confidence: "explicit_statement"
+
+    - fact: "Layoffs described as restructuring effort for the company"
+      source: "StartupNews.fyi"
+      date: "2024-09-04"
+      confidence: "explicit_statement"
+
+    - fact: "Company is roughly 18 months from profitability according to CEO Kurt Mackey as of June 2023"
+      source: "Bloomberg"
+      date: "2023-06-28"
+      confidence: "explicit_statement"
+
+    - fact: "Company has been unit-profitable most of its life according to CEO statement"
+      source: "Fly.io Community"
+      date: "2021-07-16"
+      confidence: "explicit_statement"
+
+    - fact: "Company makes 70% margins when servers are at optimal capacity"
+      source: "Fly.io Community"
+      date: "2021-07-16"
+      confidence: "explicit_statement"
+
+    - fact: "Company makes 70% margins when servers are at optimal capacity, with pricing formula of cost divided by 0.3"
+      source: "Fly.io Community"
+      date: "2021-07-16"
+      confidence: "explicit_statement"
+
+    - fact: "Uses investment money primarily to build awareness, get more customers, and provide cushion while self-service revenue model scales"
+      source: "Fly.io Community"
+      date: "2021-07-16"
+      confidence: "explicit_statement"
+
+    - fact: "Employee count decreased by 30%"
+      source: "Growjo"
+      date: "2024-12-31"
+      confidence: "explicit_statement"
+
+    - fact: "Employee count of 35 in July 2022"
+      source: "TechCrunch"
+      date: "2022-07-28"
+      confidence: "explicit_statement"
+
+    - fact: "Employee count of 58"
+      source: "PitchBook"
+      date: "2025-10-02"
+      confidence: "explicit_statement"
+
+    - fact: "Employee count of 60 total with 33 engineering"
+      source: "Getlatka"
+      date: "2024-12-31"
+      confidence: "explicit_statement"
+
+    - fact: "Customers include Fanatics, Tailscale, Supabase, Walmart Labs"
+      source: "FinSMEs"
+      date: "2023-06-27"
+      confidence: "explicit_statement"
+
+    - fact: "Several hundred thousand apps deployed at time of Series B"
+      source: "TechCrunch"
+      date: "2022-07-28"
+      confidence: "explicit_statement"
+
+  missing_information:
+    - "Runway data or months of operation remaining"
+    - "Burn rate monthly or quarterly figures"
+    - "Current monthly recurring revenue (MRR) or annual recurring revenue (ARR) figures"
+    - "MRR or ARR metrics"
+    - "Exact number of employees laid off in September 2024"
+    - "Specific departments or roles affected by layoffs"
+    - "Percentage of workforce laid off"
+    - "Exact percentage of workforce laid off in 2024"
+    - "Customer concentration percentage or revenue from top customers"
+    - "Customer churn rate or retention metrics"
+    - "Current cash balance"
+    - "Current specific burn rate figures"
+    - "Current runway duration in months"
+    - "Specific ARR or MRR numbers"
+    - "Current employee headcount after layoffs"
+
+market_position:
+  facts_found:
+    - fact: "Fly.io is a global edge computing platform that deploys Docker container-based applications close to end users across 35 regions worldwide"
+      source: "Fly.io official website"
+      date: "2025-10-02"
+      confidence: "explicit_statement"
+
+    - fact: "Over 3 million apps have launched on Fly.io, leveraging global Anycast load-balancing, zero-config private networking, hardware isolation, instant WireGuard VPN connections, and push-button deployments"
+      source: "Fly.io homepage"
+      date: "2025-10-02"
+      confidence: "explicit_statement"
+
+    - fact: "Fly Machines are hardware-virtualized containers running on own hardware that launch instantly and run exactly as long as needed"
+      source: "Fly.io homepage"
+      date: "2025-10-02"
+      confidence: "explicit_statement"
+
+    - fact: "Fly Machines boot in 250ms or less and can respond to web requests"
+      source: "Fly.io homepage"
+      date: "2025-10-02"
+      confidence: "explicit_statement"
+
+    - fact: "Fly.io uses Firecracker to boot tiny VMs"
+      source: "Hacker News"
+      date: "2020-03-01"
+      confidence: "explicit_statement"
+
+    - fact: "Primary competitors include Heroku, Render, Railway, DigitalOcean App Platform, Cloudflare Workers, Vercel, Netlify, AWS, Google Cloud Platform, Microsoft Azure"
+      source: "G2 alternatives page"
+      date: "2025-10-02"
+      confidence: "explicit_statement"
+
+    - fact: "Fly.io went through Y Combinator Winter 2020 batch"
+      source: "Y Combinator company page"
+      date: "2020-01-01"
+      confidence: "explicit_statement"
+
+    - fact: "Global edge computing market size was estimated at USD 23.65 billion in 2024 and is expected to reach USD 327.79 billion by 2033, growing at a CAGR of 33.0%"
+      source: "Grand View Research"
+      date: "2024-12-31"
+      confidence: "explicit_statement"
+
+    - fact: "Global Platform as a Service market size was estimated at USD 89.81 billion in 2024 and is projected to reach USD 287.81 billion by 2030, growing at a CAGR of 21.8%"
+      source: "Grand View Research"
+      date: "2024-12-31"
+      confidence: "explicit_statement"
+
+    - fact: "North America dominated the global edge computing market with the largest revenue share of over 38% in 2024"
+      source: "Grand View Research"
+      date: "2024-12-31"
+      confidence: "explicit_statement"
+
+    - fact: "Fly.io has 14 reviews on TrustPilot with a 2.7-star rating"
+      source: "TrustPilot.com"
+      date: "2025-10-02"
+      confidence: "explicit_statement"
+
+    - fact: "Average rating of 4.3 out of 5 on Capterra with 501 reviews"
+      source: "Capterra"
+      date: "2024-12-31"
+      confidence: "explicit_statement"
+
+    - fact: "Fly.io has a Capterra listing with no reviews"
+      source: "Capterra.com"
+      date: "2025-10-02"
+      confidence: "explicit_statement"
+
+    - fact: "Fly.io announced GPU availability on February 12, 2024"
+      source: "Fly.io blog"
+      date: "2024-02-12"
+      confidence: "explicit_statement"
+
+    - fact: "Fly.io offers four GPU models: A10, L40S, NVIDIA A100 40G PCIe, and A100 80G SXM"
+      source: "Fly.io GPU documentation"
+      date: "2024-02-12"
+      confidence: "explicit_statement"
+
+    - fact: "Fly.io runs its own hardware rather than layering on top of commodity clouds like AWS"
+      source: "Fly.io blog"
+      date: "2023-06-28"
+      confidence: "explicit_statement"
+
+    - fact: "Fly Machines start fast enough to handle HTTP requests and run only when needed, eliminating cold starts"
+      source: "Fly.io homepage"
+      date: "2025-10-02"
+      confidence: "explicit_statement"
+
+    - fact: "Deploy in 35 regions, from Sydney to São Paulo, for sub-100ms response times"
+      source: "Fly.io homepage"
+      date: "2025-10-02"
+      confidence: "explicit_statement"
+
+    - fact: "Fly.io uses a usage-based pricing model with no base monthly fee"
+      source: "Fly.io pricing page"
+      date: "2025-10-02"
+      confidence: "explicit_statement"
+
+    - fact: "A shared 256 MB instance costs approximately $0.0027 per hour, or around $1.94 per month if it runs continuously"
+      source: "Orb pricing analysis"
+      date: "2025-10-02"
+      confidence: "explicit_statement"
+
+    - fact: "Fly.io is SOC2 Type 2 attested"
+      source: "Fly.io homepage"
+      date: "2025-10-02"
+      confidence: "explicit_statement"
+
+    - fact: "CEO acknowledged reliability issues in a community post titled Reliability: It's Not Great"
+      source: "Fly.io community forum"
+      date: "2024-01-01"
+      confidence: "explicit_statement"
+
+    - fact: "Multiple Hacker News threads discuss Fly.io outages and reliability concerns"
+      source: "Hacker News"
+      date: "2024-11-01"
+      confidence: "explicit_statement"
+
+    - fact: "Fly.io no longer offers a general free tier for new organizations"
+      source: "Orb pricing analysis"
+      date: "2025-10-02"
+      confidence: "explicit_statement"
+
+  missing_information:
+    - "Detailed G2 review scores and count"
+    - "Gartner Peer Insights reviews"
+    - "Gartner reviews and ratings"
+    - "Exact current revenue figures for 2025"
+    - "Exact current customer count (only apps metric available)"
+    - "Specific market share percentage within edge computing or PaaS markets"
+    - "Customer retention or churn rates"
+    - "Detailed competitive win/loss data"
+    - "Recent 2025 product launches beyond GPU availability"
+    - "Recent major product launches or pivots in 2024-2025"
+    - "Independent technical performance benchmarks"
+    - "Key technical differentiators compared to competitors"
+
+organizational_stability:
+  facts_found:
+    - fact: "Kurt Mackey is Co-Founder and CEO"
+      source: "Crunchbase"
+      date: "2025-10-02"
+      confidence: "explicit_statement"
+
+    - fact: "Kurt Mackey has been CEO since October 2016"
+      source: "Crunchbase"
+      date: "2025-10-02"
+      confidence: "explicit_statement"
+
+    - fact: "Kurt Mackey co-founded and served as CEO of Compose from September 2011 to July 2016, acquired by IBM"
+      source: "Crunchbase"
+      date: "2025-10-02"
+      confidence: "explicit_statement"
+
+    - fact: "Jerome Gravel-Niquet is Co-Founder and CTO"
+      source: "TheOrg.com"
+      date: "2025-10-02"
+      confidence: "explicit_statement"
+
+    - fact: "Jerome Gravel-Niquet has been CTO since October 2016"
+      source: "TheOrg.com"
+      date: "2025-10-02"
+      confidence: "explicit_statement"
+
+    - fact: "Ben Johnson is VP of Product"
+      source: "Fly.io about page"
+      date: "2025-10-02"
+      confidence: "explicit_statement"
+
+    - fact: "Luke Whiting is VP of Sales"
+      source: "Fly.io about page"
+      date: "2025-10-02"
+      confidence: "explicit_statement"
+
+    - fact: "Michael Dwan is co-founder, former CTO at Highrise HQ"
+      source: "Boring Business Nerd"
+      date: "2022-07-27"
+      confidence: "explicit_statement"
+
+    - fact: "Luke Flanagan is VP of Finance, former VP of Corporate Finance at Snyk"
+      source: "Boring Business Nerd"
+      date: "2022-07-27"
+      confidence: "explicit_statement"
+
+    - fact: "Arjunan Rajeswaran is VP of Enterprise, former Senior Director at Cloudflare"
+      source: "Boring Business Nerd"
+      date: "2022-07-27"
+      confidence: "explicit_statement"
+
+    - fact: "JP Phillips, key engineering team member who built orchestration system, left the company in December 2024"
+      source: "Fly.io Blog"
+      date: "2024-12-31"
+      confidence: "explicit_statement"
+
+    - fact: "No executive changes identified in the past 24 months"
+      source: "Multiple news searches and Crunchbase"
+      date: "2025-10-02"
+      confidence: "inferred"
+
+    - fact: "Employee count of 58 total employees"
+      source: "PitchBook"
+      date: "2025-10-02"
+      confidence: "explicit_statement"
+
+    - fact: "Employee count of 60 person team"
+      source: "Getlatka"
+      date: "2024-12-31"
+      confidence: "explicit_statement"
+
+    - fact: "Employee count of 72 employees"
+      source: "Y Combinator"
+      date: "2025-10-02"
+      confidence: "explicit_statement"
+
+    - fact: "Glassdoor rating of 4.5 out of 5 stars based on 2 total reviews"
+      source: "Glassdoor"
+      date: "2025-10-02"
+      confidence: "explicit_statement"
+
+    - fact: "Glassdoor Culture and Values rating of 5.0 out of 5"
+      source: "Glassdoor"
+      date: "2025-10-02"
+      confidence: "explicit_statement"
+
+    - fact: "Glassdoor Work/Life Balance rating of 5.0 out of 5"
+      source: "Glassdoor"
+      date: "2025-10-02"
+      confidence: "explicit_statement"
+
+    - fact: "Glassdoor Senior Management rating of 5.0 out of 5"
+      source: "Glassdoor"
+      date: "2025-10-02"
+      confidence: "explicit_statement"
+
+    - fact: "Glassdoor Compensation and Benefits rating of 5.0 out of 5"
+      source: "Glassdoor"
+      date: "2025-10-02"
+      confidence: "explicit_statement"
+
+    - fact: "Headquarters located in Chicago, Illinois, United States"
+      source: "LinkedIn"
+      date: "2025-10-02"
+      confidence: "explicit_statement"
+
+    - fact: "Fly.io is a remote-first company"
+      source: "Fly.io hiring documentation"
+      date: "2025-10-02"
+      confidence: "explicit_statement"
+
+    - fact: "Company has been remote since founding and maintains a remote-first culture"
+      source: "Fly.io hiring documentation"
+      date: "2025-10-02"
+      confidence: "explicit_statement"
+
+    - fact: "Team members located in Europe, Rwanda, South Africa, Mexico, Argentina, Canada, and USA"
+      source: "Fly.io hiring documentation"
+      date: "2025-10-02"
+      confidence: "explicit_statement"
+
+    - fact: "Same compensation everywhere in the world, no cost-of-living adjustments"
+      source: "Fly.io hiring documentation"
+      date: "2025-10-02"
+      confidence: "explicit_statement"
+
+    - fact: "Nick Washburn from Intel Capital joined as Board Member in April 2022"
+      source: "Crunchbase"
+      date: "2022-04-01"
+      confidence: "explicit_statement"
+
+  missing_information:
+    - "Exact tenure dates for VP of Product Ben Johnson"
+    - "Exact tenure dates for VP of Sales Luke Whiting"
+    - "Detailed backgrounds for Ben Johnson and Luke Whiting"
+    - "Current total headcount after September 2024 layoffs"
+    - "Glassdoor engineering-specific rating (only 2 total reviews available)"
+    - "Specific Glassdoor engineering rating"
+    - "Blind.com reviews or discussions"
+    - "Employee turnover rate or retention metrics"
+    - "Detailed organizational chart beyond co-founders and select VPs"
+    - "Thomas Ptacek current role (listed as co-founder but not on current team page)"
+    - "Michael Dwan current involvement (listed as co-founder but not on current team page)"
+    - "Specific hiring velocity metrics from LinkedIn"
+    - "Recent executive changes in past 24 months beyond JP Phillips departure"
+    - "Current hiring velocity metrics"
+
+technical_culture:
+  facts_found:
+    - fact: "Platform uses Rust for fly-proxy Anycast proxy, init system, and Firecracker hypervisor integration"
+      source: "Fly.io hiring documentation"
+      date: "2025-10-02"
+      confidence: "explicit_statement"
+
+    - fact: "Platform uses Go for flyd orchestrator, flyctl CLI, vold storage orchestration, and containerd ecosystem integration"
+      source: "Fly.io hiring documentation"
+      date: "2025-10-02"
+      confidence: "explicit_statement"
+
+    - fact: "Backend uses Rails for GraphQL API and Postgres for database"
+      source: "Fly.io hiring documentation"
+      date: "2025-10-02"
+      confidence: "explicit_statement"
+
+    - fact: "Frontend uses Elixir, Phoenix, and LiveView for customer-facing UI"
+      source: "Fly.io hiring documentation"
+      date: "2025-10-02"
+      confidence: "explicit_statement"
+
+    - fact: "Company sponsors the Phoenix project"
+      source: "Fly.io hiring documentation"
+      date: "2025-10-02"
+      confidence: "explicit_statement"
+
+    - fact: "Engineering blog located at fly.io/blog with multiple posts per week"
+      source: "Fly.io blog"
+      date: "2025-10-02"
+      confidence: "explicit_statement"
+
+    - fact: "Blog posts regularly reach Hacker News front page with 100+ comments"
+      source: "Hacker News"
+      date: "2024-12-31"
+      confidence: "explicit_statement"
+
+    - fact: "GitHub organization has 240 public repositories"
+      source: "GitHub"
+      date: "2025-10-02"
+      confidence: "explicit_statement"
+
+    - fact: "LiteFS is a FUSE-based file system for replicating SQLite databases with 4,500+ stars"
+      source: "GitHub"
+      date: "2025-07-18"
+      confidence: "explicit_statement"
+
+    - fact: "flyctl command line tool has 1,576 stars and is auto-released Monday-Thursday at 3 PM EST"
+      source: "GitHub"
+      date: "2025-10-02"
+      confidence: "explicit_statement"
+
+    - fact: "Corrosion Rust SWIM-based state replication service has 1,189 stars"
+      source: "GitHub"
+      date: "2025-10-02"
+      confidence: "explicit_statement"
+
+    - fact: "LiteFS is completely open source, developed in the open, and in no way locked into Fly.io"
+      source: "Fly.io blog"
+      date: "2024-12-31"
+      confidence: "explicit_statement"
+
+    - fact: "Xe Iaso appeared on Software Engineering Radio Episode 621 discussing Fly.io on June 19, 2024"
+      source: "Software Engineering Radio"
+      date: "2024-06-19"
+      confidence: "explicit_statement"
+
+    - fact: "Xe Iaso spoke at DevOps Days Austin 2024 on How would you design and scale Twitter from scratch"
+      source: "DevOps Days Austin"
+      date: "2024-08-01"
+      confidence: "explicit_statement"
+
+    - fact: "Xe Iaso spoke at DevOps Days Minneapolis 2024"
+      source: "DevOps Days Minneapolis"
+      date: "2024-08-01"
+      confidence: "explicit_statement"
+
+    - fact: "Kurt Mackey appeared on Changelog Founders Talk #80 discussing globally distributed apps and databases"
+      source: "Changelog"
+      date: "2024-12-31"
+      confidence: "explicit_statement"
+
+    - fact: "Kurt Mackey appeared on Thinking Elixir Podcast #56 discussing Fly-ing Elixir Close to Users"
+      source: "Thinking Elixir Podcast"
+      date: "2024-12-31"
+      confidence: "explicit_statement"
+
+    - fact: "Kurt Mackey appeared on Intel Capital InTechnology Podcast #208 discussing The Evolution of Fly.io's Developer-Centric Cloud"
+      source: "Intel Capital"
+      date: "2024-12-31"
+      confidence: "explicit_statement"
+
+    - fact: "Thomas Ptacek is developer and co-founder of Matasano Security, working in software security since 1995"
+      source: "Personal website"
+      date: "2025-10-02"
+      confidence: "explicit_statement"
+
+    - fact: "Thomas Ptacek is very active on Hacker News with username tptacek"
+      source: "Hacker News"
+      date: "2025-10-02"
+      confidence: "explicit_statement"
+
+    - fact: "GPU hardware available includes NVIDIA A100 80G SXM, NVIDIA A100 40G PCIe, NVIDIA L40S, and A10"
+      source: "Fly.io GPU documentation"
+      date: "2024-12-31"
+      confidence: "explicit_statement"
+
+    - fact: "L40S GPU pricing lowered to $1.25 per hour"
+      source: "Fly.io blog"
+      date: "2024-12-31"
+      confidence: "explicit_statement"
+
+    - fact: "GPUs became generally available to everyone in 2024"
+      source: "Fly.io blog"
+      date: "2024-02-12"
+      confidence: "explicit_statement"
+
+    - fact: "Thomas Ptacek wrote blog post stating All progress on LLMs could halt today, and LLMs would remain the 2nd most important thing to happen over the course of my career"
+      source: "Fly.io blog"
+      date: "2024-12-31"
+      confidence: "explicit_statement"
+
+    - fact: "Platform Engineer job posting mentions LLM execution environments as key use case for Fly Machines"
+      source: "Fly.io jobs page"
+      date: "2025-10-02"
+      confidence: "explicit_statement"
+
+    - fact: "Company uses work-sample based hiring with 2-3 at-home assignments followed by 60-90 min Slack discussion"
+      source: "Fly.io hiring documentation"
+      date: "2025-10-02"
+      confidence: "explicit_statement"
+
+    - fact: "Company prefers single-pizza teams of 3-4 people"
+      source: "Fly.io hiring documentation"
+      date: "2025-10-02"
+      confidence: "explicit_statement"
+
+    - fact: "Company describes itself as CLI-first company"
+      source: "Fly.io hiring documentation"
+      date: "2025-10-02"
+      confidence: "explicit_statement"
+
+    - fact: "Company does not have formal product roadmaps or schedules and ships stuff when it's ready"
+      source: "Fly.io hiring documentation"
+      date: "2025-10-02"
+      confidence: "explicit_statement"
+
+    - fact: "Founded in 2017 and went through Y Combinator W20 batch"
+      source: "Y Combinator"
+      date: "2020-01-01"
+      confidence: "explicit_statement"
+
+  missing_information:
+    - "Specific current employee count for engineering team"
+    - "Exact engineering team size breakdown by function"
+    - "Complete conference talk schedule or archive"
+    - "Detailed StackShare tech stack beyond high-level integrations"
+    - "Code review practices and PR review process"
+    - "Testing philosophy and CI/CD specifics"
+    - "On-call rotation details and incident response practices"
+    - "Engineering metrics such as deployment frequency"
+    - "Internal tooling details beyond open source projects"
+    - "Exact blog posting frequency in posts per month"
+    - "LiteFS external adoption metrics"
+    - "GPU adoption and usage statistics"
+
+summary:
+  total_facts_found: 147
+  information_completeness: "medium"
+  most_recent_data_point: "2025-10-02"
+  oldest_data_point: "2018-02-28"
+
