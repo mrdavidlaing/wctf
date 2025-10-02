@@ -1,0 +1,106 @@
+# WCTF MCP Server
+
+A Model Context Protocol (MCP) server for managing "Worth Climbing The Foothill" company research data. This server provides structured access to company facts and evaluation flags for engineers researching potential employers.
+
+## Overview
+
+The WCTF MCP Server helps you:
+- Track factual research about companies (financial health, market position, organizational stability, technical culture)
+- Maintain evaluation flags (green flags, red flags, missing data)
+- Query and analyze company data through Claude Desktop or other MCP clients
+
+## WSL/Windows Architecture
+
+This MCP server is designed to run on **Windows Subsystem for Linux (WSL)** and be called from **Claude Desktop on Windows**. This architecture provides:
+
+- **Server runs in WSL**: Access to native Linux tools, better Python environment management with `uv`
+- **Claude Desktop on Windows**: Native Windows application with full MCP support
+- **Cross-platform communication**: Claude Desktop invokes the WSL command to run the server
+- **Shared data access**: Data directory accessible from both Windows and WSL
+
+### How It Works
+
+1. Claude Desktop (Windows) starts the MCP server by running `wsl` command
+2. WSL executes `uv run wctf-server` in the project directory
+3. Server communicates with Claude Desktop via stdio (standard input/output)
+4. Data files are stored in WSL filesystem for best performance
+
+## Installation on WSL
+
+### Prerequisites
+
+- Windows 11 or Windows 10 with WSL2 enabled
+- WSL distribution installed (Ubuntu recommended)
+- `uv` package manager installed in WSL
+
+### Install uv (if not already installed)
+
+```bash
+# In WSL terminal
+curl -LsSf https://astral.sh/uv/install.sh | sh
+```
+
+### Install WCTF MCP Server
+
+```bash
+# Clone or navigate to the project directory
+cd /var/tmp/vibe-kanban/worktrees/62f5-wsl-windows-setu
+
+# Install dependencies (including the wctf-server script)
+uv sync --all-extras
+```
+
+### Verify Installation
+
+```bash
+# Test that the entry point is installed
+uv run wctf-server --help 2>&1 | head -5
+
+# Should start the MCP server (press Ctrl+C to exit)
+# If it waits for input, the server is running correctly
+```
+
+## Claude Desktop Configuration (Windows)
+
+### Configuration File Location
+
+Claude Desktop configuration is stored at:
+```
+C:\Users\<YourUsername>\AppData\Roaming\Claude\claude_desktop_config.json
+```
+
+### Configuration JSON
+
+Add the following to your `claude_desktop_config.json`:
+
+```json
+{
+  "mcpServers": {
+    "wctf": {
+      "command": "wsl",
+      "args": [
+        "uv",
+        "run",
+        "--directory",
+        "/var/tmp/vibe-kanban/worktrees/62f5-wsl-windows-setu",
+        "wctf-server"
+      ],
+      "env": {
+        "WCTF_DATA_DIR": "/var/tmp/vibe-kanban/worktrees/62f5-wsl-windows-setu/data"
+      }
+    }
+  }
+}
+```
+
+### Path Handling Notes
+
+**Important**: Use WSL paths in the configuration, not Windows paths.
+
+-  Correct: `/var/tmp/vibe-kanban/worktrees/62f5-wsl-windows-setu`
+- L Incorrect: `C:\Users\...\wctf` or `\\wsl$\Ubuntu\var\tmp\...`
+
+When Claude Desktop runs `wsl` command, it executes in the WSL environment where WSL paths are native.
+
+**Converting Paths**:
+- Windows to WSL: `C:\Users\me\project` 
