@@ -1,0 +1,58 @@
+company: "test-company-1"
+research_date: "2025-01-15"
+
+financial_health:
+  facts_found:
+    - fact: "Series A funding of $10M raised"
+      source: "TechCrunch"
+      date: "2024-06-01"
+      confidence: "explicit_statement"
+    - fact: "Revenue growing 40% YoY"
+      source: "Company blog"
+      date: "2024-12-31"
+      confidence: "implied"
+  missing_information:
+    - "Burn rate details"
+    - "Customer acquisition cost"
+
+market_position:
+  facts_found:
+    - fact: "Market leader in AI security tools"
+      source: "Industry report"
+      date: "2024-11-01"
+      confidence: "explicit_statement"
+  missing_information:
+    - "Market share percentage"
+
+organizational_stability:
+  facts_found:
+    - fact: "CEO: Jane Smith, 5 years tenure"
+      source: "LinkedIn"
+      date: "2024-01-01"
+      confidence: "explicit_statement"
+  missing_information: []
+
+technical_culture:
+  facts_found:
+    - fact: "Tech stack: Python, Rust, Kubernetes"
+      source: "Engineering blog"
+      date: "2024-10-15"
+      confidence: "explicit_statement"
+  missing_information:
+    - "Open source contribution metrics"
+
+summary:
+  total_facts_found: 5
+  information_completeness: "medium"
+  most_recent_data_point: "2024-12-31"
+  oldest_data_point: "2024-01-01"
+  strengths:
+    - "Strong funding"
+    - "Modern tech stack"
+  concerns:
+    - "Limited financial transparency"
+  verdict: "VIABLE - Good potential with some unknowns"
+  recommendation: |
+    RECOMMENDED FOR INVESTIGATION
+    - Deep dive on financial health during interviews
+    - Assess team culture fit carefully

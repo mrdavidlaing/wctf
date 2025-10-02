@@ -1,0 +1,34 @@
+company: "test-company-2"
+research_date: "2025-02-01"
+
+financial_health:
+  facts_found:
+    - fact: "Publicly traded, $500M annual revenue"
+      source: "SEC filings"
+      date: "2024-12-31"
+      confidence: "explicit_statement"
+  missing_information: []
+
+market_position:
+  facts_found: []
+  missing_information:
+    - "Competitive positioning"
+
+organizational_stability:
+  facts_found: []
+  missing_information: []
+
+technical_culture:
+  facts_found: []
+  missing_information: []
+
+summary:
+  total_facts_found: 1
+  information_completeness: "low"
+  most_recent_data_point: "2024-12-31"
+  oldest_data_point: "2024-12-31"
+  strengths: []
+  concerns:
+    - "Very limited research data"
+  verdict: "INSUFFICIENT DATA"
+  recommendation: "Needs more research"
