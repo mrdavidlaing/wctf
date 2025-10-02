@@ -16,6 +16,10 @@ from wctf_mcp.tools.company import (
     get_company_flags,
     list_companies,
 )
+from wctf_mcp.tools.research import (
+    get_research_prompt,
+    save_research_results,
+)
 
 # Create the MCP server instance
 app = Server("wctf-mcp")
@@ -71,6 +75,50 @@ async def list_tools() -> list[Tool]:
                     },
                 },
                 "required": ["company_name"],
+            },
+        ),
+        Tool(
+            name="get_research_prompt",
+            description=(
+                "Get the Layer 1 research prompt for a company. "
+                "Returns a structured research prompt that you (the calling agent) should execute "
+                "using your web search capabilities. After completing the research, use "
+                "save_research_results to save the YAML output. "
+                "Research covers: financial health, market position, organizational stability, "
+                "and technical culture."
+            ),
+            inputSchema={
+                "type": "object",
+                "properties": {
+                    "company_name": {
+                        "type": "string",
+                        "description": "Name of the company to research (e.g., 'Stripe', 'Vercel', 'Railway')",
+                    },
+                },
+                "required": ["company_name"],
+            },
+        ),
+        Tool(
+            name="save_research_results",
+            description=(
+                "Save company research results to company.facts.yaml file. "
+                "Takes YAML content (as a string) from completed research and saves it "
+                "to the appropriate company directory. Use this after completing research "
+                "from get_research_prompt."
+            ),
+            inputSchema={
+                "type": "object",
+                "properties": {
+                    "company_name": {
+                        "type": "string",
+                        "description": "Name of the company",
+                    },
+                    "yaml_content": {
+                        "type": "string",
+                        "description": "YAML content as a string (the research results)",
+                    },
+                },
+                "required": ["company_name", "yaml_content"],
             },
         ),
     ]
@@ -249,6 +297,85 @@ async def call_tool(name: str, arguments: Any) -> list[TextContent]:
             response_lines.append("")
 
         return [TextContent(type="text", text="\n".join(response_lines))]
+
+    elif name == "get_research_prompt":
+        company_name = arguments.get("company_name")
+
+        if not company_name:
+            return [TextContent(
+                type="text",
+                text="Error: company_name is required"
+            )]
+
+        # Get research prompt
+        result = get_research_prompt(company_name=company_name)
+
+        if not result.get("success"):
+            error_msg = result.get("error", "Unknown error generating prompt")
+            return [TextContent(
+                type="text",
+                text=f"Error: {error_msg}"
+            )]
+
+        # Format response with prompt and instructions
+        research_prompt = result["research_prompt"]
+        instructions = result["instructions"]
+
+        response = (
+            f"# Research Prompt for {company_name}\n\n"
+            f"{instructions}\n\n"
+            f"---\n\n"
+            f"{research_prompt}"
+        )
+
+        return [TextContent(type="text", text=response)]
+
+    elif name == "save_research_results":
+        company_name = arguments.get("company_name")
+        yaml_content = arguments.get("yaml_content")
+
+        if not company_name:
+            return [TextContent(
+                type="text",
+                text="Error: company_name is required"
+            )]
+
+        if not yaml_content:
+            return [TextContent(
+                type="text",
+                text="Error: yaml_content is required"
+            )]
+
+        # Save research results
+        result = save_research_results(
+            company_name=company_name,
+            yaml_content=yaml_content
+        )
+
+        if not result.get("success"):
+            error_msg = result.get("error", "Unknown error saving research")
+            return [TextContent(
+                type="text",
+                text=f"Error saving research for {company_name}: {error_msg}"
+            )]
+
+        # Format success response
+        message = result["message"]
+        facts_count = result["facts_generated"]
+        completeness = result["information_completeness"]
+        facts_path = result["facts_file_path"]
+
+        response = (
+            f"✓ {message}\n\n"
+            f"Details:\n"
+            f"  - Company: {company_name}\n"
+            f"  - Facts Saved: {facts_count}\n"
+            f"  - Completeness: {completeness}\n"
+            f"  - File Location: {facts_path}\n\n"
+            f"Use get_company_facts('{company_name}') to view the saved research."
+        )
+
+        return [TextContent(type="text", text=response)]
 
     else:
         return [TextContent(

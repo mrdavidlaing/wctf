@@ -1,0 +1,103 @@
+# Layer 1 Research Prompt: Company Facts Collection
+
+You are conducting initial research on **{company_name}** to gather factual information for a senior engineer evaluating potential employers. Your goal is to collect structured, verifiable facts organized into specific categories.
+
+## Research Scope
+
+Research the following categories and collect facts with sources, dates, and confidence levels:
+
+### 1. Financial Health
+Search for:
+- Funding rounds (amounts, dates, lead investors, valuation)
+- Revenue figures (annual, growth rates)
+- Profitability status
+- Burn rate and runway
+- Employee count trends
+- Layoffs or restructuring events
+- Customer metrics (count, notable customers)
+
+### 2. Market Position
+Search for:
+- Company description and value proposition
+- Product/service offerings
+- Target market and market size
+- Competitors and competitive advantages
+- Customer reviews and ratings (G2, Capterra, TrustPilot, etc.)
+- Geographic presence and regions
+- Certifications and compliance (SOC2, ISO, etc.)
+- Pricing model
+
+### 3. Organizational Stability
+Search for:
+- Leadership team (CEO, CTO, VPs with tenure)
+- Board members
+- Recent executive changes
+- Company location and work model (remote/hybrid/office)
+- Glassdoor ratings (overall, culture, work-life balance, compensation)
+- Employee reviews and sentiment
+- Team structure and size
+
+### 4. Technical Culture
+Search for:
+- Technology stack and languages used
+- Open source projects and contributions
+- Engineering blog and publication frequency
+- Conference talks and technical presentations
+- Notable technical employees and their backgrounds
+- Hiring practices and interview process
+- Development practices (mentioned in job postings or blog posts)
+- AI/ML investments or initiatives
+
+## Output Format
+
+For each fact found, structure it as:
+
+```yaml
+- fact: "Descriptive statement of the fact"
+  source: "Source name (website, publication, or platform)"
+  date: "YYYY-MM-DD (date of publication or when fact was current)"
+  confidence: "explicit_statement" or "implied"
+```
+
+Use `explicit_statement` when the fact is directly stated. Use `implied` when the fact is reasonably inferred from available information.
+
+For each category, also list `missing_information` - important facts you tried to find but couldn't:
+
+```yaml
+missing_information:
+  - "Description of missing data point"
+```
+
+## Research Strategy
+
+1. **Start broad**: Search "{company_name} funding revenue" to get financial overview
+2. **Official sources first**: Check company website, blog, LinkedIn, Crunchbase
+3. **News and analysis**: Search "{company_name} news 2024", "{company_name} layoffs", "{company_name} funding"
+4. **Reviews and ratings**: Check Glassdoor, G2, Capterra, TrustPilot
+5. **Technical presence**: Search "{company_name} github", "{company_name} engineering blog", "{company_name} tech stack"
+6. **Community discussion**: Look for Hacker News threads, Reddit discussions
+
+## Important Guidelines
+
+- **Be thorough**: Aim for 30-50 facts minimum per company
+- **Cite sources**: Every fact must have a source and date
+- **Recent data**: Prioritize information from 2023-2025
+- **No speculation**: Only include verifiable facts, mark inferred facts appropriately
+- **Track missing data**: Be explicit about what you couldn't find
+- **Current date context**: Today is {research_date}
+
+## Summary Requirements
+
+After collecting facts, provide:
+
+```yaml
+summary:
+  total_facts_found: <number>
+  information_completeness: "high" | "medium" | "low"
+  most_recent_data_point: "YYYY-MM-DD"
+  oldest_data_point: "YYYY-MM-DD"
+```
+
+## Time Limit
+
+Complete research within 5 minutes. If interrupted, save partial results with appropriate notes in missing_information sections.
