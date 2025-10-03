@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "wctf": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "mcp-remote",
+        "http://localhost:8000/mcp"
+      ]
+    }
+  }
+}
