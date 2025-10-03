@@ -1,0 +1,422 @@
+company: CircleCI
+research_date: 2025-10-03
+financial_health:
+  facts_found:
+  - fact: 'Raised $316M total across 7 funding rounds (Seed: $1.5M 2013, Series A:
+      $6M 2014, Series B: $18M 2016, Series C: $31M 2018, Series D: $56M 2019, Series
+      E: $100M Apr 2020, Series F: $100M May 2021)'
+    source: Tracxn, Clay, Crunchbase, Wikipedia
+    date: '2021-05-11'
+    confidence: explicit_statement
+  - fact: Valuation of $1.7B as of Series F (May 2021)
+    source: Business Wire, Tracxn, Wikipedia
+    date: '2021-05-11'
+    confidence: explicit_statement
+  - fact: Series F $100M round led by Greenspring Associates with participation from
+      Eleven Prime, IVP, Sapphire Ventures, Top Tier Capital Partners, Baseline Ventures,
+      Threshold Ventures, Scale Venture Partners, Owl Rock Capital, and Next Equity
+      Partners
+    source: Business Wire, CircleCI Blog
+    date: '2021-05-11'
+    confidence: explicit_statement
+  - fact: ARR estimated at $55.7M in 2024 per Getlatka
+    source: Getlatka
+    date: '2024-12-31'
+    confidence: implied
+  - fact: Processes over 2.5 million jobs per day as of 2021
+    source: Clay, Business Wire
+    date: '2021-05-11'
+    confidence: explicit_statement
+  - fact: 17% layoff (approximately 100 employees) in December 2022
+    source: Blind, Pragmatic Engineer, LinkedIn, Canadian law firm
+    date: '2022-12-07'
+    confidence: explicit_statement
+  - fact: Three rounds of layoffs in 18 months period (based on Glassdoor reviews
+      referencing 2022-2024 period)
+    source: Glassdoor reviews, Indeed reviews
+    date: '2024-12-31'
+    confidence: implied
+  - fact: Current employee count estimated at 500 employees (down from peak)
+    source: TrueUp.io
+    date: '2025-10-03'
+    confidence: implied
+  - fact: Acquired Distiller (2014), Vamp (2021), and Ponicode (2022)
+    source: Wikipedia, Business Wire
+    date: '2022-12-31'
+    confidence: explicit_statement
+  - fact: Notable customers include Spotify, Coinbase, Samsung, Ford, Facebook (2019),
+      Kickstarter, GoPro, Sony, Stitch Fix, BuzzFeed
+    source: Wikipedia, Business Wire
+    date: '2021-05-11'
+    confidence: explicit_statement
+  missing_information:
+  - Current profitability status
+  - Burn rate and runway
+  - 2023-2025 revenue growth trajectory
+  - Detailed customer count and retention metrics
+  - Exact employee count after 2024 layoffs
+  - IPO plans or M&A discussions
+market_position:
+  facts_found:
+  - fact: CircleCI is a continuous integration and continuous delivery (CI/CD) platform
+      founded in September 2011
+    source: Wikipedia, Business Wire
+    date: '2011-09-01'
+    confidence: explicit_statement
+  - fact: Product first released for beta testing October 11, 2011, first paying customers
+      appeared 6 months after founding
+    source: Wikipedia
+    date: '2011-10-11'
+    confidence: explicit_statement
+  - fact: Claims to be 'world's largest shared continuous integration and continuous
+      delivery (CI/CD) platform'
+    source: G2, CircleCI website
+    date: '2024-12-31'
+    confidence: explicit_statement
+  - fact: Used by over 1 million engineers/developers globally
+    source: TechCrunch, Heimdal Security
+    date: '2023-01-05'
+    confidence: explicit_statement
+  - fact: Primary competitors include GitHub Actions, GitLab CI/CD, Jenkins, Travis
+      CI, TeamCity, Harness, CloudBees, Buildkite, Bitrise
+    source: Tracxn, TechTarget, Medium, Northflank
+    date: '2025-10-03'
+    confidence: explicit_statement
+  - fact: Supports GitHub and Bitbucket repositories (not GitLab as of 2024)
+    source: Medium, TechTarget, CircleCI documentation
+    date: '2024-12-31'
+    confidence: explicit_statement
+  - fact: SOC 2 Type II compliant as of April 2021
+    source: Wikipedia
+    date: '2021-04-01'
+    confidence: explicit_statement
+  - fact: Supports Go, Java, Ruby, Python, Scala, Node.js, PHP, Haskell, and any language
+      running on Linux or macOS
+    source: Wikipedia
+    date: '2024-12-31'
+    confidence: explicit_statement
+  - fact: 'G2 ratings: Various automation and ease of setup scores around 8.4-8.9/10'
+    source: G2
+    date: '2024-12-31'
+    confidence: explicit_statement
+  - fact: 'Capterra rating: 4.6/5 based on 92 user reviews'
+    source: Capterra
+    date: '2024-12-31'
+    confidence: explicit_statement
+  - fact: 'PeerSpot rating: 6.6/10 average'
+    source: PeerSpot
+    date: '2025-04-01'
+    confidence: explicit_statement
+  - fact: 'Ranked #14 in Build Automation solutions on PeerSpot, with 3.2% mindshare
+      (down from 3.9% previous year)'
+    source: PeerSpot
+    date: '2025-04-01'
+    confidence: explicit_statement
+  - fact: Offers cloud-hosted, self-hosted, and enterprise deployment options
+    source: Wikipedia, CircleCI website
+    date: '2024-12-31'
+    confidence: explicit_statement
+  - fact: 'Pricing tiers: Free (30,000 credits/month), Performance ($30/month), Scale
+      (custom pricing)'
+    source: Medium, G2
+    date: '2024-12-31'
+    confidence: explicit_statement
+  - fact: Free tier provides approximately 3,000 build minutes on Docker/Linux medium
+      compute instances
+    source: TechTarget, Medium
+    date: '2024-12-31'
+    confidence: explicit_statement
+  missing_information:
+  - Exact market share percentage in CI/CD market
+  - Total addressable market size
+  - Year-over-year customer growth rates
+  - Average contract value
+  - Customer churn rate
+  - Win/loss rates vs competitors
+  - Net Promoter Score
+  - Gartner Magic Quadrant position
+organizational_stability:
+  facts_found:
+  - fact: 'CEO: Jim Rose (joined through Distiller acquisition in 2014, COO initially,
+      became CEO September 1, 2015)'
+    source: Clay, Wikipedia, Crunchbase
+    date: '2015-09-01'
+    confidence: explicit_statement
+  - fact: 'CTO: Rob Zuber (joined through Distiller acquisition in 2014)'
+    source: Wikipedia, CircleCI blog, Infosecurity Magazine
+    date: '2014-12-31'
+    confidence: explicit_statement
+  - fact: Board member Stacey Epstein (CMO of Freshworks) joined with Series F
+    source: Business Wire
+    date: '2021-05-11'
+    confidence: explicit_statement
+  - fact: Board member Cack Wilhelm from IVP joined with Series E
+    source: CircleCI blog
+    date: '2020-04-07'
+    confidence: explicit_statement
+  - fact: Founded by Allen Rohner and Paul Biggar in 2011
+    source: Clay, Wikipedia
+    date: '2011-09-01'
+    confidence: explicit_statement
+  - fact: Paul Biggar (co-founder) removed from board in December 2023, allegedly
+      for blog post about Israel-Gaza
+    source: Wikipedia
+    date: '2023-12-31'
+    confidence: explicit_statement
+  - fact: 'Headquarters: San Francisco, California'
+    source: Wikipedia, Business Wire, Clay
+    date: '2024-12-31'
+    confidence: explicit_statement
+  - fact: Fully remote/distributed global workforce
+    source: CircleCI blog, Glassdoor, Indeed
+    date: '2024-12-31'
+    confidence: explicit_statement
+  - fact: 'Glassdoor rating: 3.7/5 overall based on 163-167 reviews'
+    source: Glassdoor
+    date: '2025-10-03'
+    confidence: explicit_statement
+  - fact: 'Glassdoor: 65% would recommend to a friend'
+    source: Glassdoor
+    date: '2025-10-03'
+    confidence: explicit_statement
+  - fact: 'Glassdoor: 4.5/5 for work-life balance, 3.8/5 for culture and values, 3.4/5
+      for career opportunities, 3.7/5 for compensation and benefits'
+    source: Glassdoor
+    date: '2025-10-03'
+    confidence: explicit_statement
+  - fact: 'Indeed reviews: Mixed sentiment, with repeated mentions of layoffs in 2022-2023
+      damaging culture'
+    source: Indeed
+    date: '2024-12-31'
+    confidence: explicit_statement
+  - fact: Employee reviews frequently mention 'great people/team' as top pro
+    source: Glassdoor, Indeed, Capterra
+    date: '2024-12-31'
+    confidence: explicit_statement
+  - fact: 'Major complaints: Multiple layoffs, weak leadership direction, reorgs every
+      6 months, disconnected executives, compensation below market'
+    source: Glassdoor reviews
+    date: '2024-12-31'
+    confidence: explicit_statement
+  - fact: Quarterly wellness days implemented as employee benefit
+    source: LinkedIn post by employee
+    date: '2022-07-07'
+    confidence: explicit_statement
+  missing_information:
+  - VP of Engineering details
+  - CFO information
+  - Complete executive team roster
+  - Board composition
+  - Executive turnover rate
+  - Employee retention metrics
+  - Detailed org chart
+  - Engineering-specific Glassdoor ratings
+technical_culture:
+  facts_found:
+  - fact: Core platform primarily written in Clojure (functional programming language
+      on JVM)
+    source: CircleCI blog, Wikipedia, StackShare
+    date: '2024-12-31'
+    confidence: explicit_statement
+  - fact: Originally included Rails in early development, but switched to entirely
+      Clojure by public release
+    source: CircleCI blog, Wikipedia
+    date: '2011-12-31'
+    confidence: explicit_statement
+  - fact: Build agent (2.0 platform) written in Go to allow multi-platform static
+      binary injection
+    source: CircleCI blog, StackShare
+    date: '2024-12-31'
+    confidence: explicit_statement
+  - fact: CLI tools also written in Go for fast startup and static compilation
+    source: CircleCI blog
+    date: '2024-12-31'
+    confidence: explicit_statement
+  - fact: Frontend originally in CoffeeScript, moved to ClojureScript using Om (React
+      wrapper)
+    source: StackShare
+    date: '2019-08-22'
+    confidence: explicit_statement
+  - fact: Infrastructure uses Docker containers orchestrated in Kubernetes for service
+      deployment
+    source: CircleCI blog
+    date: '2019-08-22'
+    confidence: explicit_statement
+  - fact: Primary datastore is MongoDB with replica sets, migrating microservices
+      to PostgreSQL
+    source: CircleCI blog
+    date: '2019-08-22'
+    confidence: explicit_statement
+  - fact: Uses Redis for caching and API rate limiting
+    source: CircleCI blog
+    date: '2019-08-22'
+    confidence: explicit_statement
+  - fact: OAuth authentication via GitHub or Bitbucket
+    source: CircleCI blog
+    date: '2019-08-22'
+    confidence: explicit_statement
+  - fact: 'Tools/platforms: JIRA, GitHub, Slack, Zoom, Pingboard, Hubot, PagerDuty,
+      Looker, Amplitude, Datadog, Rollbar'
+    source: CircleCI blog
+    date: '2019-08-22'
+    confidence: explicit_statement
+  - fact: Active engineering blog with technical content (Clojure microservices tutorials,
+      Go code review agents, etc.)
+    source: CircleCI blog
+    date: '2025-06-13'
+    confidence: explicit_statement
+  - fact: Supports Docker layer caching feature
+    source: Medium, G2 reviews
+    date: '2024-12-31'
+    confidence: explicit_statement
+  - fact: Released 5th annual State of Software Delivery report analyzing 15M data
+      points from 22,000 teams
+    source: Business Wire
+    date: '2021-05-11'
+    confidence: explicit_statement
+  - fact: AWS GovCloud support launched February 2020
+    source: Wikipedia
+    date: '2020-02-01'
+    confidence: explicit_statement
+  - fact: Self-hosted runners with Arm support introduced November 2020
+    source: Wikipedia
+    date: '2020-11-01'
+    confidence: explicit_statement
+  - fact: Insights dashboard for pipeline monitoring released October 2020
+    source: Wikipedia
+    date: '2020-10-01'
+    confidence: explicit_statement
+  - fact: 'GitHub presence: Active repositories including open source projects like
+      CircleCI Orbs'
+    source: CircleCI documentation
+    date: '2024-12-31'
+    confidence: implied
+  missing_information:
+  - Open source contribution metrics
+  - Conference presentations/speaking schedule
+  - Engineering blog post frequency
+  - Patent portfolio
+  - Engineering team size and breakdown
+  - Deployment frequency
+  - CI/CD practices for internal development
+  - AI/ML engineering initiatives details
+security_incidents:
+  facts_found:
+  - fact: 'Major security breach December 16-22, 2022 (disclosed January 4, 2023):
+      Employee laptop infected with malware, session cookie stolen, customer secrets
+      exfiltrated'
+    source: CircleCI blog, TechCrunch, Infosecurity Magazine, Heimdal Security
+    date: '2023-01-04'
+    confidence: explicit_statement
+  - fact: 'Breach timeline: Malware infection Dec 16, unauthorized access Dec 19,
+      data exfiltration Dec 22, customer reported suspicious activity Dec 29, public
+      disclosure Jan 4'
+    source: CircleCI incident report, AppOmni, NHIMG
+    date: '2023-01-13'
+    confidence: explicit_statement
+  - fact: Compromised data included environment variables, API tokens, SSH keys, OAuth
+      tokens for third-party systems (GitHub, AWS, etc.)
+    source: CircleCI blog, Cycode, NHIMG
+    date: '2023-01-04'
+    confidence: explicit_statement
+  - fact: CircleCI's antivirus software did not detect the malware
+    source: Infosecurity Magazine, AppOmni
+    date: '2023-01-13'
+    confidence: explicit_statement
+  - fact: Attacker used stolen 2FA-backed SSO session cookie to impersonate engineer
+      and access production systems
+    source: CircleCI CTO blog, Infosecurity Magazine
+    date: '2023-01-13'
+    confidence: explicit_statement
+  - fact: CircleCI rotated GitHub OAuth tokens on behalf of customers (completed by
+      Jan 7, 2023)
+    source: CircleCI security alert
+    date: '2023-01-07'
+    confidence: explicit_statement
+  - fact: Atlassian expired all Bitbucket OAuth tokens as of Jan 6, 2023
+    source: CircleCI security alert
+    date: '2023-01-06'
+    confidence: explicit_statement
+  - fact: Fewer than 5 customers reported unauthorized access to third-party systems
+      as result of breach
+    source: CircleCI incident report
+    date: '2023-01-13'
+    confidence: explicit_statement
+  - fact: 'Post-breach improvements: Restricted production access, added step-up authentication,
+      enhanced MDM and antivirus detection'
+    source: CircleCI CTO blog, Infosecurity Magazine
+    date: '2023-01-13'
+    confidence: explicit_statement
+  - fact: 2013 data breach due to provider MongoHQ compromise, quickly responded with
+      security key replacement
+    source: Wikipedia
+    date: '2013-12-31'
+    confidence: explicit_statement
+  - fact: August 2019 data breach in third-party analytics vendor account affecting
+      usernames, email addresses, GitHub/Bitbucket associations, IP addresses
+    source: Wikipedia, TechCrunch
+    date: '2019-08-01'
+    confidence: explicit_statement
+  - fact: 'November 2022: Increasing phishing attempts impersonating CircleCI targeting
+      customers'
+    source: TechCrunch
+    date: '2022-11-01'
+    confidence: explicit_statement
+  missing_information:
+  - Total number of affected customers in 2023 breach
+  - Detailed forensics findings from third-party investigators
+  - Compliance certifications beyond SOC 2
+summary:
+  total_facts_found: 82
+  information_completeness: high
+  most_recent_data_point: '2025-10-03'
+  oldest_data_point: '2011-09-01'
+  strengths:
+  - Well-established CI/CD platform with $1.7B valuation and $316M raised
+  - Strong customer base including major tech companies (Spotify, Coinbase, Samsung,
+    Ford)
+  - Modern tech stack with Clojure core and Go for performance-critical components
+  - Fully remote-first company culture since founding
+  - Active engineering blog and technical community engagement
+  - Good work-life balance ratings (4.5/5 on Glassdoor)
+  - Transparent security incident handling and communication
+  concerns:
+  - Multiple rounds of layoffs (17% in Dec 2022, at least 3 rounds in 18 months) indicating
+    financial stress
+  - Revenue ($55.7M ARR) appears low relative to $1.7B valuation and funding raised
+  - Major security breach in late 2022/early 2023 with customer secrets compromised
+  - Glassdoor rating of 3.7/5 with only 65% recommending to friend
+  - Frequent negative mentions of weak leadership, disconnected executives, and constant
+    reorgs
+  - Compensation reportedly below market according to reviews
+  - Intense competition from free/bundled alternatives (GitHub Actions, GitLab CI)
+  - Market share declining (3.2% down from 3.9% on PeerSpot)
+  - Employees report manager churn (5-6 managers in 2 years per reviews)
+  - Product vision described as 'all over the place' in reviews
+  verdict: CONCERNING STABILITY - Strong technical foundation and product but significant
+    financial and organizational red flags
+  recommendation: 'PROCEED WITH EXTREME CAUTION
+
+    - Financial health unclear despite large funding rounds
+
+    - Multiple layoffs suggest burn rate issues or declining business
+
+    - Security breach was serious but handled transparently
+
+    - Engineering culture appears solid (Clojure/Go stack interesting)
+
+    - Remote-first is genuine (15+ years)
+
+    - However: Leadership issues, constant reorgs, below-market comp are serious concerns
+
+    - Competitive position weakening vs GitHub Actions and GitLab CI
+
+    - Only consider if: You value Clojure experience, remote work, and CI/CD domain
+    expertise
+
+    - Expect: Potential for future layoffs, possible acquisition target, compensation
+    negotiations needed
+
+    - Risk level: MODERATE-HIGH for job security, LOW-MODERATE for technical learning
+
+    '
