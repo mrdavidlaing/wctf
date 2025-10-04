@@ -100,7 +100,7 @@ Companies being evaluated:
 
 ### 2. Research Tools
 
-**Note**: Research follows a two-phase pattern where the MCP server provides prompts and Claude executes the research using its built-in web search capabilities.
+**Note**: Research follows a two-phase pattern where the MCP server provides prompts and Claude executes the research using **Research mode** (deep research with citations).
 
 #### `get_research_prompt`
 **Purpose**: Generate the Layer 1 macro environment research prompt for a new company
@@ -111,7 +111,7 @@ Companies being evaluated:
 **Process**:
 1. Load the Layer 1 research template
 2. Generate structured research prompt with company name
-3. Return prompt instructions for Claude to execute
+3. Return prompt instructions for Claude to execute using Research mode
 
 **Output**: Research prompt with instructions covering:
 - Financial health (profitability, runway, funding)
@@ -121,10 +121,13 @@ Companies being evaluated:
 
 **Usage Flow**:
 1. Call `get_research_prompt` to get instructions
-2. Claude executes web searches using the prompt
-3. Claude calls `save_research_results` with YAML output
+2. Claude executes **comprehensive research using Research mode** (not basic web search)
+3. Claude formats findings as YAML following the template
+4. Claude calls `save_research_results` with YAML output
 
 **Template**: Uses "WCTF Layer 1 - LLM Research Prompt Templates.md"
+
+**Important**: The tool explicitly requests Claude Desktop's Research mode for thorough, multi-source investigation with citations.
 
 #### `save_research_results`
 **Purpose**: Save completed research results to company.facts.yaml
@@ -425,27 +428,38 @@ dependencies = [
 
 ### Configuration for Claude Desktop
 
-**Transport**: The server uses `streamable-http` transport for remote MCP connections, rather than stdio-based local connections.
+**Transport**: The server supports two modes via `WCTF_TRANSPORT` environment variable:
 
-Users will configure Claude Desktop to connect to the running server. Start the server with:
-```bash
-# Install the package
-pip install -e .
+#### stdio (Default - Recommended)
 
-# Run the server (starts on default port with streamable-http transport)
-wctf-server
+Best for development - provides automatic "hot reload" where code changes are picked up on the next tool call.
+
+**Claude Desktop config** (`~/Library/Application Support/Claude/claude_desktop_config.json`):
+```json
+{
+  "mcpServers": {
+    "wctf": {
+      "command": "uv",
+      "args": ["run", "wctf-server"],
+      "env": {
+        "WCTF_DATA_DIR": "/path/to/wctf/data"
+      }
+    }
+  }
+}
 ```
 
-The server can also be configured via environment variables:
-```bash
-# Optional: Set custom data directory
-export WCTF_DATA_DIR="/path/to/wctf/data"
+#### streamable-http (Optional)
 
-# Start server
-wctf-server
+For HTTP-based connections. Requires server restart for code changes.
+
+```bash
+WCTF_TRANSPORT=streamable-http uv run wctf-server
 ```
 
-**Note**: Configuration details for connecting Claude Desktop to an HTTP-based MCP server may vary. Consult the MCP documentation for current streamable-http setup instructions.
+**How it works:**
+- stdio: Each tool call spawns a new process → code always fresh → built-in "hot reload"
+- streamable-http: Persistent server → faster but requires restart for changes
 
 ## Error Handling
 
