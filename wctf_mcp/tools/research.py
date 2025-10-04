@@ -15,7 +15,7 @@ from wctf_mcp.utils.paths import (
     ensure_company_dir,
     get_facts_path,
 )
-from wctf_mcp.utils.yaml_handler import write_yaml
+from wctf_mcp.utils.yaml_handler import read_yaml, write_yaml, YAMLHandlerError
 
 
 def _load_research_prompt() -> str:
@@ -77,9 +77,10 @@ def get_research_prompt(company_name: str) -> Dict[str, str]:
         )
 
         instructions = (
-            f"Please execute this research prompt using your web search capabilities. "
-            f"When complete, provide the YAML output and I will save it to "
-            f"data/{company_name}/company.facts.yaml"
+            f"STOP: Before executing this research, ask the user to enable Research mode "
+            f"in Claude Desktop (the Research toggle/button in the UI). "
+            f"Wait for them to confirm 'ready', then proceed with the research prompt below. "
+            f"After completing research, save results with save_research_results_tool."
         )
 
         return {
@@ -186,7 +187,41 @@ def save_research_results(
             company_dir = ensure_company_dir(company_name, base_path=base_path)
             facts_path = get_facts_path(company_name, base_path=base_path)
 
-            # Write the facts file
+            # Check if facts file exists and merge if it does
+            if facts_path.exists():
+                try:
+                    existing_data = read_yaml(facts_path)
+
+                    # Merge facts_found arrays for each category
+                    for category in ['financial_health', 'market_position', 'organizational_stability', 'technical_culture']:
+                        if category in existing_data and category in facts_data:
+                            # Merge facts_found arrays
+                            if 'facts_found' in existing_data[category] and 'facts_found' in facts_data[category]:
+                                facts_data[category]['facts_found'] = (
+                                    existing_data[category]['facts_found'] +
+                                    facts_data[category]['facts_found']
+                                )
+
+                            # Merge missing_information arrays
+                            if 'missing_information' in existing_data[category] and 'missing_information' in facts_data[category]:
+                                facts_data[category]['missing_information'] = list(set(
+                                    existing_data[category]['missing_information'] +
+                                    facts_data[category]['missing_information']
+                                ))
+
+                    # Update summary with new totals
+                    if 'summary' in facts_data:
+                        total_facts = sum(
+                            len(facts_data.get(cat, {}).get('facts_found', []))
+                            for cat in ['financial_health', 'market_position', 'organizational_stability', 'technical_culture']
+                        )
+                        facts_data['summary']['total_facts_found'] = total_facts
+
+                except YAMLHandlerError:
+                    # If existing file is malformed, overwrite it
+                    pass
+
+            # Write the merged facts file
             write_yaml(facts_path, facts_data)
 
         except Exception as e:

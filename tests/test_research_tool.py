@@ -117,8 +117,8 @@ class TestGetResearchPrompt:
 
         assert result["success"] is True
         assert "instructions" in result
-        assert "web search" in result["instructions"].lower()
-        assert "YAML" in result["instructions"]
+        assert "research" in result["instructions"].lower()
+        assert "save_research_results_tool" in result["instructions"]
 
     def test_empty_company_name(self):
         """Test handling of empty company name."""
@@ -198,18 +198,46 @@ class TestSaveResearchResults:
         assert facts_data["company"] == "TestCorp"
         assert facts_data["summary"]["total_facts_found"] == 5
 
-    def test_overwrites_existing_file(self, temp_data_dir, sample_yaml_content):
-        """Test that saving overwrites existing facts file."""
-        # Create initial file
-        company_dir = get_company_dir("UpdateCorp", base_path=temp_data_dir)
-        company_dir.mkdir(parents=True)
-        facts_path = get_facts_path("UpdateCorp", base_path=temp_data_dir)
+    def test_merges_with_existing_file(self, temp_data_dir, sample_yaml_content):
+        """Test that saving merges with existing facts file."""
+        # Create initial file with some facts
+        initial_yaml = """company: "UpdateCorp"
+research_date: "2025-10-01"
 
-        old_data = {"company": "UpdateCorp", "old": "data"}
-        with open(facts_path, "w") as f:
-            yaml.dump(old_data, f)
+financial_health:
+  facts_found:
+    - fact: "Previous funding fact"
+      source: "Previous source"
+      date: "2024-01-01"
+      confidence: "explicit_statement"
+  missing_information:
+    - "Previous missing info"
 
-        # Save new research
+market_position:
+  facts_found: []
+  missing_information: []
+
+organizational_stability:
+  facts_found: []
+  missing_information: []
+
+technical_culture:
+  facts_found: []
+  missing_information: []
+
+summary:
+  total_facts_found: 1
+  information_completeness: "low"
+  most_recent_data_point: "2024-01-01"
+  oldest_data_point: "2024-01-01"
+"""
+        save_research_results(
+            company_name="UpdateCorp",
+            yaml_content=initial_yaml,
+            base_path=temp_data_dir
+        )
+
+        # Save new research (should merge)
         result = save_research_results(
             company_name="UpdateCorp",
             yaml_content=sample_yaml_content,
@@ -218,10 +246,48 @@ class TestSaveResearchResults:
 
         assert result["success"] is True
 
-        # Verify new data replaced old
+        # Verify data was merged, not replaced
+        facts_path = get_facts_path("UpdateCorp", base_path=temp_data_dir)
         facts_data = read_yaml(facts_path)
-        assert "old" not in facts_data
+
+        # Should have both old and new facts
+        financial_facts = facts_data["financial_health"]["facts_found"]
+        assert len(financial_facts) == 3  # 1 old + 2 new
+
+        # Check that old fact is still there
+        old_facts = [f for f in financial_facts if f["fact"] == "Previous funding fact"]
+        assert len(old_facts) == 1
+
+        # Check that new facts are there
+        new_facts = [f for f in financial_facts if f["fact"] == "Series A funding of $10 million raised"]
+        assert len(new_facts) == 1
+
+        # Total should be updated
+        assert facts_data["summary"]["total_facts_found"] == 6  # 1 old + 5 new
+
+    def test_overwrites_malformed_existing_file(self, temp_data_dir, sample_yaml_content):
+        """Test that saving overwrites a malformed existing facts file."""
+        # Create malformed file
+        company_dir = get_company_dir("MalformedCorp", base_path=temp_data_dir)
+        company_dir.mkdir(parents=True)
+        facts_path = get_facts_path("MalformedCorp", base_path=temp_data_dir)
+
+        with open(facts_path, "w") as f:
+            f.write("This is not valid YAML: {malformed")
+
+        # Save new research (should overwrite the malformed file)
+        result = save_research_results(
+            company_name="MalformedCorp",
+            yaml_content=sample_yaml_content,
+            base_path=temp_data_dir
+        )
+
+        assert result["success"] is True
+
+        # Verify new data replaced malformed data
+        facts_data = read_yaml(facts_path)
         assert "financial_health" in facts_data
+        assert facts_data["summary"]["total_facts_found"] == 5
 
     def test_invalid_yaml_content(self, temp_data_dir):
         """Test handling of invalid YAML content."""
