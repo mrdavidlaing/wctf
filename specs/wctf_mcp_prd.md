@@ -100,23 +100,45 @@ Companies being evaluated:
 
 ### 2. Research Tools
 
-#### `start_company_research`
-**Purpose**: Initiate Layer 1 macro environment research for a new company
+**Note**: Research follows a two-phase pattern where the MCP server provides prompts and Claude executes the research using its built-in web search capabilities.
+
+#### `get_research_prompt`
+**Purpose**: Generate the Layer 1 macro environment research prompt for a new company
 
 **Input**:
 - `company` (string, required): Company name
-- `role_title` (string, optional): Specific role being considered
+
+**Process**:
+1. Load the Layer 1 research template
+2. Generate structured research prompt with company name
+3. Return prompt instructions for Claude to execute
+
+**Output**: Research prompt with instructions covering:
+- Financial health (profitability, runway, funding)
+- Market position (competitors, market share, growth)
+- Organizational stability (leadership, layoffs, culture)
+- Technical culture (stack, engineering practices, blog content)
+
+**Usage Flow**:
+1. Call `get_research_prompt` to get instructions
+2. Claude executes web searches using the prompt
+3. Claude calls `save_research_results` with YAML output
+
+**Template**: Uses "WCTF Layer 1 - LLM Research Prompt Templates.md"
+
+#### `save_research_results`
+**Purpose**: Save completed research results to company.facts.yaml
+
+**Input**:
+- `company` (string, required): Company name
+- `yaml_content` (string, required): YAML-formatted research results
 
 **Process**:
 1. Create `data/{company}/` directory if it doesn't exist
-2. Use web_search tool with structured prompts from framework
-3. Search for: financial health, market position, leadership stability, technical culture
-4. Generate structured YAML output matching Layer 1 format
-5. Save to `data/{company}/company.facts.yaml`
+2. Validate YAML structure
+3. Save to `data/{company}/company.facts.yaml`
 
-**Output**: Summary of facts found with confidence levels
-
-**Template**: Use the Layer 1 research prompt from "WCTF Layer 1 - LLM Research Prompt Templates.md"
+**Output**: Confirmation with count of facts saved
 
 ### 3. Conversation Guidance
 
@@ -167,50 +189,66 @@ Companies being evaluated:
 **Purpose**: Manually record a flag when user has specific insight
 
 **Input**:
-- `company` (string, required)
-- `flag_type` (enum, required): "green" | "red"
+- `company` (string, required): Company name
+- `flag_type` (enum, required): "green" | "red" | "missing"
 - `mountain_element` (enum, required): "mountain_range" | "chosen_peak" | "rope_team_confidence" | "daily_climb" | "story_worth_telling"
-- `description` (string, required): What was observed
-- `source` (string, required): Where this came from
-- `confidence` (enum, required): "high" | "medium" | "low"
 
-**Process**: Add flag to appropriate section in company.flags.yaml
+**For green/red flags (required):**
+- `severity` (enum):
+  - Green: "critical_matches" | "strong_positives"
+  - Red: "dealbreakers" | "concerning"
+- `flag` (string): What was observed
+- `impact` (string): Why this matters
+- `confidence` (string): Confidence level with supporting evidence (e.g., "High - directly stated in blog post")
 
-**Output**: Confirmation message
+**For missing critical data:**
+- `question` (string): What needs to be known
+- `why_important` (string): Why it matters for the decision
+- `how_to_find` (string): How to get this information
+
+**Process**: Validate inputs and add flag to appropriate double hierarchy location in company.flags.yaml
+
+**Output**: Confirmation message with flag location
 
 ### 5. Decision Synthesis
 
 #### `gut_check`
-**Purpose**: Walk through binary decision framework using accumulated evidence
+**Purpose**: Present organized evidence summary to support gut decision-making
 
 **Input**:
 - `company` (string, required): Company to evaluate
 
 **Process**:
-1. Load all facts and flags
-2. Present organized summary by mountain element
-3. Show green flag count vs red flag count by category
+1. Load all facts and flags from company data
+2. Present organized summary with double hierarchy:
+   - Per mountain element: green flags (critical_matches, strong_positives)
+   - Per mountain element: red flags (dealbreakers, concerning)
+   - Flag counts and visual indicators (✓✓✓, ✓✓, ✓, ⚠️, ⚠️⚠️)
+3. Include synthesis section if present
 4. Highlight missing critical information
-5. Prompt for three decisions:
-   - Company Health: "Sinking Ship / Stable / Rocket Ship"
-   - Role Reality: "Soul-Crushing / Acceptable / Energizing"
-   - Overall: "Take It / Keep Looking"
 
-**Output**: Interactive prompts for decision recording (don't auto-decide!)
+**Output**: Formatted summary showing:
+- Flag counts by mountain element and severity
+- Existing synthesis (if present)
+- Missing critical data gaps
+- Does NOT make decisions - just presents data for user review
+
+**Note**: After reviewing this output, use `save_gut_decision` to record your decision.
 
 #### `save_gut_decision`
 **Purpose**: Record the user's gut decision with reasoning
 
 **Input**:
-- `company` (string, required)
-- `company_health` (enum): "sinking_ship" | "stable" | "rocket_ship"
-- `role_reality` (enum): "soul_crushing" | "acceptable" | "energizing"
-- `decision` (enum): "take_it" | "keep_looking"
-- `reasoning` (string, optional): User's explanation
+- `company` (string, required): Company name
+- `mountain_worth_climbing` (enum, required): "YES" | "NO" | "MAYBE"
+- `confidence` (enum, required): "HIGH" | "MEDIUM" | "LOW"
+- `reasoning` (string, optional): User's explanation of the decision
 
-**Process**: Add decision section to company.flags.yaml with timestamp
+**Process**: Add gut_decision section to company.flags.yaml synthesis with timestamp
 
-**Output**: Confirmation with summary
+**Output**: Confirmation with decision summary
+
+**Note**: This tool only records decisions - it does not make them. The user must review the gut_check output and make their own decision.
 
 #### `get_evaluation_summary`
 **Purpose**: Get current state of all evaluations
@@ -342,12 +380,11 @@ synthesis:
   confidence_level: "HIGH" | "MEDIUM" | "LOW"
   next_investigation: "string"
 
-gut_decision:
+gut_decision:  # Optional - added by save_gut_decision tool
   recorded_date: "YYYY-MM-DD"
-  company_health: "sinking_ship" | "stable" | "rocket_ship"
-  role_reality: "soul_crushing" | "acceptable" | "energizing"
-  decision: "take_it" | "keep_looking"
-  reasoning: "string"
+  mountain_worth_climbing: "YES" | "NO" | "MAYBE"
+  confidence: "HIGH" | "MEDIUM" | "LOW"
+  reasoning: "string"  # Optional user explanation
 ```
 
 ## Implementation Requirements
@@ -380,25 +417,35 @@ dependencies = [
     "mcp>=0.9.0",           # MCP SDK
     "pyyaml>=6.0",          # YAML parsing
     "pydantic>=2.0",        # Data validation
-    "anthropic>=0.39.0",    # For web_search tool usage
 ]
+
+# Note: Web search is provided by Claude Desktop's built-in capabilities,
+# not a Python dependency. The MCP server provides prompts, Claude executes searches.
 ```
 
 ### Configuration for Claude Desktop
-Users will add to `~/Library/Application Support/Claude/claude_desktop_config.json`:
-```json
-{
-  "mcpServers": {
-    "wctf": {
-      "command": "python",
-      "args": ["-m", "wctf_mcp.server"],
-      "env": {
-        "WCTF_DATA_DIR": "/path/to/wctf/data"
-      }
-    }
-  }
-}
+
+**Transport**: The server uses `streamable-http` transport for remote MCP connections, rather than stdio-based local connections.
+
+Users will configure Claude Desktop to connect to the running server. Start the server with:
+```bash
+# Install the package
+pip install -e .
+
+# Run the server (starts on default port with streamable-http transport)
+wctf-server
 ```
+
+The server can also be configured via environment variables:
+```bash
+# Optional: Set custom data directory
+export WCTF_DATA_DIR="/path/to/wctf/data"
+
+# Start server
+wctf-server
+```
+
+**Note**: Configuration details for connecting Claude Desktop to an HTTP-based MCP server may vary. Consult the MCP documentation for current streamable-http setup instructions.
 
 ## Error Handling
 
