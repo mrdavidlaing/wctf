@@ -31,8 +31,16 @@ from wctf_mcp.tools.decision import (
 )
 
 # Configure logging
-logging.basicConfig(level=logging.DEBUG)
+logging.basicConfig(
+    level=logging.INFO,  # Changed to INFO to reduce noise
+    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+)
 logger = logging.getLogger(__name__)
+
+# Set FastMCP and uvicorn to ERROR level to see our logs better
+logging.getLogger("mcp").setLevel(logging.ERROR)
+logging.getLogger("uvicorn").setLevel(logging.WARNING)
+logging.getLogger("uvicorn.access").setLevel(logging.WARNING)
 
 # Create the FastMCP server instance
 mcp = FastMCP("wctf-mcp")
@@ -98,14 +106,17 @@ async def get_company_flags_tool(company_name: str, ctx: Context) -> dict:
 
 @mcp.tool()
 async def get_research_prompt_tool(company_name: str, ctx: Context) -> dict:
-    """Get the Layer 1 research prompt for a company.
+    """Start Layer 1 research for a company using Research mode.
 
-    Returns a structured research prompt that you (the calling agent) should execute
-    using your web search capabilities. After completing the research, use
-    save_research_results to save the YAML output.
+    IMPORTANT TWO-STEP WORKFLOW:
+    1. Call this tool to get the research prompt
+    2. STOP and tell the user: "Please enable Research mode (toggle in Claude Desktop UI), then say 'ready' to proceed"
+    3. Wait for user confirmation
+    4. ONLY THEN execute the research using Research mode
+    5. Format findings as YAML and save with save_research_results_tool
 
-    Research covers: financial health, market position, organizational stability,
-    and technical culture.
+    Research mode provides deep, multi-source investigation with citations.
+    Do NOT proceed with basic web search.
 
     Args:
         company_name: Name of the company to research (e.g., 'Stripe', 'Vercel', 'Railway')
@@ -387,8 +398,38 @@ async def get_evaluation_summary_tool(ctx: Context) -> dict:
 
 
 def main():
-    """Main entry point for the MCP server."""
-    mcp.run(transport="streamable-http")
+    """Main entry point for the MCP server.
+
+    Transport can be controlled via WCTF_TRANSPORT environment variable:
+    - "stdio" (default): For Claude Desktop config, provides "hot reload" (code changes picked up on next call)
+    - "streamable-http": For HTTP-based connections, faster but requires restart for code changes
+    """
+    import os
+    import signal
+    import sys
+
+    # Get transport from environment, default to stdio for easier development
+    transport = os.getenv("WCTF_TRANSPORT", "stdio")
+
+    if transport not in ["stdio", "streamable-http", "sse"]:
+        logger.error(f"Invalid transport: {transport}. Use 'stdio' or 'streamable-http'")
+        sys.exit(1)
+
+    logger.info(f"Starting WCTF MCP server with {transport} transport")
+
+    def signal_handler(sig, frame):
+        """Handle Ctrl+C gracefully."""
+        logger.info("Received shutdown signal, stopping server...")
+        sys.exit(0)
+
+    signal.signal(signal.SIGINT, signal_handler)
+    signal.signal(signal.SIGTERM, signal_handler)
+
+    try:
+        mcp.run(transport=transport)
+    except KeyboardInterrupt:
+        logger.info("Server stopped by user")
+        sys.exit(0)
 
 
 if __name__ == "__main__":

@@ -1,6 +1,8 @@
-# Layer 1 Research Prompt: Company Facts Collection
+# Layer 1 Research: {company_name}
 
-You are conducting initial research on **{company_name}** to gather factual information for a senior engineer evaluating potential employers. Your goal is to collect structured, verifiable facts organized into specific categories.
+**Research Mode Required:** Please use Claude Desktop's Research mode (the research toggle/button in the UI) for this investigation. Research mode provides deep, multi-source investigation with citations - much better than basic web search.
+
+Gather factual information about **{company_name}** for a senior engineer evaluating potential employers. Collect structured, verifiable facts across four categories.
 
 ## Research Scope
 
