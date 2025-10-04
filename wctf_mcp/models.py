@@ -7,7 +7,7 @@ from datetime import date as Date
 from enum import Enum
 from typing import Any, Dict, List, Optional
 
-from pydantic import BaseModel, Field
+from pydantic import BaseModel, Field, field_serializer
 
 
 class ConfidenceLevel(str, Enum):
@@ -60,10 +60,10 @@ class CompanyFacts(BaseModel):
     technical_culture: FactsCategory = Field(..., description="Technical culture facts")
     summary: Dict[str, Any] = Field(..., description="Summary of all findings")
 
-    class Config:
-        """Pydantic config."""
-
-        json_encoders = {Date: lambda v: v.isoformat()}
+    @field_serializer("research_date")
+    def serialize_research_date(self, value: Date) -> str:
+        """Serialize research_date as ISO format string."""
+        return value.isoformat()
 
 
 class GreenFlag(BaseModel):
@@ -106,7 +106,7 @@ class CompanyFlags(BaseModel):
     )
     synthesis: Dict[str, Any] = Field(..., description="Overall synthesis and recommendation")
 
-    class Config:
-        """Pydantic config."""
-
-        json_encoders = {Date: lambda v: v.isoformat()}
+    @field_serializer("evaluation_date")
+    def serialize_evaluation_date(self, value: Date) -> str:
+        """Serialize evaluation_date as ISO format string."""
+        return value.isoformat()
