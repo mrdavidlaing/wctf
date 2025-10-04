@@ -10,26 +10,61 @@ senior_engineer_alignment:
   growth_trajectory: EXCELLENT
 
 green_flags:
-  critical_matches:
-    - flag: "Modern Rust/Python stack"
-      impact: "Interesting technical work"
-      confidence: "High - engineering blog confirms"
-  strong_positives:
-    - flag: "Strong funding round"
-      impact: "Financial stability for next 2 years"
-      confidence: "High - public announcement"
+  mountain_range:  # Financial & Market Foundation
+    critical_matches: []
+    strong_positives:
+      - flag: "Strong funding round"
+        impact: "Financial stability for next 2 years"
+        confidence: "High - public announcement"
+
+  chosen_peak:  # Technical Culture & Work Quality
+    critical_matches:
+      - flag: "Modern Rust/Python stack"
+        impact: "Interesting technical work"
+        confidence: "High - engineering blog confirms"
+    strong_positives: []
+
+  rope_team_confidence:  # Leadership & Organization
+    critical_matches: []
+    strong_positives: []
+
+  daily_climb:  # Day-to-Day Experience
+    critical_matches: []
+    strong_positives: []
+
+  story_worth_telling:  # Growth & Legacy
+    critical_matches: []
+    strong_positives: []
 
 red_flags:
-  dealbreakers: []
-  concerning:
-    - flag: "Limited financial transparency"
-      impact: "Unknown runway"
-      confidence: "Medium - typical for early stage"
+  mountain_range:  # Financial & Market Foundation
+    dealbreakers: []
+    concerning:
+      - flag: "Limited financial transparency"
+        impact: "Unknown runway"
+        confidence: "Medium - typical for early stage"
+
+  chosen_peak:  # Technical Culture & Work Quality
+    dealbreakers: []
+    concerning: []
+
+  rope_team_confidence:  # Leadership & Organization
+    dealbreakers: []
+    concerning: []
+
+  daily_climb:  # Day-to-Day Experience
+    dealbreakers: []
+    concerning: []
+
+  story_worth_telling:  # Growth & Legacy
+    dealbreakers: []
+    concerning: []
 
 missing_critical_data:
   - question: "What's the deployment frequency?"
     why_important: "Indicates engineering maturity"
     how_to_find: "Ask in technical interview"
+    mountain_element: "chosen_peak"
 
 synthesis:
   mountain_worth_climbing: "YES"

@@ -30,33 +30,43 @@ Discussed with engineering manager about the company:
 SAMPLE_EXTRACTION_YAML = """
 green_flags:
   mountain_range:
-    - flag: "Profitable with $50M ARR"
-      impact: "Financial stability means sustainable engineering projects"
-      confidence: "High - directly stated by manager"
+    critical_matches:
+      - flag: "Profitable with $50M ARR"
+        impact: "Financial stability means sustainable engineering projects"
+        confidence: "High - directly stated by manager"
+    strong_positives: []
 
   chosen_peak:
-    - flag: "Using Rust extensively in backend services"
-      impact: "Modern technical stack with serious engineering investment"
-      confidence: "High - directly stated"
-    - flag: "Deploy 10x per day"
-      impact: "Mature CI/CD indicates low deployment friction"
-      confidence: "High - specific metric provided"
+    critical_matches:
+      - flag: "Using Rust extensively in backend services"
+        impact: "Modern technical stack with serious engineering investment"
+        confidence: "High - directly stated"
+    strong_positives:
+      - flag: "Deploy 10x per day"
+        impact: "Mature CI/CD indicates low deployment friction"
+        confidence: "High - specific metric provided"
 
   daily_climb:
-    - flag: "Fully remote company since 2020"
-      impact: "Established remote culture, not pandemic experiment"
-      confidence: "High - directly stated"
+    critical_matches:
+      - flag: "Fully remote company since 2020"
+        impact: "Established remote culture, not pandemic experiment"
+        confidence: "High - directly stated"
+    strong_positives: []
 
 red_flags:
   mountain_range:
-    - flag: "Recent layoffs in Q4 2024 (10% of staff)"
-      impact: "Financial instability or management misjudgment on hiring"
-      confidence: "High - directly stated"
+    dealbreakers: []
+    concerning:
+      - flag: "Recent layoffs in Q4 2024 (10% of staff)"
+        impact: "Financial instability or management misjudgment on hiring"
+        confidence: "High - directly stated"
 
   daily_climb:
-    - flag: "20+ hours/week in meetings"
-      impact: "Severe maker time constraint, limits deep work"
-      confidence: "High - manager explicitly mentioned"
+    dealbreakers: []
+    concerning:
+      - flag: "20+ hours/week in meetings"
+        impact: "Severe maker time constraint, limits deep work"
+        confidence: "High - manager explicitly mentioned"
 
 missing_critical_data:
   - question: "What's the actual compensation range for senior engineers?"
@@ -183,13 +193,16 @@ class TestExtractFlags:
             "evaluation_date": "2025-10-01",
             "evaluator_context": "Initial evaluation",
             "green_flags": {
-                "mountain_range": [
-                    {
-                        "flag": "Existing flag",
-                        "impact": "Existing impact",
-                        "confidence": "High"
-                    }
-                ]
+                "mountain_range": {
+                    "critical_matches": [
+                        {
+                            "flag": "Existing flag",
+                            "impact": "Existing impact",
+                            "confidence": "High"
+                        }
+                    ],
+                    "strong_positives": []
+                }
             },
             "red_flags": {},
             "missing_critical_data": []
@@ -213,10 +226,10 @@ class TestExtractFlags:
         with open(flags_file) as f:
             flags_data = yaml.safe_load(f)
 
-        mountain_range_flags = flags_data["green_flags"]["mountain_range"]
-        assert len(mountain_range_flags) == 2  # 1 existing + 1 new
+        mountain_range_critical = flags_data["green_flags"]["mountain_range"]["critical_matches"]
+        assert len(mountain_range_critical) == 2  # 1 existing + 1 new
 
-        flag_texts = [f["flag"] for f in mountain_range_flags]
+        flag_texts = [f["flag"] for f in mountain_range_critical]
         assert "Existing flag" in flag_texts
         assert "Profitable with $50M ARR" in flag_texts
 
@@ -284,6 +297,7 @@ class TestAddManualFlag:
             company_name="TestCorp",
             flag_type="green",
             mountain_element="mountain_range",
+            severity="critical_matches",
             flag="Company is profitable",
             impact="Financial stability for long-term projects",
             confidence="High - from annual report",
@@ -297,13 +311,13 @@ class TestAddManualFlag:
         flags_path = tmp_path / "data" / "TestCorp" / "company.flags.yaml"
         assert flags_path.exists()
 
-        # Verify content
+        # Verify content (double hierarchy)
         with open(flags_path) as f:
             flags_data = yaml.safe_load(f)
 
         assert flags_data["company"] == "TestCorp"
-        assert len(flags_data["green_flags"]["mountain_range"]) == 1
-        assert flags_data["green_flags"]["mountain_range"][0]["flag"] == "Company is profitable"
+        assert len(flags_data["green_flags"]["mountain_range"]["critical_matches"]) == 1
+        assert flags_data["green_flags"]["mountain_range"]["critical_matches"][0]["flag"] == "Company is profitable"
 
     def test_add_manual_flag_red_flag(self, tmp_path):
         """Test adding a manual red flag."""
@@ -315,6 +329,7 @@ class TestAddManualFlag:
             company_name="TestCorp",
             flag_type="red",
             mountain_element="daily_climb",
+            severity="concerning",
             flag="Poor work-life balance reported",
             impact="Unsustainable workload leads to burnout",
             confidence="Medium - from Glassdoor reviews",
@@ -328,8 +343,8 @@ class TestAddManualFlag:
         with open(flags_path) as f:
             flags_data = yaml.safe_load(f)
 
-        assert len(flags_data["red_flags"]["daily_climb"]) == 1
-        assert flags_data["red_flags"]["daily_climb"][0]["flag"] == "Poor work-life balance reported"
+        assert len(flags_data["red_flags"]["daily_climb"]["concerning"]) == 1
+        assert flags_data["red_flags"]["daily_climb"]["concerning"][0]["flag"] == "Poor work-life balance reported"
 
     def test_add_manual_flag_missing_data(self, tmp_path):
         """Test adding missing critical data."""
@@ -426,13 +441,16 @@ class TestAddManualFlag:
             "evaluation_date": str(date.today()),
             "evaluator_context": "Manual evaluation",
             "green_flags": {
-                "mountain_range": [
-                    {
-                        "flag": "Existing flag",
-                        "impact": "Existing impact",
-                        "confidence": "High"
-                    }
-                ]
+                "mountain_range": {
+                    "critical_matches": [
+                        {
+                            "flag": "Existing flag",
+                            "impact": "Existing impact",
+                            "confidence": "High"
+                        }
+                    ],
+                    "strong_positives": []
+                }
             },
             "red_flags": {},
             "missing_critical_data": []
@@ -447,6 +465,7 @@ class TestAddManualFlag:
             company_name="TestCorp",
             flag_type="green",
             mountain_element="mountain_range",
+            severity="critical_matches",
             flag="New flag",
             impact="New impact",
             confidence="High",
@@ -459,7 +478,7 @@ class TestAddManualFlag:
         with open(flags_file) as f:
             flags_data = yaml.safe_load(f)
 
-        assert len(flags_data["green_flags"]["mountain_range"]) == 2
+        assert len(flags_data["green_flags"]["mountain_range"]["critical_matches"]) == 2
 
     def test_add_manual_flag_preserves_yaml_readability(self, tmp_path):
         """Test that flags file remains human-readable."""
@@ -472,6 +491,7 @@ class TestAddManualFlag:
             company_name="TestCorp",
             flag_type="green",
             mountain_element="mountain_range",
+            severity="critical_matches",
             flag="Test flag",
             impact="Test impact",
             confidence="High",
@@ -486,6 +506,7 @@ class TestAddManualFlag:
         assert "company: TestCorp" in content
         assert "green_flags:" in content
         assert "mountain_range:" in content
+        assert "critical_matches:" in content
         assert "- flag:" in content
         # Should not be all on one line
         assert content.count("\n") > 5

@@ -71,7 +71,7 @@ def gut_check(
             except YAMLHandlerError:
                 pass
 
-        # Count flags by category
+        # Count flags by category (double hierarchy: element -> severity -> flags)
         flag_counts = {
             "green_flags": {
                 "critical_matches": 0,
@@ -82,16 +82,61 @@ def gut_check(
                 "concerning": 0,
             },
             "missing_critical_data": 0,
+            "by_element": {},  # Per-element breakdown
         }
 
         if flags_data:
             green_flags = flags_data.get("green_flags", {})
-            flag_counts["green_flags"]["critical_matches"] = len(green_flags.get("critical_matches", []))
-            flag_counts["green_flags"]["strong_positives"] = len(green_flags.get("strong_positives", []))
-
             red_flags = flags_data.get("red_flags", {})
-            flag_counts["red_flags"]["dealbreakers"] = len(red_flags.get("dealbreakers", []))
-            flag_counts["red_flags"]["concerning"] = len(red_flags.get("concerning", []))
+
+            # Count across all mountain elements
+            for element, severity_categories in green_flags.items():
+                if isinstance(severity_categories, dict):
+                    flag_counts["green_flags"]["critical_matches"] += len(
+                        severity_categories.get("critical_matches", [])
+                    )
+                    flag_counts["green_flags"]["strong_positives"] += len(
+                        severity_categories.get("strong_positives", [])
+                    )
+
+                    # Track per-element counts
+                    if element not in flag_counts["by_element"]:
+                        flag_counts["by_element"][element] = {
+                            "green_critical": 0,
+                            "green_strong": 0,
+                            "red_dealbreakers": 0,
+                            "red_concerning": 0,
+                        }
+                    flag_counts["by_element"][element]["green_critical"] = len(
+                        severity_categories.get("critical_matches", [])
+                    )
+                    flag_counts["by_element"][element]["green_strong"] = len(
+                        severity_categories.get("strong_positives", [])
+                    )
+
+            for element, severity_categories in red_flags.items():
+                if isinstance(severity_categories, dict):
+                    flag_counts["red_flags"]["dealbreakers"] += len(
+                        severity_categories.get("dealbreakers", [])
+                    )
+                    flag_counts["red_flags"]["concerning"] += len(
+                        severity_categories.get("concerning", [])
+                    )
+
+                    # Track per-element counts
+                    if element not in flag_counts["by_element"]:
+                        flag_counts["by_element"][element] = {
+                            "green_critical": 0,
+                            "green_strong": 0,
+                            "red_dealbreakers": 0,
+                            "red_concerning": 0,
+                        }
+                    flag_counts["by_element"][element]["red_dealbreakers"] = len(
+                        severity_categories.get("dealbreakers", [])
+                    )
+                    flag_counts["by_element"][element]["red_concerning"] = len(
+                        severity_categories.get("concerning", [])
+                    )
 
             flag_counts["missing_critical_data"] = len(flags_data.get("missing_critical_data", []))
 
@@ -113,14 +158,50 @@ def gut_check(
                 summary_lines.append(f"- {element.replace('_', ' ').title()}: {rating}")
             summary_lines.append("")
 
-        # Flag Summary
-        summary_lines.append("## Flag Summary")
+        # Flag Summary (Overall)
+        summary_lines.append("## Flag Summary (Overall)")
         summary_lines.append(f"- Green Flags (Critical): {flag_counts['green_flags']['critical_matches']}")
         summary_lines.append(f"- Green Flags (Strong): {flag_counts['green_flags']['strong_positives']}")
         summary_lines.append(f"- Red Flags (Dealbreakers): {flag_counts['red_flags']['dealbreakers']}")
         summary_lines.append(f"- Red Flags (Concerning): {flag_counts['red_flags']['concerning']}")
         summary_lines.append(f"- Missing Critical Data: {flag_counts['missing_critical_data']}")
         summary_lines.append("")
+
+        # Per-Element Breakdown
+        if flag_counts["by_element"]:
+            summary_lines.append("## Flag Breakdown by Mountain Element")
+            element_names = {
+                "mountain_range": "Mountain Range (Financial & Market)",
+                "chosen_peak": "Chosen Peak (Technical Culture)",
+                "rope_team_confidence": "Rope Team (Leadership & Org)",
+                "daily_climb": "Daily Climb (Work Experience)",
+                "story_worth_telling": "Story Worth Telling (Growth & Legacy)",
+            }
+            for element, counts in sorted(flag_counts["by_element"].items()):
+                element_name = element_names.get(element, element)
+                total_green = counts["green_critical"] + counts["green_strong"]
+                total_red = counts["red_dealbreakers"] + counts["red_concerning"]
+
+                # Simple visual indicator
+                if total_green > total_red * 2:
+                    indicator = "✓✓✓"
+                elif total_green > total_red:
+                    indicator = "✓✓"
+                elif total_green > 0 or total_red == 0:
+                    indicator = "✓"
+                elif total_red > total_green * 2:
+                    indicator = "⚠️⚠️"
+                elif total_red > total_green:
+                    indicator = "⚠️"
+                else:
+                    indicator = "~"
+
+                summary_lines.append(
+                    f"- {element_name}: {indicator} "
+                    f"({counts['green_critical']} critical, {counts['green_strong']} strong, "
+                    f"{counts['red_dealbreakers']} dealbreakers, {counts['red_concerning']} concerning)"
+                )
+            summary_lines.append("")
 
         # Synthesis verdict (if available)
         if flags_data and "synthesis" in flags_data:

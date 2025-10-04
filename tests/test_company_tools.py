@@ -236,13 +236,18 @@ class TestGetCompanyFlags:
         assert "technical_culture" in alignment
         assert alignment["technical_culture"] == "EXCELLENT"
 
-        # Check green flags
+        # Check green flags (double hierarchy: mountain elements -> severity -> flags)
         green = flags["green_flags"]
-        assert "critical_matches" in green
-        assert "strong_positives" in green
+        assert "mountain_range" in green
+        assert "chosen_peak" in green
+
+        # Check that each mountain element has severity categories
+        mountain_range = green["mountain_range"]
+        assert "critical_matches" in mountain_range
+        assert "strong_positives" in mountain_range
 
         # Each flag should have impact and confidence
-        for flag_item in green["critical_matches"]:
+        for flag_item in mountain_range["strong_positives"]:
             assert "flag" in flag_item
             assert "impact" in flag_item
             assert "confidence" in flag_item

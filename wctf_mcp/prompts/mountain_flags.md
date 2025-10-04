@@ -65,60 +65,83 @@ Analyze the conversation notes and extract:
 
 ## Output Format
 
-Provide your analysis in the following YAML structure:
+Provide your analysis in the following YAML structure (double hierarchy: mountain element -> severity -> flags):
 
 ```yaml
 green_flags:
   mountain_range:  # Financial & Market Foundation
-    - flag: "Specific observation from conversation"
-      impact: "Why this matters for a senior engineer"
-      confidence: "High/Medium/Low - evidence source"
+    critical_matches:  # Exactly what you're looking for
+      - flag: "Specific observation from conversation"
+        impact: "Why this matters for a senior engineer"
+        confidence: "High/Medium/Low - evidence source"
+    strong_positives:  # Generally good signals
+      - flag: "Another positive observation"
+        impact: "Why this matters"
+        confidence: "High/Medium/Low - evidence source"
 
   chosen_peak:  # Technical Culture & Work Quality
-    - flag: "Specific observation from conversation"
-      impact: "Why this matters"
-      confidence: "High/Medium/Low - evidence source"
+    critical_matches:
+      - flag: "Specific observation"
+        impact: "Why this matters"
+        confidence: "High/Medium/Low - evidence source"
+    strong_positives:
+      - flag: "Another observation"
+        impact: "Why this matters"
+        confidence: "High/Medium/Low - evidence source"
 
   rope_team_confidence:  # Leadership & Organization
-    - flag: "Specific observation from conversation"
-      impact: "Why this matters"
-      confidence: "High/Medium/Low - evidence source"
+    critical_matches: []
+    strong_positives:
+      - flag: "Observation"
+        impact: "Why this matters"
+        confidence: "High/Medium/Low - evidence source"
 
   daily_climb:  # Day-to-Day Experience
-    - flag: "Specific observation from conversation"
-      impact: "Why this matters"
-      confidence: "High/Medium/Low - evidence source"
+    critical_matches:
+      - flag: "Observation"
+        impact: "Why this matters"
+        confidence: "High/Medium/Low - evidence source"
+    strong_positives: []
 
   story_worth_telling:  # Growth & Legacy
-    - flag: "Specific observation from conversation"
-      impact: "Why this matters"
-      confidence: "High/Medium/Low - evidence source"
+    critical_matches: []
+    strong_positives:
+      - flag: "Observation"
+        impact: "Why this matters"
+        confidence: "High/Medium/Low - evidence source"
 
 red_flags:
   mountain_range:  # Financial & Market Foundation
-    - flag: "Specific concern from conversation"
-      impact: "Why this is concerning"
-      confidence: "High/Medium/Low - evidence source"
+    dealbreakers:  # Would eliminate this option
+      - flag: "Specific concern from conversation"
+        impact: "Why this kills the opportunity"
+        confidence: "High/Medium/Low - evidence source"
+    concerning:  # Worth investigating further
+      - flag: "Another concern"
+        impact: "Potential negative impact"
+        confidence: "High/Medium/Low - evidence source"
 
   chosen_peak:  # Technical Culture & Work Quality
-    - flag: "Specific concern from conversation"
-      impact: "Why this is concerning"
-      confidence: "High/Medium/Low - evidence source"
+    dealbreakers: []
+    concerning:
+      - flag: "Concern"
+        impact: "Why this is concerning"
+        confidence: "High/Medium/Low - evidence source"
 
   rope_team_confidence:  # Leadership & Organization
-    - flag: "Specific concern from conversation"
-      impact: "Why this is concerning"
-      confidence: "High/Medium/Low - evidence source"
+    dealbreakers: []
+    concerning: []
 
   daily_climb:  # Day-to-Day Experience
-    - flag: "Specific concern from conversation"
-      impact: "Why this is concerning"
-      confidence: "High/Medium/Low - evidence source"
+    dealbreakers: []
+    concerning:
+      - flag: "Concern"
+        impact: "Why this is concerning"
+        confidence: "High/Medium/Low - evidence source"
 
   story_worth_telling:  # Growth & Legacy
-    - flag: "Specific concern from conversation"
-      impact: "Why this is concerning"
-      confidence: "High/Medium/Low - evidence source"
+    dealbreakers: []
+    concerning: []
 
 missing_critical_data:
   - question: "What specific information is needed?"
@@ -132,7 +155,12 @@ missing_critical_data:
 - **Be specific**: Extract actual observations from the conversation, not generic statements
 - **Quote context**: Reference what was actually discussed, not assumptions
 - **Classify carefully**: Each flag should fit one primary mountain element
-- **Empty sections OK**: If no flags found for an element, omit that section or leave it empty
+- **Severity classification**:
+  - **Critical Matches** (green): Exactly what you're looking for - standout positives that strongly favor this opportunity
+  - **Strong Positives** (green): Generally good signals that indicate health and fit
+  - **Dealbreakers** (red): Would eliminate this option - serious concerns that can't be overlooked
+  - **Concerning** (red): Worth investigating further - potential issues that need clarification
+- **Empty sections OK**: If no flags found for a severity level, use empty list `[]`
 - **Confidence levels**:
   - High: Directly stated in conversation with clear evidence
   - Medium: Implied or inferred from discussion

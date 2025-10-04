@@ -8,8 +8,9 @@ from wctf_mcp.models import (
     Fact,
     FactsCategory,
     CompanyFacts,
-    GreenFlag,
-    RedFlag,
+    Flag,
+    MountainElementGreenFlags,
+    MountainElementRedFlags,
     MissingCriticalData,
     CompanyFlags,
     ConfidenceLevel,
@@ -157,12 +158,12 @@ class TestCompanyFacts:
             )
 
 
-class TestGreenFlag:
-    """Test the GreenFlag model."""
+class TestFlag:
+    """Test the Flag model."""
 
-    def test_valid_green_flag(self):
-        """Test creating a valid green flag."""
-        flag = GreenFlag(
+    def test_valid_flag(self):
+        """Test creating a valid flag."""
+        flag = Flag(
             flag="Strong revenue growth",
             impact="Indicates financial stability",
             confidence="Very high - multiple sources",
@@ -172,19 +173,38 @@ class TestGreenFlag:
         assert flag.confidence == "Very high - multiple sources"
 
 
-class TestRedFlag:
-    """Test the RedFlag model."""
+class TestMountainElementGreenFlags:
+    """Test the MountainElementGreenFlags model."""
 
-    def test_valid_red_flag(self):
-        """Test creating a valid red flag."""
-        flag = RedFlag(
-            flag="High employee turnover",
-            impact="May indicate cultural issues",
-            confidence="Medium - Glassdoor reviews",
+    def test_valid_green_flags(self):
+        """Test creating valid green flags structure."""
+        green_flags = MountainElementGreenFlags(
+            critical_matches=[
+                Flag(flag="Critical flag", impact="Important", confidence="High")
+            ],
+            strong_positives=[
+                Flag(flag="Strong flag", impact="Good", confidence="Medium")
+            ],
         )
-        assert flag.flag == "High employee turnover"
-        assert flag.impact == "May indicate cultural issues"
-        assert flag.confidence == "Medium - Glassdoor reviews"
+        assert len(green_flags.critical_matches) == 1
+        assert len(green_flags.strong_positives) == 1
+
+
+class TestMountainElementRedFlags:
+    """Test the MountainElementRedFlags model."""
+
+    def test_valid_red_flags(self):
+        """Test creating valid red flags structure."""
+        red_flags = MountainElementRedFlags(
+            dealbreakers=[
+                Flag(flag="Dealbreaker flag", impact="Critical", confidence="High")
+            ],
+            concerning=[
+                Flag(flag="Concerning flag", impact="Worrying", confidence="Medium")
+            ],
+        )
+        assert len(red_flags.dealbreakers) == 1
+        assert len(red_flags.concerning) == 1
 
 
 class TestMissingCriticalData:
@@ -196,17 +216,19 @@ class TestMissingCriticalData:
             question="What is the engineering team size?",
             why_important="Determines team dynamics",
             how_to_find="Ask during interview",
+            mountain_element="rope_team_confidence",
         )
         assert missing.question == "What is the engineering team size?"
         assert missing.why_important == "Determines team dynamics"
         assert missing.how_to_find == "Ask during interview"
+        assert missing.mountain_element == "rope_team_confidence"
 
 
 class TestCompanyFlags:
     """Test the CompanyFlags model."""
 
     def test_valid_company_flags(self):
-        """Test creating valid company flags."""
+        """Test creating valid company flags with double hierarchy."""
         flags = CompanyFlags(
             company="Test Company",
             evaluation_date=date(2025, 9, 28),
@@ -219,12 +241,18 @@ class TestCompanyFlags:
                 "growth_trajectory": "GOOD",
             },
             green_flags={
-                "critical_matches": [],
-                "strong_positives": [],
+                "mountain_range": MountainElementGreenFlags(),
+                "chosen_peak": MountainElementGreenFlags(),
+                "rope_team_confidence": MountainElementGreenFlags(),
+                "daily_climb": MountainElementGreenFlags(),
+                "story_worth_telling": MountainElementGreenFlags(),
             },
             red_flags={
-                "dealbreakers": [],
-                "concerning": [],
+                "mountain_range": MountainElementRedFlags(),
+                "chosen_peak": MountainElementRedFlags(),
+                "rope_team_confidence": MountainElementRedFlags(),
+                "daily_climb": MountainElementRedFlags(),
+                "story_worth_telling": MountainElementRedFlags(),
             },
             missing_critical_data=[],
             synthesis={
@@ -240,7 +268,7 @@ class TestCompanyFlags:
         assert flags.synthesis["mountain_worth_climbing"] == "YES"
 
     def test_company_flags_with_complete_data(self):
-        """Test company flags with all sections populated."""
+        """Test company flags with all sections populated (double hierarchy)."""
         flags = CompanyFlags(
             company="Complete Company",
             evaluation_date=date(2025, 9, 28),
@@ -253,36 +281,52 @@ class TestCompanyFlags:
                 "growth_trajectory": "EXCELLENT",
             },
             green_flags={
-                "critical_matches": [
-                    GreenFlag(
-                        flag="Profitable",
-                        impact="Financial stability",
-                        confidence="High",
-                    )
-                ],
-                "strong_positives": [
-                    GreenFlag(
-                        flag="Remote first",
-                        impact="Work flexibility",
-                        confidence="High",
-                    )
-                ],
+                "mountain_range": MountainElementGreenFlags(
+                    critical_matches=[
+                        Flag(
+                            flag="Profitable",
+                            impact="Financial stability",
+                            confidence="High",
+                        )
+                    ],
+                    strong_positives=[],
+                ),
+                "chosen_peak": MountainElementGreenFlags(),
+                "rope_team_confidence": MountainElementGreenFlags(),
+                "daily_climb": MountainElementGreenFlags(
+                    critical_matches=[],
+                    strong_positives=[
+                        Flag(
+                            flag="Remote first",
+                            impact="Work flexibility",
+                            confidence="High",
+                        )
+                    ],
+                ),
+                "story_worth_telling": MountainElementGreenFlags(),
             },
             red_flags={
-                "dealbreakers": [],
-                "concerning": [
-                    RedFlag(
-                        flag="Low Glassdoor rating",
-                        impact="Cultural concerns",
-                        confidence="Medium",
-                    )
-                ],
+                "mountain_range": MountainElementRedFlags(),
+                "chosen_peak": MountainElementRedFlags(),
+                "rope_team_confidence": MountainElementRedFlags(),
+                "daily_climb": MountainElementRedFlags(
+                    dealbreakers=[],
+                    concerning=[
+                        Flag(
+                            flag="Low Glassdoor rating",
+                            impact="Cultural concerns",
+                            confidence="Medium",
+                        )
+                    ],
+                ),
+                "story_worth_telling": MountainElementRedFlags(),
             },
             missing_critical_data=[
                 MissingCriticalData(
                     question="Team size?",
                     why_important="Understand scale",
                     how_to_find="Ask in interview",
+                    mountain_element="rope_team_confidence",
                 )
             ],
             synthesis={
@@ -294,8 +338,8 @@ class TestCompanyFlags:
                 "next_investigation": "Deep dive on culture",
             },
         )
-        assert len(flags.green_flags["critical_matches"]) == 1
-        assert len(flags.red_flags["concerning"]) == 1
+        assert len(flags.green_flags["mountain_range"].critical_matches) == 1
+        assert len(flags.red_flags["daily_climb"].concerning) == 1
         assert len(flags.missing_critical_data) == 1
 
     def test_company_flags_missing_required_fields(self):

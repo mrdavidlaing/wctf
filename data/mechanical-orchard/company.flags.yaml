@@ -10,89 +10,121 @@ senior_engineer_alignment:
   growth_trajectory: POOR
 
 green_flags:
-  critical_matches:
-    # Very few genuine positives remain
+  mountain_range:  # Financial & Market Foundation
+    critical_matches: []
+    strong_positives:
+      - flag: "18 months runway despite revenue collapse"
+        impact: "Enough time for orderly wind-down or acquisition"
+        confidence: "HIGH - but burn rate could accelerate"
 
-  strong_positives:
-    - flag: "18 months runway despite revenue collapse"
-      impact: "Enough time for orderly wind-down or acquisition"
-      confidence: "HIGH - but burn rate could accelerate"
+  chosen_peak:  # Technical Culture & Work Quality
+    critical_matches: []
+    strong_positives:
+      - flag: "XP/TDD practices established pre-crisis"
+        impact: "Engineering discipline might survive chaos"
+        confidence: "LOW - likely degrading under pressure"
 
-    - flag: "Remote-first with European offices maintained"
-      impact: "Timezone alignment still works"
-      confidence: "MEDIUM - may change if cost-cutting"
+  rope_team_confidence:  # Leadership & Organization
+    critical_matches: []
+    strong_positives: []
 
-    - flag: "XP/TDD practices established pre-crisis"
-      impact: "Engineering discipline might survive chaos"
-      confidence: "LOW - likely degrading under pressure"
+  daily_climb:  # Day-to-Day Experience
+    critical_matches: []
+    strong_positives:
+      - flag: "Remote-first with European offices maintained"
+        impact: "Timezone alignment still works"
+        confidence: "MEDIUM - may change if cost-cutting"
+
+  story_worth_telling:  # Growth & Legacy
+    critical_matches: []
+    strong_positives: []
 
 red_flags:
-  dealbreakers:
-    - flag: "Lost 50% of revenue when 1 of 2 customers acquired"
-      impact: "Catastrophic customer concentration - basic business failure"
-      confidence: "HIGH - insider confirmed"
+  mountain_range:  # Financial & Market Foundation
+    dealbreakers:
+      - flag: "Lost 50% of revenue when 1 of 2 customers acquired"
+        impact: "Catastrophic customer concentration - basic business failure"
+        confidence: "HIGH - insider confirmed"
 
-    - flag: "Zero new customers landed throughout entire 2024"
-      impact: "Complete product-market fit failure after 2 years"
-      confidence: "HIGH - insider confirmed"
+      - flag: "Zero new customers landed throughout entire 2024"
+        impact: "Complete product-market fit failure after 2 years"
+        confidence: "HIGH - insider confirmed"
 
-    - flag: "Product is vaporware despite April 2025 'launch'"
-      impact: "Building demos and lies, not real software"
-      confidence: "HIGH - insider confirmed"
+      - flag: "No longer profitable, burning investor money"
+        impact: "Unsustainable without dramatic change"
+        confidence: "HIGH - trajectory is down"
 
-    - flag: "Pivoted from services to product company end 2024"
-      impact: "Panic pivot - exactly the instability you avoid"
-      confidence: "HIGH - strategy thrashing confirmed"
+    concerning:
+      - flag: "5 POCs but zero conversions to date"
+        impact: "POC theater, not real business"
+        confidence: "HIGH - pattern recognition says these won't convert"
 
-    - flag: "No longer profitable, burning investor money"
-      impact: "Unsustainable without dramatic change"
-      confidence: "HIGH - trajectory is down"
+      - flag: "Thoughtworks partnership as distribution strategy"
+        impact: "Outsourcing sales = desperation move"
+        confidence: "HIGH - can't sell product themselves"
 
-  concerning:
-    - flag: "Kent Beck departed during company crisis"
-      impact: "Technical thought leader abandoned ship"
-      confidence: "HIGH - timing speaks volumes"
+      - flag: "Series B was 'unsolicited' but took it anyway"
+        impact: "Grabbed money knowing trouble ahead"
+        confidence: "MEDIUM - suspicious timing"
 
-    - flag: "Head of Sales terminated not resigned"
-      impact: "Scapegoating for strategic failures"
-      confidence: "HIGH - layoff during crisis"
+  chosen_peak:  # Technical Culture & Work Quality
+    dealbreakers:
+      - flag: "Product is vaporware despite April 2025 'launch'"
+        impact: "Building demos and lies, not real software"
+        confidence: "HIGH - insider confirmed"
 
-    - flag: "5 POCs but zero conversions to date"
-      impact: "POC theater, not real business"
-      confidence: "HIGH - pattern recognition says these won't convert"
+    concerning:
+      - flag: "'Demo ware' at Google conference"
+        impact: "Potemkin village engineering work"
+        confidence: "HIGH - fake it till you make it"
 
-    - flag: "Thoughtworks partnership as distribution strategy"
-      impact: "Outsourcing sales = desperation move"
-      confidence: "HIGH - can't sell product themselves"
+  rope_team_confidence:  # Leadership & Organization
+    dealbreakers:
+      - flag: "Pivoted from services to product company end 2024"
+        impact: "Panic pivot - exactly the instability you avoid"
+        confidence: "HIGH - strategy thrashing confirmed"
 
-    - flag: "'Demo ware' at Google conference"
-      impact: "Potemkin village engineering work"
-      confidence: "HIGH - fake it till you make it"
+    concerning:
+      - flag: "Kent Beck departed during company crisis"
+        impact: "Technical thought leader abandoned ship"
+        confidence: "HIGH - timing speaks volumes"
 
-    - flag: "Series B was 'unsolicited' but took it anyway"
-      impact: "Grabbed money knowing trouble ahead"
-      confidence: "MEDIUM - suspicious timing"
+      - flag: "Head of Sales terminated not resigned"
+        impact: "Scapegoating for strategic failures"
+        confidence: "HIGH - layoff during crisis"
 
-    - flag: "No CTO despite being 'tech company'"
-      impact: "Technical strategy vacuum at executive level"
-      confidence: "HIGH - organizational gap"
+      - flag: "No CTO despite being 'tech company'"
+        impact: "Technical strategy vacuum at executive level"
+        confidence: "HIGH - organizational gap"
+
+  daily_climb:  # Day-to-Day Experience
+    dealbreakers: []
+    concerning: []
+
+  story_worth_telling:  # Growth & Legacy
+    dealbreakers: []
+    concerning: []
 
 missing_critical_data:
   - question: "What percentage of engineering building vaporware vs real product?"
     why_important: "Determines if you'd be coding or performing theater"
     how_to_find: "Ask point-blank about demo vs production code ratio"
+    mountain_element: "chosen_peak"
 
   - question: "Real monthly burn rate and runway calculation?"
     why_important: "18 months could be optimistic"
     how_to_find: "CFO should share if they're honest"
+    mountain_element: "mountain_range"
 
   - question: "POC conversion probability and timeline?"
     why_important: "Difference between hope and delusion"
     how_to_find: "Ask for historical POC conversion rates (they won't have any)"
+    mountain_element: "mountain_range"
 
   - question: "Why did Kent Beck really leave?"
     why_important: "The canary in the coal mine"
     how_to_find: "Network with ex-employees"
+    mountain_element: "rope_team_confidence"
 
 synthesis:
   mountain_worth_climbing: NO
@@ -109,4 +141,3 @@ synthesis:
     - "Leadership scapegoating instead of fixing root causes"
   confidence_level: HIGH
   next_investigation: "Don't waste time - this is a clear NO"
-

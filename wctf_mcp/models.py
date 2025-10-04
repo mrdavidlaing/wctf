@@ -66,20 +66,38 @@ class CompanyFacts(BaseModel):
         return value.isoformat()
 
 
-class GreenFlag(BaseModel):
-    """A positive indicator about a company."""
+class Flag(BaseModel):
+    """A flag (positive or negative) about a company."""
 
-    flag: str = Field(..., description="The green flag observation")
+    flag: str = Field(..., description="The flag observation")
     impact: str = Field(..., description="Impact of this flag")
     confidence: str = Field(..., description="Confidence level in this flag")
 
 
-class RedFlag(BaseModel):
-    """A negative indicator about a company."""
+class MountainElementGreenFlags(BaseModel):
+    """Green flags for a single mountain element, organized by severity."""
 
-    flag: str = Field(..., description="The red flag observation")
-    impact: str = Field(..., description="Impact of this flag")
-    confidence: str = Field(..., description="Confidence level in this flag")
+    critical_matches: List[Flag] = Field(
+        default_factory=list,
+        description="Critical positive matches - exactly what you're looking for"
+    )
+    strong_positives: List[Flag] = Field(
+        default_factory=list,
+        description="Strong positive signals - generally good indicators"
+    )
+
+
+class MountainElementRedFlags(BaseModel):
+    """Red flags for a single mountain element, organized by severity."""
+
+    dealbreakers: List[Flag] = Field(
+        default_factory=list,
+        description="Dealbreaker concerns - would eliminate this option"
+    )
+    concerning: List[Flag] = Field(
+        default_factory=list,
+        description="Concerning signals - worth investigating further"
+    )
 
 
 class MissingCriticalData(BaseModel):
@@ -88,10 +106,14 @@ class MissingCriticalData(BaseModel):
     question: str = Field(..., description="The question that needs answering")
     why_important: str = Field(..., description="Why this information is important")
     how_to_find: str = Field(..., description="How to find this information")
+    mountain_element: str = Field(..., description="Which mountain element this relates to")
 
 
 class CompanyFlags(BaseModel):
-    """Complete flags structure for a company evaluation."""
+    """Complete flags structure for a company evaluation.
+
+    Uses double hierarchy: mountain elements (what aspect) -> severity (how important).
+    """
 
     company: str = Field(..., description="Company name")
     evaluation_date: Date = Field(..., description="Date when evaluation was done")
@@ -99,8 +121,14 @@ class CompanyFlags(BaseModel):
     senior_engineer_alignment: Dict[str, str] = Field(
         ..., description="Alignment with senior engineer criteria"
     )
-    green_flags: Dict[str, List[GreenFlag]] = Field(..., description="Positive indicators")
-    red_flags: Dict[str, List[RedFlag]] = Field(..., description="Negative indicators")
+    green_flags: Dict[str, MountainElementGreenFlags] = Field(
+        ...,
+        description="Positive indicators organized by mountain element (mountain_range, chosen_peak, rope_team_confidence, daily_climb, story_worth_telling)"
+    )
+    red_flags: Dict[str, MountainElementRedFlags] = Field(
+        ...,
+        description="Negative indicators organized by mountain element"
+    )
     missing_critical_data: List[MissingCriticalData] = Field(
         ..., description="Critical missing information"
     )

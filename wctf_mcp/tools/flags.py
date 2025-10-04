@@ -40,31 +40,40 @@ def _load_extraction_prompt() -> str:
 
 
 def _initialize_flags_structure(company_name: str) -> Dict:
-    """Initialize empty flags structure with all mountain elements."""
+    """Initialize empty flags structure with double hierarchy (mountain elements -> severity)."""
+    element_template_green = {
+        "critical_matches": [],
+        "strong_positives": [],
+    }
+    element_template_red = {
+        "dealbreakers": [],
+        "concerning": [],
+    }
+
     return {
         "company": company_name,
         "evaluation_date": str(date.today()),
         "evaluator_context": "Extracted from conversation notes",
         "green_flags": {
-            "mountain_range": [],
-            "chosen_peak": [],
-            "rope_team_confidence": [],
-            "daily_climb": [],
-            "story_worth_telling": [],
+            "mountain_range": element_template_green.copy(),
+            "chosen_peak": element_template_green.copy(),
+            "rope_team_confidence": element_template_green.copy(),
+            "daily_climb": element_template_green.copy(),
+            "story_worth_telling": element_template_green.copy(),
         },
         "red_flags": {
-            "mountain_range": [],
-            "chosen_peak": [],
-            "rope_team_confidence": [],
-            "daily_climb": [],
-            "story_worth_telling": [],
+            "mountain_range": element_template_red.copy(),
+            "chosen_peak": element_template_red.copy(),
+            "rope_team_confidence": element_template_red.copy(),
+            "daily_climb": element_template_red.copy(),
+            "story_worth_telling": element_template_red.copy(),
         },
         "missing_critical_data": [],
     }
 
 
 def _validate_flag_structure(flag_data: Dict) -> tuple[bool, Optional[str]]:
-    """Validate that extracted flags have proper structure.
+    """Validate that extracted flags have proper double hierarchy structure.
 
     Returns:
         (is_valid, error_message) tuple
@@ -76,47 +85,65 @@ def _validate_flag_structure(flag_data: Dict) -> tuple[bool, Optional[str]]:
     if "green_flags" not in flag_data and "red_flags" not in flag_data and "missing_critical_data" not in flag_data:
         return False, "Flag data must contain at least one of: green_flags, red_flags, missing_critical_data"
 
-    # Validate green flags structure
+    # Validate green flags structure (double hierarchy: element -> severity -> flags)
     if "green_flags" in flag_data:
         if not isinstance(flag_data["green_flags"], dict):
             return False, "green_flags must be a dictionary"
 
-        for element, flags in flag_data["green_flags"].items():
+        for element, severity_categories in flag_data["green_flags"].items():
             if element not in MOUNTAIN_ELEMENTS:
                 return False, f"Invalid mountain element in green_flags: {element}. Must be one of: {', '.join(MOUNTAIN_ELEMENTS)}"
 
-            if not isinstance(flags, list):
-                return False, f"Flags for {element} must be a list"
+            if not isinstance(severity_categories, dict):
+                return False, f"Severity categories for {element} must be a dictionary"
 
-            for flag in flags:
-                if not isinstance(flag, dict):
-                    return False, f"Each flag must be a dictionary"
+            # Check for valid severity categories
+            valid_green_severities = {"critical_matches", "strong_positives"}
+            for severity, flags in severity_categories.items():
+                if severity not in valid_green_severities:
+                    return False, f"Invalid green flag severity: {severity}. Must be one of: {', '.join(valid_green_severities)}"
 
-                required_fields = {"flag", "impact", "confidence"}
-                missing_fields = required_fields - set(flag.keys())
-                if missing_fields:
-                    return False, f"Flag missing required fields: {', '.join(missing_fields)}"
+                if not isinstance(flags, list):
+                    return False, f"Flags for {element}.{severity} must be a list"
 
-    # Validate red flags structure
+                for flag in flags:
+                    if not isinstance(flag, dict):
+                        return False, f"Each flag must be a dictionary"
+
+                    required_fields = {"flag", "impact", "confidence"}
+                    missing_fields = required_fields - set(flag.keys())
+                    if missing_fields:
+                        return False, f"Flag missing required fields: {', '.join(missing_fields)}"
+
+    # Validate red flags structure (double hierarchy)
     if "red_flags" in flag_data:
         if not isinstance(flag_data["red_flags"], dict):
             return False, "red_flags must be a dictionary"
 
-        for element, flags in flag_data["red_flags"].items():
+        for element, severity_categories in flag_data["red_flags"].items():
             if element not in MOUNTAIN_ELEMENTS:
                 return False, f"Invalid mountain element in red_flags: {element}. Must be one of: {', '.join(MOUNTAIN_ELEMENTS)}"
 
-            if not isinstance(flags, list):
-                return False, f"Flags for {element} must be a list"
+            if not isinstance(severity_categories, dict):
+                return False, f"Severity categories for {element} must be a dictionary"
 
-            for flag in flags:
-                if not isinstance(flag, dict):
-                    return False, f"Each flag must be a dictionary"
+            # Check for valid severity categories
+            valid_red_severities = {"dealbreakers", "concerning"}
+            for severity, flags in severity_categories.items():
+                if severity not in valid_red_severities:
+                    return False, f"Invalid red flag severity: {severity}. Must be one of: {', '.join(valid_red_severities)}"
 
-                required_fields = {"flag", "impact", "confidence"}
-                missing_fields = required_fields - set(flag.keys())
-                if missing_fields:
-                    return False, f"Flag missing required fields: {', '.join(missing_fields)}"
+                if not isinstance(flags, list):
+                    return False, f"Flags for {element}.{severity} must be a list"
+
+                for flag in flags:
+                    if not isinstance(flag, dict):
+                        return False, f"Each flag must be a dictionary"
+
+                    required_fields = {"flag", "impact", "confidence"}
+                    missing_fields = required_fields - set(flag.keys())
+                    if missing_fields:
+                        return False, f"Flag missing required fields: {', '.join(missing_fields)}"
 
     # Validate missing critical data structure
     if "missing_critical_data" in flag_data:
@@ -139,30 +166,52 @@ def _validate_flag_structure(flag_data: Dict) -> tuple[bool, Optional[str]]:
 
 
 def _merge_flags(existing: Dict, new: Dict) -> Dict:
-    """Merge new flags into existing flags structure.
+    """Merge new flags into existing flags structure (double hierarchy).
 
-    Appends new flags to existing lists, preserving all data.
+    Appends new flags to existing lists within element -> severity structure.
     """
     merged = existing.copy()
 
     # Update evaluation date to latest
     merged["evaluation_date"] = str(date.today())
 
-    # Merge green flags
+    # Merge green flags (double hierarchy: element -> severity -> flags)
     if "green_flags" in new:
-        for element, flags in new["green_flags"].items():
+        for element, severity_categories in new["green_flags"].items():
             if element in MOUNTAIN_ELEMENTS:
                 if element not in merged["green_flags"]:
-                    merged["green_flags"][element] = []
-                merged["green_flags"][element].extend(flags)
+                    merged["green_flags"][element] = {
+                        "critical_matches": [],
+                        "strong_positives": [],
+                    }
 
-    # Merge red flags
+                # Merge each severity category
+                for severity in ["critical_matches", "strong_positives"]:
+                    if severity in severity_categories:
+                        if severity not in merged["green_flags"][element]:
+                            merged["green_flags"][element][severity] = []
+                        merged["green_flags"][element][severity].extend(
+                            severity_categories[severity]
+                        )
+
+    # Merge red flags (double hierarchy)
     if "red_flags" in new:
-        for element, flags in new["red_flags"].items():
+        for element, severity_categories in new["red_flags"].items():
             if element in MOUNTAIN_ELEMENTS:
                 if element not in merged["red_flags"]:
-                    merged["red_flags"][element] = []
-                merged["red_flags"][element].extend(flags)
+                    merged["red_flags"][element] = {
+                        "dealbreakers": [],
+                        "concerning": [],
+                    }
+
+                # Merge each severity category
+                for severity in ["dealbreakers", "concerning"]:
+                    if severity in severity_categories:
+                        if severity not in merged["red_flags"][element]:
+                            merged["red_flags"][element][severity] = []
+                        merged["red_flags"][element][severity].extend(
+                            severity_categories[severity]
+                        )
 
     # Merge missing critical data
     if "missing_critical_data" in new:
@@ -326,6 +375,7 @@ def add_manual_flag(
     company_name: str,
     flag_type: str,
     mountain_element: str,
+    severity: Optional[str] = None,
     flag: Optional[str] = None,
     impact: Optional[str] = None,
     confidence: Optional[str] = None,
@@ -334,7 +384,7 @@ def add_manual_flag(
     how_to_find: Optional[str] = None,
     base_path: Optional[Path] = None,
 ) -> Dict[str, any]:
-    """Add a manual flag to company evaluation.
+    """Add a manual flag to company evaluation (double hierarchy structure).
 
     This is a pure data operation that validates and saves a manually created flag.
 
@@ -342,6 +392,8 @@ def add_manual_flag(
         company_name: Name of the company
         flag_type: Type of flag - "green", "red", or "missing"
         mountain_element: Which mountain element this relates to
+        severity: Severity level - for green: "critical_matches" or "strong_positives"
+                 for red: "dealbreakers" or "concerning" (required for green/red flags)
         flag: Flag text (for green/red flags)
         impact: Impact description (for green/red flags)
         confidence: Confidence level (for green/red flags)
@@ -393,6 +445,28 @@ def add_manual_flag(
                 "success": False,
                 "error": f"For {flag_type} flags, must provide: flag, impact, confidence",
             }
+        if not severity:
+            return {
+                "success": False,
+                "error": f"For {flag_type} flags, must provide severity level",
+            }
+
+        # Validate severity level
+        if flag_type == "green":
+            valid_severities = {"critical_matches", "strong_positives"}
+            if severity not in valid_severities:
+                return {
+                    "success": False,
+                    "error": f"Invalid severity for green flag: {severity}. Must be one of: {', '.join(valid_severities)}",
+                }
+        elif flag_type == "red":
+            valid_severities = {"dealbreakers", "concerning"}
+            if severity not in valid_severities:
+                return {
+                    "success": False,
+                    "error": f"Invalid severity for red flag: {severity}. Must be one of: {', '.join(valid_severities)}",
+                }
+
     elif flag_type == "missing":
         if not question or not why_important or not how_to_find:
             return {
@@ -417,12 +491,18 @@ def add_manual_flag(
         else:
             flags_data = _initialize_flags_structure(company_name)
 
-        # Add the new flag
+        # Add the new flag (double hierarchy: element -> severity -> flags)
         if flag_type == "green":
             if mountain_element not in flags_data["green_flags"]:
-                flags_data["green_flags"][mountain_element] = []
+                flags_data["green_flags"][mountain_element] = {
+                    "critical_matches": [],
+                    "strong_positives": [],
+                }
 
-            flags_data["green_flags"][mountain_element].append({
+            if severity not in flags_data["green_flags"][mountain_element]:
+                flags_data["green_flags"][mountain_element][severity] = []
+
+            flags_data["green_flags"][mountain_element][severity].append({
                 "flag": flag,
                 "impact": impact,
                 "confidence": confidence,
@@ -430,9 +510,15 @@ def add_manual_flag(
 
         elif flag_type == "red":
             if mountain_element not in flags_data["red_flags"]:
-                flags_data["red_flags"][mountain_element] = []
+                flags_data["red_flags"][mountain_element] = {
+                    "dealbreakers": [],
+                    "concerning": [],
+                }
 
-            flags_data["red_flags"][mountain_element].append({
+            if severity not in flags_data["red_flags"][mountain_element]:
+                flags_data["red_flags"][mountain_element][severity] = []
+
+            flags_data["red_flags"][mountain_element][severity].append({
                 "flag": flag,
                 "impact": impact,
                 "confidence": confidence,

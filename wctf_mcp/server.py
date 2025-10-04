@@ -208,6 +208,7 @@ async def add_manual_flag_tool(
     flag_type: str,
     mountain_element: str,
     ctx: Context,
+    severity: str = None,
     flag: str = None,
     impact: str = None,
     confidence: str = None,
@@ -215,16 +216,19 @@ async def add_manual_flag_tool(
     why_important: str = None,
     how_to_find: str = None
 ) -> dict:
-    """Manually add a flag to company evaluation.
+    """Manually add a flag to company evaluation (double hierarchy).
 
-    For green/red flags, provide: flag, impact, confidence
-    For missing data, provide: question, why_important, how_to_find
+    For green flags: severity = "critical_matches" or "strong_positives"
+    For red flags: severity = "dealbreakers" or "concerning"
+    For green/red flags, also provide: flag, impact, confidence
+    For missing data, provide: question, why_important, how_to_find (no severity needed)
 
     Args:
         company_name: Name of the company
         flag_type: Type of flag - "green", "red", or "missing"
         mountain_element: Mountain element - "mountain_range", "chosen_peak",
                          "rope_team_confidence", "daily_climb", or "story_worth_telling"
+        severity: Severity level (required for green/red flags)
         flag: Flag text (for green/red flags)
         impact: Impact description (for green/red flags)
         confidence: Confidence level (for green/red flags)
@@ -239,6 +243,7 @@ async def add_manual_flag_tool(
         company_name=company_name,
         flag_type=flag_type,
         mountain_element=mountain_element,
+        severity=severity,
         flag=flag,
         impact=impact,
         confidence=confidence,
