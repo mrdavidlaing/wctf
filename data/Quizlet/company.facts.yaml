@@ -1,0 +1,550 @@
+company: Quizlet
+research_date: '2025-10-06'
+financial_health:
+  facts_found:
+  - fact: Quizlet raised $12M in Series A funding on November 23, 2015, led by Union
+      Square Ventures and Costanoa Venture Capital, with participation from Altos
+      Ventures and Owl Ventures
+    source: Crunchbase, Tracxn
+    date: '2015-11-23'
+    confidence: explicit_statement
+  - fact: Quizlet raised $20M in Series B funding on February 6, 2018, led by Icon
+      Ventures, with a valuation of $200M
+    source: Crunchbase, TechCrunch, EdSurge
+    date: '2018-02-06'
+    confidence: explicit_statement
+  - fact: Quizlet raised $30M in Series C funding on May 13, 2020, led by General
+      Atlantic, at a $1 billion valuation, making it a unicorn
+    source: TechCrunch, PR Newswire, Crunchbase
+    date: '2020-05-13'
+    confidence: explicit_statement
+  - fact: Quizlet has raised total funding of $62M over 4 rounds from 7 investors
+    source: Tracxn, Crunchbase
+    date: '2024-10-06'
+    confidence: explicit_statement
+  - fact: Quizlet was profitable by 2009, operating with a paid subscription model
+      after being fully bootstrapped for its first 10 years (2005-2015)
+    source: EdSurge
+    date: '2009-01-01'
+    confidence: explicit_statement
+  - fact: Quizlet generated $18M in revenue as of July 2018
+    source: Getlatka
+    date: '2018-07-01'
+    confidence: explicit_statement
+  - fact: Quizlet's revenue reached $55M in December 2023
+    source: Getlatka
+    date: '2023-12-01'
+    confidence: explicit_statement
+  - fact: Quizlet hit $80M in revenue in October 2024
+    source: Getlatka, Zippia
+    date: '2024-10-01'
+    confidence: explicit_statement
+  - fact: As of May 2020, Quizlet's revenue was growing 100% year-over-year
+    source: TechCrunch
+    date: '2020-05-13'
+    confidence: explicit_statement
+  - fact: Quizlet had approximately 40 employees in 2016 and grew to 300+ employees
+      during Matthew Glotzbach's tenure as CEO (2016-2024)
+    source: Quizlet Blog, Berkeley Exec Ed
+    date: '2016-05-01'
+    confidence: explicit_statement
+  - fact: 'Quizlet has between 304-501 employees as of 2024 according to multiple
+      sources (Zippia: 304, LeadIQ: 501, Getlatka: 472, Tracxn: 201-500)'
+    source: Zippia, LeadIQ, Getlatka, Tracxn
+    date: '2024-07-01'
+    confidence: explicit_statement
+  - fact: Quizlet conducted layoffs in 2023-2024, with Glassdoor reviews mentioning
+      employee concerns about 'pro layoffs' culture, lack of company stability, and
+      frequent layoffs affecting workers within one year of starting
+    source: Glassdoor Reviews
+    date: '2023-03-28'
+    confidence: explicit_statement
+  - fact: Kurt Beidler was appointed as Quizlet's new CEO in July 2024, succeeding
+      Matthew Glotzbach who joined the company as CEO in May 2016 and transitioned
+      to the board of directors
+    source: PR Newswire, TechCrunch
+    date: '2024-07-22'
+    confidence: explicit_statement
+  - fact: Quizlet acquired Slader, an online platform offering detailed textbook explanations,
+      on March 25, 2021 for an undisclosed amount
+    source: Crunchbase, Yahoo Finance
+    date: '2021-03-25'
+    confidence: explicit_statement
+  - fact: Quizlet had over 50 million monthly active users as of October 2018, up
+      from 30 million one year prior
+    source: TechCrunch
+    date: '2018-10-25'
+    confidence: explicit_statement
+  - fact: As of May 2020, Quizlet had over 60 million monthly active users and had
+      created more than 400 million virtual study guides, with students asking over
+      1 billion questions per week on the platform
+    source: TechCrunch, PR Newswire
+    date: '2020-05-13'
+    confidence: explicit_statement
+  - fact: Quizlet serves 2 out of 3 US high school students and 1 out of 2 US college
+      students
+    source: TechCrunch, PR Newswire
+    date: '2020-05-13'
+    confidence: explicit_statement
+  - fact: As of December 2021, Quizlet has over 500 million user-generated flashcard
+      sets and more than 60 million active users
+    source: Wikipedia
+    date: '2021-12-01'
+    confidence: explicit_statement
+  - fact: Quizlet has approximately 1 million paying customers as of 2024
+    source: Getlatka
+    date: '2024-10-01'
+    confidence: explicit_statement
+  - fact: Quizlet moved many previously free features (including Learn mode, Test
+      mode, and Slader explanations) behind a paywall requiring Quizlet Plus subscription
+      ($35.99/year or $7.99/month), causing significant user backlash and complaints
+      about the platform becoming 'predatory' toward students
+    source: The Catalyst, StudyGenie, My Engineering Buddy Blog, BFA Mercury
+    date: '2023-01-01'
+    confidence: explicit_statement
+  - fact: During Matthew Glotzbach's CEO tenure (2016-2024), Quizlet's monthly active
+      students grew by 600% to over 75M, revenue increased by over 30x, and company
+      value increased by 15x to over $1 billion
+    source: Berkeley Exec Ed
+    date: '2024-07-22'
+    confidence: explicit_statement
+  missing_information:
+  - Current burn rate not publicly disclosed
+  - Exact profitability status (2023-2025) unclear - while profitable in 2009 and
+    described as having 'healthy business fundamentals' in 2020, current status unknown
+  - Specific layoff numbers - exact number of employees laid off in 2023-2024 events
+    not disclosed publicly
+  - Slader acquisition price not disclosed
+  - ARR (Annual Recurring Revenue) specific figures not publicly available
+  - Customer churn rate not available
+  - Recent valuation changes - current valuation (post-2020) not publicly disclosed;
+    may have changed since $1B valuation in 2020
+  - Specific revenue breakdown - split between free vs. paid users, advertising revenue
+    vs. subscription revenue not disclosed
+  - Cash position - current cash reserves or balance sheet information not available
+    for private company
+  - Market share - precise market share in edtech/study tools sector not quantified
+market_position:
+  facts_found:
+  - fact: Quizlet's mission is to help students (and their teachers) practice and
+      master whatever they are learning through engaging, customizable activities
+      with contributions from people everywhere
+    source: Comparably - Quizlet Mission, Vision & Values
+    date: '2025-10-06'
+    confidence: explicit_statement
+  - fact: Quizlet operates as a freemium educational technology platform providing
+      flashcards, quizzes, diagrams, and audio lessons with both free and paid tiers;
+      the platform contains over 400 million user-generated study sets
+    source: Common Sense Media, Formaloo blog, Jotform blog
+    date: '2025-10-06'
+    confidence: explicit_statement
+  - fact: Quizlet offers multiple study modes including Flashcards, Learn mode, Test
+      mode, Match game, Spaced Repetition, and Quizlet Live (collaborative classroom
+      game), though many premium features like Learn and Test modes that were previously
+      free became paywalled in January 2023
+    source: Slides with Friends blog, Forms.app blog, Common Sense Education
+    date: '2023-01-01'
+    confidence: explicit_statement
+  - fact: Quizlet reached 50 million monthly active users (MAU) as of October 2018,
+      up from 30 million one year prior, and by 2023 reported 60 million monthly active
+      users
+    source: TechCrunch (October 2018), Canvas Business Model analysis (2023)
+    date: '2018-10-25'
+    confidence: explicit_statement
+  - fact: Quizlet serves users from over 130 countries and offers its platform in
+      more than 15 languages including English, Spanish, French, German, and Italian
+    source: Canvas Business Model analysis, TechCrunch
+    date: '2023-01-01'
+    confidence: explicit_statement
+  - fact: Quizlet's primary target market includes K-12 students, college/university
+      students, and their teachers, with 56% of users aged 18-24 identifying as non-white,
+      making it a diverse educational platform
+    source: Quizlet Media Kit (Comscore Media Metrix Multi-Platform data, February
+      2022)
+    date: '2022-02-01'
+    confidence: explicit_statement
+  - fact: 'According to Quizlet''s own data, 90% of students who use Quizlet report
+      getting higher grades, and the platform ranks #1 in Comscore''s Education Category
+      for unique visitors among persons aged 18-24'
+    source: Quizlet Media Kit, Common Sense Education, Formaloo blog
+    date: '2022-01-01'
+    confidence: explicit_statement
+  - fact: Quizlet operates on a freemium model with a free tier (with ads and limited
+      features) and Quizlet Plus subscription at approximately $35.99/year or $11.99/month
+      for individual users, and Quizlet Plus for teachers at similar pricing with
+      additional classroom management features
+    source: Quizlet Help Center, My Engineering Buddy blog, StudyDrome review, GetApp
+    date: '2024-01-01'
+    confidence: explicit_statement
+  - fact: Quizlet's main competitors include Anki (open-source flashcard app with
+      spaced repetition), Brainscape (premium flashcard platform), Kahoot! (gamified
+      learning platform), Knowt (free Quizlet alternative), StudyBlue, Quizizz, and
+      Course Hero
+    source: Medium articles, SurveySparrow blog, Jotform blog, G2 comparisons
+    date: '2024-01-01'
+    confidence: explicit_statement
+  - fact: Quizlet's key competitive advantages include a massive library of 400 million
+      user-generated study sets and strong brand recognition, but competitors criticize
+      Quizlet for recent pricing changes, with Anki praised for superior spaced repetition
+      algorithms and Knowt gaining traction as a free alternative with previously-paid
+      Quizlet features offered at no cost
+    source: Knowt website, Medium comparison articles, Student Doctor Network forums,
+      TriviaMaker blog
+    date: '2024-01-01'
+    confidence: explicit_statement
+  - fact: Quizlet has a TrustPilot rating of 1.4 out of 5 stars based on 573 reviews,
+      with customers complaining about excessive ads, paywalled features, subscription
+      cancellation difficulties, and recent feature limitations
+    source: TrustPilot review page for Quizlet
+    date: '2025-10-06'
+    confidence: explicit_statement
+  - fact: On Capterra, Quizlet receives higher ratings with reviews praising its ease
+      of use and variety of study activities, though some users express frustration
+      with the shift from free to paid features; on G2, Quizlet rates 4.5/5 stars
+      with 213 reviews
+    source: Capterra reviews, G2 comparison pages
+    date: '2025-10-06'
+    confidence: explicit_statement
+  - fact: Quizlet is GDPR compliant with a dedicated Privacy team and participates
+      in EU-US Privacy Shield Framework and Swiss-US Privacy Shield Framework, using
+      standard contractual clauses for international data transfers and maintaining
+      a bug bounty program for security
+    source: Quizlet Help Center - GDPR compliance page
+    date: '2025-10-06'
+    confidence: explicit_statement
+  missing_information:
+  - SOC 2 or ISO 27001 certification - while GDPR compliance confirmed, no explicit
+    information found regarding SOC 2 Type I/II certification or ISO 27001 certification
+  - Specific market share percentage - while usage statistics (60M MAU) and revenue
+    ($80M) were found, no specific market share percentage or competitive positioning
+    data within education technology sector available
+  - Detailed geographic revenue breakdown - while Quizlet operates in 130+ countries,
+    specific revenue or user distribution by geographic region not available
+  - Detailed breakdown of free vs. paid user conversion rates not publicly available
+  - Exact pricing for enterprise/school district bulk licenses not detailed in public
+    sources
+organizational_stability:
+  facts_found:
+  - fact: Kurt Beidler is the current Chief Executive Officer of Quizlet, appointed
+      in July 2024
+    source: PR Newswire, Wikipedia
+    date: '2024-07-22'
+    confidence: explicit_statement
+  - fact: Kurt Beidler previously served as co-CEO of Zwift and spent 17 years at
+      Amazon where he built and ran Amazon Kids & Kids+
+    source: PR Newswire
+    date: '2024-07-22'
+    confidence: explicit_statement
+  - fact: Matthew Glotzbach served as CEO of Quizlet from May 2016 to July 2024 and
+      joined the board of directors after stepping down
+    source: Wikipedia, PR Newswire
+    date: '2024-07-22'
+    confidence: explicit_statement
+  - fact: Lex Bayer served as CEO from November 2022 to July 2024, replacing Matthew
+      Glotzbach before being replaced by Kurt Beidler
+    source: Wikipedia
+    date: '2022-11-01'
+    confidence: explicit_statement
+  - fact: Andrew Sutherland founded Quizlet in 2005 at age 15 and served as founder/CTO
+      until leaving the company in 2020 at age 30
+    source: Wikipedia
+    date: '2020-01-01'
+    confidence: explicit_statement
+  - fact: Tim Miller serves as SVP Engineering at Quizlet
+    source: Comparably, Crunchbase
+    date: '2024-01-01'
+    confidence: explicit_statement
+  - fact: Nitin Gupta serves as VP Product Management at Quizlet, starting in September
+      2017
+    source: Comparably
+    date: '2017-09-01'
+    confidence: explicit_statement
+  - fact: Thompson Paine serves as VP Operations at Quizlet
+    source: Comparably
+    date: '2024-01-01'
+    confidence: explicit_statement
+  - fact: Tom Lancaster serves as Senior Director of Data Engineering at Quizlet
+    source: Crunchbase, Clay
+    date: '2024-01-01'
+    confidence: explicit_statement
+  - fact: Mark Selcow serves as Chairman of the Board at Quizlet
+    source: PR Newswire
+    date: '2024-07-22'
+    confidence: explicit_statement
+  - fact: Board members include Fred Wilson, Greg Sands, David Margulius (founder),
+      Shannon Brayton, Matthew Glotzbach, and Jessie Woolley-Wilson
+    source: Crunchbase, PR Newswire
+    date: '2024-01-01'
+    confidence: explicit_statement
+  - fact: Jessie Woolley-Wilson was appointed to Quizlet's board of directors in March
+      2021; she is President and CEO of DreamBox Learning
+    source: PR Newswire
+    date: '2021-03-01'
+    confidence: explicit_statement
+  - fact: Quizlet is headquartered at 123 Townsend St, Suite 600, San Francisco, CA
+      94107
+    source: LinkedIn, ZoomInfo, Craft.co, LeadIQ
+    date: '2024-01-01'
+    confidence: explicit_statement
+  - fact: Quizlet has office locations in San Francisco, Denver (Colorado), London
+      (UK), and New York
+    source: LinkedIn, Wikipedia
+    date: '2024-01-01'
+    confidence: explicit_statement
+  - fact: Quizlet has between 304-547 employees according to various sources (estimates
+      vary by source and date)
+    source: Zippia (304), Getlatka (472), PitchBook (497), LeadIQ (547 as of August
+      2025)
+    date: '2024-01-01'
+    confidence: implied
+  - fact: Quizlet has a Glassdoor rating of 3.5 out of 5 stars based on 96-149 employee
+      reviews
+    source: Glassdoor
+    date: '2025-01-01'
+    confidence: explicit_statement
+  - fact: 'On Glassdoor, Quizlet received the following specific ratings: Work-life
+      balance 3.5/5, Culture and values 3.1/5, Career opportunities 3.4/5, Compensation
+      and benefits 3.6/5'
+    source: Glassdoor
+    date: '2025-01-01'
+    confidence: explicit_statement
+  - fact: 47% of Quizlet employees would recommend working there to a friend based
+      on Glassdoor reviews
+    source: Glassdoor
+    date: '2025-01-01'
+    confidence: explicit_statement
+  - fact: 45% of employees think that Quizlet has a positive business outlook according
+      to Glassdoor
+    source: Glassdoor
+    date: '2025-01-01'
+    confidence: explicit_statement
+  - fact: Quizlet received Great Place to Work Certification with 96% of employees
+      saying it is a great place to work, compared to 59% at a typical U.S. company
+    source: Great Place to Work, Quizlet Careers page
+    date: '2021-01-01'
+    confidence: explicit_statement
+  - fact: The Quizlet Executive Team is rated a 'B' with a score of 75/100 on Comparably
+    source: Comparably
+    date: '2024-01-01'
+    confidence: explicit_statement
+  - fact: Quizlet offers employees 20 days of PTO, a minimum of 10 paid holidays,
+      and 5 volunteer days off
+    source: Quizlet Careers page
+    date: '2024-01-01'
+    confidence: explicit_statement
+  - fact: Quizlet provides comprehensive health, dental, vision and disability plans
+      with 100% paid premiums for employees and 75% for dependents
+    source: Quizlet Careers page
+    date: '2024-01-01'
+    confidence: explicit_statement
+  - fact: Employee reviews on Glassdoor mention that Quizlet supports remote work
+      and has a positive stance on remote work policy
+    source: Glassdoor employee reviews
+    date: '2024-01-01'
+    confidence: implied
+  - fact: Some Glassdoor reviews from 2025 mention concerns about the new CEO showing
+      preference for people coming into the office and potentially limiting remote
+      work
+    source: Glassdoor employee reviews
+    date: '2025-01-01'
+    confidence: implied
+  - fact: 'Quizlet has had three CEO changes since 2022: Matt Glotzbach (2016-2022),
+      Lex Bayer (Nov 2022-July 2024), and Kurt Beidler (July 2024-present)'
+    source: Wikipedia, PR Newswire
+    date: '2024-07-22'
+    confidence: explicit_statement
+  - fact: Glassdoor reviews mention 'lots of churn in engineering' with five directors
+      let go in recent months
+    source: Glassdoor employee review
+    date: '2024-01-01'
+    confidence: implied
+  - fact: Quizlet is valued at $1 billion and backed by Union Square Ventures, Costanoa
+      Ventures, Icon Ventures, Owl Ventures, Altos Ventures, and General Atlantic
+    source: LinkedIn, Tracxn, PitchBook
+    date: '2020-05-13'
+    confidence: explicit_statement
+  missing_information:
+  - Current CTO identity - Andrew Sutherland was founder/CTO until 2020, but no clear
+    successor has been publicly identified
+  - Specific remote/hybrid work policy details - while employee reviews mention remote
+    work, no official company policy document or clear hybrid model specification
+    was found (job postings mention Monday-Wednesday-Thursday in-office requirement)
+  - Complete C-suite roster - CFO, CMO, and other C-level executives beyond CEO not
+    clearly identified in public sources
+  - Recent layoff details - employee reviews mention director terminations but no
+    official announcements or specific numbers/dates found
+  - Employee count precision - sources vary significantly (304-547 employees) with
+    no single authoritative current figure
+  - Detailed breakdown of Glassdoor review themes - while overall ratings available,
+    comprehensive analysis of specific pros/cons themes not fully accessible
+  - Board size and complete member list - partial board member information available
+    but total board size not explicitly stated
+  - Executive tenure details - start dates for current VPs and directors not consistently
+    available
+  - Work location distribution - percentage of employees in each office location not
+    available
+  - Recent executive hires (2024-2025) - beyond CEO appointment, other recent senior
+    leadership additions not found
+technical_culture:
+  facts_found:
+  - fact: Quizlet's web application is written in PHP and is single-threaded and does
+      not support async operations
+    source: Quizlet engineering blog - BigQuery data pipeline post
+    date: '2019-11-26'
+    confidence: explicit_statement
+  - fact: Quizlet uses Go (Golang) for their Eventlogger service that processes 287
+      million events per day (~3,320 per second)
+    source: Quizlet blog post '287 million events/day and 1 engineer'
+    date: '2019-11-26'
+    confidence: explicit_statement
+  - fact: Quizlet Web tech stack includes GitHub, React, Google Analytics, TypeScript,
+      and NGINX
+    source: StackShare - Quizlet Web page
+    date: '2024-01-01'
+    confidence: explicit_statement
+  - fact: Quizlet uses Stylus (CSS preprocessor) and Webpack as module bundler for
+      frontend development
+    source: GitHub - Quizlet repositories (stylus-loader, webpack)
+    date: '2024-01-01'
+    confidence: explicit_statement
+  - fact: Quizlet uses HHVM (HipHop Virtual Machine) for running PHP code
+    source: GitHub - Quizlet/hhvm-autoload and fb_intercept_polyfill repositories
+    date: '2024-01-01'
+    confidence: explicit_statement
+  - fact: Quizlet uses MySQL for production data storage
+    source: Quizlet engineering blog - data pipeline post
+    date: '2019-11-26'
+    confidence: explicit_statement
+  - fact: Quizlet uses Google BigQuery as their data warehouse for analytics, processing
+      287 million events per day
+    source: Quizlet engineering blog post on data pipeline
+    date: '2019-11-26'
+    confidence: explicit_statement
+  - fact: Quizlet uses Kubernetes for container orchestration
+    source: Job posting for Sr. Software Engineer, Data/ML Platform mentioning 'cloud
+      platforms like Kubernetes'
+    date: '2024-01-01'
+    confidence: explicit_statement
+  - fact: Quizlet uses ArgoCD for deployment and maintains an open-source GitHub action
+      for ArgoCD diff generation
+    source: GitHub - quizlet/argocd-diff-action repository
+    date: '2024-01-01'
+    confidence: explicit_statement
+  - fact: Quizlet upgraded to require TLS 1.2 or higher security protocol on June
+      30, 2018
+    source: Quizlet engineering blog
+    date: '2018-06-30'
+    confidence: explicit_statement
+  - fact: Quizlet uses Cypress for end-to-end testing of web applications
+    source: 'Quizlet engineering blog post ''Cypress: The future of end-to-end testing
+      for web applications'''
+    date: '2018-02-06'
+    confidence: explicit_statement
+  - fact: Quizlet uses PHPUnit for PHP testing and maintains phpunit-hhi for HHVM
+      compatibility
+    source: GitHub - quizlet/phpunit-hhi repository
+    date: '2024-01-01'
+    confidence: explicit_statement
+  - fact: Quizlet had a 20-person engineering team as of 2019, with a single engineer
+      building the entire data pipeline
+    source: Quizlet engineering blog - BigQuery data pipeline post
+    date: '2019-11-26'
+    confidence: explicit_statement
+  - fact: Quizlet has a Data Services team that empowers product engineers and data
+      scientists by developing backend services, ML infrastructure, experimentation
+      platform, and event streaming architecture
+    source: Job posting for Sr. Software Engineer, Data/ML Platform
+    date: '2024-01-01'
+    confidence: explicit_statement
+  - fact: Quizlet conducts 'Bug Week' events where the team fixes bugs collectively
+      (87 bugs fixed in one Bug Week)
+    source: Quizlet blog 'Inside Quizlet' page
+    date: '2013-11-07'
+    confidence: explicit_statement
+  - fact: Quizlet follows a hybrid work model requiring employees to be in office
+      Monday, Wednesday, and Thursday
+    source: Multiple job postings on Lever
+    date: '2025-01-01'
+    confidence: explicit_statement
+  - fact: Quizlet's engineering interview process includes practical coding (non-LeetCode
+      style), code review practice, and design interviews
+    source: Glassdoor interview reviews
+    date: '2023-01-01'
+    confidence: explicit_statement
+  - fact: Quizlet launched Q-Chat in March 2023, the first fully-adaptive AI tutor
+      built on OpenAI's ChatGPT API, but discontinued it in June 2025
+    source: Quizlet blog announcement and AI study era post
+    date: '2023-03-23'
+    confidence: explicit_statement
+  - fact: Quizlet has collaborated with OpenAI since 2020, leveraging GPT-3 for vocabulary
+      learning and practice tests
+    source: PR Newswire - Q-Chat announcement
+    date: '2023-03-23'
+    confidence: explicit_statement
+  - fact: Quizlet's Learn Mode launched in 2017 uses AI and machine learning to provide
+      personalized and adaptive study experiences
+    source: PR Newswire and Quizlet announcements
+    date: '2017-01-01'
+    confidence: explicit_statement
+  - fact: Quizlet's Smart Grading feature launched in 2020 and was recognized by Fast
+      Company as one of the Next Big Things in social good and education
+    source: Multiple PR releases about Q-Chat
+    date: '2020-01-01'
+    confidence: explicit_statement
+  - fact: Quizlet launched Magic Notes in August 2023, an AI-powered tool that converts
+      class notes into flashcards and practice tests
+    source: PR Newswire - AI-powered tools announcement
+    date: '2023-08-08'
+    confidence: explicit_statement
+  - fact: Andrew Sutherland is the Founder and CTO of Quizlet, having started the
+      company in October 2005
+    source: Comparably and TheOrg executive profiles
+    date: '2005-10-01'
+    confidence: explicit_statement
+  - fact: Tim A. Miller serves as VP Engineering at Quizlet, having joined in 2016
+      from Flickr where he was Sr. Director of Engineering
+    source: Medium post 'Why I'm Joining Quizlet' by Tim A. Miller and TheOrg
+    date: '2016-01-01'
+    confidence: explicit_statement
+  - fact: Quizlet maintains several open-source repositories on GitHub including argocd-diff-action,
+      php-optparse, stylus-loader, and iOS testing libraries (SWHttpTrafficRecorder,
+      OHHTTPStubs)
+    source: GitHub - Quizlet organization page
+    date: '2024-01-01'
+    confidence: explicit_statement
+  - fact: 'Quizlet maintains two engineering blogs: quizlet.com/blog/engineering and
+      medium.com/tech-quizlet, though the Medium blog appears inactive recently'
+    source: Web search results
+    date: '2024-01-01'
+    confidence: explicit_statement
+  - fact: Recent Quizlet engineering blog posts include topics on BigQuery data pipeline,
+      Cypress testing, ProxySQL for database scaling, and TLS security upgrades
+    source: Quizlet engineering blog page
+    date: '2018-01-01'
+    confidence: explicit_statement
+  missing_information:
+  - Current engineering team size - only found 2019 reference to 20-person team; with
+    total employee count of 300-500, engineering team likely larger now but specific
+    number not disclosed
+  - Specific cloud provider details - though BigQuery suggests Google Cloud Platform
+    is used, comprehensive cloud infrastructure details not available
+  - Recent conference talks or technical presentations by Quizlet engineers (2023-2025)
+    - none found
+  - Specific agile methodologies or sprint practices - development process details
+    not publicly documented
+  - Detailed CI/CD pipeline beyond ArgoCD - full deployment and continuous integration
+    process not described
+  - Android tech stack specifics beyond general mobile development - specific frameworks
+    and languages for Android not documented
+  - Current publication frequency of engineering blog - appears low/inactive in recent
+    years (2020-2025)
+  - Specific ML model architectures or frameworks used - while AI/ML features exist,
+    technical implementation details not shared
+  - Database scaling solutions beyond ProxySQL mentions - comprehensive data infrastructure
+    architecture not available
+  - Detailed hiring metrics or interview pass rates not publicly available
+summary:
+  total_facts_found: 84
+  information_completeness: high
+  most_recent_data_point: '2025-10-06'
+  oldest_data_point: '2005-10-01'
