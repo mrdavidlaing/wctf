@@ -103,3 +103,60 @@ summary:
 ## Time Limit
 
 Complete research within 5 minutes. If interrupted, save partial results with appropriate notes in missing_information sections.
+
+## Complete YAML Example
+
+Here's a complete example showing the exact structure required:
+
+```yaml
+company: "{company_name}"
+research_date: "{research_date}"
+
+financial_health:
+  facts_found:
+    - fact: "Series A funding of $10 million raised"
+      source: "TechCrunch"
+      date: "2024-01-15"
+      confidence: "explicit_statement"
+    - fact: "Annual revenue of $2M in 2024"
+      source: "Company blog"
+      date: "2024-12-31"
+      confidence: "implied"
+  missing_information:
+    - "Burn rate not publicly disclosed"
+    - "Profitability status unknown"
+
+market_position:
+  facts_found:
+    - fact: "Provides cloud infrastructure for developers"
+      source: "Company website"
+      date: "{research_date}"
+      confidence: "explicit_statement"
+  missing_information:
+    - "Market share percentage unknown"
+
+organizational_stability:
+  facts_found:
+    - fact: "CEO Jane Smith, tenure since 2020"
+      source: "LinkedIn"
+      date: "{research_date}"
+      confidence: "explicit_statement"
+  missing_information:
+    - "Recent layoffs or restructuring unclear"
+
+technical_culture:
+  facts_found:
+    - fact: "Primary tech stack is Python and Go"
+      source: "Engineering blog"
+      date: "2024-08-01"
+      confidence: "explicit_statement"
+  missing_information: []
+
+summary:
+  total_facts_found: 5
+  information_completeness: "medium"
+  most_recent_data_point: "{research_date}"
+  oldest_data_point: "2024-01-15"
+```
+
+**IMPORTANT**: All four category sections (financial_health, market_position, organizational_stability, technical_culture) and the summary section are REQUIRED, even if some have empty facts_found arrays.

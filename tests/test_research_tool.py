@@ -310,6 +310,15 @@ research_date: "2025-10-02"
 financial_health:
   facts_found: []
   missing_information: []
+market_position:
+  facts_found: []
+  missing_information: []
+organizational_stability:
+  facts_found: []
+  missing_information: []
+technical_culture:
+  facts_found: []
+  missing_information: []
 """
 
         result = save_research_results(
@@ -321,6 +330,29 @@ financial_health:
         assert result["success"] is False
         assert "error" in result
         assert "summary" in result["error"].lower()
+
+    def test_missing_categories(self, temp_data_dir):
+        """Test handling of YAML missing required categories."""
+        yaml_missing_cats = """company: "MissingCatsCorp"
+research_date: "2025-10-02"
+financial_health:
+  facts_found: []
+  missing_information: []
+summary:
+  total_facts_found: 0
+  information_completeness: "low"
+"""
+
+        result = save_research_results(
+            company_name="MissingCatsCorp",
+            yaml_content=yaml_missing_cats,
+            base_path=temp_data_dir
+        )
+
+        assert result["success"] is False
+        assert "error" in result
+        assert "missing required category sections" in result["error"].lower()
+        assert "market_position" in result["error"]
 
     def test_empty_yaml_content(self, temp_data_dir):
         """Test handling of empty YAML content."""

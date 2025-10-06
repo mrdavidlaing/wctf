@@ -141,9 +141,46 @@ async def save_research_results_tool(company_name: str, yaml_content: str, ctx: 
     to the appropriate company directory. Use this after completing research
     from get_research_prompt.
 
+    IMPORTANT: yaml_content must be a complete YAML string following this exact structure:
+
+    ```yaml
+    company: "CompanyName"
+    research_date: "YYYY-MM-DD"
+
+    financial_health:
+      facts_found:
+        - fact: "Descriptive statement"
+          source: "Source citation"
+          date: "YYYY-MM-DD"
+          confidence: "explicit_statement"
+      missing_information:
+        - "What's missing"
+
+    market_position:
+      facts_found: [...]
+      missing_information: [...]
+
+    organizational_stability:
+      facts_found: [...]
+      missing_information: [...]
+
+    technical_culture:
+      facts_found: [...]
+      missing_information: [...]
+
+    summary:
+      total_facts_found: 42
+      information_completeness: "high"
+      most_recent_data_point: "YYYY-MM-DD"
+      oldest_data_point: "YYYY-MM-DD"
+    ```
+
+    All four categories (financial_health, market_position, organizational_stability,
+    technical_culture) and the summary section are REQUIRED.
+
     Args:
         company_name: Name of the company
-        yaml_content: YAML content as a string (the research results)
+        yaml_content: Complete YAML content as a string (the research results)
     """
     await ctx.info(f"Saving research results for company: {company_name}")
     logger.info(f"save_research_results_tool called for: {company_name}")

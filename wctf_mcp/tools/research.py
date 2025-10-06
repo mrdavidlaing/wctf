@@ -156,9 +156,15 @@ def save_research_results(
         try:
             facts_data = yaml.safe_load(yaml_content)
         except yaml.YAMLError as e:
+            # Show first 200 chars of what was received to help debug
+            preview = yaml_content[:200] + "..." if len(yaml_content) > 200 else yaml_content
             return {
                 "success": False,
-                "error": f"Failed to parse YAML content: {str(e)}",
+                "error": (
+                    f"Failed to parse YAML content: {str(e)}\n\n"
+                    f"Received content (first 200 chars):\n{preview}\n\n"
+                    f"Make sure the content is valid YAML format."
+                ),
                 "company_name": company_name,
             }
 
@@ -166,14 +172,66 @@ def save_research_results(
         if not isinstance(facts_data, dict):
             return {
                 "success": False,
-                "error": "YAML content is not a valid dictionary",
+                "error": (
+                    "YAML content is not a valid dictionary. "
+                    "Expected a YAML object with company, research_date, category sections, and summary."
+                ),
                 "company_name": company_name,
             }
+
+        # Check for required categories
+        required_categories = ['financial_health', 'market_position', 'organizational_stability', 'technical_culture']
+        missing_categories = [cat for cat in required_categories if cat not in facts_data]
+
+        if missing_categories:
+            return {
+                "success": False,
+                "error": (
+                    f"YAML content missing required category sections: {', '.join(missing_categories)}. "
+                    f"All four categories are required: financial_health, market_position, "
+                    f"organizational_stability, technical_culture. "
+                    f"Found sections: {', '.join(facts_data.keys())}"
+                ),
+                "company_name": company_name,
+            }
+
+        # Validate each category has facts_found (or accept 'facts' as alias)
+        for category in required_categories:
+            cat_data = facts_data[category]
+            if not isinstance(cat_data, dict):
+                return {
+                    "success": False,
+                    "error": (
+                        f"Category '{category}' must be a dictionary with 'facts_found' and 'missing_information' fields. "
+                        f"Got: {type(cat_data).__name__}"
+                    ),
+                    "company_name": company_name,
+                }
+
+            # Accept both 'facts_found' and 'facts' as valid keys
+            if 'facts_found' not in cat_data and 'facts' not in cat_data:
+                return {
+                    "success": False,
+                    "error": (
+                        f"Category '{category}' missing 'facts_found' array. "
+                        f"Each category must have a 'facts_found' array (or 'facts') containing research findings. "
+                        f"Found keys: {', '.join(cat_data.keys())}"
+                    ),
+                    "company_name": company_name,
+                }
+
+            # Normalize 'facts' to 'facts_found' if needed
+            if 'facts' in cat_data and 'facts_found' not in cat_data:
+                cat_data['facts_found'] = cat_data.pop('facts')
 
         if "summary" not in facts_data:
             return {
                 "success": False,
-                "error": "YAML content missing required 'summary' section",
+                "error": (
+                    "YAML content missing required 'summary' section. "
+                    "Summary must include: total_facts_found, information_completeness, "
+                    "most_recent_data_point, oldest_data_point"
+                ),
                 "company_name": company_name,
             }
 
