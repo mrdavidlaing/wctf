@@ -432,3 +432,28 @@ summary:
 
         companies = list_companies(base_path=temp_data_dir)
         assert "ListTestCorp" in companies
+
+
+# NOTE: Deduplication Workflow (LLM Responsibility)
+# ==================================================
+# The save_research_results function will MERGE new facts with existing facts
+# by concatenating the facts_found arrays. To prevent duplicates, the calling
+# LLM is instructed (via tool docstring) to:
+#
+# 1. Call get_company_facts_tool() first to retrieve existing facts
+# 2. Semantically compare new research against existing facts
+# 3. For duplicates (same information, different wording):
+#    - Combine sources: "Source A; Source B"
+#    - Use the most recent date
+#    - Keep the clearest wording
+# 4. Only include genuinely new or enhanced facts in yaml_content
+#
+# This approach leverages the LLM's semantic understanding rather than
+# implementing brittle text-matching logic. The tool itself remains simple
+# and just performs the mechanical merge operation.
+#
+# Expected workflow example:
+# - Existing: "Revenue of $5B (TechCrunch, 2024-01-15)"
+# - New research finds: "Company revenue is $5 billion (10-K, 2024-03-01)"
+# - LLM should deduplicate and merge as: "Revenue of $5B (TechCrunch; 10-K, 2024-03-01)"
+# - Only this merged fact gets included in yaml_content passed to save tool

@@ -80,7 +80,12 @@ def get_research_prompt(company_name: str) -> Dict[str, str]:
             f"STOP: Before executing this research, ask the user to enable Research mode "
             f"in Claude Desktop (the Research toggle/button in the UI). "
             f"Wait for them to confirm 'ready', then proceed with the research prompt below. "
-            f"After completing research, save results with save_research_results_tool."
+            f"\n\n"
+            f"After completing research:\n"
+            f"1. Check if company already has facts: call get_company_facts_tool('{company_name}')\n"
+            f"2. If existing facts found, semantically compare to avoid duplicates\n"
+            f"3. Merge duplicate facts (combine sources, use latest date)\n"
+            f"4. Save only new or enhanced facts with save_research_results_tool"
         )
 
         return {

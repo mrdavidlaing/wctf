@@ -141,6 +141,26 @@ async def save_research_results_tool(company_name: str, yaml_content: str, ctx: 
     to the appropriate company directory. Use this after completing research
     from get_research_prompt.
 
+    IMPORTANT - DEDUPLICATION WORKFLOW:
+    Before calling this tool, you MUST follow this workflow to avoid duplicates:
+
+    1. Call get_company_facts_tool(company_name) to retrieve existing facts
+    2. Compare your new research against the existing facts semantically
+    3. For duplicate facts (same information, even if worded differently):
+       - Combine sources: "Source A; Source B"
+       - Use the most recent date
+       - Keep the clearest wording
+    4. Only include in yaml_content:
+       - Genuinely new facts not present in existing data
+       - Enhanced facts (same info but better source/date)
+
+    Example: If existing has "Revenue of $5B (TechCrunch, 2024-01-15)" and you
+    found "Company revenue is $5 billion (10-K filing, 2024-03-01)", merge them as:
+    "Revenue of $5B (TechCrunch; 10-K filing, 2024-03-01)"
+
+    This tool will merge your new facts with existing ones, so proper deduplication
+    before saving keeps the data clean.
+
     IMPORTANT: yaml_content must be a complete YAML string following this exact structure:
 
     ```yaml
