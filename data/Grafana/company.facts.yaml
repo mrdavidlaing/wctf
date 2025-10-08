@@ -1,0 +1,58 @@
+company: Grafana Labs
+research_date: '2025-10-07'
+financial_health:
+  facts_found:
+  - fact: Completed Series D extension of $270 million in August 2024 at valuation
+      over $6 billion
+    source: Grafana Labs press release
+    date: '2024-08-21'
+    confidence: explicit_statement
+  - fact: Over $250 million ARR as of August 2024
+    source: Grafana Labs press release
+    date: '2024-08-21'
+    confidence: explicit_statement
+  - fact: Over 5,000 paying customers as of August 2024
+    source: Grafana Labs press release
+    date: '2024-08-21'
+    confidence: explicit_statement
+  - fact: 1,400+ team members as of August 2024
+    source: Grafana Labs press release
+    date: '2024-08-21'
+    confidence: explicit_statement
+  missing_information:
+  - Current profitability details
+  - Specific burn rate
+market_position:
+  facts_found:
+  - fact: Named Leader in 2025 Gartner Magic Quadrant for Observability Platforms
+    source: Grafana Labs press release
+    date: '2025-07-10'
+    confidence: explicit_statement
+  missing_information: []
+organizational_stability:
+  facts_found:
+  - fact: Raj Dutt is CEO and Co-Founder
+    source: Crunchbase
+    date: '2024-08-21'
+    confidence: explicit_statement
+  - fact: 100% remote-first company across 40+ countries
+    source: Grafana.com careers
+    date: '2025-10-07'
+    confidence: explicit_statement
+  missing_information: []
+technical_culture:
+  facts_found:
+  - fact: Primary languages are TypeScript and Go
+    source: GitHub repository
+    date: '2025-10-04'
+    confidence: explicit_statement
+  - fact: 897 total repositories on GitHub
+    source: GitHub grafana organization
+    date: '2025-10-07'
+    confidence: explicit_statement
+  missing_information: []
+summary:
+  total_facts_found: 9
+  information_completeness: high
+  most_recent_data_point: '2025-10-07'
+  oldest_data_point: '2013-12-05'
