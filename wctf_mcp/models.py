@@ -15,6 +15,14 @@ class ConfidenceLevel(str, Enum):
 
     EXPLICIT_STATEMENT = "explicit_statement"
     IMPLIED = "implied"
+    FIRSTHAND_ACCOUNT = "firsthand_account"
+
+
+class FactType(str, Enum):
+    """Types of facts from insider interviews."""
+
+    OBJECTIVE = "objective"
+    SUBJECTIVE = "subjective"
 
 
 class ImpactLevel(str, Enum):
@@ -63,6 +71,54 @@ class CompanyFacts(BaseModel):
     @field_serializer("research_date")
     def serialize_research_date(self, value: Date) -> str:
         """Serialize research_date as ISO format string."""
+        return value.isoformat()
+
+
+class InsiderFact(BaseModel):
+    """A single fact from an insider interview."""
+
+    fact: str = Field(..., description="The factual statement")
+    source: str = Field(..., description="Source with name and role (e.g., 'John Doe (Senior Engineer)')")
+    date: Date = Field(..., description="Date of the interview")
+    confidence: ConfidenceLevel = Field(..., description="Confidence level (should be firsthand_account)")
+    fact_type: FactType = Field(..., description="Type of fact: objective or subjective")
+    context: Optional[str] = Field(None, description="Additional context for the fact")
+
+
+class InsiderFactsCategory(BaseModel):
+    """A category of insider facts with found and missing information."""
+
+    facts_found: List[InsiderFact] = Field(default_factory=list, description="Facts found in this category")
+    missing_information: List[str] = Field(default_factory=list, description="Information not found")
+
+
+class InterviewMetadata(BaseModel):
+    """Metadata about an interview."""
+
+    name: str = Field(..., description="Interviewee name")
+    role: Optional[str] = Field(None, description="Interviewee role")
+    interview_date: Date = Field(..., description="Date of interview")
+
+    @field_serializer("interview_date")
+    def serialize_interview_date(self, value: Date) -> str:
+        """Serialize interview_date as ISO format string."""
+        return value.isoformat()
+
+
+class CompanyInsiderFacts(BaseModel):
+    """Complete insider facts structure for a company."""
+
+    company: str = Field(..., description="Company name")
+    last_updated: Date = Field(..., description="Date when last updated")
+    financial_health: InsiderFactsCategory = Field(..., description="Financial health facts")
+    market_position: InsiderFactsCategory = Field(..., description="Market position facts")
+    organizational_stability: InsiderFactsCategory = Field(..., description="Organizational stability facts")
+    technical_culture: InsiderFactsCategory = Field(..., description="Technical culture facts")
+    summary: Dict[str, Any] = Field(..., description="Summary including interview metadata")
+
+    @field_serializer("last_updated")
+    def serialize_last_updated(self, value: Date) -> str:
+        """Serialize last_updated as ISO format string."""
         return value.isoformat()
 
 

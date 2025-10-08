@@ -92,6 +92,20 @@ def get_flags_path(company_name: str, base_path: Optional[Path] = None) -> Path:
     return company_dir / "company.flags.yaml"
 
 
+def get_insider_facts_path(company_name: str, base_path: Optional[Path] = None) -> Path:
+    """Get the path to the company.insider.yaml file for a company.
+
+    Args:
+        company_name: Name of the company
+        base_path: Optional base path. If not provided, uses project root.
+
+    Returns:
+        Path to the company.insider.yaml file
+    """
+    company_dir = get_company_dir(company_name, base_path)
+    return company_dir / "company.insider.yaml"
+
+
 def list_companies(base_path: Optional[Path] = None) -> List[str]:
     """List all companies that have directories in the data folder.
 

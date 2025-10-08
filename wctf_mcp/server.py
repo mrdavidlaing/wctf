@@ -21,6 +21,9 @@ from wctf_mcp.tools.flags import (
     extract_flags,
     add_manual_flag,
 )
+from wctf_mcp.tools.insider import (
+    extract_insider_facts,
+)
 from wctf_mcp.tools.conversation import (
     get_conversation_questions,
 )
@@ -325,6 +328,68 @@ async def add_manual_flag_tool(
         await ctx.info(f"Flag added successfully")
     else:
         logger.warning(f"Failed to add flag for {company_name}: {result.get('error')}")
+        await ctx.warning(f"Error: {result.get('error')}")
+
+    return result
+
+
+@mcp.tool()
+async def extract_insider_facts_tool(
+    company_name: str,
+    transcript: str,
+    interview_date: str,
+    interviewee_name: str,
+    ctx: Context,
+    interviewee_role: str = None,
+    extracted_facts_yaml: str = None
+) -> dict:
+    """Extract facts from an insider interview transcript.
+
+    This tool works in two modes:
+    1. If extracted_facts_yaml is None: Returns an extraction prompt
+    2. If extracted_facts_yaml is provided: Processes and saves the extracted facts
+
+    Use this to convert insider interview transcripts into structured facts
+    stored in company.insider.yaml files. Facts are classified as objective
+    or subjective and include source attribution with interviewee name/role.
+
+    IMPORTANT: This is a one-shot operation. Call once with transcript to get
+    the extraction prompt, then call again with the extracted YAML to save.
+
+    Args:
+        company_name: Name of the company
+        transcript: Full transcript of the insider interview
+        interview_date: Date of interview in YYYY-MM-DD format
+        interviewee_name: Name of person interviewed (e.g., "Ahmad A")
+        interviewee_role: Optional role/title (e.g., "Senior Engineer, Observability")
+        extracted_facts_yaml: Optional YAML content with extracted facts (from LLM analysis)
+    """
+    if extracted_facts_yaml is None:
+        await ctx.info(f"Generating insider fact extraction prompt for {company_name}")
+        logger.info(f"extract_insider_facts_tool called (prompt mode) for: {company_name}")
+    else:
+        await ctx.info(f"Processing extracted insider facts for {company_name}")
+        logger.info(f"extract_insider_facts_tool called (save mode) for: {company_name}")
+
+    result = extract_insider_facts(
+        company_name=company_name,
+        transcript=transcript,
+        interview_date=interview_date,
+        interviewee_name=interviewee_name,
+        interviewee_role=interviewee_role,
+        extracted_facts_yaml=extracted_facts_yaml
+    )
+
+    if result.get("success"):
+        if extracted_facts_yaml:
+            facts_count = result.get("facts_count", 0)
+            logger.info(f"Successfully saved {facts_count} insider facts for {company_name}")
+            await ctx.info(f"Saved {facts_count} insider facts for {company_name}")
+        else:
+            logger.info(f"Extraction prompt generated for {company_name}")
+            await ctx.info(f"Prompt ready - analyze transcript and call again with YAML results")
+    else:
+        logger.warning(f"Error in extract_insider_facts for {company_name}: {result.get('error')}")
         await ctx.warning(f"Error: {result.get('error')}")
 
     return result
