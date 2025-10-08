@@ -29,6 +29,36 @@ def _load_research_prompt() -> str:
         return f.read()
 
 
+def _deduplicate_facts(facts_list: list) -> list:
+    """Remove exact duplicate facts while preserving order.
+
+    Deduplicates based on (fact, source, date) tuple to catch exact duplicates.
+    This is a safety net - the LLM should do semantic deduplication before saving.
+
+    Args:
+        facts_list: List of fact dictionaries
+
+    Returns:
+        List of unique facts, preserving order (keeps first occurrence)
+    """
+    unique_facts = []
+    seen = set()
+
+    for fact in facts_list:
+        # Create key from fact text, source, and date
+        fact_key = (
+            fact.get("fact", ""),
+            fact.get("source", ""),
+            str(fact.get("date", ""))
+        )
+
+        if fact_key not in seen:
+            seen.add(fact_key)
+            unique_facts.append(fact)
+
+    return unique_facts
+
+
 def get_research_prompt(company_name: str) -> Dict[str, str]:
     """Get the research prompt for a company.
 
@@ -250,6 +280,20 @@ def save_research_results(
             company_dir = ensure_company_dir(company_name, base_path=base_path)
             facts_path = get_facts_path(company_name, base_path=base_path)
 
+            # Deduplicate incoming facts (safety net for when LLM doesn't dedupe)
+            for category in ['financial_health', 'market_position', 'organizational_stability', 'technical_culture']:
+                if category in facts_data and 'facts_found' in facts_data[category]:
+                    facts_data[category]['facts_found'] = _deduplicate_facts(
+                        facts_data[category]['facts_found']
+                    )
+
+            # Update summary after deduplication
+            if 'summary' in facts_data:
+                facts_data['summary']['total_facts_found'] = sum(
+                    len(facts_data.get(cat, {}).get('facts_found', []))
+                    for cat in ['financial_health', 'market_position', 'organizational_stability', 'technical_culture']
+                )
+
             # Check if facts file exists and merge if it does
             if facts_path.exists():
                 try:
@@ -258,12 +302,13 @@ def save_research_results(
                     # Merge facts_found arrays for each category
                     for category in ['financial_health', 'market_position', 'organizational_stability', 'technical_culture']:
                         if category in existing_data and category in facts_data:
-                            # Merge facts_found arrays
+                            # Merge facts_found arrays with deduplication
                             if 'facts_found' in existing_data[category] and 'facts_found' in facts_data[category]:
-                                facts_data[category]['facts_found'] = (
+                                combined = (
                                     existing_data[category]['facts_found'] +
                                     facts_data[category]['facts_found']
                                 )
+                                facts_data[category]['facts_found'] = _deduplicate_facts(combined)
 
                             # Merge missing_information arrays
                             if 'missing_information' in existing_data[category] and 'missing_information' in facts_data[category]:

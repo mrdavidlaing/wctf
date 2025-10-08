@@ -265,6 +265,171 @@ summary:
         # Total should be updated
         assert facts_data["summary"]["total_facts_found"] == 6  # 1 old + 5 new
 
+    def test_deduplicates_exact_duplicates(self, temp_data_dir):
+        """Test that saving removes exact duplicate facts."""
+        # Create initial file with some facts
+        initial_yaml = """company: "DedupCorp"
+research_date: "2025-10-01"
+
+financial_health:
+  facts_found:
+    - fact: "Series A funding of $10M"
+      source: "TechCrunch"
+      date: "2024-01-15"
+      confidence: "explicit_statement"
+    - fact: "Revenue of $2M in 2024"
+      source: "Company blog"
+      date: "2024-12-31"
+      confidence: "explicit_statement"
+  missing_information: []
+
+market_position:
+  facts_found: []
+  missing_information: []
+
+organizational_stability:
+  facts_found: []
+  missing_information: []
+
+technical_culture:
+  facts_found: []
+  missing_information: []
+
+summary:
+  total_facts_found: 2
+  information_completeness: "low"
+  most_recent_data_point: "2024-12-31"
+  oldest_data_point: "2024-01-15"
+"""
+        save_research_results(
+            company_name="DedupCorp",
+            yaml_content=initial_yaml,
+            base_path=temp_data_dir
+        )
+
+        # Save with exact duplicates + one new fact
+        duplicate_yaml = """company: "DedupCorp"
+research_date: "2025-10-08"
+
+financial_health:
+  facts_found:
+    - fact: "Series A funding of $10M"
+      source: "TechCrunch"
+      date: "2024-01-15"
+      confidence: "explicit_statement"
+    - fact: "Revenue of $2M in 2024"
+      source: "Company blog"
+      date: "2024-12-31"
+      confidence: "explicit_statement"
+    - fact: "New funding fact"
+      source: "New source"
+      date: "2025-01-01"
+      confidence: "explicit_statement"
+  missing_information: []
+
+market_position:
+  facts_found: []
+  missing_information: []
+
+organizational_stability:
+  facts_found: []
+  missing_information: []
+
+technical_culture:
+  facts_found: []
+  missing_information: []
+
+summary:
+  total_facts_found: 3
+  information_completeness: "medium"
+  most_recent_data_point: "2025-01-01"
+  oldest_data_point: "2024-01-15"
+"""
+        result = save_research_results(
+            company_name="DedupCorp",
+            yaml_content=duplicate_yaml,
+            base_path=temp_data_dir
+        )
+
+        assert result["success"] is True
+
+        # Verify duplicates were removed
+        facts_path = get_facts_path("DedupCorp", base_path=temp_data_dir)
+        facts_data = read_yaml(facts_path)
+
+        financial_facts = facts_data["financial_health"]["facts_found"]
+
+        # Should have 3 unique facts (2 original + 1 new), not 5 (2 + 3 with duplicates)
+        assert len(financial_facts) == 3
+
+        # Verify all three unique facts are present
+        fact_texts = [f["fact"] for f in financial_facts]
+        assert "Series A funding of $10M" in fact_texts
+        assert "Revenue of $2M in 2024" in fact_texts
+        assert "New funding fact" in fact_texts
+
+        # Verify summary is updated correctly
+        assert facts_data["summary"]["total_facts_found"] == 3
+
+    def test_preserves_first_occurrence_of_duplicate(self, temp_data_dir):
+        """Test that deduplication keeps the first occurrence when duplicates exist."""
+        yaml_with_duplicates = """company: "OrderCorp"
+research_date: "2025-10-08"
+
+financial_health:
+  facts_found:
+    - fact: "Funding round"
+      source: "Source A"
+      date: "2024-01-01"
+      confidence: "explicit_statement"
+    - fact: "Funding round"
+      source: "Source A"
+      date: "2024-01-01"
+      confidence: "explicit_statement"
+    - fact: "Other fact"
+      source: "Source B"
+      date: "2024-02-01"
+      confidence: "explicit_statement"
+  missing_information: []
+
+market_position:
+  facts_found: []
+  missing_information: []
+
+organizational_stability:
+  facts_found: []
+  missing_information: []
+
+technical_culture:
+  facts_found: []
+  missing_information: []
+
+summary:
+  total_facts_found: 2
+  information_completeness: "low"
+  most_recent_data_point: "2024-02-01"
+  oldest_data_point: "2024-01-01"
+"""
+        result = save_research_results(
+            company_name="OrderCorp",
+            yaml_content=yaml_with_duplicates,
+            base_path=temp_data_dir
+        )
+
+        assert result["success"] is True
+
+        facts_path = get_facts_path("OrderCorp", base_path=temp_data_dir)
+        facts_data = read_yaml(facts_path)
+
+        financial_facts = facts_data["financial_health"]["facts_found"]
+
+        # Should have 2 unique facts
+        assert len(financial_facts) == 2
+
+        # First fact should be "Funding round" (first occurrence kept)
+        assert financial_facts[0]["fact"] == "Funding round"
+        assert financial_facts[1]["fact"] == "Other fact"
+
     def test_overwrites_malformed_existing_file(self, temp_data_dir, sample_yaml_content):
         """Test that saving overwrites a malformed existing facts file."""
         # Create malformed file
