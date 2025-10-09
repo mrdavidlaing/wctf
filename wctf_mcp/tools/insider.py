@@ -57,56 +57,17 @@ def _deduplicate_facts(facts_list: list) -> list:
     return unique_facts
 
 
-def _initialize_insider_structure(company_name: str, interview_date: str) -> Dict:
-    """Initialize empty insider facts structure."""
-    return {
-        "company": company_name,
-        "last_updated": interview_date,
-        "financial_health": {
-            "facts_found": [],
-            "missing_information": [],
-        },
-        "market_position": {
-            "facts_found": [],
-            "missing_information": [],
-        },
-        "organizational_stability": {
-            "facts_found": [],
-            "missing_information": [],
-        },
-        "technical_culture": {
-            "facts_found": [],
-            "missing_information": [],
-        },
-        "summary": {
-            "total_facts_found": 0,
-            "information_completeness": "low",
-            "most_recent_interview": interview_date,
-            "oldest_interview": interview_date,
-            "total_interviews": 0,
-            "interviewees": [],
-        },
-    }
-
-
-def extract_insider_facts(
+def get_insider_extraction_prompt(
     company_name: str,
     transcript: str,
     interview_date: str,
     interviewee_name: str,
     interviewee_role: Optional[str] = None,
-    extracted_facts_yaml: Optional[str] = None,
-    base_path: Optional[Path] = None,
 ) -> Dict[str, any]:
-    """Extract facts from an insider interview transcript.
+    """Generate an extraction prompt for analyzing an insider interview transcript.
 
-    This tool works in two modes:
-
-    1. **Prompt Generation Mode** (when extracted_facts_yaml is None):
-       Returns an extraction prompt for the calling agent to analyze the transcript.
-
-    2. **Result Processing Mode** (when extracted_facts_yaml is provided):
-       Processes the LLM's extracted facts and saves them to company.insider.yaml.
+    Returns a formatted prompt that guides the LLM to extract structured facts
+    from the interview transcript, classifying them as objective or subjective.
 
     Args:
         company_name: Name of the company
@@ -114,27 +75,18 @@ def extract_insider_facts(
         interview_date: Date of interview (YYYY-MM-DD format)
         interviewee_name: Name of the person interviewed
         interviewee_role: Optional role/title of the interviewee
-        extracted_facts_yaml: Optional YAML content with extracted facts (from LLM)
-        base_path: Optional base path for data directory (for testing)
 
     Returns:
-        In Prompt Generation Mode:
-        - success: bool
-        - company_name: str
-        - extraction_prompt: str - Prompt for LLM to analyze transcript
-        - instructions: str - Instructions for the calling agent
-
-        In Result Processing Mode:
-        - success: bool
-        - company_name: str
-        - facts_saved: bool
-        - facts_file_path: str
-        - facts_count: int
-        - message: str
+        Dictionary with:
+        - success: bool - Whether prompt was generated successfully
+        - company_name: str - Name of company
+        - extraction_prompt: str - The formatted extraction prompt
+        - instructions: str - Instructions for next step
 
         On error:
         - success: False
-        - error: str
+        - error: str - Error message
+        - company_name: str (if available)
     """
     # Validate company name
     if company_name is None:
@@ -172,41 +124,109 @@ def extract_insider_facts(
             "company_name": company_name,
         }
 
-    # MODE 1: Generate extraction prompt
-    if extracted_facts_yaml is None:
-        try:
-            prompt_template = _load_extraction_prompt()
+    try:
+        prompt_template = _load_extraction_prompt()
 
-            prompt = prompt_template.format(
-                company_name=company_name,
-                interviewee_name=interviewee_name,
-                interviewee_role=interviewee_role or "Unknown",
-                interview_date=interview_date,
-                transcript=transcript,
-            )
+        prompt = prompt_template.format(
+            company_name=company_name,
+            interviewee_name=interviewee_name,
+            interviewee_role=interviewee_role or "Unknown",
+            interview_date=interview_date,
+            transcript=transcript,
+        )
 
-            instructions = (
-                f"Please analyze this interview transcript using the prompt above. "
-                f"Extract all relevant facts, classify them as objective or subjective, "
-                f"and provide the complete YAML output. I will then save it to "
-                f"data/{company_name}/company.insider.yaml"
-            )
+        instructions = (
+            f"After analyzing the transcript and extracting facts, call "
+            f"save_insider_facts_tool with the extracted YAML to save it to "
+            f"data/{company_name}/company.insider.yaml"
+        )
 
-            return {
-                "success": True,
-                "company_name": company_name,
-                "extraction_prompt": prompt,
-                "instructions": instructions,
-            }
+        return {
+            "success": True,
+            "company_name": company_name,
+            "extraction_prompt": prompt,
+            "instructions": instructions,
+        }
 
-        except Exception as e:
-            return {
-                "success": False,
-                "error": f"Failed to generate extraction prompt: {str(e)}",
-                "company_name": company_name,
-            }
+    except Exception as e:
+        return {
+            "success": False,
+            "error": f"Failed to generate extraction prompt: {str(e)}",
+            "company_name": company_name,
+        }
 
-    # MODE 2: Process and save extracted facts
+
+def save_insider_facts(
+    company_name: str,
+    interview_date: str,
+    interviewee_name: str,
+    extracted_facts_yaml: str,
+    interviewee_role: Optional[str] = None,
+    base_path: Optional[Path] = None,
+) -> Dict[str, any]:
+    """Save extracted insider interview facts to company.insider.yaml.
+
+    Takes YAML content with extracted facts and saves them to the appropriate
+    company directory. Merges with existing insider facts if the file already exists.
+
+    Args:
+        company_name: Name of the company
+        interview_date: Date of interview (YYYY-MM-DD format)
+        interviewee_name: Name of the person interviewed
+        extracted_facts_yaml: YAML content with extracted facts (from LLM analysis)
+        interviewee_role: Optional role/title of the interviewee
+        base_path: Optional base path for data directory (for testing)
+
+    Returns:
+        Dictionary with:
+        - success: bool - Whether save completed successfully
+        - company_name: str
+        - facts_saved: bool
+        - facts_file_path: str
+        - facts_count: int
+        - message: str
+
+        On error:
+        - success: False
+        - error: str
+        - company_name: str
+    """
+    # Validate company name
+    if company_name is None:
+        raise TypeError("Company name cannot be None")
+
+    if not isinstance(company_name, str) or not company_name.strip():
+        return {
+            "success": False,
+            "error": "Invalid company name. Company name must be a non-empty string.",
+        }
+
+    company_name = company_name.strip()
+
+    # Validate interview_date
+    if not interview_date or not isinstance(interview_date, str):
+        return {
+            "success": False,
+            "error": "Invalid interview_date. Must be a non-empty string in YYYY-MM-DD format.",
+            "company_name": company_name,
+        }
+
+    # Validate interviewee_name
+    if not interviewee_name or not isinstance(interviewee_name, str):
+        return {
+            "success": False,
+            "error": "Invalid interviewee_name. Must be a non-empty string.",
+            "company_name": company_name,
+        }
+
+    # Validate YAML content
+    if not extracted_facts_yaml or not isinstance(extracted_facts_yaml, str):
+        return {
+            "success": False,
+            "error": "Invalid YAML content. Must be a non-empty string.",
+            "company_name": company_name,
+        }
+
     try:
         # Parse YAML content
         try:
@@ -396,7 +416,7 @@ def extract_insider_facts(
                 "facts_saved": True,
                 "facts_file_path": str(facts_path),
                 "facts_count": facts_count,
-                "message": f"Successfully extracted and saved {facts_count} insider facts for {company_name}",
+                "message": f"Successfully saved {facts_count} insider facts for {company_name}",
             }
 
         except Exception as e:

@@ -150,6 +150,87 @@ synthesis:
   # ... additional synthesis fields
 ```
 
+### company.insider.yaml
+
+```yaml
+company: "CompanyName"
+last_updated: "YYYY-MM-DD"
+
+financial_health:
+  facts_found:
+    - fact: "Descriptive statement"
+      source: "Interviewee Name (Role)"
+      date: "YYYY-MM-DD"
+      confidence: "firsthand_account"
+      fact_type: "objective" | "subjective"
+      context: "Optional additional context"
+  missing_information:
+    - "Information not discussed"
+
+market_position: { ... }
+organizational_stability: { ... }
+technical_culture: { ... }
+
+summary:
+  total_facts_found: 42
+  information_completeness: "high" | "medium" | "low"
+  most_recent_interview: "YYYY-MM-DD"
+  oldest_interview: "YYYY-MM-DD"
+  total_interviews: 1
+  interviewees:
+    - name: "Interviewee Name"
+      role: "Role/Title"
+      interview_date: "YYYY-MM-DD"
+```
+
+## MCP Tool Workflows
+
+The MCP server provides two main workflows for collecting company data:
+
+### Research Workflow (Public Data)
+
+For collecting public information about companies (press releases, articles, financial reports):
+
+1. **Get the prompt**: Call `get_research_prompt_tool(company_name)`
+   - Returns a detailed prompt for researching the company
+   - Use this prompt to guide your research
+
+2. **Conduct research**: Use the prompt to research the company via web search, articles, etc.
+
+3. **Save results**: Call `save_research_results_tool(company_name, extracted_facts_yaml)`
+   - Takes the YAML-formatted facts you extracted
+   - Saves to `data/{company_name}/company.facts.yaml`
+   - Merges with existing facts if file already exists
+   - Deduplicates exact matches (same fact, source, date)
+
+### Insider Interview Workflow (Firsthand Accounts)
+
+For collecting information from insider interviews with current/former employees:
+
+1. **Get the extraction prompt**: Call `get_insider_extraction_prompt_tool(company_name, transcript, interview_date, interviewee_name, interviewee_role)`
+   - Takes the full interview transcript
+   - Returns a specialized prompt for extracting facts from the interview
+   - Guides classification of facts as objective vs subjective
+
+2. **Analyze the transcript**: Use the extraction prompt to analyze the interview
+   - Extract concrete facts (revenue, team size, policies)
+   - Capture cultural observations and opinions
+   - Note comparisons to other companies
+
+3. **Save extracted facts**: Call `save_insider_facts_tool(company_name, interview_date, interviewee_name, extracted_facts_yaml, interviewee_role)`
+   - Takes only the extracted YAML (not the transcript again - more efficient)
+   - Saves to `data/{company_name}/company.insider.yaml`
+   - Merges with existing insider facts if file already exists
+   - Deduplicates exact matches (same fact, source, date)
+   - Updates summary metadata (interview count, date ranges, interviewees)
+
+**Key differences from research workflow:**
+- Two separate tools instead of mode-switching
+- Transcript sent only once (in step 1)
+- Facts classified as objective vs subjective
+- Separate file (`company.insider.yaml`) for firsthand accounts
+- Tracks interviewee metadata in summary section
+
 ## Running Tests
 
 ### Using UV (Recommended)
@@ -191,10 +272,16 @@ uv run pytest --cov=wctf_mcp --cov-report=html
 
 ### Test Suite Overview
 
-**56 tests total:**
-- 18 tests for Pydantic models (`test_models.py`)
-- 20 tests for YAML operations (`test_yaml_handler.py`)
-- 18 tests for path utilities (`test_paths.py`)
+**174 tests total** covering all modules including:
+- Pydantic models (`test_models.py`)
+- YAML operations (`test_yaml_handler.py`)
+- Path utilities (`test_paths.py`)
+- Company tools (`test_company_tools.py`)
+- Research tools (`test_research_tool.py`)
+- Insider interview tools (`test_insider_tool.py`)
+- Flag extraction tools (`test_flag_tools.py`)
+- Conversation tools (`test_conversation_tool.py`)
+- Decision tools (`test_decision_tools.py`)
 
 All tests use pytest fixtures and temporary directories to avoid affecting real data.
 
@@ -230,3 +317,27 @@ The foundation is complete. Future tasks will implement:
 - YAML handler uses safe_load/safe_dump for security
 - Models use Pydantic v2 syntax (ConfigDict recommended over class Config)
 - Test suite uses pytest with fixtures for isolation
+
+## Debugging
+
+### Claude Desktop Logs
+
+MCP server logs are written to:
+```
+/mnt/c/Users/DavidLaing/AppData/Roaming/Claude/logs/mcp-server-wctf.log
+```
+
+Useful commands:
+```bash
+# View recent log entries
+tail -n 100 "/mnt/c/Users/DavidLaing/AppData/Roaming/Claude/logs/mcp-server-wctf.log"
+
+# Follow logs in real-time
+tail -f "/mnt/c/Users/DavidLaing/AppData/Roaming/Claude/logs/mcp-server-wctf.log"
+
+# Search for errors
+grep -i "error\|fail\|exception" "/mnt/c/Users/DavidLaing/AppData/Roaming/Claude/logs/mcp-server-wctf.log" | tail -20
+
+# Search for specific tool usage
+grep -i "extract_insider" "/mnt/c/Users/DavidLaing/AppData/Roaming/Claude/logs/mcp-server-wctf.log" -A 10
+```

@@ -12,7 +12,8 @@ import pytest
 import yaml
 
 from wctf_mcp.tools.insider import (
-    extract_insider_facts,
+    get_insider_extraction_prompt,
+    save_insider_facts,
     _deduplicate_facts,
 )
 from wctf_mcp.utils.paths import (
@@ -110,12 +111,12 @@ summary:
 """
 
 
-class TestExtractInsiderFactsPromptMode:
-    """Tests for extract_insider_facts in prompt generation mode."""
+class TestGetInsiderExtractionPrompt:
+    """Tests for get_insider_extraction_prompt function."""
 
     def test_successful_prompt_generation(self, sample_transcript):
         """Test successful generation of extraction prompt."""
-        result = extract_insider_facts(
+        result = get_insider_extraction_prompt(
             company_name="TestCorp",
             transcript=sample_transcript,
             interview_date="2025-10-08",
@@ -130,7 +131,7 @@ class TestExtractInsiderFactsPromptMode:
 
     def test_prompt_includes_context(self, sample_transcript):
         """Test that the prompt includes interview context."""
-        result = extract_insider_facts(
+        result = get_insider_extraction_prompt(
             company_name="TestCorp",
             transcript=sample_transcript,
             interview_date="2025-10-08",
@@ -146,7 +147,7 @@ class TestExtractInsiderFactsPromptMode:
 
     def test_prompt_without_role(self, sample_transcript):
         """Test prompt generation when role is not provided."""
-        result = extract_insider_facts(
+        result = get_insider_extraction_prompt(
             company_name="TestCorp",
             transcript=sample_transcript,
             interview_date="2025-10-08",
@@ -158,7 +159,7 @@ class TestExtractInsiderFactsPromptMode:
 
     def test_invalid_company_name(self, sample_transcript):
         """Test error handling for invalid company name."""
-        result = extract_insider_facts(
+        result = get_insider_extraction_prompt(
             company_name="",
             transcript=sample_transcript,
             interview_date="2025-10-08",
@@ -170,7 +171,7 @@ class TestExtractInsiderFactsPromptMode:
 
     def test_invalid_transcript(self):
         """Test error handling for invalid transcript."""
-        result = extract_insider_facts(
+        result = get_insider_extraction_prompt(
             company_name="TestCorp",
             transcript="",
             interview_date="2025-10-08",
@@ -182,7 +183,7 @@ class TestExtractInsiderFactsPromptMode:
 
     def test_invalid_interview_date(self, sample_transcript):
         """Test error handling for invalid interview date."""
-        result = extract_insider_facts(
+        result = get_insider_extraction_prompt(
             company_name="TestCorp",
             transcript=sample_transcript,
             interview_date="",
@@ -194,7 +195,7 @@ class TestExtractInsiderFactsPromptMode:
 
     def test_invalid_interviewee_name(self, sample_transcript):
         """Test error handling for invalid interviewee name."""
-        result = extract_insider_facts(
+        result = get_insider_extraction_prompt(
             company_name="TestCorp",
             transcript=sample_transcript,
             interview_date="2025-10-08",
@@ -205,18 +206,17 @@ class TestExtractInsiderFactsPromptMode:
         assert "error" in result
 
 
-class TestExtractInsiderFactsSaveMode:
-    """Tests for extract_insider_facts in save mode."""
+class TestSaveInsiderFacts:
+    """Tests for save_insider_facts function."""
 
-    def test_save_new_facts(self, temp_data_dir, sample_transcript, sample_extracted_yaml):
+    def test_save_new_facts(self, temp_data_dir, sample_extracted_yaml):
         """Test saving extracted facts to new file."""
-        result = extract_insider_facts(
+        result = save_insider_facts(
             company_name="TestCorp",
-            transcript=sample_transcript,
             interview_date="2025-10-08",
             interviewee_name="John Doe",
-            interviewee_role="Senior Engineer",
             extracted_facts_yaml=sample_extracted_yaml,
+            interviewee_role="Senior Engineer",
             base_path=temp_data_dir
         )
 
@@ -234,16 +234,15 @@ class TestExtractInsiderFactsSaveMode:
         assert len(saved_data["financial_health"]["facts_found"]) == 2
         assert len(saved_data["organizational_stability"]["facts_found"]) == 2
 
-    def test_merge_with_existing_facts(self, temp_data_dir, sample_transcript, sample_extracted_yaml):
+    def test_merge_with_existing_facts(self, temp_data_dir, sample_extracted_yaml):
         """Test merging new facts with existing insider facts."""
         # First save
-        extract_insider_facts(
+        save_insider_facts(
             company_name="TestCorp",
-            transcript=sample_transcript,
             interview_date="2025-10-08",
             interviewee_name="John Doe",
-            interviewee_role="Senior Engineer",
             extracted_facts_yaml=sample_extracted_yaml,
+            interviewee_role="Senior Engineer",
             base_path=temp_data_dir
         )
 
@@ -290,13 +289,12 @@ summary:
 """
 
         # Second save
-        result = extract_insider_facts(
+        result = save_insider_facts(
             company_name="TestCorp",
-            transcript="second interview",
             interview_date="2025-10-15",
             interviewee_name="Jane Smith",
-            interviewee_role="VP Engineering",
             extracted_facts_yaml=second_yaml,
+            interviewee_role="VP Engineering",
             base_path=temp_data_dir
         )
 
@@ -317,7 +315,7 @@ summary:
         assert saved_data["summary"]["most_recent_interview"] == "2025-10-15"
         assert saved_data["summary"]["oldest_interview"] == "2025-10-08"
 
-    def test_deduplicates_exact_duplicates(self, temp_data_dir, sample_transcript):
+    def test_deduplicates_exact_duplicates(self, temp_data_dir):
         """Test that saving removes exact duplicate facts."""
         yaml_with_dupes = """company: "TestCorp"
 last_updated: "2025-10-08"
@@ -360,13 +358,12 @@ summary:
       interview_date: "2025-10-08"
 """
 
-        result = extract_insider_facts(
+        result = save_insider_facts(
             company_name="TestCorp",
-            transcript=sample_transcript,
             interview_date="2025-10-08",
             interviewee_name="John Doe",
-            interviewee_role="Engineer",
             extracted_facts_yaml=yaml_with_dupes,
+            interviewee_role="Engineer",
             base_path=temp_data_dir
         )
 
@@ -378,13 +375,12 @@ summary:
         saved_data = read_yaml(facts_path)
         assert len(saved_data["financial_health"]["facts_found"]) == 1
 
-    def test_invalid_yaml_format(self, temp_data_dir, sample_transcript):
+    def test_invalid_yaml_format(self, temp_data_dir):
         """Test error handling for invalid YAML."""
         invalid_yaml = "not: valid: yaml: content:"
 
-        result = extract_insider_facts(
+        result = save_insider_facts(
             company_name="TestCorp",
-            transcript=sample_transcript,
             interview_date="2025-10-08",
             interviewee_name="John Doe",
             extracted_facts_yaml=invalid_yaml,
@@ -395,7 +391,7 @@ summary:
         assert "error" in result
         assert "Failed to parse YAML" in result["error"]
 
-    def test_missing_required_categories(self, temp_data_dir, sample_transcript):
+    def test_missing_required_categories(self, temp_data_dir):
         """Test error handling when required categories are missing."""
         incomplete_yaml = """company: "TestCorp"
 last_updated: "2025-10-08"
@@ -412,9 +408,8 @@ summary:
   total_facts_found: 0
 """
 
-        result = extract_insider_facts(
+        result = save_insider_facts(
             company_name="TestCorp",
-            transcript=sample_transcript,
             interview_date="2025-10-08",
             interviewee_name="John Doe",
             extracted_facts_yaml=incomplete_yaml,
@@ -424,7 +419,7 @@ summary:
         assert result["success"] is False
         assert "missing required category sections" in result["error"]
 
-    def test_missing_fact_type_field(self, temp_data_dir, sample_transcript):
+    def test_missing_fact_type_field(self, temp_data_dir):
         """Test error handling when fact_type field is missing."""
         yaml_without_fact_type = """company: "TestCorp"
 last_updated: "2025-10-08"
@@ -458,9 +453,8 @@ summary:
   interviewees: []
 """
 
-        result = extract_insider_facts(
+        result = save_insider_facts(
             company_name="TestCorp",
-            transcript=sample_transcript,
             interview_date="2025-10-08",
             interviewee_name="John Doe",
             extracted_facts_yaml=yaml_without_fact_type,
@@ -470,7 +464,7 @@ summary:
         assert result["success"] is False
         assert "missing required 'fact_type' field" in result["error"]
 
-    def test_invalid_fact_type_value(self, temp_data_dir, sample_transcript):
+    def test_invalid_fact_type_value(self, temp_data_dir):
         """Test error handling for invalid fact_type value."""
         yaml_with_invalid_type = """company: "TestCorp"
 last_updated: "2025-10-08"
@@ -505,9 +499,8 @@ summary:
   interviewees: []
 """
 
-        result = extract_insider_facts(
+        result = save_insider_facts(
             company_name="TestCorp",
-            transcript=sample_transcript,
             interview_date="2025-10-08",
             interviewee_name="John Doe",
             extracted_facts_yaml=yaml_with_invalid_type,
