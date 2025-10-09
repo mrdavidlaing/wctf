@@ -1,5 +1,5 @@
 company: Grafana Labs
-research_date: '2025-10-08'
+research_date: '2025-10-09'
 financial_health:
   facts_found:
   - fact: Completed Series D extension of $270 million in August 2024 at valuation
@@ -21,63 +21,6 @@ financial_health:
     confidence: explicit_statement
   - fact: Revenue grew from $50M+ ARR to $250M+ ARR between 2022 and 2024
     source: Gartner review analysis
-    date: '2024-11-01'
-    confidence: explicit_statement
-  - fact: Cash flow positive as of 2024
-    source: Sacra analysis
-    date: '2024-11-01'
-    confidence: explicit_statement
-  - fact: 69% YoY growth rate
-    source: Sacra analysis
-    date: '2024-11-01'
-    confidence: explicit_statement
-  - fact: Customer count expanded from 2,000 paying customers in 2022 to 5,000+ in
-      2024
-    source: Gartner review
-    date: '2024-11-01'
-    confidence: explicit_statement
-  - fact: Estimated company valuation at $6.23 billion with estimated share price
-      of $8.53 as of August 2024
-    source: Nasdaq Private Market; Collective Liquidity
-    date: '2024-08-01'
-    confidence: explicit_statement
-  - fact: Company had layoffs affecting 15% of staff in March 2024 per TechCrunch
-      article
-    source: TechCrunch (referenced in Glassdoor analysis)
-    date: '2024-03-15'
-    confidence: explicit_statement
-  - fact: 12% workforce reduction (120 people) in March 2024 according to company
-      blog
-    source: Company blog
-    date: '2024-03-20'
-    confidence: explicit_statement
-  - fact: Completed Series D extension of $270 million in August 2024 at valuation
-      over $6 billion
-    source: Grafana Labs press release
-    date: '2024-08-21'
-    confidence: explicit_statement
-  - fact: Over $250 million ARR as of August 2024
-    source: Grafana Labs press release
-    date: '2024-08-21'
-    confidence: explicit_statement
-  - fact: Over 5,000 paying customers as of August 2024
-    source: Grafana Labs press release
-    date: '2024-08-21'
-    confidence: explicit_statement
-  - fact: 1,400+ team members as of August 2024
-    source: Grafana Labs press release
-    date: '2024-08-21'
-    confidence: explicit_statement
-  - fact: Revenue grew from $50M+ ARR to $250M+ ARR between 2022 and 2024
-    source: Gartner review analysis
-    date: '2024-11-01'
-    confidence: explicit_statement
-  - fact: Cash flow positive as of 2024
-    source: Sacra analysis
-    date: '2024-11-01'
-    confidence: explicit_statement
-  - fact: 69% YoY growth rate
-    source: Sacra analysis
     date: '2024-11-01'
     confidence: explicit_statement
   - fact: Customer count expanded from 2,000 paying customers in 2022 to 5,000+ in
@@ -134,42 +77,6 @@ market_position:
     source: Multiple sources
     date: '2024-11-01'
     confidence: explicit_statement
-  - fact: Named Leader in 2025 Gartner Magic Quadrant for Observability Platforms
-    source: Grafana Labs press release
-    date: '2025-07-10'
-    confidence: explicit_statement
-  - fact: 20 million users globally
-    source: Multiple employee reviews
-    date: '2024-11-01'
-    confidence: explicit_statement
-  - fact: Customers process over 12 million metrics per hour and 2TB of logs a day
-    source: Gartner review
-    date: '2024-11-01'
-    confidence: explicit_statement
-  - fact: 4.6 star rating on G2 from 1,200+ reviews
-    source: G2.com
-    date: '2024-11-01'
-    confidence: explicit_statement
-  - fact: Grafana GitHub repository has 67,000+ stars
-    source: GitHub
-    date: '2024-11-01'
-    confidence: explicit_statement
-  - fact: Loki GitHub repository has 25,000+ stars
-    source: GitHub
-    date: '2024-11-01'
-    confidence: explicit_statement
-  - fact: k6 GitHub repository has 27,000+ stars
-    source: GitHub
-    date: '2024-11-01'
-    confidence: explicit_statement
-  - fact: Datadog holds 51.82% market share compared to Grafana in observability market
-    source: Market analysis
-    date: '2024-11-01'
-    confidence: explicit_statement
-  - fact: Customers include SpaceX, Wimbledon, and Tour de France for monitoring infrastructure
-    source: Multiple sources
-    date: '2024-11-01'
-    confidence: explicit_statement
   missing_information:
   - Grafana's specific market share percentage
   - Detailed competitive positioning metrics
@@ -188,21 +95,8 @@ organizational_stability:
     source: SaaStr; multiple sources
     date: '2024-11-01'
     confidence: explicit_statement
-  - fact: Median LinkedIn tenure of 1 year
-    source: LinkedIn analysis
-    date: '2024-11-01'
-    confidence: explicit_statement
   - fact: Glassdoor rating of 4.1/5 with 82% would recommend to friend
     source: Glassdoor
-    date: '2024-11-01'
-    confidence: explicit_statement
-  - fact: Engineering-specific Glassdoor rating shows 3.2 rating with consistent 'reorg'
-      mentions in 2024
-    source: Glassdoor
-    date: '2024-06-01'
-    confidence: explicit_statement
-  - fact: VP Engineering replaced 3 times in 2 years per LinkedIn analysis
-    source: LinkedIn
     date: '2024-11-01'
     confidence: explicit_statement
   - fact: 'Three founders started company from three different continents: New York,
@@ -227,76 +121,21 @@ organizational_stability:
     source: Company announcement
     date: '2020-01-01'
     confidence: explicit_statement
-  - fact: Multiple reviews from May 2024 and 2025 report 'silent layoffs' where employees
+  - fact: At least one Glassdoor review from 2024 alleges 'silent layoffs' where employees
       are terminated for performance without official layoff announcements
-    source: Glassdoor; Blind
-    date: '2025-05-01'
-    confidence: explicit_statement
-  - fact: Raj Dutt is CEO and Co-Founder
-    source: Crunchbase
-    date: '2024-08-21'
-    confidence: explicit_statement
-  - fact: 100% remote-first company across 40+ countries
-    source: Grafana.com careers
-    date: '2025-10-07'
-    confidence: explicit_statement
-  - fact: Company grew from 30 people in March 2018 to 180+ by August 2020 to 900
-      in 2022 and 1,200+ currently
-    source: SaaStr; multiple sources
-    date: '2024-11-01'
-    confidence: explicit_statement
-  - fact: Median LinkedIn tenure of 1 year
-    source: LinkedIn analysis
-    date: '2024-11-01'
-    confidence: explicit_statement
-  - fact: Glassdoor rating of 4.1/5 with 82% would recommend to friend
-    source: Glassdoor
-    date: '2024-11-01'
-    confidence: explicit_statement
-  - fact: Engineering-specific Glassdoor rating shows 3.2 rating with consistent 'reorg'
-      mentions in 2024
-    source: Glassdoor
+    source: Glassdoor review
     date: '2024-06-01'
-    confidence: explicit_statement
-  - fact: VP Engineering replaced 3 times in 2 years per LinkedIn analysis
-    source: LinkedIn
-    date: '2024-11-01'
-    confidence: explicit_statement
-  - fact: 'Three founders started company from three different continents: New York,
-      Sweden, Australia'
-    source: SaaStr
-    date: '2024-11-01'
-    confidence: explicit_statement
-  - fact: Company has been remote-first for over 10 years
-    source: Multiple employee reviews
-    date: '2024-11-01'
-    confidence: explicit_statement
-  - fact: 1,691 total employees per some sources
-    source: PitchBook
-    date: '2024-11-01'
-    confidence: explicit_statement
-  - fact: Raj Dutt is CEO with technical background
-    source: Multiple sources
-    date: '2024-11-01'
-    confidence: explicit_statement
-  - fact: Company underwent major reorganization in 2020 from project focus to product
-      focus
-    source: Company announcement
-    date: '2020-01-01'
-    confidence: explicit_statement
-  - fact: Multiple reviews from May 2024 and 2025 report 'silent layoffs' where employees
-      are terminated for performance without official layoff announcements
-    source: Glassdoor; Blind
-    date: '2025-05-01'
-    confidence: explicit_statement
+    confidence: single_anecdotal_report
   missing_information:
   - Current CTO name and background
   - Annual turnover rate percentage
   - Exact executive team composition
+  - VP Engineering turnover details
+  - Median employee tenure
 technical_culture:
   facts_found:
   - fact: Primary languages are TypeScript and Go
-    source: GitHub repository
+    source: GitHub repository; Wikipedia
     date: '2025-10-04'
     confidence: explicit_statement
   - fact: 897 total repositories on GitHub
@@ -348,71 +187,9 @@ technical_culture:
     source: Company blog
     date: '2024-11-01'
     confidence: explicit_statement
-  - fact: 99.9% of engineers are non-junior with approximately 90% having notable
-      leadership qualities per employee reviews
-    source: Glassdoor review
-    date: '2024-11-01'
-    confidence: explicit_statement
-  - fact: Maker time blocks 2-5pm daily protected per calendar policy
-    source: Employee interviews
-    date: '2024-11-01'
-    confidence: explicit_statement
-  - fact: Primary languages are TypeScript and Go
-    source: GitHub repository
-    date: '2025-10-04'
-    confidence: explicit_statement
-  - fact: 897 total repositories on GitHub
-    source: GitHub grafana organization
-    date: '2025-10-07'
-    confidence: explicit_statement
-  - fact: Tech stack centers on Go for backend, TypeScript/React for frontend, Kubernetes
-      for orchestration
-    source: Multiple employee reviews; job postings
-    date: '2024-11-01'
-    confidence: explicit_statement
-  - fact: 'Company is #1 company contributor to Prometheus with several employees
-      as Prometheus maintainers'
-    source: Company blog
-    date: '2024-11-01'
-    confidence: explicit_statement
-  - fact: Top 10 contributors to OpenTelemetry with multiple employees on governing
-      board
-    source: Company blog
-    date: '2024-11-01'
-    confidence: explicit_statement
-  - fact: Engineering blog publishes 2x per month with technical depth
-    source: Employee reviews
-    date: '2024-11-01'
-    confidence: explicit_statement
-  - fact: Regular company-wide hackathons have produced production features including
-      Grafana Incident chatbot, Explore Metrics feature
-    source: Company blog
-    date: '2024-11-01'
-    confidence: explicit_statement
-  - fact: Engineers report 4 hours meetings per week average
-    source: Employee reviews; calendar screenshots
-    date: '2024-11-01'
-    confidence: explicit_statement
-  - fact: Deploy to production 20x per day average per Datadog metrics
-    source: Employee interviews
-    date: '2024-11-01'
-    confidence: explicit_statement
-  - fact: GitHub Copilot and ChatGPT Enterprise provided to engineers
-    source: Employee interviews
-    date: '2024-11-01'
-    confidence: explicit_statement
-  - fact: All code requires code review before merge with emphasis on no regressions
-      and reasonable test coverage
-    source: GitHub repository documentation
-    date: '2024-11-01'
-    confidence: explicit_statement
-  - fact: Pair programming heavily used especially during onboarding
-    source: Company blog
-    date: '2024-11-01'
-    confidence: explicit_statement
-  - fact: 99.9% of engineers are non-junior with approximately 90% having notable
-      leadership qualities per employee reviews
-    source: Glassdoor review
+  - fact: Software Engineer professionals rate Grafana Labs 5.0/5 on Glassdoor based
+      on 18 reviews
+    source: Glassdoor
     date: '2024-11-01'
     confidence: explicit_statement
   - fact: Maker time blocks 2-5pm daily protected per calendar policy
@@ -423,7 +200,7 @@ technical_culture:
   - Code review SLA or turnaround time
   - Specific on-call rotation frequency
 summary:
-  total_facts_found: 92
+  total_facts_found: 40
   information_completeness: high
-  most_recent_data_point: '2025-05-01'
+  most_recent_data_point: '2025-10-07'
   oldest_data_point: '2020-01-01'
