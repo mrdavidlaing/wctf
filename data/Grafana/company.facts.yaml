@@ -33,53 +33,37 @@ financial_health:
     source: Nasdaq Private Market; Collective Liquidity
     date: '2024-08-01'
     confidence: explicit_statement
+  - fact: Company surpassed $400M ARR as of September 2025
+    source: Grafana Labs press release; grafana.com
+    date: '2025-09-30'
+    confidence: explicit_statement
+  - fact: Company has over 7,000 customers as of September 2025
+    source: Grafana Labs press release; grafana.com
+    date: '2025-09-30'
+    confidence: explicit_statement
+  - fact: Revenue grew from $250M+ ARR (August 2024) to $400M+ ARR (September 2025)
+      in 13 months, representing 60% growth
+    source: Grafana Labs press releases; grafana.com
+    date: '2025-09-30'
+    confidence: explicit_statement
+  - fact: Completed secondary transaction led by Ontario Teachers' Pension Plan in
+      September 2025 with participation from Sapphire Ventures and Tiger Global
+    source: Grafana Labs press release; grafana.com
+    date: '2025-09-30'
+    confidence: explicit_statement
+  - fact: 25M+ users of open source Grafana globally as of September 2025
+    source: Grafana Labs press release; grafana.com
+    date: '2025-09-30'
+    confidence: explicit_statement
   missing_information:
-  - Specific burn rate
   - Current profitability details
-  - Runway duration at current burn
-  - Specific monthly burn rate
+  - Specific profitability margins
+  - Current burn rate
   - Exact profitability margins
-market_position:
-  facts_found:
-  - fact: Named Leader in 2025 Gartner Magic Quadrant for Observability Platforms
-    source: Grafana Labs press release
-    date: '2025-07-10'
-    confidence: explicit_statement
-  - fact: 20 million users globally
-    source: Multiple employee reviews
-    date: '2024-11-01'
-    confidence: explicit_statement
-  - fact: Customers process over 12 million metrics per hour and 2TB of logs a day
-    source: Gartner review
-    date: '2024-11-01'
-    confidence: explicit_statement
-  - fact: 4.6 star rating on G2 from 1,200+ reviews
-    source: G2.com
-    date: '2024-11-01'
-    confidence: explicit_statement
-  - fact: Grafana GitHub repository has 67,000+ stars
-    source: GitHub
-    date: '2024-11-01'
-    confidence: explicit_statement
-  - fact: Loki GitHub repository has 25,000+ stars
-    source: GitHub
-    date: '2024-11-01'
-    confidence: explicit_statement
-  - fact: k6 GitHub repository has 27,000+ stars
-    source: GitHub
-    date: '2024-11-01'
-    confidence: explicit_statement
-  - fact: Datadog holds 51.82% market share compared to Grafana in observability market
-    source: Market analysis
-    date: '2024-11-01'
-    confidence: explicit_statement
-  - fact: Customers include SpaceX, Wimbledon, and Tour de France for monitoring infrastructure
-    source: Multiple sources
-    date: '2024-11-01'
-    confidence: explicit_statement
-  missing_information:
-  - Grafana's specific market share percentage
-  - Detailed competitive positioning metrics
+  - Runway duration at current burn
+  - Specific burn rate
+  - Cash reserves and runway
+  - Specific monthly burn rate
 organizational_stability:
   facts_found:
   - fact: Raj Dutt is CEO and Co-Founder
@@ -126,12 +110,101 @@ organizational_stability:
     source: Glassdoor review
     date: '2024-06-01'
     confidence: single_anecdotal_report
+  - fact: Company has 1,400+ team members as of September 2025
+    source: Grafana Labs press release; grafana.com
+    date: '2025-09-30'
+    confidence: explicit_statement
+  - fact: 100% remote-first company with employees across 40+ countries as of September
+      2025
+    source: Grafana Labs press release; grafana.com
+    date: '2025-09-30'
+    confidence: explicit_statement
+  - fact: Company grew from approximately 30 people in March 2018 to 180+ people in
+      August 2020, representing 6x growth in 2.5 years
+    source: Grafana Labs company blog; grafana.com
+    date: '2020-08-01'
+    confidence: explicit_statement
+  - fact: Estimated 18% year-over-year employee growth rate
+    source: GrowJo analysis
+    date: '2025-01-01'
+    confidence: explicit_statement
+  - fact: Third-party data providers report employee count between 1,300-1,700 employees
+      as of mid-2025, with variance likely due to contractors and data collection
+      timing
+    source: ZoomInfo; PitchBook; RocketReach; LeadIQ
+    date: '2025-07-01'
+    confidence: explicit_statement
   missing_information:
-  - Current CTO name and background
-  - Annual turnover rate percentage
-  - Exact executive team composition
   - VP Engineering turnover details
+  - Detailed department breakdown
+  - Annual turnover rate
+  - Current CTO name and background
+  - Engineering org size specific numbers
+  - Exact executive team composition
   - Median employee tenure
+  - Annual turnover rate percentage
+market_position:
+  facts_found:
+  - fact: Named Leader in 2025 Gartner Magic Quadrant for Observability Platforms
+    source: Grafana Labs press release
+    date: '2025-07-10'
+    confidence: explicit_statement
+  - fact: 20 million users globally
+    source: Multiple employee reviews
+    date: '2024-11-01'
+    confidence: explicit_statement
+  - fact: Customers process over 12 million metrics per hour and 2TB of logs a day
+    source: Gartner review
+    date: '2024-11-01'
+    confidence: explicit_statement
+  - fact: 4.6 star rating on G2 from 1,200+ reviews
+    source: G2.com
+    date: '2024-11-01'
+    confidence: explicit_statement
+  - fact: Grafana GitHub repository has 67,000+ stars
+    source: GitHub
+    date: '2024-11-01'
+    confidence: explicit_statement
+  - fact: Loki GitHub repository has 25,000+ stars
+    source: GitHub
+    date: '2024-11-01'
+    confidence: explicit_statement
+  - fact: k6 GitHub repository has 27,000+ stars
+    source: GitHub
+    date: '2024-11-01'
+    confidence: explicit_statement
+  - fact: Datadog holds 51.82% market share compared to Grafana in observability market
+    source: Market analysis
+    date: '2024-11-01'
+    confidence: explicit_statement
+  - fact: Customers include SpaceX, Wimbledon, and Tour de France for monitoring infrastructure
+    source: Multiple sources
+    date: '2024-11-01'
+    confidence: explicit_statement
+  - fact: Notable customers include Anthropic, NVIDIA, Salesforce, Microsoft, Bloomberg,
+      Citigroup, and Dell Technologies
+    source: Grafana Labs press releases; grafana.com
+    date: '2025-09-30'
+    confidence: explicit_statement
+  - fact: 'Ranked #13 on 2025 Forbes Cloud 100 list, marking fifth consecutive year
+      on the list'
+    source: Forbes; Grafana Labs press release
+    date: '2025-09-01'
+    confidence: explicit_statement
+  - fact: Named Leader in 2025 Gartner Magic Quadrant for Observability Platforms
+      and positioned furthest in Completeness of Vision
+    source: Grafana Labs press release; Gartner report; grafana.com
+    date: '2025-07-07'
+    confidence: explicit_statement
+  - fact: Ranks in top 50 global organizations by GitHub stars across all open source
+      projects
+    source: Grafana Labs press release; grafana.com
+    date: '2025-09-30'
+    confidence: explicit_statement
+  missing_information:
+  - Detailed competitive positioning metrics
+  - Specific market share percentage
+  - Grafana's specific market share percentage
 technical_culture:
   facts_found:
   - fact: Primary languages are TypeScript and Go
@@ -200,7 +273,7 @@ technical_culture:
   - Code review SLA or turnaround time
   - Specific on-call rotation frequency
 summary:
-  total_facts_found: 40
-  information_completeness: high
-  most_recent_data_point: '2025-10-07'
-  oldest_data_point: '2020-01-01'
+  total_facts_found: 54
+  information_completeness: medium
+  most_recent_data_point: '2025-09-30'
+  oldest_data_point: '2020-08-01'
