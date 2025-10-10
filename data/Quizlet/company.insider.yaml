@@ -1,0 +1,253 @@
+company: Quizlet
+last_updated: '2025-10-10'
+financial_health:
+  facts_found:
+  - fact: Compensation is approximately twice what competing startup offered
+    source: Ryan Tang (Sr. Director of Technical Infrastructure)
+    date: '2025-10-10'
+    confidence: firsthand_account
+    fact_type: subjective
+    context: Compared to fractional CTO role at startup he was contracting for
+  - fact: Primary revenue model is freemium with premium tier at approximately $10/month
+    source: Ryan Tang (Sr. Director of Technical Infrastructure)
+    date: '2025-10-10'
+    confidence: firsthand_account
+    fact_type: objective
+  - fact: Most paying users are college and medical school students who pay themselves
+    source: Ryan Tang (Sr. Director of Technical Infrastructure)
+    date: '2025-10-10'
+    confidence: firsthand_account
+    fact_type: objective
+  missing_information:
+  - Company profitability status
+  - Annual recurring revenue or total revenue
+  - Funding status and runway
+  - Customer count (total and paying)
+  - Recent or planned layoffs
+  - Growth rate
+market_position:
+  facts_found:
+  - fact: 20 year old company, founded around 2005
+    source: Ryan Tang (Sr. Director of Technical Infrastructure)
+    date: '2025-10-10'
+    confidence: firsthand_account
+    fact_type: objective
+  - fact: Core product is digital flashcards for studying
+    source: Ryan Tang (Sr. Director of Technical Infrastructure)
+    date: '2025-10-10'
+    confidence: firsthand_account
+    fact_type: objective
+  - fact: Traffic is highly seasonal, with June being quietest month and notable jump
+      in late August/early September when school resumes
+    source: Ryan Tang (Sr. Director of Technical Infrastructure)
+    date: '2025-10-10'
+    confidence: firsthand_account
+    fact_type: objective
+    context: Daily peaks during studying hours, summer lull, back-to-school spike
+  - fact: Peak request volume is approximately 60,000 requests per second at Cloudflare
+      edge
+    source: Ryan Tang (Sr. Director of Technical Infrastructure)
+    date: '2025-10-10'
+    confidence: firsthand_account
+    fact_type: objective
+  - fact: AI features include automated flashcard generation from course information
+      using RAG to find other student flashcard sets
+    source: Ryan Tang (Sr. Director of Technical Infrastructure)
+    date: '2025-10-10'
+    confidence: firsthand_account
+    fact_type: objective
+    context: Can match by university and course number to pull relevant sets
+  - fact: Premium tier includes test mode with spaced repetition algorithms that determine
+      reintroduction frequency
+    source: Ryan Tang (Sr. Director of Technical Infrastructure)
+    date: '2025-10-10'
+    confidence: firsthand_account
+    fact_type: objective
+  - fact: Historically relied heavily on search engine traffic for top of funnel
+    source: Ryan Tang (Sr. Director of Technical Infrastructure)
+    date: '2025-10-10'
+    confidence: firsthand_account
+    fact_type: objective
+    context: Now facing potential disruption from ChatGPT and Gemini as alternative
+      search
+  - fact: Company is exploring AI chatbot integrations as new distribution channel
+    source: Ryan Tang (Sr. Director of Technical Infrastructure)
+    date: '2025-10-10'
+    confidence: firsthand_account
+    fact_type: objective
+    context: Considering partnerships similar to Uber's ChatGPT integration
+  - fact: Has office presence in both San Francisco and London
+    source: Ryan Tang (Sr. Director of Technical Infrastructure)
+    date: '2025-10-10'
+    confidence: firsthand_account
+    fact_type: objective
+  missing_information:
+  - Market share in digital learning space
+  - Key competitors and competitive positioning
+  - Win/loss rates against competitors
+  - Geographic revenue distribution
+  - Customer retention and churn rates
+organizational_stability:
+  facts_found:
+  - fact: Total company size is approximately 250 people
+    source: Ryan Tang (Sr. Director of Technical Infrastructure)
+    date: '2025-10-10'
+    confidence: firsthand_account
+    fact_type: objective
+  - fact: Engineering organization is approximately 150 people, representing majority
+      of company
+    source: Ryan Tang (Sr. Director of Technical Infrastructure)
+    date: '2025-10-10'
+    confidence: firsthand_account
+    fact_type: objective
+    context: Characterized as engineering-driven org without heavy sales function
+  - fact: Technical Infrastructure organization has approximately 14 people currently
+      with 5-7 open headcount
+    source: Ryan Tang (Sr. Director of Technical Infrastructure)
+    date: '2025-10-10'
+    confidence: firsthand_account
+    fact_type: objective
+    context: Sr. Director unsure of exact count after first week, suggesting incomplete
+      handoff
+  - fact: Technical Infrastructure includes Platform team, Security team, and 2-person
+      Developer Experience team
+    source: Ryan Tang (Sr. Director of Technical Infrastructure)
+    date: '2025-10-10'
+    confidence: firsthand_account
+    fact_type: objective
+  - fact: Work policy is hybrid with Monday/Wednesday/Thursday in SF office, Tuesday/Friday
+      work from home
+    source: Ryan Tang (Sr. Director of Technical Infrastructure)
+    date: '2025-10-10'
+    confidence: firsthand_account
+    fact_type: objective
+    context: Though Sr. Director notes flexibility about actual attendance frequency
+  - fact: Company policy is no fully remote workers
+    source: Ryan Tang (Sr. Director of Technical Infrastructure)
+    date: '2025-10-10'
+    confidence: firsthand_account
+    fact_type: objective
+    context: Would not interview candidate in Dublin despite having London office
+  - fact: In-person work enables faster decision-making and organic context sharing
+    source: Ryan Tang (Sr. Director of Technical Infrastructure)
+    date: '2025-10-10'
+    confidence: firsthand_account
+    fact_type: subjective
+    context: Sr. Director finds hallway conversations valuable for situational awareness
+      at director level
+  - fact: Sr. Director describes peers and surrounding people as very capable
+    source: Ryan Tang (Sr. Director of Technical Infrastructure)
+    date: '2025-10-10'
+    confidence: firsthand_account
+    fact_type: subjective
+    context: After one week of observation
+  - fact: Sr. Director reports being happy and having fun after first week
+    source: Ryan Tang (Sr. Director of Technical Infrastructure)
+    date: '2025-10-10'
+    confidence: firsthand_account
+    fact_type: subjective
+    context: Honeymoon phase, limited experience
+  - fact: Sr. Director's boss is making decisions about team structure during first
+      week
+    source: Ryan Tang (Sr. Director of Technical Infrastructure)
+    date: '2025-10-10'
+    confidence: firsthand_account
+    fact_type: objective
+    context: Suggests ongoing organizational changes or instability
+  - fact: Someone on team considering medical leave during Sr. Director's first week
+    source: Ryan Tang (Sr. Director of Technical Infrastructure)
+    date: '2025-10-10'
+    confidence: firsthand_account
+    fact_type: objective
+    context: Indicates immediate team capacity concerns
+  missing_information:
+  - Recent layoffs or hiring freezes
+  - Executive team tenure and stability
+  - Performance management approach
+  - Promotion criteria and timeline
+  - Manager span of control for Ryan's direct reports
+  - Work-life balance policies
+  - On-call expectations
+technical_culture:
+  facts_found:
+  - fact: Architecture is monolith with multiple separate databases
+    source: Ryan Tang (Sr. Director of Technical Infrastructure)
+    date: '2025-10-10'
+    confidence: firsthand_account
+    fact_type: objective
+    context: Sr. Director hadn't seen this pattern before, suggesting unusual design
+  - fact: Database joins are performed in application code rather than database
+    source: Ryan Tang (Sr. Director of Technical Infrastructure)
+    date: '2025-10-10'
+    confidence: firsthand_account
+    fact_type: objective
+    context: Each table placed in separate database
+  - fact: Primary backend language is Hack (typed PHP)
+    source: Ryan Tang (Sr. Director of Technical Infrastructure)
+    date: '2025-10-10'
+    confidence: firsthand_account
+    fact_type: objective
+  - fact: Hack language adoption is insufficient, causing ecosystem support problems
+    source: Ryan Tang (Sr. Director of Technical Infrastructure)
+    date: '2025-10-10'
+    confidence: firsthand_account
+    fact_type: objective
+  - fact: Built on LAMP stack with MySQL database
+    source: Ryan Tang (Sr. Director of Technical Infrastructure)
+    date: '2025-10-10'
+    confidence: firsthand_account
+    fact_type: objective
+  - fact: Distributed tracing broke during first week, revealing observability gaps
+    source: Ryan Tang (Sr. Director of Technical Infrastructure)
+    date: '2025-10-10'
+    confidence: firsthand_account
+    fact_type: objective
+    context: Custom tracing to Datadog written by engineer, then broke
+  - fact: Active migration effort from Hack back to standard PHP
+    source: Ryan Tang (Sr. Director of Technical Infrastructure)
+    date: '2025-10-10'
+    confidence: firsthand_account
+    fact_type: objective
+    context: Creating trade-off between fixing observability vs avoiding throwaway
+      work
+  - fact: Tracing does not work out of the box due to Hack language limitations
+    source: Ryan Tang (Sr. Director of Technical Infrastructure)
+    date: '2025-10-10'
+    confidence: firsthand_account
+    fact_type: objective
+  - fact: Uses Datadog for observability and monitoring
+    source: Ryan Tang (Sr. Director of Technical Infrastructure)
+    date: '2025-10-10'
+    confidence: firsthand_account
+    fact_type: objective
+  - fact: SaaS-only product with no on-premises deployment
+    source: Ryan Tang (Sr. Director of Technical Infrastructure)
+    date: '2025-10-10'
+    confidence: firsthand_account
+    fact_type: objective
+  - fact: Sr. Director intentionally not injecting himself into technical decisions
+      during ramp-up period
+    source: Ryan Tang (Sr. Director of Technical Infrastructure)
+    date: '2025-10-10'
+    confidence: firsthand_account
+    fact_type: subjective
+    context: Could indicate unclear decision authority or appropriate onboarding caution
+  missing_information:
+  - AI coding tools policy and availability
+  - Deployment frequency and process
+  - Code review practices
+  - Testing standards and coverage
+  - Meeting load and maker time protection
+  - Engineering blog or open source presence
+  - CI/CD pipeline maturity
+  - Incident response and on-call rotation
+summary:
+  total_facts_found: 34
+  information_completeness: medium
+  most_recent_interview: '2025-10-10'
+  oldest_interview: '2025-10-10'
+  total_interviews: 1
+  interviewees:
+  - name: Ryan Tang
+    role: Sr. Director of Technical Infrastructure
+    interview_date: '2025-10-10'
