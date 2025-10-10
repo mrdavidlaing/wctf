@@ -59,7 +59,6 @@ def _deduplicate_facts(facts_list: list) -> list:
 
 def get_insider_extraction_prompt(
     company_name: str,
-    transcript: str,
     interview_date: str,
     interviewee_name: str,
     interviewee_role: Optional[str] = None,
@@ -67,11 +66,11 @@ def get_insider_extraction_prompt(
     """Generate an extraction prompt for analyzing an insider interview transcript.
 
     Returns a formatted prompt that guides the LLM to extract structured facts
-    from the interview transcript, classifying them as objective or subjective.
+    from the interview transcript (already in conversation context), classifying
+    them as objective or subjective.
 
     Args:
         company_name: Name of the company
-        transcript: Interview transcript text
         interview_date: Date of interview (YYYY-MM-DD format)
         interviewee_name: Name of the person interviewed
         interviewee_role: Optional role/title of the interviewee
@@ -100,14 +99,6 @@ def get_insider_extraction_prompt(
 
     company_name = company_name.strip()
 
-    # Validate transcript
-    if not transcript or not isinstance(transcript, str):
-        return {
-            "success": False,
-            "error": "Invalid transcript. Must be a non-empty string.",
-            "company_name": company_name,
-        }
-
     # Validate interview_date
     if not interview_date or not isinstance(interview_date, str):
         return {
@@ -132,7 +123,6 @@ def get_insider_extraction_prompt(
             interviewee_name=interviewee_name,
             interviewee_role=interviewee_role or "Unknown",
             interview_date=interview_date,
-            transcript=transcript,
         )
 
         instructions = (

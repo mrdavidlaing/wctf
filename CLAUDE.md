@@ -207,18 +207,18 @@ For collecting public information about companies (press releases, articles, fin
 
 For collecting information from insider interviews with current/former employees:
 
-1. **Get the extraction prompt**: Call `get_insider_extraction_prompt_tool(company_name, transcript, interview_date, interviewee_name, interviewee_role)`
-   - Takes the full interview transcript
-   - Returns a specialized prompt for extracting facts from the interview
+1. **Get the extraction prompt**: Call `get_insider_extraction_prompt_tool(company_name, interview_date, interviewee_name, interviewee_role)`
+   - Assumes the interview transcript is already in the conversation context
+   - Returns a specialized prompt for extracting facts from the transcript
    - Guides classification of facts as objective vs subjective
 
-2. **Analyze the transcript**: Use the extraction prompt to analyze the interview
+2. **Analyze the transcript**: Use the extraction prompt to analyze the transcript in your conversation context
    - Extract concrete facts (revenue, team size, policies)
    - Capture cultural observations and opinions
    - Note comparisons to other companies
 
 3. **Save extracted facts**: Call `save_insider_facts_tool(company_name, interview_date, interviewee_name, extracted_facts_yaml, interviewee_role)`
-   - Takes only the extracted YAML (not the transcript again - more efficient)
+   - Takes only the extracted YAML
    - Saves to `data/{company_name}/company.insider.yaml`
    - Merges with existing insider facts if file already exists
    - Deduplicates exact matches (same fact, source, date)
@@ -226,7 +226,7 @@ For collecting information from insider interviews with current/former employees
 
 **Key differences from research workflow:**
 - Two separate tools instead of mode-switching
-- Transcript sent only once (in step 1)
+- Transcript stays in conversation context (not passed to tools)
 - Facts classified as objective vs subjective
 - Separate file (`company.insider.yaml`) for firsthand accounts
 - Tracks interviewee metadata in summary section

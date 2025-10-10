@@ -271,12 +271,6 @@ summary:
       interview_date: "2025-10-08"
 ```
 
-## Transcript to Extract
-
-```
-{transcript}
-```
-
 ---
 
-**Begin extraction now.** Analyze the transcript and produce the structured YAML output following the format above.
+**Begin extraction now.** Analyze the transcript in your conversation context and produce the structured YAML output following the format above.

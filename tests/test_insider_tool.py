@@ -30,17 +30,6 @@ def temp_data_dir():
         yield Path(tmpdir)
 
 
-@pytest.fixture
-def sample_transcript():
-    """Sample interview transcript for testing."""
-    return """
-    Me: How's the company doing financially?
-    Them: We're doing well. $400M ARR as of September, and we're profitable.
-    Me: How big is the team?
-    Them: About 600 people. My team specifically is 3 engineers.
-    Me: How's the culture?
-    Them: Much better than my last company. People are relaxed and supportive.
-    """
 
 
 @pytest.fixture
@@ -114,11 +103,10 @@ summary:
 class TestGetInsiderExtractionPrompt:
     """Tests for get_insider_extraction_prompt function."""
 
-    def test_successful_prompt_generation(self, sample_transcript):
+    def test_successful_prompt_generation(self):
         """Test successful generation of extraction prompt."""
         result = get_insider_extraction_prompt(
             company_name="TestCorp",
-            transcript=sample_transcript,
             interview_date="2025-10-08",
             interviewee_name="John Doe",
             interviewee_role="Senior Engineer"
@@ -129,11 +117,10 @@ class TestGetInsiderExtractionPrompt:
         assert "extraction_prompt" in result
         assert "instructions" in result
 
-    def test_prompt_includes_context(self, sample_transcript):
+    def test_prompt_includes_context(self):
         """Test that the prompt includes interview context."""
         result = get_insider_extraction_prompt(
             company_name="TestCorp",
-            transcript=sample_transcript,
             interview_date="2025-10-08",
             interviewee_name="John Doe",
             interviewee_role="Senior Engineer"
@@ -145,11 +132,10 @@ class TestGetInsiderExtractionPrompt:
         assert "Senior Engineer" in prompt
         assert "2025-10-08" in prompt
 
-    def test_prompt_without_role(self, sample_transcript):
+    def test_prompt_without_role(self):
         """Test prompt generation when role is not provided."""
         result = get_insider_extraction_prompt(
             company_name="TestCorp",
-            transcript=sample_transcript,
             interview_date="2025-10-08",
             interviewee_name="John Doe"
         )
@@ -157,11 +143,10 @@ class TestGetInsiderExtractionPrompt:
         assert result["success"] is True
         assert "extraction_prompt" in result
 
-    def test_invalid_company_name(self, sample_transcript):
+    def test_invalid_company_name(self):
         """Test error handling for invalid company name."""
         result = get_insider_extraction_prompt(
             company_name="",
-            transcript=sample_transcript,
             interview_date="2025-10-08",
             interviewee_name="John Doe"
         )
@@ -169,23 +154,10 @@ class TestGetInsiderExtractionPrompt:
         assert result["success"] is False
         assert "error" in result
 
-    def test_invalid_transcript(self):
-        """Test error handling for invalid transcript."""
-        result = get_insider_extraction_prompt(
-            company_name="TestCorp",
-            transcript="",
-            interview_date="2025-10-08",
-            interviewee_name="John Doe"
-        )
-
-        assert result["success"] is False
-        assert "error" in result
-
-    def test_invalid_interview_date(self, sample_transcript):
+    def test_invalid_interview_date(self):
         """Test error handling for invalid interview date."""
         result = get_insider_extraction_prompt(
             company_name="TestCorp",
-            transcript=sample_transcript,
             interview_date="",
             interviewee_name="John Doe"
         )
@@ -193,11 +165,10 @@ class TestGetInsiderExtractionPrompt:
         assert result["success"] is False
         assert "error" in result
 
-    def test_invalid_interviewee_name(self, sample_transcript):
+    def test_invalid_interviewee_name(self):
         """Test error handling for invalid interviewee name."""
         result = get_insider_extraction_prompt(
             company_name="TestCorp",
-            transcript=sample_transcript,
             interview_date="2025-10-08",
             interviewee_name=""
         )

@@ -345,23 +345,28 @@ async def add_manual_flag_tool(
 @mcp.tool()
 async def get_insider_extraction_prompt_tool(
     company_name: str,
-    transcript: str,
     interview_date: str,
     interviewee_name: str,
     ctx: Context,
     interviewee_role: str = None
 ) -> dict:
-    """Get an extraction prompt for analyzing an insider interview transcript.
+    """Extract facts from an INSIDER INTERVIEW transcript (employees/ex-employees only).
+
+    IMPORTANT: Use this tool ONLY for interviews with current or former employees who
+    have firsthand knowledge of working at the company. For general conversation notes,
+    research discussions, or non-employee conversations, DO NOT use this tool - instead
+    manually format facts as YAML and save with save_research_results_tool.
 
     Returns a formatted prompt that guides extraction of structured facts from
-    the interview transcript, classifying them as objective or subjective.
+    the insider interview transcript (which should already be in your conversation context).
+    Classifies facts as objective or subjective. Saves to company.insider.yaml (separate
+    from public research facts).
 
-    After receiving this prompt, analyze the transcript and extract facts, then
-    call save_insider_facts_tool to save the extracted YAML.
+    After receiving this prompt, analyze the transcript in your conversation context
+    and extract facts, then call save_insider_facts_tool to save the extracted YAML.
 
     Args:
         company_name: Name of the company
-        transcript: Full transcript of the insider interview
         interview_date: Date of interview in YYYY-MM-DD format
         interviewee_name: Name of person interviewed (e.g., "Ahmad A")
         interviewee_role: Optional role/title (e.g., "Senior Engineer, Observability")
@@ -371,7 +376,6 @@ async def get_insider_extraction_prompt_tool(
 
     result = get_insider_extraction_prompt(
         company_name=company_name,
-        transcript=transcript,
         interview_date=interview_date,
         interviewee_name=interviewee_name,
         interviewee_role=interviewee_role
@@ -396,13 +400,17 @@ async def save_insider_facts_tool(
     ctx: Context,
     interviewee_role: str = None
 ) -> dict:
-    """Save extracted insider interview facts to company.insider.yaml.
+    """Save extracted INSIDER INTERVIEW facts to company.insider.yaml.
+
+    IMPORTANT: Use this tool ONLY for saving facts extracted from interviews with
+    current or former employees. For general research facts, use save_research_results_tool
+    instead (which saves to company.facts.yaml).
 
     Takes YAML content with extracted facts and saves them to the appropriate
     company directory. Merges with existing insider facts if the file already exists.
 
     Use this after get_insider_extraction_prompt_tool has been used to analyze
-    the transcript and extract structured facts.
+    the insider interview transcript and extract structured facts.
 
     Args:
         company_name: Name of the company
