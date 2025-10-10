@@ -202,6 +202,14 @@ async def save_research_results_tool(company_name: str, yaml_content: str, ctx: 
     All four categories (financial_health, market_position, organizational_stability,
     technical_culture) and the summary section are REQUIRED.
 
+    SIZE LIMITS - IMPORTANT:
+    YAML content must be under ~50KB to avoid truncation. If research is extensive:
+    - Consolidate related facts (e.g., combine multiple funding rounds into one fact)
+    - Keep 20-30 most important facts per category, not 50+
+    - Use concise sources: "Company announcements" not "Press Release, PR Newswire, Wikipedia"
+    - Shorten context fields to essential information only
+    Quality over quantity - focused facts are better than truncated comprehensive research.
+
     Args:
         company_name: Name of the company
         yaml_content: Complete YAML content as a string (the research results)
