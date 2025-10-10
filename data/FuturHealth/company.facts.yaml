@@ -1,0 +1,482 @@
+company: FuturHealth
+research_date: '2025-10-10'
+financial_health:
+  facts_found:
+  - fact: Raised $5 million in Series A/Early-Stage funding
+    source: Tracxn, PitchBook
+    date: '2023-12-15'
+    confidence: explicit_statement
+  - fact: Funding round led by Corazon Capital, InterAlpen Partners, and Oversubscribed
+      Ventures
+    source: Tracxn, PitchBook
+    date: '2023-12-15'
+    confidence: explicit_statement
+  - fact: Only 1 funding round documented; no subsequent funding rounds since December
+      2023
+    source: PitchBook, Tracxn
+    date: '2025-10-10'
+    confidence: explicit_statement
+  - fact: Company valuation not publicly disclosed
+    source: PitchBook
+    date: '2025-10-10'
+    confidence: explicit_statement
+  - fact: Annual revenue estimated at $42.6 million in 2025
+    source: RocketReach
+    date: '2025-10-10'
+    confidence: implied
+  - fact: Company has 49 total employees
+    source: PitchBook
+    date: '2025-10-10'
+    confidence: explicit_statement
+  - fact: Company has 58 employees
+    source: RocketReach
+    date: '2025-10-10'
+    confidence: explicit_statement
+  - fact: LinkedIn profile lists 2-10 employees
+    source: LinkedIn
+    date: '2025-10-10'
+    confidence: explicit_statement
+  - fact: Served over 1.5 million patients
+    source: PR Newswire, ConsumerAffairs
+    date: '2025-08-11'
+    confidence: explicit_statement
+  - fact: Over 400,000 people have chosen FuturHealth
+    source: futurhealth.com
+    date: '2025-10-10'
+    confidence: explicit_statement
+  - fact: Achieved 980% growth in active patients in under one year
+    source: PR Newswire
+    date: '2025-02-25'
+    confidence: explicit_statement
+  - fact: Facilitated 6 billion online interactions
+    source: PR Newswire
+    date: '2025-02-25'
+    confidence: explicit_statement
+  - fact: Company experienced 40X growth in 2024
+    source: Multiple sources
+    date: '2024-12-31'
+    confidence: explicit_statement
+  - fact: 600% growth from Q4 2023 to Q1 2024
+    source: Multiple sources
+    date: '2024-03-31'
+    confidence: explicit_statement
+  - fact: Network of 350+ board-licensed medical providers
+    source: PR Newswire, ConsumerRating
+    date: '2025-04-15'
+    confidence: explicit_statement
+  - fact: Network of 6,000 providers across 48 states
+    source: PR Newswire
+    date: '2025-02-25'
+    confidence: explicit_statement
+  - fact: 33,740 patients evaluated in retrospective efficacy study with InCSD
+    source: PR Newswire
+    date: '2025-02-25'
+    confidence: explicit_statement
+  - fact: No layoffs or restructuring events documented
+    source: Multiple layoff tracking databases
+    date: '2025-10-10'
+    confidence: explicit_statement
+  missing_information:
+  - Post-money or pre-money valuation
+  - Profitability status (profitable, break-even, or unprofitable)
+  - Monthly burn rate
+  - Cash runway
+  - Annual recurring revenue (ARR) or monthly recurring revenue (MRR)
+  - Revenue growth rate (year-over-year or month-over-month)
+  - Gross margin or unit economics
+  - EBITDA or net income figures
+  - Customer acquisition cost (CAC)
+  - Lifetime value (LTV)
+  - Churn rate or retention rate
+  - Clear employee headcount trend (conflicting data across sources)
+market_position:
+  facts_found:
+  - fact: Telehealth platform specializing in personalized weight loss with prescription
+      GLP-1 medications
+    source: futurhealth.com
+    date: '2025-10-10'
+    confidence: explicit_statement
+  - fact: Business founded November 17, 2023
+    source: Better Business Bureau
+    date: '2023-11-17'
+    confidence: explicit_statement
+  - fact: Headquartered in San Diego, California at 325 W Washington St Ste 2
+    source: Better Business Bureau
+    date: '2024-03-12'
+    confidence: explicit_statement
+  - fact: Offers GLP-1 medications including Ozempic, Wegovy, Mounjaro, Zepbound,
+      and compounded semaglutide/tirzepatide
+    source: futurhealth.com, ConsumerAffairs
+    date: '2025-10-10'
+    confidence: explicit_statement
+  - fact: Provides both injectable and pill forms of GLP-1 medications
+    source: futurhealth.com
+    date: '2025-10-10'
+    confidence: explicit_statement
+  - fact: Combines prescription medications with personalized nutrition plans and
+      dietitian guidance
+    source: futurhealth.com
+    date: '2025-10-10'
+    confidence: explicit_statement
+  - fact: 92% of users report achieving lasting weight loss
+    source: futurhealth.net, ConsumerRating
+    date: '2025-10-10'
+    confidence: explicit_statement
+  - fact: Offers 15% body weight loss guarantee with money-back promise on Pro Plan
+    source: ConsumerRating
+    date: '2025-10-10'
+    confidence: explicit_statement
+  - fact: Standard monthly membership costs $129.99/month
+    source: ConsumerAffairs, Google Play, Apple App Store
+    date: '2025-10-10'
+    confidence: explicit_statement
+  - fact: Promotional pricing often brings membership to $99/month
+    source: ConsumerAffairs, ConsumerRating
+    date: '2025-10-10'
+    confidence: explicit_statement
+  - fact: Compounded semaglutide medication costs $229/month
+    source: Yahoo Finance
+    date: '2025-10-10'
+    confidence: explicit_statement
+  - fact: No insurance required to use service
+    source: futurhealth.com, ConsumerAffairs
+    date: '2025-10-10'
+    confidence: explicit_statement
+  - fact: Available in all 50 U.S. states
+    source: ConsumerAffairs
+    date: '2024-12-31'
+    confidence: explicit_statement
+  - fact: TrustPilot rating of 4.7 out of 5 stars based on 15,015 reviews
+    source: TrustPilot
+    date: '2025-10-10'
+    confidence: explicit_statement
+  - fact: TrustPilot detected potential review solicitation issues that may compromise
+      reliability
+    source: TrustPilot
+    date: '2025-10-10'
+    confidence: explicit_statement
+  - fact: Not BBB Accredited; BBB status is 'Not Rated' due to pattern of complaints
+    source: Better Business Bureau
+    date: '2024-12-31'
+    confidence: explicit_statement
+  - fact: BBB file opened March 12, 2024
+    source: Better Business Bureau
+    date: '2024-03-12'
+    confidence: explicit_statement
+  - fact: Multiple consumer complaints on BBB about billing practices and unauthorized
+      charges
+    source: Better Business Bureau
+    date: '2025-10-10'
+    confidence: explicit_statement
+  - fact: LegitScript-certified healthcare merchant
+    source: futurhealth.com
+    date: '2025-10-10'
+    confidence: explicit_statement
+  - fact: Works with FDA-approved manufacturers for medications
+    source: futurhealth.com
+    date: '2025-10-10'
+    confidence: explicit_statement
+  - fact: Direct competitors include Calibrate Health (founded 2019, $100M funding),
+      Ro Body (160,000+ patients), Found, Hims & Hers, WeightWatchers/Sequence, and
+      Noom Med
+    source: SuperScript Wellness, Fierce Healthcare
+    date: '2024-12-31'
+    confidence: explicit_statement
+  - fact: GLP-1 drug market projected to reach $100-150 billion by 2030
+    source: J.P. Morgan Research, PwC
+    date: '2024-06-30'
+    confidence: explicit_statement
+  - fact: Estimated 2% of U.S. adults (approximately 5 million people) taking GLP-1s
+      as of May 2025
+    source: Fair Health via CNBC
+    date: '2025-05-31'
+    confidence: explicit_statement
+  - fact: Partnered with Apple Fitness+ to provide free access to all FuturHealth
+      members
+    source: PR Newswire, pharmaphorum
+    date: '2025-08-11'
+    confidence: explicit_statement
+  - fact: Partnered with Valisure for independent laboratory testing of medication
+      quality
+    source: PR Newswire, MediaPost
+    date: '2025-02-25'
+    confidence: explicit_statement
+  - fact: Partnered with Affirm for 0% APR payment plans on GLP-1 medications
+    source: PR Newswire
+    date: '2025-03-25'
+    confidence: explicit_statement
+  - fact: Partnered with Alto Pharmacy for medication delivery infrastructure
+    source: PR Newswire
+    date: '2025-07-30'
+    confidence: explicit_statement
+  - fact: Published efficacy study showing 58.5% more body weight change for Semaglutide
+      patients on FH Program vs medication alone
+    source: PR Newswire
+    date: '2025-02-25'
+    confidence: explicit_statement
+  - fact: iOS app has 4.73/5 stars rating with 19,000 ratings
+    source: Apple App Store
+    date: '2025-07-31'
+    confidence: explicit_statement
+  missing_information:
+  - G2 reviews (platform not applicable to direct-to-consumer healthcare)
+  - Capterra reviews (platform not applicable to direct-to-consumer healthcare)
+  - SOC 2 certification status
+  - ISO 27001 or other ISO certifications
+  - Explicit HIPAA compliance certification documentation
+  - PCI DSS compliance status
+  - HITRUST certification
+  - Market share percentage or competitive ranking
+  - Detailed customer case studies
+  - Specific pharmacy partner names
+  - Exact revenue figures (only estimate available)
+organizational_stability:
+  facts_found:
+  - fact: Luke Mahoney serves as Co-Founder and CEO
+    source: BBB, PR Newswire, LinkedIn
+    date: '2023-11-17'
+    confidence: explicit_statement
+  - fact: John Levan serves as Co-Founder and Chief Product Officer
+    source: Tracxn, MediaPost, LinkedIn
+    date: '2023-11-17'
+    confidence: explicit_statement
+  - fact: Jon Hambidge serves as Chief Financial Officer
+    source: Better Business Bureau
+    date: '2024-12-31'
+    confidence: explicit_statement
+  - fact: Sabrina Burgi serves as Chief Operating Officer
+    source: LinkedIn
+    date: '2024-12-31'
+    confidence: explicit_statement
+  - fact: Keith Koch appointed as Executive Vice President of Growth Product & Experience
+      Design on April 15, 2025
+    source: PR Newswire
+    date: '2025-04-15'
+    confidence: explicit_statement
+  - fact: Keith Koch has 20+ years experience including Head of Product at Walmart
+      Health and senior roles at Optum and UnitedHealthcare
+    source: PR Newswire
+    date: '2025-04-15'
+    confidence: explicit_statement
+  - fact: Luke Mahoney previously co-founded G-Plans with John Levan approximately
+      10 years prior
+    source: MediaPost
+    date: '2025-02-27'
+    confidence: explicit_statement
+  - fact: Company has only 4 total reviews on Glassdoor
+    source: Glassdoor
+    date: '2025-10-10'
+    confidence: explicit_statement
+  - fact: Glassdoor does not display numerical ratings due to insufficient review
+      count
+    source: Glassdoor
+    date: '2025-10-10'
+    confidence: explicit_statement
+  - fact: Zero employee reviews found on Blind
+    source: Blind (teamblind.com)
+    date: '2025-10-10'
+    confidence: explicit_statement
+  - fact: No employee reviews found on Indeed
+    source: Indeed
+    date: '2025-10-10'
+    confidence: explicit_statement
+  - fact: Employee reviews mention non-micromanaging management style and performance-based
+      culture
+    source: Glassdoor
+    date: '2025-02-21'
+    confidence: explicit_statement
+  - fact: Employee reviews note that processes are not 100% set up yet and complex
+      system requires learning curve
+    source: Glassdoor
+    date: '2025-02-21'
+    confidence: explicit_statement
+  - fact: Employees report high workload and responsibility
+    source: Glassdoor
+    date: '2025-02-21'
+    confidence: explicit_statement
+  - fact: CEO approval rating is 100% based on 4 reviews
+    source: Glassdoor
+    date: '2025-10-10'
+    confidence: explicit_statement
+  - fact: Primary headquarters located at 325 W Washington St, Suite 2, San Diego,
+      CA 92103
+    source: Better Business Bureau
+    date: '2024-12-31'
+    confidence: explicit_statement
+  - fact: Additional corporate address in Wilmington, DE (2810 N Church St PMB 53534)
+    source: TrustPilot
+    date: '2025-10-10'
+    confidence: explicit_statement
+  - fact: Job postings indicate remote work capability
+    source: Remote.work, Built In
+    date: '2025-10-10'
+    confidence: implied
+  - fact: Senior Product Designer salary range listed as $160,000-$195,000
+    source: Remote.work
+    date: '2025-10-10'
+    confidence: explicit_statement
+  - fact: Related business G-Plans listed under same corporate entity FuturCo Health
+      Technologies
+    source: Better Business Bureau
+    date: '2024-12-31'
+    confidence: explicit_statement
+  - fact: LinkedIn company page lists 35 followers
+    source: LinkedIn
+    date: '2025-10-10'
+    confidence: explicit_statement
+  missing_information:
+  - Board of Directors members
+  - Advisory board members
+  - Chief Technology Officer (no CTO identified)
+  - VP-level executives beyond EVP Koch
+  - Exact tenure/start dates for CFO and COO
+  - Official work model policy (remote/hybrid/office not explicitly stated)
+  - Glassdoor numerical ratings for culture, work-life balance, compensation, career
+    opportunities
+  - Detailed organizational chart
+  - Office expansion plans
+  - Employee retention rates
+technical_culture:
+  facts_found:
+  - fact: Backend technology stack includes Node.js, Django (Python), and TypeScript
+    source: LinkedIn job posting
+    date: '2024-12-31'
+    confidence: explicit_statement
+  - fact: Database technology includes PostgreSQL, Redis, and RabbitMQ
+    source: LinkedIn job posting
+    date: '2024-12-31'
+    confidence: explicit_statement
+  - fact: Frontend frameworks include Vue.js, Nuxt.js (primary), React, and React
+      Native for mobile
+    source: Greenhouse, Built In job postings
+    date: '2025-10-10'
+    confidence: explicit_statement
+  - fact: Infrastructure hosted on Google Cloud Platform (GCP)
+    source: LinkedIn job posting
+    date: '2024-12-31'
+    confidence: explicit_statement
+  - fact: Uses Kubernetes cluster for container orchestration
+    source: LinkedIn job posting
+    date: '2024-12-31'
+    confidence: explicit_statement
+  - fact: Utilizes Google Cloud Functions and Cloud Run for serverless deployments
+    source: LinkedIn job posting
+    date: '2024-12-31'
+    confidence: explicit_statement
+  - fact: CI/CD implemented with self-hosted GitLab
+    source: LinkedIn job posting
+    date: '2024-12-31'
+    confidence: explicit_statement
+  - fact: Infrastructure is HIPAA-compliant and HiTrust certified
+    source: Greenhouse job posting
+    date: '2025-10-10'
+    confidence: explicit_statement
+  - fact: Uses Docker for containerization
+    source: LinkedIn job posting
+    date: '2024-12-31'
+    confidence: explicit_statement
+  - fact: GitHub organization exists at github.com/FuturHealth with 1 public repository
+    source: GitHub
+    date: '2025-10-10'
+    confidence: explicit_statement
+  - fact: Only public GitHub repository is a fork of changesets/action (TypeScript)
+    source: GitHub
+    date: '2025-10-10'
+    confidence: explicit_statement
+  - fact: No engineering blog found on company website, Medium, or Dev.to
+    source: Multiple web searches
+    date: '2025-10-10'
+    confidence: explicit_statement
+  - fact: No conference talks or technical presentations found
+    source: Web searches
+    date: '2025-10-10'
+    confidence: explicit_statement
+  - fact: Interview process consists of 5 rounds taking approximately 1-1.5 months
+    source: Glassdoor
+    date: '2025-10-10'
+    confidence: explicit_statement
+  - fact: Multiple candidates report being ghosted after 5 rounds of interviews
+    source: Glassdoor interview reviews
+    date: '2025-10-10'
+    confidence: explicit_statement
+  - fact: Actively hiring for Senior Product Manager, AI role with salary $154,000-$189,000
+    source: Greenhouse
+    date: '2025-10-10'
+    confidence: explicit_statement
+  - fact: AI Product Manager role requires strong understanding of AI, machine learning,
+      and healthcare applications
+    source: Greenhouse job posting
+    date: '2025-10-10'
+    confidence: explicit_statement
+  - fact: Platform uses AI and data analytics to optimize treatment and monitor progress
+    source: futurhealth.net
+    date: '2025-10-10'
+    confidence: implied
+  - fact: Full Stack Engineer positions pay $160,000-$230,000
+    source: Built In, Greenhouse
+    date: '2025-10-10'
+    confidence: explicit_statement
+  - fact: All engineering positions are fully remote
+    source: Job postings
+    date: '2025-10-10'
+    confidence: explicit_statement
+  - fact: Company offers flexible work schedule
+    source: Job postings, Glassdoor
+    date: '2025-10-10'
+    confidence: explicit_statement
+  - fact: Engineering team estimated at 15-25 people out of 49-58 total employees
+    source: Job postings analysis
+    date: '2025-10-10'
+    confidence: implied
+  - fact: Code reviews are standard practice
+    source: Greenhouse job postings
+    date: '2025-10-10'
+    confidence: explicit_statement
+  - fact: Emphasizes code quality standards, frontend testing practices, and accessibility
+    source: Greenhouse job postings
+    date: '2025-10-10'
+    confidence: explicit_statement
+  - fact: iOS app version 2.8.2 released July 2025, 176.46 MB download size
+    source: Apple App Store
+    date: '2025-07-31'
+    confidence: explicit_statement
+  - fact: Android app has approximately 80,000 installs
+    source: AppBrain, Google Play
+    date: '2025-10-10'
+    confidence: explicit_statement
+  - fact: Founders previously built G-Plans nutrition platform that served 25+ million
+      consumers
+    source: MediaPost
+    date: '2025-02-27'
+    confidence: explicit_statement
+  - fact: DevOps team manages GCP and Kubernetes infrastructure
+    source: LinkedIn job posting
+    date: '2024-12-31'
+    confidence: explicit_statement
+  - fact: Aleksandr Malinin works as Software Engineer with 6+ years web development
+      experience
+    source: LinkedIn
+    date: '2025-10-10'
+    confidence: explicit_statement
+  - fact: Kory Newton serves as Senior Full Stack Engineer
+    source: LinkedIn
+    date: '2025-10-10'
+    confidence: explicit_statement
+  missing_information:
+  - Chief Technology Officer or VP of Engineering (no senior technical leadership
+    publicly identified)
+  - Specific testing frameworks used (unit, integration, end-to-end)
+  - Test coverage metrics
+  - Deployment frequency or velocity metrics
+  - Monitoring and observability stack (e.g., Datadog, New Relic)
+  - API architecture details (REST, GraphQL, gRPC)
+  - Machine learning frameworks and tools used
+  - On-call rotation and incident management practices
+  - Engineering blog or technical content
+  - Open source contributions beyond single fork
+  - Technical conference participation or speaking engagements
+summary:
+  total_facts_found: 98
+  information_completeness: medium
+  most_recent_data_point: '2025-10-10'
+  oldest_data_point: '2023-11-17'
