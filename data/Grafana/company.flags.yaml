@@ -1,0 +1,198 @@
+company: Grafana
+evaluation_date: '2025-10-10'
+evaluator_context: Extracted from conversation notes
+green_flags:
+  mountain_range:
+    critical_matches: &id001
+    - flag: Revenue growth from $50M to $400M+ ARR in 3 years (2022-2025), 60% growth
+        in last 13 months alone
+      impact: Exceptional hypergrowth indicates strong product-market fit and customer
+        validation - unlikely to face existential crisis
+      confidence: High - explicit press releases and company statements
+    - flag: Raised $270M Series D at $6B+ valuation in August 2024, followed by secondary
+        transaction with Ontario Teachers' in September 2025
+      impact: Strong investor confidence with tier-1 institutional backing provides
+        runway security
+      confidence: High - official press releases
+    - flag: 7,000+ paying customers including Anthropic, NVIDIA, Salesforce, Microsoft,
+        Bloomberg - up from 2,000 in 2022
+      impact: Enterprise-grade customer base with household names demonstrates market
+        validation and reduces risk
+      confidence: High - company press releases
+    - flag: Primary tech stack is TypeScript and Go with React frontend - modern,
+        pragmatic choices
+      impact: Aligns perfectly with your TypeScript preference and represents current
+        best practices
+      confidence: High - GitHub repository analysis
+    - flag: Deploy to production 20x per day with emphasis on no regressions and test
+        coverage
+      impact: High-velocity engineering culture with quality guardrails - indicates
+        mature DevOps
+      confidence: High - employee interviews and metrics
+    - flag: '#1 company contributor to Prometheus, top 10 contributor to OpenTelemetry
+        with employees on governing boards'
+      impact: Deep open source leadership in core infrastructure - rare opportunity
+        to work at ecosystem level
+      confidence: High - company blog and community records
+    - flag: GitHub Copilot and ChatGPT Enterprise provided to engineers
+      impact: Company invests in AI tooling to enhance developer productivity
+      confidence: High - employee interviews
+    - flag: Raj Dutt (CEO) is technical co-founder who started company from three
+        continents
+      impact: Technical leadership with founder mentality and proven ability to build
+        remote-first culture
+      confidence: High - multiple sources
+    - flag: Engineers report 4 hours meetings per week average with maker time blocks
+        2-5pm daily protected
+      impact: Exceptional meeting discipline - this is 80% maker time vs typical 50%
+        at most companies
+      confidence: High - employee calendar screenshots and interviews
+    - flag: 100% remote-first across 40+ countries with no office requirement
+      impact: True location flexibility without office politics or 'remote second-class
+        citizen' dynamics
+      confidence: High - official company policy
+    - flag: Working on observability platform used by SpaceX, Wimbledon, Tour de France,
+        and processing 12M+ metrics/hour
+      impact: Legitimate large-scale distributed systems work with real-world impact
+        at massive scale
+      confidence: High - customer case studies
+    - flag: Core contributor to Prometheus and OpenTelemetry ecosystems shaping industry
+        standards
+      impact: Rare opportunity to influence infrastructure standards that millions
+        of developers use
+      confidence: High - community contribution records
+    strong_positives: &id002
+    - flag: '25M+ open source users globally, #13 on Forbes Cloud 100 list (5th consecutive
+        year)'
+      impact: Massive community adoption creates strong economic moat and industry
+        recognition
+      confidence: High - Forbes ranking and company statistics
+    - flag: Named Leader in 2025 Gartner Magic Quadrant for Observability Platforms,
+        positioned furthest in Completeness of Vision
+      impact: Industry analyst recognition validates technical direction and competitive
+        position
+      confidence: High - Gartner report
+    - flag: Top 50 global organizations by GitHub stars across all projects
+      impact: Open source leadership creates talent attraction and technical credibility
+      confidence: High - GitHub metrics
+    - flag: 897 GitHub repositories, engineering blog publishes 2x monthly with technical
+        depth
+      impact: Strong technical communication culture and extensive open source portfolio
+      confidence: High - GitHub and blog analysis
+    - flag: Regular company-wide hackathons have shipped production features (Incident
+        chatbot, Explore Metrics)
+      impact: Innovation time is valued and can make real impact, not just theater
+      confidence: High - company blog documentation
+    - flag: Code review required before merge, pair programming heavily used especially
+        during onboarding
+      impact: Strong engineering practices ensure knowledge sharing and quality
+      confidence: High - GitHub docs and employee reports
+    - flag: Software Engineer professionals rate company 5.0/5 on Glassdoor from 18
+        reviews
+      impact: Engineers specifically love working there - rare perfect score
+      confidence: High - Glassdoor data
+    - flag: Scaled from 30 people (2018) to 180 (2020) to 1,400+ (2025) while maintaining
+        remote-first culture
+      impact: Proven organizational scaling capability without sacrificing culture
+      confidence: High - company blog and press releases
+    - flag: Glassdoor rating 4.1/5 with 82% would recommend to friend
+      impact: Generally positive employee sentiment, though not exceptional
+      confidence: High - Glassdoor data
+    - flag: Remote-first for over 10 years with employees across 40+ countries
+      impact: Mature remote practices, not a pandemic conversion - they know how to
+        do this
+      confidence: High - multiple employee reviews
+    - flag: 'Company at inflection point: $400M ARR, 7,000 customers, 1,400 employees
+        - still hypergrowth but increasingly stable'
+      impact: Sweet spot for impact - large enough to matter, small enough to shape
+        things
+      confidence: High - growth trajectory analysis
+  chosen_peak:
+    critical_matches: *id001
+    strong_positives: *id002
+  rope_team_confidence:
+    critical_matches: *id001
+    strong_positives: *id002
+  daily_climb:
+    critical_matches: *id001
+    strong_positives: *id002
+  story_worth_telling:
+    critical_matches: *id001
+    strong_positives: *id002
+red_flags:
+  mountain_range:
+    dealbreakers: &id003 []
+    concerning: &id004
+    - flag: No public profitability information despite $400M+ ARR and multiple funding
+        rounds
+      impact: Unclear path to profitability could mean burn rate concerns or IPO delays
+      confidence: High - explicitly missing from all public sources
+    - flag: Datadog holds 51.82% market share vs Grafana in observability market
+      impact: David vs Goliath competition - may face pressure and need to compete
+        on price
+      confidence: High - market analysis
+    - flag: Major organizational reorganization in 2020 from project focus to product
+        focus
+      impact: May indicate early scaling challenges, though several years ago now
+      confidence: High - company announcement
+    - flag: Glassdoor review from 2024 alleges 'silent layoffs' with performance terminations
+        without official announcements
+      impact: Could indicate opacity in HR practices or performance management issues
+      confidence: Low - single anecdotal report
+  chosen_peak:
+    dealbreakers: *id003
+    concerning: *id004
+  rope_team_confidence:
+    dealbreakers: *id003
+    concerning: *id004
+  daily_climb:
+    dealbreakers: *id003
+    concerning: *id004
+  story_worth_telling:
+    dealbreakers: *id003
+    concerning: *id004
+missing_critical_data:
+- question: What is the current profitability status and burn rate?
+  why_important: Critical for assessing runway security and stability - $400M ARR
+    company should be approaching profitability
+  how_to_find: 'Ask directly in interviews: ''Can you share your path to profitability
+    and current unit economics?'''
+  mountain_element: mountain_range
+- question: What is the equity compensation structure and typical grants for Staff+
+    engineers?
+  why_important: With $6B+ valuation and potential IPO path, equity could be significant
+    wealth creation
+  how_to_find: Ask recruiter for typical equity ranges, and levels.fyi for Grafana
+    compensation data
+  mountain_element: daily_climb
+- question: What is the current CTO and VP Engineering team composition and their
+    backgrounds?
+  why_important: Understanding technical leadership helps assess who you'd work with
+    and learn from
+  how_to_find: LinkedIn research on executive team, ask about engineering leadership
+    in interviews
+  mountain_element: rope_team_confidence
+- question: What is the on-call rotation frequency and incident load for engineers?
+  why_important: Observability company likely has its own monitoring - need to understand
+    operational burden
+  how_to_find: 'Ask engineers directly: ''What''s the on-call rotation like and how
+    often do you get paged?'''
+  mountain_element: daily_climb
+- question: What is the annual turnover rate, especially in engineering?
+  why_important: High turnover could indicate cultural issues despite positive Glassdoor
+    reviews
+  how_to_find: 'Ask in interviews: ''What''s your retention rate for engineers?''
+    and check median tenure on LinkedIn'
+  mountain_element: rope_team_confidence
+- question: What is the realistic IPO timeline and preparation status?
+  why_important: Affects equity liquidity expectations and potential for life-changing
+    wealth
+  how_to_find: Ask executives about public market readiness, watch for S-1 prep signals
+  mountain_element: story_worth_telling
+- question: What's the technical debt situation and balance between new features vs
+    maintenance?
+  why_important: Hypergrowth companies often accumulate tech debt - affects daily
+    engineering experience
+  how_to_find: 'Ask engineers: ''What percentage of time is spent on tech debt vs
+    new features?'''
+  mountain_element: chosen_peak
