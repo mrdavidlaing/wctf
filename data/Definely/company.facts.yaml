@@ -1,0 +1,249 @@
+company: Definely
+research_date: '2025-10-12'
+financial_health:
+  facts_found:
+  - fact: Raised $30M Series B (June 2025) led by Revaia, bringing total funding to
+      $40M
+    source: Definely press release, TechCrunch
+    date: '2025-06-09'
+    confidence: explicit_statement
+  - fact: Nearly tripled ARR in 2024; US accounts for 30% of revenue
+    source: Artificial Lawyer, Definely press release
+    date: '2025-06-09'
+    confidence: explicit_statement
+  - fact: Achieved 1,217% revenue growth 2019-2023, ranked 23rd in Deloitte UK Tech
+      Fast 50
+    source: Deloitte UK Technology Fast50
+    date: '2023-11-17'
+    confidence: explicit_statement
+  - fact: Pre-profitable with subscription model; CEO states 'raised just $11M with
+      close to 100 people' showing capital efficiency
+    source: Legal IT Insider interview
+    date: '2025-06-09'
+    confidence: explicit_statement
+  - fact: Grew from 60+ employees (May 2024) to 84 (June 2025), projecting 100+ by
+      H2 2025
+    source: Series A and B press releases
+    date: '2025-06-09'
+    confidence: explicit_statement
+  - fact: No layoffs or restructuring events reported 2020-2025
+    source: Comprehensive news search
+    date: '2025-10-12'
+    confidence: explicit_statement
+  - fact: Serves 100+ clients including Magic Circle firms (A&O Shearman, Slaughter
+      and May) and Fortune 500 (BT, Deloitte, Barclays)
+    source: Definely press releases
+    date: '2025-06-09'
+    confidence: explicit_statement
+  - fact: 40,000 active users as of Series A (May 2024)
+    source: Definely Series A press release
+    date: '2024-05-08'
+    confidence: explicit_statement
+  - fact: Received £585K grant from Innovate UK for AI development
+    source: Definely press release, Tech.eu
+    date: '2024-07-31'
+    confidence: explicit_statement
+  - fact: 'Previous rounds: £2.2M Seed-Plus (Sept 2021) co-led by M12/CRE; $7M Series
+      A (May 2024) led by Octopus'
+    source: Crunchbase, press releases
+    date: '2024-05-08'
+    confidence: explicit_statement
+  missing_information:
+  - Specific ARR dollar amounts
+  - Burn rate and runway
+  - Series A/B valuations
+  - Customer retention/churn rates
+  - Average contract value and CAC/LTV
+market_position:
+  facts_found:
+  - fact: London-based legal tech founded 2020 by ex-Freshfields lawyers Nnamdi Emelifeonwu
+      (CEO) and Feargus MacDaeid (CSO)
+    source: Tech Funding News
+    date: '2025-06-12'
+    confidence: explicit_statement
+  - fact: 'Five products: Vault (precedent search), Draft (contract review), Enhance
+      (multi-agent AI), Proof (proofreading), PDF (OCR)'
+    source: Definely.com
+    date: '2025-06-12'
+    confidence: explicit_statement
+  - fact: Native Microsoft Word integration via Office.js - key differentiator vs
+      competitors requiring separate platforms
+    source: Tech Funding News
+    date: '2025-06-12'
+    confidence: explicit_statement
+  - fact: Promises 40%+ speed improvement; customers report avg 1hr/day saved per
+      lawyer
+    source: Definely press release, customer testimonials
+    date: '2025-06-12'
+    confidence: explicit_statement
+  - fact: Uses RAG + LLMs with firm's knowledge base integration
+    source: Medium product review
+    date: '2024'
+    confidence: explicit_statement
+  - fact: 'Launched Cascade (Aug 2025): AI drafting assistant showing 3 levels of
+      contract change impact'
+    source: CB Insights, Definely.com
+    date: '2025-08-25'
+    confidence: explicit_statement
+  - fact: Operates in $60B legal tech industry within $900B global legal services
+      market
+    source: Octopus Ventures, company statements
+    date: '2024-05-08'
+    confidence: explicit_statement
+  - fact: 'Main competitors: Harvey AI, Robin AI, Luminance, CoCounsel, Draftwise;
+      Harvey valued at $5B'
+    source: CB Insights, Artificial Lawyer
+    date: '2025-06-02'
+    confidence: explicit_statement
+  - fact: Included in top 15 recommended legal AI vendors by major law firms (April
+      2025)
+    source: Artificial Lawyer
+    date: '2025-04-22'
+    confidence: explicit_statement
+  - fact: Microsoft-backed with M12 investment; part of Google for Startups
+    source: Tech.eu
+    date: '2024-05-08'
+    confidence: explicit_statement
+  - fact: ISO 27001 and SOC2 Type 2 certified (2023)
+    source: Definely blog
+    date: '2023'
+    confidence: explicit_statement
+  - fact: Active in 30+ countries (UK, US, Canada, Australia)
+    source: Tech Funding News
+    date: '2025-06-12'
+    confidence: explicit_statement
+  - fact: 'Pricing: ~£75-90/month for individuals; enterprise pricing not public'
+    source: Medium review, GetApp
+    date: '2024'
+    confidence: explicit_statement
+  missing_information:
+  - No public customer reviews on G2, Capterra, TrustPilot
+  - Specific market share percentage
+  - Detailed case studies with ROI metrics
+  - API availability beyond Microsoft
+  - Patent portfolio details
+organizational_stability:
+  facts_found:
+  - fact: Co-founders have 8 years tenure (founded Sept 2017, launched 2020)
+    source: Multiple press releases
+    date: '2025-06-09'
+    confidence: explicit_statement
+  - fact: 'Complete C-suite: David Silva (CTO), Corinne Thompson (CFO), Dave McKenzie
+      (COO), Rhys Hodkinson (CRO)'
+    source: Definely website
+    date: '2025-10-12'
+    confidence: explicit_statement
+  - fact: 'Department heads: Bruce Elliott (Product), Kathryn Lye (Marketing), Molly
+      Taylor (Customer Success), Sigurjón Ísaksson (AI), Shannon Thomas (People)'
+    source: Definely website
+    date: '2025-10-12'
+    confidence: explicit_statement
+  - fact: 'Glassdoor: 4.1/5 stars (19 reviews); 84% recommend to friend; 93% positive
+      outlook'
+    source: Glassdoor.com
+    date: '2025-10-12'
+    confidence: explicit_statement
+  - fact: 'Hybrid work: London HQ, 2-3 days/week office (optional more)'
+    source: Definely careers page
+    date: '2025-10-12'
+    confidence: explicit_statement
+  - fact: 'Benefits: 25 days holiday + bank holidays, pension, Vitality healthcare,
+      enhanced parental leave'
+    source: Definely job postings
+    date: '2025-10-12'
+    confidence: explicit_statement
+  - fact: 'Diversity: 34.1% ethnically diverse, 33.1% women, 14% women in tech, leadership
+      27% female/45% diverse'
+    source: Tech Funding News
+    date: '2025-06-12'
+    confidence: explicit_statement
+  - fact: 'Culture: ''No space for ego, gossip, or jerks''; direct communication'
+    source: Definely careers page
+    date: '2025-10-12'
+    confidence: explicit_statement
+  - fact: Employee reviews note flexible work-life balance, career development, monthly
+      social events
+    source: Glassdoor reviews
+    date: '2025-10-12'
+    confidence: explicit_statement
+  - fact: 'Some reviews note startup intensity: ''sink or swim'', unannounced deadlines,
+      critical issues needing immediate attention'
+    source: Glassdoor reviews
+    date: '2025-10-12'
+    confidence: explicit_statement
+  - fact: No executive departures reported in recent news
+    source: Comprehensive news search
+    date: '2025-10-12'
+    confidence: implied
+  - fact: Appointed US General Manager in 2025; key employees relocating to East Coast
+    source: Legal IT Insider
+    date: '2025-06-09'
+    confidence: explicit_statement
+  missing_information:
+  - Executive team tenure dates beyond founders
+  - Detailed Glassdoor sub-ratings
+  - Employee retention/turnover rates
+  - Departmental team sizes
+  - Office size/real estate details
+technical_culture:
+  facts_found:
+  - fact: Tech stack evolved from .NET/Reg Ex to Python/ML/AI; now uses MCP, SLMs,
+      LLMs, GPUs
+    source: Artificial Lawyer interview
+    date: '2025-06-09'
+    confidence: explicit_statement
+  - fact: 'Primary: Office.js for Word add-ins (JavaScript, HTML, CSS); backend C#/Python'
+    source: Definely job postings
+    date: '2025-10-12'
+    confidence: explicit_statement
+  - fact: Multi-agent AI system (Enhance) with specialized models; uses Model Context
+      Protocol for orchestration
+    source: Artificial Lawyer
+    date: '2025-05-22'
+    confidence: explicit_statement
+  - fact: Uses 'range of leading LLMs, selecting best for each task'; experience with
+      Azure OpenAI, AWS Bedrock, Sagemaker
+    source: Job postings, Artificial Lawyer
+    date: '2025-10-12'
+    confidence: explicit_statement
+  - fact: Focus on NLP, Transformer models, MLOps, RAG architecture
+    source: GitHub profiles, job postings
+    date: '2025-10-12'
+    confidence: explicit_statement
+  - fact: 'Dev practices: Agile (Scrum/Kanban), TeamCity CI, Octopus Deploy'
+    source: Job postings
+    date: '2025-10-12'
+    confidence: explicit_statement
+  - fact: 'Tools: Jira, Confluence, Bitbucket, Git, Azure, AWS, TestRail, Postman'
+    source: Job postings
+    date: '2025-10-12'
+    confidence: explicit_statement
+  - fact: 'Comprehensive QA: acceptance, integration, UI/UX, performance, security,
+      smoke, regression testing'
+    source: Job postings
+    date: '2025-10-12'
+    confidence: explicit_statement
+  - fact: 'Key tech staff: Sigurjón Ísaksson (Head of AI), David Silva (CTO), Isaac
+      Rodriguez (ML Engineer), Bruce Elliott (CPO)'
+    source: LinkedIn, Definely website
+    date: '2025-10-12'
+    confidence: explicit_statement
+  - fact: 'Microsoft partnership: M12-backed, Office.js integration, available on
+      AppSource'
+    source: Multiple sources
+    date: '2024-05-08'
+    confidence: explicit_statement
+  missing_information:
+  - No public GitHub organization or open-source projects
+  - No engineering blog or technical content publication
+  - No conference talks by team members
+  - No public API documentation
+  - Specific LLM provider names (OpenAI, Anthropic, etc.)
+  - Database technologies used
+  - Specific frontend framework (React/Angular/Vue)
+  - Engineering team structure/squad organization
+summary:
+  total_facts_found: 45
+  information_completeness: high
+  most_recent_data_point: '2025-10-12'
+  oldest_data_point: '2020-09-01'
