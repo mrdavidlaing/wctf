@@ -8,19 +8,6 @@ financial_health:
     confidence: firsthand_account
     fact_type: objective
     context: Taylor confirmed only single layoff round during tenure since Jan 2022
-  - fact: Current headcount approximately 150 total employees
-    source: Taylor Jordan (Product Designer)
-    date: '2025-10-16'
-    confidence: firsthand_account
-    fact_type: objective
-    context: Mentioned about half are engineering/product/design, rest are business
-      functions
-  - fact: Engineering headcount approximately 75 people
-    source: Taylor Jordan (Product Designer)
-    date: '2025-10-16'
-    confidence: firsthand_account
-    fact_type: objective
-    context: About half of 150 total headcount
   - fact: Customer base includes a few massive whale accounts with long tail
     source: Taylor Jordan (Product Designer)
     date: '2025-10-16'
