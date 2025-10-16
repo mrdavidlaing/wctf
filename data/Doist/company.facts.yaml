@@ -1,0 +1,461 @@
+company: Doist
+research_date: '2025-10-14'
+financial_health:
+  facts_found:
+  - fact: Doist raised only $40,000 in a seed/grant round from Start-Up Chile on June
+      20, 2011
+    source: Crunchbase, Tracxn, CB Insights
+    date: '2011-06-20'
+    confidence: explicit_statement
+  - fact: Doist has never raised venture capital and remains 100% bootstrapped. Founder
+      turned down early VC offers when investors wanted to replace him as CEO
+    source: Crunchbase, Doist.com, Acquired.fm podcast
+    date: '2025-10-14'
+    confidence: explicit_statement
+  - fact: Company explicitly states 'We don't have an exit strategy' and has no plans
+      to sell or get acquired
+    source: Doist.com official website
+    date: '2025-10-14'
+    confidence: explicit_statement
+  - fact: Doist reached $26.5M annual revenue in October 2024, up from $20M in 2023
+      (32.5% YoY growth)
+    source: Getlatka.com
+    date: '2024-10-01'
+    confidence: explicit_statement
+  - fact: 'Revenue milestones: $1M (2015), $7.9M (2019), $14M (2020), $20M (2023),
+      $26.5M (2024)'
+    source: Getlatka.com, podcast interviews
+    date: '2024-10-01'
+    confidence: explicit_statement
+  - fact: Todoist has made more than $100M in total cumulative revenue since inception
+      in 2007
+    source: Amir Salihefendić Twitter, ARR Club
+    date: '2024-07-03'
+    confidence: explicit_statement
+  - fact: Company has been profitable from day one with first 200 customers and profitable
+      all years since
+    source: Getlatka interview, Acquired.fm podcast
+    date: '2020-11-01'
+    confidence: explicit_statement
+  - fact: CEO stated strategy is to reinvest everything back to company rather than
+      extracting profit
+    source: Getlatka interview
+    date: '2020-11-01'
+    confidence: explicit_statement
+  - fact: Doist achieves approximately $200,000 in revenue per employee, considered
+      strong efficiency
+    source: Saas.group podcast
+    date: '2024-03-01'
+    confidence: explicit_statement
+  - fact: As profitable bootstrapped company with no external investors, Doist has
+      no burn rate and unlimited runway
+    source: Crunchbase, Doist.com
+    date: '2025-10-14'
+    confidence: implied
+  - fact: 'Doist has 93-103 employees (sources vary: 93 on official site, 103 per
+      Getlatka)'
+    source: Doist.com About page, Getlatka, PitchBook
+    date: '2024-10-01'
+    confidence: explicit_statement
+  - fact: 39 engineers on product development team, 4-person marketing team
+    source: Getlatka.com
+    date: '2024-10-01'
+    confidence: explicit_statement
+  - fact: Team represents 41 nationalities across 39 countries and 75 cities, fully
+      remote since inception
+    source: Doist.com About page
+    date: '2025-10-14'
+    confidence: explicit_statement
+  - fact: 'Historical employee growth: 40 (2014), 50 (2015), 60 (2017), 93 (2020),
+      100 (2021), 103 (2024)'
+    source: Getlatka, LinkedIn, podcast interviews
+    date: '2024-10-01'
+    confidence: explicit_statement
+  - fact: Company has 90%+ employee retention rate, in one 6.5 year period had only
+      3 people leave
+    source: LinkedIn hiring article, Crunchbase
+    date: '2020-01-01'
+    confidence: explicit_statement
+  - fact: No evidence of any layoffs, downsizing, or restructuring events in 2023-2025
+    source: Saas.group podcast, search results
+    date: '2025-10-14'
+    confidence: implied
+  - fact: Company actively hiring in 2025 with open roles for Product Manager, Backend
+      Engineers, Marketing
+    source: Glassdoor, Wellfound, job sites
+    date: '2025-10-14'
+    confidence: explicit_statement
+  - fact: 300,000 paying customers as of 2024
+    source: Getlatka.com
+    date: '2024-10-01'
+    confidence: explicit_statement
+  - fact: 40-45 million total users globally (includes free and paid users)
+    source: Crunchbase, Todoist Crunchbase
+    date: '2025-10-14'
+    confidence: explicit_statement
+  - fact: 'Customer milestones: 200 (2007), 10,000 (2012), 100,000 (2015), 200,000
+      (2020), 300,000 (2024)'
+    source: Getlatka interview, company profile
+    date: '2024-10-01'
+    confidence: explicit_statement
+  - fact: Todoist used by a number of Fortune 100 companies for enterprise task management
+    source: SaaSClub podcast, ARR Club
+    date: '2024-01-01'
+    confidence: explicit_statement
+  - fact: CEO acknowledged estimated churn rate of 70% but noted high volume compensates
+    source: Getlatka interview with CEO
+    date: '2020-11-01'
+    confidence: explicit_statement
+  - fact: 'Todoist uses freemium model: powerful free version plus premium at $5/month
+      or $4/month annually'
+    source: Getlatka interview, Todoist.com
+    date: '2024-10-01'
+    confidence: explicit_statement
+  - fact: Todoist for Business accounts for 30%+ of revenues for many years despite
+      being created as afterthought in 3 months
+    source: Getlatka interview with CEO
+    date: '2020-11-01'
+    confidence: explicit_statement
+  - fact: Customer lifetime value approximately $100
+    source: Getlatka interview
+    date: '2020-11-01'
+    confidence: explicit_statement
+  - fact: 100% bootstrapped, never raised VC (only $40K grant 2011). $26.5M ARR (2024),
+      32.5% YoY growth, profitable since day one
+    source: Crunchbase; Getlatka; Doist.com
+    date: '2024-10-01'
+    confidence: explicit_statement
+  - fact: $100M+ cumulative revenue since 2007. No exit strategy, staying independent
+    source: CEO Twitter; Doist.com
+    date: '2024-07-03'
+    confidence: explicit_statement
+  - fact: 300K paying customers, 40M+ total users, Fortune 100 companies use Todoist
+    source: Getlatka; SaaSClub podcast
+    date: '2024-10-01'
+    confidence: explicit_statement
+  - fact: 93-103 employees (39 engineers), $200K revenue per employee. No layoffs
+      ever
+    source: Doist.com; Getlatka
+    date: '2024-10-01'
+    confidence: explicit_statement
+  - fact: 97% employee retention, 90%+ retention rate historically
+    source: Doist.com; LinkedIn
+    date: '2024-01-01'
+    confidence: explicit_statement
+  missing_information:
+  - Specific EBITDA margins
+  - Detailed quarterly/monthly MRR/ARR breakdown
+  - Cash reserves
+  - Cash reserves or balance sheet details
+  - Exact EBITDA margins or profitability percentages
+  - Specific valuation (private, bootstrapped, no funding rounds)
+market_position:
+  facts_found:
+  - fact: Todoist launched 2007, trusted by 10M+ users, praised by The Guardian, USA
+      Today, NYT, WSJ, Forbes
+    source: G2.com, Todoist reviews, company website
+    date: '2024-01-01'
+    confidence: explicit_statement
+  - fact: Twist is async team communication app launched 2017, generates approximately
+      $600K ARR (as of 2020)
+    source: Doist About, GetLatka interview
+    date: '2020-11-01'
+    confidence: explicit_statement
+  - fact: Users completed over 2 billion tasks
+    source: GetLatka, Medium case study
+    date: '2024-01-01'
+    confidence: explicit_statement
+  - fact: Todoist has 4.4/5 stars on G2 from 806+ reviews. Recurring tasks 9.2/10,
+      task prioritization 9.3/10, ease of use 9.3/10
+    source: G2.com
+    date: '2025-10-14'
+    confidence: explicit_statement
+  - fact: Todoist has 4.6/5 stars on Capterra from 2,606+ reviews. Designated as Shortlist
+      product in 2024
+    source: Capterra
+    date: '2024-01-01'
+    confidence: explicit_statement
+  - fact: 'Todoist primarily targets individuals and small-to-medium teams (20-49
+      employees: 63 companies, 100-249: 45 companies)'
+    source: 6sense market share data
+    date: '2025-01-01'
+    confidence: explicit_statement
+  - fact: Global task management market valued at $3.24-4.23B in 2024, projected $9.17-13.94B
+      by 2032-2034, growing 12-14% CAGR
+    source: Multiple market research reports
+    date: '2024-01-01'
+    confidence: explicit_statement
+  - fact: 'Primary competitors: Asana (4.3/5), Microsoft To Do, Notion, Basecamp,
+      Trello, TickTick, Any.do, Monday.com'
+    source: G2 comparisons, Tracxn, CB Insights
+    date: '2025-10-14'
+    confidence: explicit_statement
+  - fact: Todoist differentiates via simplicity, natural language processing, lower
+      pricing ($4/mo vs $9-12/mo), 18+ years refinement, bootstrapped independence
+    source: Review aggregators, comparison articles
+    date: '2025-10-14'
+    confidence: explicit_statement
+  - fact: 'Customer distribution: US 55.03%, Brazil 14.29%, India 5.82%. Available
+      in 17 languages'
+    source: 6sense, ZoomInfo, G2
+    date: '2025-10-14'
+    confidence: explicit_statement
+  - fact: GDPR compliant, AES 256 encryption, data processed in North Virginia via
+      AWS, AI models run on own infrastructure
+    source: Todoist Help Center, Nudge Security
+    date: '2024-01-01'
+    confidence: explicit_statement
+  - fact: 'Todoist: task management app since 2007. 4.4/5 on G2 (806 reviews), 4.6/5
+      on Capterra (2606 reviews)'
+    source: G2; Capterra
+    date: '2025-10-14'
+    confidence: explicit_statement
+  - fact: 'Pricing: $4/month Pro vs competitors at $9-12/month. Differentiates on
+      simplicity, natural language, cross-platform'
+    source: Todoist.com; G2 comparisons
+    date: '2025-10-14'
+    confidence: explicit_statement
+  - fact: 'Competitors: Asana, Microsoft To Do, Notion, Basecamp, Trello, TickTick,
+      Monday.com'
+    source: G2; Tracxn; CB Insights
+    date: '2025-10-14'
+    confidence: explicit_statement
+  - fact: GDPR compliant, AES 256 encryption, AWS hosting, AI models run on own infrastructure
+    source: Todoist Help Center
+    date: '2024-01-01'
+    confidence: explicit_statement
+  missing_information:
+  - Detailed enterprise customer case studies
+  - Revenue breakdown Todoist vs Twist for recent years
+  - SOC2/ISO 27001 certification
+  - Explicit SOC2 or ISO 27001 certification
+  - Detailed enterprise customers
+organizational_stability:
+  facts_found:
+  - fact: Amir Salihefendić is Founder/CEO, based in Barcelona. Founded Todoist 2007,
+      established Doist 2011 (18 years founder, 14 years CEO)
+    source: Doist.com/team, LinkedIn, interviews
+    date: '2025-10-14'
+    confidence: explicit_statement
+  - fact: Gonçalo Silva is CTO, based in Porto. Started freelancer 2012, rose from
+      Android dev to CTO (13+ years)
+    source: LinkedIn, CTO Craft Conference
+    date: '2025-10-14'
+    confidence: explicit_statement
+  - fact: Brenna Loury is CMO, based in Seattle. Joined freelancer 2012, full-time
+      2014 (13+ years, 11+ full-time)
+    source: Crunchbase, DesignRush, DailyRemote
+    date: '2025-10-14'
+    confidence: explicit_statement
+  - fact: Core leadership (CEO, CTO, CMO) stable for 10+ years with no recent departures
+    source: Multiple interviews and profiles
+    date: '2025-10-14'
+    confidence: implied
+  - fact: Fully remote-first with NO physical offices. Remote since 2010, before mainstream
+    source: Doist.com/about, CEO interviews
+    date: '2025-10-14'
+    confidence: explicit_statement
+  - fact: Operates primarily async with average 1 meeting/day per employee, no mandatory
+      working hours
+    source: Brenna Loury interview, Gonçalo Silva interviews
+    date: '2025-10-14'
+    confidence: explicit_statement
+  - fact: 'Annual all-hands retreats. Recent locations: Thailand 2025, Ireland 2024,
+      Italy 2023, Pertisau 2022, Azores 2019'
+    source: Doist.com/team page
+    date: '2025-01-01'
+    confidence: explicit_statement
+  - fact: 4.7/5 stars on Glassdoor from 28-32 employee reviews
+    source: Glassdoor.com
+    date: '2025-10-14'
+    confidence: explicit_statement
+  - fact: 94-95% would recommend to friend, work-life balance 4.6/5, culture 4.7/5,
+      compensation 4.7/5
+    source: Glassdoor employee reviews
+    date: '2025-10-14'
+    confidence: explicit_statement
+  - fact: 85% have positive business outlook
+    source: Glassdoor employee reviews
+    date: '2025-10-14'
+    confidence: explicit_statement
+  - fact: 'Key pros: Completely flexible schedule, work from anywhere, extremely transparent
+      about decisions/finances, generous benefits'
+    source: Glassdoor employee reviews
+    date: '2025-10-14'
+    confidence: explicit_statement
+  - fact: Overall Culture 4.3/5 (A-) on Comparably, top 5% (87/100 score)
+    source: Comparably.com/companies/doist
+    date: '2025-10-14'
+    confidence: explicit_statement
+  - fact: 97% employee retention, 50% with company 4+ years
+    source: Doist.com, Globalization Partners
+    date: '2024-01-01'
+    confidence: explicit_statement
+  - fact: Donates up to 2% revenue growth annually to internationally-minded organizations
+    source: Doist.com/about-us, Glassdoor
+    date: '2024-01-01'
+    confidence: explicit_statement
+  - fact: Uses standardized pay rates per region/role, eliminating pay bands and negotiation
+    source: Toggl blog expert roundup
+    date: '2024-01-01'
+    confidence: explicit_statement
+  - fact: CEO Amir Salihefendić (18 yrs), CTO Gonçalo Silva (13 yrs), CMO Brenna Loury
+      (13 yrs) - core leadership ultra-stable
+    source: Doist.com; LinkedIn
+    date: '2025-10-14'
+    confidence: explicit_statement
+  - fact: Fully remote since 2010 (before it was cool). 96 employees, 32 nationalities,
+      28 countries
+    source: Doist.com/team
+    date: '2025-10-14'
+    confidence: explicit_statement
+  - fact: Average 1 meeting/day per employee, async-first, no mandatory hours, annual
+      retreats
+    source: Brenna Loury interview; Gonçalo Silva interviews
+    date: '2025-10-14'
+    confidence: explicit_statement
+  - fact: Glassdoor 4.7/5 (32 reviews), 95% recommend, 85% positive outlook. Work-life
+      balance 4.6/5
+    source: Glassdoor
+    date: '2025-10-14'
+    confidence: explicit_statement
+  - fact: 'Values: Ambition, Impact, Mastery, Independence, Communication. Standardized
+      pay by region/role'
+    source: Doist.com/about
+    date: '2025-10-14'
+    confidence: explicit_statement
+  missing_information:
+  - Salary bands by role
+  - Specific executive tenure dates
+  - Specific tenure dates for VP/Head-level execs
+  - Board of directors or advisors
+  - Specific salary bands by role/level
+technical_culture:
+  facts_found:
+  - fact: Backend mainly Python with microservices in Go, using AWS cloud provider
+    source: Quora Session with CEO, Remotive.com
+    date: '2024-01-01'
+    confidence: explicit_statement
+  - fact: Frontend uses ES6, React, Redux for web apps
+    source: Quora Session, Jobspresso, Remotive
+    date: '2024-01-01'
+    confidence: explicit_statement
+  - fact: 'Native mobile: Swift for iOS, Kotlin/Java for Android'
+    source: Quora Session, Engineering blog
+    date: '2024-01-01'
+    confidence: explicit_statement
+  - fact: Actively evaluates Kotlin Multiplatform for sharing business logic across
+      platforms
+    source: doist.dev blog by Nuno Baldaia
+    date: '2022-03-15'
+    confidence: explicit_statement
+  - fact: Backend uses quirky in-house Python framework resembling Flask, built by
+      founder
+    source: Backend Engineer job posting
+    date: '2025-10-14'
+    confidence: explicit_statement
+  - fact: 151+ public GitHub repos with 194 followers
+    source: github.com/doist
+    date: '2025-10-14'
+    confidence: explicit_statement
+  - fact: 'Key open source: Reactist (256 stars), bitmapist (1,001 stars), todoist-api-python
+      (222 stars), typist (568 stars)'
+    source: GitHub.com/doist, libraries.io
+    date: '2025-10-14'
+    confidence: explicit_statement
+  - fact: Recently launched todoist-ai repo with MCP support for connecting AI agents
+      (134 stars)
+    source: github.com/Doist/todoist-ai
+    date: '2025-10-14'
+    confidence: explicit_statement
+  - fact: 'Engineering blog at doist.dev: Technical content authored by engineers,
+      for engineers'
+    source: doist.dev homepage
+    date: '2025-10-14'
+    confidence: explicit_statement
+  - fact: Shipped Filter Assist using GPT-4 for natural language filters, 96% accuracy
+      vs 70% with GPT-3.5-turbo
+    source: doist.dev blog
+    date: '2024-01-01'
+    confidence: explicit_statement
+  - fact: Android apps released daily via automated GitHub Actions workflows
+    source: doist.dev blog
+    date: '2021-01-01'
+    confidence: explicit_statement
+  - fact: iOS apps released weekly to App Store, daily internal TestFlight via GitHub
+      Actions and Fastlane
+    source: doist.dev blog
+    date: '2022-01-20'
+    confidence: explicit_statement
+  - fact: 'Tracks DORA metrics via Datadog, high performing: 18-26 deployments/day,
+      55-101h lead time, 2.88-5.53% change failure rate'
+    source: doist.dev blog
+    date: '2024-01-01'
+    confidence: explicit_statement
+  - fact: All experimental features behind feature flags, enabling instant rollback
+    source: doist.dev blog
+    date: '2024-01-01'
+    confidence: explicit_statement
+  - fact: Frontend team gets one day/week for Housekeeping to pay back technical debt
+    source: Frontend job posting
+    date: '2025-10-14'
+    confidence: explicit_statement
+  - fact: 'Interview: online application, 1-3 interviews, paid test task (10 hours
+      engineering), reference checks, requires 3 hell-yeah approvals'
+    source: Glassdoor, Medium, Workable, Doist careers
+    date: '2025-10-14'
+    confidence: explicit_statement
+  - fact: Engineering test tasks are compensated financially
+    source: Glassdoor, Workable
+    date: '2024-01-01'
+    confidence: explicit_statement
+  - fact: Engineering teams meet ~2 hours/week total, mainly Monday 30-min syncs,
+      plus monthly 1-on-1s
+    source: LinkedIn, YouTeam interview
+    date: '2024-01-01'
+    confidence: explicit_statement
+  - fact: Uses Datadog for monitoring/DORA metrics; Sentry and Crashlytics for error
+      tracking
+    source: doist.dev blog
+    date: '2024-01-01'
+    confidence: explicit_statement
+  - fact: 'Stack: Python/Go backend, React/Redux frontend, Swift iOS, Kotlin Android,
+      AWS. Custom Python framework by founder'
+    source: CEO Quora; job postings
+    date: '2024-01-01'
+    confidence: explicit_statement
+  - fact: '151+ GitHub repos, engineering blog at doist.dev. Open source: Reactist,
+      bitmapist, todoist-ai with MCP support'
+    source: github.com/doist; doist.dev
+    date: '2025-10-14'
+    confidence: explicit_statement
+  - fact: 'Daily Android releases, weekly iOS releases via GitHub Actions. DORA ''high
+      performing'': 18-26 deploys/day'
+    source: doist.dev blog
+    date: '2024-01-01'
+    confidence: explicit_statement
+  - fact: GPT-4 Filter Assist feature (96% accuracy), AI models on own infra, feature
+      flags for all experiments
+    source: doist.dev blog
+    date: '2024-01-01'
+    confidence: explicit_statement
+  - fact: 1 day/week 'Housekeeping' for tech debt. 2 hrs/week meetings (Monday syncs
+      + monthly 1-on-1s)
+    source: job postings; LinkedIn
+    date: '2025-10-14'
+    confidence: explicit_statement
+  - fact: 'Interview: 4-question app, 1-3 interviews, paid 10hr test task, 3 ''hell-yeah''
+      approvals required. Cover letter mandatory'
+    source: Glassdoor; Medium; Doist careers
+    date: '2025-10-14'
+    confidence: explicit_statement
+  missing_information:
+  - Specific agile methodology
+  - Code coverage metrics
+  - Recent 2025 blog posts
+  - Specific interview questions
+summary:
+  total_facts_found: 90
+  information_completeness: high
+  most_recent_data_point: '2025-10-14'
+  oldest_data_point: '2007-01-01'
