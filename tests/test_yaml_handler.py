@@ -5,7 +5,7 @@ from pathlib import Path
 import tempfile
 import os
 
-from wctf_mcp.utils.yaml_handler import (
+from wctf_core.utils.yaml_handler import (
     read_yaml,
     write_yaml,
     YAMLHandlerError,

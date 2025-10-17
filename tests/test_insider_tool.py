@@ -11,16 +11,16 @@ from pathlib import Path
 import pytest
 import yaml
 
-from wctf_mcp.tools.insider import (
+from wctf_core.operations.insider import (
     get_insider_extraction_prompt,
     save_insider_facts,
     _deduplicate_facts,
 )
-from wctf_mcp.utils.paths import (
+from wctf_core.utils.paths import (
     get_company_dir,
     get_insider_facts_path,
 )
-from wctf_mcp.utils.yaml_handler import read_yaml
+from wctf_core.utils.yaml_handler import read_yaml
 
 
 @pytest.fixture

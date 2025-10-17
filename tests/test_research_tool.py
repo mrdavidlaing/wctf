@@ -11,16 +11,16 @@ from pathlib import Path
 import pytest
 import yaml
 
-from wctf_mcp.tools.research import (
+from wctf_core.operations.research import (
     get_research_prompt,
     save_research_results,
 )
-from wctf_mcp.utils.paths import (
+from wctf_core.utils.paths import (
     get_company_dir,
     get_facts_path,
     list_companies,
 )
-from wctf_mcp.utils.yaml_handler import read_yaml
+from wctf_core.utils.yaml_handler import read_yaml
 
 
 @pytest.fixture

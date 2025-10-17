@@ -6,7 +6,7 @@ from typing import Any, Dict
 
 import pytest
 
-from wctf_mcp.tools.company import (
+from wctf_core.operations.company import (
     get_company_facts,
     get_company_flags,
     list_companies,

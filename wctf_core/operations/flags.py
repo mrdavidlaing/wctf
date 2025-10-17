@@ -11,11 +11,11 @@ from typing import Dict, Optional
 
 import yaml
 
-from wctf_mcp.utils.paths import (
+from wctf_core.utils.paths import (
     ensure_company_dir,
     get_flags_path,
 )
-from wctf_mcp.utils.yaml_handler import read_yaml, write_yaml
+from wctf_core.utils.yaml_handler import read_yaml, write_yaml
 
 
 # Valid mountain elements (the five elements of career evaluation)

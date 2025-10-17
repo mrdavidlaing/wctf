@@ -5,7 +5,7 @@ from pathlib import Path
 import os
 import tempfile
 
-from wctf_mcp.utils.paths import (
+from wctf_core.utils.paths import (
     get_data_dir,
     get_company_dir,
     ensure_company_dir,

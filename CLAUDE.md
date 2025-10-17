@@ -2,40 +2,136 @@
 
 ## Project Overview
 
-**WCTF MCP Server** - A Model Context Protocol (MCP) server for managing "Worth Climbing The Foothill" company research data. This server provides structured access to company facts and evaluation flags for engineers researching potential employers.
+**WCTF - Worth Climbing The Foothill** - A hybrid SDK and MCP server for managing company research data during job searches. Provides both a Python SDK (`wctf_core`) for direct programmatic access and an MCP server (`wctf_mcp`) for integration with Claude Desktop.
+
+## Architecture
+
+This project uses a **hybrid architecture** separating concerns:
+
+- **`wctf_core`** - Core Python SDK with all business logic
+  - High-level `WCTFClient` for easy SDK usage
+  - Low-level operations modules for advanced use cases
+  - Pure Python, no MCP dependencies
+
+- **`wctf_mcp`** - Thin MCP wrapper
+  - Delegates to `wctf_core` operations
+  - Provides async MCP tool interfaces
+  - Used by Claude Desktop
 
 ## Code Structure
 
 ```
 .
-├── wctf_mcp/                  # Main package
-│   ├── __init__.py           # Package initialization
+├── wctf_core/                 # Core SDK library
+│   ├── __init__.py           # Exports WCTFClient
+│   ├── client.py             # High-level WCTFClient class
 │   ├── models.py             # Pydantic data models
-│   ├── server.py             # MCP server (stub - to be implemented)
+│   ├── operations/           # Core operations (business logic)
+│   │   ├── company.py        # Company CRUD operations
+│   │   ├── research.py       # Research workflows
+│   │   ├── flags.py          # Flag operations
+│   │   ├── insider.py        # Insider interview handling
+│   │   ├── conversation.py   # Conversation guidance
+│   │   └── decision.py       # Decision support
 │   └── utils/                # Utility modules
-│       ├── __init__.py
-│       ├── yaml_handler.py   # Safe YAML read/write operations
+│       ├── yaml_handler.py   # Safe YAML read/write
 │       └── paths.py          # Data directory management
 │
-├── tests/                     # Test suite
-│   ├── __init__.py
-│   ├── test_models.py        # Tests for Pydantic models
-│   ├── test_yaml_handler.py  # Tests for YAML operations
-│   └── test_paths.py         # Tests for path utilities
+├── wctf_mcp/                  # MCP server wrapper
+│   ├── __init__.py           # MCP package metadata
+│   └── server.py             # MCP server (delegates to wctf_core)
+│
+├── docs/                      # Documentation
+│   ├── generate_docs.py      # Auto-generate SDK_REFERENCE.md
+│   └── SDK_REFERENCE.md      # Comprehensive SDK documentation
+│
+├── examples/                  # Example usage scripts
+│   ├── list_companies.py     # List all companies
+│   ├── research_company.py   # Get research prompt
+│   ├── analyze_companies.py  # Analyze evaluation status
+│   └── get_company_info.py   # Get detailed company info
+│
+├── tests/                     # Test suite (173 tests)
+│   ├── test_company_tools.py # Company operations tests
+│   ├── test_research_tool.py # Research workflow tests
+│   ├── test_flags_tool.py    # Flag extraction tests
+│   └── ...
 │
 ├── data/                      # Company research data
 │   ├── <company_name>/       # One directory per company
-│   │   ├── company.facts.yaml  # Factual research data
-│   │   └── company.flags.yaml  # Evaluation flags
+│   │   ├── company.facts.yaml   # Public research facts
+│   │   ├── company.insider.yaml # Insider interview facts
+│   │   └── company.flags.yaml   # Evaluation flags
 │   └── ...
 │
-├── pyproject.toml            # Project configuration and dependencies
-└── README.md                 # Project documentation
+├── pyproject.toml            # Project configuration
+├── README.md                 # Installation & setup docs
+└── CLAUDE.md                 # This file (development docs)
 ```
+
+## Using the SDK
+
+### Direct SDK Usage (Recommended for Scripts)
+
+```python
+from wctf_core import WCTFClient
+
+# Initialize client
+client = WCTFClient()  # Uses ./data by default
+
+# List companies
+companies = client.list_companies()
+
+# Get company facts
+result = client.get_facts("Stripe")
+if result['success']:
+    facts = result['facts']
+
+# Get research prompt
+prompt = client.get_research_prompt("NewCompany")
+print(prompt['research_prompt'])
+
+# Save research results
+yaml_content = '''...'''  # Your YAML content
+client.save_facts("NewCompany", yaml_content)
+```
+
+See `docs/SDK_REFERENCE.md` for complete API documentation.
+
+### Running Example Scripts
+
+```bash
+# List all companies
+uv run python examples/list_companies.py
+
+# Get research prompt
+uv run python examples/research_company.py "Company Name"
+
+# Analyze evaluation status
+uv run python examples/analyze_companies.py
+
+# Get detailed company info
+uv run python examples/get_company_info.py "Company Name"
+```
+
+### Using via MCP (Claude Desktop)
+
+The MCP server provides the same functionality via Claude Desktop integration.
+See `README.md` for Claude Desktop configuration.
 
 ## Core Modules
 
-### `wctf_mcp/models.py`
+### `wctf_core/client.py`
+
+High-level WCTFClient class with methods for:
+- Company discovery: `list_companies()`, `company_exists()`
+- Facts operations: `get_facts()`, `save_facts()`
+- Flags operations: `get_flags()`, `extract_flags()`, `add_flag()`
+- Research workflow: `get_research_prompt()`
+- Insider interviews: `get_insider_extraction_prompt()`, `save_insider_facts()`
+- Decision support: `gut_check()`, `save_decision()`, `get_evaluation_summary()`
+
+### `wctf_core/models.py`
 
 Pydantic models that validate the YAML schema for company data:
 
@@ -55,7 +151,7 @@ Pydantic models that validate the YAML schema for company data:
 - `ImpactLevel` - `EXCELLENT`, `GOOD`, `POOR`
 - `FlagSeverity` - `YES`, `NO`, `MAYBE`
 
-### `wctf_mcp/utils/yaml_handler.py`
+### `wctf_core/utils/yaml_handler.py`
 
 Safe YAML file operations with error handling:
 
@@ -68,7 +164,7 @@ Safe YAML file operations with error handling:
   - Uses safe_dump with proper formatting
   - Raises `YAMLHandlerError` on write failures
 
-### `wctf_mcp/utils/paths.py`
+### `wctf_core/utils/paths.py`
 
 Path utilities for managing the data directory structure:
 
@@ -83,11 +179,17 @@ All functions accept optional `base_path` for testing or custom data locations.
 
 ### `wctf_mcp/server.py`
 
-MCP server stub (to be implemented). Will provide tools for:
-- Listing companies
-- Retrieving company facts
-- Retrieving company flags
-- Searching companies by criteria
+MCP server that wraps `wctf_core` operations. Provides async MCP tools for:
+- Listing companies (`list_companies_tool`)
+- Retrieving company facts (`get_company_facts_tool`)
+- Retrieving company flags (`get_company_flags_tool`)
+- Research workflow (`get_research_prompt_tool`, `save_research_results_tool`)
+- Flag extraction (`extract_flags_tool`, `add_manual_flag_tool`)
+- Insider interviews (`get_insider_extraction_prompt_tool`, `save_insider_facts_tool`)
+- Conversation guidance (`get_conversation_questions_tool`)
+- Decision support (`gut_check_tool`, `save_gut_decision_tool`, `get_evaluation_summary_tool`)
+
+All MCP tools delegate to `wctf_core.operations` modules.
 
 ## Data Schema
 
@@ -287,10 +389,59 @@ All tests use pytest fixtures and temporary directories to avoid affecting real 
 
 ## Development Workflow
 
-1. **Make changes** to code in `wctf_mcp/`
-2. **Run tests** to verify: `uv run pytest`
-3. **Check coverage**: `uv run pytest --cov=wctf_mcp`
-4. **Add new tests** in `tests/` for new functionality
+### Making Changes
+
+1. **Make changes** to code in `wctf_core/` (core SDK) or `wctf_mcp/` (MCP wrapper)
+2. **Update docstrings** with examples and doctests if adding new methods
+3. **Run tests** to verify: `uv run pytest`
+4. **Check coverage**: `uv run pytest --cov=wctf_core`
+5. **Add new tests** in `tests/` for new functionality
+6. **Regenerate documentation**: `uv run python docs/generate_docs.py`
+
+### SDK Documentation
+
+The SDK documentation (`docs/SDK_REFERENCE.md`) is auto-generated from:
+- Docstrings in `wctf_core/client.py`
+- Pydantic Field descriptions in `wctf_core/models.py`
+- The `docs/generate_docs.py` script
+
+**To update documentation:**
+```bash
+# After modifying docstrings or models
+uv run python docs/generate_docs.py
+```
+
+**Best practices:**
+- Use Google-style docstrings with Args, Returns, Example sections
+- Include doctests in Examples (e.g., `>>> client = WCTFClient()`)
+- Add Pydantic Field descriptions for all model fields
+- Keep examples focused and practical
+
+### Using the SDK in Agent Scripts
+
+When Claude Code (or other agents) want to use WCTF functionality, they should:
+
+1. **Read the SDK documentation** (`docs/SDK_REFERENCE.md`)
+2. **Write a throwaway Python script** that imports `wctf_core`
+3. **Execute the script** via `uv run python script.py`
+
+Example agent workflow:
+```python
+#!/usr/bin/env python3
+"""Find companies that need evaluation."""
+from wctf_core import WCTFClient
+
+client = WCTFClient()
+companies = [c for c in client.list_companies() if c['has_facts'] and not c['has_flags']]
+print(f"Need evaluation: {', '.join(c['name'] for c in companies)}")
+```
+
+Benefits of this approach:
+- Flexible composition of operations
+- Standard Python programming model
+- Better error handling
+- Stateful workflows possible
+- Can use loops, conditions, etc.
 
 ## Dependencies
 
@@ -303,13 +454,16 @@ All tests use pytest fixtures and temporary directories to avoid affecting real 
 - `pytest>=7.0` - Testing framework
 - `pytest-cov>=4.0` - Coverage reporting
 
-## Next Steps
+## Architecture Benefits
 
-The foundation is complete. Future tasks will implement:
-1. MCP server with read tools (list, get facts/flags)
-2. MCP server with write tools (create/update companies)
-3. Search and filter capabilities
-4. CLI interface for manual data management
+The hybrid SDK + MCP approach provides:
+
+1. **Flexibility**: Agents can write custom workflows combining multiple operations
+2. **Composability**: Standard Python programming vs limited MCP tool chaining
+3. **Better Error Handling**: Scripts can implement custom retry and validation logic
+4. **Stateful Operations**: Scripts can maintain state across operations
+5. **Discoverability**: MCP tools for simple queries, SDK for complex workflows
+6. **Documentation**: Auto-generated SDK docs from docstrings ensure accuracy
 
 ## Notes
 

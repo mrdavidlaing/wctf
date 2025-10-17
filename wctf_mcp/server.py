@@ -8,27 +8,27 @@ import logging
 
 from mcp.server.fastmcp import FastMCP, Context
 
-from wctf_mcp.tools.company import (
+from wctf_core.operations.company import (
     get_company_facts,
     get_company_flags,
     list_companies,
 )
-from wctf_mcp.tools.research import (
+from wctf_core.operations.research import (
     get_research_prompt,
     save_research_results,
 )
-from wctf_mcp.tools.flags import (
+from wctf_core.operations.flags import (
     extract_flags,
     add_manual_flag,
 )
-from wctf_mcp.tools.insider import (
+from wctf_core.operations.insider import (
     get_insider_extraction_prompt,
     save_insider_facts,
 )
-from wctf_mcp.tools.conversation import (
+from wctf_core.operations.conversation import (
     get_conversation_questions,
 )
-from wctf_mcp.tools.decision import (
+from wctf_core.operations.decision import (
     gut_check,
     save_gut_decision,
     get_evaluation_summary,

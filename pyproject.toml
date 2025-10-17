@@ -3,9 +3,9 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "wctf-mcp"
-version = "0.1.0"
-description = "MCP server for Worth Climbing The Foothill company research data"
+name = "wctf-core"
+version = "0.2.0"
+description = "Core SDK and MCP server for Worth Climbing The Foothill company research data"
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
@@ -35,7 +35,7 @@ addopts = [
 ]
 
 [tool.coverage.run]
-source = ["wctf_mcp"]
+source = ["wctf_core"]
 omit = ["tests/*"]
 
 [tool.coverage.report]

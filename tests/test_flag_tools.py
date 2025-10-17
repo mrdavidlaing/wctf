@@ -11,7 +11,7 @@ from pathlib import Path
 import pytest
 import yaml
 
-from wctf_mcp.tools.flags import add_manual_flag, extract_flags
+from wctf_core.operations.flags import add_manual_flag, extract_flags
 
 
 # Sample conversation notes for testing

@@ -1,6 +1,11 @@
-"""Pydantic models for WCTF MCP server data structures.
+"""Pydantic models for WCTF Core SDK data structures.
 
-These models validate the schema for company.facts.yaml and company.flags.yaml files.
+These models validate the schema for company data files:
+- company.facts.yaml: Public research facts
+- company.insider.yaml: Insider interview facts
+- company.flags.yaml: Evaluation flags and decisions
+
+All models use Pydantic v2 for validation and serialization.
 """
 
 from datetime import date as Date
@@ -11,7 +16,13 @@ from pydantic import BaseModel, Field, field_serializer
 
 
 class ConfidenceLevel(str, Enum):
-    """Confidence levels for facts."""
+    """Confidence levels for facts.
+
+    Indicates how directly the fact was stated or observed:
+    - EXPLICIT_STATEMENT: Directly stated in source
+    - IMPLIED: Can be reasonably inferred from source
+    - FIRSTHAND_ACCOUNT: From direct participant/observer (insider interviews)
+    """
 
     EXPLICIT_STATEMENT = "explicit_statement"
     IMPLIED = "implied"
@@ -42,7 +53,22 @@ class FlagSeverity(str, Enum):
 
 
 class Fact(BaseModel):
-    """A single fact about a company."""
+    """A single fact about a company from public research.
+
+    Facts are concrete, verifiable statements about a company with
+    citations and confidence levels.
+
+    Example:
+        >>> from datetime import date
+        >>> fact = Fact(
+        ...     fact="Raised $200M Series C in Q2 2024",
+        ...     source="TechCrunch, Company blog",
+        ...     date=date(2024, 6, 15),
+        ...     confidence=ConfidenceLevel.EXPLICIT_STATEMENT
+        ... )
+        >>> fact.fact
+        'Raised $200M Series C in Q2 2024'
+    """
 
     fact: str = Field(..., description="The factual statement")
     source: str = Field(..., description="Source of the fact")
@@ -58,7 +84,31 @@ class FactsCategory(BaseModel):
 
 
 class CompanyFacts(BaseModel):
-    """Complete facts structure for a company."""
+    """Complete facts structure for a company from public research.
+
+    Organizes research findings into four key categories with summary metadata.
+    Corresponds to company.facts.yaml file structure.
+
+    Categories:
+    - financial_health: Revenue, funding, profitability, runway
+    - market_position: Market share, competition, growth trends
+    - organizational_stability: Leadership, turnover, structure
+    - technical_culture: Engineering practices, tech stack, culture
+
+    Example:
+        >>> from datetime import date
+        >>> facts = CompanyFacts(
+        ...     company="Stripe",
+        ...     research_date=date(2025, 1, 15),
+        ...     financial_health=FactsCategory(facts_found=[], missing_information=[]),
+        ...     market_position=FactsCategory(facts_found=[], missing_information=[]),
+        ...     organizational_stability=FactsCategory(facts_found=[], missing_information=[]),
+        ...     technical_culture=FactsCategory(facts_found=[], missing_information=[]),
+        ...     summary={"total_facts_found": 0, "information_completeness": "low"}
+        ... )
+        >>> facts.company
+        'Stripe'
+    """
 
     company: str = Field(..., description="Company name")
     research_date: Date = Field(..., description="Date when research was conducted")

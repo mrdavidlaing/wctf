@@ -10,8 +10,8 @@ NO LLM CALLS - Pure data processing and question selection logic.
 from pathlib import Path
 from typing import Any, Dict, List, Optional
 
-from wctf_mcp.utils.paths import get_facts_path, get_flags_path
-from wctf_mcp.utils.yaml_handler import read_yaml
+from wctf_core.utils.paths import get_facts_path, get_flags_path
+from wctf_core.utils.yaml_handler import read_yaml
 
 
 # Question Bank - organized by stage and category

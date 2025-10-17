@@ -8,7 +8,7 @@ from pathlib import Path
 
 import pytest
 
-from wctf_mcp.tools.decision import (
+from wctf_core.operations.decision import (
     get_evaluation_summary,
     gut_check,
     save_gut_decision,
@@ -153,8 +153,8 @@ class TestSaveGutDecision:
         assert result["success"] is True
 
         # Verify file was written
-        from wctf_mcp.utils.paths import get_flags_path
-        from wctf_mcp.utils.yaml_handler import read_yaml
+        from wctf_core.utils.paths import get_flags_path
+        from wctf_core.utils.yaml_handler import read_yaml
 
         flags_path = get_flags_path("test-company-1", base_path=test_data_dir)
         flags_data = read_yaml(flags_path)
@@ -252,8 +252,8 @@ class TestSaveGutDecision:
 
         assert result["success"] is True
 
-        from wctf_mcp.utils.paths import get_flags_path
-        from wctf_mcp.utils.yaml_handler import read_yaml
+        from wctf_core.utils.paths import get_flags_path
+        from wctf_core.utils.yaml_handler import read_yaml
 
         flags_path = get_flags_path("test-company-1", base_path=test_data_dir)
         flags_data = read_yaml(flags_path)

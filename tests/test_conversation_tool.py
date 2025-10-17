@@ -5,7 +5,7 @@ from typing import Any, Dict
 
 import pytest
 
-from wctf_mcp.tools.conversation import get_conversation_questions
+from wctf_core.operations.conversation import get_conversation_questions
 
 
 @pytest.fixture

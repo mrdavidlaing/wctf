@@ -4,7 +4,7 @@ import pytest
 from datetime import date
 from pydantic import ValidationError
 
-from wctf_mcp.models import (
+from wctf_core.models import (
     Fact,
     FactsCategory,
     CompanyFacts,

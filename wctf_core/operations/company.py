@@ -7,13 +7,13 @@ facts and evaluation flags.
 from pathlib import Path
 from typing import Any, Dict, Optional
 
-from wctf_mcp.utils.paths import (
+from wctf_core.utils.paths import (
     get_company_dir,
     get_facts_path,
     get_flags_path,
     list_companies as list_companies_util,
 )
-from wctf_mcp.utils.yaml_handler import YAMLHandlerError, read_yaml
+from wctf_core.utils.yaml_handler import YAMLHandlerError, read_yaml
 
 
 def list_companies(base_path: Optional[Path] = None) -> Dict[str, Any]:

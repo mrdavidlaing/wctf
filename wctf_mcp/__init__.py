@@ -1,3 +1,11 @@
-"""WCTF MCP Server - Worth Climbing The Foothill company research data."""
+"""WCTF MCP Server - Thin MCP wrapper around wctf_core SDK.
 
-__version__ = "0.1.0"
+This package provides an MCP (Model Context Protocol) server interface
+to the WCTF Core SDK, enabling integration with Claude Desktop and other
+MCP clients.
+
+The server is a thin delegation layer that wraps wctf_core operations
+with MCP-specific async interfaces and context handling.
+"""
+
+__version__ = "0.2.0"
