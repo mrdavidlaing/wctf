@@ -15,11 +15,6 @@ financial_health:
     source: Chronosphere press release, multiple sources
     date: '2021-10-07'
     confidence: explicit_statement
-  - fact: Series C extension raised $115M at $1.6B valuation from GV, Geodesic Capital
-      with existing investors doubling down, total funding $343M
-    source: Chronosphere blog, PR Newswire
-    date: '2023-01-06'
-    confidence: explicit_statement
   - fact: CrowdStrike Falcon Fund made strategic investment
     source: Chronosphere press release
     date: '2024-01-18'
@@ -32,16 +27,6 @@ financial_health:
       and 50% surge in customers paying $1M+ ARR
     source: Yahoo Finance, company press release
     date: '2025-02-27'
-    confidence: explicit_statement
-  - fact: 16x ARR growth over 12 months ending Feb 2022, faster than Datadog, CrowdStrike,
-      Confluent from $1M to $50M ARR
-    source: Chronosphere press release
-    date: '2022-02-17'
-    confidence: explicit_statement
-  - fact: Net revenue retention over 145% with 100% customer retention as of early
-      2023
-    source: AlleyWatch CEO interview
-    date: '2023-01-10'
     confidence: explicit_statement
   - fact: Layoffs of ~50 people (15% of workforce) conducted in July 2023
     source: Blind posts, Glassdoor reviews
@@ -96,10 +81,6 @@ financial_health:
       benefits, 165% ROI, <6mo payback'
     source: Press releases, Forrester TEI
     date: '2024-10-09'
-    confidence: explicit_statement
-  - fact: Series A raised $11M led by Greylock with Lee Fixel participating
-    source: Chronosphere press release, TechCrunch
-    date: '2019-11-05'
     confidence: explicit_statement
   - fact: Series B raised $43.4M led by Greylock, Lux Capital, Lee Fixel with General
       Atlantic joining, total funding $55M
@@ -268,11 +249,6 @@ market_position:
       data, with capacity caps to control costs
     source: G2 Pricing page
     date: '2025-01-01'
-    confidence: explicit_statement
-  - fact: Named Leader in Gartner Magic Quadrant for Observability 2024 (first-time)
-      and 2025 (second consecutive year)
-    source: Gartner MQ reports, Chronosphere
-    date: '2025-07-11'
     confidence: explicit_statement
   - fact: 'Forbes America''s Best Startup Employer: #34 (2024), #41 (2023)'
     source: Chronosphere press release
@@ -568,10 +544,6 @@ technical_culture:
     source: Why I joined Chronosphere Engineering blog
     date: '2021-12-08'
     confidence: explicit_statement
-  - fact: 'Tech stack: Go, TypeScript, Python, Java, JavaScript, GraphQL, C++'
-    source: RocketReach, GitHub repos
-    date: '2025-01-01'
-    confidence: explicit_statement
   - fact: M3DB in Go proven to store 10B+ active time series, ingest/query billions
       datapoints/second
     source: M3DB.io, company announcements
@@ -616,11 +588,6 @@ technical_culture:
       presented with team on metrics architecture'
     source: We attended KubeCon 2022 blog
     date: '2022-10-01'
-    confidence: explicit_statement
-  - fact: Eric D. Schabell (Director Technical Marketing) is CNCF Ambassador, presents
-      regularly on Fluent Bit, OTel, Prometheus
-    source: Speaker Spotlight, Chronosphere Open Source
-    date: '2024-01-01'
     confidence: explicit_statement
   - fact: 'Prashant Varanasi (Member Technical Staff): ex-Microsoft, 10+ yrs Google,
       6 yrs Uber networking/load balancing, joined 2021, works in Go'
@@ -750,11 +717,6 @@ technical_culture:
     source: Startup Project Substack CEO interview
     date: '2024-01-01'
     confidence: explicit_statement
-  - fact: Telemetry Pipeline is 20x more resource efficient than top competitors with
-      6X performance improvement in v2.2
-    source: Chronosphere Pipeline launch, Fluent Bit v2.2
-    date: '2024-09-01'
-    confidence: explicit_statement
   missing_information:
   - Internal tooling beyond Temporal, K8s
   - Code review practices and quality gates
@@ -773,7 +735,7 @@ technical_culture:
   - Agile/scrum practices (sprints, stand-ups)
   - Testing philosophy and frameworks (unit test practices, coverage requirements)
 summary:
-  total_facts_found: 143
+  total_facts_found: 135
   information_completeness: high
   most_recent_data_point: '2025-10-12'
   oldest_data_point: '2019-05-01'

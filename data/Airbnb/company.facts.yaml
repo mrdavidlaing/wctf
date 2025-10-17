@@ -81,10 +81,6 @@ financial_health:
     source: Airbnb IR
     date: '2020-12-10'
     confidence: explicit_statement
-  - fact: 7,300 employees as of Dec 31, 2024, up 5.7% from 6,907 in 2023
-    source: SEC 10-K
-    date: '2024-12-31'
-    confidence: explicit_statement
   - fact: Laid off 1,900 employees (25%) in May 2020 due to COVID-19
     source: Wikipedia
     date: '2020-05-05'
@@ -164,10 +160,6 @@ market_position:
   - fact: Marketplace connecting travelers with hosts in 220+ countries, 8.1M listings
     source: Business of Apps
     date: '2024-12-31'
-    confidence: explicit_statement
-  - fact: 44% global short-term rental market share 2024, up from 28% in 2019
-    source: Skift Research
-    date: '2025-03-14'
     confidence: explicit_statement
   - fact: 'Main competitors: Booking.com (18%), Expedia/Vrbo (9%)'
     source: Skift Research
@@ -419,7 +411,7 @@ technical_culture:
   - Exact engineering headcount not available
   - Engineering headcount
 summary:
-  total_facts_found: 91
+  total_facts_found: 89
   information_completeness: high
   most_recent_data_point: '2025-09-24'
   oldest_data_point: '2008-08-01'

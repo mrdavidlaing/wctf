@@ -113,11 +113,6 @@ financial_health:
     source: Glassdoor employee reviews
     date: '2023-03-01'
     confidence: explicit_statement
-  - fact: Layoffs remained below 50 employees per location, allowing Quizlet to avoid
-      California WARN Act disclosure requirements
-    source: California WARN Act database (absence of Quizlet), Glassdoor reviews
-    date: '2024-10-01'
-    confidence: implied
   - fact: Employee described being affected by layoffs within one year of starting,
       with early-career workers appearing especially vulnerable
     source: Glassdoor employee review
@@ -858,7 +853,7 @@ technical_culture:
   - Specific agile methodologies or sprint practices - development process details
     not publicly documented
 summary:
-  total_facts_found: 140
+  total_facts_found: 139
   information_completeness: high
   most_recent_data_point: '2025-10-07'
   oldest_data_point: '2005-10-01'
