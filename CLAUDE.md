@@ -51,6 +51,12 @@ This project uses a **hybrid architecture** separating concerns:
 │   ├── analyze_companies.py  # Analyze evaluation status
 │   └── get_company_info.py   # Get detailed company info
 │
+├── scripts/                   # Maintenance/operational tools
+│   ├── check_duplicates.py   # Find duplicate facts
+│   ├── show_duplicates.py    # Show duplicate details
+│   ├── merge_duplicates.py   # Auto-merge duplicates
+│   └── README.md             # Script documentation
+│
 ├── tests/                     # Test suite (173 tests)
 │   ├── test_company_tools.py # Company operations tests
 │   ├── test_research_tool.py # Research workflow tests
