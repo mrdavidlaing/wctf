@@ -1,0 +1,493 @@
+company: Coinbase
+research_date: '2025-10-17'
+financial_health:
+  facts_found:
+  - fact: Raised $547-574M across 13 funding rounds before IPO, with Series E valuing
+      company at $8B (Oct 2018)
+    source: tracxn.com, cryptorank.io, meritechcapital.com
+    date: '2018-10-30'
+    confidence: explicit_statement
+  - fact: IPO via direct listing April 14, 2021 at $328.28 close, $85.8B market cap.
+      Current market cap $80-86B as of Oct 2025
+    source: cnbc.com, companiesmarketcap.com
+    date: '2025-10-15'
+    confidence: explicit_statement
+  - fact: 'Revenue trajectory: $1.28B (2020), $7.4B peak (2021), $3.1B (2023), $6.56B
+      (2024 - 111% YoY growth)'
+    source: macrotrends.net, yahoo.com
+    date: '2024-12-31'
+    confidence: explicit_statement
+  - fact: Q1 2025 revenue $2.03B (up 24% YoY but below $2.12B estimates). Q4 2024
+      revenue $2.27B beat estimates by 23%
+    source: cnbc.com, leverageshares.com
+    date: '2025-03-31'
+    confidence: explicit_statement
+  - fact: 'Net income: $3.6B peak (2021), returned to profitability 2023 with $95M,
+      $2.6B (2024). Two consecutive profitable years'
+    source: fortune.com, businessofapps.com
+    date: '2024-12-31'
+    confidence: explicit_statement
+  - fact: Q1 2025 net income $65.6M down from $1.18B in Q1 2024. Q4 2024 net income
+      $1.3B ($4.68/share)
+    source: cnbc.com
+    date: '2025-03-31'
+    confidence: explicit_statement
+  - fact: Adjusted EBITDA $3.3B for 2024, marking two straight years of positive adjusted
+      EBITDA
+    source: yahoo.com, fool.com
+    date: '2024-12-31'
+    confidence: explicit_statement
+  - fact: 'Employee count: 1,249 (2020) → 4,510 peak (2022) → 3,416 (2023 post-layoffs)
+      → 4,279 (Jun 2025)'
+    source: macrotrends.net, stockanalysis.com
+    date: '2025-06-30'
+    confidence: explicit_statement
+  - fact: Laid off 1,100 employees (18%) June 2022, then 950 more (20%) January 2023,
+      totaling 2,000+ cuts during crypto winter
+    source: cnbc.com, npr.org
+    date: '2023-01-10'
+    confidence: explicit_statement
+  - fact: Announced plans to hire 1,000+ US employees in 2025, largely compliance
+      and customer support roles including Charlotte NC Center of Excellence
+    source: coinlaw.io
+    date: '2025-01-01'
+    confidence: explicit_statement
+  - fact: 120M verified users globally (up from 108M in 2022), 8.7M monthly transacting
+      users Q2 2025
+    source: backlinko.com, demandsage.com
+    date: '2025-06-30'
+    confidence: explicit_statement
+  - fact: Manages $404B assets under custody (end 2024), holding 12% of circulating
+      Bitcoin and 11% of staked Ethereum globally
+    source: coinlaw.io
+    date: '2024-12-31'
+    confidence: explicit_statement
+  - fact: Q2 2025 trading volume $425B, with institutional customers accounting for
+      81.86% ($194B) of trades
+    source: backlinko.com
+    date: '2025-06-30'
+    confidence: explicit_statement
+  - fact: 'Custodian for 8 of 11 Bitcoin spot ETFs in US. Notable institutional customer:
+      BlackRock via Aladdin integration'
+    source: marketsmedia.com, coinbase.com
+    date: '2024-01-01'
+    confidence: explicit_statement
+  - fact: Acquired Deribit for $2.9B ($700M cash + 11M shares) May 2025. Joined S&P
+      500 index May 2025
+    source: cnbc.com, yahoo.com
+    date: '2025-05-08'
+    confidence: explicit_statement
+  - fact: Disclosed cybersecurity incident May 2025 affecting <1% of MTU, estimated
+      remediation costs $180-400M
+    source: coinlaw.io
+    date: '2025-05-01'
+    confidence: explicit_statement
+  - fact: USDC stablecoin hit $60B all-time high Q1 2025, Coinbase receives revenue
+      share from Circle partnership
+    source: yahoo.com, cnbc.com
+    date: '2025-03-31'
+    confidence: explicit_statement
+  - fact: Strong balance sheet, cash flow positive. Board authorized $1B share repurchase
+      program with no expiration
+    source: fool.com, yahoo.com
+    date: '2025-01-01'
+    confidence: explicit_statement
+  - fact: Q1 2025 operating expenses $1.3B, up 51.5% YoY due to sales/marketing and
+      headcount expansion
+    source: leverageshares.com
+    date: '2025-03-31'
+    confidence: explicit_statement
+  missing_information:
+  - Specific cash reserves amount in dollars
+  - Detailed institutional customer breakdown beyond BlackRock
+  - Exact customer churn/retention rates
+market_position:
+  facts_found:
+  - fact: Founded 2012 by Brian Armstrong and Fred Ehrsam. Largest US-based crypto
+      exchange, world's largest bitcoin custodian
+    source: wikipedia.org
+    date: '2024-12-31'
+    confidence: explicit_statement
+  - fact: 'Products: Coinbase app, Advanced (pro trading), Wallet (self-custody),
+      One (premium subscription), Card (Visa debit), Prime (institutional), Custody,
+      Commerce, Payments'
+    source: wikipedia.org, coinbase.com
+    date: '2024-12-01'
+    confidence: explicit_statement
+  - fact: Supports 240+ cryptocurrencies with 300+ trading pairs including Bitcoin,
+      Ethereum, Cardano, Solana, XRP
+    source: fxempire.com, coinbase.com
+    date: '2025-01-01'
+    confidence: explicit_statement
+  - fact: Launched Base (Ethereum Layer-2 blockchain) February 2023 using MIT-licensed
+      OP Stack for faster, cheaper Ethereum interactions
+    source: wikipedia.org, coinbase.com
+    date: '2023-02-23'
+    confidence: explicit_statement
+  - fact: Global crypto exchange market $43.11B (2024), expected $147.89B by 2034
+      (13.1% CAGR) - total addressable market
+    source: marketresearchfuture.com
+    date: '2024-12-31'
+    confidence: explicit_statement
+  - fact: Binance leads globally with 39.8% market share ($8.98B daily volume). Coinbase
+      ranks top 10 with $1.88B daily volume, 6.9% global market share
+    source: coingecko.com, coinlaw.io
+    date: '2025-07-31'
+    confidence: explicit_statement
+  - fact: Coinbase holds 65%+ US spot market share. US market share was 41% Sept 2024
+      (down from 55% peak March 2024)
+    source: cryptoslate.com, backlinko.com
+    date: '2024-09-09'
+    confidence: explicit_statement
+  - fact: 'Main competitors: Binance, Kraken, Crypto.com, Bybit. Coinbase positioned
+      as most beginner-friendly and compliant but higher fees (0.60%-1.20%) vs Binance
+      (0.10%)'
+    source: koinly.io, bitdegree.org
+    date: '2025-01-01'
+    confidence: explicit_statement
+  - fact: 'Competitive advantages: most trusted US-based exchange, publicly traded
+      on Nasdaq, FDIC insurance on USD balances up to $250K, user-friendly interface'
+    source: wikipedia.org, smartmoneyhabits.com
+    date: '2025-05-12'
+    confidence: explicit_statement
+  - fact: 'Trustpilot: 3.9/5 (19,580 reviews), company responds to 95% of negative
+      reviews within 2 weeks. App Store: 4.7/5 iOS, 4.5/5 Android (50M+ downloads)'
+    source: trustpilot.com, smartmoneyhabits.com
+    date: '2025-10-01'
+    confidence: explicit_statement
+  - fact: BBB rating improved from F (2018-2023) to A+ (2025) due to improved customer
+      service
+    source: wikipedia.org
+    date: '2025-01-01'
+    confidence: explicit_statement
+  - fact: 'Operates in 100+ countries. Largest user bases: USA (68.62%), UK (4.65%),
+      Canada (2.95%), Germany (2.66%), Brazil (2.27%)'
+    source: datawallet.com
+    date: '2025-01-01'
+    confidence: explicit_statement
+  - fact: Holds licenses in 45 US jurisdictions including NY BitLicense (2017). Registered
+      as Money Services Business with FinCEN
+    source: datawallet.com, help.coinbase.com
+    date: '2025-01-01'
+    confidence: explicit_statement
+  - fact: UK FCA regulated for crypto assets. Bermuda Monetary Authority regulates
+      Coinbase International Exchange for perpetual futures
+    source: datawallet.com, wikipedia.org
+    date: '2023-04-20'
+    confidence: explicit_statement
+  - fact: SEC dismissed lawsuit against Coinbase February 2025 (filed June 2023) regarding
+      unregistered broker operations and staking services
+    source: wikipedia.org
+    date: '2025-02-22'
+    confidence: explicit_statement
+  - fact: Completed SOC 1 Type 2 and SOC 2 Type 2 examinations for Prime, Custody,
+      and Staking (audited by Grant Thornton and Deloitte)
+    source: coinbase.com, medium.com
+    date: '2019-12-31'
+    confidence: explicit_statement
+  - fact: 'Fee structure: Coinbase Advanced 0.00%-0.60% based on volume. Standard
+      platform: 0.50% spread + 1.49%-3.99% variable fees depending on payment method'
+    source: help.coinbase.com, bitdegree.org
+    date: '2024-11-05'
+    confidence: explicit_statement
+  - fact: 'Coinbase One subscription: Basic $4.99/mo (zero fees on $500/mo), Preferred
+      $29.99/mo (zero fees on $10K/mo), Premium $299.99/mo'
+    source: nerdwallet.com, yahoo.com
+    date: '2024-09-12'
+    confidence: explicit_statement
+  - fact: Staking commission 25%-35% (26.3% for One Preferred), APYs range 0.01%-14.9%
+      depending on cryptocurrency
+    source: bitget.com, usnews.com
+    date: '2025-05-11'
+    confidence: explicit_statement
+  missing_information:
+  - ISO 27001 or other ISO certifications (only SOC reports confirmed)
+  - G2 ratings not found
+  - Exact country count beyond '100+'
+organizational_stability:
+  facts_found:
+  - fact: Brian Armstrong CEO & Co-Founder since June 2012, Chairman since 2021. Holds
+      10%+ shares with majority voting control
+    source: coinbase.com, wikipedia.org
+    date: '2012-06-01'
+    confidence: explicit_statement
+  - fact: Emilie Choi President & COO since 2020 (joined 2018), oversees operations,
+      business development, M&A
+    source: exa.ai, fortune.com
+    date: '2018-01-01'
+    confidence: explicit_statement
+  - fact: Alesia Haas CFO since 2018, previously CFO at Sculptor Capital and OneWest
+      Bank
+    source: exa.ai, globaldata.com
+    date: '2018-01-01'
+    confidence: explicit_statement
+  - fact: Paul Grewal Chief Legal Officer since 2020, former federal judge who helped
+      Facebook navigate privacy scandals
+    source: fortune.com, exa.ai
+    date: '2020-01-01'
+    confidence: explicit_statement
+  - fact: L.J. Brock Chief People Officer since 2019, previously same role at Citadel
+      LLC and VP at Red Hat
+    source: exa.ai, globaldata.com
+    date: '2019-01-01'
+    confidence: explicit_statement
+  - fact: Manish Gupta EVP of Engineering, joined from Lyft (VP Engineering). 16 years
+      at Google on Ads platform, built AdSense and billing/payments
+    source: moderncto.io, clay.com
+    date: '2023-01-01'
+    confidence: explicit_statement
+  - fact: Board includes Fred Ehrsam (co-founder), Kathryn Haun (ex-federal prosecutor),
+      Marc Andreessen, Tobi Lütke (Shopify CEO)
+    source: advisorycloud.com, coinlaw.io
+    date: '2024-01-01'
+    confidence: explicit_statement
+  - fact: 'Three new Board members 2024: Chris Lehane (OpenAI VP, ex-Clinton strategist),
+      Paul Clement (ex-US Solicitor General), Christa Davies (Aon CFO, Stripe/Workday
+      board)'
+    source: coinbase.com
+    date: '2024-10-01'
+    confidence: explicit_statement
+  - fact: 'Fortune reported April 2024: ''leadership team has proved more stable than
+      ever before'' helping push through Crypto Winter'
+    source: fortune.com
+    date: '2024-04-16'
+    confidence: explicit_statement
+  - fact: Remote-first since May 2020 with no designated HQ, 95% of employees can
+      work from home, office, or hybrid
+    source: coinbase.com, cointelegraph.com
+    date: '2020-05-01'
+    confidence: explicit_statement
+  - fact: 'Modified 2025: quarterly week-long in-person ''Surges'' required at NY/SF
+      offices. ''Remote-first but not remote-only'''
+    source: coingape.com
+    date: '2025-09-01'
+    confidence: explicit_statement
+  - fact: Signed lease for new corporate HQ at Mission Rock, San Francisco May 2025,
+      marking return to designated headquarters
+    source: costar.com
+    date: '2025-05-23'
+    confidence: explicit_statement
+  - fact: Opened 58,600 sq ft Charlotte NC office in 2025 as Center of Excellence
+      with 130+ compliance and support positions
+    source: coinlaw.io
+    date: '2025-01-01'
+    confidence: explicit_statement
+  - fact: 80.9% of 303 open positions (2025) available remotely, up from 41.6% in
+      May 2024
+    source: efinancialcareers.com
+    date: '2025-01-01'
+    confidence: explicit_statement
+  - fact: 'CEO memo Oct 2024: culture is ''intense and isn''t for everyone'' with
+      expectation to work hard. ''Rest and recharge is our lowest scoring engagement
+      area'''
+    source: coinbase.com
+    date: '2024-10-25'
+    confidence: explicit_statement
+  - fact: Sept 2020 'Mission Focused Company' policy discouraged employee activism
+      and political discussion at work. 60 employees (5%) took severance and left
+    source: wikipedia.org
+    date: '2020-09-01'
+    confidence: explicit_statement
+  - fact: Glassdoor 3.6-3.7/5 stars (1,013-1,217 reviews). Compensation 4.2/5, Work-life
+      balance 3.0-3.2/5, Culture 3.3-3.4/5, Career opportunities 3.5-3.6/5
+    source: glassdoor.com, glassdoor.co.uk
+    date: '2024-01-01'
+    confidence: explicit_statement
+  - fact: 54-61% of employees would recommend working there to a friend (Glassdoor)
+    source: glassdoor.com
+    date: '2024-01-01'
+    confidence: explicit_statement
+  - fact: 'Comparably: Executive Team score 66/100, 100% of respondents approve of
+      executive team performance'
+    source: comparably.com
+    date: '2024-01-01'
+    confidence: explicit_statement
+  - fact: 'Common cons in Glassdoor reviews: ''bad work life balance'' (57 reviews),
+      layoffs (43 reviews), ''no job security they will lay off any time'' (18-21
+      reviews)'
+    source: glassdoor.com
+    date: '2024-01-01'
+    confidence: explicit_statement
+  - fact: '4,279 employees as of June 2025 (net +507 since Dec 2024): 598 hires, 305
+      departures YTD. Engineering 37% (1,605), Marketing/Product 11% (474), Finance
+      11% (458)'
+    source: stockanalysis.com, unifygtm.com
+    date: '2025-06-30'
+    confidence: explicit_statement
+  - fact: '65% workforce (2,793 employees) remote/distributed. Largest hubs: NY (474),
+      SF (319), Seattle (181), Bengaluru (101), Hyderabad (97)'
+    source: unifygtm.com, coinlaw.io
+    date: '2025-01-01'
+    confidence: explicit_statement
+  - fact: Average compensation $424K per employee (2023). Tech personnel costs declined
+      43% YoY while headcount declined 24%, implying higher-paid employees departed
+    source: efinancialcareers.com
+    date: '2023-12-31'
+    confidence: explicit_statement
+  - fact: '2024 enhanced hiring: all candidates must demonstrate ''extraordinary ability.''
+      CEO & President personally approve all hires. ''Talent density'' tied to executive
+      performance ratings'
+    source: coinbase.com, efinancialcareers.com
+    date: '2024-01-01'
+    confidence: explicit_statement
+  missing_information:
+  - Exact CEO approval rating percentage
+  - Complete organizational chart beyond top executives
+  - Detailed succession planning information
+technical_culture:
+  facts_found:
+  - fact: 'Mobile apps: React Native with 200+ screens migrated from native. Web:
+      React. Extensive TypeScript for type safety'
+    source: fullstack.com, surf.dev
+    date: '2020-01-01'
+    confidence: explicit_statement
+  - fact: 'Backend polyglot: Python, JavaScript/Node.js, Go, Ruby as primary languages.
+      Infrastructure: AWS and Google Cloud Platform'
+    source: bydfi.com, stackshare.io
+    date: '2023-07-01'
+    confidence: explicit_statement
+  - fact: 'Data storage: PostgreSQL (relational), Redis (caching), MongoDB (certain
+      collections). Optimized 2017-2018 for 100x traffic spikes'
+    source: coinbase.com/blog
+    date: '2018-06-01'
+    confidence: explicit_statement
+  - fact: 'Web infrastructure: NGINX, CloudFlare. Deployment via custom AWS Lambda/Step
+      Functions in open-source ''Odin'' tool'
+    source: stackshare.io, coinbase.com/blog
+    date: '2018-01-01'
+    confidence: explicit_statement
+  - fact: '166 public GitHub repos. Notable: coinbase-wallet-sdk (1,700+ stars), onchainkit
+      (960+ stars), terraform-landscape (1,600+ stars), agentkit (894+ stars)'
+    source: github.com/coinbase
+    date: '2025-10-13'
+    confidence: explicit_statement
+  - fact: 'Sept 2025: open-sourced Multi-Party Computation (MPC) cryptography library
+      used for securing digital asset keys'
+    source: coinbase.com/blog
+    date: '2025-09-25'
+    confidence: explicit_statement
+  - fact: Base layer-2 network code and smart contracts open-sourced Oct 2023 with
+      up to $1M bug bounties
+    source: cointelegraph.com
+    date: '2023-10-19'
+    confidence: explicit_statement
+  - fact: 'Active engineering blog (blog.coinbase.com) with Oct 2025 posts: NodeSmith
+      (AI blockchain node upgrades), ML sequence features, traffic prediction, Databricks
+      CI/CD'
+    source: coinbase.com/blog
+    date: '2025-10-03'
+    confidence: explicit_statement
+  - fact: Engineers presented MongoDB World 2018 on scaling during 2017's 100x traffic
+      spike. Hosts annual ML and Blockchain Research Summit (3rd annual in 2025)
+    source: coinbase.com/blog
+    date: '2025-01-01'
+    confidence: explicit_statement
+  - fact: 'At EthCC Paris, presented ChainStorage: multi-blockchain filesystem storage
+      service, storage engine behind many Coinbase blockchain apps'
+    source: linkedin.com
+    date: '2024-07-01'
+    confidence: explicit_statement
+  - fact: Balaji Srinivasan served as CTO (joined April 2018), ex-a16z GP and Earn.com
+      CEO. Stanford EE PhD, taught blockchain to 250K+ students
+    source: coinbase.com/blog, comparably.com
+    date: '2018-04-01'
+    confidence: explicit_statement
+  - fact: Rob Witoff Head of Platform (rejoined 2024), worked 2014-2017 as Chief Architect
+      leading security/infrastructure, created industry-leading cold storage
+    source: coinbase.com/blog
+    date: '2024-01-01'
+    confidence: explicit_statement
+  - fact: Krishnan Seshadrinathan VP Engineering leading Product Foundations and AI
+      orgs. 19 years at Google before Coinbase
+    source: linkedin.com
+    date: '2024-01-01'
+    confidence: explicit_statement
+  - fact: Interview process averages 60 days, only 5% progress beyond resume review.
+      Includes recruiter screen, CodeSignal assessment, four 1:1s, work trial presentation
+      (engineers do live coding)
+    source: coinbase.com/blog, glassdoor.com
+    date: '2024-01-01'
+    confidence: explicit_statement
+  - fact: Engineering interviews emphasize 'production-grade code' over LeetCode optimal
+      solutions. Pair programming assesses code quality, maintainability, debugging,
+      tooling. Most failures on pair programming
+    source: coinbase.com/blog
+    date: '2024-01-01'
+    confidence: explicit_statement
+  - fact: Deep crypto/blockchain knowledge NOT required for most engineering roles—willingness
+      to learn sufficient. CEO/COO review every final offer decision
+    source: coinbase.com/blog
+    date: '2024-01-01'
+    confidence: explicit_statement
+  - fact: 2025 piloting AI tools for initial screening interviews and AI interview
+      intelligence platforms for transcription/summaries. AI will not make employment
+      decisions
+    source: coinbase.com/careers
+    date: '2025-01-01'
+    confidence: explicit_statement
+  - fact: 'Six Engineering Principles (2018-2019): #SecurityFirst, #BuildValue, #OneCoinbase,
+      #ExplicitTradeoffs, #APIDriven, #1-2-Automate (automate any process done 3+
+      times)'
+    source: coinbase.com/blog
+    date: '2019-01-01'
+    confidence: explicit_statement
+  - fact: 'High-performing per 2017 DORA DevOps Report: hundreds of deployments/day
+      across hundreds of projects, on-demand deployment, sub-1hr lead time commit-to-deploy,
+      sub-1hr MTTR'
+    source: coinbase.com/blog
+    date: '2018-01-01'
+    confidence: explicit_statement
+  - fact: Adopted Python monorepo for data/ML. Revamped Apache Airflow platform for
+      hundreds of engineers, migrated from poly-repo to monorepo using crowdsourcing
+    source: coinbase.com/blog
+    date: '2021-01-01'
+    confidence: explicit_statement
+  - fact: Built custom Databricks CI/CD with Temporal orchestrated workflows. Declarative
+      releases without complexity, auto and manual deployment with observability
+    source: coinbase.com/blog
+    date: '2023-01-01'
+    confidence: explicit_statement
+  - fact: 'Reliability Engineering (founded 2018): ''teach teams to fish'' philosophy
+      - up-leveling every team for self-sufficiency. Mission: ''Help engineers design
+      & keep promises in production'' via Promise Theory'
+    source: coinbase.com/blog
+    date: '2018-01-01'
+    confidence: explicit_statement
+  - fact: 'ML ''in DNA from beginning'' per Director Data Science. Uses Amazon SageMaker:
+      reduced training 20hrs→10mins, cut training costs 90%, inference costs 70%'
+    source: aws.amazon.com, medium.com
+    date: '2020-01-01'
+    confidence: explicit_statement
+  - fact: 'Proprietary ML frameworks: EasyML (no-code tabular), Seq2Win (sequential
+      data), EasyBlend (combines models). Sequence feature framework generates 5,000+
+      features for fraud detection'
+    source: coinbase.com/blog, medium.com
+    date: '2023-01-01'
+    confidence: explicit_statement
+  - fact: 'ML applications: fraud prevention (LSTM/Transformers), face-similarity
+      ID verification, Node2Vec graph risk scoring (saving customers millions), traffic
+      prediction auto-scaling databases, GenAI customer support (tens of thousands
+      queries/month)'
+    source: coinbase.com/blog, aws.amazon.com
+    date: '2025-01-01'
+    confidence: explicit_statement
+  - fact: 'Q3 2023: migrated ML training/serving from in-house to Ray/Anyscale for
+      faster iteration, resource management, cost optimization'
+    source: anyscale.com
+    date: '2023-09-01'
+    confidence: explicit_statement
+  - fact: Exploring Crypto x AI convergence, investing in decentralized AI infrastructure.
+      NodeSmith (AI-driven blockchain node upgrades) reduced engineering effort 30%,
+      eliminated missed upgrades
+    source: coinbase.com/blog
+    date: '2025-10-01'
+    confidence: explicit_statement
+  missing_information:
+  - Current CTO identity (Balaji left 2019)
+  - Specific Kubernetes/container orchestration details
+  - Complete StackShare technology count enumeration
+summary:
+  total_facts_found: 89
+  information_completeness: high
+  most_recent_data_point: '2025-10-17'
+  oldest_data_point: '2012-06-01'
