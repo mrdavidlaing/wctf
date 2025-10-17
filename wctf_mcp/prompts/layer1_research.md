@@ -81,7 +81,8 @@ missing_information:
 
 ## Important Guidelines
 
-- **Be thorough**: Aim for 30-50 facts minimum per company
+- **Be thorough but focused**: Aim for 30-50 high-quality facts per company (maximum 50)
+- **Quality over quantity**: Each fact should be significant and verifiable
 - **Cite sources**: Every fact must have a source and date
 - **Recent data**: Prioritize information from 2023-2025
 - **No speculation**: Only include verifiable facts, mark inferred facts appropriately
