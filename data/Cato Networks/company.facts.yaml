@@ -1,0 +1,181 @@
+company: Cato Networks
+research_date: '2025-10-17'
+financial_health:
+  facts_found:
+  - fact: Series G funding of $359M at $4.8B valuation in June 2025, with $239M primary
+      and ~$120M secondary for employee liquidity
+    source: Calcalistech
+    date: '2025-06-30'
+    confidence: explicit_statement
+  - fact: Total funding exceeds $1 billion across all rounds
+    source: Calcalistech
+    date: '2025-06-30'
+    confidence: explicit_statement
+  - fact: ARR of $250M+ in 2024, representing 46% YoY growth
+    source: Cato Networks press release
+    date: '2025-02-18'
+    confidence: explicit_statement
+  - fact: Gross margin of 70% for software with improving trend
+    source: Yahoo Finance
+    date: '2023-09-01'
+    confidence: explicit_statement
+  - fact: Gross dollar retention exceeds 95%
+    source: SiliconANGLE
+    date: '2023-09-01'
+    confidence: explicit_statement
+  - fact: Not yet profitable as of Q2 2025, though CEO states can reach positive cash
+      flow without additional funding
+    source: Calcalistech
+    date: '2025-06-30'
+    confidence: explicit_statement
+  - fact: IPO postponed beyond 2025, with underwriters hired targeting $500M+ raise
+    source: Calcalistech
+    date: '2025-06-30'
+    confidence: explicit_statement
+  - fact: No layoffs or restructuring events identified in 2023-2025 period
+    source: Comprehensive search results
+    date: '2025-06-30'
+    confidence: explicit_statement
+  - fact: 1,300+ employees globally across 30 countries as of February 2025
+    source: Cato Networks press release
+    date: '2025-02-25'
+    confidence: explicit_statement
+  missing_information:
+  - Specific burn rate and runway calculations
+  - Path to profitability timeline
+  - Customer churn rate and ACV details
+market_position:
+  facts_found:
+  - fact: Operates in SASE market projected to reach $28.5B by 2028 at 26% CAGR
+    source: Gartner
+    date: '2024-01-01'
+    confidence: explicit_statement
+  - fact: Named Gartner Leader in SSE and SASE for two consecutive years
+    source: Gartner Magic Quadrant
+    date: '2025-02-18'
+    confidence: explicit_statement
+  - fact: 3,000+ business customers globally as of February 2025
+    source: Cato Networks press release
+    date: '2025-02-18'
+    confidence: explicit_statement
+  - fact: Enterprise customers include Carlsberg, O-I Glass, TAG Heuer, Sixt, MUJI
+    source: Cato Networks case studies
+    date: '2024-01-01'
+    confidence: explicit_statement
+  - fact: First single-vendor SASE platform, differentiating from acquisition-built
+      competitors
+    source: Cato Networks website
+    date: '2024-01-01'
+    confidence: explicit_statement
+  - fact: 80+ global Points of Presence with proprietary backbone
+    source: Cato Networks website
+    date: '2024-01-01'
+    confidence: explicit_statement
+  - fact: Competes with Zscaler, Palo Alto Networks, Cisco, Cloudflare in SASE market
+    source: Market analysis
+    date: '2024-01-01'
+    confidence: explicit_statement
+  missing_information:
+  - Market share percentage
+  - Win/loss rates vs competitors
+  - Average deal size and sales cycle
+organizational_stability:
+  facts_found:
+  - fact: Founded 2015 by Shlomo Kramer (Check Point, Imperva co-founder) and Gur
+      Shatz
+    source: Company website
+    date: '2015-01-01'
+    confidence: explicit_statement
+  - fact: CEO Shlomo Kramer has 10-year tenure, InfoSec Hall of Fame 2013
+    source: Company website
+    date: 2015-present
+    confidence: explicit_statement
+  - fact: CTO Gur Shatz has 10-year tenure, previously co-founded Incapsula
+    source: LinkedIn
+    date: 2015-present
+    confidence: explicit_statement
+  - fact: CISO Efrat Kishon has 10-year tenure
+    source: LinkedIn
+    date: 2015-present
+    confidence: explicit_statement
+  - fact: 'Added board members Oct 2024: Eyal Waldman (Mellanox founder, NVIDIA $7B
+      exit) and Gili Iohan (Varonis CFO)'
+    source: Company announcements
+    date: '2024-10-01'
+    confidence: explicit_statement
+  - fact: Glassdoor 4.3/5 from 219 reviews, 92% CEO approval
+    source: Glassdoor
+    date: '2025-10-17'
+    confidence: explicit_statement
+  - fact: Work-life balance rated 4.2/5
+    source: Glassdoor
+    date: '2025-10-17'
+    confidence: explicit_statement
+  - fact: Sales org had challenges 2023-2024, only 38.6% hitting quota
+    source: Glassdoor reviews
+    date: '2024-01-01'
+    confidence: multiple_reviews
+  - fact: Hybrid work model with Tel Aviv HQ and global offices
+    source: Company website
+    date: '2024-01-01'
+    confidence: explicit_statement
+  missing_information:
+  - Engineering team size
+  - Recent executive changes
+  - Promotion and review processes
+technical_culture:
+  facts_found:
+  - fact: 42+ public GitHub repos with active commits, including Terraform provider
+      and SDKs
+    source: github.com/catonetworks
+    date: 2024-2025
+    confidence: explicit_statement
+  - fact: 'Tech stack: Java, Python, Scala, Go, C for networking'
+    source: catonetworks.com careers
+    date: '2024-01-01'
+    confidence: explicit_statement
+  - fact: GraphQL API with Python CLI and Go SDK
+    source: GitHub
+    date: 2024-2025
+    confidence: explicit_statement
+  - fact: Active engineering blog with ML/AI content, recent post on Agentic AI (Jan
+      2025)
+    source: catonetworks.com/blog
+    date: '2025-01-01'
+    confidence: explicit_statement
+  - fact: Uses Amazon Bedrock for ML-powered GraphQL query conversion
+    source: AWS ML blog
+    date: '2024-10-01'
+    confidence: explicit_statement
+  - fact: Developed MCPSaaS framework with OAuth 2.1, used internally across R&D/ops/PMO
+    source: catonetworks.com blog
+    date: '2025-01-01'
+    confidence: explicit_statement
+  - fact: Real-time ML for threat detection, 6x improvement identifying 390K+ DGA
+      domains
+    source: Cato press release
+    date: '2023-06-27'
+    confidence: explicit_statement
+  - fact: Acquired Aim Security (AI security) Sept 2025 - first M&A
+    source: Wikipedia
+    date: '2025-09-01'
+    confidence: explicit_statement
+  - fact: 'Conference presence: RSA 2024, PyData Tel Aviv, BSides, AWS Summit'
+    source: Company press releases
+    date: 2024-2025
+    confidence: explicit_statement
+  - fact: 'Interview: 4-6 rounds, algorithms + distributed systems, 2.92/5 difficulty,
+      18 days avg, 40.6% positive'
+    source: Glassdoor
+    date: 2024-2025
+    confidence: explicit_statement
+  missing_information:
+  - CI/CD platforms
+  - Code review practices
+  - AI coding tools policy
+  - Compensation ranges
+summary:
+  total_facts_found: 35
+  information_completeness: high
+  most_recent_data_point: '2025-10-17'
+  oldest_data_point: '2015-01-01'
