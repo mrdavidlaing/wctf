@@ -1,0 +1,307 @@
+company: Waymo
+research_date: '2025-10-17'
+financial_health:
+  facts_found:
+  - fact: Raised $5.6B in Series C funding led by Alphabet with participation from
+      Andreessen Horowitz, Fidelity, Perry Creek, Silver Lake, Tiger Global, and T.
+      Rowe Price
+    source: TechCrunch
+    date: '2024-10-25'
+    confidence: explicit_statement
+  - fact: Total external funding of $11.1B over 4 rounds from 2020 to 2024
+    source: Tracxn
+    date: '2024-10-25'
+    confidence: explicit_statement
+  - fact: Alphabet committed up to $5B multi-year investment (separate from external
+      funding)
+    source: TechCrunch
+    date: '2024-07-23'
+    confidence: explicit_statement
+  - fact: Valuation reached $45B following October 2024 Series C round
+    source: TechCrunch
+    date: '2024-11-05'
+    confidence: explicit_statement
+  - fact: Bank of America estimated 2024 revenue at $50-75M
+    source: App Economy Insights
+    date: '2024-01-01'
+    confidence: implied
+  - fact: Bank of America estimated 2024 annual loss at $1.5B
+    source: App Economy Insights
+    date: '2024-01-01'
+    confidence: implied
+  - fact: Alphabet's Other Bets segment reported losses of $1.13B in Q2 2024
+    source: CNBC
+    date: '2024-07-23'
+    confidence: explicit_statement
+  - fact: Staff grew to 2,500 employees as of June 2025
+    source: The Driverless Digest
+    date: '2025-06-01'
+    confidence: explicit_statement
+  - fact: Approximately 2,400 employees with 243 new hires and 95 departures, turnover
+      rate under 5%
+    source: Unify
+    date: '2025-09-01'
+    confidence: explicit_statement
+  - fact: Laid off 137 employees (8% of workforce) in March 2023, second round within
+      the year
+    source: Sunset
+    date: '2023-03-01'
+    confidence: explicit_statement
+  - fact: Shut down autonomous trucking program (Waymo Via) in July 2023
+    source: TechCrunch
+    date: '2023-07-26'
+    confidence: explicit_statement
+  - fact: Crossed 250,000 weekly rides across 4 major markets in April 2025
+    source: The Driverless Digest
+    date: '2025-04-24'
+    confidence: explicit_statement
+  - fact: Served over 4M fully autonomous rides in 2024, bringing total to over 5M
+      rides
+    source: Waymo Blog
+    date: '2024-12-31'
+    confidence: explicit_statement
+  - fact: Driven over 100M fully autonomous miles on public roads as of July 2025
+    source: The Driverless Digest
+    date: '2025-07-15'
+    confidence: explicit_statement
+  missing_information:
+  - Specific revenue breakdown by city/service line
+  - Detailed P&L statement and unit economics
+  - Cash reserves and debt facilities
+  - Customer acquisition costs
+market_position:
+  facts_found:
+  - fact: Autonomous driving technology company, subsidiary of Alphabet; founded 2009
+      as Google Self-Driving Car Project, spun out as Waymo in 2016; HQ in Mountain
+      View, CA
+    source: Waymo Website
+    date: '2025-10-17'
+    confidence: explicit_statement
+  - fact: 'Waymo One: Fully autonomous ride-hailing service 24/7 in Phoenix, SF, LA
+      with 250K paid rides/week as of April 2025'
+    source: Wikipedia
+    date: '2025-04-01'
+    confidence: explicit_statement
+  - fact: 'Waymo Driver: Core autonomous driving tech using cameras, lidar, radar
+      with 3 football fields detection range'
+    source: Waymo Website
+    date: '2025-10-17'
+    confidence: explicit_statement
+  - fact: 'Operational in 5 cities: Phoenix, San Francisco, Los Angeles, Austin (via
+      Uber), Atlanta (via Uber)'
+    source: Waymo Website
+    date: '2025-10-17'
+    confidence: explicit_statement
+  - fact: Operates across 720+ square miles cumulatively
+    source: The Driverless Digest
+    date: '2025-10-01'
+    confidence: explicit_statement
+  - fact: 'Expansion announced for 2026: Miami, DC, Dallas, Nashville; testing in
+      Denver, Seattle; international testing in Tokyo'
+    source: Wikipedia
+    date: '2025-03-25'
+    confidence: explicit_statement
+  - fact: Global autonomous vehicle market valued at $207.38B in 2024, projected to
+      reach $4,450.34B by 2034 at 36.3% CAGR
+    source: Precedence Research
+    date: '2024-01-01'
+    confidence: explicit_statement
+  - fact: Dominates U.S. robotaxi market in 2024, described by NYT as far ahead of
+      competition after Cruise suspended operations
+    source: Wikipedia
+    date: '2024-10-01'
+    confidence: explicit_statement
+  - fact: 91% fewer serious injury crashes, 79% fewer airbag deployment crashes, 80%
+      fewer injury-causing crashes vs. human drivers
+    source: Waymo Website
+    date: '2025-10-17'
+    confidence: explicit_statement
+  - fact: 70% of users prefer driverless cars to traditional rideshare according to
+      Obi survey
+    source: TechCrunch
+    date: '2025-06-12'
+    confidence: explicit_statement
+  - fact: 'SF pricing avg $20.43 vs $15.58 Uber, $14.44 Lyft; LA: $5.37 base + $2.50/mile
+      + $0.32/min'
+    source: TechCrunch
+    date: '2025-06-12'
+    confidence: explicit_statement
+  - fact: 'Uber partnership: Waymo exclusive on Uber app in Austin and Atlanta starting
+      2025'
+    source: Waymo Blog
+    date: '2024-09-01'
+    confidence: explicit_statement
+  - fact: 'Hyundai partnership: Multi-year integration of Waymo Driver into Ioniq
+      5 EVs from Georgia plant'
+    source: KED Global
+    date: '2024-10-04'
+    confidence: explicit_statement
+  missing_information:
+  - Security certifications (SOC2, ISO) - not publicly disclosed or may not apply
+    to consumer transport
+  - Specific enterprise customer names for Waymo for Business
+  - Detailed financial performance by market
+organizational_stability:
+  facts_found:
+  - fact: Co-CEO Dmitri Dolgov since April 2021, joined 2009; PhD Computer Science
+      U. Michigan, worked Stanford DARPA Urban Challenge and Toyota
+    source: Waymo Website
+    date: '2025-10-17'
+    confidence: explicit_statement
+  - fact: Co-CEO Tekedra Mawakana since April 2021, joined March 2017; JD Columbia
+      Law, prior eBay/Yahoo/AOL; serves on Intuit Board
+    source: Waymo Website
+    date: '2025-10-17'
+    confidence: explicit_statement
+  - fact: VP Operations Ryan McNamara; 10-year Navy pilot, prior Apple iPhone Product
+      Ops Lead, Nest, Google
+    source: Waymo Website
+    date: '2025-10-17'
+    confidence: explicit_statement
+  - fact: 'April 2021: John Krafcik stepped down as CEO, replaced by co-CEOs Mawakana
+      and Dolgov'
+    source: The Org
+    date: '2021-04-02'
+    confidence: explicit_statement
+  - fact: '2024: Daniel Ho hired as Program Director from Tesla where he was Director
+      of Vehicle Programs'
+    source: Teslarati
+    date: '2024-08-23'
+    confidence: explicit_statement
+  - fact: HQ in Mountain View, CA; additional offices in Detroit, MI and Phoenix,
+      AZ
+    source: Craft
+    date: '2024-01-01'
+    confidence: explicit_statement
+  - fact: Hybrid work model, not fully remote; some remote positions available for
+      specific roles
+    source: Blind
+    date: '2024-01-01'
+    confidence: implied
+  - fact: Glassdoor rating 4.0-4.1/5 based on 459 reviews, stable over past 12 months
+    source: Glassdoor
+    date: '2024-10-01'
+    confidence: explicit_statement
+  - fact: 'Compensation & Benefits: 3.9-4.0/5'
+    source: Glassdoor
+    date: '2024-10-01'
+    confidence: explicit_statement
+  - fact: 'Work-Life Balance: 3.7-3.8/5'
+    source: Glassdoor
+    date: '2024-10-01'
+    confidence: explicit_statement
+  - fact: 'Culture and Values: 4.1/5'
+    source: Glassdoor
+    date: '2024-10-01'
+    confidence: explicit_statement
+  - fact: 'Would Recommend to Friend: 73-76%'
+    source: Glassdoor
+    date: '2024-10-01'
+    confidence: explicit_statement
+  - fact: 'Common PROs: Smart talented colleagues (39 reviews), great pay and benefits
+      (35 reviews), Google perks, world-changing mission'
+    source: Glassdoor
+    date: '2024-10-01'
+    confidence: explicit_statement
+  - fact: 'Common CONs: Bad work-life balance (12 reviews), disorganized leadership
+      (6 reviews), illiquid equity, poor management, limited career growth'
+    source: Glassdoor
+    date: '2024-10-01'
+    confidence: explicit_statement
+  missing_information:
+  - Complete list of VPs beyond those mentioned
+  - Board of Directors members (appears governed by Alphabet)
+  - CFO details after 2021 departure
+  - Detailed team structure by department size
+technical_culture:
+  facts_found:
+  - fact: Engineering blog Waypoint at waymo.com/blog with multiple technical posts
+      per month in 2024
+    source: Waymo Blog
+    date: '2024-10-17'
+    confidence: explicit_statement
+  - fact: '96 research publications total: 4 in 2025, 13 in 2024, 16 in 2023, 29 in
+      2022; venues include CVPR (24), ICRA (18), ECCV (13)'
+    source: Waymo Research
+    date: '2024-10-17'
+    confidence: explicit_statement
+  - fact: Waymo Open Dataset on GitHub with 3,042 stars; includes Perception, Motion
+      (103,354 scenes), End-to-End Driving datasets
+    source: GitHub
+    date: '2024-10-17'
+    confidence: explicit_statement
+  - fact: Over 2,000 academic papers cite or use Waymo Open Dataset as benchmark by
+      2024
+    source: Waymo Blog
+    date: '2024-03-01'
+    confidence: explicit_statement
+  - fact: '6th-gen hardware: 13 cameras, 4 lidar, 6 radar with 500m detection range'
+    source: Waymo Blog
+    date: '2024-08-01'
+    confidence: explicit_statement
+  - fact: 'AI/ML stack uses PyTorch, TensorFlow, Jax/Flax; languages: Python, C++,
+      SQL'
+    source: Indeed
+    date: '2024-10-17'
+    confidence: explicit_statement
+  - fact: Waymo Foundation Model combines AV-specific ML advances with LLMs/VLMs like
+      Gemini for end-to-end driving
+    source: Waymo Blog
+    date: '2024-10-31'
+    confidence: explicit_statement
+  - fact: EMMA (End-to-End Multimodal Model) research paper published Oct 30 2024,
+      powered by Gemini
+    source: Waymo Blog
+    date: '2024-10-30'
+    confidence: explicit_statement
+  - fact: Over 20B miles in simulation and 20M+ autonomous miles on public roads across
+      13+ states as of 2024
+    source: PR Newswire
+    date: '2024-12-12'
+    confidence: explicit_statement
+  - fact: Co-organized Workshop on Autonomous Driving at CVPR 2024; planning 8th year
+      at CVPR 2025
+    source: CVPR 2024
+    date: '2024-06-17'
+    confidence: explicit_statement
+  - fact: VP Research Drago Anguelov since 2018; invented Inception architecture and
+      SSD detector, won ImageNet 2014; prev Zoox (2015-18), Google (2007-15)
+    source: Google Scholar
+    date: '2024-10-17'
+    confidence: explicit_statement
+  - fact: VP Engineering Onboard Srikanth Thirumalai joined after 18 years at Amazon
+    source: Fortune
+    date: '2024-10-18'
+    confidence: explicit_statement
+  - fact: Interview difficulty 2.93/5 on Glassdoor, 53.6% positive experience; average
+      32.84 days to hire
+    source: Glassdoor
+    date: '2024-10-17'
+    confidence: explicit_statement
+  - fact: 'Interview stages: Tech phone screen, HM screen, virtual onsite with technical,
+      behavioral, system design; focus on C++, Python, DS/algo, ML'
+    source: Interview Query
+    date: '2024-10-17'
+    confidence: explicit_statement
+  - fact: 'Senior SWE salary $192K-$243K base; L4 typical: ~$200K base + 15% bonus
+      + equity (RSUs with 409a pricing)'
+    source: LinkedIn
+    date: '2024-10-17'
+    confidence: explicit_statement
+  - fact: 'Benefits include Alphabet/Google benefits: 401k match, healthcare, breakfast/lunch,
+      onsite barista, flexible RTO'
+    source: Blind
+    date: '2024-10-17'
+    confidence: explicit_statement
+  missing_information:
+  - Specific agile methodology (Scrum vs Kanban)
+  - CI/CD pipeline architecture and tools
+  - Code coverage or testing metrics
+  - Version control system details
+  - On-call rotation practices
+  - Promotion criteria and engineering ladder specifics
+summary:
+  total_facts_found: 57
+  information_completeness: high
+  most_recent_data_point: '2025-10-17'
+  oldest_data_point: '2021-04-02'
