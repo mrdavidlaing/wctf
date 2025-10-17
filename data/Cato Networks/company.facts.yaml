@@ -40,9 +40,44 @@ financial_health:
     source: Cato Networks press release
     date: '2025-02-25'
     confidence: explicit_statement
+  - fact: Series F funding of $238M at $3B+ valuation in Sept 2023, led by Lightspeed
+      Venture Partners
+    source: PR Newswire
+    date: '2023-09-19'
+    confidence: explicit_statement
+  - fact: ARR surpassed $200M milestone mid-2024, doubling in under two years from
+      $100M (Nov 2022)
+    source: Cato Networks press release
+    date: '2024-07-01'
+    confidence: explicit_statement
+  - fact: ARR surpassed $300M by June 2025
+    source: Series G announcement
+    date: '2025-06-30'
+    confidence: explicit_statement
+  - fact: Revenue growth of 59% YoY in 2023 (GAAP); historical 96% growth in 2021
+    source: Cato Networks press release
+    date: '2024-02-28'
+    confidence: explicit_statement
+  - fact: Headcount expanded 66% in 2021; grew from 800 (Sept 2023) to 1,000+ (June
+      2025)
+    source: Company data; press releases
+    date: '2025-06-30'
+    confidence: explicit_statement
+  - fact: CEO stated 'We didn't need money from this round, could reach positive cash
+      flow without it'
+    source: Calcalistech; Series G announcement
+    date: '2025-06-30'
+    confidence: explicit_statement
+  - fact: 'Underwriters hired: Goldman Sachs, JPMorgan Chase, Barclays'
+    source: Calcalistech
+    date: '2025-06-30'
+    confidence: explicit_statement
   missing_information:
-  - Specific burn rate and runway calculations
   - Path to profitability timeline
+  - Specific burn rate and runway calculations
+  - 2025 Q3-Q4 performance data
+  - Specific burn rate and quarterly P&L breakdown
+  - Customer churn rate and average contract value details
   - Customer churn rate and ACV details
 market_position:
   facts_found:
@@ -75,10 +110,37 @@ market_position:
     source: Market analysis
     date: '2024-01-01'
     confidence: explicit_statement
+  - fact: Added 700+ new enterprise customers in 2023, reaching 2,200+ total; grew
+      to 3,000+ by Feb 2025 (1,800 in Sept 2023)
+    source: PR Newswire; Cato press releases
+    date: '2025-02-18'
+    confidence: explicit_statement
+  - fact: KuppingerCole named Cato Overall Leader in SASE in February 2025
+    source: KuppingerCole Leadership Compass
+    date: '2025-02-01'
+    confidence: explicit_statement
+  - fact: Gartner Peer Insights rating of 4.7/5 from 530+ reviews as of March 2025
+    source: Gartner Peer Insights
+    date: '2025-03-01'
+    confidence: explicit_statement
+  - fact: 'Notable customer deployments: Carlsberg (200+ locations, 25K users), O-I
+      Glass (23K employees, 150 sites, 20 countries), Ryohin Keikaku/MUJI (820+ locations,
+      3,200+ employees)'
+    source: Cato case studies
+    date: '2024-01-01'
+    confidence: explicit_statement
+  - fact: 'Main competitors market caps: Zscaler $30.6B, Palo Alto $145.2B, Fortinet
+      $77.0B, Cloudflare $44.9B, Netskope (private)'
+    source: Financial markets data
+    date: '2024-12-01'
+    confidence: explicit_statement
   missing_information:
   - Market share percentage
+  - Market share percentages within SASE
   - Win/loss rates vs competitors
+  - Geographic revenue breakdown and enterprise vs SMB mix
   - Average deal size and sales cycle
+  - Win rates vs specific competitors
 organizational_stability:
   facts_found:
   - fact: Founded 2015 by Shlomo Kramer (Check Point, Imperva co-founder) and Gur
@@ -119,10 +181,43 @@ organizational_stability:
     source: Company website
     date: '2024-01-01'
     confidence: explicit_statement
+  - fact: CFO Yishay Yovel appointed November 2019, 6+ years tenure
+    source: PR Newswire
+    date: '2019-11-13'
+    confidence: explicit_statement
+  - fact: CPO Gur Shatz is co-founder with 10+ years tenure
+    source: Company leadership page
+    date: 2015-present
+    confidence: explicit_statement
+  - fact: CTO/VP R&D Eyal Webman-Shafran has 10+ years tenure, previously managed
+      Check Point's Mobile Security
+    source: LinkedIn
+    date: 2015-present
+    confidence: explicit_statement
+  - fact: VP Engineering Kobi Hazan has 6+ years tenure
+    source: LinkedIn
+    date: 2018-present
+    confidence: explicit_statement
+  - fact: CMO Michael Levin joined December 2020, 4+ years tenure
+    source: PR Newswire
+    date: '2020-12-16'
+    confidence: explicit_statement
+  - fact: 'Glassdoor stats: 91% would recommend to friend, 79% positive business outlook'
+    source: Glassdoor
+    date: '2024-12-01'
+    confidence: explicit_statement
+  - fact: Hybrid work policy 3-4 days/week in office for some roles; Tel Aviv HQ
+    source: Glassdoor; careers page
+    date: '2024-01-01'
+    confidence: explicit_statement
   missing_information:
-  - Engineering team size
   - Recent executive changes
+  - Turnover rates by department
   - Promotion and review processes
+  - Equity compensation structure and vesting schedules
+  - Performance review and promotion processes
+  - Detailed org chart and exact team sizes by department
+  - Engineering team size
 technical_culture:
   facts_found:
   - fact: 42+ public GitHub repos with active commits, including Terraform provider
@@ -169,13 +264,61 @@ technical_culture:
     source: Glassdoor
     date: 2024-2025
     confidence: explicit_statement
+  - fact: 'Client development: Swift, Objective-C, SwiftUI for Apple; C++ for cross-platform'
+    source: catonetworks.com careers
+    date: '2024-01-01'
+    confidence: explicit_statement
+  - fact: Infrastructure uses Storm, Spark, Kafka, SQS for data processing
+    source: catonetworks.com careers
+    date: '2024-01-01'
+    confidence: explicit_statement
+  - fact: Data scientists published on AWS blog (Asaf Fried, Daniel Pienica, Sergey
+      Volkovich) about Bedrock GraphQL integration
+    source: aws.amazon.com/blogs
+    date: '2024-10-01'
+    confidence: explicit_statement
+  - fact: 'Cato CTRL threat team presented at RSA Conference 2024: ''Flying Under
+      Radar'' and ''Price is WRONG'' sessions'
+    source: Cato press release
+    date: '2024-05-06'
+    confidence: explicit_statement
+  - fact: 'PyData Tel Aviv Nov 2024: Tomer Doitshman presented on AIOps using PyAthena
+      and PySpark'
+    source: Cato press release
+    date: '2024-11-04'
+    confidence: explicit_statement
+  - fact: 'Founder Shlomo Kramer: M.S. Computer Science (Hebrew University), Unit
+      8200 veteran, InfoSec Hall of Fame 2013'
+    source: catonetworks.com; Wikipedia
+    date: 2015-present
+    confidence: explicit_statement
+  - fact: 'Chief Security Strategist Etay Maor: founding Cato CTRL member, ex-CSO
+      IntSights (Rapid7), senior roles Trusteer (IBM)/RSA, adjunct prof Boston College'
+    source: catonetworks.com blog
+    date: 2021-present
+    confidence: explicit_statement
+  - fact: 'Real-time deep learning launched June 2023: first vendor using ML in real-time
+      prevention (not just detection)'
+    source: Cato press release
+    date: '2023-06-27'
+    confidence: explicit_statement
+  - fact: Amazon Bedrock integration reduces GraphQL query time from minutes to near-instant
+      with multi-language support
+    source: AWS blog
+    date: '2024-10-01'
+    confidence: explicit_statement
   missing_information:
-  - CI/CD platforms
+  - Compensation ranges by level
   - Code review practices
+  - CI/CD platforms
+  - Agile methodology details (Scrum, Kanban, SAFe)
+  - Code review practices and testing frameworks
+  - Internal engineering metrics (velocity, deployment frequency)
+  - CI/CD platforms (Jenkins, GitLab CI, GitHub Actions)
   - AI coding tools policy
   - Compensation ranges
 summary:
-  total_facts_found: 35
+  total_facts_found: 63
   information_completeness: high
   most_recent_data_point: '2025-10-17'
   oldest_data_point: '2015-01-01'
