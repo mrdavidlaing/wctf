@@ -1,0 +1,132 @@
+company: Pliant
+research_date: '2025-10-17'
+financial_health:
+  facts_found:
+  - fact: Series B $40M April 2025, total funding >$100M from Illuminate Financial,
+      Speedinvest, PayPal Ventures
+    source: Pliant announcements
+    date: '2025-04-28'
+    confidence: explicit_statement
+  - fact: Consecutive years triple-digit revenue growth, 2x revenue in 2023, ranked
+      3rd German fintech at 133.5% CAGR
+    source: Pliant announcements, Sifted 50
+    date: '2025-04-28'
+    confidence: explicit_statement
+  - fact: 200+ employees across 35 nationalities, 3,500+ customers, no layoffs found
+    source: Careers page, layoff trackers
+    date: '2025-10-17'
+    confidence: explicit_statement
+  - fact: EMI license passported to 25 EEA countries, Visa Principal Member, PCI DSS
+      + ISO 27001 certified
+    source: Company materials
+    date: '2025-10-17'
+    confidence: explicit_statement
+  - fact: US expansion planned 2025, acquired hi.health April 2025, Commerzbank partnership
+      June 2024
+    source: Press releases
+    date: '2025-04-28'
+    confidence: explicit_statement
+  missing_information:
+  - ARR/MRR figures
+  - Profitability or path to profitability
+  - Burn rate
+  - Valuation
+  - Customer churn rate
+market_position:
+  facts_found:
+  - fact: Founded 2020 Berlin by Malte Rau and Fabian Terner, API-first card issuance
+      platform
+    source: Crunchbase
+    date: '2020-01-01'
+    confidence: explicit_statement
+  - fact: Corporate card market $250B opportunity doubling by 2030, European market
+      $7.8B in 2020
+    source: Speedinvest, HPS Worldwide
+    date: '2025-04-28'
+    confidence: explicit_statement
+  - fact: Competes with Pleo, Moss, Spendesk, Payhawk, Ramp, SAP Concur
+    source: TechFundingNews
+    date: '2025-01-01'
+    confidence: explicit_statement
+  - fact: G2 4.6/5 (19 reviews), Capterra 4.7/5 (61 reviews), TrustPilot 4/5 (219
+      reviews)
+    source: Review sites
+    date: '2025-10-17'
+    confidence: explicit_statement
+  - fact: First digital card provider with credit line across all 30 EEA countries,
+      issues cards in 11 currencies
+    source: Speedinvest
+    date: '2025-04-28'
+    confidence: explicit_statement
+  - fact: Up to 1% cashback, no FX fees, Cards-as-a-Service white-label solutions
+    source: Company website
+    date: '2025-10-17'
+    confidence: explicit_statement
+  missing_information:
+  - Market share percentage
+  - Total payment volume
+  - Customer breakdown by size
+organizational_stability:
+  facts_found:
+  - fact: Malte Rau CEO (Fintech veteran), Fabian Terner CPO, founded 2020
+    source: getpliant.com
+    date: '2025-10-17'
+    confidence: explicit_statement
+  - fact: Alex Korotkikh CTO (Zalando, Kreditech), Paul Harrald CFO Sept 2025 (ex-Curve
+      CFO)
+    source: theorg.com, ffnews
+    date: '2025-10-16'
+    confidence: explicit_statement
+  - fact: Berlin HQ hybrid/remote model, flexible hours, CEST +/-2h timezone for engineering
+    source: Job postings
+    date: '2024-01-01'
+    confidence: explicit_statement
+  - fact: Glassdoor 3.9/5 (29 reviews), CEO 65% approval, 69% recommend, 78% positive
+      outlook
+    source: Glassdoor
+    date: '2024-01-01'
+    confidence: explicit_statement
+  - fact: 'Positive reviews: autonomy, learning, supportive management; Negative:
+      some toxic culture mentions, long hours'
+    source: Glassdoor
+    date: 2024-2025
+    confidence: explicit_statement
+  missing_information:
+  - Board composition
+  - Executive turnover 2023-2025
+technical_culture:
+  facts_found:
+  - fact: Java/Spring Boot backend, PostgreSQL, REST APIs, microservices, AWS, Docker,
+      Terraform
+    source: Job postings
+    date: '2024-01-01'
+    confidence: explicit_statement
+  - fact: React/Material-UI frontend, Storybook, Figma, event-driven architecture
+      with SSE
+    source: Design system blog
+    date: '2024-01-01'
+    confidence: explicit_statement
+  - fact: ~30 engineers, 11 teams, GitHub code reviews, integration/E2E tests
+    source: LinkedIn, job postings
+    date: '2024-01-01'
+    confidence: explicit_statement
+  - fact: No public GitHub org, only 1 technical blog post, minimal tech community
+      presence
+    source: GitHub, blog
+    date: '2025-10-17'
+    confidence: explicit_statement
+  - fact: 'Interview: 6 stages, 1-7 weeks, 3.3/5 difficulty, 29% positive experience
+      rate'
+    source: Glassdoor
+    date: '2025-07-01'
+    confidence: explicit_statement
+  missing_information:
+  - Open source contributions
+  - Conference talks
+  - CI/CD pipeline details
+  - Monitoring tools
+summary:
+  total_facts_found: 21
+  information_completeness: high
+  most_recent_data_point: '2025-10-17'
+  oldest_data_point: '2020-01-01'
