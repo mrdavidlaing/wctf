@@ -831,8 +831,8 @@ wheels = [
 ]
 
 [[package]]
-name = "wctf-mcp"
-version = "0.1.0"
+name = "wctf-core"
+version = "0.2.0"
 source = { editable = "." }
 dependencies = [
     { name = "mcp" },
