@@ -4,7 +4,10 @@
       "Bash(uv run pytest:*)",
       "Bash(find:*)",
       "Bash(uv run:*)",
-      "Read(//mnt/c/Users/DavidLaing/AppData/Roaming/Claude/logs/**)"
+      "Read(//mnt/c/Users/DavidLaing/AppData/Roaming/Claude/logs/**)",
+      "Bash(git mv:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)"
     ],
     "deny": [],
     "ask": []
