@@ -132,7 +132,7 @@ See `README.md` for Claude Desktop configuration.
 High-level WCTFClient class with methods for:
 - Company discovery: `list_companies()`, `company_exists()`
 - Facts operations: `get_facts()`, `save_facts()`
-- Flags operations: `get_flags()`, `extract_flags()`, `add_flag()`
+- Flags operations: `get_flags()`, `get_flags_extraction_prompt()`, `save_flags()`, `add_flag()`
 - Research workflow: `get_research_prompt()`
 - Insider interviews: `get_insider_extraction_prompt()`, `save_insider_facts()`
 - Decision support: `gut_check()`, `save_decision()`, `get_evaluation_summary()`
@@ -190,7 +190,7 @@ MCP server that wraps `wctf_core` operations. Provides async MCP tools for:
 - Retrieving company facts (`get_company_facts_tool`)
 - Retrieving company flags (`get_company_flags_tool`)
 - Research workflow (`get_research_prompt_tool`, `save_research_results_tool`)
-- Flag extraction (`extract_flags_tool`, `add_manual_flag_tool`)
+- Flag extraction (`get_flags_extraction_prompt_tool`, `save_flags_tool`, `add_manual_flag_tool`)
 - Insider interviews (`get_insider_extraction_prompt_tool`, `save_insider_facts_tool`)
 - Conversation guidance (`get_conversation_questions_tool`)
 - Decision support (`gut_check_tool`, `save_gut_decision_tool`, `get_evaluation_summary_tool`)

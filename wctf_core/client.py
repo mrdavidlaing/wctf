@@ -17,7 +17,8 @@ from wctf_core.operations.research import (
     save_research_results as save_research_results_op,
 )
 from wctf_core.operations.flags import (
-    extract_flags as extract_flags_op,
+    get_flags_extraction_prompt_op,
+    save_flags_op,
     add_manual_flag as add_manual_flag_op,
 )
 from wctf_core.operations.insider import (
@@ -211,30 +212,62 @@ class WCTFClient:
         """
         return get_company_flags(company_name=company_name, base_path=self.data_dir)
 
-    def extract_flags(
+    def get_flags_extraction_prompt(
         self,
         company_name: str,
-        conversation_notes: str,
-        extracted_flags_yaml: Optional[str] = None
+        evaluator_context: str
     ) -> Dict[str, Any]:
-        """Extract evaluation flags from conversation notes.
-
-        Works in two modes:
-        1. If extracted_flags_yaml is None: Returns a prompt for analysis
-        2. If extracted_flags_yaml is provided: Saves the extracted flags
+        """Get prompt for extracting evaluation flags from research.
 
         Args:
             company_name: Name of the company being evaluated
-            conversation_notes: Raw conversation notes to analyze
-            extracted_flags_yaml: Optional YAML content with extracted flags
+            evaluator_context: Your evaluation criteria and context
+                (e.g., "Senior engineer seeking strong technical culture...")
 
         Returns:
-            Dictionary with success status and either prompt or save confirmation
+            Dictionary with success status and extraction_prompt
+
+        Example:
+            >>> client = WCTFClient()  # doctest: +SKIP
+            >>> context = "Senior engineer seeking work-life balance"  # doctest: +SKIP
+            >>> result = client.get_flags_extraction_prompt("Stripe", context)  # doctest: +SKIP
+            >>> print(result['extraction_prompt'])  # doctest: +SKIP
         """
-        return extract_flags_op(
+        return get_flags_extraction_prompt_op(
             company_name=company_name,
-            conversation_notes=conversation_notes,
-            extracted_flags_yaml=extracted_flags_yaml,
+            evaluator_context=evaluator_context,
+            base_path=self.data_dir
+        )
+
+    def save_flags(
+        self,
+        company_name: str,
+        flags_yaml: str
+    ) -> Dict[str, Any]:
+        """Save extracted evaluation flags.
+
+        Takes YAML content with extracted flags and saves to company.flags.yaml.
+        Merges with existing flags if file already exists.
+
+        Args:
+            company_name: Name of the company
+            flags_yaml: Complete YAML content with extracted flags
+
+        Returns:
+            Dictionary with success status and message
+
+        Example:
+            >>> client = WCTFClient()  # doctest: +SKIP
+            >>> flags_yaml = '''  # doctest: +SKIP
+            ... company: "Stripe"
+            ... evaluation_date: "2025-01-15"
+            ... green_flags: {...}
+            ... '''
+            >>> result = client.save_flags("Stripe", flags_yaml)  # doctest: +SKIP
+        """
+        return save_flags_op(
+            company_name=company_name,
+            flags_yaml=flags_yaml,
             base_path=self.data_dir
         )
 

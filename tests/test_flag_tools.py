@@ -1,8 +1,7 @@
 """Tests for flag extraction and manual flag tools.
 
-These tests verify the extract_flags and add_manual_flag tools work correctly,
-following the pattern of returning prompts for LLM analysis rather than making
-LLM calls directly.
+These tests verify the get_flags_extraction_prompt_op, save_flags_op, and
+add_manual_flag tools work correctly.
 """
 
 from datetime import date
@@ -11,23 +10,25 @@ from pathlib import Path
 import pytest
 import yaml
 
-from wctf_core.operations.flags import add_manual_flag, extract_flags
+from wctf_core.operations.flags import (
+    add_manual_flag,
+    get_flags_extraction_prompt_op,
+    save_flags_op,
+)
 
 
-# Sample conversation notes for testing
-SAMPLE_CONVERSATION = """
-Discussed with engineering manager about the company:
-- They're profitable with $50M ARR
-- Using Rust extensively in backend services
-- Fully remote company since 2020
-- Recent layoffs in Q4 2024 (10% of staff)
-- Manager mentioned they deploy 10x per day
-- Concerned about meeting load - 20+ hours/week in meetings
-- Great learning opportunities in distributed systems
+# Sample evaluator context for testing
+SAMPLE_EVALUATOR_CONTEXT = """
+Senior engineer seeking:
+- Financial stability and growth trajectory
+- Modern technical stack
+- Strong remote culture
+- Sustainable work-life balance
+- Learning opportunities in distributed systems
 """
 
-# Sample LLM response for extract_flags (what Claude would return)
-SAMPLE_EXTRACTION_YAML = """
+# Sample flags YAML (what would be extracted after analysis)
+SAMPLE_FLAGS_YAML = """
 green_flags:
   mountain_range:
     critical_matches:
@@ -46,11 +47,19 @@ green_flags:
         impact: "Mature CI/CD indicates low deployment friction"
         confidence: "High - specific metric provided"
 
+  rope_team_confidence:
+    critical_matches: []
+    strong_positives: []
+
   daily_climb:
     critical_matches:
       - flag: "Fully remote company since 2020"
         impact: "Established remote culture, not pandemic experiment"
         confidence: "High - directly stated"
+    strong_positives: []
+
+  story_worth_telling:
+    critical_matches: []
     strong_positives: []
 
 red_flags:
@@ -61,12 +70,24 @@ red_flags:
         impact: "Financial instability or management misjudgment on hiring"
         confidence: "High - directly stated"
 
+  chosen_peak:
+    dealbreakers: []
+    concerning: []
+
+  rope_team_confidence:
+    dealbreakers: []
+    concerning: []
+
   daily_climb:
     dealbreakers: []
     concerning:
       - flag: "20+ hours/week in meetings"
         impact: "Severe maker time constraint, limits deep work"
         confidence: "High - manager explicitly mentioned"
+
+  story_worth_telling:
+    dealbreakers: []
+    concerning: []
 
 missing_critical_data:
   - question: "What's the actual compensation range for senior engineers?"
@@ -81,88 +102,94 @@ missing_critical_data:
 """
 
 
-class TestExtractFlags:
-    """Tests for extract_flags tool."""
+class TestGetFlagsExtractionPrompt:
+    """Tests for get_flags_extraction_prompt_op."""
 
-    def test_extract_flags_returns_prompt(self, tmp_path):
-        """Test that extract_flags returns a prompt, not an LLM response."""
-        result = extract_flags(
+    def test_returns_prompt(self, tmp_path):
+        """Test that get_flags_extraction_prompt_op returns a prompt."""
+        result = get_flags_extraction_prompt_op(
             company_name="TestCorp",
-            conversation_notes=SAMPLE_CONVERSATION,
+            evaluator_context=SAMPLE_EVALUATOR_CONTEXT,
             base_path=tmp_path,
         )
 
         assert result["success"] is True
-        assert "company_name" in result
         assert result["company_name"] == "TestCorp"
         assert "extraction_prompt" in result
-        assert "instructions" in result
 
         # Verify prompt contains key elements
         prompt = result["extraction_prompt"]
         assert "TestCorp" in prompt
-        assert SAMPLE_CONVERSATION in prompt
+        assert SAMPLE_EVALUATOR_CONTEXT in prompt
         assert "mountain_range" in prompt.lower()
         assert "chosen_peak" in prompt.lower()
         assert "rope_team_confidence" in prompt.lower()
         assert "daily_climb" in prompt.lower()
         assert "story_worth_telling" in prompt.lower()
 
-    def test_extract_flags_validates_company_name(self, tmp_path):
-        """Test that extract_flags validates company name."""
+    def test_validates_company_name(self, tmp_path):
+        """Test company name validation."""
         # None should raise TypeError
         with pytest.raises(TypeError):
-            extract_flags(company_name=None, conversation_notes="test", base_path=tmp_path)
+            get_flags_extraction_prompt_op(
+                company_name=None,
+                evaluator_context="test",
+                base_path=tmp_path
+            )
 
         # Empty string should return error
-        result = extract_flags(company_name="", conversation_notes="test", base_path=tmp_path)
+        result = get_flags_extraction_prompt_op(
+            company_name="",
+            evaluator_context="test",
+            base_path=tmp_path
+        )
         assert result["success"] is False
         assert "error" in result
 
         # Whitespace only should return error
-        result = extract_flags(company_name="   ", conversation_notes="test", base_path=tmp_path)
+        result = get_flags_extraction_prompt_op(
+            company_name="   ",
+            evaluator_context="test",
+            base_path=tmp_path
+        )
         assert result["success"] is False
         assert "error" in result
 
-    def test_extract_flags_validates_conversation_notes(self, tmp_path):
-        """Test that extract_flags validates conversation notes."""
-        # Empty notes
-        result = extract_flags(
+    def test_validates_evaluator_context(self, tmp_path):
+        """Test evaluator context validation."""
+        # Empty context
+        result = get_flags_extraction_prompt_op(
             company_name="TestCorp",
-            conversation_notes="",
+            evaluator_context="",
             base_path=tmp_path,
         )
         assert result["success"] is False
         assert "error" in result
 
-        # None notes
-        result = extract_flags(
+        # None context
+        result = get_flags_extraction_prompt_op(
             company_name="TestCorp",
-            conversation_notes=None,
+            evaluator_context=None,
             base_path=tmp_path,
         )
         assert result["success"] is False
         assert "error" in result
 
-    def test_extract_flags_accepts_structured_results(self, tmp_path):
-        """Test that extract_flags can process LLM-provided flag extractions."""
-        # First, create a facts file so we have a company to work with
-        company_dir = tmp_path / "data" / "TestCorp"
-        company_dir.mkdir(parents=True)
-        facts_file = company_dir / "company.facts.yaml"
-        facts_file.write_text("company: TestCorp\nresearch_date: 2025-10-02\n")
 
-        # Now save the extracted flags
-        result = extract_flags(
+class TestSaveFlags:
+    """Tests for save_flags_op."""
+
+    def test_saves_flags(self, tmp_path):
+        """Test that save_flags_op saves flags to file."""
+        result = save_flags_op(
             company_name="TestCorp",
-            conversation_notes=SAMPLE_CONVERSATION,
-            extracted_flags_yaml=SAMPLE_EXTRACTION_YAML,
+            flags_yaml=SAMPLE_FLAGS_YAML,
             base_path=tmp_path,
         )
 
         assert result["success"] is True
         assert "flags_file_path" in result
-        assert result["flags_saved"] is True
+        assert result["company_name"] == "TestCorp"
 
         # Verify the file was created
         flags_path = tmp_path / "data" / "TestCorp" / "company.flags.yaml"
@@ -182,8 +209,8 @@ class TestExtractFlags:
         assert "chosen_peak" in flags_data["green_flags"]
         assert "daily_climb" in flags_data["green_flags"]
 
-    def test_extract_flags_appends_to_existing_flags(self, tmp_path):
-        """Test that extract_flags appends to existing flags."""
+    def test_merges_with_existing_flags(self, tmp_path):
+        """Test that save_flags_op merges with existing flags."""
         # Create existing flags file
         company_dir = tmp_path / "data" / "TestCorp"
         company_dir.mkdir(parents=True)
@@ -202,9 +229,19 @@ class TestExtractFlags:
                         }
                     ],
                     "strong_positives": []
-                }
+                },
+                "chosen_peak": {"critical_matches": [], "strong_positives": []},
+                "rope_team_confidence": {"critical_matches": [], "strong_positives": []},
+                "daily_climb": {"critical_matches": [], "strong_positives": []},
+                "story_worth_telling": {"critical_matches": [], "strong_positives": []}
             },
-            "red_flags": {},
+            "red_flags": {
+                "mountain_range": {"dealbreakers": [], "concerning": []},
+                "chosen_peak": {"dealbreakers": [], "concerning": []},
+                "rope_team_confidence": {"dealbreakers": [], "concerning": []},
+                "daily_climb": {"dealbreakers": [], "concerning": []},
+                "story_worth_telling": {"dealbreakers": [], "concerning": []}
+            },
             "missing_critical_data": []
         }
 
@@ -212,11 +249,10 @@ class TestExtractFlags:
         with open(flags_file, "w") as f:
             yaml.safe_dump(existing_flags, f)
 
-        # Extract new flags
-        result = extract_flags(
+        # Save new flags
+        result = save_flags_op(
             company_name="TestCorp",
-            conversation_notes=SAMPLE_CONVERSATION,
-            extracted_flags_yaml=SAMPLE_EXTRACTION_YAML,
+            flags_yaml=SAMPLE_FLAGS_YAML,
             base_path=tmp_path,
         )
 
@@ -233,25 +269,21 @@ class TestExtractFlags:
         assert "Existing flag" in flag_texts
         assert "Profitable with $50M ARR" in flag_texts
 
-    def test_extract_flags_validates_mountain_elements(self, tmp_path):
-        """Test that extract_flags validates mountain element classification."""
-        # Create company directory
-        company_dir = tmp_path / "data" / "TestCorp"
-        company_dir.mkdir(parents=True)
-
-        # Invalid mountain element
+    def test_validates_mountain_elements(self, tmp_path):
+        """Test that save_flags_op validates mountain elements."""
         invalid_yaml = """
 green_flags:
   invalid_element:
-    - flag: "Test flag"
-      impact: "Test impact"
-      confidence: "High"
+    critical_matches:
+      - flag: "Test flag"
+        impact: "Test impact"
+        confidence: "High"
+    strong_positives: []
 """
 
-        result = extract_flags(
+        result = save_flags_op(
             company_name="TestCorp",
-            conversation_notes=SAMPLE_CONVERSATION,
-            extracted_flags_yaml=invalid_yaml,
+            flags_yaml=invalid_yaml,
             base_path=tmp_path,
         )
 
@@ -259,27 +291,42 @@ green_flags:
         assert "error" in result
         assert "invalid_element" in result["error"].lower() or "mountain element" in result["error"].lower()
 
-    def test_extract_flags_validates_flag_structure(self, tmp_path):
-        """Test that extract_flags validates flag structure."""
-        # Create company directory
-        company_dir = tmp_path / "data" / "TestCorp"
-        company_dir.mkdir(parents=True)
-
+    def test_validates_flag_structure(self, tmp_path):
+        """Test that save_flags_op validates flag structure."""
         # Missing required fields
         invalid_yaml = """
 green_flags:
   mountain_range:
-    - flag: "Test flag"
-      # missing impact and confidence
+    critical_matches:
+      - flag: "Test flag"
+        # missing impact and confidence
 """
 
-        result = extract_flags(
+        result = save_flags_op(
             company_name="TestCorp",
-            conversation_notes=SAMPLE_CONVERSATION,
-            extracted_flags_yaml=invalid_yaml,
+            flags_yaml=invalid_yaml,
             base_path=tmp_path,
         )
 
+        assert result["success"] is False
+        assert "error" in result
+
+    def test_validates_company_name(self, tmp_path):
+        """Test company name validation."""
+        # None should raise TypeError
+        with pytest.raises(TypeError):
+            save_flags_op(
+                company_name=None,
+                flags_yaml=SAMPLE_FLAGS_YAML,
+                base_path=tmp_path
+            )
+
+        # Empty string should return error
+        result = save_flags_op(
+            company_name="",
+            flags_yaml=SAMPLE_FLAGS_YAML,
+            base_path=tmp_path
+        )
         assert result["success"] is False
         assert "error" in result
 

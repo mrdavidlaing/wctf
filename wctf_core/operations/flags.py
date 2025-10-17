@@ -222,39 +222,84 @@ def _merge_flags(existing: Dict, new: Dict) -> Dict:
     return merged
 
 
-def extract_flags(
+def get_flags_extraction_prompt_op(
     company_name: str,
-    conversation_notes: str,
-    extracted_flags_yaml: Optional[str] = None,
+    evaluator_context: str,
     base_path: Optional[Path] = None,
 ) -> Dict[str, any]:
-    """Extract evaluation flags from conversation notes.
-
-    This tool works in two modes:
-
-    1. **Prompt Generation Mode** (when extracted_flags_yaml is None):
-       Returns a prompt for the calling agent to analyze the conversation notes.
-
-    2. **Result Processing Mode** (when extracted_flags_yaml is provided):
-       Processes the LLM's extracted flags and saves them to the flags file.
+    """Get the prompt for extracting evaluation flags from research.
 
     Args:
         company_name: Name of the company being evaluated
-        conversation_notes: Raw conversation notes to analyze
-        extracted_flags_yaml: Optional YAML content with extracted flags (from LLM)
+        evaluator_context: Your evaluation criteria and context (e.g., "Senior engineer seeking...")
         base_path: Optional base path for data directory (for testing)
 
     Returns:
-        In Prompt Generation Mode:
         - success: bool
         - company_name: str
-        - extraction_prompt: str - Prompt for LLM to analyze notes
-        - instructions: str - Instructions for the calling agent
+        - extraction_prompt: str - Prompt for analyzing research facts
 
-        In Result Processing Mode:
+        On error:
+        - success: False
+        - error: str
+    """
+    # Validate company name
+    if company_name is None:
+        raise TypeError("Company name cannot be None")
+
+    if not isinstance(company_name, str) or not company_name.strip():
+        return {
+            "success": False,
+            "error": "Invalid company name. Company name must be a non-empty string.",
+        }
+
+    company_name = company_name.strip()
+
+    # Validate evaluator context
+    if not evaluator_context or not isinstance(evaluator_context, str):
+        return {
+            "success": False,
+            "error": "Invalid evaluator context. Must be a non-empty string.",
+        }
+
+    try:
+        prompt_template = _load_extraction_prompt()
+        evaluation_date = date.today().isoformat()
+
+        prompt = prompt_template.format(
+            company_name=company_name,
+            conversation_notes=evaluator_context,
+            evaluation_date=evaluation_date,
+        )
+
+        return {
+            "success": True,
+            "company_name": company_name,
+            "extraction_prompt": prompt,
+        }
+
+    except Exception as e:
+        return {
+            "success": False,
+            "error": f"Failed to generate extraction prompt: {str(e)}",
+        }
+
+
+def save_flags_op(
+    company_name: str,
+    flags_yaml: str,
+    base_path: Optional[Path] = None,
+) -> Dict[str, any]:
+    """Save extracted evaluation flags to company.flags.yaml.
+
+    Args:
+        company_name: Name of the company being evaluated
+        flags_yaml: Complete YAML content with extracted flags
+        base_path: Optional base path for data directory (for testing)
+
+    Returns:
         - success: bool
         - company_name: str
-        - flags_saved: bool
         - flags_file_path: str
         - message: str
 
@@ -274,49 +319,17 @@ def extract_flags(
 
     company_name = company_name.strip()
 
-    # Validate conversation notes
-    if not conversation_notes or not isinstance(conversation_notes, str):
+    # Validate flags_yaml
+    if not flags_yaml or not isinstance(flags_yaml, str):
         return {
             "success": False,
-            "error": "Invalid conversation notes. Must be a non-empty string.",
+            "error": "Invalid flags YAML. Must be a non-empty string.",
         }
 
-    # MODE 1: Generate prompt for LLM
-    if extracted_flags_yaml is None:
-        try:
-            prompt_template = _load_extraction_prompt()
-            evaluation_date = date.today().isoformat()
-
-            prompt = prompt_template.format(
-                company_name=company_name,
-                conversation_notes=conversation_notes,
-                evaluation_date=evaluation_date,
-            )
-
-            instructions = (
-                f"Please analyze these conversation notes using the prompt above. "
-                f"When complete, provide the YAML output and I will save it to "
-                f"data/{company_name}/company.flags.yaml"
-            )
-
-            return {
-                "success": True,
-                "company_name": company_name,
-                "extraction_prompt": prompt,
-                "instructions": instructions,
-            }
-
-        except Exception as e:
-            return {
-                "success": False,
-                "error": f"Failed to generate extraction prompt: {str(e)}",
-            }
-
-    # MODE 2: Process LLM-provided flags
     try:
         # Parse YAML content
         try:
-            extracted_flags = yaml.safe_load(extracted_flags_yaml)
+            extracted_flags = yaml.safe_load(flags_yaml)
         except yaml.YAMLError as e:
             return {
                 "success": False,
@@ -358,15 +371,14 @@ def extract_flags(
         return {
             "success": True,
             "company_name": company_name,
-            "flags_saved": True,
             "flags_file_path": str(flags_path),
-            "message": f"Successfully extracted and saved flags for {company_name}",
+            "message": f"Successfully saved flags for {company_name}",
         }
 
     except Exception as e:
         return {
             "success": False,
-            "error": f"Failed to process extracted flags: {str(e)}",
+            "error": f"Failed to save flags: {str(e)}",
             "company_name": company_name,
         }
 

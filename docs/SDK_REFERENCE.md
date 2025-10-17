@@ -1,6 +1,6 @@
 # WCTF Core SDK Reference
 
-Auto-generated from wctf_core v0.2.0 on 2025-10-17
+Auto-generated from wctf_core v0.2.0 on 2025-10-18
 
 ## Overview
 
@@ -246,21 +246,50 @@ Dictionary with:
 ```
 
 
-**`extract_flags(company_name: <class 'str'>, conversation_notes: <class 'str'>, extracted_flags_yaml: Optional[str] = None) -> Dict[str, Any]`**
+**`get_flags_extraction_prompt(company_name: <class 'str'>, evaluator_context: <class 'str'>) -> Dict[str, Any]`**
 
-Extract evaluation flags from conversation notes.
-
-Works in two modes:
-1. If extracted_flags_yaml is None: Returns a prompt for analysis
-2. If extracted_flags_yaml is provided: Saves the extracted flags
+Get prompt for extracting evaluation flags from research.
 
 **Parameters:**
 - company_name: Name of the company being evaluated
-- conversation_notes: Raw conversation notes to analyze
-- extracted_flags_yaml: Optional YAML content with extracted flags
+- evaluator_context: Your evaluation criteria and context (e.g., "Senior engineer seeking strong technical culture...")
 
 **Returns:**
-Dictionary with success status and either prompt or save confirmation
+Dictionary with success status and extraction_prompt
+
+**Example:**
+```python
+>>> client = WCTFClient()  # doctest: +SKIP
+>>> context = "Senior engineer seeking work-life balance"  # doctest: +SKIP
+>>> result = client.get_flags_extraction_prompt("Stripe", context)  # doctest: +SKIP
+>>> print(result['extraction_prompt'])  # doctest: +SKIP
+```
+
+
+**`save_flags(company_name: <class 'str'>, flags_yaml: <class 'str'>) -> Dict[str, Any]`**
+
+Save extracted evaluation flags.
+
+Takes YAML content with extracted flags and saves to company.flags.yaml.
+Merges with existing flags if file already exists.
+
+**Parameters:**
+- company_name: Name of the company
+- flags_yaml: Complete YAML content with extracted flags
+
+**Returns:**
+Dictionary with success status and message
+
+**Example:**
+```python
+>>> client = WCTFClient()  # doctest: +SKIP
+>>> flags_yaml = '''  # doctest: +SKIP
+... company: "Stripe"
+... evaluation_date: "2025-01-15"
+... green_flags: {...}
+... '''
+>>> result = client.save_flags("Stripe", flags_yaml)  # doctest: +SKIP
+```
 
 
 **`add_flag(company_name: <class 'str'>, flag_type: <class 'str'>, mountain_element: <class 'str'>, kwargs) -> Dict[str, Any]`**

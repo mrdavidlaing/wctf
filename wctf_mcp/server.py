@@ -18,7 +18,8 @@ from wctf_core.operations.research import (
     save_research_results,
 )
 from wctf_core.operations.flags import (
-    extract_flags,
+    get_flags_extraction_prompt_op,
+    save_flags_op,
     add_manual_flag,
 )
 from wctf_core.operations.insider import (
@@ -235,48 +236,67 @@ async def save_research_results_tool(company_name: str, yaml_content: str, ctx: 
 
 
 @mcp.tool()
-async def extract_flags_tool(
+async def get_flags_extraction_prompt_tool(
     company_name: str,
-    conversation_notes: str,
-    extracted_flags_yaml: str = None,
+    evaluator_context: str,
     ctx: Context = None
 ) -> dict:
-    """Extract evaluation flags from conversation notes.
+    """Get prompt for extracting evaluation flags from research.
 
-    This tool works in two modes:
-    1. If extracted_flags_yaml is None: Returns a prompt for analyzing conversation notes
-    2. If extracted_flags_yaml is provided: Processes and saves the extracted flags
-
-    After getting the extraction prompt, use your analysis capabilities to extract flags,
-    then call this tool again with the YAML results.
+    Returns a detailed prompt to guide analysis of company research facts
+    and extraction of green flags, red flags, and missing critical data.
 
     Args:
         company_name: Name of the company being evaluated
-        conversation_notes: Raw conversation notes to analyze
-        extracted_flags_yaml: Optional YAML content with extracted flags (from LLM analysis)
+        evaluator_context: Your evaluation criteria and context
+            (e.g., "Senior engineer seeking strong technical culture and work-life balance")
     """
-    if extracted_flags_yaml is None:
-        await ctx.info(f"Generating flag extraction prompt for {company_name}")
-        logger.info(f"extract_flags_tool called (prompt mode) for: {company_name}")
-    else:
-        await ctx.info(f"Processing extracted flags for {company_name}")
-        logger.info(f"extract_flags_tool called (save mode) for: {company_name}")
+    await ctx.info(f"Generating flag extraction prompt for {company_name}")
+    logger.info(f"get_flags_extraction_prompt_tool called for: {company_name}")
 
-    result = extract_flags(
+    result = get_flags_extraction_prompt_op(
         company_name=company_name,
-        conversation_notes=conversation_notes,
-        extracted_flags_yaml=extracted_flags_yaml
+        evaluator_context=evaluator_context
     )
 
     if result.get("success"):
-        if extracted_flags_yaml:
-            logger.info(f"Successfully saved flags for {company_name}")
-            await ctx.info(f"Flags saved for {company_name}")
-        else:
-            logger.info(f"Extraction prompt generated for {company_name}")
-            await ctx.info(f"Prompt ready - analyze notes and call again with YAML results")
+        logger.info(f"Extraction prompt generated for {company_name}")
+        await ctx.info(f"Prompt ready - analyze research and extract flags")
     else:
-        logger.warning(f"Error in extract_flags for {company_name}: {result.get('error')}")
+        logger.warning(f"Error generating extraction prompt for {company_name}: {result.get('error')}")
+        await ctx.warning(f"Error: {result.get('error')}")
+
+    return result
+
+
+@mcp.tool()
+async def save_flags_tool(
+    company_name: str,
+    flags_yaml: str,
+    ctx: Context = None
+) -> dict:
+    """Save extracted evaluation flags to company.flags.yaml.
+
+    Takes YAML content with extracted flags (green flags, red flags, missing data)
+    and saves to the company's flags file. Merges with existing flags if present.
+
+    Args:
+        company_name: Name of the company
+        flags_yaml: Complete YAML content with extracted flags
+    """
+    await ctx.info(f"Saving evaluation flags for {company_name}")
+    logger.info(f"save_flags_tool called for: {company_name}")
+
+    result = save_flags_op(
+        company_name=company_name,
+        flags_yaml=flags_yaml
+    )
+
+    if result.get("success"):
+        logger.info(f"Successfully saved flags for {company_name}")
+        await ctx.info(f"Flags saved for {company_name}")
+    else:
+        logger.warning(f"Error saving flags for {company_name}: {result.get('error')}")
         await ctx.warning(f"Error: {result.get('error')}")
 
     return result
