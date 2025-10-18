@@ -137,21 +137,24 @@ red_flags:
   rope_team_confidence:
     dealbreakers: []
     concerning:
-    - flag: New CEO Carl Eschenbach (Feb 2024) with only 55% Glassdoor approval
-      impact: Poor leadership confidence suggests strategic uncertainty or cultural
-        misalignment
+    - flag: CEO Carl Eschenbach (Feb 2024) has only 55% Glassdoor approval rating
+      impact: Low leadership confidence suggests employees uncertain about strategic
+        direction or cultural fit
       confidence: High - Glassdoor
-    - flag: CEO change coinciding with immediate layoffs creates trust and morale
-        issues
-      impact: New leader started with cuts, employees may be wary of future direction
-      confidence: High - Timing of events
+    - flag: Feb 2025 layoffs (1 year into CEO tenure) for AI transformation may indicate
+        strategic uncertainty
+      impact: 8.5% workforce reduction after growth year raises questions about strategy
+        clarity and execution
+      confidence: Medium - Timeline suggests strategic pivot rather than crisis, but
+        employee perception unclear
     - flag: Glassdoor 3.7-3.8/5 is below tech leaders (4.2-4.5)
       impact: Employee satisfaction suggests room for improvement in culture or management
       confidence: High - Glassdoor comparison
     - flag: Aneel Bhusri (co-founder) stepped back from co-CEO to Chairman
       impact: Founder transition may indicate strategic shifts or declining influence
       confidence: Medium - Role change
-    - flag: 142 Dublin layoffs despite new HQ investment damages trust and morale
+    - flag: 142 Dublin layoffs despite new HQ investment and growth damages trust
+        and morale
       impact: Surviving employees likely uncertain about stability and company priorities
       confidence: High - Cultural impact
   daily_climb:
@@ -190,11 +193,13 @@ missing_critical_data:
   why_important: Understanding engineering velocity and process maturity
   how_to_find: Ask about CI/CD practices, release frequency, deployment processes
   mountain_element: chosen_peak
-- question: What caused Feb 2025 layoffs if company is profitable and growing? Are
-    more planned?
-  why_important: Assessing job security and whether AI transformation cuts are complete
-  how_to_find: Research CEO statements, ask leadership about headcount plans
-  mountain_element: mountain_range
+- question: How do employees view the Feb 2025 AI transformation layoffs? Was it
+    strategic repositioning or mismanagement? Are more cuts planned?
+  why_important: Understanding employee perspective on strategic direction and assessing
+    job security
+  how_to_find: Ask insiders about layoff rationale, morale impact, and whether CEO's
+    vision is compelling
+  mountain_element: rope_team_confidence
 - question: What is staff engineer compensation for Dublin including base, RSUs, bonus,
     refresh schedule?
   why_important: Understanding total comp competitiveness
