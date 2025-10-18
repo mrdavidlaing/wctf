@@ -1,0 +1,254 @@
+company: anthropic
+evaluation_date: '2025-10-18'
+evaluator_context: Extracted from conversation notes
+green_flags:
+  mountain_range:
+    critical_matches: &id001
+    - flag: 'Hyper-growth revenue: $1B ARR (Jan 2025) → $5B ARR (Sep 2025) → projected
+        $9B EOY, 5-9x annual growth'
+      impact: Explosive growth demonstrates product-market fit and creates abundant
+        opportunities
+      confidence: High - Anthropic statements
+    - flag: Massive funding $23.15B total with strategic investors Amazon ($8B), Google
+        ($2B), Lightspeed, Menlo - 4+ years runway
+      impact: Near-zero financial risk, resources to invest in best-in-class infrastructure
+        and compensation
+      confidence: High - CNBC and official announcements
+    - flag: Enterprise market share grew to 32% (from 12% in 2023), surpassing OpenAI
+        (25% down from 50%), dominant in coding (42% vs OpenAI 21%)
+      impact: Winning in the market and taking share from main competitor, especially
+        in developer tools
+      confidence: High - Menlo Ventures Report July 2025
+    - flag: 80% enterprise retention rate with 7x increase in $100K+ accounts YoY,
+        300K+ business customers
+      impact: Sticky product with strong value proposition, sustainable business model
+        emerging
+      confidence: High - Anthropic statements and G2 data
+    - flag: Building at the frontier of AI with Constitutional AI, extended context
+        (500K tokens), computer use, and safety research
+      impact: Working on genuinely novel technology that will define the field, not
+        incremental features
+      confidence: High - Research publications and product features
+    - flag: Research-first culture with major publications on reasoning, alignment
+        faking, monosemanticity, constitutional classifiers
+      impact: Opportunity to work alongside world-class AI researchers and contribute
+        to cutting-edge work
+      confidence: High - Anthropic research page
+    - flag: Modern Python-first stack with TypeScript, Go, Rust, CUDA on GCP/AWS infrastructure
+      impact: Working with industry-standard modern tools at massive scale
+      confidence: High - Engineering blog
+    - flag: Founders Dario & Daniela Amodei from OpenAI with deep AI alignment expertise,
+        stable since founding (2021)
+      impact: Proven leadership in AI safety and research with long-term commitment
+      confidence: High - Company website
+    - flag: Mike Krieger (Instagram co-founder/CTO) as CPO, attracting top product
+        talent
+      impact: World-class product leadership signals serious commitment to product
+        excellence
+      confidence: High - Company announcement May 2024
+    - flag: 'Exceptional employee sentiment: Glassdoor 4.5/5 (91% recommendation),
+        Blind 4.8/5 (5.0/5 compensation)'
+      impact: Employees love working there despite intense pace, strong culture validation
+      confidence: High - Glassdoor and Blind
+    - flag: Remote-first policy with only 25% in-office expectation for local employees,
+        1 week/month SF for remote
+      impact: Genuinely remote-friendly with reasonable collaboration expectations
+      confidence: High - Careers page
+    - flag: Blind compensation rating 5.0/5 suggests exceptional pay for role and
+        experience
+      impact: Top-tier compensation package competitive with OpenAI/major tech
+      confidence: High - Blind reviews
+    - flag: Ground floor opportunity at the leading AI safety company during transformative
+        technology shift
+      impact: Once-in-career opportunity to shape foundational technology at scale
+      confidence: High - Market position and timing
+    - flag: 'Massive equity upside potential: $183B post-money valuation with path
+        to profitability 2027'
+      impact: Significant financial upside if company continues trajectory
+      confidence: High - Series F valuation
+    - flag: Working on Claude - direct competitor to ChatGPT and winning market share
+      impact: Resume-defining work on product used by millions of developers and enterprises
+      confidence: High - Market data
+    strong_positives: &id002
+    - flag: Path to profitability expected 2027 with 40-60% gross margins, decreasing
+        burn from $5.6B (2024) to $3B (2025)
+      impact: Moving toward sustainability, not perpetual burn mode
+      confidence: Medium - TechCrunch and The Information
+    - flag: 'Massive TAM: $391B-$638B (2025) → $1.8T-$3.7T (2030) with 19-30% CAGR'
+      impact: Enormous long-term growth opportunity in foundational technology shift
+      confidence: High - Precedence Research
+    - flag: No layoffs in 18 months with 331% YoY growth (240 → 1,035 employees)
+      impact: Healthy growth without boom/bust cycles
+      confidence: High - TechCrunch layoff tracker
+    - flag: 'Active open source presence: 49 GitHub repos, claude-code-action (2,329
+        stars), claude-code-sdk-python (757 stars)'
+      impact: Some commitment to open source despite proprietary model core
+      confidence: High - GitHub
+    - flag: Engineering blog with substantive posts on multi-agent systems, MCP servers,
+        agentic coding
+      impact: Culture of technical communication and thought leadership
+      confidence: High - Anthropic blog
+    - flag: 'High-profile conference presence: Code with Claude 2025 (first dev conference),
+        NeurIPS, AWS re:Invent, White House AI meetings'
+      impact: Industry leadership and networking opportunities
+      confidence: High - Company announcements
+    - flag: Default AI for Cursor and GitHub Copilot - developer tools market validation
+      impact: Product quality recognized by developers who build AI tooling
+      confidence: High - Product partnerships
+    - flag: 'Attracting top AI talent from OpenAI: Jan Leike, John Schulman, Durk
+        Kingma transfers'
+      impact: Winning talent war against main competitor, signals superior culture/mission
+      confidence: High - Company announcements
+    - flag: 80% employee retention rate despite hyper-growth
+      impact: People stay even with abundant opportunities elsewhere
+      confidence: High - Company data
+    - flag: 'Recent executive expansion: CCO Paul Smith, MD International Chris Ciauri
+        shows scaling leadership'
+      impact: Building out mature leadership team for next growth phase
+      confidence: High - Company announcements
+    - flag: Dublin EU HQ opened March 2024 providing European base option
+      impact: Geographic flexibility for EU-based staff engineers
+      confidence: High - Company website
+    - flag: London office at 107 Cheapside for UK option
+      impact: Multiple EU location options beyond US
+      confidence: High - Company website
+    - flag: Constitutional AI and safety focus provides meaningful mission beyond
+        pure commercialization
+      impact: Technical work aligned with responsible AI development values
+      confidence: High - Research methodology
+    - flag: Building Claude Code and developer tools - direct impact on software engineering
+        profession
+      impact: Improving tools used by entire profession, meta-level impact
+      confidence: High - Product portfolio
+    - flag: Access to frontier research and cutting-edge AI capabilities
+      impact: Learning opportunities at the bleeding edge of technology
+      confidence: High - Research publications
+  chosen_peak:
+    critical_matches: *id001
+    strong_positives: *id002
+  rope_team_confidence:
+    critical_matches: *id001
+    strong_positives: *id002
+  daily_climb:
+    critical_matches: *id001
+    strong_positives: *id002
+  story_worth_telling:
+    critical_matches: *id001
+    strong_positives: *id002
+red_flags:
+  mountain_range:
+    dealbreakers: &id003 []
+    concerning: &id004
+    - flag: Not yet profitable with $3B projected 2025 burn, dependent on continued
+        funding despite massive raise
+      impact: Still 2+ years from profitability, requires sustained execution to reach
+        sustainable business
+      confidence: Medium - TechCrunch projections
+    - flag: Early-stage company (founded 2021) means execution risk and potential
+        for pivots
+      impact: Less stable than mature companies, though massive funding mitigates
+        risk
+      confidence: High - Company age
+    - flag: Intense competition from OpenAI, Google, Meta with much larger resources
+      impact: Competitive pressure could affect market position or require defensive
+        moves
+      confidence: High - Market dynamics
+    - flag: Hyper-growth (331% YoY) creates organizational chaos and process immaturity
+      impact: Likely experiencing growing pains, unclear processes, constantly changing
+        teams
+      confidence: High - Employee growth data
+    - flag: Limited detail on development practices, code review, CI/CD suggests immature
+        engineering processes
+      impact: May lack mature practices expected at staff level, firefighting over
+        systematic development
+      confidence: Medium - Absence from research data
+    - flag: Primary focus on proprietary AI models limits open source contribution
+        depth compared to evaluator values
+      impact: Core product is closed-source, conflicts with stated open source values
+      confidence: High - Business model
+    - flag: No identified CTO or VP Engineering in leadership team
+      impact: Engineering leadership structure unclear, may indicate product/research
+        focus over engineering discipline
+      confidence: Medium - Missing from org chart
+    - flag: Rapid scaling from 240 to 1,035 employees strains culture and management
+        capability
+      impact: Risk of losing intimate culture, management quality may vary widely
+      confidence: High - Growth trajectory
+    - flag: Hyper-growth startup pace likely means intense work environment despite
+        good ratings
+      impact: Workload and pressure may be higher than sustainable long-term
+      confidence: Medium - Implied from growth stage
+    - flag: 1 week/month SF requirement for remote employees adds travel burden
+      impact: Monthly cross-country/international travel may impact work-life balance
+      confidence: High - Careers page policy
+    - flag: Limited information on work-life balance specifics, meeting culture, on-call
+        expectations
+      impact: Unknown whether staff engineers can maintain sustainable pace
+      confidence: Low - Absence of data
+    - flag: Career progression unclear in 4-year-old company with limited staff+ population
+      impact: Path from staff to principal/distinguished may not be well-defined yet
+      confidence: Medium - Company maturity
+    - flag: 'High risk/high reward: could be defining career move or could fail to
+        reach profitability'
+      impact: Career risk if company trajectory changes or competition intensifies
+      confidence: Medium - Stage and competition
+  chosen_peak:
+    dealbreakers: *id003
+    concerning: *id004
+  rope_team_confidence:
+    dealbreakers: *id003
+    concerning: *id004
+  daily_climb:
+    dealbreakers: *id003
+    concerning: *id004
+  story_worth_telling:
+    dealbreakers: *id003
+    concerning: *id004
+missing_critical_data:
+- question: What is the staff engineer compensation package including base, equity,
+    and strike price for EU/Dublin role?
+  why_important: Critical for evaluating total comp and equity upside potential
+  how_to_find: Discuss with recruiter during initial screening, research Levels.fyi
+    Anthropic data
+  mountain_element: daily_climb
+- question: 'What are the actual engineering practices: code review process, CI/CD
+    pipeline, testing standards, deployment frequency?'
+  why_important: Staff engineer needs mature engineering discipline, unclear if exists
+    at 4-year-old hyper-growth company
+  how_to_find: Ask engineering manager about development workflow, ask to see example
+    PR reviews
+  mountain_element: chosen_peak
+- question: What is the typical workload and pace? Meeting culture? On-call expectations
+    for staff engineers?
+  why_important: Understanding if sustainable 25-year career pace vs burnout risk
+  how_to_find: Ask about typical week schedule, on-call rotation, talk to current
+    staff engineers
+  mountain_element: daily_climb
+- question: What does the engineering organization structure look like? Who is CTO/VP
+    Eng? How many staff+ engineers exist?
+  why_important: Understanding engineering leadership and peer community for staff-level
+    work
+  how_to_find: Ask recruiter/hiring manager about eng org chart and staff+ population
+  mountain_element: rope_team_confidence
+- question: What is the career progression for staff engineers? Path to principal/distinguished/fellow?
+  why_important: With 25 years experience, need clear growth path beyond staff
+  how_to_find: Ask about engineering levels, promotion criteria, staff+ career paths
+  mountain_element: story_worth_telling
+- question: What would staff engineer role actually work on? Infrastructure? Model
+    serving? Product features? Research engineering?
+  why_important: Understanding specific technical challenges and domain expertise
+    needed
+  how_to_find: Ask hiring manager about team and project focus
+  mountain_element: chosen_peak
+- question: What is the actual impact of the 1 week/month SF requirement? How does
+    it work for EU-based employees?
+  why_important: Understanding travel burden and feasibility for remote-first arrangement
+  how_to_find: Ask about logistics of monthly travel, costs covered, typical schedule
+  mountain_element: daily_climb
+- question: What is the team's approach to technical debt vs new features? How much
+    time on maintenance vs innovation?
+  why_important: At hyper-growth pace, risk of accumulating tech debt and constant
+    firefighting
+  how_to_find: Ask engineering manager about tech debt policy, innovation time allocation
+  mountain_element: chosen_peak
+company_slug: anthropic
