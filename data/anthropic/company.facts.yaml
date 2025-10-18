@@ -1,196 +1,190 @@
-company: "Anthropic"
-research_date: "2025-09-27"
-
+company: Anthropic
+company_slug: anthropic
+research_date: '2025-09-27'
 financial_health:
   facts_found:
-    - fact: "Raised $13 billion Series F funding led by ICONIQ Capital, Fidelity, and Lightspeed Venture Partners with $183 billion post-money valuation"
-      source: "Anthropic official announcement"
-      date: "2025-09-02"
-      confidence: "explicit_statement"
-
-    - fact: "Raised $3.5 billion Series E funding led by Lightspeed Venture Partners with $61.5 billion post-money valuation"
-      source: "Official Anthropic announcement"
-      date: "2025-03-03"
-      confidence: "explicit_statement"
-
-    - fact: "Total funding raised $23.15 billion with major strategic investors Amazon ($8B), Google ($2B), Lightspeed ($1B+), Menlo Ventures ($750M)"
-      source: "CNBC"
-      date: "2025-09-02"
-      confidence: "explicit_statement"
-
-    - fact: "Annual recurring revenue grew from $1 billion (Jan 2025) to over $5 billion (Sep 2025) with projected $9 billion EOY"
-      source: "Anthropic statements"
-      date: "2025-09-01"
-      confidence: "explicit_statement"
-
-    - fact: "Revenue breakdown: 70-75% API/enterprise, 10-15% consumer subscriptions, $500M ARR from Claude Code specifically"
-      source: "Sacra analysis"
-      date: "2025-08-01"
-      confidence: "implied"
-
-    - fact: "2024 cash burn $5.6 billion, 2025 expected burn $3 billion with path to profitability expected 2027"
-      source: "TechCrunch"
-      date: "2025-08-01"
-      confidence: "implied"
-
-    - fact: "Current runway 4+ years with recent $13B raise, not currently profitable with 40-60% estimated gross margins"
-      source: "The Information"
-      date: "2025-09-02"
-      confidence: "implied"
-
-    - fact: "No layoffs in past 18 months with workforce growth from 240 (2023) to 1,035 (2024)"
-      source: "TechCrunch layoff tracker"
-      date: "2025-09-01"
-      confidence: "explicit_statement"
-
-    - fact: "300,000+ business customers as of Sep 2025 with 7x increase in $100K+ accounts year-over-year"
-      source: "Anthropic statements"
-      date: "2025-09-01"
-      confidence: "explicit_statement"
-
+  - fact: Raised $13 billion Series F funding led by ICONIQ Capital, Fidelity, and
+      Lightspeed Venture Partners with $183 billion post-money valuation
+    source: Anthropic official announcement
+    date: '2025-09-02'
+    confidence: explicit_statement
+  - fact: Raised $3.5 billion Series E funding led by Lightspeed Venture Partners
+      with $61.5 billion post-money valuation
+    source: Official Anthropic announcement
+    date: '2025-03-03'
+    confidence: explicit_statement
+  - fact: Total funding raised $23.15 billion with major strategic investors Amazon
+      ($8B), Google ($2B), Lightspeed ($1B+), Menlo Ventures ($750M)
+    source: CNBC
+    date: '2025-09-02'
+    confidence: explicit_statement
+  - fact: Annual recurring revenue grew from $1 billion (Jan 2025) to over $5 billion
+      (Sep 2025) with projected $9 billion EOY
+    source: Anthropic statements
+    date: '2025-09-01'
+    confidence: explicit_statement
+  - fact: 'Revenue breakdown: 70-75% API/enterprise, 10-15% consumer subscriptions,
+      $500M ARR from Claude Code specifically'
+    source: Sacra analysis
+    date: '2025-08-01'
+    confidence: implied
+  - fact: 2024 cash burn $5.6 billion, 2025 expected burn $3 billion with path to
+      profitability expected 2027
+    source: TechCrunch
+    date: '2025-08-01'
+    confidence: implied
+  - fact: Current runway 4+ years with recent $13B raise, not currently profitable
+      with 40-60% estimated gross margins
+    source: The Information
+    date: '2025-09-02'
+    confidence: implied
+  - fact: No layoffs in past 18 months with workforce growth from 240 (2023) to 1,035
+      (2024)
+    source: TechCrunch layoff tracker
+    date: '2025-09-01'
+    confidence: explicit_statement
+  - fact: 300,000+ business customers as of Sep 2025 with 7x increase in $100K+ accounts
+      year-over-year
+    source: Anthropic statements
+    date: '2025-09-01'
+    confidence: explicit_statement
   missing_information:
-    - "Detailed quarterly financial statements"
-    - "Specific customer concentration beyond Cursor/GitHub partnerships"
-    - "Exact cash position and burn rate projections"
-    - "Detailed cost structure breakdown"
-
+  - Detailed quarterly financial statements
+  - Specific customer concentration beyond Cursor/GitHub partnerships
+  - Exact cash position and burn rate projections
+  - Detailed cost structure breakdown
 market_position:
   facts_found:
-    - fact: "Enterprise market share grew to 32% (up from 12% in 2023) vs OpenAI 25% (down from 50%)"
-      source: "Menlo Ventures Report"
-      date: "2025-07-01"
-      confidence: "explicit_statement"
-
-    - fact: "Coding market share 42% enterprise vs OpenAI 21% enterprise"
-      source: "Menlo Ventures Report"
-      date: "2025-07-01"
-      confidence: "explicit_statement"
-
-    - fact: "Claude models pricing: Opus 4.1 ($15/MTok input, $75/MTok output), Sonnet 4 ($3/MTok input, $15/MTok output)"
-      source: "Anthropic pricing page"
-      date: "2025-08-01"
-      confidence: "explicit_statement"
-
-    - fact: "Subscription tiers: Free ($0), Pro ($20), Max ($100+), Team ($30/seat), Enterprise (custom, ~$50K minimum)"
-      source: "Anthropic pricing page"
-      date: "2025-09-01"
-      confidence: "explicit_statement"
-
-    - fact: "Key features include 500K token context window, hybrid reasoning, native GitHub integration, computer use capability"
-      source: "Anthropic product pages"
-      date: "2025-08-01"
-      confidence: "explicit_statement"
-
-    - fact: "Total addressable market $391B-$638B (2025) projected to $1.8T-$3.7T (2030) with 19-30% CAGR"
-      source: "Precedence Research"
-      date: "2025-01-01"
-      confidence: "explicit_statement"
-
-    - fact: "Customer reviews: G2 4.7/5 (22 reviews), Capterra 4.5/5 (22 reviews), 80% enterprise retention rate"
-      source: "G2 and Capterra"
-      date: "2025-09-01"
-      confidence: "explicit_statement"
-
-    - fact: "Key differentiators: Constitutional AI, extended context, safety focus, default for Cursor and GitHub Copilot"
-      source: "Company website"
-      date: "2025-09-01"
-      confidence: "explicit_statement"
-
+  - fact: Enterprise market share grew to 32% (up from 12% in 2023) vs OpenAI 25%
+      (down from 50%)
+    source: Menlo Ventures Report
+    date: '2025-07-01'
+    confidence: explicit_statement
+  - fact: Coding market share 42% enterprise vs OpenAI 21% enterprise
+    source: Menlo Ventures Report
+    date: '2025-07-01'
+    confidence: explicit_statement
+  - fact: 'Claude models pricing: Opus 4.1 ($15/MTok input, $75/MTok output), Sonnet
+      4 ($3/MTok input, $15/MTok output)'
+    source: Anthropic pricing page
+    date: '2025-08-01'
+    confidence: explicit_statement
+  - fact: 'Subscription tiers: Free ($0), Pro ($20), Max ($100+), Team ($30/seat),
+      Enterprise (custom, ~$50K minimum)'
+    source: Anthropic pricing page
+    date: '2025-09-01'
+    confidence: explicit_statement
+  - fact: Key features include 500K token context window, hybrid reasoning, native
+      GitHub integration, computer use capability
+    source: Anthropic product pages
+    date: '2025-08-01'
+    confidence: explicit_statement
+  - fact: Total addressable market $391B-$638B (2025) projected to $1.8T-$3.7T (2030)
+      with 19-30% CAGR
+    source: Precedence Research
+    date: '2025-01-01'
+    confidence: explicit_statement
+  - fact: 'Customer reviews: G2 4.7/5 (22 reviews), Capterra 4.5/5 (22 reviews), 80%
+      enterprise retention rate'
+    source: G2 and Capterra
+    date: '2025-09-01'
+    confidence: explicit_statement
+  - fact: 'Key differentiators: Constitutional AI, extended context, safety focus,
+      default for Cursor and GitHub Copilot'
+    source: Company website
+    date: '2025-09-01'
+    confidence: explicit_statement
   missing_information:
-    - "Detailed competitive win/loss analysis"
-    - "Market share in specific verticals"
-    - "Customer acquisition cost and lifetime value metrics"
-    - "International market penetration data"
-
+  - Detailed competitive win/loss analysis
+  - Market share in specific verticals
+  - Customer acquisition cost and lifetime value metrics
+  - International market penetration data
 organizational_stability:
   facts_found:
-    - fact: "CEO Dario Amodei (PhD Physics Princeton, ex-OpenAI VP Research) in role since founding Jan 2021"
-      source: "Company website"
-      date: "2021-01-01"
-      confidence: "explicit_statement"
-
-    - fact: "President Daniela Amodei (ex-OpenAI, Stripe) in role since founding Jan 2021"
-      source: "Company website"
-      date: "2021-01-01"
-      confidence: "explicit_statement"
-
-    - fact: "Chief Product Officer Mike Krieger (Instagram co-founder/CTO) joined May 2024"
-      source: "Company announcement"
-      date: "2024-05-01"
-      confidence: "explicit_statement"
-
-    - fact: "Recent executive hires include Paul Smith (CCO), Chris Ciauri (MD International), and OpenAI transfers Jan Leike, John Schulman, Durk Kingma"
-      source: "Company announcements"
-      date: "2024-08-01"
-      confidence: "explicit_statement"
-
-    - fact: "Current headcount 1,000-1,100 employees with 331% YoY growth (2023-2024) from 240 to 1,035+ employees"
-      source: "Multiple employment trackers"
-      date: "2024-12-31"
-      confidence: "implied"
-
-    - fact: "San Francisco HQ at 500 Howard Street (230,000 sq ft), London office at 107 Cheapside, Dublin EU HQ opened March 2024"
-      source: "Company website"
-      date: "2024-03-01"
-      confidence: "explicit_statement"
-
-    - fact: "Remote-first policy with 25% in-office expectation for local employees, 1 week/month in SF for remote employees"
-      source: "Company careers page"
-      date: "2025-09-01"
-      confidence: "explicit_statement"
-
-    - fact: "Employee sentiment: Glassdoor 4.5/5 (91% recommendation), Blind 4.8/5 with 5.0/5 compensation, 80% retention rate"
-      source: "Glassdoor and Blind"
-      date: "2025-09-01"
-      confidence: "explicit_statement"
-
+  - fact: CEO Dario Amodei (PhD Physics Princeton, ex-OpenAI VP Research) in role
+      since founding Jan 2021
+    source: Company website
+    date: '2021-01-01'
+    confidence: explicit_statement
+  - fact: President Daniela Amodei (ex-OpenAI, Stripe) in role since founding Jan
+      2021
+    source: Company website
+    date: '2021-01-01'
+    confidence: explicit_statement
+  - fact: Chief Product Officer Mike Krieger (Instagram co-founder/CTO) joined May
+      2024
+    source: Company announcement
+    date: '2024-05-01'
+    confidence: explicit_statement
+  - fact: Recent executive hires include Paul Smith (CCO), Chris Ciauri (MD International),
+      and OpenAI transfers Jan Leike, John Schulman, Durk Kingma
+    source: Company announcements
+    date: '2024-08-01'
+    confidence: explicit_statement
+  - fact: Current headcount 1,000-1,100 employees with 331% YoY growth (2023-2024)
+      from 240 to 1,035+ employees
+    source: Multiple employment trackers
+    date: '2024-12-31'
+    confidence: implied
+  - fact: San Francisco HQ at 500 Howard Street (230,000 sq ft), London office at
+      107 Cheapside, Dublin EU HQ opened March 2024
+    source: Company website
+    date: '2024-03-01'
+    confidence: explicit_statement
+  - fact: Remote-first policy with 25% in-office expectation for local employees,
+      1 week/month in SF for remote employees
+    source: Company careers page
+    date: '2025-09-01'
+    confidence: explicit_statement
+  - fact: 'Employee sentiment: Glassdoor 4.5/5 (91% recommendation), Blind 4.8/5 with
+      5.0/5 compensation, 80% retention rate'
+    source: Glassdoor and Blind
+    date: '2025-09-01'
+    confidence: explicit_statement
   missing_information:
-    - "Chief Technology Officer or VP Engineering identification"
-    - "Detailed engineering vs non-engineering headcount"
-    - "Executive compensation structure"
-    - "Board composition and investor representation"
-
+  - Chief Technology Officer or VP Engineering identification
+  - Detailed engineering vs non-engineering headcount
+  - Executive compensation structure
+  - Board composition and investor representation
 technical_culture:
   facts_found:
-    - fact: "Tech stack: Python (primary), TypeScript, JavaScript, Go, Ruby, Rust, CUDA with GCP, AWS Bedrock, Kubernetes"
-      source: "Engineering blog"
-      date: "2025-06-01"
-      confidence: "explicit_statement"
-
-    - fact: "49 public GitHub repositories with top projects: claude-code-action (2,329 stars), claude-code-sdk-python (757 stars)"
-      source: "GitHub"
-      date: "2025-08-01"
-      confidence: "explicit_statement"
-
-    - fact: "Engineering blog published 6 major posts Sep 2024 - June 2025 covering multi-agent systems, MCP servers, agentic coding"
-      source: "Anthropic blog"
-      date: "2025-06-01"
-      confidence: "explicit_statement"
-
-    - fact: "Research output includes major 2024-2025 papers on reasoning models, alignment faking, constitutional classifiers, monosemanticity"
-      source: "Anthropic research publications"
-      date: "2025-06-01"
-      confidence: "explicit_statement"
-
-    - fact: "Conference presence: Code with Claude 2025 (first developer conference), AWS re:Invent 2024, NeurIPS 2024, White House AI meetings"
-      source: "Company announcements"
-      date: "2025-06-01"
-      confidence: "explicit_statement"
-
-    - fact: "Constitutional AI methodology using RLAIF with principles from UN Declaration of Human Rights, Apple ToS, DeepMind Sparrow"
-      source: "Research papers"
-      date: "2024-12-01"
-      confidence: "explicit_statement"
-
+  - fact: 'Tech stack: Python (primary), TypeScript, JavaScript, Go, Ruby, Rust, CUDA
+      with GCP, AWS Bedrock, Kubernetes'
+    source: Engineering blog
+    date: '2025-06-01'
+    confidence: explicit_statement
+  - fact: '49 public GitHub repositories with top projects: claude-code-action (2,329
+      stars), claude-code-sdk-python (757 stars)'
+    source: GitHub
+    date: '2025-08-01'
+    confidence: explicit_statement
+  - fact: Engineering blog published 6 major posts Sep 2024 - June 2025 covering multi-agent
+      systems, MCP servers, agentic coding
+    source: Anthropic blog
+    date: '2025-06-01'
+    confidence: explicit_statement
+  - fact: Research output includes major 2024-2025 papers on reasoning models, alignment
+      faking, constitutional classifiers, monosemanticity
+    source: Anthropic research publications
+    date: '2025-06-01'
+    confidence: explicit_statement
+  - fact: 'Conference presence: Code with Claude 2025 (first developer conference),
+      AWS re:Invent 2024, NeurIPS 2024, White House AI meetings'
+    source: Company announcements
+    date: '2025-06-01'
+    confidence: explicit_statement
+  - fact: Constitutional AI methodology using RLAIF with principles from UN Declaration
+      of Human Rights, Apple ToS, DeepMind Sparrow
+    source: Research papers
+    date: '2024-12-01'
+    confidence: explicit_statement
   missing_information:
-    - "Detailed development methodology and practices"
-    - "Internal tooling and infrastructure specifics"
-    - "Code review and deployment processes"
-    - "Engineering team structure and specializations"
-
+  - Detailed development methodology and practices
+  - Internal tooling and infrastructure specifics
+  - Code review and deployment processes
+  - Engineering team structure and specializations
 summary:
   total_facts_found: 32
-  information_completeness: "high"
-  most_recent_data_point: "2025-09-27"
-  oldest_data_point: "2021-01-01"
-
+  information_completeness: high
+  most_recent_data_point: '2025-09-27'
+  oldest_data_point: '2021-01-01'

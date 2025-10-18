@@ -1,0 +1,258 @@
+company: Doist
+company_slug: doist
+evaluation_date: '2025-10-14'
+evaluator_context: Extracted from conversation notes
+green_flags:
+  mountain_range:
+    critical_matches: &id001
+    - flag: 100% bootstrapped with $26.5M ARR, 32.5% YoY growth, profitable since
+        day one. No exit strategy - explicit commitment to staying independent
+      impact: Zero VC pressure means sustainable decisions over growth-at-all-costs.
+        Unlimited runway eliminates quarterly pivot madness. This is the financial
+        stability you're seeking after 25 years
+      confidence: High - Crunchbase, Getlatka, official company statements
+    - flag: 18-year track record with $100M+ cumulative revenue, 300K paying customers
+        including Fortune 100 companies. No layoffs ever
+      impact: Proven business model that survived multiple economic cycles. Team protected
+        from resource thrashing. Financial foundation is rock-solid
+      confidence: High - Multiple sources including CEO interviews, Getlatka
+    - flag: $200K revenue per employee with 97% retention rate. In 6.5 year period,
+        only 3 people left (2 to start own businesses)
+      impact: Efficient operation without churn chaos. People stay because it works.
+        This is the 'sustainable excellence' profile you're after
+      confidence: High - Doist.com, LinkedIn, company interviews
+    - flag: 'DORA ''high performing'' status: 18-26 deploys/day, 55-101h lead time,
+        2.88-5.53% change failure rate. Daily Android releases, weekly iOS releases'
+      impact: Same-day deployment capability with quality gates. This is mature engineering
+        that actually ships, not 'move fast and break things' cowboy culture
+      confidence: High - Published on doist.dev with metrics
+    - flag: GPT-4 Filter Assist feature shipped (96% accuracy), AI models run on own
+        infrastructure, MCP protocol support. CEO explicitly invested in AI tooling
+      impact: AI/LLM tools not just allowed but actively built into product. Company
+        investing in competitive advantage through AI - exactly what you're looking
+        for
+      confidence: High - doist.dev blog posts, GitHub repos
+    - flag: 1 day/week 'Housekeeping' for tech debt, feature flags for instant rollback,
+        dedicated time for engineering health
+      impact: Technical debt explicitly prioritized and protected. No 'we'll fix it
+        later' culture. Sustainable pace baked into process
+      confidence: High - Job postings, engineering blog
+    - flag: CEO 18 years, CTO 13 years, CMO 13 years - core leadership ultra-stable.
+        No executive musical chairs
+      impact: Zero reorganization roulette. Leadership that's seen it all and isn't
+        chasing the next shiny thing. You're done with that chaos
+      confidence: High - Doist.com, LinkedIn, multiple interviews
+    - flag: No reorganizations or restructuring in 18-year history. Same team, same
+        mission, iterative improvement
+      impact: Team formations don't dissolve every 6 months. Strategy stable enough
+        to execute. This is the antidote to 'we're in transition'
+      confidence: High - Extensive search found zero reorg events
+    - flag: Extremely transparent about decisions and financial health. Glassdoor
+        reviews explicitly mention this as key pro
+      impact: Information transparency for realignment ability. You see the full terrain
+        map, not filtered executive summaries
+      confidence: High - Multiple Glassdoor reviews
+    - flag: Average 1 meeting/day per employee. Engineering teams ~2 hours/week meetings
+        (Monday 30-min syncs + monthly 1-on-1s)
+      impact: Well under your 30% meeting load threshold. Protected maker time is
+        the reality, not the aspiration. This is the 'meeting-light culture with protected
+        maker time' you demand
+      confidence: High - LinkedIn posts, YouTeam interview, Brenna Loury interview
+    - flag: Fully remote since 2010 (before it was cool), async-first, no mandatory
+        hours. 96 employees across 32 nationalities, 28 countries
+      impact: Remote-first culture proven over 15 years, not pandemic experiment.
+        Async-first means timezone flexibility. Substantial global distribution
+      confidence: High - Doist.com, CEO interviews, company about page
+    - flag: Work-life balance 4.6/5, completely flexible schedule, work from anywhere,
+        no micromanagement
+      impact: Sustainable pace verified by employee reviews. Not burnout culture disguised
+        as 'passion'. You've earned this
+      confidence: High - Glassdoor 32 reviews
+    strong_positives: &id002
+    - flag: "Actively hiring in 2025 with controlled growth (40\u219250\u219260\u2192\
+        93\u2192103 employees over 10 years)"
+      impact: Growing but not the breakneck hiring that leads to layoffs. Sustainable
+        expansion pattern
+      confidence: High - Job sites, company profiles, historical data
+    - flag: 151+ public GitHub repos, active open source (Reactist, bitmapist, todoist-ai),
+        engineering blog 'by engineers, for engineers'
+      impact: Public technical investment and community engagement. Engineers valued
+        as technical thought leaders, not just code factories
+      confidence: High - GitHub.com/doist, doist.dev
+    - flag: Python/Go backend, React/Redux frontend, Swift/Kotlin mobile on AWS. Modern
+        stack with pragmatic choices
+      impact: Tech stack aligns with your Python/TypeScript preferences. No legacy
+        mainframe archaeology
+      confidence: High - Multiple job postings, CEO Quora session
+    - flag: Uses Datadog for monitoring/DORA metrics, Sentry/Crashlytics for errors,
+        GitHub Actions CI/CD
+      impact: Modern observability and deployment practices. Not flying blind
+      confidence: High - Engineering blog posts
+    - flag: 'Values: Ambition, Impact, Mastery, Independence, Communication. 2% revenue
+        donated to international orgs'
+      impact: Value alignment with craftsmanship and impact over hustle culture. Mission-driven
+        without being preachy
+      confidence: High - Doist.com/about
+    - flag: Formula-based compensation standardized by region/role, no negotiation.
+        Salary range shared in first interview
+      impact: Transparent, fair compensation without favoritism or negotiation games.
+        Everyone knows where they stand
+      confidence: High - Job postings, Toggl blog, multiple sources
+    - flag: Glassdoor 4.7/5 (32 reviews), 95% would recommend, culture 4.7/5, compensation
+        4.7/5. 85% positive business outlook
+      impact: High satisfaction across multiple dimensions. People genuinely like
+        working there
+      confidence: High - Glassdoor verified reviews
+    - flag: Annual all-hands retreats (Thailand 2025, Ireland 2024, Italy 2023). Team
+        building investment without mandatory office days
+      impact: Deliberate in-person connection without sacrificing remote flexibility.
+        Best of both worlds
+      confidence: High - Doist.com/team page with photos
+    - flag: Not a bro-culture. Donates 2% revenue to international orgs. Diverse team
+        (32 nationalities)
+      impact: Mature, inclusive culture. No ping-pong table performative nonsense
+      confidence: High - Multiple Glassdoor reviews, company values
+    - flag: Engineering blog with technical depth, MCP protocol implementation, evaluating
+        Kotlin Multiplatform, GPT-4 integration work
+      impact: Interesting technical challenges beyond CRUD apps. Work you'd be proud
+        to discuss at conferences
+      confidence: High - doist.dev blog content
+    - flag: Product solves real problems for 40M+ users including Fortune 100 companies.
+        2+ billion tasks completed
+      impact: Passes the Mom Test - you can explain what they do and why it matters.
+        Meaningful impact at scale
+      confidence: High - Multiple user statistics, company data
+    - flag: '18-year-old profitable company building sustainable productivity tools.
+        Explicit mission: ''promoting more fulfilling way to work and live'''
+      impact: Legacy and values-driven work. Building tools that help people, not
+        surveillance capitalism
+      confidence: High - Company mission, track record
+  chosen_peak:
+    critical_matches: *id001
+    strong_positives: *id002
+  rope_team_confidence:
+    critical_matches: *id001
+    strong_positives: *id002
+  daily_climb:
+    critical_matches: *id001
+    strong_positives: *id002
+  story_worth_telling:
+    critical_matches: *id001
+    strong_positives: *id002
+red_flags:
+  mountain_range:
+    dealbreakers: &id003 []
+    concerning: &id004
+    - flag: CEO acknowledged 70% churn rate but noted 'I don't really care that much'
+        because high volume compensates
+      impact: High customer churn could indicate product-market fit issues or unsustainable
+        growth model. Worth understanding retention strategy better
+      confidence: High - CEO quote from Getlatka interview (2020)
+    - flag: Custom in-house Python framework 'resembling Flask' built by founder.
+        Not standard Django/Flask
+      impact: Custom framework could mean technical debt, hard to hire for, or brilliant
+        tailored solution. Need to understand maintenance burden and learning curve
+      confidence: High - Backend Engineer job posting
+    - flag: No explicit SOC2 or ISO 27001 certification mentioned despite enterprise
+        customers
+      impact: May limit enterprise sales or indicate security maturity gaps. Worth
+        verifying compliance posture
+      confidence: Medium - Not found in research, but may exist
+    - flag: 'Small team (96 people, 39 engineers). Primary con in reviews: ''Don''t
+        get to see teammates as often as would like'''
+      impact: Limited peer group for senior engineers. May lack scale of interesting
+        coordination challenges. Trade-off between intimacy and breadth
+      confidence: High - Company data, Glassdoor reviews
+    - flag: Remote-only with limited in-person interaction (1 annual retreat). 96
+        employees across 28 countries
+      impact: High async dependency for collaboration. Significant timezone spread
+        could limit realtime coordination. Worth understanding team distribution
+      confidence: High - Company profile, team page
+    - flag: No specific mention of Dublin/London/US East Coast engineering presence.
+        Global distribution unclear
+      impact: Timezone coordination concerns if team is primarily Pacific-heavy. Need
+        to understand where engineering actually is
+      confidence: Medium - Not specified in research
+    - flag: Career opportunities rated 4.1/5 (lowest of all Glassdoor metrics). Small
+        team may limit advancement paths
+      impact: Limited promotion opportunities due to small size. May need to create
+        your own growth vs climbing ladder
+      confidence: High - Glassdoor employee reviews
+    - flag: Small team (39 engineers) may limit scope of complex coordination challenges
+        at staff level
+      impact: Less opportunity for large-scale system design or multi-team orchestration
+        typical of staff engineer work. Trade-off between impact per engineer vs organizational
+        complexity
+      confidence: Medium - Inferred from team size
+  chosen_peak:
+    dealbreakers: *id003
+    concerning: *id004
+  rope_team_confidence:
+    dealbreakers: *id003
+    concerning: *id004
+  daily_climb:
+    dealbreakers: *id003
+    concerning: *id004
+  story_worth_telling:
+    dealbreakers: *id003
+    concerning: *id004
+missing_critical_data:
+- question: What is the geographic distribution of the engineering team? Where are
+    the 39 engineers located (timezones)?
+  why_important: Critical for evaluating timezone coordination fit. You prefer Europe/US
+    East Coast presence and need realtime collaboration ability to exceed terrain
+    change rate
+  how_to_find: Ask recruiter or hiring manager for team timezone heatmap. Request
+    to speak with engineers in different timezones
+  mountain_element: daily_climb
+- question: What does the custom Python framework look like? Why not use standard
+    Flask/Django?
+  why_important: Need to understand if this is brilliant tailored tooling or technical
+    debt trap. Impacts learning curve and maintenance burden
+  how_to_find: "Ask CTO Gon\xE7alo Silva or backend engineers in interview. Request\
+    \ code samples or architectural overview"
+  mountain_element: chosen_peak
+- question: What does staff engineer scope look like with only 39 engineers? What's
+    the career ladder?
+  why_important: At 25 years experience, need to understand if there's meaningful
+    technical leadership work or if you'd be 'just another engineer' due to small
+    team size
+  how_to_find: Ask about staff engineer career path, current staff engineers and their
+    projects. Request engineering levels doc
+  mountain_element: story_worth_telling
+- question: How does the team realign when priorities shift? What's the actual coordination
+    style - alpine, expedition, established route?
+  why_important: Need to understand if coordination style matches terrain demands
+    and if realignment ability exceeds change rate. Critical for v3.1 framework
+  how_to_find: Ask about last 2-3 direction changes, how they were communicated, how
+    long realignment took. Ask engineers about decision-making process
+  mountain_element: rope_team_confidence
+- question: What does 'housekeeping day' look like in practice? Is it protected time
+    or first thing cut when deadlines loom?
+  why_important: Verify that technical debt prioritization is real vs aspirational.
+    Tests organizational maturity around sustainable pace
+  how_to_find: 'Ask engineers: ''Tell me about your last housekeeping day - what did
+    you work on?'' Ask if anyone has skipped it due to pressure'
+  mountain_element: chosen_peak
+- question: What's the engineering manager span of control? How many reports does
+    a manager typically have?
+  why_important: "You want managers with \u22646 reports who have bandwidth for 1-on-1s\
+    \ and career development. Small team might mean healthier ratios or 'everyone\
+    \ reports to CTO'"
+  how_to_find: Ask about org structure, manager ratios, who you'd report to and their
+    current team size
+  mountain_element: rope_team_confidence
+- question: What's the actual compensation range for senior/staff engineers? What's
+    total comp structure?
+  why_important: Formula-based compensation is great for fairness, but need to know
+    if it's market-competitive for your experience level and region
+  how_to_find: Request salary range in first conversation. Ask about equity/profit-sharing
+    structure if any
+  mountain_element: daily_climb
+- question: What customer churn mitigation strategies are in place? How has 70% churn
+    changed since 2020?
+  why_important: High churn could mean product quality issues, pricing problems, or
+    feature gaps that engineering will be constantly firefighting. Need current data
+  how_to_find: Ask product leadership or CEO for current retention metrics, what's
+    been learned since 2020 quote
+  mountain_element: mountain_range

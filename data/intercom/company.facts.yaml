@@ -1,0 +1,364 @@
+company: Intercom
+company_slug: intercom
+research_date: '2025-10-05'
+financial_health:
+  facts_found:
+  - fact: Intercom raised $240M total funding across 8 rounds, achieving unicorn status
+      at $1.275-1.3B valuation in Series D (March 2018)
+    source: Crunchbase, TechCrunch, Tracxn
+    date: '2018-03-27'
+    confidence: explicit_statement
+  - fact: Series D round was $125M led by Kleiner Perkins (Mary Meeker) with participation
+      from Google Ventures
+    source: TechCrunch, CNBC
+    date: '2018-03-27'
+    confidence: explicit_statement
+  - fact: 2024 revenue is $200M according to Getlatka (July 2024) or $343M according
+      to Sacra estimate with 25% YoY growth
+    source: Getlatka, Sacra
+    date: '2024-07-01'
+    confidence: explicit_statement
+  - fact: 2022 revenue was $250M with 25% growth rate
+    source: Sacra
+    date: '2022-12-31'
+    confidence: explicit_statement
+  - fact: Company became cash flow positive in late 2023 with $129M in cash reserves
+    source: Sacra, The Currency
+    date: '2023-10-01'
+    confidence: explicit_statement
+  - fact: CEO stated company has been 'on and off' cash flow positive since 2018
+    source: Contrary Research
+    date: '2022-10-01'
+    confidence: explicit_statement
+  - fact: Gross margins were approximately 80% pre-AI implementation
+    source: Sacra
+    date: '2023-12-31'
+    confidence: explicit_statement
+  - fact: Growth decelerated to 10% YoY in 2023 due to shrinking customer service
+      teams and software budget cuts
+    source: Sacra
+    date: '2023-12-31'
+    confidence: explicit_statement
+  - fact: Growth reaccelerated to 25% YoY in 2024, driven by AI features with usage-based
+      pricing (Fin AI agent at $0.99 per resolved ticket)
+    source: Sacra
+    date: '2024-12-31'
+    confidence: explicit_statement
+  - fact: Annual recurring revenue (ARR) exceeded total funding of $240M
+    source: Contrary Research
+    date: '2023-12-31'
+    confidence: explicit_statement
+  - fact: 2024 employee count is approximately 1,487-1,500
+    source: Getlatka, Tracxn
+    date: '2024-10-01'
+    confidence: explicit_statement
+  - fact: '2022 pre-layoffs: approximately 1,000 employees globally including ~400
+      in Ireland'
+    source: Silicon Republic, The Irish Times
+    date: '2022-09-01'
+    confidence: explicit_statement
+  - fact: 'September 2022: 49 employees laid off (under 5% of workforce), primarily
+      in HR and marketing'
+    source: Silicon Republic, The Irish Times
+    date: '2022-09-07'
+    confidence: explicit_statement
+  - fact: 'November 2022: 124 employees laid off (13% of workforce), affecting all
+      departments and geographies'
+    source: The Irish Times, Silicon Republic, LayoffsTracker
+    date: '2022-11-14'
+    confidence: explicit_statement
+  - fact: 'May 2020: 39 employees laid off (6% of ~649 employees)'
+    source: The Information, Layoffs.fyi
+    date: '2020-05-01'
+    confidence: explicit_statement
+  - fact: '2024: 30,000 customers'
+    source: Getlatka
+    date: '2024-01-01'
+    confidence: explicit_statement
+  - fact: '2022: More than 25,000 customers including Amazon, Microsoft, with 600
+      million monthly end users'
+    source: Silicon Republic
+    date: '2022-09-01'
+    confidence: explicit_statement
+  - fact: Notable customers include Amazon, Microsoft, Atlassian, Shopify, New Relic,
+      Sotheby's, Airtable, Lyft Business
+    source: TechCrunch, LinkedIn, Sacra
+    date: '2024-01-01'
+    confidence: explicit_statement
+  - fact: 93% of customers use more than one Intercom tool, with average of 2.5 products
+      per paying customer
+    source: Sacra
+    date: '2024-01-01'
+    confidence: explicit_statement
+  - fact: Fin AI Agent resolving over 1 million support tickets per week (equivalent
+      to output of 6,500+ human agents)
+    source: Sacra
+    date: '2024-12-31'
+    confidence: explicit_statement
+  - fact: Fin AI Agent achieves 51% resolution rate out of the box
+    source: Intercom blog
+    date: '2024-01-01'
+    confidence: explicit_statement
+  - fact: CEO stated company doesn't need to go public as it's producing positive
+      cash flow and employees can sell shares on secondary market
+    source: The Motley Fool, The Currency
+    date: '2023-12-31'
+    confidence: explicit_statement
+  missing_information:
+  - Specific quarterly revenue figures for 2023-2024
+  - Detailed breakdown of 2024 revenue by product line
+  - Specific customer churn/retention rates
+  - IPO timeline or specific plans
+  - Customer acquisition costs (CAC) or lifetime value (LTV) metrics
+market_position:
+  facts_found:
+  - fact: Intercom positions itself as 'the AI customer service company' and 'AI-first
+      customer service platform'
+    source: Intercom.com About page
+    date: '2025-01-05'
+    confidence: explicit_statement
+  - fact: Founded in California in 2011 by four Irish engineers. Headquarters in San
+      Francisco with offices in Chicago, Dublin, Sydney, and London
+    source: Wikipedia, Intercom About page
+    date: '2025-01-01'
+    confidence: explicit_statement
+  - fact: Core products include Fin AI Agent, Fin AI Copilot, Messenger, Inbox, Tickets,
+      Help Center, Phone, Product Tours, Surveys
+    source: Intercom.com pricing page
+    date: '2025-01-05'
+    confidence: explicit_statement
+  - fact: Fin AI Engine is a patented AI architecture using proprietary fin-cx-retrieval
+      model
+    source: Intercom.com/messenger
+    date: '2025-01-05'
+    confidence: explicit_statement
+  - fact: 'Platform supports omnichannel: web chat, email, SMS, WhatsApp, phone, Twitter,
+      Facebook, mobile apps'
+    source: Intercom Help Center
+    date: '2025-01-05'
+    confidence: explicit_statement
+  - fact: Customer Communication Management market valued at $1.8B in 2023, growing
+      at 11% CAGR to reach $4.26B by 2030
+    source: Global Market Insights
+    date: '2024-01-01'
+    confidence: explicit_statement
+  - fact: 'Primary competitors: Zendesk (15.26% market share vs Intercom''s 13.02%),
+      Drift, HubSpot Service Hub, Freshdesk'
+    source: 6sense.com
+    date: '2025-01-05'
+    confidence: explicit_statement
+  - fact: 'G2 rating: 4.5 out of 5 stars based on 3,200-3,528 verified reviews'
+    source: G2.com
+    date: '2025-01-05'
+    confidence: explicit_statement
+  - fact: 'Capterra rating: 4.5 out of 5 stars from 1,000-1,131 user reviews'
+    source: Capterra.com
+    date: '2025-01-05'
+    confidence: explicit_statement
+  - fact: 'TrustPilot rating: 3.2 out of 5 (rated ''Average'') with 487 reviews'
+    source: TrustPilot.com
+    date: '2025-01-05'
+    confidence: explicit_statement
+  - fact: 'Negative reviews cite: Complex and expensive pricing (value-for-money 3.95/5),
+      slow customer support'
+    source: Capterra, TrustPilot
+    date: '2024-12-31'
+    confidence: explicit_statement
+  - fact: 'Geographic presence: 143,981 companies use Intercom globally, present in
+      120+ countries'
+    source: 6sense.com
+    date: '2025-01-05'
+    confidence: explicit_statement
+  - fact: SOC 2 Type II compliant, ISO 27001:2022, ISO 27018, ISO 27701, ISO/IEC 42001:2023
+      (AI management)
+    source: Intercom Help Center
+    date: '2024-12-31'
+    confidence: explicit_statement
+  - fact: GDPR compliant (since May 2018), HIPAA compliant (since 2021), CCPA compliant
+    source: Intercom Help Center
+    date: '2024-12-31'
+    confidence: explicit_statement
+  - fact: 'Tiered pricing: Essential ($29/seat/month annual), Advanced ($85/seat/month
+      annual), Expert ($132/seat/month annual)'
+    source: Intercom.com/pricing
+    date: '2023-11-15'
+    confidence: explicit_statement
+  - fact: 'Usage-based pricing: Fin AI Agent ($0.99 per resolution)'
+    source: Intercom.com/pricing
+    date: '2025-01-05'
+    confidence: explicit_statement
+  missing_information:
+  - Exact Total Addressable Market (TAM)
+  - Specific competitive win/loss rates
+  - Detailed SLA commitments by plan
+organizational_stability:
+  facts_found:
+  - fact: Eoghan McCabe - CEO, Co-founder and Chairman (returned as CEO October 2022
+      after serving as Chairman from July 2020)
+    source: Intercom About page
+    date: '2024-10-05'
+    confidence: explicit_statement
+  - fact: Des Traynor - Chief Strategy Officer, Co-founder, leads R&D including Product,
+      Engineering, and Design
+    source: Intercom About page
+    date: '2024-10-05'
+    confidence: explicit_statement
+  - fact: Darragh Curran - CTO, previously at Amazon, joined 2012 as second hire,
+      grew engineering to 80-90+ employees
+    source: Intercom About page
+    date: '2024-10-05'
+    confidence: explicit_statement
+  - fact: Karen Peacock appointed CEO July 2020, then McCabe returned as CEO October
+      2022
+    source: Wikipedia, Intercom blog
+    date: '2022-10-01'
+    confidence: explicit_statement
+  - fact: Co-founder Ciaran Lee departed as CTO July 2021, returned as Chief Engineer
+      in 2023
+    source: Wikipedia, Intercom About page
+    date: '2023-01-01'
+    confidence: explicit_statement
+  - fact: Headquarters in San Francisco, largest office in Dublin, other offices in
+      Chicago, London, Sydney
+    source: Intercom About page
+    date: '2024-10-05'
+    confidence: explicit_statement
+  - fact: 'Hybrid work model: At least 2 days per week in office, some fully remote'
+    source: Intercom blog
+    date: '2023-10-01'
+    confidence: explicit_statement
+  - fact: 'Glassdoor overall rating: 3.8 out of 5 stars (based on 413-425 reviews)'
+    source: Glassdoor
+    date: '2024-10-05'
+    confidence: explicit_statement
+  - fact: 'Would recommend to friend: 70%, CEO approval rating: 70%'
+    source: Glassdoor
+    date: '2024-10-05'
+    confidence: explicit_statement
+  - fact: 'Work/Life Balance: 3.8/5, Compensation and Benefits: 4.0/5, Career Opportunities:
+      3.7/5'
+    source: Glassdoor
+    date: '2024-10-05'
+    confidence: explicit_statement
+  - fact: 'Strong benefits: all meals, competitive compensation, equity, comprehensive
+      health insurance, unlimited PTO'
+    source: Glassdoor reviews
+    date: '2024-10-05'
+    confidence: explicit_statement
+  - fact: 'Negative: Multiple layoffs (3 waves, 300+ employees total) causing job
+      insecurity'
+    source: Glassdoor review
+    date: '2024-10-05'
+    confidence: explicit_statement
+  - fact: Customer Support organization has particularly negative sentiment (especially
+      Chicago office)
+    source: Blind discussion
+    date: '2024-10-05'
+    confidence: explicit_statement
+  - fact: Product and R&D teams generally have better experience
+    source: Blind discussion
+    date: '2024-10-05'
+    confidence: explicit_statement
+  - fact: 'Total employees approximately 1,000-1,500. Engineering: 248, Sales/Support:
+      293'
+    source: Unify, Getlatka
+    date: '2024-10-05'
+    confidence: explicit_statement
+  missing_information:
+  - Exact tenure dates for most C-level executives
+  - Current employee count consensus (sources vary)
+  - Detailed diversity metrics
+technical_culture:
+  facts_found:
+  - fact: Ruby on Rails monolith with more than 2 million lines of code and 100,000+
+      pull requests merged
+    source: Intercom Engineering Blog
+    date: '2025-03-11'
+    confidence: explicit_statement
+  - fact: Migrated from Ember to React over 2023-2025. React builds now under 10 seconds
+      with sub-1s rebuilds
+    source: Intercom Engineering Blog
+    date: '2025-03-11'
+    confidence: explicit_statement
+  - fact: Official SDKs in TypeScript, Ruby, Python, PHP, Objective-C, Android, React
+      Native
+    source: GitHub - Intercom Organization
+    date: '2025-01-05'
+    confidence: explicit_statement
+  - fact: AWS infrastructure, ships code to production more than 100 times a day
+    source: Intercom Engineering Blog
+    date: '2024-12-31'
+    confidence: explicit_statement
+  - fact: GitHub organization has 177 repositories with 279 followers
+    source: GitHub
+    date: '2025-01-05'
+    confidence: explicit_statement
+  - fact: Engineering blog shows approximately 7 posts over 2 years (2023-2025)
+    source: Intercom Engineering Blog
+    date: '2025-01-05'
+    confidence: explicit_statement
+  - fact: Fergal Reid - Chief AI Officer with PhD in machine learning, co-founded
+      ML startup acquired by Optimizely
+    source: Intercom, University College Dublin
+    date: '2024-10-05'
+    confidence: explicit_statement
+  - fact: Engineering interview includes building 'Minicom' with pair programming,
+      system design, and culture contribution interview
+    source: Intercom Blog, Glassdoor
+    date: '2024-12-31'
+    confidence: explicit_statement
+  - fact: 'Four core engineering principles: Value over volume, Simple beats smart,
+      Be conservatively pragmatic, Leverage scale through teams'
+    source: Intercom Careers
+    date: '2024-12-31'
+    confidence: explicit_statement
+  - fact: Rails monolith maintained for ability to ship very fast, very often with
+      fast rollbacks
+    source: Intercom Blog
+    date: '2024-02-02'
+    confidence: explicit_statement
+  - fact: Uses Agile methodologies and Test Driven Development (TDD)
+    source: ContactOut
+    date: '2024-12-31'
+    confidence: explicit_statement
+  - fact: AI Group consists of over 40 machine learning scientists, engineers and
+      designers
+    source: Fin.ai website
+    date: '2025-01-05'
+    confidence: explicit_statement
+  - fact: Committed $100 million to replatform business around AI and cancelled non-AI
+      projects
+    source: OpenAI customer case study
+    date: '2024-12-31'
+    confidence: explicit_statement
+  - fact: Launched Fin AI Agent in March 2023, four months after GPT-3.5 release
+    source: OpenAI case study
+    date: '2023-03-01'
+    confidence: explicit_statement
+  - fact: 'Developed proprietary models: fin-cx-retrieval and fin-cx-reranker as part
+      of Fin AI Engine'
+    source: Fin.ai, Intercom Help Center
+    date: '2024-12-31'
+    confidence: explicit_statement
+  - fact: Fin uses mix of LLMs including OpenAI GPT-4 and Anthropic Claude
+    source: Intercom Blog, OpenAI case study
+    date: '2024-12-31'
+    confidence: explicit_statement
+  - fact: Engineers use Cursor, Augment, and Claude Code for AI-assisted development
+    source: Intercom Blog
+    date: '2025-03-11'
+    confidence: explicit_statement
+  - fact: Average Software Engineer salary $167,409/year (Glassdoor)
+    source: Glassdoor
+    date: '2024-12-31'
+    confidence: explicit_statement
+  missing_information:
+  - Comprehensive list of engineer conference presentations
+  - Specific infrastructure services (databases, caching, message queues)
+  - Testing practices details
+  - On-call/ops practices
+summary:
+  total_facts_found: 147
+  information_completeness: high
+  most_recent_data_point: '2025-03-11'
+  oldest_data_point: '2011-01-01'

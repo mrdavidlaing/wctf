@@ -1,0 +1,250 @@
+company: Definely
+company_slug: definely
+evaluation_date: '2025-10-12'
+evaluator_context: Extracted from conversation notes
+green_flags:
+  mountain_range:
+    critical_matches: &id001
+    - flag: Zero layoffs from 2020-2025 despite challenging tech environment
+      impact: Organizational stability matters immensely at this career stage - no
+        reorg roulette
+      confidence: High - explicit from comprehensive news search
+    - flag: 'Capital efficient growth: $11M to 100 people, now $40M total with 3x
+        ARR growth'
+      impact: Sustainable funding model, not burn-and-churn - company can survive
+        downturn
+      confidence: High - CEO direct statement
+    - flag: Elite enterprise customers (Magic Circle, Fortune 500) with 40K active
+        users
+      impact: Customer validation through actual usage at prestigious firms, not just
+        funding rounds
+      confidence: High - explicit client list
+    - flag: "Tech stack evolved from .NET/RegEx \u2192 Python/ML/AI with multi-agent\
+        \ systems"
+      impact: Company actively modernizes and doesn't cling to legacy - willingness
+        to evolve
+      confidence: High - explicit from Artificial Lawyer interview
+    - flag: 'Cutting-edge AI work: MCP, multi-agent orchestration, RAG, Azure OpenAI,
+        AWS Bedrock'
+      impact: Working on genuinely interesting technical problems at frontier of AI
+      confidence: High - job postings and product descriptions
+    - flag: 'Modern CI/CD: TeamCity CI, Octopus Deploy with comprehensive testing'
+      impact: Engineering practices enable quality work, not cowboy coding
+      confidence: High - explicit in job postings
+    - flag: Co-founders with 8 years tenure, complete C-suite with no exec departures
+      impact: Leadership stability - won't be rebuilding relationships with new execs
+        every 18mo
+      confidence: High - comprehensive news search found no departures
+    - flag: Co-founders are domain experts (ex-Freshfields Magic Circle lawyers)
+      impact: Deep understanding of customer problems, not just tech opportunists
+      confidence: High - explicit backgrounds
+    - flag: Hybrid 2-3 days/week in London, optional more - actual flexibility
+      impact: Reasonable office expectations, not full remote but not 4-5 days either
+      confidence: High - explicit in job postings
+    - flag: 'UK benefits: 25 days holiday + bank holidays, pension, Vitality healthcare'
+      impact: Standard UK benefits package - not stripped down startup
+      confidence: High - explicit in job postings
+    - flag: Top 15 recommended legal AI vendor by major law firms (April 2025)
+      impact: Industry recognition - work has real impact in a meaningful domain
+      confidence: High - Artificial Lawyer survey
+    - flag: Building multi-agent AI systems for complex legal reasoning
+      impact: Resume-worthy technical challenges, not CRUD apps
+      confidence: High - product descriptions and architecture
+    strong_positives: &id002
+    - flag: $30M Series B in June 2025 with top-tier investors (Revaia, Microsoft
+        M12)
+      impact: 18+ month runway likely with current burn rate, funded for meaningful
+        work
+      confidence: Medium - recent raise suggests 18-24mo runway typical for Series
+        B
+    - flag: '1,217% growth over 4 years, Deloitte Fast 50 #23'
+      impact: Market validation and momentum - not fighting uphill battle
+      confidence: High - third-party award verification
+    - flag: "40% growth (60\u219284 employees) over 13 months"
+      impact: Controlled expansion, not hyper-growth chaos
+      confidence: High - press release data
+    - flag: "Dedicated Head of AI (Sigurj\xF3n \xCDsaksson) leading multi-agent development"
+      impact: AI treated as strategic, not just marketing buzzword - real investment
+      confidence: High - org chart and product details
+    - flag: Uses 'best LLM for each task' approach - pragmatic not dogmatic
+      impact: Smart technical decision-making over brand loyalty
+      confidence: High - interview statements
+    - flag: ISO 27001 and SOC2 Type 2 certified (2023)
+      impact: Security practices mature enough for enterprise sales, eng process exists
+      confidence: High - explicit certifications
+    - flag: Glassdoor 4.1/5 with 84% recommend, 93% positive outlook
+      impact: Employees generally satisfied and believe in company direction
+      confidence: Medium - small sample (19 reviews) but consistent positive sentiment
+    - flag: Complete C-suite (CTO, CFO, COO, CRO) plus all dept heads filled
+      impact: Organizational maturity - not waiting for 'the right CFO' for 2 years
+      confidence: High - org chart from company website
+    - flag: 'Culture: ''No ego, gossip, or jerks'' explicitly stated'
+      impact: Clear cultural values that align with collaborative senior eng preferences
+      confidence: High - careers page statement
+    - flag: Flexible work-life balance per reviews, monthly social events
+      impact: Daily experience includes community building without forced fun
+      confidence: Medium - multiple Glassdoor reviews mention this
+    - flag: Career development opportunities mentioned in reviews
+      impact: Path for growth exists, not just 'do your job forever'
+      confidence: Medium - review mentions
+    - flag: 'Diversity: 34% ethnic, 33% women, 14% women in tech'
+      impact: Above industry average diversity suggests inclusive culture
+      confidence: High - explicit company metrics
+    - flag: Microsoft-backed with M12 investment, Google for Startups
+      impact: Strategic partnerships with tech giants add credibility
+      confidence: High - explicit investor list
+    - flag: 'Solving real problems: saves lawyers 1hr/day average'
+      impact: Measurable customer value, passes the mom test
+      confidence: High - customer testimonial with specific metric
+    - flag: Sifted 100 UK&Ireland 2025, Deloitte Fast 50
+      impact: Industry recognition and resume credibility
+      confidence: High - explicit awards
+  chosen_peak:
+    critical_matches: *id001
+    strong_positives: *id002
+  rope_team_confidence:
+    critical_matches: *id001
+    strong_positives: *id002
+  daily_climb:
+    critical_matches: *id001
+    strong_positives: *id002
+  story_worth_telling:
+    critical_matches: *id001
+    strong_positives: *id002
+red_flags:
+  mountain_range:
+    dealbreakers: &id003 []
+    concerning: &id004
+    - flag: Pre-profitable status with no disclosed ARR, burn rate, or runway
+      impact: Unknown financial runway - could have 6 months or 24 months, dramatically
+        different
+      confidence: High - explicit gap in public data
+    - flag: No public customer reviews on G2, Capterra, TrustPilot
+      impact: Cannot verify customer satisfaction independently - only company testimonials
+      confidence: High - explicit search found zero reviews
+    - flag: Competing with Harvey AI ($5B valuation, $1K+/user/mo pricing)
+      impact: Giant competitor with 125x valuation - market position pressure
+      confidence: High - explicit competitor data
+    - flag: No public GitHub org, no open-source projects
+      impact: Zero external technical presence - enterprise-only culture or hiding
+        technical quality?
+      confidence: High - explicit comprehensive search found nothing
+    - flag: No engineering blog or technical content
+      impact: No technical thought leadership or community engagement - insular culture?
+      confidence: High - explicit search found no eng blog
+    - flag: No conference talks or presentations by team
+      impact: Engineers not encouraged/supported to share knowledge externally
+      confidence: High - explicit search found no talks
+    - flag: No public API documentation
+      impact: Platform not built for extensibility or developer ecosystem
+      confidence: High - explicit gap noted
+    - flag: Stack includes Office.js (JavaScript/HTML/CSS) for core product
+      impact: Some work may be constrained by Microsoft Office add-in limitations
+      confidence: High - explicit job posting requirements
+    - flag: Very small Glassdoor sample (19 reviews only)
+      impact: Not enough data to assess representative employee sentiment
+      confidence: High - explicit review count
+    - flag: No executive tenure dates beyond founders
+      impact: Cannot assess if CFO/CTO are 6 months or 3 years into role - stability
+        unknown
+      confidence: High - explicit missing data
+    - flag: Reviews note 'sink or swim', unannounced deadlines, critical issues needing
+        immediate attention
+      impact: Startup intensity may mean frequent firefighting and on-call stress
+      confidence: Medium - Glassdoor reviews mention this pattern
+    - flag: Some reviews mention 'limited or no company benefits'
+      impact: Benefits may be minimal despite standard UK items listed
+      confidence: Low - single review mention, conflicts with job posting data
+    - flag: London HQ with 2-3 days/week requirement
+      impact: Geographic constraint for Dublin-based preference - commute or relocation
+      confidence: High - explicit location policy
+    - flag: No manager span of control data
+      impact: Cannot assess if managers have bandwidth for 1:1s and growth conversations
+      confidence: High - explicit missing data
+    - flag: No engineering team structure or squad details
+      impact: Cannot assess if senior engineers have strategic influence or are just
+        implementers
+      confidence: High - explicit missing data
+    - flag: No information on on-call rotation or incident response expectations
+      impact: Unknown if working at frontier AI means always-on firefighting
+      confidence: High - explicit missing data
+  chosen_peak:
+    dealbreakers: *id003
+    concerning: *id004
+  rope_team_confidence:
+    dealbreakers: *id003
+    concerning: *id004
+  daily_climb:
+    dealbreakers: *id003
+    concerning: *id004
+  story_worth_telling:
+    dealbreakers: *id003
+    concerning: *id004
+missing_critical_data:
+- question: What is the actual funding runway in months?
+  why_important: At this career stage, need 12+ months runway minimum to avoid pivot
+    chaos
+  how_to_find: Ask CFO or finance team directly during interviews about cash position
+    and burn rate
+  mountain_element: mountain_range
+- question: What is manager span of control? How many direct reports per engineering
+    manager?
+  why_important: Managers with >6 reports have no bandwidth for career development
+    or technical guidance
+  how_to_find: Ask about team structure, org chart, typical manager/IC ratios during
+    team interviews
+  mountain_element: daily_climb
+- question: What percentage of time is spent in meetings vs maker time?
+  why_important: Need <30% meeting time to do deep technical work effectively
+  how_to_find: Ask team members to share their actual calendar for a typical week
+  mountain_element: daily_climb
+- question: How often can engineers deploy to production? Same-day or weekly cycles?
+  why_important: Deployment friction directly impacts ability to iterate and validate
+    technical decisions
+  how_to_find: Ask about deployment process, CI/CD pipeline, and last deployment time
+    during technical interviews
+  mountain_element: chosen_peak
+- question: Are AI/LLM coding tools (GitHub Copilot, Cursor, etc.) approved and encouraged?
+  why_important: Essential for competitive advantage and engineering velocity in 2025
+  how_to_find: Ask about development tooling policies and what tools engineers actually
+    use daily
+  mountain_element: chosen_peak
+- question: Do staff engineers participate in technical strategy or just implementation?
+  why_important: Want to be advisor not order-taker at this experience level
+  how_to_find: Ask about recent examples where senior ICs influenced product/technical
+    direction
+  mountain_element: story_worth_telling
+- question: What is the on-call rotation structure and frequency?
+  why_important: Always-on incident response kills sustainability and work-life balance
+  how_to_find: Ask about incident response, pager duty rotation, typical incident
+    frequency
+  mountain_element: daily_climb
+- question: What percentage of engineering time goes to new features vs maintenance/tech
+    debt?
+  why_important: Need balance - all greenfield is chaos, all maintenance is boring
+  how_to_find: Ask product and engineering leads about roadmap split and how tech
+    debt is prioritized
+  mountain_element: story_worth_telling
+- question: What timezone are most engineering and product meetings held in?
+  why_important: Dublin timezone (GMT) working with US West Coast teams means early
+    morning or late evening meetings
+  how_to_find: Ask about team distribution, core hours, typical meeting times during
+    interviews
+  mountain_element: daily_climb
+- question: Why is there no public engineering presence (blog, GitHub, conferences)?
+  why_important: Could signal enterprise-sales focus OR could signal insular culture
+    that doesn't value external engagement
+  how_to_find: Ask about technical community involvement policies, if engineers are
+    encouraged to speak/write externally
+  mountain_element: chosen_peak
+- question: What happened to the employees who gave negative Glassdoor reviews?
+  why_important: Small review sample - did complainers leave voluntarily or get pushed
+    out?
+  how_to_find: Cannot ask directly - triangulate through LinkedIn to see if there
+    are ex-employees with short tenures
+  mountain_element: rope_team_confidence
+- question: What is typical tenure for senior engineers? How many have >2 year tenure?
+  why_important: High senior eng turnover signals either growth problems or cultural
+    fit issues
+  how_to_find: Ask about team tenure during interviews, check LinkedIn for ex-employees
+  mountain_element: rope_team_confidence

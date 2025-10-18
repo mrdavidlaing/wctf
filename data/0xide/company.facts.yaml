@@ -1,195 +1,190 @@
-company: "Oxide Computer Company"
-research_date: "2025-09-27"
-
+company: Oxide Computer Company
+company_slug: oxide-computer-company
+research_date: '2025-09-27'
 financial_health:
   facts_found:
-    - fact: "Raised $100M Series B funding led by US Innovative Technology Fund (USIT) with all existing investors participating"
-      source: "Company announcement"
-      date: "2025-07-30"
-      confidence: "explicit_statement"
-
-    - fact: "Raised $44M Series A funding led by Eclipse Ventures"
-      source: "Company announcement"
-      date: "2023-10-26"
-      confidence: "explicit_statement"
-
-    - fact: "Total funding raised approximately $189M across 3 rounds with investors including Eclipse Ventures, Intel Capital, Riot Ventures, Counterpart Ventures, Rally Ventures, In-Q-Tel"
-      source: "Company announcements"
-      date: "2025-07-30"
-      confidence: "explicit_statement"
-
-    - fact: "Estimated ARR $15.1M (2024-2025) with accelerating customer growth per CEO"
-      source: "Third-party estimates"
-      date: "2025-01-01"
-      confidence: "inferred"
-
-    - fact: "$100M recent funding provides substantial runway, estimated 3+ years at current scale"
-      source: "Company announcement"
-      date: "2025-07-30"
-      confidence: "implied"
-
-    - fact: "Historical burn approximately $89M over 6 years (2019-2025), not profitable but typical for growth-stage hardware company"
-      source: "Analysis of funding rounds"
-      date: "2025-07-30"
-      confidence: "inferred"
-
-    - fact: "No layoffs in past 18 months with employee growth from ~23 to 75-84 employees, actively hiring multiple positions"
-      source: "Job postings and employment trackers"
-      date: "2025-09-27"
-      confidence: "explicit_statement"
-
-    - fact: "Known customers include Lawrence Livermore National Lab, Idaho National Lab, CoreWeave, unnamed global financial services firm"
-      source: "Company announcements"
-      date: "2025-07-30"
-      confidence: "explicit_statement"
-
+  - fact: Raised $100M Series B funding led by US Innovative Technology Fund (USIT)
+      with all existing investors participating
+    source: Company announcement
+    date: '2025-07-30'
+    confidence: explicit_statement
+  - fact: Raised $44M Series A funding led by Eclipse Ventures
+    source: Company announcement
+    date: '2023-10-26'
+    confidence: explicit_statement
+  - fact: Total funding raised approximately $189M across 3 rounds with investors
+      including Eclipse Ventures, Intel Capital, Riot Ventures, Counterpart Ventures,
+      Rally Ventures, In-Q-Tel
+    source: Company announcements
+    date: '2025-07-30'
+    confidence: explicit_statement
+  - fact: Estimated ARR $15.1M (2024-2025) with accelerating customer growth per CEO
+    source: Third-party estimates
+    date: '2025-01-01'
+    confidence: inferred
+  - fact: $100M recent funding provides substantial runway, estimated 3+ years at
+      current scale
+    source: Company announcement
+    date: '2025-07-30'
+    confidence: implied
+  - fact: Historical burn approximately $89M over 6 years (2019-2025), not profitable
+      but typical for growth-stage hardware company
+    source: Analysis of funding rounds
+    date: '2025-07-30'
+    confidence: inferred
+  - fact: No layoffs in past 18 months with employee growth from ~23 to 75-84 employees,
+      actively hiring multiple positions
+    source: Job postings and employment trackers
+    date: '2025-09-27'
+    confidence: explicit_statement
+  - fact: Known customers include Lawrence Livermore National Lab, Idaho National
+      Lab, CoreWeave, unnamed global financial services firm
+    source: Company announcements
+    date: '2025-07-30'
+    confidence: explicit_statement
   missing_information:
-    - "Post-money valuations for all funding rounds"
-    - "Specific burn rate and cash flow data"
-    - "Detailed revenue growth metrics and ARR/MRR trends"
-    - "Timeline to profitability"
-    - "SEC filings or regulatory disclosures"
-
+  - Post-money valuations for all funding rounds
+  - Specific burn rate and cash flow data
+  - Detailed revenue growth metrics and ARR/MRR trends
+  - Timeline to profitability
+  - SEC filings or regulatory disclosures
 market_position:
   facts_found:
-    - fact: "Main product Oxide Cloud Computer: rack-scale with up to 32 sleds, 2,048 AMD Milan CPU cores total, 16-32TB memory, 1PB NVMe storage"
-      source: "Product specifications"
-      date: "2025-09-01"
-      confidence: "explicit_statement"
-
-    - fact: "Intel Tofino 2 switch with 12.8Tbps capacity, 15kW maximum power, 55% more efficient than traditional systems"
-      source: "Technical specifications"
-      date: "2025-09-01"
-      confidence: "explicit_statement"
-
-    - fact: "Estimated pricing $500K-$1M per rack with zero licensing fees, deployment time hours vs weeks/months for traditional setups"
-      source: "Industry analysis"
-      date: "2025-08-01"
-      confidence: "inferred"
-
-    - fact: "Direct competitors include VMware/Broadcom, Nutanix, Dell EMC, HPE, Microsoft Azure Stack HCI"
-      source: "Market analysis"
-      date: "2025-09-01"
-      confidence: "explicit_statement"
-
-    - fact: "Private cloud server market $92.56B (2023) → $508.50B (2030) with 28.3% CAGR, 85% of global IT workloads still run on-premises"
-      source: "Market research reports"
-      date: "2024-12-31"
-      confidence: "explicit_statement"
-
-    - fact: "Included in Gartner 2024 Market Guide for Full-Stack HCI Software"
-      source: "Gartner report"
-      date: "2024-12-31"
-      confidence: "explicit_statement"
-
-    - fact: "Key differentiators: full-stack hardware/software integration, rack-scale design, no licensing fees, custom firmware, DC power distribution"
-      source: "Company materials"
-      date: "2025-09-01"
-      confidence: "explicit_statement"
-
+  - fact: 'Main product Oxide Cloud Computer: rack-scale with up to 32 sleds, 2,048
+      AMD Milan CPU cores total, 16-32TB memory, 1PB NVMe storage'
+    source: Product specifications
+    date: '2025-09-01'
+    confidence: explicit_statement
+  - fact: Intel Tofino 2 switch with 12.8Tbps capacity, 15kW maximum power, 55% more
+      efficient than traditional systems
+    source: Technical specifications
+    date: '2025-09-01'
+    confidence: explicit_statement
+  - fact: Estimated pricing $500K-$1M per rack with zero licensing fees, deployment
+      time hours vs weeks/months for traditional setups
+    source: Industry analysis
+    date: '2025-08-01'
+    confidence: inferred
+  - fact: Direct competitors include VMware/Broadcom, Nutanix, Dell EMC, HPE, Microsoft
+      Azure Stack HCI
+    source: Market analysis
+    date: '2025-09-01'
+    confidence: explicit_statement
+  - fact: "Private cloud server market $92.56B (2023) \u2192 $508.50B (2030) with\
+      \ 28.3% CAGR, 85% of global IT workloads still run on-premises"
+    source: Market research reports
+    date: '2024-12-31'
+    confidence: explicit_statement
+  - fact: Included in Gartner 2024 Market Guide for Full-Stack HCI Software
+    source: Gartner report
+    date: '2024-12-31'
+    confidence: explicit_statement
+  - fact: 'Key differentiators: full-stack hardware/software integration, rack-scale
+      design, no licensing fees, custom firmware, DC power distribution'
+    source: Company materials
+    date: '2025-09-01'
+    confidence: explicit_statement
   missing_information:
-    - "Market share estimates"
-    - "Exact pricing and TCO comparisons"
-    - "GPU/AI acceleration roadmap"
-    - "Large-scale deployment proof points"
-    - "Detailed competitive win/loss data"
-
+  - Market share estimates
+  - Exact pricing and TCO comparisons
+  - GPU/AI acceleration roadmap
+  - Large-scale deployment proof points
+  - Detailed competitive win/loss data
 organizational_stability:
   facts_found:
-    - fact: "CEO Steve Tuck (Co-Founder, former President/COO at Joyent), CTO Bryan Cantrill (Co-Founder, Sun Microsystems veteran), CPO Jessie Frazelle (Co-Founder, ex-Docker, Google, Microsoft)"
-      source: "Company website"
-      date: "2019-01-01"
-      confidence: "explicit_statement"
-
-    - fact: "No major executive departures in past 24 months, all three co-founders remain in original roles since founding"
-      source: "Company tracking"
-      date: "2025-09-27"
-      confidence: "explicit_statement"
-
-    - fact: "Current headcount 75-84 employees with 3.3x growth over 4 years from ~23 employees"
-      source: "Employment trackers"
-      date: "2025-09-01"
-      confidence: "explicit_statement"
-
-    - fact: "Open positions include Control Plane Engineer, Electrical Engineer, Field Sales, Manufacturing PM, Networking Engineers"
-      source: "Job postings"
-      date: "2025-09-27"
-      confidence: "explicit_statement"
-
-    - fact: "Uniform salary $235,000 for all employees (progression from $175K in 2019 to $180K in 2020 to current), some sales roles have base + commission"
-      source: "Company transparency"
-      date: "2025-09-01"
-      confidence: "explicit_statement"
-
-    - fact: "Headquarters at 1251 Park Avenue, Emeryville, CA 94608 with remote-first policy requiring 4-hour Pacific Time overlap"
-      source: "Company website"
-      date: "2025-09-01"
-      confidence: "explicit_statement"
-
-    - fact: "Benefits include 100% healthcare premiums for employees and dependents, values-driven engineering-focused culture"
-      source: "Company careers page"
-      date: "2025-09-01"
-      confidence: "explicit_statement"
-
+  - fact: CEO Steve Tuck (Co-Founder, former President/COO at Joyent), CTO Bryan Cantrill
+      (Co-Founder, Sun Microsystems veteran), CPO Jessie Frazelle (Co-Founder, ex-Docker,
+      Google, Microsoft)
+    source: Company website
+    date: '2019-01-01'
+    confidence: explicit_statement
+  - fact: No major executive departures in past 24 months, all three co-founders remain
+      in original roles since founding
+    source: Company tracking
+    date: '2025-09-27'
+    confidence: explicit_statement
+  - fact: Current headcount 75-84 employees with 3.3x growth over 4 years from ~23
+      employees
+    source: Employment trackers
+    date: '2025-09-01'
+    confidence: explicit_statement
+  - fact: Open positions include Control Plane Engineer, Electrical Engineer, Field
+      Sales, Manufacturing PM, Networking Engineers
+    source: Job postings
+    date: '2025-09-27'
+    confidence: explicit_statement
+  - fact: Uniform salary $235,000 for all employees (progression from $175K in 2019
+      to $180K in 2020 to current), some sales roles have base + commission
+    source: Company transparency
+    date: '2025-09-01'
+    confidence: explicit_statement
+  - fact: Headquarters at 1251 Park Avenue, Emeryville, CA 94608 with remote-first
+      policy requiring 4-hour Pacific Time overlap
+    source: Company website
+    date: '2025-09-01'
+    confidence: explicit_statement
+  - fact: Benefits include 100% healthcare premiums for employees and dependents,
+      values-driven engineering-focused culture
+    source: Company careers page
+    date: '2025-09-01'
+    confidence: explicit_statement
   missing_information:
-    - "Reliable employee satisfaction ratings"
-    - "Engineering vs non-engineering headcount breakdown"
-    - "Employee discussions on Blind or Reddit"
-    - "Comparison to industry average satisfaction scores"
-    - "Specific reasons for any employee departures"
-
+  - Reliable employee satisfaction ratings
+  - Engineering vs non-engineering headcount breakdown
+  - Employee discussions on Blind or Reddit
+  - Comparison to industry average satisfaction scores
+  - Specific reasons for any employee departures
 technical_culture:
   facts_found:
-    - fact: "Rust dominates entire tech stack from firmware to userspace with 324+ public GitHub repositories"
-      source: "GitHub"
-      date: "2025-09-01"
-      confidence: "explicit_statement"
-
-    - fact: "Key open source projects: Hubris embedded OS (855 stars), Helios illumos distribution (364 stars), Propolis Rust-based VMM (176 stars), Humility debugger (527 stars)"
-      source: "GitHub"
-      date: "2025-09-01"
-      confidence: "explicit_statement"
-
-    - fact: "Development tools include Progenitor (OpenAPI generator), Typify (JSON Schema converter), RFD (Request for Discussion) process"
-      source: "GitHub and company blog"
-      date: "2025-09-01"
-      confidence: "explicit_statement"
-
-    - fact: "Regular engineering blog posts at oxide.computer/blog covering systems software, engineering culture, FAQ Friday series"
-      source: "Company blog"
-      date: "2025-09-01"
-      confidence: "explicit_statement"
-
-    - fact: "Public technical design documents at rfd.shared.oxide.computer with 2.2k GitHub organization followers"
-      source: "GitHub and RFD site"
-      date: "2025-09-01"
-      confidence: "explicit_statement"
-
-    - fact: "Conference presence includes On the Metal podcast, Oxide and Friends weekly Discord show, P99 CONF 2024, InfoQ presentations, annual OxCon conference"
-      source: "Company media presence"
-      date: "2025-09-01"
-      confidence: "explicit_statement"
-
-    - fact: "Open source first philosophy with most software publicly available, active issue tracking and external contributions"
-      source: "GitHub activity"
-      date: "2025-09-01"
-      confidence: "explicit_statement"
-
-    - fact: "Limited public AI/ML initiatives, focus on general-purpose computing for various workloads including HPC capability evidenced by Lawrence Livermore partnership"
-      source: "Company announcements"
-      date: "2025-07-30"
-      confidence: "explicit_statement"
-
+  - fact: Rust dominates entire tech stack from firmware to userspace with 324+ public
+      GitHub repositories
+    source: GitHub
+    date: '2025-09-01'
+    confidence: explicit_statement
+  - fact: 'Key open source projects: Hubris embedded OS (855 stars), Helios illumos
+      distribution (364 stars), Propolis Rust-based VMM (176 stars), Humility debugger
+      (527 stars)'
+    source: GitHub
+    date: '2025-09-01'
+    confidence: explicit_statement
+  - fact: Development tools include Progenitor (OpenAPI generator), Typify (JSON Schema
+      converter), RFD (Request for Discussion) process
+    source: GitHub and company blog
+    date: '2025-09-01'
+    confidence: explicit_statement
+  - fact: Regular engineering blog posts at oxide.computer/blog covering systems software,
+      engineering culture, FAQ Friday series
+    source: Company blog
+    date: '2025-09-01'
+    confidence: explicit_statement
+  - fact: Public technical design documents at rfd.shared.oxide.computer with 2.2k
+      GitHub organization followers
+    source: GitHub and RFD site
+    date: '2025-09-01'
+    confidence: explicit_statement
+  - fact: Conference presence includes On the Metal podcast, Oxide and Friends weekly
+      Discord show, P99 CONF 2024, InfoQ presentations, annual OxCon conference
+    source: Company media presence
+    date: '2025-09-01'
+    confidence: explicit_statement
+  - fact: Open source first philosophy with most software publicly available, active
+      issue tracking and external contributions
+    source: GitHub activity
+    date: '2025-09-01'
+    confidence: explicit_statement
+  - fact: Limited public AI/ML initiatives, focus on general-purpose computing for
+      various workloads including HPC capability evidenced by Lawrence Livermore partnership
+    source: Company announcements
+    date: '2025-07-30'
+    confidence: explicit_statement
   missing_information:
-    - "Specific AI/ML strategy or roadmap"
-    - "Detailed technical benchmarks vs competitors"
-    - "Long-term product development plans"
-    - "International expansion strategy"
-    - "Specific performance metrics for deployed systems"
-
+  - Specific AI/ML strategy or roadmap
+  - Detailed technical benchmarks vs competitors
+  - Long-term product development plans
+  - International expansion strategy
+  - Specific performance metrics for deployed systems
 summary:
   total_facts_found: 31
-  information_completeness: "high"
-  most_recent_data_point: "2025-09-27"
-  oldest_data_point: "2019-01-01"
-
+  information_completeness: high
+  most_recent_data_point: '2025-09-27'
+  oldest_data_point: '2019-01-01'

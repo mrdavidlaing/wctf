@@ -1,0 +1,273 @@
+company: Toast, Inc.
+company_slug: toast-inc
+evaluation_date: '2025-10-18'
+evaluator_context: Extracted from conversation notes
+green_flags:
+  mountain_range:
+    critical_matches: &id001
+    - flag: Achieved first full year of GAAP profitability in 2024 with $19M net income
+        after $246M loss in 2023
+      impact: Company has crossed the profitability threshold, reducing risk of sudden
+        layoffs or runway concerns for senior engineers
+      confidence: High - explicit SEC filing data from Business Wire
+    - flag: Strong revenue growth of 28.33% YoY reaching $4.96B in 2024, with positive
+        free cash flow of $306M
+      impact: Demonstrates sustainable growth trajectory with cash generation, supporting
+        continued investment in engineering and product
+      confidence: High - explicit financial statements from MacroTrends and Business
+        Wire
+    - flag: 'Market leader position: #1 ranked POS system on G2, 16-21% market share
+        in competitive restaurant tech space'
+      impact: Working on a winning product with clear market validation reduces risk
+        of pivots or existential business model concerns
+      confidence: High - multiple independent sources (G2, UBS report, 6sense)
+    - flag: Active open source presence with 11 public repositories including Protokt
+        (Protobuf compiler for Kotlin) with recent release v1.0.0-beta.5 on March
+        14, 2025
+      impact: Demonstrates commitment to engineering excellence, modern practices,
+        and giving back to community - indicates technical credibility
+      confidence: High - verified via GitHub open-toast organization
+    - flag: 'Modern tech stack evolution: migrated from monolithic Play Framework
+        to Dropwizard microservices, adopted GraphQL Federation, uses Kotlin extensively'
+      impact: Company invests in technical modernization and allows engineers to work
+        with current technologies rather than legacy-only systems
+      confidence: High - explicit statements from Built In Boston and Toast Technology
+        Blog
+    - flag: Provides AI coding assistants to engineers for productivity boost
+      impact: Company invests in modern developer tools and productivity, showing
+        understanding of engineering efficiency
+      confidence: High - explicit statement from Toast Technology Blog
+    - flag: All three MIT co-founders still in leadership after 14 years (CEO Aman
+        Narang, CTO Jonathan Grimm, plus Steve Fredette)
+      impact: Exceptional founder retention indicates long-term vision, stability,
+        and technical credibility at the top
+      confidence: High - verified via MIT News and official press releases
+    - flag: CEO Aman Narang promoted from within (Co-President since 2012, COO since
+        2021) showing internal leadership development
+      impact: Internal promotion to CEO demonstrates commitment to growing leaders
+        and avoiding disruptive external hires
+      confidence: High - explicit from Business Wire press release
+    - flag: 'Hybrid work model: 2 days/week in office only if within 25 miles of an
+        office location'
+      impact: Reasonable hybrid policy provides flexibility while maintaining some
+        in-person collaboration - not forced RTO
+      confidence: High - explicit from Toast Careers page
+    - flag: Went public in 2021 at $40/share IPO with $20B market cap, raising $870M
+      impact: Public company status provides equity liquidity, transparency, and resume
+        credibility
+      confidence: High - verified via Restaurant Dive and Wikipedia
+    strong_positives: &id002
+    - flag: Added record 28,000 net new locations in 2024, now serving 134,000 total
+        locations (26% YoY growth)
+      impact: Customer growth indicates product-market fit and provides diverse technical
+        challenges at scale
+      confidence: High - explicit statement from Business Wire earnings report
+    - flag: ARR of $1.6B growing 34% YoY indicates strong recurring revenue model
+      impact: Predictable revenue reduces business volatility and supports long-term
+        technical investments
+      confidence: High - explicit earnings data
+    - flag: Projected 2025 Adjusted EBITDA of $510-530M shows continued profitability
+        trajectory
+      impact: Forward guidance indicates sustained financial health and reduced risk
+        of cost-cutting measures
+      confidence: High - official company guidance from Business Wire
+    - flag: Maintains active engineering blog at technology.toasttab.com
+      impact: Indicates engineers are encouraged to share knowledge and build technical
+        brand
+      confidence: High - verified blog existence
+    - flag: Hosts bi-annual company-wide hackathons for product, process, and culture
+        innovation
+      impact: Provides opportunities for creative technical work and cross-functional
+        collaboration
+      confidence: High - explicit from Toast Careers page
+    - flag: AWS-based infrastructure with RDS, SWF, Lambda indicating cloud-native
+        approach
+      impact: Modern infrastructure provides exposure to industry-standard cloud technologies
+      confidence: High - explicit from Built In Boston
+    - flag: Principal Participating Organization (PPO) at PCI Security Standards Council
+      impact: Company contributes to industry standards and takes security seriously
+        at architectural level
+      confidence: High - verified via PCI SSC blog
+    - flag: 85% of employees say Toast is a great place to work vs 57% at typical
+        US company (Great Place To Work certification)
+      impact: High employee satisfaction suggests good organizational culture and
+        management practices
+      confidence: High - third-party certification from Great Place To Work
+    - flag: Named to Glassdoor's Best Places to Work 2024 list
+      impact: External recognition of workplace quality indicates consistently good
+        employee experience
+      confidence: High - official award from Glassdoor
+    - flag: 70% of employees would recommend working at Toast to a friend (Glassdoor)
+      impact: Strong recommendation rate suggests employees generally have positive
+        experience
+      confidence: High - Glassdoor aggregate data from 1,532+ reviews
+    - flag: Experienced CFO Elena Gomez with 25+ years experience joined in 2021
+      impact: Strong financial leadership during public company transition indicates
+        mature governance
+      confidence: High - verified via Comparably and CFO Dive
+    - flag: 8 office locations globally (Boston, Omaha, SF, Toronto, Dublin, Lublin,
+        Bangalore, London) providing geographic options
+      impact: Multiple locations provide flexibility for relocation or transfer opportunities
+      confidence: High - verified via Toast Careers and Built In
+    - flag: Large engineering organization with 1,251 engineers (second-largest function)
+      impact: Substantial engineering team provides peer learning, specialization
+        opportunities, and career paths
+      confidence: High - explicit from Unify data
+    - flag: Serving 134,000 restaurant locations processing $159.1B in GPV annually
+        provides massive scale challenges
+      impact: Working on systems at this scale (payments, POS, operations) offers
+        significant technical learning and resume value
+      confidence: High - explicit from earnings reports
+    - flag: International expansion into UK, Canada, Ireland with 2,000+ locations
+        as of Q2 2024
+      impact: International growth provides opportunities to work on global scale
+        challenges and new market problems
+      confidence: High - explicit from NextGenInvestors and Popular Fintech
+    - flag: Comprehensive product suite (POS, payments, operations, delivery, marketing,
+        payroll, inventory, financing) offers diverse technical domains
+      impact: Wide product range provides opportunities to work across different technical
+        domains and business problems
+      confidence: High - verified via Toast official website
+  chosen_peak:
+    critical_matches: *id001
+    strong_positives: *id002
+  rope_team_confidence:
+    critical_matches: *id001
+    strong_positives: *id002
+  daily_climb:
+    critical_matches: *id001
+    strong_positives: *id002
+  story_worth_telling:
+    critical_matches: *id001
+    strong_positives: *id002
+red_flags:
+  mountain_range:
+    dealbreakers: &id003 []
+    concerning: &id004
+    - flag: 10% workforce reduction (550 employees) announced in February 2024 despite
+        strong financial performance
+      impact: Recent layoffs during profitability suggests potential efficiency pressure
+        or margin optimization that could affect team capacity
+      confidence: High - explicit from WCVB and Boston Globe
+    - flag: 'Historic volatility: 50% workforce cut in April 2020 during COVID pandemic'
+      impact: Pattern of significant layoffs raises questions about stability during
+        downturns, though COVID was exceptional
+      confidence: High - verified via Wikipedia and Restaurant Dive
+    - flag: Tech stack information from 2017 (Play Framework, Dropwizard) is dated;
+        comprehensive 2023-2025 stack details missing
+      impact: Uncertainty about current technical architecture makes it hard to assess
+        if working with modern vs legacy systems
+      confidence: Medium - most recent detailed tech stack article from 2017, newer
+        references are partial
+    - flag: No information about CI/CD tools, testing frameworks, or code review practices
+      impact: Unable to assess engineering quality practices and daily development
+        experience
+      confidence: High - these topics not covered in available research
+    - flag: Glassdoor rating of 3.8/5 is good but not exceptional, with management-specific
+        ratings noted as lower (3.1/5 on Blind)
+      impact: Mixed employee sentiment about management quality could indicate inconsistent
+        leadership or recent cultural changes
+      confidence: High - explicit from Glassdoor with 1,532+ reviews
+    - flag: Employee reviews note cultural changes since going public in 2021
+      impact: Post-IPO cultural shifts could mean increased process, bureaucracy,
+        or loss of startup feel
+      confidence: Medium - implied from research summary about employee reviews
+    - flag: No information about engineering leadership structure (VP Engineering,
+        Senior Directors)
+      impact: Unable to assess quality of direct technical leadership and career paths
+      confidence: High - this information not available in research
+    - flag: No information about compensation philosophy, stock refresh policies,
+        or specific benefits
+      impact: Unable to assess total compensation competitiveness or long-term retention
+        incentives
+      confidence: High - compensation details not in public research
+    - flag: Interview process includes multiple rounds (recruiter, technical assessment,
+        coding, PM/STAR, system design, case study, hiring manager)
+      impact: Extensive interview process could indicate bureaucratic culture or high
+        bar (neutral but worth noting)
+      confidence: High - explicit from Interview Query
+    - flag: Limited information about specific conference presentations or external
+        technical reputation of engineers
+      impact: Unclear if engineers have opportunities to build external reputation
+        through speaking/writing
+      confidence: Medium - absence of evidence in research
+  chosen_peak:
+    dealbreakers: *id003
+    concerning: *id004
+  rope_team_confidence:
+    dealbreakers: *id003
+    concerning: *id004
+  daily_climb:
+    dealbreakers: *id003
+    concerning: *id004
+  story_worth_telling:
+    dealbreakers: *id003
+    concerning: *id004
+missing_critical_data:
+- question: What is the current tech stack in 2024-2025? What percentage of code is
+    legacy vs modern?
+  why_important: Need to understand if daily work involves modern technologies or
+    maintaining legacy systems
+  how_to_find: 'Interview questions: ''Walk me through your current tech stack. What
+    percentage of engineering time is spent on legacy vs new systems? What''s your
+    approach to technical debt?'''
+  mountain_element: chosen_peak
+- question: What are the CI/CD practices, deployment frequency, and testing culture?
+  why_important: Core indicators of engineering quality and daily development experience
+  how_to_find: 'Interview questions: ''How often do you deploy to production? What
+    does your CI/CD pipeline look like? What''s your testing philosophy and coverage
+    requirements?'''
+  mountain_element: chosen_peak
+- question: What is the compensation structure, equity refresh policy, and benefits
+    package?
+  why_important: Total compensation is critical for evaluating opportunity cost and
+    long-term retention
+  how_to_find: 'Ask recruiter for compensation range and structure. Interview questions:
+    ''What''s your approach to equity refreshes? How do raises and promotions work?'''
+  mountain_element: daily_climb
+- question: What is the engineering career ladder and typical promotion timeline?
+  why_important: Understanding career progression opportunities and growth potential
+  how_to_find: 'Interview questions: ''Can you describe the engineering career ladder?
+    What does progression from Senior to Staff look like? What percentage of engineers
+    get promoted annually?'''
+  mountain_element: story_worth_telling
+- question: What is the meeting culture and amount of maker time for engineers?
+  why_important: Critical for assessing daily work sustainability and ability to do
+    deep technical work
+  how_to_find: 'Interview questions: ''What does a typical week look like for a senior
+    engineer? How much meeting time vs coding time? What''s your approach to protecting
+    maker time?'''
+  mountain_element: daily_climb
+- question: What caused the February 2024 layoffs despite strong financial performance?
+  why_important: Understanding the reasoning helps assess future stability and leadership
+    decision-making
+  how_to_find: 'Interview questions: ''Can you explain the context around the February
+    2024 restructuring? What was the strategic rationale? How did it affect the engineering
+    organization?'''
+  mountain_element: mountain_range
+- question: What is the on-call rotation and incident management process?
+  why_important: On-call burden significantly affects work-life balance and sustainability
+  how_to_find: 'Interview questions: ''What does on-call look like for this team?
+    How often is the rotation? What''s the average incident frequency? How do you
+    handle follow-the-sun support?'''
+  mountain_element: daily_climb
+- question: Who are the VP Engineering and senior technical leaders?
+  why_important: Quality of technical leadership directly impacts engineering culture
+    and decision-making
+  how_to_find: 'Research LinkedIn for VP Engineering and Directors. Interview questions:
+    ''Can you tell me about the engineering leadership team? What''s their background
+    and tenure?'''
+  mountain_element: rope_team_confidence
+- question: What is the actual work-life balance culture? How common is after-hours
+    work?
+  why_important: Job description policies vs. actual team culture can differ significantly
+  how_to_find: 'Interview questions: ''What time do people typically start and end
+    their day? How often do you work evenings or weekends? What happens if someone
+    needs to leave at 5pm for family commitments?'''
+  mountain_element: daily_climb
+- question: What is the internal mobility policy and transfer process?
+  why_important: Ability to move between teams affects long-term growth and avoiding
+    stagnation
+  how_to_find: 'Interview questions: ''How does internal mobility work? Do I need
+    manager approval to interview internally? How common are internal transfers?'''
+  mountain_element: story_worth_telling

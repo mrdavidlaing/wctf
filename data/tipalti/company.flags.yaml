@@ -1,0 +1,239 @@
+company: Tipalti
+company_slug: tipalti
+evaluation_date: '2025-10-17'
+evaluator_context: Extracted from conversation notes
+green_flags:
+  mountain_range:
+    critical_matches: &id001
+    - flag: 99% customer retention with 1% dollar churn rate across 5,000+ customers
+      impact: Product-market fit is rock solid - customers actually love and stick
+        with the product, reducing business risk
+      confidence: High - explicitly stated retention metrics from multiple sources
+    - flag: 8x revenue growth in 5 years ($26M to $200M ARR) with 30% YoY customer
+        growth
+      impact: Strong growth trajectory despite market headwinds indicates genuine
+        market demand
+      confidence: High - verified revenue figures from company sources
+    - flag: $200M Sept 2025 funding specifically for AI investments, launched AI/Pi
+        in 2020
+      impact: Real AI work, not buzzword-chasing - 5-year head start on AI integration
+        in fintech
+      confidence: High - press releases and funding announcements
+    - flag: CEO Chen Amit 15+ years tenure as founder, technical background, built
+        from first line of code
+      impact: Founder-led with long-term vision, understands engineering deeply
+      confidence: High - verified company history
+    - flag: Working on payments infrastructure at $75B annual volume across 196 countries
+      impact: Resume gold - distributed systems, compliance, security, and scale challenges
+      confidence: High - company operational metrics
+    strong_positives: &id002
+    - flag: Processing $75B annual payment volume serving marquee customers (Roblox,
+        Spotify, Twitch)
+      impact: Operating at serious scale with recognizable customers adds stability
+        and resume value
+      confidence: High - public company announcements
+    - flag: 'Serving growing market: AP automation projected $8-17B by 2030-2034 (CAGR
+        10-14%)'
+      impact: Rising tide lifts all boats - market expansion reduces competitive pressure
+      confidence: High - industry analyst reports
+    - flag: 'Strong product ratings: G2 4.4-4.5/5, Capterra 4.6/5, Forbes Fintech
+        50 2025'
+      impact: Product quality validated by users and industry, not just marketing
+        hype
+      confidence: High - third-party review platforms
+    - flag: 'Modern microservices stack: C#/.NET, Node.js, React/Vue/Angular with
+        Azure Pipelines CI/CD'
+      impact: Working with current tech, not legacy maintenance hell
+      confidence: High - job postings and GitHub evidence
+    - flag: Technical CEO (first developer, Technion CS) and SVP Eng since 2013
+      impact: Engineering has a seat at the table, technical decisions driven by engineers
+      confidence: High - verified leadership backgrounds
+    - flag: 350+ engineers in Tel Aviv office indicates significant engineering investment
+      impact: Large enough team for specialization, mentorship, and interesting scale
+        problems
+      confidence: High - company announcements
+    - flag: CPTO Roby Baruch 12+ years tenure, internal promotion from engineering
+      impact: Engineering leadership stability through internal growth, not revolving
+        door
+      confidence: High - company about page
+    - flag: Executive team rated A+ (83/100), Top 5% of similar-sized companies on
+        Comparably
+      impact: Leadership quality validated by employees, not just titles
+      confidence: High - third-party employee platform
+    - flag: 'Strong board: former Visa President & CEO Carl Pascarella brings payments
+        expertise'
+      impact: Access to domain expertise and potential acquisition/exit paths
+      confidence: High - board member profiles
+    - flag: Hybrid 3 days office/2 days WFH with Tel Aviv office featuring gym, cafe,
+        rooftop garden
+      impact: Flexibility without full isolation, perks make office days more appealing
+      confidence: High - career page and reviews
+    - flag: Work-life balance rated 3.7-3.8/5 on Glassdoor (above company average
+        3.5)
+      impact: Not a burnout culture, sustainable pace possible
+      confidence: Medium - Glassdoor aggregate reviews
+    - flag: Building AI-native features (fraud detection, GL coding, OCR) with $200M
+        investment
+      impact: Get AI/ML production experience in regulated fintech environment
+      confidence: High - product announcements
+    - flag: Recent acquisition of AI startup Statement shows strategic growth beyond
+        organic
+      impact: Opportunity to integrate acquired tech, work cross-company, expand scope
+      confidence: High - June 2025 acquisition announcement
+  chosen_peak:
+    critical_matches: *id001
+    strong_positives: *id002
+  rope_team_confidence:
+    critical_matches: *id001
+    strong_positives: *id002
+  daily_climb:
+    critical_matches: *id001
+    strong_positives: *id002
+  story_worth_telling:
+    critical_matches: *id001
+    strong_positives: *id002
+red_flags:
+  mountain_range:
+    dealbreakers: &id003
+    - flag: 63% valuation markdown from $8.3B (Dec 2021) to $3.1B (Jan 2024) in secondary
+        markets
+      impact: Equity grants worth 1/3 of strike price, potential down-round if need
+        more funding
+      confidence: High - secondary market data from Contrary Research
+    concerning: &id004
+    - flag: Not profitable after 15 years, no public path to profitability disclosed
+      impact: Burn rate unknown, runway uncertain despite 60% of 2021 funds remaining
+        in May 2023
+      confidence: High - explicit absence of profitability disclosure
+    - flag: 'Two layoff rounds: 11% (Jan 2023), then dozens more (July 2024) despite
+        CEO saying no layoffs needed'
+      impact: Broken trust, strategic confusion, potential for more cuts. Job security
+        uncertain.
+      confidence: High - multiple news sources documenting layoffs and CEO statement
+    - flag: $200M Sept 2025 funding is DEBT not equity - from Hercules Capital
+      impact: Debt has fixed repayment obligations, adds financial pressure vs. equity
+        runway
+      confidence: High - funding announcement specifies debt structure
+    - flag: Competing against better-capitalized public companies (Bill.com $5.6B,
+        AvidXchange $2.3B)
+      impact: Competitors have permanent capital from public markets, pricing power
+        advantages
+      confidence: High - public market caps
+    - flag: Last technical blog post 2018, minimal public technical presence (5 GitHub
+        repos)
+      impact: Limited learning from peers, weak eng brand makes hiring harder, possibly
+        insular culture
+      confidence: High - observable absence of public technical content
+    - flag: Interview process only 43% positive rating, 2.9/5 difficulty on Glassdoor
+      impact: Poor candidate experience suggests disorganized hiring, may indicate
+        internal process issues
+      confidence: Medium - Glassdoor interview reviews
+    - flag: No evidence of engineer conference talks, minimal open source contribution
+      impact: Engineers not encouraged to build external reputation, limited T-shaped
+        growth
+      confidence: Medium - absence from major conference programs
+    - flag: CTO Igor Vainberg departed to Meta after 7 years (Feb 2024)
+      impact: Senior technical leader chose FAANG over staying - signals concern about
+        trajectory or comp
+      confidence: High - LinkedIn and employment records
+    - flag: CEO said no layoffs needed, then did 11% cut months later, then another
+        round 18mo after that
+      impact: Leadership either lied or badly misjudged situation - trust and forecasting
+        concerns
+      confidence: High - documented statements vs. actions
+    - flag: Glassdoor 3.5/5, only 59% would recommend, 46% positive business outlook
+      impact: More employees leaving than staying if asked - morale and retention
+        risk
+      confidence: High - Glassdoor aggregate metrics from 427+ reviews
+    - flag: Compensation rated 3.1-3.2/5 on Glassdoor (below average for company's
+        3.5 overall)
+      impact: Paying below market for role/location, combined with devalued equity
+        makes total comp weak
+      confidence: Medium - Glassdoor compensation ratings
+    - flag: Mandatory 3 days/week office (not fully remote) with Foster City HQ
+      impact: Bay Area commute 3x/week limits geographic flexibility, adds cost/time
+      confidence: High - explicit hybrid policy
+    - flag: Career opportunities rated 3.2-3.4/5, no public engineering career ladder
+      impact: Promotion path unclear, potentially limited growth for senior engineers
+      confidence: Medium - Glassdoor ratings and absence of public framework
+    - flag: July 2024 layoffs specifically targeting 'shift to mid-market focus away
+        from small business'
+      impact: Strategic pivot suggests previous work may be deprecated, org uncertainty
+      confidence: High - reported reason for layoffs
+    - flag: Two consecutive years of layoffs in growth-stage company after $8.3B valuation
+      impact: Resume timeline shows brief tenure + laid off, not a great narrative
+      confidence: High - documented layoff timeline
+  chosen_peak:
+    dealbreakers: *id003
+    concerning: *id004
+  rope_team_confidence:
+    dealbreakers: *id003
+    concerning: *id004
+  daily_climb:
+    dealbreakers: *id003
+    concerning: *id004
+  story_worth_telling:
+    dealbreakers: *id003
+    concerning: *id004
+missing_critical_data:
+- question: What is current monthly burn rate and runway with existing capital?
+  why_important: Need to assess urgency of achieving profitability or raising more
+    funding (at what valuation?)
+  how_to_find: 'Ask VP Finance or CFO in interview: ''What''s the company''s current
+    runway and path to profitability?'''
+  mountain_element: mountain_range
+- question: What caused the 63% valuation drop - market correction or company-specific
+    issues?
+  why_important: Distinguishes between 'everything's down' vs. 'we specifically screwed
+    up'
+  how_to_find: 'Ask hiring manager: ''How do you explain the secondary market valuation
+    to candidates?'' Watch for defensiveness.'
+  mountain_element: mountain_range
+- question: What exactly did the CTO (Igor) do after 7 years that justified leaving
+    for Meta?
+  why_important: Understand if he was pushed out vs. pulled away - signals about tech
+    leadership and culture
+  how_to_find: 'Ask team members (skip levels): ''How has the CTO transition affected
+    the engineering org?'''
+  mountain_element: rope_team_confidence
+- question: What's the actual equity grant range for senior engineers, and what strike
+    price?
+  why_important: With 63% valuation drop, need to know if options are underwater and
+    what refresh schedule looks like
+  how_to_find: 'Ask recruiter directly: ''What''s the equity band for this level,
+    and what was the most recent 409A valuation?'''
+  mountain_element: daily_climb
+- question: Are there more layoffs planned, and what are the criteria?
+  why_important: Two rounds in 2.5 years suggests pattern - need to assess ongoing
+    risk
+  how_to_find: 'Ask hiring manager: ''What gives you confidence we won''t see another
+    layoff in the next 12 months?'''
+  mountain_element: mountain_range
+- question: What's the engineering team's deployment frequency and incident response?
+  why_important: Proxy for engineering maturity and operational excellence
+  how_to_find: 'Ask engineers in interview: ''Walk me through your last production
+    incident. How often do you deploy?'''
+  mountain_element: chosen_peak
+- question: What percentage of engineering time is new features vs. maintenance vs.
+    tech debt?
+  why_important: Signals whether you'll be building or just keeping lights on
+  how_to_find: 'Ask manager: ''What''s your team''s quarterly roadmap split between
+    new features and tech investment?'''
+  mountain_element: chosen_peak
+- question: What's the true base salary range and equity refresh policy?
+  why_important: Glassdoor says comp is 3.1/5 (low) - need specifics to compare vs.
+    market
+  how_to_find: 'Ask recruiter: ''What''s the base salary range and annual equity refresh
+    percentage for this level?'''
+  mountain_element: daily_climb
+- question: Why did technical blog posting stop in 2018 after previous activity?
+  why_important: Signals possible shift in culture from innovation showcase to heads-down
+    shipping
+  how_to_find: 'Ask engineers: ''Do you have time to write blog posts, speak at conferences,
+    contribute to OSS?'''
+  mountain_element: chosen_peak
+- question: What's the on-call rotation and incident volume like?
+  why_important: Processing $75B/year payments - need to know if you'll be paged constantly
+  how_to_find: 'Ask engineers directly: ''What''s on-call like? How many incidents
+    per week? What''s MTTR?'''
+  mountain_element: daily_climb

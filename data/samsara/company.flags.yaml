@@ -1,0 +1,307 @@
+company: Samsara
+company_slug: samsara
+evaluation_date: '2025-10-18'
+evaluator_context: Extracted from conversation notes
+green_flags:
+  mountain_range:
+    critical_matches: &id008
+    - &id001
+      flag: Exceptional financial stability with zero layoff risk
+      impact: For a 25-year veteran, provides employment security and predictable
+        income during uncertain economic times. $702M cash, zero debt, positive FCF,
+        and 30% growth eliminate funding risk that causes layoffs at earlier-stage
+        companies.
+      confidence: High - Q2 FY2026 financials explicitly show $702M cash, zero debt,
+        $44-50M quarterly FCF, 15% operating margins
+    - &id002
+      flag: Genuine remote flexibility with no RTO mandate
+      impact: Rare among public tech companies in 2025. Allows geographic freedom,
+        eliminates commute, supports family/life priorities. Policy eliminated required
+        office days in 2021 and maintained through 2024-2025 when many reversed.
+      confidence: High - Explicit October 2021 policy change, no RTO during 2024-2025,
+        many roles listed 'Remote - US/Canada'
+    - &id003
+      flag: Legitimately interesting technical challenges at scale
+      impact: 'Provides intellectually stimulating work for experienced engineer:
+        edge AI constraints, distributed systems correctness, 6T data points/year,
+        real-time processing, modern ML platform (Ray). Meaningful platform-scale
+        impact opportunities.'
+      confidence: High - Explicit scale metrics (2T+ data points, 80B+ miles, 38B
+        minutes video), modern stack documented in engineering blog
+    - *id001
+    - *id002
+    - *id003
+    - *id001
+    - *id002
+    - *id003
+    - *id001
+    - *id002
+    - *id003
+    - *id001
+    - *id002
+    - *id003
+    strong_positives: &id009
+    - &id004
+      flag: Modern, well-architected tech stack
+      impact: Go, React, TypeScript, GraphQL, Ray ML platform, Kubernetes, Terraform
+        represent current best practices. Avoids legacy technical debt that limits
+        engineer effectiveness and learning.
+      confidence: High - Engineering blog details, job postings confirm stack
+    - &id005
+      flag: Clear staff+ engineering career ladder
+      impact: Well-documented roles and responsibilities for staff/senior staff/principal
+        levels. Engineers 'chart their own path', work cross-functionally, have architectural
+        influence. Staff role is IC leadership not just senior coding.
+      confidence: High - Job descriptions detail staff+ expectations, employees confirm
+        reaching staff in 5 years
+    - &id006
+      flag: Strong product-market fit with low churn
+      impact: 115-120% net dollar retention, 94% of large customers use multiple products,
+        8x ROI documented by IDC. Product is genuinely valuable to customers, reducing
+        risk of business model failure.
+      confidence: High - Q2 FY2026 earnings explicitly state 115-120% NDR, 94% multi-product
+        adoption
+    - &id007
+      flag: Mission-driven product with real-world impact
+      impact: Safety improvements (drowsiness detection, collision warning), sustainability
+        benefits (route optimization, fuel reduction), operational efficiency for
+        customers. Work has tangible positive outcomes beyond pure profit.
+      confidence: Medium - IDC study shows $2M annual customer savings, safety features
+        documented, but impact magnitude varies
+    - *id004
+    - *id005
+    - *id006
+    - *id007
+    - *id004
+    - *id005
+    - *id006
+    - *id007
+    - *id004
+    - *id005
+    - *id006
+    - *id007
+    - *id004
+    - *id005
+    - *id006
+    - *id007
+  chosen_peak:
+    critical_matches: *id008
+    strong_positives: *id009
+  rope_team_confidence:
+    critical_matches: *id008
+    strong_positives: *id009
+  daily_climb:
+    critical_matches: *id008
+    strong_positives: *id009
+  story_worth_telling:
+    critical_matches: *id008
+    strong_positives: *id009
+red_flags:
+  mountain_range:
+    dealbreakers: &id019
+    - &id010
+      flag: Extraordinary gap between overall and engineer satisfaction (57 percentage
+        points)
+      impact: Only 17% of software engineers recommend company to peers vs 74% overall.
+        This 57-point gap indicates systemic problems specific to engineering organization,
+        not company-wide culture. For a staff engineer role, this is the most relevant
+        signal.
+      confidence: 'High - Glassdoor filtered by role: engineers 3.1/5 with 17% recommend
+        vs overall 4.0/5 with 74% recommend. Blind shows 3.6/5 for engineers with
+        management at 3.2/5 (lowest category).'
+    - &id011
+      flag: Consistent reports of unsustainable work-life balance
+      impact: Multiple independent 2024-2025 reviews report weekend work expectations,
+        'zero work life balance', on-call '1 week a month never leaving phone/computer',
+        PTO requests denied despite unlimited policy. Pattern emerged post-2023, suggesting
+        permanent cultural shift not temporary crunch.
+      confidence: 'High - Review quotes: ''expected to work weekends and long hours
+        365 days a year'', ''on-call is absolute worst...paged at 3am'', ''PTO requests
+        denied both times I''ve asked'', ''remote work deceptive because Samsara uses
+        it to overwork employees''.'
+    - &id012
+      flag: Sharp cultural deterioration starting 2023-2024
+      impact: Multiple reviews describe shift from 'mutual respect to micromanaging',
+        'culture was good until 2023', 'culture completely flipped', 'terrible and
+        short-sighted upper management'. Timing aligns with post-IPO profitability
+        pressure, suggesting permanent change not temporary phase.
+      confidence: 'High - April 2025 review: ''Culture disappeared once we went into
+        ship ship ship mode''. Another: ''The culture has completely flipped on its
+        head...Culture is nonexistent''. Comparisons to ''Amazon 2.0'' for bureaucracy.'
+    - *id010
+    - *id011
+    - *id012
+    - *id010
+    - *id011
+    - *id012
+    - *id010
+    - *id011
+    - *id012
+    - *id010
+    - *id011
+    - *id012
+    concerning: &id020
+    - &id013
+      flag: Management doesn't understand technical complexity
+      impact: Reviews cite product management 'doesn't understand technical complexity
+        and gets mad when things aren't done in an insane timeline', decisions 'very
+        top down', 'low standards in software engineering'. For staff engineer expecting
+        autonomy and technical influence, this limits effectiveness.
+      confidence: 'High - Multiple reviews 2024-2025. One engineer: ''Building ship
+        as it sails, no broader system level considerations''. Another: ''roadmap
+        isn''t being used anymore, decisions very reactive''.'
+    - &id014
+      flag: Slow promotion velocity (3-4 years per level)
+      impact: Engineers report spending 3-4 years per level, with some leaving companies
+        to advance. For a staff engineer, this means long path to senior staff/principal.
+        Reviews mention 'hard to achieve promotion bar'.
+      confidence: 'Medium - Multiple Glassdoor reviews cite slow promotions, engineers
+        leaving for advancement. One: ''seems like there is a hard to achieve promotion
+        bar...engineers spending 3-4 years leading some to switch companies''.'
+    - &id015
+      flag: Base salary 20-50% below market, offset by equity
+      impact: Engineers report 'base compensation much much lower end offset by stocks',
+        one took '50% pay cut'. For experienced engineer with family/mortgage, low
+        base creates cash flow risk despite total comp targeting top 25%.
+      confidence: High - Multiple reviews cite below-market base. Software engineers
+        rate compensation 3.3/5, 16.7% worse than company average. One explicit '50%
+        pay cut' statement.
+    - &id016
+      flag: Ongoing benefits reductions
+      impact: 'Reviews report ''taking away benefits every quarter'': sabbatical programs
+        cut, equity removed for entry-level roles, healthcare benefits for caretaker/medical
+        leave rolled back. Indicates cost optimization at employee expense.'
+      confidence: 'Medium - Multiple 2024-2025 reviews cite benefits cuts. Specific
+        reductions listed: sabbaticals, entry-level equity, healthcare for caretakers.'
+    - &id017
+      flag: Large number of recent college grads
+      impact: Multiple sources note heavy junior presence. For 25-year veteran, could
+        mean significant mentorship load, limited senior peer group, or lack of engineering
+        maturity/best practices.
+      confidence: Medium - Reviews mention 'large number of recent college grads',
+        engineers reaching staff in 5 years from college. Interview difficulty rated
+        moderate (2.98/5).
+    - &id018
+      flag: Director stated 'prioritizes work over family' in 1:1
+      impact: One review reports director explicitly stating this value in 1:1 conversation.
+        Indicates cultural acceptance of work-first mindset at leadership level. Extremely
+        concerning for work-life balance priorities.
+      confidence: 'Low - Single Glassdoor review 2024-2025: director made statement
+        in 1:1 meeting, but aligns with broader work-life balance concerns.'
+    - *id013
+    - *id014
+    - *id015
+    - *id016
+    - *id017
+    - *id018
+    - *id013
+    - *id014
+    - *id015
+    - *id016
+    - *id017
+    - *id018
+    - *id013
+    - *id014
+    - *id015
+    - *id016
+    - *id017
+    - *id018
+    - *id013
+    - *id014
+    - *id015
+    - *id016
+    - *id017
+    - *id018
+  chosen_peak:
+    dealbreakers: *id019
+    concerning: *id020
+  rope_team_confidence:
+    dealbreakers: *id019
+    concerning: *id020
+  daily_climb:
+    dealbreakers: *id019
+    concerning: *id020
+  story_worth_telling:
+    dealbreakers: *id019
+    concerning: *id020
+missing_critical_data:
+- question: What is the actual team-specific work-life balance and on-call burden?
+  why_important: Reviews show widespread work-life issues but experiences may vary
+    by team. On-call expectations, weekend work frequency, and PTO approval rates
+    could be significantly better on specific teams. This is make-or-break for a 25-year
+    veteran prioritizing sustainability.
+  how_to_find: 'Request to speak with 2-3 current staff engineers on the specific
+    hiring team (not just manager). Ask directly: ''How often do you work weekends?'',
+    ''What''s on-call rotation frequency?'', ''Have you had PTO requests denied?'',
+    ''What time do you typically stop working?''. Check team-specific Glassdoor reviews
+    if team is mentioned.'
+  mountain_element: daily_climb
+- question: What is the staff+ engineer turnover rate and departure reasons?
+  why_important: High turnover of experienced engineers indicates culture incompatibility,
+    limited growth, or work-life issues. Departure reasons reveal whether concerns
+    are addressable. Company shows 20.9% overall growth but may be backfilling senior
+    departures with juniors.
+  how_to_find: Ask hiring manager directly for team's staff+ attrition rate over past
+    18 months. Request LinkedIn back-channel with former staff engineers who left
+    2024-2025. Check team composition history via LinkedIn to spot departures.
+  mountain_element: rope_team_confidence
+- question: How does the specific hiring manager approach work-life balance and technical
+    decisions?
+  why_important: Management quality rated 3.2/5 on Blind with reviews of 'terrible
+    and short-sighted upper management', but experiences vary by manager. Direct manager
+    has outsized impact on day-to-day experience. Manager's technical depth determines
+    whether they understand complexity or 'get mad about timelines'.
+  how_to_find: 'Multiple conversations with hiring manager probing: ''Tell me about
+    a time your team missed a deadline - how did you handle it?'', ''How do you balance
+    speed vs technical quality?'', ''What''s your policy on weekend work?'', ''How
+    do you handle engineers who are burned out?''. Ask for skip-level conversation
+    with manager''s manager.'
+  mountain_element: rope_team_confidence
+- question: What is the actual compensation offer structure (base vs equity split)?
+  why_important: 'Reviews indicate 20-50% below-market base offset by equity. For
+    25-year veteran likely with financial obligations, low base creates cash flow
+    risk. Need specific numbers to evaluate: a 30% below-market base may be acceptable,
+    50% may not be.'
+  how_to_find: Request specific comp breakdown during offer stage. Use Levels.fyi
+    to benchmark staff engineer at Samsara (appears to be L5-L6 range). Negotiate
+    base salary aggressively given reviews of below-market base.
+  mountain_element: daily_climb
+- question: What is the team's approach to 'ship ship ship' pressure vs technical
+    quality?
+  why_important: Reviews cite cultural shift to 'ship ship ship mode' over thoughtful
+    engineering. For staff engineer expected to set technical direction, need to know
+    if team values architecture, technical debt management, and long-term thinking
+    vs pure velocity.
+  how_to_find: 'Ask hiring manager: ''How do you balance shipping quickly vs building
+    for long term?'', ''Give example of when team said no to feature to pay down tech
+    debt'', ''What''s your code review culture?''. Request to review team''s recent
+    technical design docs to assess depth.'
+  mountain_element: chosen_peak
+- question: Is the role genuinely remote or are there hidden office expectations?
+  why_important: Policy says remote-flexible, reviews say 'remote work deceptive as
+    it enables overwork'. Need to validate that remote doesn't mean 'available 24/7'
+    and that there's no informal pressure to be in office for advancement.
+  how_to_find: 'Ask current staff engineers: ''Are you remote? How often do you go
+    to office? Any pressure to be in office?''. Clarify with manager: ''What percentage
+    of team is remote? Any expectation I attend office for key meetings/events? How
+    does remote affect promotion?'''
+  mountain_element: daily_climb
+- question: What percentage of staff engineers successfully promote to senior staff/principal
+    and on what timeline?
+  why_important: Reviews cite slow promotions (3-4 years per level), hard promotion
+    bar, engineers leaving for advancement. For staff engineer, want to understand
+    path to senior staff/principal and whether it's achievable or a multi-decade grind.
+  how_to_find: 'Ask manager: ''How many staff engineers on your team have promoted
+    to senior staff in past 3 years? What does that typically take?'' Request to speak
+    with recently promoted senior staff engineer about their path.'
+  mountain_element: story_worth_telling
+- question: How has the specific team's culture changed from 2023 to 2025?
+  why_important: Company-wide reviews show sharp deterioration post-2023, but specific
+    teams may have maintained better culture. If hiring team avoided the 'ship ship
+    ship' shift and maintains work-life balance, they're an island of green in a sea
+    of red flags.
+  how_to_find: 'Ask team members with 3+ years tenure: ''How has the team culture
+    changed since 2023? What''s better? What''s worse?'' Look for concrete examples,
+    not vague positivity. Team that acknowledges company-wide changes but describes
+    how they''ve protected their culture is ideal.'
+  mountain_element: rope_team_confidence

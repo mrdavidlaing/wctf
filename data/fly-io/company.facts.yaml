@@ -1,4 +1,5 @@
 company: Fly.io
+company_slug: fly-io
 research_date: '2025-10-02'
 financial_health:
   facts_found:
@@ -258,7 +259,8 @@ market_position:
     source: Fly.io homepage
     date: '2025-10-02'
     confidence: explicit_statement
-  - fact: Deploy in 35 regions, from Sydney to São Paulo, for sub-100ms response times
+  - fact: "Deploy in 35 regions, from Sydney to S\xE3o Paulo, for sub-100ms response\
+      \ times"
     source: Fly.io homepage
     date: '2025-10-02'
     confidence: explicit_statement

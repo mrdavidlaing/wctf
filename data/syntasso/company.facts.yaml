@@ -1,316 +1,337 @@
-company: "Syntasso"
-research_date: "2025-09-27"
-
+company: Syntasso
+company_slug: syntasso
+research_date: '2025-09-27'
 financial_health:
   facts_found:
-    - fact: "Syntasso has raised $7.08M in funding over 12 rounds"
-      source: "Tracxn"
-      date: "2024-12-31"
-      confidence: "explicit_statement"
-    - fact: "Syntasso raised $1.53 million with investors Chalfen Ventures and Kobol Fund"
-      source: "PitchBook"
-      date: "2025-01-01"
-      confidence: "explicit_statement"
-    - fact: "Latest funding round was October 20, 2023"
-      source: "Tracxn"
-      date: "2024-12-31"
-      confidence: "explicit_statement"
-    - fact: "Largest funding round was $5.13M Seed round on July 24, 2023"
-      source: "Tracxn"
-      date: "2024-12-31"
-      confidence: "explicit_statement"
-    - fact: "Multiple share allotments filed between September-October 2023 indicating equity funding activity"
-      source: "Companies House UK"
-      date: "2023-10-20"
-      confidence: "explicit_statement"
-    - fact: "Company filed total exemption full accounts for 2024 indicating small company status with turnover under £10.2 million"
-      source: "Companies House UK"
-      date: "2025-09-18"
-      confidence: "implied"
-    - fact: "Business model transitioning from open source to subscription-based enterprise version (SKE)"
-      source: "OpenUK case study"
-      date: "2023-01-01"
-      confidence: "explicit_statement"
-    - fact: "No evidence of layoffs in past 18 months across all sources checked"
-      source: "Multiple tech layoff databases"
-      date: "2025-09-27"
-      confidence: "inferred"
-    - fact: "NatWest Bank is a major enterprise customer using Syntasso Kratix Enterprise"
-      source: "Syntasso case study"
-      date: "2024-01-01"
-      confidence: "explicit_statement"
-    - fact: "Company founded in 2021 with self-funding by founding team"
-      source: "OpenUK UK Case Study"
-      date: "2024-12-03"
-      confidence: "explicit_statement"
-    - fact: "Company has well-funded status with secure multi-year runway"
-      source: "Syntasso Careers Page"
-      date: "2019-12-31"
-      confidence: "explicit_statement"
-    - fact: "Currently all software is Open Source and free to use, planning subscription-based enterprise version for revenue"
-      source: "OpenUK UK Case Study"
-      date: "2024-12-03"
-      confidence: "explicit_statement"
-    - fact: "Planning to leverage two streams of revenue: subscription and marketplace"
-      source: "OpenUK UK Case Study"
-      date: "2024-12-03"
-      confidence: "explicit_statement"
+  - fact: Syntasso has raised $7.08M in funding over 12 rounds
+    source: Tracxn
+    date: '2024-12-31'
+    confidence: explicit_statement
+  - fact: Syntasso raised $1.53 million with investors Chalfen Ventures and Kobol
+      Fund
+    source: PitchBook
+    date: '2025-01-01'
+    confidence: explicit_statement
+  - fact: Latest funding round was October 20, 2023
+    source: Tracxn
+    date: '2024-12-31'
+    confidence: explicit_statement
+  - fact: Largest funding round was $5.13M Seed round on July 24, 2023
+    source: Tracxn
+    date: '2024-12-31'
+    confidence: explicit_statement
+  - fact: Multiple share allotments filed between September-October 2023 indicating
+      equity funding activity
+    source: Companies House UK
+    date: '2023-10-20'
+    confidence: explicit_statement
+  - fact: "Company filed total exemption full accounts for 2024 indicating small company\
+      \ status with turnover under \xA310.2 million"
+    source: Companies House UK
+    date: '2025-09-18'
+    confidence: implied
+  - fact: Business model transitioning from open source to subscription-based enterprise
+      version (SKE)
+    source: OpenUK case study
+    date: '2023-01-01'
+    confidence: explicit_statement
+  - fact: No evidence of layoffs in past 18 months across all sources checked
+    source: Multiple tech layoff databases
+    date: '2025-09-27'
+    confidence: inferred
+  - fact: NatWest Bank is a major enterprise customer using Syntasso Kratix Enterprise
+    source: Syntasso case study
+    date: '2024-01-01'
+    confidence: explicit_statement
+  - fact: Company founded in 2021 with self-funding by founding team
+    source: OpenUK UK Case Study
+    date: '2024-12-03'
+    confidence: explicit_statement
+  - fact: Company has well-funded status with secure multi-year runway
+    source: Syntasso Careers Page
+    date: '2019-12-31'
+    confidence: explicit_statement
+  - fact: Currently all software is Open Source and free to use, planning subscription-based
+      enterprise version for revenue
+    source: OpenUK UK Case Study
+    date: '2024-12-03'
+    confidence: explicit_statement
+  - fact: 'Planning to leverage two streams of revenue: subscription and marketplace'
+    source: OpenUK UK Case Study
+    date: '2024-12-03'
+    confidence: explicit_statement
   missing_information:
-    - "Current valuation"
-    - "Specific burn rate metrics"
-    - "Runway duration details"
-    - "Annual recurring revenue (ARR)"
-    - "Monthly recurring revenue (MRR)"
-    - "Customer concentration percentages"
-    - "Path to profitability timeline"
-
+  - Current valuation
+  - Specific burn rate metrics
+  - Runway duration details
+  - Annual recurring revenue (ARR)
+  - Monthly recurring revenue (MRR)
+  - Customer concentration percentages
+  - Path to profitability timeline
 market_position:
   facts_found:
-    - fact: "Kratix is an open-source framework for building composable Internal Developer Platforms on Kubernetes"
-      source: "Syntasso.io"
-      date: "2025-09-27"
-      confidence: "explicit_statement"
-    - fact: "Platform Engineering Services Market valued at $7.19 billion in 2024"
-      source: "SNS Insider"
-      date: "2024-01-01"
-      confidence: "explicit_statement"
-    - fact: "Platform Engineering Services Market projected to reach $40.17 billion by 2032 with 23.99% CAGR"
-      source: "SNS Insider"
-      date: "2024-01-01"
-      confidence: "explicit_statement"
-    - fact: "80% of large software engineering organizations will establish platform teams by 2026"
-      source: "Gartner"
-      date: "2024-01-01"
-      confidence: "explicit_statement"
-    - fact: "Syntasso named OpenUK Startup of the Year in November 2024"
-      source: "Syntasso blog"
-      date: "2024-12-23"
-      confidence: "explicit_statement"
-    - fact: "Syntasso Kratix Enterprise launched on Google Cloud Marketplace in 2024"
-      source: "Syntasso blog"
-      date: "2024-12-23"
-      confidence: "explicit_statement"
-    - fact: "Growing adoption of SKE particularly within the financial services sector"
-      source: "Syntasso blog"
-      date: "2024-11-01"
-      confidence: "explicit_statement"
-    - fact: "Primary competitors include Crossplane, Humanitec Platform Orchestrator, and complements Backstage"
-      source: "Taloflow.ai"
-      date: "2024-01-01"
-      confidence: "explicit_statement"
-    - fact: "Professional services partnerships with MomentumAI for Americas and OpenCredo for UK/EMEA"
-      source: "Syntasso blog"
-      date: "2024-12-23"
-      confidence: "explicit_statement"
-    - fact: "No specific Kratix reviews found on G2, Capterra, or Gartner Peer Insights"
-      source: "Review platform searches"
-      date: "2025-09-27"
-      confidence: "explicit_statement"
-    - fact: "Platform engineering market valued at $6.8 billion in 2024, forecasted to reach $32.4 billion by 2033 with 18.9% CAGR"
-      source: "Market Intelo Research Report"
-      date: "2013-01-31"
-      confidence: "explicit_statement"
-    - fact: "Internal Developer Platform competitors include Qovery, OpsLevel, Humanitec, Coherence, Mia Platform, Portainer"
-      source: "Qovery Blog"
-      date: "2025-09-24"
-      confidence: "explicit_statement"
-    - fact: "Kratix has 658 stars and 43 forks on GitHub"
-      source: "GitHub Kratix Repository"
-      date: "2021-05-16"
-      confidence: "explicit_statement"
-    - fact: "NatWest Group uses Kratix in production with positive results"
-      source: "NatWest Case Study"
-      date: "2015-12-31"
-      confidence: "explicit_statement"
-    - fact: "Kratix marketplace contains community-provided Promises for tools including Knative, Redis, PostgreSQL, Vault, Istio, and ArgoCD"
-      source: "InfoQ News"
-      date: "2023-01-13"
-      confidence: "explicit_statement"
+  - fact: Kratix is an open-source framework for building composable Internal Developer
+      Platforms on Kubernetes
+    source: Syntasso.io
+    date: '2025-09-27'
+    confidence: explicit_statement
+  - fact: Platform Engineering Services Market valued at $7.19 billion in 2024
+    source: SNS Insider
+    date: '2024-01-01'
+    confidence: explicit_statement
+  - fact: Platform Engineering Services Market projected to reach $40.17 billion by
+      2032 with 23.99% CAGR
+    source: SNS Insider
+    date: '2024-01-01'
+    confidence: explicit_statement
+  - fact: 80% of large software engineering organizations will establish platform
+      teams by 2026
+    source: Gartner
+    date: '2024-01-01'
+    confidence: explicit_statement
+  - fact: Syntasso named OpenUK Startup of the Year in November 2024
+    source: Syntasso blog
+    date: '2024-12-23'
+    confidence: explicit_statement
+  - fact: Syntasso Kratix Enterprise launched on Google Cloud Marketplace in 2024
+    source: Syntasso blog
+    date: '2024-12-23'
+    confidence: explicit_statement
+  - fact: Growing adoption of SKE particularly within the financial services sector
+    source: Syntasso blog
+    date: '2024-11-01'
+    confidence: explicit_statement
+  - fact: Primary competitors include Crossplane, Humanitec Platform Orchestrator,
+      and complements Backstage
+    source: Taloflow.ai
+    date: '2024-01-01'
+    confidence: explicit_statement
+  - fact: Professional services partnerships with MomentumAI for Americas and OpenCredo
+      for UK/EMEA
+    source: Syntasso blog
+    date: '2024-12-23'
+    confidence: explicit_statement
+  - fact: No specific Kratix reviews found on G2, Capterra, or Gartner Peer Insights
+    source: Review platform searches
+    date: '2025-09-27'
+    confidence: explicit_statement
+  - fact: Platform engineering market valued at $6.8 billion in 2024, forecasted to
+      reach $32.4 billion by 2033 with 18.9% CAGR
+    source: Market Intelo Research Report
+    date: '2013-01-31'
+    confidence: explicit_statement
+  - fact: Internal Developer Platform competitors include Qovery, OpsLevel, Humanitec,
+      Coherence, Mia Platform, Portainer
+    source: Qovery Blog
+    date: '2025-09-24'
+    confidence: explicit_statement
+  - fact: Kratix has 658 stars and 43 forks on GitHub
+    source: GitHub Kratix Repository
+    date: '2021-05-16'
+    confidence: explicit_statement
+  - fact: NatWest Group uses Kratix in production with positive results
+    source: NatWest Case Study
+    date: '2015-12-31'
+    confidence: explicit_statement
+  - fact: Kratix marketplace contains community-provided Promises for tools including
+      Knative, Redis, PostgreSQL, Vault, Istio, and ArgoCD
+    source: InfoQ News
+    date: '2023-01-13'
+    confidence: explicit_statement
   missing_information:
-    - "Customer review scores from major platforms"
-    - "Market share percentage"
-    - "Number of enterprise customers"
-    - "Revenue comparison with competitors"
-
+  - Customer review scores from major platforms
+  - Market share percentage
+  - Number of enterprise customers
+  - Revenue comparison with competitors
 organizational_stability:
   facts_found:
-    - fact: "Colin Humphreys serves as Co-Founder and CEO since February 2021"
-      source: "Companies House UK"
-      date: "2024-01-01"
-      confidence: "explicit_statement"
-    - fact: "Paula Kennedy serves as Co-Founder and COO since February 2021"
-      source: "Companies House UK"
-      date: "2024-01-01"
-      confidence: "explicit_statement"
-    - fact: "Christopher Hedley serves as Co-Founder and VP of Engineering since February 2021"
-      source: "Companies House UK"
-      date: "2024-01-01"
-      confidence: "explicit_statement"
-    - fact: "All three co-founders previously built and exited CloudCredo acquired by Pivotal/VMware"
-      source: "Syntasso About page"
-      date: "2024-01-01"
-      confidence: "explicit_statement"
-    - fact: "Alexandr Vidiborschii appointed as Director on July 24, 2023 as Investment Professional"
-      source: "Companies House UK"
-      date: "2023-07-24"
-      confidence: "explicit_statement"
-    - fact: "No executive departures in past 24 months with all founders remaining in original positions"
-      source: "Companies House UK"
-      date: "2025-09-27"
-      confidence: "explicit_statement"
-    - fact: "Employee count reported as 19 total employees"
-      source: "PitchBook"
-      date: "2025-01-01"
-      confidence: "explicit_statement"
-    - fact: "Employee count reported as 3 employees as of Dec 24"
-      source: "Tracxn"
-      date: "2024-12-31"
-      confidence: "explicit_statement"
-    - fact: "LinkedIn shows 2-10 employees with 11 employees viewable"
-      source: "LinkedIn company page"
-      date: "2024-01-01"
-      confidence: "explicit_statement"
-    - fact: "No Glassdoor reviews found specifically for Syntasso"
-      source: "Glassdoor"
-      date: "2025-09-27"
-      confidence: "explicit_statement"
-    - fact: "Registered office at 23 Fitzroy Road, Fleet, Hampshire, GU51 4JJ"
-      source: "Companies House UK"
-      date: "2024-01-01"
-      confidence: "explicit_statement"
-    - fact: "Working office available near London Bridge station with optional attendance"
-      source: "Syntasso careers page"
-      date: "2024-01-01"
-      confidence: "explicit_statement"
-    - fact: "Remote work policy supports UK time zone with up to 3 days per week office requirement"
-      source: "Syntasso careers page"
-      date: "2024-01-01"
-      confidence: "explicit_statement"
-    - fact: "Fortnightly Team Office Day mandatory every other Wednesday"
-      source: "Syntasso careers page"
-      date: "2024-01-01"
-      confidence: "explicit_statement"
-    - fact: "Company has 11-50 employees according to LinkedIn"
-      source: "LinkedIn Company Page"
-      date: "2025-02-26"
-      confidence: "explicit_statement"
-    - fact: "Co-Founder and COO Paula Kennedy has 20+ years IT experience"
-      source: "Syntasso About Us"
-      date: "2023-12-17"
-      confidence: "explicit_statement"
-    - fact: "Co-Founder and VP Product Engineering Chris Hedley has over 15 years experience building internal platforms"
-      source: "Syntasso About Us"
-      date: "2023-12-17"
-      confidence: "explicit_statement"
-    - fact: "Colin Humphreys previously held senior roles at VMware as Chief Technologist Tanzu R&D and at Pivotal as CTO Cloud"
-      source: "LinkedIn Profile"
-      date: "2024-11-14"
-      confidence: "explicit_statement"
-    - fact: "Paula Kennedy previously held role as Senior Director of Tanzu Global Education at VMware"
-      source: "InfoQ Profile"
-      date: "2015-05-30"
-      confidence: "explicit_statement"
-    - fact: "Daniel Bryant joined as GTM advisor in February 2024"
-      source: "LinkedIn Post"
-      date: "2024-02-04"
-      confidence: "explicit_statement"
+  - fact: Colin Humphreys serves as Co-Founder and CEO since February 2021
+    source: Companies House UK
+    date: '2024-01-01'
+    confidence: explicit_statement
+  - fact: Paula Kennedy serves as Co-Founder and COO since February 2021
+    source: Companies House UK
+    date: '2024-01-01'
+    confidence: explicit_statement
+  - fact: Christopher Hedley serves as Co-Founder and VP of Engineering since February
+      2021
+    source: Companies House UK
+    date: '2024-01-01'
+    confidence: explicit_statement
+  - fact: All three co-founders previously built and exited CloudCredo acquired by
+      Pivotal/VMware
+    source: Syntasso About page
+    date: '2024-01-01'
+    confidence: explicit_statement
+  - fact: Alexandr Vidiborschii appointed as Director on July 24, 2023 as Investment
+      Professional
+    source: Companies House UK
+    date: '2023-07-24'
+    confidence: explicit_statement
+  - fact: No executive departures in past 24 months with all founders remaining in
+      original positions
+    source: Companies House UK
+    date: '2025-09-27'
+    confidence: explicit_statement
+  - fact: Employee count reported as 19 total employees
+    source: PitchBook
+    date: '2025-01-01'
+    confidence: explicit_statement
+  - fact: Employee count reported as 3 employees as of Dec 24
+    source: Tracxn
+    date: '2024-12-31'
+    confidence: explicit_statement
+  - fact: LinkedIn shows 2-10 employees with 11 employees viewable
+    source: LinkedIn company page
+    date: '2024-01-01'
+    confidence: explicit_statement
+  - fact: No Glassdoor reviews found specifically for Syntasso
+    source: Glassdoor
+    date: '2025-09-27'
+    confidence: explicit_statement
+  - fact: Registered office at 23 Fitzroy Road, Fleet, Hampshire, GU51 4JJ
+    source: Companies House UK
+    date: '2024-01-01'
+    confidence: explicit_statement
+  - fact: Working office available near London Bridge station with optional attendance
+    source: Syntasso careers page
+    date: '2024-01-01'
+    confidence: explicit_statement
+  - fact: Remote work policy supports UK time zone with up to 3 days per week office
+      requirement
+    source: Syntasso careers page
+    date: '2024-01-01'
+    confidence: explicit_statement
+  - fact: Fortnightly Team Office Day mandatory every other Wednesday
+    source: Syntasso careers page
+    date: '2024-01-01'
+    confidence: explicit_statement
+  - fact: Company has 11-50 employees according to LinkedIn
+    source: LinkedIn Company Page
+    date: '2025-02-26'
+    confidence: explicit_statement
+  - fact: Co-Founder and COO Paula Kennedy has 20+ years IT experience
+    source: Syntasso About Us
+    date: '2023-12-17'
+    confidence: explicit_statement
+  - fact: Co-Founder and VP Product Engineering Chris Hedley has over 15 years experience
+      building internal platforms
+    source: Syntasso About Us
+    date: '2023-12-17'
+    confidence: explicit_statement
+  - fact: Colin Humphreys previously held senior roles at VMware as Chief Technologist
+      Tanzu R&D and at Pivotal as CTO Cloud
+    source: LinkedIn Profile
+    date: '2024-11-14'
+    confidence: explicit_statement
+  - fact: Paula Kennedy previously held role as Senior Director of Tanzu Global Education
+      at VMware
+    source: InfoQ Profile
+    date: '2015-05-30'
+    confidence: explicit_statement
+  - fact: Daniel Bryant joined as GTM advisor in February 2024
+    source: LinkedIn Post
+    date: '2024-02-04'
+    confidence: explicit_statement
   missing_information:
-    - "Engineering-specific Glassdoor ratings"
-    - "Precise current headcount"
-    - "Hiring velocity metrics"
-    - "Employee sentiment on Blind"
-
+  - Engineering-specific Glassdoor ratings
+  - Precise current headcount
+  - Hiring velocity metrics
+  - Employee sentiment on Blind
 technical_culture:
   facts_found:
-    - fact: "Primary technology stack uses Go as main programming language for Kratix framework"
-      source: "GitHub syntasso/kratix"
-      date: "2024-09-27"
-      confidence: "explicit_statement"
-    - fact: "Maintains 29 public repositories on GitHub organization"
-      source: "GitHub.com/syntasso"
-      date: "2024-09-27"
-      confidence: "explicit_statement"
-    - fact: "Main Kratix repository has 655 stars and 43 forks with Apache 2.0 license"
-      source: "GitHub syntasso/kratix"
-      date: "2024-09-27"
-      confidence: "explicit_statement"
-    - fact: "Blog publishes multiple technical posts per month with deep platform engineering content"
-      source: "syntasso.io/blog"
-      date: "2024-01-01"
-      confidence: "explicit_statement"
-    - fact: "Abby Bangser and Paula Kennedy recognized as CNCF Ambassadors in May 2024"
-      source: "Syntasso blog"
-      date: "2024-05-01"
-      confidence: "explicit_statement"
-    - fact: "Team delivered 6 talks at PlatformCon 2024"
-      source: "PlatformCon 2024 speaker listings"
-      date: "2024-06-01"
-      confidence: "explicit_statement"
-    - fact: "Sponsored PlatEngDay at KubeCon North America 2024 in Salt Lake City"
-      source: "Syntasso blog"
-      date: "2024-11-01"
-      confidence: "explicit_statement"
-    - fact: "Abby Bangser co-leads CNCF Platforms Working Group"
-      source: "CNCF announcements"
-      date: "2024-01-01"
-      confidence: "explicit_statement"
-    - fact: "Syntasso listed as CNCF member organization as of March 2024"
-      source: "CNCF member listings"
-      date: "2024-03-01"
-      confidence: "explicit_statement"
-    - fact: "Plans to donate Kratix to CNCF when mature stated in public documents"
-      source: "OpenUK case study"
-      date: "2023-01-01"
-      confidence: "explicit_statement"
-    - fact: "Uses GitHub Actions and GitOps workflows with Flux for CI/CD"
-      source: "GitHub repository analysis"
-      date: "2024-09-27"
-      confidence: "explicit_statement"
-    - fact: "Integrates with Backstage, Terraform, Crossplane for platform capabilities"
-      source: "Product documentation"
-      date: "2024-01-01"
-      confidence: "explicit_statement"
-    - fact: "Active Slack workspace for community engagement and support"
-      source: "Syntasso website"
-      date: "2024-01-01"
-      confidence: "explicit_statement"
-    - fact: "Job postings focus on platform engineering expertise rather than AI/ML specialists"
-      source: "Job posting analysis"
-      date: "2024-11-01"
-      confidence: "implied"
-    - fact: "Company offers 35-hour work week with hybrid working policy"
-      source: "Syntasso Careers"
-      date: "2019-12-31"
-      confidence: "explicit_statement"
-    - fact: "Office located in London Bridge, hybrid policy requires Tuesday, Wednesday, Thursday in office"
-      source: "Syntasso Careers"
-      date: "2019-12-31"
-      confidence: "explicit_statement"
-    - fact: "Kratix is actively developed with 124 releases and 22 contributors"
-      source: "GitHub Kratix Repository"
-      date: "2021-05-16"
-      confidence: "explicit_statement"
-    - fact: "Company dedicates every other Friday as research day for experimentation and skill development"
-      source: "Syntasso Careers"
-      date: "2019-12-31"
-      confidence: "explicit_statement"
-    - fact: "Team members frequently speak at platform engineering conferences and contribute to CNCF initiatives"
-      source: "CNCF Blog Platform Democracy"
-      date: "2025-05-22"
-      confidence: "explicit_statement"
-    - fact: "Kratix is licensed under Apache 2.0 and encourages community contributions"
-      source: "GitHub Kratix Repository"
-      date: "2021-05-16"
-      confidence: "explicit_statement"
+  - fact: Primary technology stack uses Go as main programming language for Kratix
+      framework
+    source: GitHub syntasso/kratix
+    date: '2024-09-27'
+    confidence: explicit_statement
+  - fact: Maintains 29 public repositories on GitHub organization
+    source: GitHub.com/syntasso
+    date: '2024-09-27'
+    confidence: explicit_statement
+  - fact: Main Kratix repository has 655 stars and 43 forks with Apache 2.0 license
+    source: GitHub syntasso/kratix
+    date: '2024-09-27'
+    confidence: explicit_statement
+  - fact: Blog publishes multiple technical posts per month with deep platform engineering
+      content
+    source: syntasso.io/blog
+    date: '2024-01-01'
+    confidence: explicit_statement
+  - fact: Abby Bangser and Paula Kennedy recognized as CNCF Ambassadors in May 2024
+    source: Syntasso blog
+    date: '2024-05-01'
+    confidence: explicit_statement
+  - fact: Team delivered 6 talks at PlatformCon 2024
+    source: PlatformCon 2024 speaker listings
+    date: '2024-06-01'
+    confidence: explicit_statement
+  - fact: Sponsored PlatEngDay at KubeCon North America 2024 in Salt Lake City
+    source: Syntasso blog
+    date: '2024-11-01'
+    confidence: explicit_statement
+  - fact: Abby Bangser co-leads CNCF Platforms Working Group
+    source: CNCF announcements
+    date: '2024-01-01'
+    confidence: explicit_statement
+  - fact: Syntasso listed as CNCF member organization as of March 2024
+    source: CNCF member listings
+    date: '2024-03-01'
+    confidence: explicit_statement
+  - fact: Plans to donate Kratix to CNCF when mature stated in public documents
+    source: OpenUK case study
+    date: '2023-01-01'
+    confidence: explicit_statement
+  - fact: Uses GitHub Actions and GitOps workflows with Flux for CI/CD
+    source: GitHub repository analysis
+    date: '2024-09-27'
+    confidence: explicit_statement
+  - fact: Integrates with Backstage, Terraform, Crossplane for platform capabilities
+    source: Product documentation
+    date: '2024-01-01'
+    confidence: explicit_statement
+  - fact: Active Slack workspace for community engagement and support
+    source: Syntasso website
+    date: '2024-01-01'
+    confidence: explicit_statement
+  - fact: Job postings focus on platform engineering expertise rather than AI/ML specialists
+    source: Job posting analysis
+    date: '2024-11-01'
+    confidence: implied
+  - fact: Company offers 35-hour work week with hybrid working policy
+    source: Syntasso Careers
+    date: '2019-12-31'
+    confidence: explicit_statement
+  - fact: Office located in London Bridge, hybrid policy requires Tuesday, Wednesday,
+      Thursday in office
+    source: Syntasso Careers
+    date: '2019-12-31'
+    confidence: explicit_statement
+  - fact: Kratix is actively developed with 124 releases and 22 contributors
+    source: GitHub Kratix Repository
+    date: '2021-05-16'
+    confidence: explicit_statement
+  - fact: Company dedicates every other Friday as research day for experimentation
+      and skill development
+    source: Syntasso Careers
+    date: '2019-12-31'
+    confidence: explicit_statement
+  - fact: Team members frequently speak at platform engineering conferences and contribute
+      to CNCF initiatives
+    source: CNCF Blog Platform Democracy
+    date: '2025-05-22'
+    confidence: explicit_statement
+  - fact: Kratix is licensed under Apache 2.0 and encourages community contributions
+    source: GitHub Kratix Repository
+    date: '2021-05-16'
+    confidence: explicit_statement
   missing_information:
-    - "Specific AI/ML adoption roadmap"
-    - "StackShare profile details"
-    - "Engineering blog post frequency metrics"
-    - "GitHub contribution velocity trends"
-
+  - Specific AI/ML adoption roadmap
+  - StackShare profile details
+  - Engineering blog post frequency metrics
+  - GitHub contribution velocity trends
 summary:
   total_facts_found: 62
-  information_completeness: "medium"
-  most_recent_data_point: "2025-09-27"
-  oldest_data_point: "2023-01-01"
-
+  information_completeness: medium
+  most_recent_data_point: '2025-09-27'
+  oldest_data_point: '2023-01-01'

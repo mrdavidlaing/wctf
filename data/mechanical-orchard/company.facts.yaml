@@ -1,307 +1,258 @@
-company: "Mechanical Orchard"
-research_date: "2025-09-27"
-
+company: Mechanical Orchard
+company_slug: mechanical-orchard
+research_date: '2025-09-27'
 financial_health:
   facts_found:
-    - fact: "Raised $50 million Series B funding led by GV (Google Ventures) in August 2024"
-      source: "TechCrunch"
-      date: "2024-08-07"
-      confidence: "explicit_statement"
-
-    - fact: "Series B was unsolicited per CEO Rob Mee"
-      source: "Company statement"
-      date: "2024-08-06"
-      confidence: "explicit_statement"
-
-    - fact: "Raised $24 million Series A funding led by Emergence Capital in February 2024"
-      source: "SiliconANGLE"
-      date: "2024-02-07"
-      confidence: "explicit_statement"
-
-    - fact: "Series A valued company at $95 million"
-      source: "SiliconANGLE"
-      date: "2024-02-07"
-      confidence: "explicit_statement"
-
-    - fact: "Total funding reached $74 million after Series B"
-      source: "TechCrunch"
-      date: "2024-08-07"
-      confidence: "explicit_statement"
-
-    - fact: "Company was profitable with over $10 million annual revenue by end of 2023"
-      source: "SiliconANGLE"
-      date: "2024-02-07"
-      confidence: "explicit_statement"
-
-    - fact: "Achieved $10M revenue within 16 months of founding"
-      source: "SiliconANGLE"
-      date: "2024-02-07"
-      confidence: "explicit_statement"
-
-    - fact: "Lost one of their 2 customers end of 2023 due to customer acquisition"
-      source: "Insider information"
-      date: "2025-09-27"
-      confidence: "explicit_statement"
-
-    - fact: "Stopped being profitable after losing major customer"
-      source: "Insider information"
-      date: "2025-09-27"
-      confidence: "explicit_statement"
-
-    - fact: "Maintains 18 months of runway as of late 2024"
-      source: "Insider information"
-      date: "2025-09-27"
-      confidence: "explicit_statement"
-
-    - fact: "Investors include GV, Emergence Capital, Fin Capital, MongoDB, Industry Ventures, Spider Capital"
-      source: "Mechanical Orchard press release"
-      date: "2025-06-09"
-      confidence: "explicit_statement"
-
-    - fact: "Head of Sales laid off end of 2024"
-      source: "Insider information"
-      date: "2025-09-27"
-      confidence: "explicit_statement"
-
+  - fact: Raised $50 million Series B funding led by GV (Google Ventures) in August
+      2024
+    source: TechCrunch
+    date: '2024-08-07'
+    confidence: explicit_statement
+  - fact: Series B was unsolicited per CEO Rob Mee
+    source: Company statement
+    date: '2024-08-06'
+    confidence: explicit_statement
+  - fact: Raised $24 million Series A funding led by Emergence Capital in February
+      2024
+    source: SiliconANGLE
+    date: '2024-02-07'
+    confidence: explicit_statement
+  - fact: Series A valued company at $95 million
+    source: SiliconANGLE
+    date: '2024-02-07'
+    confidence: explicit_statement
+  - fact: Total funding reached $74 million after Series B
+    source: TechCrunch
+    date: '2024-08-07'
+    confidence: explicit_statement
+  - fact: Company was profitable with over $10 million annual revenue by end of 2023
+    source: SiliconANGLE
+    date: '2024-02-07'
+    confidence: explicit_statement
+  - fact: Achieved $10M revenue within 16 months of founding
+    source: SiliconANGLE
+    date: '2024-02-07'
+    confidence: explicit_statement
+  - fact: Lost one of their 2 customers end of 2023 due to customer acquisition
+    source: Insider information
+    date: '2025-09-27'
+    confidence: explicit_statement
+  - fact: Stopped being profitable after losing major customer
+    source: Insider information
+    date: '2025-09-27'
+    confidence: explicit_statement
+  - fact: Maintains 18 months of runway as of late 2024
+    source: Insider information
+    date: '2025-09-27'
+    confidence: explicit_statement
+  - fact: Investors include GV, Emergence Capital, Fin Capital, MongoDB, Industry
+      Ventures, Spider Capital
+    source: Mechanical Orchard press release
+    date: '2025-06-09'
+    confidence: explicit_statement
+  - fact: Head of Sales laid off end of 2024
+    source: Insider information
+    date: '2025-09-27'
+    confidence: explicit_statement
   missing_information:
-    - "Specific burn rate not publicly disclosed"
-    - "Customer concentration percentages unavailable (though insider info reveals it was 50%)"
-    - "MRR/ARR breakdown not available"
-
+  - Specific burn rate not publicly disclosed
+  - Customer concentration percentages unavailable (though insider info reveals it
+    was 50%)
+  - MRR/ARR breakdown not available
 market_position:
   facts_found:
-    - fact: "Main product is Imogen, an end-to-end mainframe modernization platform launched April 2025"
-      source: "Business Wire"
-      date: "2025-04-03"
-      confidence: "explicit_statement"
-
-    - fact: "Product is currently vaporware despite public launch announcement"
-      source: "Insider information"
-      date: "2025-09-27"
-      confidence: "explicit_statement"
-
-    - fact: "Uses AI-enhanced tools to rebuild legacy applications into cloud-native systems"
-      source: "TechCrunch"
-      date: "2024-08-07"
-      confidence: "explicit_statement"
-
-    - fact: "Creates behavioral replicas of mainframe systems rather than code translation"
-      source: "Company website"
-      date: "2025-04-03"
-      confidence: "explicit_statement"
-
-    - fact: "Named 2025 Gartner Cool Vendor in AI Code Assistants"
-      source: "Mechanical Orchard press release"
-      date: "2025-06-09"
-      confidence: "explicit_statement"
-
-    - fact: "Total addressable market for legacy modernization estimated at $66 billion by Gartner"
-      source: "Mechanical Orchard press release"
-      date: "2025-06-09"
-      confidence: "explicit_statement"
-
-    - fact: "71% of Fortune 500 companies still depend on mainframe systems"
-      source: "Mechanical Orchard press release"
-      date: "2024-08-06"
-      confidence: "explicit_statement"
-
-    - fact: "Mainframes support $13 trillion of US economy"
-      source: "Mechanical Orchard press release"
-      date: "2024-08-06"
-      confidence: "explicit_statement"
-
-    - fact: "Primary competitors include Kyndryl, AWS, Google Cloud, Microsoft, Rocket Software"
-      source: "Network World"
-      date: "2025-04-01"
-      confidence: "explicit_statement"
-
-    - fact: "Traditional modernization approaches have 75% failure rate"
-      source: "Company statement"
-      date: "2025-04-03"
-      confidence: "explicit_statement"
-
-    - fact: "Announced strategic partnership with Thoughtworks in April 2025"
-      source: "Business Wire"
-      date: "2025-04-03"
-      confidence: "explicit_statement"
-
-    - fact: "Partnership with Thoughtworks used to get foot in door at Fortune 500 clients"
-      source: "Insider information"
-      date: "2025-09-27"
-      confidence: "explicit_statement"
-
-    - fact: "Failed to land any new customers throughout 2024"
-      source: "Insider information"
-      date: "2025-09-27"
-      confidence: "explicit_statement"
-
-    - fact: "Pivoted end of 2024 to position as product company rather than services"
-      source: "Insider information"
-      date: "2025-09-27"
-      confidence: "explicit_statement"
-
-    - fact: "Launched 'demo ware' at Google conference as part of pivot"
-      source: "Insider information"
-      date: "2025-09-27"
-      confidence: "explicit_statement"
-
-    - fact: "Landed 5 paid proof of concept contracts at Fortune 500 companies"
-      source: "Insider information"
-      date: "2025-09-27"
-      confidence: "explicit_statement"
-
-    - fact: "Clients include global retailers, public sector, logistics and CPG companies"
-      source: "Mechanical Orchard press release"
-      date: "2025-06-09"
-      confidence: "explicit_statement"
-
-    - fact: "Market expected to grow from $8.39B (2025) to $13.34B (2030) at 9.7% CAGR"
-      source: "MarketsandMarkets"
-      date: "2024-12-31"
-      confidence: "explicit_statement"
-
+  - fact: Main product is Imogen, an end-to-end mainframe modernization platform launched
+      April 2025
+    source: Business Wire
+    date: '2025-04-03'
+    confidence: explicit_statement
+  - fact: Product is currently vaporware despite public launch announcement
+    source: Insider information
+    date: '2025-09-27'
+    confidence: explicit_statement
+  - fact: Uses AI-enhanced tools to rebuild legacy applications into cloud-native
+      systems
+    source: TechCrunch
+    date: '2024-08-07'
+    confidence: explicit_statement
+  - fact: Creates behavioral replicas of mainframe systems rather than code translation
+    source: Company website
+    date: '2025-04-03'
+    confidence: explicit_statement
+  - fact: Named 2025 Gartner Cool Vendor in AI Code Assistants
+    source: Mechanical Orchard press release
+    date: '2025-06-09'
+    confidence: explicit_statement
+  - fact: Total addressable market for legacy modernization estimated at $66 billion
+      by Gartner
+    source: Mechanical Orchard press release
+    date: '2025-06-09'
+    confidence: explicit_statement
+  - fact: 71% of Fortune 500 companies still depend on mainframe systems
+    source: Mechanical Orchard press release
+    date: '2024-08-06'
+    confidence: explicit_statement
+  - fact: Mainframes support $13 trillion of US economy
+    source: Mechanical Orchard press release
+    date: '2024-08-06'
+    confidence: explicit_statement
+  - fact: Primary competitors include Kyndryl, AWS, Google Cloud, Microsoft, Rocket
+      Software
+    source: Network World
+    date: '2025-04-01'
+    confidence: explicit_statement
+  - fact: Traditional modernization approaches have 75% failure rate
+    source: Company statement
+    date: '2025-04-03'
+    confidence: explicit_statement
+  - fact: Announced strategic partnership with Thoughtworks in April 2025
+    source: Business Wire
+    date: '2025-04-03'
+    confidence: explicit_statement
+  - fact: Partnership with Thoughtworks used to get foot in door at Fortune 500 clients
+    source: Insider information
+    date: '2025-09-27'
+    confidence: explicit_statement
+  - fact: Failed to land any new customers throughout 2024
+    source: Insider information
+    date: '2025-09-27'
+    confidence: explicit_statement
+  - fact: Pivoted end of 2024 to position as product company rather than services
+    source: Insider information
+    date: '2025-09-27'
+    confidence: explicit_statement
+  - fact: Launched 'demo ware' at Google conference as part of pivot
+    source: Insider information
+    date: '2025-09-27'
+    confidence: explicit_statement
+  - fact: Landed 5 paid proof of concept contracts at Fortune 500 companies
+    source: Insider information
+    date: '2025-09-27'
+    confidence: explicit_statement
+  - fact: Clients include global retailers, public sector, logistics and CPG companies
+    source: Mechanical Orchard press release
+    date: '2025-06-09'
+    confidence: explicit_statement
+  - fact: Market expected to grow from $8.39B (2025) to $13.34B (2030) at 9.7% CAGR
+    source: MarketsandMarkets
+    date: '2024-12-31'
+    confidence: explicit_statement
   missing_information:
-    - "Customer reviews on G2, Capterra, or Gartner Peer Insights not available"
-    - "Specific market share percentage not disclosed"
-    - "Pricing model and typical contract values not public"
-    - "Conversion rate of POCs to full contracts unknown"
-
+  - Customer reviews on G2, Capterra, or Gartner Peer Insights not available
+  - Specific market share percentage not disclosed
+  - Pricing model and typical contract values not public
+  - Conversion rate of POCs to full contracts unknown
 organizational_stability:
   facts_found:
-    - fact: "CEO Rob Mee is founder and former CEO of Pivotal Labs"
-      source: "TechCrunch"
-      date: "2024-08-07"
-      confidence: "explicit_statement"
-
-    - fact: "Rob Mee led Pivotal through $2.7B acquisition by VMware"
-      source: "Company website"
-      date: "2024-08-07"
-      confidence: "explicit_statement"
-
-    - fact: "COO and Co-Founder is Matthew Work"
-      source: "Company website"
-      date: "2024-12-31"
-      confidence: "explicit_statement"
-
-    - fact: "VP of R&D is Dan Podsedly, founding member of Pivotal Labs"
-      source: "LinkedIn"
-      date: "2025-09-27"
-      confidence: "explicit_statement"
-
-    - fact: "Edward Hieatt joined as Chief Customer Officer in April 2024, formerly VMware"
-      source: "Company press release"
-      date: "2024-04-23"
-      confidence: "explicit_statement"
-
-    - fact: "Kent Beck, XP creator, was Chief Scientist but departed in 2024"
-      source: "Company website"
-      date: "2024-12-31"
-      confidence: "explicit_statement"
-
-    - fact: "Company has approximately 117-122 employees as of August 2025"
-      source: "LeadIQ"
-      date: "2025-08-31"
-      confidence: "explicit_statement"
-
-    - fact: "Employee count grew 34% year-over-year"
-      source: "Growjo"
-      date: "2024-02-07"
-      confidence: "explicit_statement"
-
-    - fact: "Headquartered in San Francisco with offices in UK, Ireland, Italy, Germany"
-      source: "Mechanical Orchard press release"
-      date: "2024-08-06"
-      confidence: "explicit_statement"
-
-    - fact: "Company describes itself as remote-friendly and remote-first"
-      source: "Himalayas"
-      date: "2025-09-27"
-      confidence: "explicit_statement"
-
-    - fact: "Founded in October 2022"
-      source: "Clay"
-      date: "2024-01-07"
-      confidence: "explicit_statement"
-
+  - fact: CEO Rob Mee is founder and former CEO of Pivotal Labs
+    source: TechCrunch
+    date: '2024-08-07'
+    confidence: explicit_statement
+  - fact: Rob Mee led Pivotal through $2.7B acquisition by VMware
+    source: Company website
+    date: '2024-08-07'
+    confidence: explicit_statement
+  - fact: COO and Co-Founder is Matthew Work
+    source: Company website
+    date: '2024-12-31'
+    confidence: explicit_statement
+  - fact: VP of R&D is Dan Podsedly, founding member of Pivotal Labs
+    source: LinkedIn
+    date: '2025-09-27'
+    confidence: explicit_statement
+  - fact: Edward Hieatt joined as Chief Customer Officer in April 2024, formerly VMware
+    source: Company press release
+    date: '2024-04-23'
+    confidence: explicit_statement
+  - fact: Kent Beck, XP creator, was Chief Scientist but departed in 2024
+    source: Company website
+    date: '2024-12-31'
+    confidence: explicit_statement
+  - fact: Company has approximately 117-122 employees as of August 2025
+    source: LeadIQ
+    date: '2025-08-31'
+    confidence: explicit_statement
+  - fact: Employee count grew 34% year-over-year
+    source: Growjo
+    date: '2024-02-07'
+    confidence: explicit_statement
+  - fact: Headquartered in San Francisco with offices in UK, Ireland, Italy, Germany
+    source: Mechanical Orchard press release
+    date: '2024-08-06'
+    confidence: explicit_statement
+  - fact: Company describes itself as remote-friendly and remote-first
+    source: Himalayas
+    date: '2025-09-27'
+    confidence: explicit_statement
+  - fact: Founded in October 2022
+    source: Clay
+    date: '2024-01-07'
+    confidence: explicit_statement
   missing_information:
-    - "No CTO role identified, VP R&D appears to be senior technical leader"
-    - "Glassdoor engineering-specific rating not available (only 2 total reviews)"
-    - "Specific details on Kent Beck's departure timing and reasons (though correlates with business struggles)"
-    - "LinkedIn hiring velocity metrics not accessible"
-    - "Impact of sales leadership departure on organization"
-
+  - No CTO role identified, VP R&D appears to be senior technical leader
+  - Glassdoor engineering-specific rating not available (only 2 total reviews)
+  - Specific details on Kent Beck's departure timing and reasons (though correlates
+    with business struggles)
+  - LinkedIn hiring velocity metrics not accessible
+  - Impact of sales leadership departure on organization
 technical_culture:
   facts_found:
-    - fact: "Primary languages are Elixir, Golang, and Java"
-      source: "Job postings"
-      date: "2025-09-27"
-      confidence: "explicit_statement"
-
-    - fact: "Tech stack includes AWS (EC2, S3, CloudFront), Cloudflare, Phoenix, LiveView"
-      source: "Himalayas"
-      date: "2025-09-27"
-      confidence: "explicit_statement"
-
-    - fact: "Practices Extreme Programming (XP) with pair programming and TDD"
-      source: "Engineering blog"
-      date: "2023-08-22"
-      confidence: "explicit_statement"
-
-    - fact: "GitHub organization maintains 34 public repositories"
-      source: "GitHub"
-      date: "2025-08-24"
-      confidence: "explicit_statement"
-
-    - fact: "Notable repos include playwright-elixir, cobol-rekt-rd, typedstruct"
-      source: "GitHub"
-      date: "2025-09-27"
-      confidence: "explicit_statement"
-
-    - fact: "Engineering blog publishes technical content monthly with code examples"
-      source: "Mechanical Orchard blog"
-      date: "2025-06-30"
-      confidence: "explicit_statement"
-
-    - fact: "Company describes itself as GenAI-native and AI-native technology company"
-      source: "TechCrunch"
-      date: "2024-08-07"
-      confidence: "explicit_statement"
-
-    - fact: "Uses AI as pair programmer in modernization platform"
-      source: "Himalayas"
-      date: "2025-09-27"
-      confidence: "explicit_statement"
-
-    - fact: "CEO Rob Mee appeared on Thoughtworks Technology Podcast"
-      source: "Mechanical Orchard newsletter"
-      date: "2025-06-30"
-      confidence: "explicit_statement"
-
-    - fact: "Dan Podsedly co-presented at Google Cloud Next 2024 on mainframe modernization"
-      source: "Google Cloud Next"
-      date: "2024-04-10"
-      confidence: "explicit_statement"
-
-    - fact: "Job postings require skills in Agile, Elixir, TDD, AI, and DevSecOps"
-      source: "Himalayas"
-      date: "2025-09-27"
-      confidence: "explicit_statement"
-
-    - fact: "AI Sandwich framework for interleaving AI and traditional techniques"
-      source: "Engineering blog"
-      date: "2024-03-07"
-      confidence: "explicit_statement"
-
+  - fact: Primary languages are Elixir, Golang, and Java
+    source: Job postings
+    date: '2025-09-27'
+    confidence: explicit_statement
+  - fact: Tech stack includes AWS (EC2, S3, CloudFront), Cloudflare, Phoenix, LiveView
+    source: Himalayas
+    date: '2025-09-27'
+    confidence: explicit_statement
+  - fact: Practices Extreme Programming (XP) with pair programming and TDD
+    source: Engineering blog
+    date: '2023-08-22'
+    confidence: explicit_statement
+  - fact: GitHub organization maintains 34 public repositories
+    source: GitHub
+    date: '2025-08-24'
+    confidence: explicit_statement
+  - fact: Notable repos include playwright-elixir, cobol-rekt-rd, typedstruct
+    source: GitHub
+    date: '2025-09-27'
+    confidence: explicit_statement
+  - fact: Engineering blog publishes technical content monthly with code examples
+    source: Mechanical Orchard blog
+    date: '2025-06-30'
+    confidence: explicit_statement
+  - fact: Company describes itself as GenAI-native and AI-native technology company
+    source: TechCrunch
+    date: '2024-08-07'
+    confidence: explicit_statement
+  - fact: Uses AI as pair programmer in modernization platform
+    source: Himalayas
+    date: '2025-09-27'
+    confidence: explicit_statement
+  - fact: CEO Rob Mee appeared on Thoughtworks Technology Podcast
+    source: Mechanical Orchard newsletter
+    date: '2025-06-30'
+    confidence: explicit_statement
+  - fact: Dan Podsedly co-presented at Google Cloud Next 2024 on mainframe modernization
+    source: Google Cloud Next
+    date: '2024-04-10'
+    confidence: explicit_statement
+  - fact: Job postings require skills in Agile, Elixir, TDD, AI, and DevSecOps
+    source: Himalayas
+    date: '2025-09-27'
+    confidence: explicit_statement
+  - fact: AI Sandwich framework for interleaving AI and traditional techniques
+    source: Engineering blog
+    date: '2024-03-07'
+    confidence: explicit_statement
   missing_information:
-    - "StackShare profile not found"
-    - "Hacker News discussion threads not significant"
-    - "Specific open source contribution metrics beyond repository count"
-    - "Detailed GitHub activity metrics (commits, contributors)"
-    - "Engineering allocation between vaporware demos vs real product development"
-
+  - StackShare profile not found
+  - Hacker News discussion threads not significant
+  - Specific open source contribution metrics beyond repository count
+  - Detailed GitHub activity metrics (commits, contributors)
+  - Engineering allocation between vaporware demos vs real product development
 summary:
   total_facts_found: 61
-  information_completeness: "high"
-  most_recent_data_point: "2025-09-27"
-  oldest_data_point: "2022-10-17"
-
+  information_completeness: high
+  most_recent_data_point: '2025-09-27'
+  oldest_data_point: '2022-10-17'

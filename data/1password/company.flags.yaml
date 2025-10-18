@@ -1,0 +1,113 @@
+company: 1Password
+company_slug: 1password
+evaluation_date: 2025-09-28
+evaluator_context: 25yr staff engineer, sustainable excellence focus
+senior_engineer_alignment:
+  organizational_maturity: EXCELLENT
+  technical_culture: EXCELLENT
+  decision_making: GOOD
+  work_sustainability: GOOD
+  growth_trajectory: EXCELLENT
+green_flags:
+  mountain_range:
+    critical_matches:
+    - flag: Profitable since day one, cash-flow positive, ARR $318M
+      impact: No startup gambling - sustainable foundation for multi-quarter projects
+      confidence: Very high - explicitly stated multiple places
+    - flag: Zero layoffs in 18 months despite 35% headcount growth
+      impact: Protected engineering budget, no quarterly resource thrashing
+      confidence: High - extensive search found nothing
+    strong_positives:
+    - flag: IPO trajectory for 2025-2026
+      impact: Equity upside without startup risk
+      confidence: High - CEO statements to press
+  chosen_peak:
+    critical_matches:
+    - flag: 500k+ lines of Rust, Rails Foundation core member
+      impact: Serious technical investment, not just CRUD app maintenance
+      confidence: Very high - documented in engineering blog
+    - flag: 26+ security audits, zero breaches in 15 years
+      impact: Engineering excellence actually matters here
+      confidence: Very high - core to business model
+    strong_positives:
+    - flag: Pioneering Extended Access Management category
+      impact: Interesting technical challenges beyond password storage
+      confidence: High - major product launch
+  rope_team_confidence:
+    critical_matches: []
+    strong_positives:
+    - flag: VP Engineering Nancy Wang from AWS Director role
+      impact: Technical leadership with IC credibility
+      confidence: High - public announcement
+  daily_climb:
+    critical_matches:
+    - flag: Fully remote since founding 15+ years ago
+      impact: Mature remote culture, not pandemic-forced experiment
+      confidence: Very high - foundational to company
+    strong_positives: []
+  story_worth_telling:
+    critical_matches: []
+    strong_positives: []
+red_flags:
+  mountain_range:
+    dealbreakers: []
+    concerning:
+    - flag: 35% YoY headcount growth causing growing pains
+      impact: Potential for reorg chaos, process instability
+      confidence: Medium - implied from reviews
+  chosen_peak:
+    dealbreakers: []
+    concerning: []
+  rope_team_confidence:
+    dealbreakers: []
+    concerning: []
+  daily_climb:
+    dealbreakers: []
+    concerning:
+    - flag: Glassdoor 3.2/5 with only 54% recommend to friend
+      impact: Potential cultural issues affecting daily experience
+      confidence: High - consistent across 324 reviews
+    - flag: Compensation below market per multiple reviews
+      impact: May not meet $300k family income target easily
+      confidence: High - recurring theme
+    - flag: Geographic pay disparities reported
+      impact: Dublin location may face compensation discrimination
+      confidence: Medium - mentioned in reviews
+  story_worth_telling:
+    dealbreakers: []
+    concerning: []
+missing_critical_data:
+- question: What's the actual meeting load for staff engineers?
+  why_important: Critical for maker time protection
+  how_to_find: Ask for actual calendar screenshots in interview
+  mountain_element: daily_climb
+- question: AI/LLM tool policy - encouraged or restricted?
+  why_important: Dealbreaker if tools are banned
+  how_to_find: Direct question about Copilot/ChatGPT usage
+  mountain_element: chosen_peak
+- question: Deployment frequency and CI/CD maturity?
+  why_important: Determines daily friction levels
+  how_to_find: Ask about PR-to-production metrics
+  mountain_element: chosen_peak
+- question: Manager span of control and team structure?
+  why_important: Manager bandwidth critical for support
+  how_to_find: Org chart discussion with hiring manager
+  mountain_element: rope_team_confidence
+- question: How are technical decisions actually made?
+  why_important: Need structured frameworks, not chaos
+  how_to_find: Ask for ADR examples, decision reversal stories
+  mountain_element: rope_team_confidence
+synthesis:
+  mountain_worth_climbing: true
+  sustainability_confidence: HIGH
+  primary_strengths:
+  - Rock-solid financial foundation - no startup anxiety
+  - Serious Rust/technical investment - not maintenance mode
+  - Mature remote culture - 15 years of practice
+  primary_risks:
+  - Cultural health questions need investigation
+  - Compensation may require negotiation
+  - Rapid growth could mean process instability
+  confidence_level: HIGH
+  next_investigation: Focus interviews on team-specific culture, meeting load, and
+    actual compensation bands for Dublin

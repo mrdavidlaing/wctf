@@ -52,10 +52,11 @@ This project uses a **hybrid architecture** separating concerns:
 │   └── get_company_info.py   # Get detailed company info
 │
 ├── scripts/                   # Maintenance/operational tools
-│   ├── check_duplicates.py   # Find duplicate facts
-│   ├── show_duplicates.py    # Show duplicate details
-│   ├── merge_duplicates.py   # Auto-merge duplicates
-│   └── README.md             # Script documentation
+│   ├── check_duplicates.py        # Find duplicate facts
+│   ├── show_duplicates.py         # Show duplicate details
+│   ├── merge_duplicates.py        # Auto-merge duplicates
+│   ├── migrate_company_directories.py  # Migrate to slugified directory names
+│   └── README.md                  # Script documentation
 │
 ├── tests/                     # Test suite (173 tests)
 │   ├── test_company_tools.py # Company operations tests
@@ -103,6 +104,37 @@ client.save_facts("NewCompany", yaml_content)
 ```
 
 See `docs/SDK_REFERENCE.md` for complete API documentation.
+
+### Company Name Slugification
+
+Company names are automatically converted to filesystem-safe "slugs" for directory names:
+- **Display name** (stored in YAML): Original name like "Toast, Inc." or "Affirm Holdings Inc."
+- **Slug** (directory name): Lowercase with hyphens like "toast-inc" or "affirm-holdings-inc"
+
+**How it works:**
+```python
+from wctf_core.utils.paths import slugify_company_name
+
+slugify_company_name("Toast, Inc.")        # → "toast-inc"
+slugify_company_name("Affirm Holdings Inc.")  # → "affirm-holdings-inc"
+slugify_company_name("1Password")          # → "1password"
+```
+
+**Automatic behavior:**
+- Path utilities (`get_company_dir`, `get_facts_path`, etc.) automatically slugify names
+- Pydantic models auto-generate `company_slug` field if not provided
+- Directory structure uses slugs, YAML files store both display name and slug
+
+**Directory structure:**
+```
+data/
+├── toast-inc/              # Slugified directory name
+│   ├── company.facts.yaml  # Contains: company: "Toast, Inc." + company_slug: "toast-inc"
+│   └── company.flags.yaml
+├── affirm-holdings-inc/
+│   ├── company.facts.yaml
+│   └── company.flags.yaml
+```
 
 ### Running Example Scripts
 

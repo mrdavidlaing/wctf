@@ -1,0 +1,223 @@
+company: 1Password
+company_slug: 1password
+research_date: '2025-09-28'
+financial_health:
+  facts_found:
+  - fact: Raised $620M Series C in January 2022 at $6.8B valuation
+    source: TechCrunch, Wikipedia
+    date: '2022-01-19'
+    confidence: explicit_statement
+  - fact: 'Total funding raised: $920.14M across three rounds'
+    source: Tracxn, Clay
+    date: '2022-01-19'
+    confidence: explicit_statement
+  - fact: ARR reached $318M in 2024 (Getlatka), up from $265M in 2023 (33% YoY)
+    source: Getlatka, Sacra
+    date: '2024-12-31'
+    confidence: explicit_statement
+  - fact: B2B revenue growing 50% YoY, accounts for 75% of total revenue
+    source: BetaKit, LinkedIn
+    date: '2024-11-21'
+    confidence: explicit_statement
+  - fact: Profitable since day one, cash-flow positive, well capitalized
+    source: Contrary Research, CEO statements
+    date: '2025-02-06'
+    confidence: explicit_statement
+  - fact: No layoffs reported across 18 months (extensive search found zero)
+    source: Multiple sources checked
+    date: '2025-09-28'
+    confidence: implied
+  - fact: 150,000+ business customers, 15M+ total users
+    source: Company website, Getlatka
+    date: '2024-12-31'
+    confidence: explicit_statement
+  - fact: IPO planned for 2026 according to CEO David Faugno
+    source: Globe and Mail
+    date: '2024-11-21'
+    confidence: explicit_statement
+  - fact: Interviewing banks for potential 2025 IPO per Bloomberg
+    source: Bloomberg, BNN Bloomberg
+    date: '2024-11-21'
+    confidence: explicit_statement
+  missing_information:
+  - Specific burn rate and runway metrics
+  - Customer concentration percentages
+  - Detailed MRR breakdown
+  - Q4 2024 and Q1 2025 revenue figures
+market_position:
+  facts_found:
+  - fact: Password manager and Extended Access Management (XAM) platform provider
+    source: Company website, press releases
+    date: '2024-05-02'
+    confidence: explicit_statement
+  - fact: 'Market share: 7% of US password management, 0.1% of broader IAM'
+    source: Statista, Enlyft
+    date: '2024-12-31'
+    confidence: explicit_statement
+  - fact: "Password management TAM: $2.4B (2024) \u2192 $9-23B (2030-2033)"
+    source: Multiple market research firms
+    date: '2024-12-31'
+    confidence: explicit_statement
+  - fact: 'Market CAGR: 15.8-22.64% expected growth'
+    source: Industry analysts
+    date: '2024-12-31'
+    confidence: explicit_statement
+  - fact: 'Competitors: LastPass (21% share), Keeper (10%), Bitwarden (8%), Dashlane
+      (7%)'
+    source: Market research, Statista
+    date: '2024-12-31'
+    confidence: explicit_statement
+  - fact: 'G2: 4.7/5 (1,338 reviews), Capterra: 4.8/5 (2,052 reviews)'
+    source: G2, Capterra, SMB Guide
+    date: '2024-07-25'
+    confidence: explicit_statement
+  - fact: 'Trustpilot: 4/5 from 12,319+ reviews'
+    source: Trustpilot
+    date: '2024-12-31'
+    confidence: explicit_statement
+  - fact: Launched industry-first Extended Access Management solution May 2024
+    source: Business Wire, SiliconANGLE
+    date: '2024-05-02'
+    confidence: explicit_statement
+  - fact: Acquired Trelica (Jan 2025) and Kolide (Feb 2024)
+    source: Business Wire, TechCrunch
+    date: '2025-01-07'
+    confidence: explicit_statement
+  - fact: Partnership with Perplexity for AI browser security (Sep 2025)
+    source: Business Wire, BetaKit
+    date: '2025-09-17'
+    confidence: explicit_statement
+  missing_information:
+  - Gartner Magic Quadrant position
+  - Net Promoter Score
+  - Customer churn rate
+  - Win/loss rates vs competitors
+organizational_stability:
+  facts_found:
+  - fact: 'CEO: David Faugno (sole CEO since July 2025, co-CEO from Nov 2024)'
+    source: Business Wire
+    date: '2025-07-16'
+    confidence: explicit_statement
+  - fact: Former CEO Jeff Shiner now Executive Chair after 13 years
+    source: Business Wire, BetaKit
+    date: '2025-07-16'
+    confidence: explicit_statement
+  - fact: 'VP Engineering: Nancy Wang (former AWS Director)'
+    source: 1Password Blog
+    date: '2025-08-20'
+    confidence: explicit_statement
+  - fact: 'CPO: Abe Ankumah appointed March 2025'
+    source: 1Password Press
+    date: '2025-03-01'
+    confidence: explicit_statement
+  - fact: 'Employee count: 2,600-2,683 (2025), up 35% YoY'
+    source: LeadIQ, GrowJo
+    date: '2025-05-11'
+    confidence: explicit_statement
+  - fact: 'Glassdoor: 3.2/5 overall (324 reviews)'
+    source: Glassdoor
+    date: '2024-12-31'
+    confidence: explicit_statement
+  - fact: 'Blind: 3.9/5 overall, 4.1/5 work-life balance (27 reviews)'
+    source: TeamBlind
+    date: '2024-12-31'
+    confidence: explicit_statement
+  - fact: 'HQ: Toronto, Canada with global operations'
+    source: LinkedIn, Company website
+    date: '2025-09-28'
+    confidence: explicit_statement
+  - fact: Fully remote since founding 15+ years ago
+    source: 1Password Blog
+    date: '2021-09-07'
+    confidence: explicit_statement
+  - fact: 54% would recommend to friend (Glassdoor)
+    source: Glassdoor
+    date: '2024-12-31'
+    confidence: explicit_statement
+  missing_information:
+  - CTO specific information
+  - Engineering-specific Glassdoor ratings
+  - Executive turnover beyond CEO transition
+  - Detailed retention/attrition metrics
+technical_culture:
+  facts_found:
+  - fact: 'Tech stack: Go, Rust (500k+ lines), TypeScript, JavaScript, Python, WebAssembly'
+    source: Himalayas, Reddit, Engineering blog
+    date: '2025-06-26'
+    confidence: explicit_statement
+  - fact: 'Infrastructure: AWS, Kubernetes, Terraform, Docker'
+    source: Job postings, Engineering blog
+    date: '2024-12-31'
+    confidence: explicit_statement
+  - fact: Rails Foundation core member, 70% of Windows client in Rust
+    source: Serokell, Engineering blog
+    date: '2021-01-19'
+    confidence: explicit_statement
+  - fact: Active engineering blog with technical deep-dives
+    source: 1Password Blog
+    date: '2024-12-31'
+    confidence: explicit_statement
+  - fact: 'GitHub: 1.8k followers, active repos including onepassword-operator'
+    source: GitHub
+    date: '2025-06-07'
+    confidence: explicit_statement
+  - fact: 'Developer tools: CLI, VS Code extension, SDKs for multiple languages'
+    source: 1Password Blog
+    date: '2023-05-08'
+    confidence: explicit_statement
+  - fact: 'AI initiatives: Agentic AI Security launched April 2025'
+    source: 1Password Press
+    date: '2025-04-01'
+    confidence: explicit_statement
+  - fact: 'Security: 26+ independent audits completed, no breaches ever'
+    source: Company documentation
+    date: '2024-12-31'
+    confidence: explicit_statement
+  - fact: 'Conference presence: Rails World, BlackHat, DEF CON'
+    source: Conference websites
+    date: '2024-12-31'
+    confidence: explicit_statement
+  missing_information:
+  - Open source contribution metrics
+  - Engineering blog posting frequency
+  - Patent portfolio size
+  - Engineering team size breakdown
+  - Deployment frequency and practices
+summary:
+  total_facts_found: 49
+  information_completeness: high
+  most_recent_data_point: '2025-09-28'
+  oldest_data_point: '2021-01-19'
+  strengths:
+  - 'Exceptional financial health: Profitable, no layoffs, strong growth'
+  - Market leadership in enterprise password management
+  - Clean security record - no breaches in 15+ year history
+  - Modern tech stack with significant Rust investment
+  - Remote-first culture from inception
+  - IPO trajectory provides equity upside
+  - Pioneering Extended Access Management category
+  - Stable leadership transition planned over 1+ year
+  concerns:
+  - Mixed employee sentiment (3.2/5 Glassdoor)
+  - Compensation below market per employee reviews
+  - Rapid growth (35% headcount) causing growing pains
+  - Some reports of engineering culture issues on Blind
+  - Geographic pay disparities reported
+  - Only 54% would recommend to friend
+  verdict: HIGHLY VIABLE - Exceptional financial stability and market position offset
+    moderate cultural concerns
+  recommendation: 'RECOMMENDED WITH CAVEATS
+
+    - Negotiate compensation aggressively (known issue)
+
+    - Carefully assess team culture during interviews
+
+    - Clarify promotion paths and equity refresh policies
+
+    - Ideal for engineers seeking stability and remote work
+
+    - Strong fit for security/privacy-focused developers
+
+    - Good opportunity for Rust enthusiasts
+
+    '

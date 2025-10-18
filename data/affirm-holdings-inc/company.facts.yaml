@@ -1,0 +1,565 @@
+company: Affirm Holdings Inc.
+company_slug: affirm-holdings-inc
+research_date: '2025-10-17'
+financial_health:
+  facts_found:
+  - fact: Affirm completed IPO on January 13, 2021, pricing at $49.00 per share with
+      gross proceeds of approximately $1.2 billion
+    source: Business Wire press release, Affirm investor relations
+    date: '2021-01-13'
+    confidence: explicit_statement
+  - fact: Pre-IPO raised total of $1.5 billion in venture funding, with final Series
+      G round of $500 million in September 2020
+    source: Crunchbase
+    date: '2020-09-30'
+    confidence: explicit_statement
+  - fact: FY2025 TTM revenue is $3.224 billion, up 38.8% from FY2024's $2.323 billion
+    source: SEC filings, MacroTrends
+    date: '2025-06-30'
+    confidence: explicit_statement
+  - fact: Q2 FY2025 revenue was $866 million, up 47% YoY from $591 million in Q2 FY2024
+    source: Business Wire earnings release
+    date: '2024-12-31'
+    confidence: explicit_statement
+  - fact: FY2024 revenue was $2.323 billion, up 46.29% from FY2023's $1.588 billion
+    source: SEC 10-K filing
+    date: '2024-06-30'
+    confidence: explicit_statement
+  - fact: Q2 FY2025 achieved first profitable quarter with $80 million net income,
+      versus $167 million loss in Q2 FY2024
+    source: eMarketer, Business Wire
+    date: '2024-12-31'
+    confidence: explicit_statement
+  - fact: FY2025 full year net income was $52.2 million - first profitable fiscal
+      year
+    source: SEC filing data
+    date: '2025-06-30'
+    confidence: explicit_statement
+  - fact: Q4 FY2025 operating income was $58.1 million positive, versus $(73.5) million
+      loss in Q4 FY2024
+    source: SEC filing data
+    date: '2025-06-30'
+    confidence: explicit_statement
+  - fact: Q2 FY2025 RLTC (Revenue Less Transaction Costs) was $419 million, up 73%
+      YoY with 4.1% margin, above long-term target range of 3-4%
+    source: CNBC earnings report
+    date: '2024-12-31'
+    confidence: explicit_statement
+  - fact: As of June 30, 2025, Affirm had 2,206 employees, up 9.97% from 2,006 in
+      June 2024
+    source: MacroTrends, SEC 10-K filing
+    date: '2025-06-30'
+    confidence: explicit_statement
+  - fact: Employee count decreased from 2,552 (June 2022) to 2,171 (June 2023, -14.93%)
+      to 2,006 (June 2024, -7.6%) before rebounding in FY2025
+    source: MacroTrends, SEC 10-K filing
+    date: '2024-06-30'
+    confidence: explicit_statement
+  - fact: Affirm laid off 19% of workforce (approximately 500 employees) in February
+      2023, with CEO Max Levchin citing over-hiring during rapid growth
+    source: CNBC, Payments Dive
+    date: '2023-02-08'
+    confidence: explicit_statement
+  - fact: Additional layoffs of approximately 140 jobs (6% of workforce) occurred
+      in February 2024 from consolidation of operations teams
+    source: Payments Dive
+    date: '2024-02-15'
+    confidence: explicit_statement
+  - fact: No additional layoffs reported in 2024-2025 beyond February 2024 event;
+      employee count increased 9.97% by June 2025
+    source: Multiple news sources, SEC filings
+    date: '2025-06-30'
+    confidence: implied
+  - fact: As of June 30, 2025, Affirm had 23.0 million active consumers (excluding
+      Returnly), up 24% YoY - sixth consecutive quarter of accelerating growth
+    source: Shareholder letter Q4 FY2025
+    date: '2025-06-30'
+    confidence: explicit_statement
+  - fact: As of June 30, 2025, Affirm had 377,000 active merchants, up 24% YoY from
+      303,000 in June 2024
+    source: Shareholder letter Q4 FY2025, SEC 10-K
+    date: '2025-06-30'
+    confidence: explicit_statement
+  - fact: FY2025 full year GMV was $36.7 billion, up 38% from $26.6 billion in FY2024
+    source: SEC filing data
+    date: '2025-06-30'
+    confidence: explicit_statement
+  - fact: Affirm Card active cardholders reached 2.3 million as of June 30, 2025,
+      nearly doubling YoY
+    source: Shareholder letter Q4 FY2025
+    date: '2025-06-30'
+    confidence: explicit_statement
+  - fact: Transactions per active consumer were 5.3 in Q2 FY2025, up 22% YoY, indicating
+      strong engagement
+    source: PYMNTS
+    date: '2024-12-31'
+    confidence: explicit_statement
+  - fact: As of June 30, 2025, 30+ day delinquencies were 2.3%, improving from 2.5%
+      in December 2024
+    source: SEC filing data, earnings materials
+    date: '2025-06-30'
+    confidence: explicit_statement
+  missing_information:
+  - Specific cash and cash equivalents balance as of most recent quarter
+  - Monthly/quarterly cash burn figures (though company achieved profitability)
+  - Detailed EBITDA/non-GAAP metrics beyond RLTC
+  - Total debt outstanding and debt-to-equity ratios
+  - Specific capital expenditures figures
+  - Employee compensation levels and total comp data
+  - Employee breakdown by function (engineering vs operations vs sales)
+market_position:
+  facts_found:
+  - fact: Core products include Pay in 4 (interest-free bi-weekly), Pay in 2, Pay
+      in 30, and monthly installment loans from 3 to 60 months with APR from 0% to
+      36%
+    source: Affirm.com official website
+    date: '2024-06-06'
+    confidence: explicit_statement
+  - fact: Affirm Card is a Visa debit card with 1.7 million active users as of early
+      2025, allowing users to pay now or over time
+    source: Affirm.com, CNBC earnings report
+    date: '2025-02-06'
+    confidence: explicit_statement
+  - fact: Adaptive Checkout technology delivers personalized payment options using
+      real-time algorithms tailored to each purchase
+    source: Affirm.com business hub
+    date: 2024-2025
+    confidence: explicit_statement
+  - fact: Affirm never charges late fees, hidden fees, or compound interest - differentiating
+      from competitors like Klarna that generated $472 million (17% of revenue) from
+      junk fees in 2024
+    source: Affirm investor press release
+    date: '2025-02-01'
+    confidence: explicit_statement
+  - fact: Offers payment plans up to 48-60 months, significantly more flexible than
+      traditional Pay in 4 options used by competitors
+    source: Chargeflow comparison
+    date: '2024-01-01'
+    confidence: explicit_statement
+  - fact: Vertically integrated operations - does not outsource underwriting or critical
+      capital markets functions, unlike competitors
+    source: Affirm investor press release
+    date: '2025-01-01'
+    confidence: explicit_statement
+  - fact: Affirm accounts for one-third of US BNPL payment value and over half of
+      US BNPL revenue, making it the largest independent BNPL provider in the US
+    source: Wikipedia citing November 2024 statement
+    date: '2024-11-01'
+    confidence: explicit_statement
+  - fact: Affirm was fastest growing among major BNPL providers at 46% revenue growth
+      in 2024, compared to Afterpay at 25% and Klarna at 24%
+    source: Affirm investor press release
+    date: '2025-01-01'
+    confidence: explicit_statement
+  - fact: 18,532 American websites use Affirm as of 2025
+    source: Digital Silk statistics
+    date: '2025-01-01'
+    confidence: explicit_statement
+  - fact: Trustpilot rating is 2.4 out of 5 stars (Poor) based on over 7,000+ customer
+      reviews
+    source: Trustpilot
+    date: '2025-01-01'
+    confidence: explicit_statement
+  - fact: A+ BBB rating despite mixed consumer reviews
+    source: US News review
+    date: '2024-01-01'
+    confidence: explicit_statement
+  - fact: Merchants report 20% repeat purchase rate and 60%+ increase in average order
+      value when offering Affirm
+    source: Affirm.com business page
+    date: 2024-2025
+    confidence: explicit_statement
+  - fact: Operates in United States (primary), Canada, and United Kingdom (launched
+      November 2024)
+    source: Affirm.com FAQ, Wikipedia
+    date: '2024-11-01'
+    confidence: explicit_statement
+  - fact: Offices in San Francisco (HQ), Chicago, New York City, Pittsburgh, Toronto,
+      plus shared workspaces in Seattle, Warsaw, Madrid, London
+    source: affirm.com/careers
+    date: '2024-01-01'
+    confidence: explicit_statement
+  - fact: Consumer APR ranges from 0% to 36% based on credit, with Pay in 4 always
+      at 0% APR and no late fees or prepayment penalties
+    source: Affirm.com official disclosures
+    date: 2024-2025
+    confidence: explicit_statement
+  - fact: Merchant fees typically 5.99% + $0.30 per transaction, with range of 3-6%
+      averaging 4.9% for businesses with $500K-$10M annual sales
+    source: Merchant Maverick, HubSpot data
+    date: '2024-01-01'
+    confidence: explicit_statement
+  - fact: Amazon contributed 25% of Affirm's GMV in Q2 FY2025; partnership began August
+      2021
+    source: TradingView, Globe and Mail, CNBC
+    date: '2025-01-01'
+    confidence: explicit_statement
+  - fact: Klarna replaced Affirm as exclusive BNPL provider at Walmart in March 2025,
+      though Affirm Card still works; Walmart previously generated ~5% of GMV
+    source: Payments Dive, Wikipedia
+    date: '2025-03-17'
+    confidence: explicit_statement
+  - fact: Affirm is Shopify's exclusive pay-over-time provider with partnership expanding
+      internationally to Canada (Feb 2025), UK, Australia, France, Germany, Netherlands
+      planned
+    source: Wikipedia
+    date: '2025-02-01'
+    confidence: explicit_statement
+  - fact: Apple launched Affirm BNPL option in Apple Pay in September 2024 for US
+      users on iPhones and iPads
+    source: Payments Dive, CNBC
+    date: '2024-09-17'
+    confidence: explicit_statement
+  - fact: JPMorgan Chase partnership announced March 2025, making Affirm available
+      for bank's merchant network for purchases up to $30,000 with repayment up to
+      5 years
+    source: Wikipedia
+    date: '2025-03-01'
+    confidence: explicit_statement
+  - fact: Costco partnership announced May 2025 for online purchases from $500 to
+      $17,500
+    source: Wikipedia
+    date: '2025-05-01'
+    confidence: explicit_statement
+  - fact: Top 5 merchant and platform partners accounted for 51% of GMV in Q2 FY2025,
+      with Amazon alone at 25%
+    source: TradingView, Globe and Mail
+    date: '2024-12-31'
+    confidence: explicit_statement
+  missing_information:
+  - Exact G2 rating (page accessible but specific number not extracted)
+  - 'Precise BBB complaints count (only CFPB: 368 in 2023)'
+  - Customer acquisition cost (CAC) and lifetime value (LTV)
+  - Specific approval rates and credit score distribution of users
+  - 'Market share data for 2025 (most recent from 2022: 30%)'
+organizational_stability:
+  facts_found:
+  - fact: Max Levchin (PayPal co-founder) has been CEO since founding Affirm in 2012
+      - 13+ years tenure
+    source: investors.affirm.com/management
+    date: '2025-01-01'
+    confidence: explicit_statement
+  - fact: Libor Michalek serves as President (previously President of Technology &
+      CTO), started January 2015, ~10 years tenure, oversees engineering, risk, operations,
+      product, design
+    source: investors.affirm.com/corporate-governance/management
+    date: '2024-01-01'
+    confidence: explicit_statement
+  - fact: Michael Linford promoted from CFO to COO in August 2024 after 6 years at
+      company (joined as CFO August 2018)
+    source: paymentsdive.com
+    date: '2024-08-29'
+    confidence: explicit_statement
+  - fact: Rob O'Hare appointed CFO in August 2024, previously SVP of Finance at Affirm,
+      prior CFO experience at Tile, Spark Networks, roles at Square and Pandora
+    source: paymentsdive.com, investors.affirm.com
+    date: '2024-08-29'
+    confidence: explicit_statement
+  - fact: 'Major leadership transition in August 2024: Michael Linford promoted CFO
+      to COO, Rob O''Hare appointed as new CFO'
+    source: paymentsdive.com, boardroomalpha.com
+    date: '2024-08-29'
+    confidence: explicit_statement
+  - fact: No CTO listed currently; Libor Michalek transitioned from CTO to President
+      role with no replacement CTO announced
+    source: investors.affirm.com
+    date: '2024-01-01'
+    confidence: implied
+  - fact: Affirm operates as remote-first company - employees can work anywhere in
+      their home country, office attendance is optional
+    source: affirm.com/careers, flexjobs.com
+    date: '2024-01-01'
+    confidence: explicit_statement
+  - fact: 'COO Michael Linford stated: ''We have not looked back since committing
+      to remote work and it would be very difficult for us to go back on that'''
+    source: Business Insider interview
+    date: '2024-01-01'
+    confidence: explicit_statement
+  - fact: Overall Glassdoor rating is 3.7-3.8 out of 5 stars based on 576-610 reviews
+    source: glassdoor.com
+    date: '2025-10-17'
+    confidence: explicit_statement
+  - fact: 64-65% of employees would recommend Affirm to a friend
+    source: glassdoor.com
+    date: '2025-10-17'
+    confidence: explicit_statement
+  - fact: Work-Life Balance rated 3.7 out of 5
+    source: glassdoor.com
+    date: '2025-10-17'
+    confidence: explicit_statement
+  - fact: Compensation & Benefits rated 4.4 out of 5 (highest category)
+    source: glassdoor.com
+    date: '2025-10-17'
+    confidence: explicit_statement
+  - fact: Career Opportunities rated 3.5 out of 5 (lowest category)
+    source: glassdoor.com
+    date: '2025-10-17'
+    confidence: explicit_statement
+  - fact: 60% of employees have positive business outlook
+    source: glassdoor.com
+    date: '2025-10-17'
+    confidence: explicit_statement
+  - fact: 'Most consistent positive themes: strong compensation/benefits (4.4/5),
+      smart talented colleagues, remote flexibility, 18 weeks parental leave, 20-25
+      Away Days per year'
+    source: glassdoor.com reviews 2023-2025
+    date: '2025-01-01'
+    confidence: explicit_statement
+  - fact: 'Most frequent complaints: internal politics and management issues (''lots
+      of interoffice politics,'' ''VPs creating toxic culture''), layoff anxiety,
+      work-life balance deteriorating, limited career growth'
+    source: glassdoor.com reviews 2023-2025
+    date: '2025-01-01'
+    confidence: explicit_statement
+  - fact: Affirm exited cryptocurrency business and shut down Affirm Crypto in March
+      2023 to deemphasize products with uncertain revenue outlook
+    source: americanbanker.com
+    date: '2023-03-02'
+    confidence: explicit_statement
+  - fact: 'Core values: People Come First, No Fine Print (complete transparency),
+      It''s On Us (full accountability), Simpler Is Better, Push the Envelope'
+    source: affirm.com/careers
+    date: '2024-01-01'
+    confidence: explicit_statement
+  - fact: Great Place to Work Certification (April 2025 to April 2026), with 94% of
+      employees saying it's a great place to work vs 57% typical US company
+    source: greatplacetowork.com
+    date: '2025-04-01'
+    confidence: explicit_statement
+  - fact: 15 Employee Resource Groups (ERGs) - employee-led groups hosting events
+      and initiatives
+    source: affirm.com/careers, builtinsf.com
+    date: '2024-01-01'
+    confidence: explicit_statement
+  - fact: Affirm publishes annual DEI reports including FY2024 U.S. Diversity, Equity,
+      and Inclusion report
+    source: builtinsf.com, investors.affirm.com
+    date: '2024-01-01'
+    confidence: explicit_statement
+  missing_information:
+  - CEO approval rating percentage (individual reviews visible but aggregate not displayed)
+  - Specific names of recent VP/C-suite departures beyond normal transitions
+  - Complete executive tenure start dates at month-level precision
+  - Detailed DEI metrics from FY2024 report (PDF not accessible)
+  - Specific recent reorganization details beyond executive role changes
+technical_culture:
+  facts_found:
+  - fact: Python and Kotlin are primary backend languages
+    source: Multiple job postings, StackShare
+    date: 2024-2025
+    confidence: explicit_statement
+  - fact: React.js used for frontend development with declarative UI frameworks (React,
+      Vue)
+    source: StackShare, job postings
+    date: '2024-01-01'
+    confidence: explicit_statement
+  - fact: AWS is primary cloud provider with Kubernetes for orchestration and MySQL
+      for databases
+    source: Job postings
+    date: 2024-2025
+    confidence: explicit_statement
+  - fact: Apache Iceberg is 'backbone for all financial pipelines' enabling time travel
+      capability to rebuild understanding of money movement
+    source: Ankit Singh (Senior Staff Engineer) at Snowflake Summit
+    date: '2025-06-27'
+    confidence: explicit_statement
+  - fact: Snowflake used for data warehousing and analytics with Open Catalog for
+      federation
+    source: SiliconANGLE, Snowflake Summit presentation
+    date: '2025-06-27'
+    confidence: explicit_statement
+  - fact: Apache Spark used for data processing; Airbnb's Chronon data platform for
+      AI/ML; Feast feature store
+    source: GitHub repositories
+    date: 2024-2025
+    confidence: explicit_statement
+  - fact: Engineering blog hosted on Medium at tech.affirm.com with 854 followers,
+      shows consistent activity with 5 posts in 2024 (March, April, July, September,
+      December)
+    source: tech.affirm.com
+    date: '2024-12-10'
+    confidence: explicit_statement
+  - fact: 'Recent blog post ''Scaling Our Database for Peak Season: A 60% Latency
+      Reduction'' by Rahul Bansal (Distinguished Engineer) and team'
+    source: Medium tech.affirm.com
+    date: '2024-12-10'
+    confidence: explicit_statement
+  - fact: Blog post 'How Affirm Leverages Apache Iceberg' published 2024
+    source: Medium tech.affirm.com
+    date: '2024-01-01'
+    confidence: explicit_statement
+  - fact: 113 public repositories on GitHub with 328 followers
+    source: GitHub - github.com/affirm
+    date: 2024-2025
+    confidence: explicit_statement
+  - fact: 'Notable projects: shparkley (Spark Shapley Values, 76 stars), splinator
+      (probabilistic calibration, 22 stars), mobile SDKs for iOS and Android updated
+      in August 2025'
+    source: GitHub
+    date: '2025-08-26'
+    confidence: explicit_statement
+  - fact: 'Forks of major open source projects: Apache Spark, Airbnb Chronon, Luigi
+      workflow management, Feast feature store'
+    source: GitHub
+    date: 2024-2025
+    confidence: explicit_statement
+  - fact: Company was 'founded by four computer scientists, AI-driven from inception'
+      according to CEO Max Levchin
+    source: Yahoo Finance interview
+    date: '2024-01-01'
+    confidence: explicit_statement
+  - fact: Two-thirds of customer inquiries handled by AI chatbots
+    source: Max Levchin Yahoo Finance interview
+    date: '2024-01-01'
+    confidence: explicit_statement
+  - fact: Adapt AI real-time financing optimization tool generated 5% GMV uplift in
+      Q4 2025
+    source: Ainvest analysis
+    date: '2025-06-30'
+    confidence: explicit_statement
+  - fact: AI-driven underwriting increased repeat transactions to 95%
+    source: Ainvest Q4 2025 analysis
+    date: '2025-06-30'
+    confidence: explicit_statement
+  - fact: 'ML frameworks used: scikit-learn, pandas, numpy, xgboost, pytorch with
+      online learning and deep learning'
+    source: ML Engineer job posting
+    date: 2024-2025
+    confidence: explicit_statement
+  - fact: Machine learning models predict fraud likelihood in real-time, credit models
+      make tens of thousands of approve/decline decisions daily
+    source: Job posting, tech blog
+    date: 2024-2025
+    confidence: explicit_statement
+  - fact: Ankit Singh (Senior Staff Software Engineer) spoke at Snowflake Summit June
+      2025 about Apache Iceberg implementation
+    source: SiliconANGLE, theCUBE interview
+    date: '2025-06-27'
+    confidence: explicit_statement
+  - fact: Libor Michalek (President) interviewed on fintech podcast about building
+      BNPL infrastructure
+    source: lex.substack.com/p/podcast-how-affirm-built-the-buy
+    date: '2024-01-01'
+    confidence: explicit_statement
+  - fact: Wayne Pommen (Chief Revenue Officer) fireside chat at FT Partners FinTech
+      Conference
+    source: investors.affirm.com
+    date: '2024-11-20'
+    confidence: explicit_statement
+  - fact: '''Operate What They Own'' philosophy - teams own operations for their services
+      with focus on observability, incident response, automation, runbooks, post-mortem
+      analysis'
+    source: Job postings for Platform Reliability roles
+    date: 2024-2025
+    confidence: explicit_statement
+  - fact: Buildkite used for CI/CD pipelines
+    source: GitHub ecr-buildkite-plugin repository
+    date: '2024-01-01'
+    confidence: explicit_statement
+  - fact: 'Engineering principle: ''Write high quality code that is easily understood
+      and used by others'''
+    source: Job postings
+    date: 2024-2025
+    confidence: explicit_statement
+  - fact: Approximately 2,800 employees total with engineering being significant portion
+      given technical focus
+    source: LeadIQ
+    date: '2025-07-01'
+    confidence: explicit_statement
+  - fact: 'Engineering levels include: Engineer, Senior Engineer, Staff Engineer,
+      Senior Staff, Distinguished Engineer with published career framework'
+    source: Blog 'Introducing Affirm's Career Framework for Engineering', Distinguished
+      Engineer bylines
+    date: '2020-10-26'
+    confidence: explicit_statement
+  - fact: Geddes Munson serves as SVP of Engineering
+    source: Built In article
+    date: '2024-01-01'
+    confidence: explicit_statement
+  - fact: 'Early Career Software Engineer: $115K-$155K base (most US states), $130K-$170K
+      (CA, WA, NY, NJ, CT)'
+    source: Job posting
+    date: '2024-01-01'
+    confidence: explicit_statement
+  - fact: 'Machine Learning Engineer II: $142K-$192K base (most states), $160K-$210K
+      (CA, WA, NY, NJ, CT)'
+    source: Job posting
+    date: 2024-2025
+    confidence: explicit_statement
+  - fact: 100% subsidized medical coverage for employee and dependents, Flexible Spending
+      Wallets for tech/food/lifestyle/family-forming, ESPP with discount
+    source: Multiple job postings
+    date: 2024-2025
+    confidence: explicit_statement
+  - fact: 18 weeks paid parental leave for birth and non-birth parents, 20 company-wide
+      paid days off, 4-week return-to-work transition program at full base pay
+    source: Careers page
+    date: '2024-01-01'
+    confidence: explicit_statement
+  - fact: '4-round process: (1) Technical screen, (2) Hiring manager, (3) System design,
+      (4) Virtual onsite; typically takes 2-4 weeks'
+    source: Glassdoor reviews
+    date: 2024-2025
+    confidence: explicit_statement
+  - fact: 'Interview difficulty rating: 3 out of 5; coding is ''classic LeetCode style
+      in language of your choice'' but ''pretty practical, expect to work with existing
+      codebase'''
+    source: Glassdoor, InterviewPal
+    date: 2024-2025
+    confidence: explicit_statement
+  - fact: System design interview relates to Affirm's business with focus on databases,
+      multiple layers of schema, functional design
+    source: Interviewing.io
+    date: '2024-01-01'
+    confidence: explicit_statement
+  - fact: 58% of candidates rate interview experience as positive
+    source: Glassdoor
+    date: 2024-2025
+    confidence: explicit_statement
+  - fact: Remote-first company with offices available - 'built remote work into the
+      DNA'
+    source: Affirm careers page, job postings
+    date: 2024-2025
+    confidence: explicit_statement
+  - fact: Direct mentorship program for early career engineers
+    source: Job postings
+    date: '2024-01-01'
+    confidence: explicit_statement
+  - fact: Employee Resource Groups for Women@, BLACK@, Mental Wellness@ and 12 others
+    source: LinkedIn posts
+    date: '2024-01-01'
+    confidence: explicit_statement
+  missing_information:
+  - Specific testing frameworks (Jest, Pytest mentioned generally but not confirmed)
+  - Deployment frequency and release cadence metrics
+  - Specific monitoring tools beyond general observability mentions
+  - Code review practices details
+  - On-call rotation specifics (frequency, compensation)
+  - Engineering team breakdown by discipline (backend vs frontend vs infrastructure
+    percentages)
+  - Agile methodology specifics (Scrum vs Kanban)
+  - Technical debt management approach
+  - Performance review cycle specifics
+summary:
+  total_facts_found: 127
+  information_completeness: high
+  research_depth: comprehensive Layer 1 assessment covering financial health, market
+    position, organizational stability, and technical culture
+  key_strengths:
+  - Strong revenue growth (38-47% YoY) with first profitable fiscal year (FY2025)
+  - Largest independent US BNPL provider (1/3 payment value, >1/2 revenue)
+  - 'Blue-chip partnerships: Amazon (25% GMV), Shopify exclusive, Apple Pay, JPMorgan,
+    Costco'
+  - Founder CEO with 13+ years tenure, stable senior leadership
+  - Remote-first culture, excellent compensation (4.4/5), strong benefits
+  - Modern tech stack (Python/Kotlin, AWS, Kubernetes, Apache Iceberg, Snowflake)
+  - AI-first from founding with production ML at scale
+  key_concerns:
+  - 'History of layoffs: 640 employees cut (24% of peak) in 2023-2024'
+  - Mixed customer reviews (2.4/5 Trustpilot) and moderate employee satisfaction (3.7/5
+    Glassdoor)
+  - High merchant concentration risk (top 5 = 51% GMV, Amazon alone = 25%)
+  - Lost Walmart exclusivity to Klarna (March 2025)
+  - Consistent employee complaints about internal politics and toxic management culture
+  - Limited career growth opportunities (3.5/5 rating)
+  - No current CTO (Libor Michalek transitioned to President role)

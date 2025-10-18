@@ -1,0 +1,169 @@
+company: Pliant
+company_slug: pliant
+evaluation_date: '2025-10-17'
+evaluator_context: Extracted from conversation notes
+green_flags:
+  mountain_range:
+    critical_matches: &id001
+    - flag: 'Strong funding trajectory: $100M+ raised, recent $40M Series B with tier-1
+        investors (PayPal Ventures, Speedinvest)'
+      impact: Financial runway secured, reduced risk of near-term layoffs or shutdown
+      confidence: High - explicit company announcements
+    - flag: Triple-digit revenue growth for consecutive years, 2x in 2023, 3rd fastest
+        German fintech (133.5% CAGR)
+      impact: Proven product-market fit, expanding opportunity for impact and scope
+      confidence: High - industry rankings and company statements
+    - flag: Zero layoffs found across all tracking sites despite fintech turbulence
+      impact: Financial discipline and stability, management cares about people
+      confidence: High - absence of evidence across multiple sources
+    - flag: Hybrid/remote work with flexible hours, CEST +/-2h timezone flexibility
+      impact: Geographic freedom, work-life balance potential
+      confidence: High - job postings
+    - flag: US expansion starting 2025, Commerzbank partnership, recent acquisition
+      impact: Career growth opportunities, exposure to international scaling
+      confidence: High - company announcements
+    strong_positives: &id002
+    - flag: 'Massive market: $250B corporate card market doubling by 2030'
+      impact: Plenty of runway for growth without needing to pivot
+      confidence: High - industry analyst reports
+    - flag: 3,500+ customers with strong user reviews (4.6-4.7/5 across platforms)
+      impact: Product resonates with users, likely low churn, stable base
+      confidence: High - review aggregation sites
+    - flag: 'Regulatory moat: EMI license passported to 25 EEA countries, Visa Principal
+        Member'
+      impact: Barriers to entry protect market position
+      confidence: High - license status public record
+    - flag: 'Modern enterprise stack: Java/Spring Boot microservices, PostgreSQL,
+        AWS, Docker, Terraform'
+      impact: Solid technical foundation, maintainable architecture, good resume value
+      confidence: High - job postings
+    - flag: Code reviews via GitHub, integration and E2E testing practices
+      impact: Quality standards exist, not cowboy coding
+      confidence: High - job postings and blog
+    - flag: API-first platform design with modular architecture
+      impact: Thoughtful technical architecture, likely less legacy debt
+      confidence: Medium - company positioning and investor materials
+    - flag: CTO Alex Korotkikh from strong pedigree (Zalando, Kreditech), 5+ years
+        tenure
+      impact: Technical leadership stability, experienced scaling teams
+      confidence: High - LinkedIn profiles, company materials
+    - flag: New CFO Paul Harrald (Sept 2025) from Curve with Google/NewDay credit
+        background
+      impact: Strong financial leadership for US expansion, credit/fintech expertise
+      confidence: High - press releases
+    - flag: Founders (CEO/CPO) still leading since 2020, fintech veterans
+      impact: Original vision intact, domain expertise, founder-led culture
+      confidence: High - company materials
+    - flag: 69% of employees recommend to friend, 78% positive business outlook
+      impact: Majority sentiment is positive, not universally toxic
+      confidence: High - Glassdoor aggregate data
+    - flag: Employee reviews highlight autonomy, learning opportunities, supportive
+        management
+      impact: Trust-based culture, growth-oriented environment
+      confidence: Medium - Glassdoor qualitative themes
+    - flag: Fintech payments space with complex credit/risk modeling problems
+      impact: Interesting technical challenges, ML/data science opportunities
+      confidence: Medium - inferred from business model
+    - flag: ~30 engineers for 200 employees suggests eng-to-total ratio ~15%
+      impact: Engineers valued, not a sales-heavy org
+      confidence: Medium - LinkedIn data inference
+  chosen_peak:
+    critical_matches: *id001
+    strong_positives: *id002
+  rope_team_confidence:
+    critical_matches: *id001
+    strong_positives: *id002
+  daily_climb:
+    critical_matches: *id001
+    strong_positives: *id002
+  story_worth_telling:
+    critical_matches: *id001
+    strong_positives: *id002
+red_flags:
+  mountain_range:
+    dealbreakers: &id003 []
+    concerning: &id004
+    - flag: No visibility into ARR, profitability, burn rate, or path to profitability
+      impact: Can't assess runway or financial sustainability beyond funding rounds
+      confidence: High - absence of public data
+    - flag: 'Crowded competitive space: Pleo, Moss, Spendesk, Payhawk, Ramp all well-funded'
+      impact: Market consolidation risk, pressure on margins and growth
+      confidence: High - market research
+    - flag: NO public GitHub presence, only 1 technical blog post in 5 years
+      impact: Minimal tech community engagement, potential closed/secretive culture,
+        harder to assess quality
+      confidence: High - GitHub search, blog audit
+    - flag: Interview process only 29% positive experience rate, 3.3/5 difficulty
+      impact: Candidate experience issues suggest process problems or cultural misalignment
+      confidence: High - Glassdoor interview data
+    - flag: No evidence of conference talks, open source contributions, or tech brand
+      impact: Limited learning from community, engineers may not be growing skills
+        externally
+      confidence: High - research across conference sites, GitHub, etc
+    - flag: CEO only 65% approval rating, relatively low for startup
+      impact: Leadership trust issues, could indicate communication or decision-making
+        problems
+      confidence: High - Glassdoor CEO rating
+    - flag: Some Glassdoor reviews mention 'toxic management culture' and lack of
+        transparency
+      impact: Cultural issues at some level, management quality inconsistent
+      confidence: Medium - qualitative Glassdoor reviews
+    - flag: Work-life balance only 3.2/5 on Glassdoor, mentions of long hours
+      impact: Sustainability risk, potential burnout
+      confidence: High - Glassdoor ratings
+    - flag: Culture & Values only 3.3/5, concerning given fintech startup context
+      impact: Potential values misalignment, culture may not match stated ideals
+      confidence: High - Glassdoor ratings
+    - flag: 6-stage interview process taking 1-7 weeks
+      impact: High process overhead suggests bureaucracy creeping in at 200 people
+      confidence: High - Glassdoor candidate reports
+    - flag: Minimal technical brand or visibility in industry
+      impact: Resume value limited, harder to leverage experience at next role
+      confidence: High - absence across tech community
+  chosen_peak:
+    dealbreakers: *id003
+    concerning: *id004
+  rope_team_confidence:
+    dealbreakers: *id003
+    concerning: *id004
+  daily_climb:
+    dealbreakers: *id003
+    concerning: *id004
+  story_worth_telling:
+    dealbreakers: *id003
+    concerning: *id004
+missing_critical_data:
+- question: What is the current ARR, burn rate, and months of runway?
+  why_important: Need to assess financial risk and likelihood of needing another funding
+    round or hitting profitability
+  how_to_find: Direct question to hiring manager or CFO; sometimes disclosed in exec
+    conversations
+  mountain_element: mountain_range
+- question: Why is there no public GitHub or technical blog? Is there a technical
+    brand strategy?
+  why_important: Understand if this is policy/culture choice or symptom of closed
+    culture
+  how_to_find: Ask CTO directly in interview
+  mountain_element: chosen_peak
+- question: What's the story behind the CEO's 65% approval and toxic culture mentions?
+  why_important: Need to understand if this is historical/fixed or ongoing issue
+  how_to_find: Backchannel references with current/former employees via LinkedIn
+  mountain_element: rope_team_confidence
+- question: What's the actual work-life balance? Why 3.2/5 rating?
+  why_important: Assess sustainability of role, especially for someone with 25yr experience
+  how_to_find: Interview questions about on-call, deployment schedules, meeting culture;
+    talk to engineers 1-on-1
+  mountain_element: daily_climb
+- question: What's the technical career ladder? How do IC tracks work at 200 people?
+  why_important: Understand growth path and whether staff+ engineering roles exist
+  how_to_find: Ask hiring manager, request org chart or career framework
+  mountain_element: story_worth_telling
+- question: What happened with the two CFO situation (Stephan Simon May 2023, Paul
+    Harrald Sept 2025)?
+  why_important: Executive turnover or restructuring could signal issues
+  how_to_find: LinkedIn research, ask directly in interviews
+  mountain_element: rope_team_confidence
+- question: What's the AI/LLM tooling policy? Can engineers use Claude/Copilot?
+  why_important: Modern productivity expectations, indicates tech culture openness
+  how_to_find: Ask engineering team directly
+  mountain_element: chosen_peak

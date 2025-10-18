@@ -1,0 +1,321 @@
+company: GitHub
+company_slug: github
+research_date: '2025-10-18'
+financial_health:
+  facts_found:
+  - fact: "GitHub reached $2 billion in annual recurring revenue by July 2024, doubling\
+      \ from $1 billion ARR achieved in October 2022\u2014a remarkable 100% growth\
+      \ in approximately 18 months"
+    source: Microsoft CEO Satya Nadella during Q4 FY2024 earnings call, Benzinga
+    date: '2024-07-30'
+    confidence: explicit_statement
+  - fact: Microsoft acquired GitHub for $7.5 billion in stock in 2018. At acquisition,
+      GitHub had approximately $200-300 million in revenue and was operating at a
+      loss
+    source: TechCrunch, CNBC, Microsoft official announcements
+    date: '2018-10-26'
+    confidence: explicit_statement
+  - fact: GitHub Copilot accounted for over 40% of GitHub's revenue growth in 2024,
+      with 77,000+ organizations adopting it (180% year-over-year growth) and 1.8
+      million paid subscribers
+    source: Microsoft CEO Satya Nadella, Microsoft FY2024 Q4 earnings call
+    date: '2024-07-30'
+    confidence: explicit_statement
+  - fact: Based on $2B ARR and typical SaaS company valuation multiples, GitHub's
+      estimated current value is $16-24 billion, approximately 2-3x Microsoft's 2018
+      acquisition price
+    source: Analysis by TextQuery based on public SaaS comparables
+    date: '2024-03-09'
+    confidence: implied
+  - fact: GitHub laid off 10% of its workforce (approximately 300 employees from ~3,000
+      total) in February 2023 and closed all physical offices worldwide, transitioning
+      to fully remote work due to low utilization rates
+    source: TechCrunch, Channel Futures, Fortune
+    date: '2023-02-09'
+    confidence: explicit_statement
+  - fact: GitHub's employee count recovered to approximately 5,609 employees as of
+      April 2024, representing growth and recovery following the 2023 layoffs
+    source: Craft.co via multiple statistics aggregators
+    date: '2024-04-01'
+    confidence: implied
+  - fact: No additional layoffs were reported for GitHub in 2024 or 2025 beyond the
+      February 2023 restructuring, with employee count increasing from post-layoff
+      levels of ~2,700 to 5,609
+    source: Comprehensive search of tech news and layoff tracking sites
+    date: '2024-01-01'
+    confidence: implied
+  - fact: GitHub grew from 100 million active users in January 2023 to over 150 million
+      developers by early 2025, with more than 420 million repositories hosted on
+      the platform
+    source: GitHub Blog, Microsoft earnings calls, Statista
+    date: '2023-01-26'
+    confidence: explicit_statement
+  - fact: Over 90% of Fortune 100 companies use GitHub as of 2023-2024, representing
+      exceptional enterprise market penetration
+    source: GitHub official statistics, Microsoft investor materials
+    date: '2023-01-01'
+    confidence: explicit_statement
+  - fact: GitHub's enterprise customers include Accenture (deploying to 50,000 developers),
+      FedEx, BBVA, H&M, Infosys, Paytm, Zeiss, Volkswagen, Dell Technologies, Goldman
+      Sachs, Autodesk, Mercedes-Benz, and Ford
+    source: Microsoft earnings calls, GitHub customer stories page
+    date: '2024-01-01'
+    confidence: explicit_statement
+  - fact: GitHub hosts over 420 million repositories with more than 5 billion developer
+      contributions made in 2024 across 500+ million open source projects
+    source: GitHub Octoverse 2024, Wikipedia
+    date: '2024-01-01'
+    confidence: explicit_statement
+  missing_information:
+  - Current profitability status - Microsoft does not disclose GitHub's profitability
+    as a standalone business unit
+  - Detailed 2024-2025 hiring targets beyond general job postings
+  - Revenue breakdown by product (Enterprise, Team, Free tier)
+  - Exact gross margins - not disclosed separately from Microsoft's broader segments
+  - Post-layoff burn rate or runway - not applicable given Microsoft ownership
+market_position:
+  facts_found:
+  - fact: GitHub's core product offerings include GitHub.com, GitHub Enterprise (Cloud
+      & Server), GitHub Copilot (AI pair programmer), GitHub Actions (CI/CD), GitHub
+      Advanced Security, GitHub Packages, GitHub Codespaces, and GitHub Models (launched
+      2024)
+    source: GitHub Blog (Universe 2024), GitHub Features page
+    date: '2024-01-01'
+    confidence: explicit_statement
+  - fact: GitHub holds 34-78% market share depending on methodology, with StackOverflow
+      2022 Developer Survey reporting 56% professional usage and 87% personal project
+      usage. Main competitors are GitLab (9-38% share) and Bitbucket (11-32% share)
+    source: ScrumLaunch, Rewind, Disbug citing StackOverflow
+    date: '2022-01-01'
+    confidence: explicit_statement
+  - fact: In 2024, GitHub launched GitHub Spark (natural language app builder), GitHub
+      Models (AI model playground), multi-model Copilot choice (Anthropic Claude,
+      Google Gemini, OpenAI models), and GitHub Copilot Workspace
+    source: GitHub Blog (Universe 2024 announcements)
+    date: '2024-10-29'
+    confidence: explicit_statement
+  - fact: GitHub launched a free version of Copilot in December 2024, which ships
+      by default with VS Code, including 2,000 code completions per month and access
+      to Claude 3.5 Sonnet and GPT-4o models
+    source: TechCrunch
+    date: '2024-12-18'
+    confidence: explicit_statement
+  - fact: In October 2024 at GitHub Universe, GitHub announced multi-model GitHub
+      Copilot, allowing developers to choose between Anthropic's Claude 3.5 Sonnet,
+      Google's Gemini 1.5 Pro, and OpenAI's GPT-4o, o1-preview, and o1-mini models
+    source: GitHub Newsroom press release, TechCrunch
+    date: '2024-10-29'
+    confidence: explicit_statement
+  - fact: 'GitHub pricing tiers are: Free (unlimited public/private repos), Team ($4/user/month),
+      Enterprise ($21/user/month base), GitHub Copilot Business ($19/user/month),
+      and GitHub Copilot Enterprise ($39/user/month)'
+    source: Spendflo, Vendr, GitHub.com/pricing
+    date: '2024-01-01'
+    confidence: explicit_statement
+  - fact: GitHub has a 4.7 out of 5 stars rating on G2 with 2,232 verified reviews,
+      with positive feedback on version control, collaboration features, and CI/CD
+      integration
+    source: G2.com, Capterra
+    date: '2025-01-01'
+    confidence: explicit_statement
+  - fact: The global DevOps market (GitHub's addressable market) was valued at $10.4-13.16
+      billion in 2023-2024 and is projected to reach $25.5-81 billion by 2028-2033,
+      with a CAGR of 19-25%
+    source: MarketsandMarkets, IMARC Group, Fortune Business Insights
+    date: '2024-01-01'
+    confidence: explicit_statement
+  - fact: GitHub Enterprise Cloud with EU data residency became generally available
+      on October 29, 2024, allowing organizations to store code and repository data
+      within the EU to meet compliance requirements, powered by Microsoft Azure infrastructure
+    source: GitHub Blog, GitHub.com/enterprise/data-residency
+    date: '2024-10-29'
+    confidence: explicit_statement
+  - fact: GitHub Enterprise Cloud is compliant with SOC 1 Type 2, SOC 2 Type 2, ISO/IEC
+      27001:2013, GDPR, and FedRAMP LI-SaaS Authorization to Operate (ATO)
+    source: GitProtect.io, Pull Checklist, LinkedIn
+    date: '2023-01-01'
+    confidence: explicit_statement
+  - fact: GitHub closed all physical offices worldwide in February 2023. There is
+      no physical Ireland or Dublin office. All EU positions are fully remote with
+      no requirement for office presence
+    source: TechCrunch, Computerworld, job postings
+    date: '2023-02-09'
+    confidence: explicit_statement
+  missing_information:
+  - Specific GitHub office or employee count in Ireland - all offices closed 2023
+  - TrustPilot aggregate rating - approximately 190 reviews found but no clear aggregate
+    star rating
+  - Gartner Peer Insights rating - not found in publicly accessible sources
+  - Exact enterprise customer count beyond '90% of Fortune 100'
+organizational_stability:
+  facts_found:
+  - fact: CEO Thomas Dohmke announced his departure on August 11, 2025, effective
+      end of 2025. Microsoft will not replace the CEO position; GitHub will integrate
+      into Microsoft's CoreAI organization with leadership reporting directly to Microsoft
+      executives
+    source: GitHub Blog, CNBC, Axios
+    date: '2025-08-11'
+    confidence: explicit_statement
+  - fact: 'Thomas Dohmke became CEO in November 2021 (tenure: ~4 years). He joined
+      Microsoft in 2015 when his startup HockeyApp was acquired, moved to GitHub as
+      Chief Product Officer in mid-2021, then became CEO. He holds a PhD in mechanical
+      engineering from University of Glasgow, UK'
+    source: GitHub Blog, GeekWire
+    date: '2021-11-15'
+    confidence: explicit_statement
+  - fact: 'Current GitHub executive team includes: Vladimir Fedorov (CTO, 12 years
+      at Meta leading 2,000+ engineers), Kyle Daigle (COO, promoted April 2023 after
+      10+ years at GitHub), Elizabeth Pemmerl (Chief Revenue Officer), Richard Paik
+      (CFO, 20+ years at Microsoft), and Mario Rodriguez (Chief Product Officer overseeing
+      AI/Copilot)'
+    source: GitHub About/Leadership page, Craft.co
+    date: '2024-01-01'
+    confidence: explicit_statement
+  - fact: Kyle Daigle became Chief Operating Officer in April 2023 after joining GitHub
+      in 2013 (10+ years tenure), representing organizational continuity. The COO
+      role had been vacant since 2021
+    source: LinkedIn, GitHub Blog, The Org
+    date: '2023-04-25'
+    confidence: explicit_statement
+  - fact: GitHub operates as a remote-first company with flexible work policy, including
+      unlimited PTO, $1,500 home office setup stipend, telecommunications stipend,
+      ergonomic evaluation support, and learning/wellness reimbursement accounts
+    source: GitHub Careers page, Work It Daily, Remote.co
+    date: '2023-01-01'
+    confidence: explicit_statement
+  - fact: Over 80% of GitHub engineers worked remotely before COVID-19. GitHub was
+      founded with remote work in its DNA and emphasizes asynchronous communication
+      via GitHub issues and pull requests
+    source: The GitHub Blog, Glassdoor reviews
+    date: '2020-04-01'
+    confidence: explicit_statement
+  - fact: GitHub hires remotely across Europe and supports remote work wherever you
+      are. Job postings show Support Engineer (EMEA) and other European remote positions,
+      though no specific Ireland office exists
+    source: GitHub Blog, job postings on NoDesk, LinkedIn
+    date: '2023-01-01'
+    confidence: explicit_statement
+  - fact: GitHub has 3.7 out of 5 stars overall rating on Glassdoor (based on 435+
+      reviews); 71% of employees would recommend to a friend; 52% have positive business
+      outlook; Compensation & Benefits rated 4.2/5; Software Engineers specifically
+      rate company 3.9/5
+    source: Glassdoor
+    date: '2024-01-01'
+    confidence: explicit_statement
+  - fact: Recent employee reviews consistently praise remote-first culture, excellent
+      work-life balance (rated 4.2-4.3/5), flexibility, and great benefits as top
+      pros. Common cons include Microsoft integration eroding original culture, middle
+      management issues, and lack of clear strategy/direction from leadership
+    source: Glassdoor, Indeed, Blind
+    date: '2024-01-01'
+    confidence: implied
+  - fact: 'Multiple recent reviews on Blind (March-July 2025) express concerns about
+      stability: ''Layoffs have forced the top people to do the work of their entire
+      teams,'' ''Management is dire,'' and ''LT has gradually become less transparent...causing
+      a lot of low morale and distrust.'' Compensation remains highly rated (4.6-4.7/5
+      for software engineers)'
+    source: Blind (Teamblind.com)
+    date: '2025-03-01'
+    confidence: explicit_statement
+  - fact: GitHub has over 3,000+ employees as of 2023-2025, serving 150 million developers
+      on the platform with 1+ billion repositories. GitHub Copilot has 20 million
+      users
+    source: GitHub Blog (CEO farewell post), CNBC
+    date: '2025-08-11'
+    confidence: explicit_statement
+  missing_information:
+  - Board of Directors members - as GitHub is fully owned by Microsoft (not public),
+    board structure not publicly disclosed
+  - EU-specific remote work policies - while GitHub hires in EU with remote support,
+    no EU-specific policy differences found
+  - Detailed Glassdoor subscores - overall rating and compensation found, but separate
+    scores for Culture and Career Opportunities not explicitly stated
+  - Organizational size by department - 3,000+ total employees confirmed, but breakdown
+    by engineering/sales/support not found
+technical_culture:
+  facts_found:
+  - fact: GitHub.com is built as a Ruby on Rails monolith with nearly 2 million lines
+      of code, with more than 1,000 engineers collaborating on it daily. They deploy
+      as often as 20 times per day
+    source: The GitHub Blog (github.blog)
+    date: '2023-04-06'
+    confidence: explicit_statement
+  - fact: GitHub runs automated weekly Rails upgrades every Monday via GitHub Actions,
+      automatically creating pull requests to bump to the latest Rails commit. They
+      upgraded from Ruby 3.1 to Ruby 3.2 within a month of release, and adopted Ruby
+      3.2.1 on its release day
+    source: The GitHub Blog
+    date: '2023-04-06'
+    confidence: explicit_statement
+  - fact: GitHub's tech stack includes Ruby on Rails (backend), MySQL (database),
+      Git, Redis, Slack, and various other tools, with Ruby as the core programming
+      language
+    source: StackShare (stackshare.io/github/github)
+    date: '2024-01-01'
+    confidence: explicit_statement
+  - fact: GitHub deploys as often as 20 times per day, maintains a thorough test suite,
+      and emphasizes continuous integration/continuous deployment (CI/CD) practices
+      using GitHub Actions with automated testing for Ruby and Rails upgrades before
+      each deployment
+    source: The GitHub Blog
+    date: '2023-04-06'
+    confidence: explicit_statement
+  - fact: GitHub's technical interview includes a take-home coding exercise (typically
+      5 hours) where candidates code on GitHub, submit via pull request, use their
+      preferred editor/OS/tools, and have internet access. The company uses an Interview-bot
+      GitHub app to automate the process and GitHub Codespaces for technical exercises
+    source: The GitHub Blog, Glassdoor, InterviewQuery
+    date: '2024-01-01'
+    confidence: explicit_statement
+  - fact: Every external hire at GitHub, at every level, participates in a diversity
+      and inclusion interview conducted by an unbiased person not on the hiring team,
+      discussing experiences with inclusive environments
+    source: The GitHub Blog
+    date: '2020-04-10'
+    confidence: explicit_statement
+  - fact: GitHub Copilot Enterprise launched in February 2024 at $39/user/month, offering
+      organization-specific customization with knowledge bases, fine-tuned models,
+      and integration across the entire software development lifecycle
+    source: The GitHub Blog, GeekWire
+    date: '2024-02-01'
+    confidence: explicit_statement
+  - fact: GitHub Copilot has 20 million users as of late 2024, with 77,000+ organizations
+      adopting the paid versions and 1.8 million paid individual subscribers
+    source: GitHub Newsroom, TechCrunch, Microsoft earnings
+    date: '2024-10-29'
+    confidence: explicit_statement
+  - fact: GitHub launched the GitHub Accelerator program funding open source developers.
+      In 2024, they funded 11 open source AI projects including Unsloth and Giskard.
+      GitHub hosts GitHub Universe annually with an Open Source Zone
+    source: The GitHub Blog
+    date: '2024-01-01'
+    confidence: explicit_statement
+  - fact: GitHub maintains an active engineering blog at github.blog/category/engineering/
+      with regular posts on technical topics including post-quantum security for SSH
+      (2024), AI-powered password detection, CodeQL implementation, performance engineering,
+      accessibility design patterns, and building with Rails and Ruby
+    source: The GitHub Blog
+    date: '2023-01-01'
+    confidence: explicit_statement
+  - fact: GitHub hosted its 10th anniversary GitHub Universe conference in 2024, featuring
+      technical announcements, an Open Source Zone with maintainers, and presentations
+      on new AI/ML features
+    source: The GitHub Blog
+    date: '2024-10-29'
+    confidence: explicit_statement
+  missing_information:
+  - Exact current engineering headcount - '1,000+ engineers' mentioned for 2023, but
+    current 2024-2025 numbers not specified
+  - Specific 2024 conference talks by engineers - while GitHub Universe 2024 happened,
+    individual engineer speaker names/talks not easily discoverable
+  - Engineering team structure details - specific team organization and reporting
+    structures beyond executive level not available
+  - Compensation ranges - not publicly disclosed by GitHub
+  - Performance review processes - not publicly discussed in available materials
+summary:
+  total_facts_found: 44
+  information_completeness: medium-high
+  most_recent_data: '2025-08-11'
+  oldest_data: '2018-10-26'
+  primary_date_range: 2023-2025
+  facts_in_primary_range: 39

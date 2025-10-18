@@ -1,0 +1,226 @@
+company: Airbnb
+company_slug: airbnb
+evaluation_date: '2025-10-12'
+evaluator_context: Extracted from conversation notes
+green_flags:
+  mountain_range:
+    critical_matches: &id001
+    - flag: $4.5B free cash flow with 40% FCF margin in 2024 - exceptional cash generation
+        for public company
+      impact: Financial fortress means no layoff risk from funding issues, stable
+        engineering investment
+      confidence: High - Q4 2024 financial results
+    - flag: 44% global market share (up from 28% in 2019), dominating Booking.com
+        (18%) and Expedia/Vrbo (9%)
+      impact: Market leader in $183B TAM means working on problems that matter at
+        scale, high resume value
+      confidence: High - Skift Research 2024
+    - flag: Created Apache Airflow (2014), Lottie (35K stars), Chronon (2024) - legendary
+        OSS contributions
+      impact: Working at company that shapes industry infrastructure, not just consumes
+        it
+      confidence: High - GitHub, engineering blog
+    - flag: JavaScript Style Guide with 148K GitHub stars - industry standard setter
+      impact: Engineering culture that influences broader industry, high resume value
+      confidence: High - GitHub verified
+    - flag: $200-250M AI investment with 99% of ML features on Chronon platform (10K+
+        features)
+      impact: Serious AI/ML infrastructure investment, not just AI theater
+      confidence: High - aimresearch.co, engineering blog 2024
+    - flag: 'CEO Brian Chesky: 18+ years tenure with 94% employee approval rating'
+      impact: Exceptional leadership stability and trust, rare in tech
+      confidence: High - Glassdoor 2024
+    - flag: 'Co-founders still active: Chesky (CEO), Blecharczyk (CSO 17+ years) -
+        original team intact'
+      impact: Founder-led with long-term vision, not mercenary management
+      confidence: High - Airbnb IR 2024
+    - flag: '''Live and Work Anywhere'' policy since 2022 - fully remote with no salary
+        adjustments'
+      impact: True remote-first culture, not forced RTO risk, work from anywhere globally
+      confidence: High - Airbnb Newsroom 2022
+    - flag: 25% of employees live 50+ miles from office with attrition at near all-time
+        lows
+      impact: Remote policy actually works and improves retention
+      confidence: High - NPR 2023
+    - flag: Apache Airflow creator - now industry standard workflow orchestration
+        (1.5+ PB daily)
+      impact: Resume-defining work, built tools used by thousands of companies
+      confidence: High - airbnb.io 2014
+    - flag: Lottie animation library - 35K GitHub stars, used industry-wide
+      impact: Created OSS that shaped mobile/web development practices globally
+      confidence: High - GitHub 2017
+    strong_positives: &id002
+    - flag: $11.1B revenue in 2024, 12% YoY growth with $2.6B net income
+      impact: Profitable growth means engineering investment will continue, not a
+        cost center
+      confidence: High - Q4 2024 financial results
+    - flag: "Employee growth 5.7% (6,907 \u2192 7,300) indicates healthy expansion\
+        \ without over-hiring"
+      impact: Measured growth suggests thoughtful hiring, not boom-bust cycle
+      confidence: High - SEC 10-K 2024
+    - flag: 491M bookings, 8.1M listings globally - substantial scale and market presence
+      impact: Working on infrastructure that serves hundreds of millions of users
+      confidence: High - Q4 2024 financial results
+    - flag: 197 GitHub repositories, active engineering blog (154K followers, posted
+        Sept 2025)
+      impact: Strong technical brand and commitment to knowledge sharing
+      confidence: High - GitHub, Medium verified
+    - flag: 'KDD 2023 presence: 2 papers, 11 talks - research-oriented engineering
+        culture'
+      impact: Engineers can work on publishable research, not just feature delivery
+      confidence: High - engineering blog 2023
+    - flag: 'Modern stack: Ruby/Rails, React, Java, MySQL, AWS, Cassandra - practical,
+        proven technologies'
+      impact: No esoteric tech debt, mainstream stack supports career portability
+      confidence: High - StackShare, engineering blog
+    - flag: AI fraud detection launched 2024 cut fraudulent bookings by 40%
+      impact: ML systems deployed to production with measurable business impact
+      confidence: High - everitesolutions.com 2024
+    - flag: CTO Ari Balogh from Google (VP Engineering), strong technical credentials
+      impact: Technical leadership from tier-1 company, understands scale challenges
+      confidence: High - Airbnb Newsroom 2018
+    - flag: CFO Ellie Mertz promoted internally after 11 years - develops leaders
+        from within
+      impact: Career progression path exists despite concerns, internal mobility valued
+      confidence: High - Airbnb Newsroom 2023
+    - flag: 82% of employees would recommend to friend, 4.2/5 Glassdoor (2,466+ reviews)
+      impact: High employee satisfaction and advocacy indicates healthy culture
+      confidence: High - Glassdoor 2025
+    - flag: '#1 Glassdoor Best Places to Work in 2016 and 2017'
+      impact: Historical track record of excellence in employee experience
+      confidence: High - Glassdoor Blog 2017
+    - flag: Compensation 4.2/5, Work-Life Balance 4.1/5 on Glassdoor
+      impact: Strong fundamentals for sustainable engineering career
+      confidence: High - Glassdoor 2025
+    - flag: SF HQ lease through 2037 shows long-term stability and commitment
+      impact: No risk of sudden office closure or location upheaval
+      confidence: High - Airbnb Newsroom 2024
+    - flag: Connect Engineering Apprenticeship Program for underrepresented backgrounds
+      impact: Investment in diversity and junior talent development
+      confidence: High - careers.airbnb.com 2024
+    - flag: Chronon data platform (2024) - Airbnb's most significant OSS release since
+        Airflow
+      impact: Opportunity to work on cutting-edge ML infrastructure that will shape
+        industry
+      confidence: High - engineering blog 2024
+    - flag: Rigorous 5-7 round interview process with high technical bar
+      impact: Working with vetted, high-caliber engineers who cleared tough bar
+      confidence: High - interviewing.io 2024
+  chosen_peak:
+    critical_matches: *id001
+    strong_positives: *id002
+  rope_team_confidence:
+    critical_matches: *id001
+    strong_positives: *id002
+  daily_climb:
+    critical_matches: *id001
+    strong_positives: *id002
+  story_worth_telling:
+    critical_matches: *id001
+    strong_positives: *id002
+red_flags:
+  mountain_range:
+    dealbreakers: &id003 []
+    concerning: &id004
+    - flag: Net income dropped 46% from $4.8B (2023) to $2.6B (2024) despite 12% revenue
+        growth
+      impact: Margin compression could pressure engineering budgets, needs explanation
+      confidence: High - MacroTrends, Q4 2024 results
+    - flag: 'TrustPilot consumer rating: 1.3/5 stars vs 4.2/5 employee rating'
+      impact: Severe disconnect between customer and employee experience may indicate
+        product/trust issues
+      confidence: High - TrustPilot 2025
+    - flag: '2020 pandemic layoffs: 1,900 employees (25% of workforce)'
+      impact: Company has shown willingness to make severe cuts when facing adversity
+      confidence: High - Wikipedia, NPR 2020
+    - flag: Ruby on Rails backend since 2008 - 17-year-old monolith
+      impact: Potential legacy tech debt and modernization challenges ahead
+      confidence: Medium - StackShare 2024, implied age
+    - flag: Heavy culture fit emphasis with non-engineer 'Host interviews' that can
+        veto offers
+      impact: Potential bias/exclusion in hiring, may miss diverse technical talent
+      confidence: High - interviewing.io, careerdevelopment.morehouse.edu 2024
+    - flag: CEO Chesky advocates 'founder mode' - personally reviews all work before
+        shipping
+      impact: May limit autonomy for senior engineers, slow decision-making, create
+        bottleneck
+      confidence: Medium - Fortune 2024, employee reviews
+    - flag: Some reviews note 'decade lost in growth by not focusing on core business'
+        and 'politics has picked up'
+      impact: Potential strategic drift and organizational friction emerging
+      confidence: Medium - Glassdoor reviews 2024
+    - flag: No CPO (Chief Product Officer) identified in leadership
+      impact: Product leadership gap could affect product-engineering collaboration
+      confidence: Medium - not mentioned in IR or research
+    - flag: Career Opportunities rated 3.6/5 (lowest Glassdoor category)
+      impact: Limited upward mobility, may be 'place to retire' rather than grow
+      confidence: High - Glassdoor 2025
+    - flag: Employee reviews describe as 'great place to retire, not to grow professionally'
+      impact: Career ceiling for ambitious engineers seeking rapid advancement
+      confidence: Medium - Glassdoor reviews 2024
+  chosen_peak:
+    dealbreakers: *id003
+    concerning: *id004
+  rope_team_confidence:
+    dealbreakers: *id003
+    concerning: *id004
+  daily_climb:
+    dealbreakers: *id003
+    concerning: *id004
+  story_worth_telling:
+    dealbreakers: *id003
+    concerning: *id004
+missing_critical_data:
+- question: What explains the 46% net income drop ($4.8B to $2.6B) despite 12% revenue
+    growth?
+  why_important: Need to understand if this is margin compression, one-time charges,
+    or business model pressure that could affect engineering budgets
+  how_to_find: Review SEC 10-K filing details, ask CFO/finance in interview about
+    EBITDA vs net income trend
+  mountain_element: mountain_range
+- question: What is the actual engineering headcount and how is it distributed across
+    teams?
+  why_important: 7,300 total employees but unknown eng ratio - need to assess team
+    structure and growth opportunities
+  how_to_find: Ask recruiter or hiring manager for engineering org size and breakdown
+    by function
+  mountain_element: story_worth_telling
+- question: What is the CI/CD pipeline and deployment frequency for production?
+  why_important: Critical for assessing engineering velocity and daily experience
+    quality
+  how_to_find: 'Ask engineers in interview: ''How often do you deploy? What''s your
+    CI/CD stack?'''
+  mountain_element: chosen_peak
+- question: How does 'founder mode' management manifest day-to-day for senior engineers?
+  why_important: Need to understand autonomy level and decision-making authority for
+    IC roles
+  how_to_find: 'Ask engineers: ''Describe your decision-making authority. How much
+    needs CEO approval?'''
+  mountain_element: daily_climb
+- question: What are the actual career progression paths and timelines for senior
+    engineers?
+  why_important: 3.6/5 career rating needs unpacking - what does growth look like
+    beyond senior level?
+  how_to_find: 'Ask manager: ''What does career progression look like? Can you share
+    examples of engineers who advanced?'''
+  mountain_element: story_worth_telling
+- question: Why is there no Chief Product Officer and how does product-engineering
+    collaboration work?
+  why_important: Product leadership gap could indicate unclear product vision or eng-product
+    friction
+  how_to_find: 'Ask in interviews: ''Who sets product direction? How do eng and product
+    collaborate?'''
+  mountain_element: rope_team_confidence
+- question: What is the Ruby on Rails modernization strategy?
+  why_important: 17-year-old Rails monolith likely has significant tech debt - need
+    modernization roadmap
+  how_to_find: 'Ask engineers: ''What''s the plan for modernizing the Rails stack?
+    Any migration in progress?'''
+  mountain_element: chosen_peak
+- question: How are the 'Host interviews' (culture fit) structured and what can veto
+    an offer?
+  why_important: Understand potential bias in hiring and what 'culture fit' actually
+    means in practice
+  how_to_find: 'Ask recruiter: ''Can you explain the Host interview process? What
+    are you assessing?'''
+  mountain_element: rope_team_confidence

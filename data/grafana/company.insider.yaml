@@ -1,0 +1,331 @@
+company: Grafana
+company_slug: grafana
+last_updated: '2025-10-08'
+financial_health:
+  facts_found:
+  - fact: Company generates $400M ARR
+    source: Ahmad A (Engineer, Integrations Team, Observability Department)
+    date: '2025-10-08'
+    confidence: firsthand_account
+    fact_type: objective
+    context: As of September 2024
+  - fact: Company goal is $500M ARR by end of year
+    source: Ahmad A (Engineer, Integrations Team, Observability Department)
+    date: '2025-10-08'
+    confidence: firsthand_account
+    fact_type: objective
+    context: 2024 target
+  - fact: Company has approximately 600 employees
+    source: Ahmad A (Engineer, Integrations Team, Observability Department)
+    date: '2025-10-08'
+    confidence: firsthand_account
+    fact_type: objective
+  - fact: 7,000 paying clients for cloud offering
+    source: Ahmad A (Engineer, Integrations Team, Observability Department)
+    date: '2025-10-08'
+    confidence: firsthand_account
+    fact_type: objective
+    context: Enterprise and cloud customers
+  - fact: Integration team of 3 engineers generates $40M revenue per year
+    source: Ahmad A (Engineer, Integrations Team, Observability Department)
+    date: '2025-10-08'
+    confidence: firsthand_account
+    fact_type: objective
+    context: Squad charter indicates around $40M in attributed revenue
+  - fact: Attributed ARR for integrations is $53.4M in last year
+    source: Ahmad A (Engineer, Integrations Team, Observability Department)
+    date: '2025-10-08'
+    confidence: firsthand_account
+    fact_type: objective
+    context: Integration team's contribution
+  - fact: Integration team is 'very cash positive'
+    source: Ahmad A (Engineer, Integrations Team, Observability Department)
+    date: '2025-10-08'
+    confidence: firsthand_account
+    fact_type: subjective
+    context: 3-person team generating $40-53M attributed ARR
+  - fact: No economic attributed layoffs have occurred
+    source: Ahmad A (Engineer, Integrations Team, Observability Department)
+    date: '2025-10-08'
+    confidence: firsthand_account
+    fact_type: objective
+    context: Performance-related attrition happens but no broad layoffs
+  - fact: Company is venture funded but profitable
+    source: Ahmad A (Engineer, Integrations Team, Observability Department)
+    date: '2025-10-08'
+    confidence: firsthand_account
+    fact_type: objective
+  - fact: Company is pre-IPO
+    source: Ahmad A (Engineer, Integrations Team, Observability Department)
+    date: '2025-10-08'
+    confidence: firsthand_account
+    fact_type: objective
+  - fact: Company extended offer to Ahmad on August 1st, 2024
+    source: Ahmad A (Engineer, Integrations Team, Observability Department)
+    date: '2025-10-08'
+    confidence: firsthand_account
+    fact_type: objective
+    context: During hiring market downturn, suggesting confidence in hiring
+  - fact: Integration team is hiring a mid-level engineer in EMEA
+    source: Ahmad A (Engineer, Integrations Team, Observability Department)
+    date: '2025-10-08'
+    confidence: firsthand_account
+    fact_type: objective
+  missing_information:
+  - Gross margins or profitability percentages
+  - Burn rate and runway details
+  - Valuation
+  - Investor composition
+  - IPO timeline
+market_position:
+  facts_found:
+  - fact: Primary value proposition is as counteroffer or complement to Datadog
+    source: Ahmad A (Engineer, Integrations Team, Observability Department)
+    date: '2025-10-08'
+    confidence: firsthand_account
+    fact_type: objective
+    context: Observability department's goal is to make cloud appealing vs Datadog
+  - fact: 'Uses LGTM stack: Loki (logs), Mimir (metrics), Tempo (traces), Pyroscope
+      (profiles)'
+    source: Ahmad A (Engineer, Integrations Team, Observability Department)
+    date: '2025-10-08'
+    confidence: firsthand_account
+    fact_type: objective
+    context: All four specialized databases built and open sourced by Grafana Labs
+  - fact: All LGTM stack databases are built in Golang
+    source: Ahmad A (Engineer, Integrations Team, Observability Department)
+    date: '2025-10-08'
+    confidence: firsthand_account
+    fact_type: objective
+  - fact: Open source components use AGPL license
+    source: Ahmad A (Engineer, Integrations Team, Observability Department)
+    date: '2025-10-08'
+    confidence: firsthand_account
+    fact_type: objective
+  - fact: Premium features are separate integrations that are not open source
+    source: Ahmad A (Engineer, Integrations Team, Observability Department)
+    date: '2025-10-08'
+    confidence: firsthand_account
+    fact_type: objective
+    context: Enterprise monetization strategy
+  - fact: Platform can scale to more than 1 billion active time series for metrics
+    source: Ahmad A (Engineer, Integrations Team, Observability Department)
+    date: '2025-10-08'
+    confidence: firsthand_account
+    fact_type: objective
+    context: Suitable for very large banks and enterprises
+  - fact: Deploys to 32 data centers around the world
+    source: Ahmad A (Engineer, Integrations Team, Observability Department)
+    date: '2025-10-08'
+    confidence: firsthand_account
+    fact_type: objective
+    context: Running on major cloud providers for low latency
+  - fact: Company offers 400+ integrations
+    source: Ahmad A (Engineer, Integrations Team, Observability Department)
+    date: '2025-10-08'
+    confidence: firsthand_account
+    fact_type: objective
+    context: One of the selling points for cloud offering
+  - fact: Grafana originated as a rejected PR that forked from Kibana
+    source: Ahmad A (Engineer, Integrations Team, Observability Department)
+    date: '2025-10-08'
+    confidence: firsthand_account
+    fact_type: objective
+    context: Company origin story
+  - fact: Integration team is pivoting from pure volume to more strategic approach
+    source: Ahmad A (Engineer, Integrations Team, Observability Department)
+    date: '2025-10-08'
+    confidence: firsthand_account
+    fact_type: objective
+    context: Exploring OpenTelemetry for generating dashboards instead of manual exporters
+  missing_information:
+  - Win rate against Datadog
+  - Customer churn rate
+  - Average contract value
+  - Enterprise vs SMB customer mix
+organizational_stability:
+  facts_found:
+  - fact: Culture is 'lighter' and 'less intense' than HubSpot
+    source: Ahmad A (Engineer, Integrations Team, Observability Department)
+    date: '2025-10-08'
+    confidence: firsthand_account
+    fact_type: subjective
+    context: After 5 weeks at Grafana vs previous HubSpot experience
+  - fact: People are 'more relaxed' than at HubSpot
+    source: Ahmad A (Engineer, Integrations Team, Observability Department)
+    date: '2025-10-08'
+    confidence: firsthand_account
+    fact_type: subjective
+  - fact: No requirement to ship 4-5 PRs per week
+    source: Ahmad A (Engineer, Integrations Team, Observability Department)
+    date: '2025-10-08'
+    confidence: firsthand_account
+    fact_type: objective
+    context: Unlike HubSpot's mandatory PR velocity metrics
+  - fact: No shitty metrics tracking developers
+    source: Ahmad A (Engineer, Integrations Team, Observability Department)
+    date: '2025-10-08'
+    confidence: firsthand_account
+    fact_type: subjective
+    context: Compared to previous companies
+  - fact: Management says 'take your time, ask us if you have any questions'
+    source: Ahmad A (Engineer, Integrations Team, Observability Department)
+    date: '2025-10-08'
+    confidence: firsthand_account
+    fact_type: subjective
+    context: Onboarding experience
+  - fact: Teams are small, typically 3-4 people, maximum 5
+    source: Ahmad A (Engineer, Integrations Team, Observability Department)
+    date: '2025-10-08'
+    confidence: firsthand_account
+    fact_type: objective
+    context: Company's standard team formula
+  - fact: Small team size means 'you know when people are slacking off'
+    source: Ahmad A (Engineer, Integrations Team, Observability Department)
+    date: '2025-10-08'
+    confidence: firsthand_account
+    fact_type: subjective
+    context: Natural accountability without metrics
+  - fact: Company respects personal boundaries and family responsibilities
+    source: Ahmad A (Engineer, Integrations Team, Observability Department)
+    date: '2025-10-08'
+    confidence: firsthand_account
+    fact_type: subjective
+    context: Ahmad has two small children, mentioned flexibility during interview
+      and it's been honored
+  - fact: Lots of senior people, particularly staff engineers
+    source: Ahmad A (Engineer, Integrations Team, Observability Department)
+    date: '2025-10-08'
+    confidence: firsthand_account
+    fact_type: objective
+    context: Because teams are small, they hire more senior people who can be autonomous
+  - fact: Managers are people-focused, not hands-on technical
+    source: Ahmad A (Engineer, Integrations Team, Observability Department)
+    date: '2025-10-08'
+    confidence: firsthand_account
+    fact_type: objective
+    context: Managers understand things but don't write code
+  - fact: Manager manages 2-3 teams of similar size, approximately 9-15 total reports
+    source: Ahmad A (Engineer, Integrations Team, Observability Department)
+    date: '2025-10-08'
+    confidence: firsthand_account
+    fact_type: objective
+    context: Ahmad's manager specifically, but seems representative
+  - fact: Company is fully remote
+    source: Ahmad A (Engineer, Integrations Team, Observability Department)
+    date: '2025-10-08'
+    confidence: firsthand_account
+    fact_type: objective
+  - fact: Strong European hub with employees from UK to Poland, some in Dubai
+    source: Ahmad A (Engineer, Integrations Team, Observability Department)
+    date: '2025-10-08'
+    confidence: firsthand_account
+    fact_type: objective
+    context: No center of gravity, distributed globally
+  - fact: Ahmad's team members are all in Europe (Berlin, Munich)
+    source: Ahmad A (Engineer, Integrations Team, Observability Department)
+    date: '2025-10-08'
+    confidence: firsthand_account
+    fact_type: objective
+    context: Team coordination benefits from timezone alignment
+  - fact: Comprehensive onboarding includes remote week plus in-person week
+    source: Ahmad A (Engineer, Integrations Team, Observability Department)
+    date: '2025-10-08'
+    confidence: firsthand_account
+    fact_type: objective
+    context: Ahmad did remote week from home, then flew to Toronto for in-person onboarding
+  - fact: Company has shutdown days where everyone gets the day off
+    source: Ahmad A (Engineer, Integrations Team, Observability Department)
+    date: '2025-10-08'
+    confidence: firsthand_account
+    fact_type: objective
+  - fact: Regular offsites for department strategy and planning
+    source: Ahmad A (Engineer, Integrations Team, Observability Department)
+    date: '2025-10-08'
+    confidence: firsthand_account
+    fact_type: objective
+    context: Ahmad going to Belgium offsite to brainstorm integration strategy
+  - fact: Ahmad started September 2nd, 2024
+    source: Ahmad A (Engineer, Integrations Team, Observability Department)
+    date: '2025-10-08'
+    confidence: firsthand_account
+    fact_type: objective
+    context: 5 weeks into role at time of interview
+  - fact: Still substantial onboarding even after 5 weeks
+    source: Ahmad A (Engineer, Integrations Team, Observability Department)
+    date: '2025-10-08'
+    confidence: firsthand_account
+    fact_type: subjective
+    context: Lots to learn about the system
+  missing_information:
+  - Formal parental leave policies
+  - Promotion timeline and criteria
+  - Performance review cycle
+  - Compensation philosophy and bands
+  - Equity refresh policy
+  - Healthcare benefits details
+technical_culture:
+  facts_found:
+  - fact: Engineers can use any AI tools they want, company provides licenses
+    source: Ahmad A (Engineer, Integrations Team, Observability Department)
+    date: '2025-10-08'
+    confidence: firsthand_account
+    fact_type: objective
+    context: No mandate to use AI unlike HubSpot/Shopify
+  - fact: No AI mandate for productivity or code generation
+    source: Ahmad A (Engineer, Integrations Team, Observability Department)
+    date: '2025-10-08'
+    confidence: firsthand_account
+    fact_type: objective
+    context: Contrasts with HubSpot's requirement to use ChatGPT for everything
+  - fact: Grafana UI backend is built in Golang
+    source: Ahmad A (Engineer, Integrations Team, Observability Department)
+    date: '2025-10-08'
+    confidence: firsthand_account
+    fact_type: objective
+  - fact: All LGTM stack databases (Loki, Mimir, Tempo, Pyroscope) built in Golang
+    source: Ahmad A (Engineer, Integrations Team, Observability Department)
+    date: '2025-10-08'
+    confidence: firsthand_account
+    fact_type: objective
+  - fact: Inter-team communication is mostly async via Slack
+    source: Ahmad A (Engineer, Integrations Team, Observability Department)
+    date: '2025-10-08'
+    confidence: firsthand_account
+    fact_type: objective
+  - fact: Some teams just maintain and contribute to open source projects
+    source: Ahmad A (Engineer, Integrations Team, Observability Department)
+    date: '2025-10-08'
+    confidence: firsthand_account
+    fact_type: objective
+    context: Significant open source community work
+  - fact: Working on strategic pivot from manual Golang exporters to OpenTelemetry-based
+      generation
+    source: Ahmad A (Engineer, Integrations Team, Observability Department)
+    date: '2025-10-08'
+    confidence: firsthand_account
+    fact_type: objective
+    context: Integration team exploring more scalable approach
+  - fact: Databases are built as distributed horizontally scalable systems
+    source: Ahmad A (Engineer, Integrations Team, Observability Department)
+    date: '2025-10-08'
+    confidence: firsthand_account
+    fact_type: objective
+    context: Unlike Prometheus which doesn't scale horizontally
+  missing_information:
+  - On-call rotation frequency and compensation
+  - Code review SLA or expectations
+  - Testing requirements and CI/CD practices
+  - Technical debt management
+  - Architecture decision process
+  - Documentation standards
+summary:
+  total_facts_found: 49
+  information_completeness: high
+  most_recent_interview: '2025-10-08'
+  oldest_interview: '2025-10-08'
+  total_interviews: 1
+  interviewees:
+  - name: Ahmad A
+    role: Engineer, Integrations Team, Observability Department
+    interview_date: '2025-10-08'

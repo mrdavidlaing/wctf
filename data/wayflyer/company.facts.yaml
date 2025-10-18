@@ -1,0 +1,512 @@
+company: Wayflyer
+company_slug: wayflyer
+research_date: '2025-10-10'
+financial_health:
+  facts_found:
+  - fact: Raised $10.2 million in seed funding in October 2020
+    source: Clay, Tracxn
+    date: '2020-10-19'
+    confidence: explicit_statement
+  - fact: Raised $76 million in Series A funding in May 2021, led by Left Lane Capital
+    source: TechCrunch, Wikipedia, Crunchbase
+    date: '2021-05-27'
+    confidence: explicit_statement
+  - fact: Raised $150 million in Series B funding on February 1, 2022, co-led by DST
+      Global and QED Investors, achieving post-money valuation of $1.6 billion (unicorn
+      status)
+    source: Wayflyer Press Release, TechCrunch, Wikipedia
+    date: '2022-02-01'
+    confidence: explicit_statement
+  - fact: Secured $300 million in debt financing from J.P. Morgan in May 2022, with
+      Neuberger Berman as mezzanine provider
+    source: Wayflyer Press Release, Business Wire, Reuters
+    date: '2022-05-12'
+    confidence: explicit_statement
+  - fact: Secured $253 million debt financing from Credit Suisse in September 2022
+      ($200M debt + $53M mezzanine)
+    source: Irish Times, Wayflyer Press Release, Wikipedia
+    date: '2022-09-01'
+    confidence: explicit_statement
+  - fact: Renewed $300 million debt line with J.P. Morgan in June 2023
+    source: Irish Times, Silicon Republic, Reuters
+    date: '2023-06-14'
+    confidence: explicit_statement
+  - fact: Secured $1 billion off-balance sheet program from Neuberger Berman in September
+      2023
+    source: TechCrunch, Tracxn
+    date: '2023-09-05'
+    confidence: explicit_statement
+  - fact: Total funding of $1.24 billion across 7 rounds (1 Seed, 2 Early-Stage, 1
+      Late-Stage, 3 Debt)
+    source: Tracxn
+    date: '2024-11-26'
+    confidence: explicit_statement
+  - fact: "Recorded \u20AC36.33 million in revenue in 2022"
+    source: Wikipedia, Irish Times
+    date: '2023-12-11'
+    confidence: explicit_statement
+  - fact: "Recorded \u20AC62.5 million in revenue in 2023, up 72% year-over-year from\
+      \ \u20AC36.33 million in 2022"
+    source: Wikipedia, Irish Times, RTE
+    date: '2024-11-26'
+    confidence: explicit_statement
+  - fact: "Forecast revenues of up to \u20AC70 million for 2024"
+    source: Business Post
+    date: '2023-11-27'
+    confidence: implied
+  - fact: Deployed over $2 billion to more than 3,000 eCommerce businesses by June
+      2023
+    source: Silicon Republic, Reuters
+    date: '2023-06-14'
+    confidence: explicit_statement
+  - fact: Reached milestone of deploying $5 billion to 5,000+ brands across 11 countries
+      by fifth anniversary in 2024
+    source: Business Wire
+    date: '2025-04-30'
+    confidence: explicit_statement
+  - fact: "Recorded operating loss of \u20AC76.9 million in 2022"
+    source: Irish Times
+    date: '2024-11-26'
+    confidence: explicit_statement
+  - fact: "Reduced operating loss to \u20AC40.9 million in 2023 (46% reduction from\
+      \ prior year)"
+    source: Irish Times, Wikipedia
+    date: '2024-11-26'
+    confidence: explicit_statement
+  - fact: Achieved monthly profitability for first time in October 2023
+    source: FFNews, Irish Times
+    date: '2023-11-27'
+    confidence: explicit_statement
+  - fact: Reduced operating losses by 85% in Q3 2023 compared to Q3 2022
+    source: FFNews, Irish Times
+    date: '2023-11-27'
+    confidence: explicit_statement
+  - fact: Expected to achieve full-year profitability in 2024
+    source: Endeavor Ireland, Business Post, FFNews
+    date: '2023-11-27'
+    confidence: explicit_statement
+  - fact: Had 40 employees at end of 2020
+    source: Wayflyer Press Release, Irish Times
+    date: '2022-02-01'
+    confidence: explicit_statement
+  - fact: Staff count increased 525% in 2021, from 40 to 250 employees
+    source: Wayflyer Press Release, Irish Times
+    date: '2022-02-01'
+    confidence: explicit_statement
+  - fact: Had approximately 500 employees globally before November 2022 layoffs
+    source: Irish Times, Silicon Republic, Sifted
+    date: '2022-11-16'
+    confidence: explicit_statement
+  - fact: Laid off 200 employees (40% of global workforce) in November 2022, reducing
+      headcount from ~500 to ~300
+    source: Irish Times, Silicon Republic, Sifted, Reuters
+    date: '2022-11-16'
+    confidence: explicit_statement
+  - fact: Stabilized at 300+ employees as of 2024-2025 with offices in Dublin, London,
+      New York, and Sydney
+    source: Wayflyer Careers Page, PitchBook
+    date: '2024-11-26'
+    confidence: explicit_statement
+  - fact: Over 80% of customers return for additional financing after initial deals
+    source: FFNews, TechCrunch
+    date: '2023-11-27'
+    confidence: explicit_statement
+  - fact: "Acquired influencer financing startup Peblo in May 2022 for up to \u20AC\
+      10M, then shut it down in November 2023 with fewer than 15 job losses"
+    source: Irish Times
+    date: '2023-11-27'
+    confidence: explicit_statement
+  - fact: Co-founder Jack Pierse departed in July 2023 to pursue new ventures
+    source: Silicon Republic, Tracxn
+    date: '2023-07-01'
+    confidence: explicit_statement
+  - fact: Named Ireland's fastest-growing technology company at Deloitte's Technology
+      Fast 50 Awards in November 2024
+    source: Silicon Republic, Wikipedia, Irish Times
+    date: '2024-11-29'
+    confidence: explicit_statement
+  missing_information:
+  - ARR (Annual Recurring Revenue) - not applicable to revenue-based financing model
+  - Specific monthly/quarterly burn rate figures
+  - Runway and cash reserves
+  - Customer acquisition cost (CAC)
+  - Customer retention rates by cohort
+  - Average revenue per customer
+  - Specific default rate percentages
+  - 2024 full-year revenue actuals (only forecasts available)
+  - Notable customer brand names
+  - Post-2022 valuation changes
+  - Interest rates on debt facilities
+  - Employee compensation bands
+market_position:
+  facts_found:
+  - fact: Provides revenue-based financing to consumer brands across eCommerce, Amazon,
+      and wholesale channels with value proposition of fast, flexible, unsecured funding
+      without dilution, personal guarantees, or equity
+    source: Wayflyer official website
+    date: '2025-01-10'
+    confidence: explicit_statement
+  - fact: Founded in 2019 by Aidan Corbett and Jack Pierse in Dublin, Ireland
+    source: Wayflyer official website, Wikipedia
+    date: '2024-11-01'
+    confidence: explicit_statement
+  - fact: 'Offers three main products: Cash Advance (daily repayment 6-15% of sales),
+      Term Loan, and Rolling Financing, providing $5K-$20M with 24-hour funding decisions'
+    source: Wayflyer official website, New Frontier Funding
+    date: '2024-12-01'
+    confidence: explicit_statement
+  - fact: Publicly launched Amazon and Wholesale Financing products in March 2024
+    source: Wayflyer official website, LinkedIn
+    date: '2024-03-04'
+    confidence: explicit_statement
+  - fact: Introduced self-serve financing option in October 2023
+    source: Wayflyer official website
+    date: '2023-10-01'
+    confidence: explicit_statement
+  - fact: Transparent fixed-fee pricing 2-8% of total funding (average 4.2%, typically
+      5-10%), with no interest, origination, annual, or hidden fees. Repayments typically
+      12-18% of daily sales
+    source: Wayflyer Help Center, official website, New Frontier Funding
+    date: '2024-12-01'
+    confidence: explicit_statement
+  - fact: Uses proprietary technology and automated underwriting through connected
+      sales platforms, achieving 92% approval rate and 85% application processing
+      efficiency
+    source: New Frontier Funding, company website
+    date: '2024-10-01'
+    confidence: explicit_statement
+  - fact: Targets DTC eCommerce brands, Amazon sellers, and wholesale/CPG brands with
+      minimum $20K/month average revenue for 6+ months in business. Wholesale requires
+      $250K+ annual revenue
+    source: BYVI, New Frontier Funding
+    date: '2024-01-01'
+    confidence: explicit_statement
+  - fact: Global revenue-based financing market valued at $6.4B in 2023, projected
+      to reach $178.3B by 2033 (39.4% CAGR). Wayflyer captured ~23% eCommerce financing
+      market share in 2023
+    source: Allied Market Research, PitchBook
+    date: '2023-12-01'
+    confidence: explicit_statement
+  - fact: Main competitors include Clearco (primary), Pipe, Uncapped, 8fig, Kickfurther,
+      Parafin, Highbeam, Capchase, Payability, Banxware, Pershing Ventures. Generates
+      $450M more revenue than Clearco per Owler
+    source: CB Insights, Owler, Commerce Caffeine
+    date: '2024-12-01'
+    confidence: explicit_statement
+  - fact: Has 4.8/5 star rating on TrustPilot based on 432 reviews, with customers
+      praising fast funding, transparent terms, responsive support, flexible repayment
+    source: TrustPilot
+    date: '2025-01-10'
+    confidence: explicit_statement
+  - fact: 94% customer satisfaction rate recorded in Q4 2023 surveys
+    source: New Frontier Funding, TradersUnion
+    date: '2023-12-01'
+    confidence: explicit_statement
+  - fact: Responds to only 14% of negative TrustPilot reviews, typically within 1
+      month
+    source: TrustPilot profile, TradersUnion
+    date: '2025-01-10'
+    confidence: explicit_statement
+  - fact: 'Operates in 11 countries: US, Canada, UK, Ireland, Australia, New Zealand,
+      Spain, Netherlands, Germany, Sweden, Belgium, Denmark with offices in Dublin,
+      London, New York, Sydney'
+    source: Wayflyer official website, blog, press releases
+    date: '2024-09-01'
+    confidence: explicit_statement
+  - fact: Announced expansion to Germany, Sweden, Belgium, Denmark in September 2022
+      with plans to deploy $200M+
+    source: Wayflyer blog, press releases
+    date: '2022-09-15'
+    confidence: explicit_statement
+  - fact: Obtained AICPA SOC 2 Type I certification audited by Prescient Assurance
+    source: Wayflyer official website
+    date: '2024-12-01'
+    confidence: explicit_statement
+  - fact: Uses Vanta for continuous infrastructure monitoring, hosts on AWS, conducts
+      external penetration tests, scores A rating on Qualys SSL Labs Test, completed
+      CSA CAIQ uploaded to STAR Registry
+    source: Wayflyer security standards page
+    date: '2024-12-01'
+    confidence: explicit_statement
+  missing_information:
+  - Capterra reviews (no reviews found)
+  - G2 reviews (no customer reviews available)
+  - ISO certifications (ISO 27001, 9001 not confirmed)
+  - Specific GDPR compliance documentation
+  - PCI DSS compliance certification
+  - Verification of 23% market share claim
+  - Specific default rate percentages
+  - Average customer revenue/size data
+  - Exact factors determining fee ranges
+organizational_stability:
+  facts_found:
+  - fact: Aidan Corbett serves as Co-Founder and CEO since 2019 founding
+    source: Wikipedia, Clay.com, Wayflyer.com
+    date: '2024-11-29'
+    confidence: explicit_statement
+  - fact: Victor Tuson Palau appointed first Chief Technology Officer in February
+      2025, joining from Bitpanda where he led 250-strong product/tech team
+    source: Wayflyer press release, FFNews
+    date: '2025-02-13'
+    confidence: explicit_statement
+  - fact: Victor Tuson Palau brings 20+ years experience and leads distributed technology
+      team remotely from Spain
+    source: FinTech Futures, Wayflyer press release
+    date: '2025-02-13'
+    confidence: explicit_statement
+  - fact: Jelle Kaat appointed VP of Product in 2025, from Mews with prior product
+      leadership at Swapfiets and Mollie
+    source: Wayflyer press release
+    date: '2025-04-30'
+    confidence: explicit_statement
+  - fact: Deirdre MacCarthy serves as Chief Legal Officer and Head of People, appointed
+      January 2022 after working as external counsel since 2019
+    source: Irish Legal News, The Org
+    date: '2022-01-01'
+    confidence: explicit_statement
+  - fact: Will Mahon-Heap serves as Chief Business Officer since October 2022, joining
+      from Revolut (4 years)
+    source: Irish Times, Silicon Republic
+    date: '2022-10-01'
+    confidence: explicit_statement
+  - fact: Ciara Smyth serves as Chief Talent Officer since December 2022, previously
+      Chief People Officer at King (Candy Crush)
+    source: Silicon Republic
+    date: '2022-12-01'
+    confidence: explicit_statement
+  - fact: Dan O'Brien serves as Founder, Chief Revenue Officer, and Vice President
+    source: CB Insights
+    date: '2024-10-10'
+    confidence: explicit_statement
+  - fact: John McAdoo serves as Chief Financial Officer
+    source: RocketReach
+    date: '2024-10-10'
+    confidence: explicit_statement
+  - fact: Matthew Burton from QED Investors serves on board of directors
+    source: CB Insights
+    date: '2024-10-10'
+    confidence: explicit_statement
+  - fact: Perry Blacher serves as advisor since January 2020
+    source: Crunchbase
+    date: '2020-01-01'
+    confidence: explicit_statement
+  - fact: Backed by QED Investors, DST Global, Left Lane Capital, Prosus, J.P. Morgan,
+      Credit Suisse
+    source: Tracxn, Wayflyer.com
+    date: '2024-10-10'
+    confidence: explicit_statement
+  - fact: Co-founder Jack Pierse departed July 2023 to launch HappyStack
+    source: Irish Times, Silicon Republic
+    date: '2023-07-04'
+    confidence: explicit_statement
+  - fact: Senior leadership team expanded considerably over 2023-2025 with multiple
+      C-suite appointments
+    source: Wayflyer press releases
+    date: '2025-02-13'
+    confidence: explicit_statement
+  - fact: Headquarters at One Park Place, Hatch Street Upper, Saint Kevin's, Dublin
+      2, Ireland
+    source: Wayflyer.com About
+    date: '2024-10-10'
+    confidence: explicit_statement
+  - fact: 'Four offices: Dublin, London (6th Floor, The Bindery 51-53 Hatton Garden),
+      New York (356 Wythe Ave Brooklyn), Sydney (Level 5, 100 Market St)'
+    source: Wayflyer.com About, Wikipedia
+    date: '2024-11-01'
+    confidence: explicit_statement
+  - fact: CTO leads distributed technology team remotely from Spain, indicating remote
+      work support
+    source: FFNews, FinTech Futures
+    date: '2025-02-13'
+    confidence: explicit_statement
+  - fact: Overall Glassdoor rating 3.9/5 stars based on 159-163 employee reviews
+    source: Glassdoor
+    date: '2025-04-21'
+    confidence: explicit_statement
+  - fact: 'Glassdoor ratings: work-life balance 3.4/5, culture/values 3.9/5, career
+      opportunities 3.8/5, compensation/benefits 3.7/5'
+    source: Glassdoor
+    date: '2025-04-21'
+    confidence: explicit_statement
+  - fact: 73% of employees would recommend to friend, 73% have positive business outlook
+    source: Glassdoor
+    date: '2025-04-21'
+    confidence: explicit_statement
+  - fact: 'Common pros: good culture/people, competitive comp, career development,
+      supportive for women in tech, CEO transparency'
+    source: Glassdoor reviews
+    date: '2023-09-06'
+    confidence: explicit_statement
+  - fact: 'Common cons: work-life balance challenges, management issues, fast-paced
+      pressure, nepotism concerns, frequent strategy changes'
+    source: Glassdoor reviews
+    date: '2025-04-04'
+    confidence: explicit_statement
+  - fact: Growth Capital Associate employees rated company 2.9/5 with only 32% recommending
+      to friend, noting work-life balance issues
+    source: Glassdoor
+    date: '2024-10-10'
+    confidence: explicit_statement
+  missing_information:
+  - Specific tenure lengths for most executives beyond CEO
+  - Detailed organizational chart with department sizes
+  - Compensation ranges or equity packages
+  - Employee breakdown by department/location/seniority
+  - Complete board member list
+  - CEO approval rating percentage
+  - Detailed remote work policy specifics
+  - Other executive departures since 2023
+  - Employee Net Promoter Score (eNPS)
+  - Diversity metrics for leadership and workforce
+  - Average employee tenure
+technical_culture:
+  facts_found:
+  - fact: 'Frontend stack: TypeScript, React with React Query for state management,
+      HTML5, CSS3, JavaScript'
+    source: Speedinvest Job Board - Full Stack Engineer
+    date: '2024-01-01'
+    confidence: explicit_statement
+  - fact: 'Backend: Python with Django framework, RESTful APIs, asynchronous request
+      handling'
+    source: Speedinvest Job Board - Full Stack Engineer
+    date: '2024-01-01'
+    confidence: explicit_statement
+  - fact: 'Data: PostgreSQL for relational database, Redis for non-relational storage
+      and caching'
+    source: Speedinvest Job Board - Full Stack Engineer
+    date: '2024-01-01'
+    confidence: explicit_statement
+  - fact: 'Testing: Playwright for end-to-end testing, Vitest as testing framework'
+    source: Speedinvest Job Board - Full Stack Engineer
+    date: '2024-01-01'
+    confidence: explicit_statement
+  - fact: 'Infrastructure: Docker for containerization, CI/CD pipelines, deployment
+      automation'
+    source: Speedinvest Job Board - Full Stack Engineer
+    date: '2024-01-01'
+    confidence: explicit_statement
+  - fact: Uses Agile development methodologies
+    source: Speedinvest Job Board - Full Stack Engineer
+    date: '2024-01-01'
+    confidence: explicit_statement
+  - fact: Over 20 people in data roles with tens of ML models in production for lead
+      generation, cash flow prediction, sales forecasting, inventory, default/fraud
+      prediction, NLP banking transaction categorization
+    source: Evidently AI - ML model cards story
+    date: '2023-01-01'
+    confidence: explicit_statement
+  - fact: 'ML stack: Python, Pydantic, Jinja, Plotly, Evidently for evaluation/monitoring,
+      Stable Diffusion for AI images, plans for MLflow model registry'
+    source: Evidently AI - ML model cards story
+    date: '2023-01-01'
+    confidence: explicit_statement
+  - fact: Implements automated ML model cards for all trained models with descriptions,
+      metrics, data quality assessments, drift reports, creative codenames, AI-generated
+      images
+    source: Evidently AI - ML model cards story
+    date: '2023-01-01'
+    confidence: explicit_statement
+  - fact: Operates product-oriented pods (growth, underwriting) with PMs, engineers,
+      designers, data scientists responsible for ML models, rather than central ML
+      team
+    source: Evidently AI - ML model cards story
+    date: '2023-01-01'
+    confidence: explicit_statement
+  - fact: Data Scientists use Python and Tableau for analysis, experiment design,
+      building predictive models with modern ML techniques
+    source: Lever - Data Scientist Job
+    date: '2023-01-01'
+    confidence: explicit_statement
+  - fact: Uses time-based train-validation splits with last 3-4 months as hold-out.
+      Retrains/deploys when improvements statistically significant
+    source: Evidently AI - ML model cards story
+    date: '2023-01-01'
+    confidence: explicit_statement
+  - fact: 'Public GitHub at github.com/wayflyer with two TypeScript repos: sdk-cta-reference-app,
+      sdk-cta-ui-reference-app showing active commits'
+    source: GitHub - Wayflyer Organization
+    date: '2025-10-10'
+    confidence: explicit_statement
+  - fact: Minimal public open source activity with only two reference repos visible,
+      no public members shown
+    source: GitHub - Wayflyer Organization
+    date: '2025-10-10'
+    confidence: explicit_statement
+  - fact: No dedicated engineering blog. Main blog at wayflyer.com/blog focuses on
+      eCommerce advice, finance, business insights rather than technical content
+    source: Wayflyer Blog
+    date: '2025-10-10'
+    confidence: explicit_statement
+  - fact: Ger Fitzpatrick serves as Head of Engineering (previously at Tines where
+      he helped launch engineering blog)
+    source: LinkedIn - Ger Fitzpatrick
+    date: '2025-10-10'
+    confidence: explicit_statement
+  - fact: Martin Coghlan is Senior Engineering Manager (joined August 2021) with background
+      in Java Spring Boot microservices, TypeScript GraphQL, TypeScript React, full-stack
+      at Walmart Global Tech
+    source: The Org - Martin Coghlan
+    date: '2025-10-10'
+    confidence: explicit_statement
+  - fact: "Javier L\xF3pez Pe\xF1a serves as Data Science Manager leading ML model\
+      \ cards and MLOps initiatives"
+    source: Evidently AI - ML model cards story
+    date: '2023-01-01'
+    confidence: explicit_statement
+  - fact: 'Data Scientist interview: (1) screening with data scientist, (2) take-home
+      classification model task. Takes 4 weeks total'
+    source: Glassdoor - Interview Questions
+    date: '2025-02-01'
+    confidence: explicit_statement
+  - fact: 'Software Engineer interview: (1) 20-min recruiter chat, (2) 45-min manager
+      interview (polymorphism, Python internals, design patterns), (3) take-home challenge,
+      (4) 90-min technical, (5) 30-min CTO. Takes 1-4 weeks'
+    source: Glassdoor Ireland - Interview Questions
+    date: '2025-07-01'
+    confidence: explicit_statement
+  - fact: 'Technical questions: polymorphism, pass by value/reference, Python memory
+      (stack/heap), dictionary implementation, design patterns, career projects'
+    source: Glassdoor Ireland - Interview Questions
+    date: '2025-07-01'
+    confidence: explicit_statement
+  - fact: Interview experience rated 40% positive with 2.7/5 difficulty. Typically
+      3-5 stages over 2-6 weeks
+    source: Glassdoor - Interview Questions
+    date: '2025-10-10'
+    confidence: explicit_statement
+  - fact: Truly cross-functional teams with engineers, PMs, designers, data scientists,
+      business teams. Engineering handles infrastructure, software, data analysis,
+      IT support
+    source: The Org - Wayflyer Engineering
+    date: '2025-10-10'
+    confidence: explicit_statement
+  - fact: 'Benefits: fully remote for some roles, 2 wellness days/year, 60 days remote
+      abroad/year, EAP, medical insurance, generous parental/adoptive leave, equity
+      scheme'
+    source: Speedinvest Job Board - Full Stack Engineer
+    date: '2024-01-01'
+    confidence: explicit_statement
+  - fact: Uses HubSpot CRM Platform as central customer data technology, integrated
+      with proprietary web app
+    source: HubSpot Case Studies - Wayflyer
+    date: '2023-01-01'
+    confidence: explicit_statement
+  missing_information:
+  - Conference talks and technical presentations
+  - Engineering blog publication frequency (no dedicated blog)
+  - Significant open source contributions beyond two repos
+  - Specific CI/CD tools (Jenkins, CircleCI, GitHub Actions)
+  - Cloud provider details (AWS services not specified)
+  - Code review practices and tools
+  - Testing coverage requirements
+  - Architecture approach (monolith vs microservices)
+  - API gateway/service mesh implementations
+  - Monitoring and observability tools (DataDog, New Relic)
+  - Hacker News or Reddit engineering discussions
+  - Technical podcast appearances
+  - Public API documentation
+summary:
+  total_facts_found: 92
+  information_completeness: high
+  most_recent_data_point: '2025-04-30'
+  oldest_data_point: '2020-01-01'

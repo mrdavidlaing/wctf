@@ -1,0 +1,323 @@
+company: Tipalti
+company_slug: tipalti
+research_date: '2025-10-17'
+financial_health:
+  facts_found:
+  - fact: Raised $270M Series F at $8.3B valuation in Dec 2021, but secondary market
+      valuation dropped to $3.1B by Jan 2024 (63% decline)
+    source: TechCrunch; Contrary Research; Caplight
+    date: '2024-01-31'
+    confidence: explicit_statement
+  - fact: Raised $200M debt financing from Hercules Capital in Sept 2025 to accelerate
+      AI investments
+    source: Payments Dive; PR Newswire
+    date: '2025-09-24'
+    confidence: explicit_statement
+  - fact: Exceeded $200M ARR as of Sept 2025, growing from $26M (2020) to $182M (2024)
+    source: GetLatka; Wikipedia; CB Insights
+    date: '2025-09-25'
+    confidence: explicit_statement
+  - fact: Processes $75B annualized payment volume (2025), up 30%+ YoY from $70B (2024)
+    source: Wikipedia; Tipalti Press Releases
+    date: '2025-09-25'
+    confidence: explicit_statement
+  - fact: Grew from 2,000+ customers (2021) to 5,000+ (2025), representing 30% YoY
+      customer growth
+    source: Tipalti Press Releases; PR Newswire
+    date: '2025-09-25'
+    confidence: explicit_statement
+  - fact: Maintains 99% customer retention rate and 1% dollar churn rate
+    source: Contrary Research; TechCrunch
+    date: '2024-06-30'
+    confidence: explicit_statement
+  - fact: Total funding raised is $865M+ across all rounds since 2010
+    source: Sacra; Clay; Crunchbase
+    date: '2025-09-24'
+    confidence: explicit_statement
+  - fact: Laid off 123 employees (11% of 1,086 workforce) in Jan 2023 citing economic
+      pressures
+    source: CTech; Jewish Business News; TrueUp
+    date: '2023-01-11'
+    confidence: explicit_statement
+  - fact: Second layoff round in July 2024 (dozens affected), driven by shift to mid-market
+      focus
+    source: CTech; Stampli
+    date: '2025-07-24'
+    confidence: explicit_statement
+  - fact: Approximately 1,000 employees currently (down from peak 1,086 in Jan 2023)
+    source: CTech; Tracxn; ZoomInfo
+    date: '2025-07-24'
+    confidence: explicit_statement
+  - fact: CEO stated 60% of 2021 funding remained as of May 2023
+    source: CTech (CEO Chen Amit)
+    date: '2023-05-15'
+    confidence: explicit_statement
+  - fact: Raised $150M Series E at $2B valuation in Oct 2020
+    source: TechCrunch; Tipalti Press Release
+    date: '2020-10-06'
+    confidence: explicit_statement
+  - fact: Acquired AI treasury automation startup Statement in June 2025 (terms undisclosed)
+    source: Tipalti Press Release; PR Newswire
+    date: '2025-06-16'
+    confidence: explicit_statement
+  - fact: Acquired Approve.com for $40M in April 2021
+    source: Crunchbase; Contrary Research
+    date: '2021-04-12'
+    confidence: explicit_statement
+  - fact: Company has NOT publicly disclosed profitability status or path to profitability
+    source: Payments Dive
+    date: '2025-09-25'
+    confidence: explicit_statement
+  missing_information:
+  - 'Profitability status: No disclosure of operating margin or EBITDA'
+  - 'Burn rate: Monthly cash burn not publicly available'
+  - Gross margins and unit economics not disclosed
+  - CAC/LTV ratios not publicly available
+  - Cash flow positive status not disclosed
+market_position:
+  facts_found:
+  - fact: Global finance automation platform for AP automation, mass payments, procurement
+      serving mid-market (50-1,000 employees)
+    source: Tipalti.com; Wikipedia; Contrary Research
+    date: '2024-12-31'
+    confidence: explicit_statement
+  - fact: Enables cross-border payments to 196 countries in 120 currencies via 50+
+      payment methods
+    source: Tipalti.com; Contrary Research
+    date: '2024-06-30'
+    confidence: explicit_statement
+  - fact: Claims customers can eliminate 80% of supplier payment workload, accelerate
+      financial close by 25%
+    source: Tipalti.com; Wise
+    date: '2024-12-31'
+    confidence: explicit_statement
+  - fact: Licensed money transmitter in US states, UK, and EU; obtained EMI license
+      Sept 2023
+    source: Wikipedia; Tipalti.com
+    date: '2024-12-05'
+    confidence: explicit_statement
+  - fact: 4,000+ customers as of June 2024 including Roblox, Spotify, National Geographic,
+      GoDaddy, Twitch
+    source: Tipalti.com; Contrary Research
+    date: '2024-06-30'
+    confidence: explicit_statement
+  - fact: G2 rating 4.4-4.5/5 (117-161 reviews); Capterra 4.6/5 (161-163 reviews);
+      TrustPilot 3.6-3.7/5 (83 reviews)
+    source: G2.com; Capterra.com; Trustpilot.com
+    date: '2024-12-31'
+    confidence: explicit_statement
+  - fact: AP automation market valued at $3.0-6.9B in 2024, projected to reach $8.1-17.4B
+      by 2030-2034 (CAGR 10.3-14.0%)
+    source: Future Market Insights; Allied Market Research
+    date: '2024-08-13'
+    confidence: explicit_statement
+  - fact: 'Primary competitors: Bill.com ($5.6B cap), AvidXchange ($2.3B cap), Stampli,
+      Coupa ($8B acquisition), Brex, Airbase'
+    source: G2.com; CB Insights; Contrary Research
+    date: '2024-05-31'
+    confidence: explicit_statement
+  - fact: Differentiates through global payment capabilities, tax compliance, 3-way
+      PO matching, 26,000+ validation rules
+    source: Tipalti.com; Contrary Research
+    date: '2024-06-30'
+    confidence: explicit_statement
+  - fact: Headquartered Foster City, CA with offices in Amsterdam, London, Plano,
+      Tbilisi, Tel Aviv, Toronto, Vancouver
+    source: Wikipedia; Tipalti.com; LeadIQ
+    date: '2024-12-31'
+    confidence: explicit_statement
+  - fact: 'European expansion target: 20% of new business by end 2024; 300+ UK/EU
+      customers; 100+ Canadian customers'
+    source: Tipalti.com blog; FinTech Futures
+    date: '2024-12-05'
+    confidence: explicit_statement
+  - fact: SaaS pricing starting at $129-149/month basic platform; tiered plans with
+      custom pricing
+    source: Tipalti.com; TrustRadius; G2
+    date: '2024-12-31'
+    confidence: explicit_statement
+  - fact: Named to Forbes Fintech 50 for 2025, won Best AP Solution at 2025 FinTech
+      Breakthrough Awards
+    source: Forbes; Tipalti.com; CB Insights
+    date: '2025-01-31'
+    confidence: explicit_statement
+  missing_information:
+  - Specific market share percentage within AP automation space
+  - Exact NRR rate (only 1% churn disclosed)
+  - Detailed geographic revenue breakdown
+  - Average contract value (ACV) ranges beyond starter pricing
+  - Gartner Magic Quadrant or Forrester Wave positioning
+organizational_stability:
+  facts_found:
+  - fact: Chen Amit is Co-Founder and CEO, leading Tipalti since 2010 (15+ years tenure)
+    source: Tipalti.com; Wikipedia; Comparably
+    date: 2010-present
+    confidence: explicit_statement
+  - fact: Igor Vainberg served as CTO from Jan 2017 to Feb 2024 (7 years), then left
+      to join Meta
+    source: Clay.com; RocketReach; Bloomberg
+    date: '2024-02-01'
+    confidence: explicit_statement
+  - fact: Roby Baruch now Chief Product and Technology Officer after 12+ years with
+      company
+    source: Tipalti.com
+    date: 2024-present
+    confidence: explicit_statement
+  - fact: 'Leadership expanded 2023: Dror Yosef as CDO, Steve Hunt promoted to Chief
+      People Officer, Rob Israch promoted to President'
+    source: Tipalti CEO letter 2023
+    date: '2023-12-31'
+    confidence: explicit_statement
+  - fact: Sarah Spoja serves as CFO since 2018, background from KKR Capstone and Stanford
+      MBA
+    source: Tipalti.com; Crunchbase
+    date: 2018-present
+    confidence: explicit_statement
+  - fact: 'Board members: Oren Zeev (Co-Founder & Chairman), Dovi Frances (Group 11),
+      Carl Pascarella (former Visa President & CEO)'
+    source: Tipalti.com; Crunchbase
+    date: 2024-2025
+    confidence: explicit_statement
+  - fact: New 53,000 sq ft Foster City headquarters since Jan 2023
+    source: HKS Architects; DFPI California
+    date: '2023-01-01'
+    confidence: explicit_statement
+  - fact: 'Hybrid work model: Monday, Tuesday, Thursday in-office (3 days office,
+      2 days WFH)'
+    source: Glassdoor; Tipalti careers
+    date: 2024-2025
+    confidence: explicit_statement
+  - fact: Glassdoor rating 3.5/5 from 427-431 reviews; 59-64% would recommend to a
+      friend; 46-49% positive business outlook
+    source: Glassdoor.com
+    date: '2025-10-17'
+    confidence: explicit_statement
+  - fact: 'Glassdoor detailed: Work-life balance 3.7-3.8/5, Culture 3.6-3.7/5, Compensation
+      3.1-3.2/5, Career 3.2-3.4/5'
+    source: Glassdoor.com
+    date: 2024-2025
+    confidence: explicit_statement
+  - fact: Executive Team rated A+ with 83/100 score, ranking Top 5% of similar-sized
+      companies
+    source: Comparably.com
+    date: '2025-10-04'
+    confidence: explicit_statement
+  - fact: Laid off 123 employees (11%) Jan 2023 despite CEO stating company wouldn't
+      need layoffs
+    source: TrueUp.io; LinkedIn; Glassdoor
+    date: '2023-01-11'
+    confidence: explicit_statement
+  - fact: Second layoff round July 2024 (40+ in Israel, dozens worldwide) driven by
+      mid-market shift
+    source: Calcalist Tech; CPA Practice Advisor; Globes
+    date: '2024-07-24'
+    confidence: explicit_statement
+  - fact: Employee count approximately 1,000 (2024), down from peak 1,100+ (2022)
+    source: Tipalti milestones; Zippia; LeadIQ; Tracxn
+    date: 2024-2025
+    confidence: implied
+  missing_information:
+  - VP Engineering or Head of Engineering identity and tenure
+  - Engineering team size breakdown vs other departments
+  - Recent executive departures besides CTO
+  - Specific PTO/vacation days policy
+  - Remote work eligibility by role
+  - Salary bands or compensation benchmarks
+technical_culture:
+  facts_found:
+  - fact: SVP Engineering (Ori) joined 2013, coding since age 9, IDF software engineer,
+      B.Sc. from Technion
+    source: Tipalti Blog
+    date: '2024-04-01'
+    confidence: explicit_statement
+  - fact: CEO Chen Amit has B.Sc. Computer Engineering from Technion, started as Tipalti's
+      first developer
+    source: Medium; FinTech Magazine
+    date: '2025-01-15'
+    confidence: explicit_statement
+  - fact: CPTO Roby Baruch 12+ years tenure, built $500M+ payment system at 888.com
+    source: Tipalti Company Page
+    date: '2025-01-15'
+    confidence: explicit_statement
+  - fact: 'Tech stack: C#/.NET, Java, Node.js, Vue.js, Angular, React with microservices
+      architecture'
+    source: Job postings (echojobs.io; Bright Network; Glassdoor)
+    date: '2024-11-15'
+    confidence: explicit_statement
+  - fact: Successfully migrated from .NET to Linux using PM2 for production deployments
+    source: Tipalti Labs Blog
+    date: '2018-05-08'
+    confidence: explicit_statement
+  - fact: Uses Azure Pipelines for CI/CD based on GitHub organization repos
+    source: GitHub (tipalti organization)
+    date: '2024-12-15'
+    confidence: implied
+  - fact: Launched Tipalti AI/Pi in March 2020, uses AI/ML for fraud detection, GL
+      coding, OCR, enhanced with agentic AI
+    source: Business Wire; Tipalti Press Release
+    date: '2025-09-24'
+    confidence: explicit_statement
+  - fact: Secured $200M Sept 2025 specifically to accelerate AI investments
+    source: PR Newswire; Payments Dive
+    date: '2025-09-25'
+    confidence: explicit_statement
+  - fact: 'AI features: ChatGPT integration, Ask Pi assistant, AI Auto Coding, AI
+      Report Builder with natural language'
+    source: Tipalti Blog (AI in Accounting)
+    date: '2025-01-15'
+    confidence: explicit_statement
+  - fact: Tipalti Labs technical blog at tipaltilabs.com; last technical post 2018,
+      business content continues through 2025
+    source: tipaltilabs.com
+    date: '2025-09-09'
+    confidence: explicit_statement
+  - fact: GitHub organization with 5 public repos including webpack-import-map-plugin,
+      e2e-in-docker-tutorial, AspNetCore.ExceptionMiddleware
+    source: GitHub (github.com/tipalti)
+    date: '2024-12-15'
+    confidence: explicit_statement
+  - fact: Developer Hub at developer.tipalti.com with REST APIs, extensive documentation,
+      multiple API versions
+    source: Tipalti Developer Hub
+    date: '2024-12-15'
+    confidence: explicit_statement
+  - fact: Tel Aviv is largest office with 350+ engineers; 300+ employees in Canada
+    source: TechCrunch; Tipalti Careers
+    date: '2021-12-08'
+    confidence: explicit_statement
+  - fact: 'Interview process: HR screen, 1hr coding (C#/.NET or Node.js), 1.5hr technical,
+      1.5hr design, final HR; 43% positive, 2.9/5 difficulty'
+    source: Glassdoor Interview Reviews
+    date: 2022-2023
+    confidence: explicit_statement
+  - fact: Building London tech hub, hiring Graduate Software Engineers with training
+      programme
+    source: Bright Network Job Posting
+    date: '2024-11-15'
+    confidence: explicit_statement
+  - fact: Uses E2E testing in Docker with Percy visual testing
+    source: GitHub (tipalti organization)
+    date: '2024-12-15'
+    confidence: implied
+  - fact: Hybrid work model with flexibility; Tel Aviv office has rooftop, balcony
+      garden, cafe, gym, daily lunch
+    source: Tipalti Careers
+    date: '2024-12-15'
+    confidence: explicit_statement
+  - fact: Hosts annual Illuminate user/developer conference since 2021, attends GDC
+    source: Tipalti Blog; Events Page
+    date: '2024-09-15'
+    confidence: explicit_statement
+  missing_information:
+  - Cloud provider (AWS vs Azure vs GCP)
+  - Database technologies (PostgreSQL, MongoDB, SQL Server)
+  - Testing coverage metrics
+  - Deployment frequency and on-call practices
+  - Code review practices and engineering standards
+  - Engineer conference talks at major events
+  - Internal tooling stack (monitoring, logging, observability)
+summary:
+  total_facts_found: 60
+  information_completeness: medium
+  most_recent_data_point: '2025-10-17'
+  oldest_data_point: '2010-01-01'

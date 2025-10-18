@@ -1,0 +1,235 @@
+company: Wayve
+company_slug: wayve
+evaluation_date: '2025-10-14'
+evaluator_context: Extracted from conversation notes
+green_flags:
+  mountain_range:
+    critical_matches: &id001
+    - flag: Massive funding with $1.05B Series C (SoftBank) plus potential $500M from
+        NVIDIA = ~$1.8B total
+      impact: Multi-year runway despite burn rate, unlikely to face funding crunch
+        during tenure
+      confidence: High - official press releases
+    - flag: Major OEM partnership with Nissan for 2027 commercial deployment in ProPilot
+        ADAS
+      impact: First revenue pathway confirmed, validates technical approach with tier-1
+        automaker
+      confidence: High - TechCrunch, official announcements
+    - flag: Strategic partnerships with Uber (Level 4 trials London) and NVIDIA (infrastructure
+        + investment)
+      impact: De-risks commercialization with established players in mobility and
+        AI infrastructure
+      confidence: High - official press releases
+    - flag: Research-heavy culture publishing at top-tier conferences (CVPR, ECCV,
+        NeurIPS)
+      impact: Working at cutting edge of autonomous driving AI, contributing to field
+        advancement
+      confidence: High - Wayve Science page, arXiv
+    - flag: Novel AV2.0 approach with end-to-end learning, mapless, hardware-agnostic
+      impact: Solving genuinely hard technical problems with differentiated approach
+        vs Waymo/Cruise
+      confidence: High - technical papers, company blog
+    - flag: Working on Level 4 autonomous driving with novel AI approach, potential
+        to reshape transportation
+      impact: Career-defining work on genuinely transformative technology
+      confidence: High - company mission, partnerships
+    - flag: Publishing research at top conferences, contributing to state of the art
+      impact: Resume value from research publications, technical credibility in AI/ML
+        community
+      confidence: High - confirmed publications at CVPR, ECCV
+    strong_positives: &id002
+    - flag: "Achieved unicorn status (\xA34.43B valuation) in 2024, fastest-hiring\
+        \ UK tech firm"
+      impact: Market validation and momentum, company is in growth phase rather than
+        survival mode
+      confidence: High - Tracxn, Tech.eu
+    - flag: No layoffs found in 2023-2025 despite scaling from 263 to 650 employees
+      impact: Company investing in growth, not cutting back during scale-up phase
+      confidence: High - Tech.eu, multiple sources
+    - flag: Open source presence on GitHub (wayveai org) with public repositories
+      impact: Technical transparency, ability to contribute to open source work
+      confidence: Medium - GitHub confirmed but limited repo details
+    - flag: Python-first stack with NVIDIA/Azure infrastructure
+      impact: Modern ML stack aligns with candidate's Python preference
+      confidence: High - job postings, Glassdoor interviews
+    - flag: Partnership with NVIDIA since 2018 for cutting-edge GPU infrastructure
+      impact: Access to latest hardware and direct technical collaboration with NVIDIA
+        engineers
+      confidence: High - Wayve blog, NVIDIA announcements
+    - flag: Leadership team from Mobileye (Erez Dagan - 20yr, EVP), Microsoft (Jamie
+        Shotton - 13yr, Director of Science), Goldman Sachs (Max Warburton - 20yr
+        analyst)
+      impact: Experienced leaders who've scaled autonomous driving and ML systems
+        before
+      confidence: High - official bios, company website
+    - flag: Glassdoor 4.3/5 stars, 84% recommend to friend, 80% positive business
+        outlook
+      impact: Overall employee satisfaction high despite rapid growth
+      confidence: High - Glassdoor verified reviews
+    - flag: 'Active ERGs: Neurodivergent, Asian heritage, Black Employees Network,
+        Veterans, Women Who Code'
+      impact: Structured support for diverse communities, inclusion focus
+      confidence: High - careers website
+    - flag: Employees praise 'cutting-edge work, great team, interesting problems'
+      impact: Day-to-day work is intellectually stimulating with strong colleagues
+      confidence: High - multiple Glassdoor reviews
+    - flag: Work-life balance rated 3.9/5 on Glassdoor
+      impact: Reasonable balance for high-growth startup in challenging technical
+        domain
+      confidence: Medium - Glassdoor aggregate
+    - flag: Hybrid work arrangements available for London positions
+      impact: Some flexibility in work location, not fully office-bound
+      confidence: Medium - job postings indicate 'hybrid'
+    - flag: Riding wave of autonomous vehicle and embodied AI explosion
+      impact: Domain expertise in one of AI's hottest application areas
+      confidence: High - market trends, funding levels
+    - flag: Britain's fastest-hiring tech firm, company in aggressive growth phase
+      impact: Opportunity to grow with company, potentially significant career advancement
+      confidence: High - Tech.eu May 2024
+  chosen_peak:
+    critical_matches: *id001
+    strong_positives: *id002
+  rope_team_confidence:
+    critical_matches: *id001
+    strong_positives: *id002
+  daily_climb:
+    critical_matches: *id001
+    strong_positives: *id002
+  story_worth_telling:
+    critical_matches: *id001
+    strong_positives: *id002
+red_flags:
+  mountain_range:
+    dealbreakers: &id003
+    - flag: Only 2 'Location Flexible' roles out of 112 positions, Germany (Leonberg)
+        only EU office
+      impact: EU remote work essentially impossible - dealbreaker for EU remote requirement
+      confidence: High - comprehensive job board search, careers page
+    - flag: Not on RemoteOK or WeWorkRemotely, no public statements about distributed
+        teams
+      impact: No remote infrastructure or culture, office-centric company DNA
+      confidence: High - job board searches, absence of evidence
+    concerning: &id004
+    - flag: "Pre-revenue company burning \xA362M annually (up from \xA341M previous\
+        \ year)"
+      impact: No product-market fit proven yet, entirely dependent on future commercialization
+        success
+      confidence: High - Tech.eu, official filings
+    - flag: First commercial deployment not until Nissan 2027, competitors (Waymo)
+        doing 100K rides/week now
+      impact: 3+ years to first revenue, significant execution risk, competitors have
+        multi-year head start
+      confidence: High - TechCrunch, MIT Technology Review
+    - flag: "Burn rate accelerating 51% year-over-year (\xA341M \u2192 \xA362M) while\
+        \ still pre-revenue"
+      impact: Funding runway shrinking faster than expected, pressure to commercialize
+      confidence: High - calculated from Tech.eu data
+    - flag: Interview candidates report being ghosted after interviews with no feedback
+      impact: Disorganized hiring process suggests immature recruiting, possible early
+        signal of scaling problems
+      confidence: Medium - multiple Glassdoor reviews
+    - flag: LeetCode-style Python DSA problems in technical screens
+      impact: Generic interview approach despite specialized domain, may not assess
+        relevant skills
+      confidence: Medium - Glassdoor interview reviews
+    - flag: Employees report 'Salaries and career progression extremely unclear, seems
+        arbitrary and random'
+      impact: Compensation transparency issues, unclear path for advancement
+      confidence: High - direct Glassdoor quote from 2024
+    - flag: Reviews mention 'messy management, not great for growth opportunities'
+      impact: Leadership struggling with scale-up, career development not prioritized
+      confidence: Medium - Glassdoor employee review
+    - flag: '''No motivation from management (no bonuses, feedback declined, many
+        work for visas)'''
+      impact: Management not investing in employee engagement, retention through necessity
+        not attraction
+      confidence: Medium - Glassdoor review, context unclear
+    - flag: First culture values refresh in 7 years happened December 2024
+      impact: Company may have neglected culture during growth phase, playing catch-up
+        on organizational development
+      confidence: High - Wayve official blog
+    - flag: Rapid scaling from 263 to 650 employees (147% growth) in 12 months
+      impact: Organizational chaos likely, culture dilution, onboarding/integration
+        challenges
+      confidence: High - Tech.eu
+    - flag: Hybrid/on-site culture for London positions
+      impact: Even London roles require office presence, not fully flexible
+      confidence: Medium - job postings
+    - flag: Pre-revenue with no proven product-market fit yet
+      impact: Risk that company never achieves commercialization, equity potentially
+        worthless
+      confidence: High - Tech.eu financial data
+    - flag: "Equity upside unclear given \xA34.43B valuation already, late-stage pricing"
+      impact: Limited 10x potential for equity compensation vs earlier-stage opportunities
+      confidence: Medium - implied from valuation
+  chosen_peak:
+    dealbreakers: *id003
+    concerning: *id004
+  rope_team_confidence:
+    dealbreakers: *id003
+    concerning: *id004
+  daily_climb:
+    dealbreakers: *id003
+    concerning: *id004
+  story_worth_telling:
+    dealbreakers: *id003
+    concerning: *id004
+missing_critical_data:
+- question: What is the specific UK visa sponsorship policy? Do they sponsor Skilled
+    Worker visas for EU candidates?
+  why_important: UK is not in EU, requires separate work authorization. Critical for
+    any EU-based candidate considering London roles.
+  how_to_find: Ask recruiter directly in first conversation, check UK government sponsor
+    list
+  mountain_element: daily_climb
+- question: Can the 2 'Location Flexible' roles (Head of Parking, Product Release
+    Manager) be performed from EU locations?
+  why_important: Only potential path to EU remote work, needs explicit confirmation
+  how_to_find: Direct outreach to recruiter or hiring manager about geographic flexibility
+  mountain_element: daily_climb
+- question: What is the equity compensation range and strike price for senior engineer
+    level?
+  why_important: "Given \xA34.43B valuation, need to understand if equity is meaningful\
+    \ or just table stakes"
+  how_to_find: Ask during offer negotiation, check levels.fyi for Wayve data if available
+  mountain_element: story_worth_telling
+- question: What percentage of engineering time is spent on research vs production
+    systems?
+  why_important: Balance between cutting-edge research and building production-ready
+    autonomous driving
+  how_to_find: Ask in team interview, inquire about typical project split
+  mountain_element: chosen_peak
+- question: What is the path to profitability timeline? When do they expect first
+    significant revenues?
+  why_important: Pre-revenue with 2027 deployment is clear, but when does revenue
+    become material?
+  how_to_find: May not be publicly disclosed, ask leadership during interview about
+    commercialization roadmap
+  mountain_element: mountain_range
+- question: What is typical tenure for senior engineers? What does career progression
+    look like?
+  why_important: Employee reviews mention unclear progression, need concrete examples
+  how_to_find: Ask hiring manager for examples, LinkedIn research on employee tenure
+  mountain_element: rope_team_confidence
+- question: How many mandatory office days per week for 'hybrid' London roles?
+  why_important: Hybrid can mean 1 day/week or 4 days/week - drastically different
+    experiences
+  how_to_find: Ask recruiter explicitly in first conversation
+  mountain_element: daily_climb
+- question: What is the TypeScript usage in the codebase? Full-stack roles mentioned
+    but tech stack details limited.
+  why_important: Candidate prefers TypeScript, unclear if this is used beyond Python/C++
+  how_to_find: Ask in technical interview, review job descriptions for web/full-stack
+    roles
+  mountain_element: chosen_peak
+- question: What are the actual compensation bands for senior engineers in London
+    vs Germany vs US?
+  why_important: Glassdoor reviews mention compensation opacity, need transparent
+    numbers
+  how_to_find: Ask recruiter for salary range in first call, check levels.fyi
+  mountain_element: daily_climb
+- question: Are there any plans to expand EU remote work or open additional EU offices?
+  why_important: Current state is dealbreaker, but future plans might be relevant
+    for long-term consideration
+  how_to_find: Ask recruiter or leadership during interview process
+  mountain_element: daily_climb

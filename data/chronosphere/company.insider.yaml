@@ -1,0 +1,197 @@
+company: Chronosphere
+company_slug: chronosphere
+last_updated: '2025-10-16'
+financial_health:
+  facts_found:
+  - fact: Company had one round of layoffs in 2023, no additional rounds since
+    source: Taylor Jordan (Product Designer)
+    date: '2025-10-16'
+    confidence: firsthand_account
+    fact_type: objective
+    context: Taylor confirmed only single layoff round during tenure since Jan 2022
+  - fact: Customer base includes a few massive whale accounts with long tail
+    source: Taylor Jordan (Product Designer)
+    date: '2025-10-16'
+    confidence: firsthand_account
+    fact_type: objective
+    context: DoorDash mentioned as example whale customer
+  - fact: Current headcount approximately 280 total employees
+    source: Taylor Jordan (Product Designer)
+    date: '2025-10-16'
+    confidence: firsthand_account
+    fact_type: objective
+    context: Aligns closely with Oct 2024 GetLatka data showing 295, represents stabilization
+      after 2023 layoffs
+  - fact: Engineering headcount approximately 140 people
+    source: Taylor Jordan (Product Designer)
+    date: '2025-10-16'
+    confidence: firsthand_account
+    fact_type: objective
+    context: About half of 280 total headcount, up from 117 reported in Oct 2024 public
+      data
+  missing_information:
+  - Burn rate and runway details
+  - ARR or revenue figures
+  - Profitability status
+  - Funding plans or IPO timeline beyond 'pre-IPO' comment
+market_position:
+  facts_found:
+  - fact: Product is SaaS-based, not on-premise deployment
+    source: Taylor Jordan (Product Designer)
+    date: '2025-10-16'
+    confidence: firsthand_account
+    fact_type: objective
+  - fact: DoorDash is a customer using Chronosphere for their observability
+    source: Taylor Jordan (Product Designer)
+    date: '2025-10-16'
+    confidence: firsthand_account
+    fact_type: objective
+    context: Referenced as 'who watches the watcher' - DoorDash monitoring their monitoring
+  - fact: Customer base skews toward large enterprises rather than SMB
+    source: Taylor Jordan (Product Designer)
+    date: '2025-10-16'
+    confidence: firsthand_account
+    fact_type: subjective
+    context: Described as 'massive whales with long tail' distribution
+  - fact: Company is pre-IPO stage
+    source: Taylor Jordan (Product Designer)
+    date: '2025-10-16'
+    confidence: firsthand_account
+    fact_type: objective
+    context: Mentioned casually in conversation about equity value
+  missing_information:
+  - Total customer count
+  - Competitive win rates
+  - Geographic distribution of customers
+organizational_stability:
+  facts_found:
+  - fact: Leadership team has been stable with no major VP turnover
+    source: Taylor Jordan (Product Designer)
+    date: '2025-10-16'
+    confidence: firsthand_account
+    fact_type: objective
+    context: Despite growth phase, leadership structure remained consistent
+  - fact: Product team is small with tight collaboration between design, product,
+      and engineering
+    source: Taylor Jordan (Product Designer)
+    date: '2025-10-16'
+    confidence: firsthand_account
+    fact_type: objective
+    context: Taylor described close working relationship with product and eng
+  - fact: Design has seat at the table as equal partner, not afterthought
+    source: Taylor Jordan (Product Designer)
+    date: '2025-10-16'
+    confidence: firsthand_account
+    fact_type: subjective
+    context: Taylor feels design is involved in decisions, not just polishing
+  - fact: Small product/design teams are normal, typical team around 5-8 people
+    source: Taylor Jordan (Product Designer)
+    date: '2025-10-16'
+    confidence: firsthand_account
+    fact_type: objective
+    context: When asked if team size was typical, Taylor confirmed it was normal
+  - fact: Engineering teams exist but specific count not disclosed
+    source: Taylor Jordan (Product Designer)
+    date: '2025-10-16'
+    confidence: firsthand_account
+    fact_type: objective
+    context: Taylor started to mention count but conversation moved on
+  - fact: Company has specialized SRE organization for on-call support
+    source: Taylor Jordan (Product Designer)
+    date: '2025-10-16'
+    confidence: firsthand_account
+    fact_type: objective
+    context: Rather than having individual engineering teams handle on-call
+  - fact: Engineering is distributed across multiple time zones including US and international
+    source: Taylor Jordan (Product Designer)
+    date: '2025-10-16'
+    confidence: firsthand_account
+    fact_type: objective
+    context: Taylor mentioned 'all the time zones' when discussing distributed team
+  - fact: Decision-making has good velocity, features can ship in reasonable timeframes
+    source: Taylor Jordan (Product Designer)
+    date: '2025-10-16'
+    confidence: firsthand_account
+    fact_type: subjective
+    context: Taylor implied decent pace, acknowledged 'perfect is enemy of good'
+  - fact: C-suite is capable of saying no to customer requests when needed
+    source: Taylor Jordan (Product Designer)
+    date: '2025-10-16'
+    confidence: firsthand_account
+    fact_type: subjective
+    context: When asked about conflicting big customer requests, Taylor indicated
+      leadership can prioritize
+  - fact: Remote-first company, still operating remotely post-COVID
+    source: Taylor Jordan (Product Designer)
+    date: '2025-10-16'
+    confidence: firsthand_account
+    fact_type: objective
+    context: Confirmed company remains remote since founding/COVID period
+  - fact: Many job postings say 'US remote' but international candidates are considered
+    source: Taylor Jordan (Product Designer)
+    date: '2025-10-16'
+    confidence: firsthand_account
+    fact_type: objective
+    context: Taylor clarified US remote doesn't mean US-only, Dublin-based candidate
+      would be viable
+  - fact: Hiring process involves reaching out to hiring managers for speculative
+      conversations
+    source: Taylor Jordan (Product Designer)
+    date: '2025-10-16'
+    confidence: firsthand_account
+    fact_type: objective
+    context: Taylor encouraged direct outreach to hiring managers rather than just
+      watching job board
+  missing_information:
+  - Manager span of control (number of direct reports)
+  - Career ladder and promotion criteria
+  - Compensation bands or equity details
+  - Specific number of engineering teams
+  - Performance review cadence and process
+  - Benefits package specifics
+technical_culture:
+  facts_found:
+  - fact: AI tools are actively being used and explored within the company
+    source: Taylor Jordan (Product Designer)
+    date: '2025-10-16'
+    confidence: firsthand_account
+    fact_type: objective
+    context: When asked about AI tooling revolution, Taylor discussed usage in both
+      product and daily work
+  - fact: Pairing culture exists where team members work together on problems
+    source: Taylor Jordan (Product Designer)
+    date: '2025-10-16'
+    confidence: firsthand_account
+    fact_type: objective
+    context: Taylor mentioned pairing when discussing typical day and collaboration
+  - fact: Calendar includes mix of meetings but not overwhelming meeting culture
+    source: Taylor Jordan (Product Designer)
+    date: '2025-10-16'
+    confidence: firsthand_account
+    fact_type: subjective
+    context: When asked about typical day, Taylor didn't indicate meeting hell
+  - fact: Company iterates on features with customers rather than pursuing perfection
+    source: Taylor Jordan (Product Designer)
+    date: '2025-10-16'
+    confidence: firsthand_account
+    fact_type: subjective
+    context: Taylor mentioned 'perfect is enemy of good' philosophy about shipping
+      and iteration
+  missing_information:
+  - Meeting load percentage (hours per week)
+  - Specific AI tools policy (Copilot, Cursor, Claude usage)
+  - Code review practices
+  - Tech stack details
+  - Testing practices and CI/CD pipeline
+  - Deployment frequency and process
+  - On-call rotation details
+summary:
+  total_facts_found: 26
+  information_completeness: medium
+  most_recent_interview: '2025-10-16'
+  oldest_interview: '2025-10-16'
+  total_interviews: 1
+  interviewees:
+  - name: Taylor Jordan
+    role: Product Designer
+    interview_date: '2025-10-16'

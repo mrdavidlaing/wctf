@@ -1,0 +1,253 @@
+company: Meta Dublin
+company_slug: meta-dublin
+research_date: '2025-10-12'
+financial_health:
+  facts_found:
+  - fact: Meta Dublin office has 2,000+ employees across 80+ teams
+    source: Internal research document
+    date: '2025-10-12'
+    confidence: explicit_statement
+  - fact: "Ballsbridge campus cost \u20AC395 million to redevelop, opened October\
+      \ 2023"
+    source: Internal research document
+    date: '2023-10-01'
+    confidence: explicit_statement
+  - fact: "Clonee data center represents \u20AC300 million investment, operational\
+      \ since 2017"
+    source: Internal research document
+    date: '2017-01-01'
+    confidence: explicit_statement
+  - fact: Meta Dublin established in 2009 with 25 people, expanded significantly by
+      2025
+    source: Internal research document
+    date: '2009-01-01'
+    confidence: explicit_statement
+  - fact: Clonee data center is 86,000 square meters (925,700 square feet) on a 250-acre
+      site
+    source: Internal research document
+    date: '2017-01-01'
+    confidence: explicit_statement
+  missing_information:
+  - Dublin office-specific revenue figures
+  - Dublin office budget or cost center size
+  - Recent layoffs or restructuring specific to Dublin
+  - Dublin-specific headcount growth trends
+market_position:
+  facts_found:
+  - fact: Serves as Meta's International Headquarters for EMEA (Europe, Middle East,
+      and Africa)
+    source: Internal research document
+    date: '2025-10-12'
+    confidence: explicit_statement
+  - fact: Functions primarily as infrastructure and operations hub, not product development
+      center
+    source: Internal research document
+    date: '2025-10-12'
+    confidence: explicit_statement
+  - fact: Largest engineering teams work on production systems, networking backbone,
+      data center operations, and platform infrastructure
+    source: Internal research document
+    date: '2025-10-12'
+    confidence: explicit_statement
+  - fact: Consumer product engineering for Instagram, Facebook, and Messenger remains
+      centralized in U.S. offices
+    source: Internal research document
+    date: '2025-10-12'
+    confidence: explicit_statement
+  - fact: Clonee data center runs on 100% renewable energy from wind power supplied
+      through Brookfield Renewables
+    source: Internal research document
+    date: '2017-01-01'
+    confidence: explicit_statement
+  - fact: Clonee achieved Greenpeace 'A' rating for sustainability
+    source: Internal research document
+    date: '2017-01-01'
+    confidence: explicit_statement
+  - fact: Office represents 110+ nationalities
+    source: Internal research document
+    date: '2025-10-12'
+    confidence: explicit_statement
+  - fact: Ballsbridge campus achieved LEED Gold certification for sustainable design
+    source: Internal research document
+    date: '2023-10-01'
+    confidence: explicit_statement
+  missing_information:
+  - Market share or competitive position (not applicable to infrastructure hub)
+  - Customer metrics specific to Dublin operations
+organizational_stability:
+  facts_found:
+  - fact: Anne O'Leary serves as Head of Meta Ireland
+    source: Internal research document
+    date: '2025-10-12'
+    confidence: explicit_statement
+  - fact: 'Office location: Ballsbridge campus in Dublin'
+    source: Internal research document
+    date: '2023-10-01'
+    confidence: explicit_statement
+  - fact: Clonee data center located in County Meath, approximately 20 minutes from
+      Dublin headquarters
+    source: Internal research document
+    date: '2017-01-01'
+    confidence: explicit_statement
+  - fact: Production Engineering represents the single largest engineering organization
+      in Dublin
+    source: Internal research document
+    date: '2025-10-12'
+    confidence: explicit_statement
+  - fact: Office includes several hundred Production Engineers across various specializations
+    source: Internal research document
+    date: '2025-10-12'
+    confidence: explicit_statement
+  - fact: Data center employs hundreds of operational personnel across multiple disciplines
+    source: Internal research document
+    date: '2025-10-12'
+    confidence: explicit_statement
+  - fact: Campus designed to mirror Meta's Menlo Park headquarters culture with atrium
+      similar to Hacker Square
+    source: Internal research document
+    date: '2023-10-01'
+    confidence: explicit_statement
+  - fact: Campus includes rooftop gardens, exercise track, and open collaborative
+      spaces
+    source: Internal research document
+    date: '2023-10-01'
+    confidence: explicit_statement
+  missing_information:
+  - Glassdoor ratings specific to Dublin office
+  - Recent executive changes in Dublin leadership
+  - Work model specifics (remote/hybrid/office requirements)
+  - Attrition rates or employee retention metrics
+technical_culture:
+  facts_found:
+  - fact: 'Primary engineering focus: Production Engineering, Network Infrastructure,
+      Data Center Operations, Platform Engineering'
+    source: Internal research document
+    date: '2025-10-12'
+    confidence: explicit_statement
+  - fact: Tech stack includes Python, C++, Golang, Rust for production services
+    source: Internal research document
+    date: '2025-10-12'
+    confidence: explicit_statement
+  - fact: Network engineers work with BGP, OSPF, ISIS, MPLS routing protocols
+    source: Internal research document
+    date: '2025-10-12'
+    confidence: explicit_statement
+  - fact: Uses Meta's open-source FBOSS network operating system
+    source: Internal research document
+    date: '2025-10-12'
+    confidence: explicit_statement
+  - fact: Works with Open Compute Project (OCP) hardware including Minipack3 switches
+      and Meta's FBNIC network interface card
+    source: Internal research document
+    date: '2025-10-12'
+    confidence: explicit_statement
+  - fact: Data infrastructure manages over one exabyte (1,000,000 terabytes) of data
+    source: Internal research document
+    date: '2025-10-12'
+    confidence: explicit_statement
+  - fact: Works with Velox (open-source unified execution engine delivering 3-10x
+      efficiency improvements)
+    source: Internal research document
+    date: '2025-10-12'
+    confidence: explicit_statement
+  - fact: Maintains ZippyDB distributed key/value datastore
+    source: Internal research document
+    date: '2023-07-01'
+    confidence: explicit_statement
+  - fact: Works with TAO (Meta's graph database for real-time content serving)
+    source: Internal research document
+    date: '2025-10-12'
+    confidence: explicit_statement
+  - fact: Contributes to Apache Arrow with custom extensions including StringView,
+      ListView, and REE
+    source: Internal research document
+    date: '2025-10-12'
+    confidence: explicit_statement
+  - fact: Developing Nimble (formerly Alpha) open-source file format optimized for
+      AI/ML workloads
+    source: Internal research document
+    date: '2025-10-12'
+    confidence: explicit_statement
+  - fact: Engineers participate in 24/7 on-call rotations for global infrastructure
+    source: Internal research document
+    date: '2025-10-12'
+    confidence: explicit_statement
+  - fact: Offers Network Production Engineer University Graduate Program with rotations
+      through teams
+    source: Internal research document
+    date: '2025-10-12'
+    confidence: explicit_statement
+  - fact: Culture emphasizes 'move fast' philosophy with strong ownership expectations
+    source: Internal research document
+    date: '2025-10-12'
+    confidence: explicit_statement
+  - fact: Network fabric evolving from 200Gbps/400Gbps to 400Gbps/800Gbps
+    source: Internal research document
+    date: '2025-10-12'
+    confidence: explicit_statement
+  - fact: Express Backbone network handles machine-to-machine traffic especially for
+      AI workloads
+    source: Internal research document
+    date: '2025-10-12'
+    confidence: explicit_statement
+  - fact: Supports DSF (Disaggregated Switch Fabric) for AI clusters with RoCE interfaces
+    source: Internal research document
+    date: '2025-10-12'
+    confidence: explicit_statement
+  - fact: WhatsApp presence focuses on Integrity Operations, Developer Support, and
+      QA (not core product engineering)
+    source: Internal research document
+    date: '2025-10-12'
+    confidence: explicit_statement
+  - fact: Ads engineering centers on operations and advertiser support (not core ML/ranking
+      algorithms)
+    source: Internal research document
+    date: '2025-10-12'
+    confidence: explicit_statement
+  - fact: AI/ML work focuses on infrastructure support (networking, GPUs, MTIA chips)
+      not AI research or model development
+    source: Internal research document
+    date: '2025-10-12'
+    confidence: explicit_statement
+  - fact: No Instagram product engineering presence in Dublin
+    source: Internal research document
+    date: '2025-10-12'
+    confidence: explicit_statement
+  - fact: No core Facebook app engineering presence in Dublin
+    source: Internal research document
+    date: '2025-10-12'
+    confidence: explicit_statement
+  - fact: No Messenger product engineering presence in Dublin
+    source: Internal research document
+    date: '2025-10-12'
+    confidence: explicit_statement
+  - fact: No AI research conducted in Dublin (happens in Menlo Park, London, Zurich,
+      Paris)
+    source: Internal research document
+    date: '2025-10-12'
+    confidence: explicit_statement
+  - fact: Reality Labs operates from Cork (250km away), not Dublin, focusing on microLED
+      display technology
+    source: Internal research document
+    date: '2025-10-12'
+    confidence: explicit_statement
+  - fact: Security engineering focuses on legal compliance, incident response, and
+      infrastructure security (GDPR/EMEA focus)
+    source: Internal research document
+    date: '2025-10-12'
+    confidence: explicit_statement
+  - fact: Data Protection Office (ODPO) operates from Dublin managing GDPR compliance
+    source: Internal research document
+    date: '2025-10-12'
+    confidence: explicit_statement
+  missing_information:
+  - Engineering blog publication frequency specific to Dublin
+  - Conference talks from Dublin-based engineers
+  - Interview process details and hiring bar specifics
+  - Compensation ranges for different levels
+  - Internal mobility statistics
+summary:
+  total_facts_found: 48
+  information_completeness: high
+  most_recent_data_point: '2025-10-12'
+  oldest_data_point: '2009-01-01'

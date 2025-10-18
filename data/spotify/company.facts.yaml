@@ -1,0 +1,273 @@
+company: Spotify
+company_slug: spotify
+research_date: '2025-10-17'
+financial_health:
+  facts_found:
+  - fact: "Spotify achieved its first full year of profitability in 2024, posting\
+      \ net income of \u20AC1.138 billion ($1.18 billion USD), compared to a net loss\
+      \ of \u20AC505 million in 2023"
+    source: Variety, Spotify official earnings announcement
+    date: '2025-02-04'
+    confidence: explicit_statement
+  - fact: "Q2 2025 operating income reached \u20AC406 million, with full year 2024\
+      \ operating income of \u20AC1.4 billion"
+    source: Spotify official earnings announcement
+    date: '2025-07-29'
+    confidence: explicit_statement
+  - fact: "Full year 2024 revenue was \u20AC15.673 billion ($16.96 billion USD), up\
+      \ 18.3% year-over-year"
+    source: Variety, MacroTrends
+    date: '2025-02-04'
+    confidence: explicit_statement
+  - fact: "Q2 2025 total revenue increased 10% year-over-year to \u20AC4.2 billion"
+    source: Spotify official earnings announcement
+    date: '2025-07-29'
+    confidence: explicit_statement
+  - fact: Premium subscribers reached 276 million in Q2 2025, up 12% year-over-year
+      from 246 million
+    source: Spotify official earnings announcement
+    date: '2025-07-29'
+    confidence: explicit_statement
+  - fact: Monthly active users (MAU) grew to 696 million in Q2 2025, up 11% year-over-year
+    source: Spotify official earnings announcement
+    date: '2025-07-29'
+    confidence: explicit_statement
+  - fact: Gross margin improved to 31.5% in Q2 2025, with Q4 2024 reaching record
+      high of 32.2%
+    source: Spotify official earnings announcement
+    date: '2025-07-29'
+    confidence: explicit_statement
+  - fact: 'Spotify conducted three rounds of layoffs in 2023: 600 employees (6%) in
+      January, 200 employees (2%) in June, and 1,500 employees (17%) in December'
+    source: NPR, Quartz, CNBC
+    date: '2023-12-04'
+    confidence: explicit_statement
+  - fact: At end of 2024, workforce comprised 7,261 full-time employees globally,
+      down from 9,123 at end of 2023
+    source: Variety, Music Business Worldwide
+    date: '2024-12-31'
+    confidence: explicit_statement
+  - fact: Spotify went public via direct listing on NYSE (SPOT) on April 3, 2018,
+      with reference price of $132
+    source: TechCrunch, NPR, Wikipedia
+    date: '2018-04-03'
+    confidence: explicit_statement
+  - fact: As of mid-October 2025, stock trading around $685 per share, up 62% from
+      start of 2025
+    source: MacroTrends, Public.com
+    date: '2025-10-10'
+    confidence: explicit_statement
+  - fact: Spotify stock surged 154.7% in 2024, rising from $187.91 to over $450 per
+      share
+    source: Morningstar, Public.com
+    date: '2024-12-31'
+    confidence: explicit_statement
+  missing_information:
+  - Detailed cash flow and free cash flow for recent quarters
+  - Specific cash reserves and current debt obligations
+  - Q3 2025 results (scheduled for November 4, 2025)
+market_position:
+  facts_found:
+  - fact: Spotify holds 31.7-32.2% of global music streaming subscriber market as
+      of Q4 2024, maintaining market leadership
+    source: MIDiA Research via Billboard
+    date: '2025-03-27'
+    confidence: explicit_statement
+  - fact: In United States, Spotify holds 36% of paid music streaming audience, followed
+      by Apple Music at 30.7%
+    source: Digital Music News
+    date: '2024-07-05'
+    confidence: explicit_statement
+  - fact: Catalog includes over 100 million songs, approximately 7 million podcast
+      titles, and around 350,000 audiobooks
+    source: Spotify official newsroom, Vaizle Insights
+    date: '2025'
+    confidence: explicit_statement
+  - fact: Subscription fees from Premium subscribers generated 88.19% of total revenue
+      in 2024
+    source: Backlinko
+    date: '2024-09-23'
+    confidence: explicit_statement
+  - fact: 'Premium pricing in US: Individual $11.99/month, Duo $16.99, Family $19.99,
+      Student $5.99, Basic $10.99'
+    source: Spotify official newsroom, Billboard
+    date: '2024-06-03'
+    confidence: explicit_statement
+  - fact: Available in 180+ countries and markets worldwide
+    source: Vaizle Insights, Backlinko
+    date: 2024-2025
+    confidence: explicit_statement
+  - fact: Has 4.8 out of 5 star rating on Apple App Store with 37.3 million user ratings
+    source: Apple App Store
+    date: '2025-10-15'
+    confidence: explicit_statement
+  - fact: Competitive advantages include superior personalization algorithms, largest
+      market share, extensive podcast library, and freemium model
+    source: SoundGuys, Tom's Guide
+    date: 2024-2025
+    confidence: explicit_statement
+  - fact: "Fined \u20AC5 million by Swedish Authority for GDPR violations related\
+      \ to inadequate data subject request handling"
+    source: DataGuard, ManageEngine
+    date: 2023-2024
+    confidence: explicit_statement
+  missing_information:
+  - SOC 2 Type II and ISO 27001 certification status
+  - Customer retention and churn rates
+  - Spotify HiFi launch date (announced 2021 but not launched as of Oct 2025)
+organizational_stability:
+  facts_found:
+  - fact: "Daniel Ek transitioning from CEO to Executive Chairman effective January\
+      \ 1, 2026, with Gustav S\xF6derstr\xF6m and Alex Norstr\xF6m becoming co-CEOs"
+    source: Spotify Official Press Release
+    date: '2025-09-30'
+    confidence: explicit_statement
+  - fact: "Gustav S\xF6derstr\xF6m and Alex Norstr\xF6m each have more than 15 years\
+      \ with Spotify and were named co-Presidents in 2023"
+    source: Spotify Official Press Release, Variety
+    date: '2025-09-30'
+    confidence: explicit_statement
+  - fact: Christian Luiga appointed CFO in April 2024, replacing Paul Vogel who departed
+      March 31, 2024
+    source: Billboard, Digital Music News
+    date: '2024-04-05'
+    confidence: explicit_statement
+  - fact: Overall Glassdoor rating of 4.1 out of 5 stars based on 1,636-2,043 anonymous
+      employee reviews
+    source: Glassdoor
+    date: '2025'
+    confidence: explicit_statement
+  - fact: Employees rate Spotify 4.3/5 for work-life balance, 4.1-4.2 for culture,
+      3.9 for compensation, and 3.5 for career opportunities
+    source: Glassdoor
+    date: '2025'
+    confidence: explicit_statement
+  - fact: Daniel Ek has 76% CEO approval rating on Glassdoor with 80-81% of employees
+      recommending working at Spotify
+    source: Glassdoor, Comparably
+    date: '2025'
+    confidence: explicit_statement
+  - fact: Global headquarters in Stockholm, Sweden, with 18+ office locations including
+      New York, SF, LA, London, Berlin
+    source: Spotify official website, Craft.co
+    date: '2025'
+    confidence: explicit_statement
+  - fact: Implemented Work From Anywhere policy in February 2021, allowing employees
+      to work from any location with Spotify entity
+    source: Fortune, HR Grapevine
+    date: '2024-10-14'
+    confidence: explicit_statement
+  - fact: Attrition rates dropped 50% since introduction of Work From Anywhere policy
+    source: Fortune, WorkLife
+    date: '2025-03-06'
+    confidence: explicit_statement
+  - fact: 33+ senior executives departed between 2018-2021, including CFO Barry McCarthy
+      in 2019
+    source: Music Business Worldwide
+    date: '2021-10-28'
+    confidence: explicit_statement
+  missing_information:
+  - Current exact employee count as of October 2025
+  - Board committee structure details
+  - Diversity and inclusion metrics
+technical_culture:
+  facts_found:
+  - fact: Maintains active engineering blog at engineering.atspotify.com with regular
+      technical content including incident reports
+    source: engineering.atspotify.com
+    date: '2025-10-17'
+    confidence: explicit_statement
+  - fact: Has 280+ public repositories on GitHub with active maintenance in October
+      2025
+    source: github.com/spotify
+    date: '2025-10-17'
+    confidence: explicit_statement
+  - fact: Created and open-sourced Backstage in March 2020, donated to CNCF as Incubation-level
+      project with 21,500+ GitHub stars
+    source: engineering.atspotify.com, backstage.spotify.com
+    date: '2024'
+    confidence: explicit_statement
+  - fact: Internally, Backstage has over 100 integrations, used by 2,700+ engineers
+      to manage 14,000+ software components
+    source: engineering.atspotify.com
+    date: '2024'
+    confidence: explicit_statement
+  - fact: Maintains open source projects including Luigi (18,528 stars), Annoy (13,993
+      stars), Voyager, and Scio
+    source: spotify.github.io, github.com/spotify
+    date: '2025-10-17'
+    confidence: explicit_statement
+  - fact: Backend primarily written in Java using Spring Framework, with Scala, Python,
+      and Node.js on microservices architecture
+    source: BairesDev, StackShare
+    date: '2024-09-22'
+    confidence: explicit_statement
+  - fact: Uses Apache Kafka for event streaming handling at least half a trillion
+      events daily
+    source: BairesDev, Dev.to
+    date: '2024-05-16'
+    confidence: explicit_statement
+  - fact: Migrated from PostgreSQL to Cassandra in 2015 for main database, also uses
+      Bigtable and MySQL
+    source: BairesDev
+    date: '2024-09-22'
+    confidence: explicit_statement
+  - fact: Migrated from AWS to Google Cloud Platform circa 2015, uses GKE for container
+      orchestration
+    source: BairesDev
+    date: '2024-09-22'
+    confidence: explicit_statement
+  - fact: Migrated entire iOS and Android build systems to Bazel in 2023, achieving
+      70% decrease in clean build times
+    source: BairesDev, X.com/spotifyeng
+    date: '2023'
+    confidence: explicit_statement
+  - fact: Uses AI/ML extensively including AI DJ, Discover Weekly, AI Playlist, processing
+      over half trillion events daily for ML models
+    source: Marketing AI Institute, research.atspotify.com
+    date: 2024-12
+    confidence: explicit_statement
+  - fact: Employs collaborative filtering, reinforcement learning, CNNs, NLP, and
+      Large Language Models including adapted Llama models
+    source: research.atspotify.com, ProjectPro
+    date: 2024-12
+    confidence: explicit_statement
+  - fact: 'Acquired AI/ML companies: The Echo Nest (2014), Sonalytic (2017), Niland
+      (2017), Podz (2021), Sonantic (2022)'
+    source: Marketing AI Institute, Audiocipher
+    date: 2014-2022
+    confidence: explicit_statement
+  - fact: Engineering interview includes recruiter screen, technical phone screen,
+      and 4-round virtual onsite covering Case Study, Coding, System Design, and Behavioral
+    source: lifeatspotify.com, Glassdoor, Interviewing.io
+    date: 2024-2025
+    confidence: explicit_statement
+  - fact: 'Evaluates candidates on five core values: Innovative, Collaborative, Sincere,
+      Passionate, and Playful'
+    source: Interviewing.io, lifeatspotify.com
+    date: 2024-2025
+    confidence: explicit_statement
+  - fact: Runs Technology Fellowship Program, 18-week development program for engineers
+      from non-traditional backgrounds
+    source: fellowship.spotify.com
+    date: 2023-2024
+    confidence: explicit_statement
+  - fact: Engineers regularly present at QCon conferences on data infrastructure,
+      audio delivery, and Backstage
+    source: InfoQ, QCon London
+    date: 2016-2024
+    confidence: explicit_statement
+  - fact: Created FOSS Fund in 2022 to financially support open source projects they
+      depend on
+    source: engineering.atspotify.com
+    date: '2024-11-25'
+    confidence: explicit_statement
+  missing_information:
+  - Compensation ranges by level (limited data available)
+  - Interview success rates and hiring funnel metrics
+  - Specific ML model architectures and training infrastructure details
+summary:
+  total_facts_found: 49
+  information_completeness: high
+  most_recent_data_point: '2025-10-17'
+  oldest_data_point: '2018-04-03'

@@ -1,0 +1,298 @@
+company: Coinbase
+company_slug: coinbase
+evaluation_date: '2025-10-17'
+evaluator_context: Extracted from conversation notes
+green_flags:
+  mountain_range:
+    critical_matches: &id001
+    - flag: Publicly traded on NASDAQ with $80-86B market cap, S&P 500 inclusion (May
+        2025), and two consecutive years of profitability ($2.6B net income in 2024)
+      impact: Provides exceptional job stability and financial transparency - you
+        can track company health in real-time vs. private companies where runway is
+        opaque
+      confidence: High - explicit public financial statements
+    - flag: Dominant US market position with 65%+ spot market share and custodian
+        for 8 of 11 Bitcoin ETFs including BlackRock's
+      impact: Working at the infrastructure layer of a growing industry rather than
+        a speculative player - institutional backing provides moat
+      confidence: High - market data and institutional partnerships confirmed
+    - flag: 'Strong recovery trajectory: revenue doubled to $6.56B in 2024 (111% YoY
+        growth) with $3.3B adjusted EBITDA after navigating 2022-2023 crypto winter'
+      impact: Company demonstrated ability to weather market downturns and return
+        to growth - important for long-term employment security
+      confidence: High - public financial reports
+    - flag: 'Modern stack aligned with your preferences: React/React Native/TypeScript
+        frontend, Python/Node.js/Go backend, PostgreSQL/MongoDB/Redis data layer'
+      impact: Direct match for your 25yr Python/TypeScript experience - you can be
+        productive from day one
+      confidence: High - engineering blog and job postings
+    - flag: 'World-class DevOps: hundreds of deployments/day, sub-1hr lead time commit-to-deploy,
+        sub-1hr MTTR per DORA metrics'
+      impact: Elite engineering velocity means less time fighting process, more time
+        shipping features
+      confidence: High - engineering blog explicit statements
+    - flag: "Heavy ML/AI investment: proprietary frameworks (EasyML, Seq2Win), SageMaker\
+        \ reducing training 20hrs\u219210mins, GenAI customer support, NodeSmith AI-driven\
+        \ node upgrades"
+      impact: Cutting-edge AI work at scale - significant resume value and learning
+        opportunities
+      confidence: High - recent engineering blog posts and AWS case studies
+    - flag: '166 public GitHub repos including recent open-source releases: MPC cryptography
+        library (Sept 2025), Base L2 blockchain, terraform-landscape, agentkit'
+      impact: Active open-source culture means your work could have public portfolio
+        value and industry recognition
+      confidence: High - verified GitHub activity
+    - flag: 'Fortune reported April 2024: ''leadership team has proved more stable
+        than ever before'' with C-suite averaging 5-7+ years tenure (CEO 13yrs, CFO
+        7yrs, COO 7yrs)'
+      impact: Leadership stability after surviving 2022-2023 crisis indicates competent
+        decision-making and reduced risk of strategic thrashing
+      confidence: High - Fortune article and verified tenures
+    - flag: CEO & President personally approve every hire with 'extraordinary ability'
+        standard tied to executive performance ratings
+      impact: High talent bar means strong peer group, though 60-day interview process
+      confidence: High - official hiring policy
+    - flag: 80.9% of 303 open positions available remotely (up from 41.6% in 2024),
+        with 65% of workforce remote/distributed
+      impact: Remote-first culture is strengthening not weakening - aligns with senior
+        engineer desire for flexibility
+      confidence: High - recruitment data
+    - flag: Average compensation $424K per employee (2023), Glassdoor rates compensation
+        4.2/5
+      impact: Top-tier compensation competitive with FAANG, critical for financial
+        security with 25yr career
+      confidence: High - financial reports and Glassdoor
+    - flag: Working at the infrastructure layer of institutional crypto adoption -
+        custodian for BlackRock's Bitcoin ETF, $404B AUM, 12% of all Bitcoin
+      impact: Being part of financial system transformation at scale - significant
+        career narrative
+      confidence: High - institutional partnerships confirmed
+    - flag: Opportunity to work on Base L2 blockchain, AI/crypto convergence, decentralized
+        AI infrastructure, and proprietary ML frameworks at scale
+      impact: Cutting-edge technical challenges combining multiple hot domains - strong
+        resume builders
+      confidence: High - recent engineering blog posts and product launches
+    strong_positives: &id002
+    - flag: Manages $404B in assets with 120M users globally and institutional focus
+        (81.86% of Q2 2025 trading volume)
+      impact: Scale provides diverse revenue streams and reduces dependency on retail
+        crypto speculation
+      confidence: High - reported metrics
+    - flag: $1B share repurchase program authorized with no expiration, strong balance
+        sheet, and hiring 1,000+ employees in 2025
+      impact: Company returning value to shareholders while expanding indicates confidence
+        in growth trajectory
+      confidence: High - official announcements
+    - flag: Active engineering blog with October 2025 posts on NodeSmith, ML features,
+        Databricks CI/CD - demonstrates knowledge sharing culture
+      impact: Learning opportunities from peers and ability to build external reputation
+        through blog contributions
+      confidence: High - current blog activity
+    - flag: 'Engineering Principles include #APIDriven, #1-2-Automate (automate any
+        process done 3+ times), and #SecurityFirst'
+      impact: Clear engineering values that favor automation and quality over manual
+        toil
+      confidence: High - published engineering principles
+    - flag: Reliability Engineering team follows 'teach teams to fish' philosophy
+        - up-leveling every team rather than centralized on-call
+      impact: Distributed ownership model reduces hero culture and burnout risk
+      confidence: High - engineering blog explicit approach
+    - flag: Interview process emphasizes 'production-grade code' over LeetCode - pair
+        programming assesses maintainability and debugging
+      impact: Hiring process values real-world engineering skills you've honed over
+        25 years
+      confidence: High - official hiring documentation
+    - flag: "Strong board including Marc Andreessen, Tobi L\xFCtke (Shopify CEO),\
+        \ ex-federal prosecutor, former US Solicitor General, OpenAI VP"
+      impact: World-class governance and connections that can open doors for company
+        (and your career)
+      confidence: High - public board composition
+    - flag: 'Engineering leadership includes: Manish Gupta (16yrs Google Ads/payments),
+        Rob Witoff (returned as Head of Platform), Krishnan Seshadrinathan (19yrs
+        Google)'
+      impact: Deep technical leadership with proven track records at elite companies
+      confidence: High - LinkedIn and blog profiles
+    - flag: Quarterly week-long in-person 'Surges' in NY/SF rather than daily office
+        requirements
+      impact: 'Balanced approach: maintain relationships without sacrificing remote
+        productivity'
+      confidence: High - official policy 2025
+    - flag: Engineering is 37% of 4,279-person company (1,605 engineers) - healthy
+        engineering ratio
+      impact: Engineers are valued and well-resourced, not outnumbered by business/sales
+      confidence: High - headcount breakdown
+    - flag: Third annual ML and Blockchain Research Summit (2025), presentations at
+        MongoDB World, EthCC - external technical reputation building
+      impact: Conference speaking opportunities and academic collaboration enhance
+        personal brand
+      confidence: High - confirmed conference participation
+    - flag: No deep crypto knowledge required for most engineering roles - 'willingness
+        to learn sufficient'
+      impact: Low barrier to entry for senior engineers pivoting into crypto/blockchain
+        space
+      confidence: High - official hiring criteria
+  chosen_peak:
+    critical_matches: *id001
+    strong_positives: *id002
+  rope_team_confidence:
+    critical_matches: *id001
+    strong_positives: *id002
+  daily_climb:
+    critical_matches: *id001
+    strong_positives: *id002
+  story_worth_telling:
+    critical_matches: *id001
+    strong_positives: *id002
+red_flags:
+  mountain_range:
+    dealbreakers: &id003 []
+    concerning: &id004
+    - flag: "Revenue highly volatile: $1.28B (2020) \u2192 $7.4B (2021) \u2192 $3.1B\
+        \ (2023) \u2192 $6.56B (2024) - 59% crash then 111% recovery"
+      impact: Crypto market correlation creates boom-bust compensation and job security
+        cycles
+      confidence: High - public financial data
+    - flag: '2,000+ layoffs (44% of peak workforce) in 2022-2023: 1,100 in June 2022,
+        950 in January 2023'
+      impact: Recent history of aggressive headcount cuts during downturns creates
+        job security anxiety
+      confidence: High - public layoff announcements
+    - flag: US market share declining from 55% peak (March 2024) to 41% (Sept 2024)
+        despite overall growth
+      impact: Competitive pressure from smaller exchanges suggests potential margin
+        compression
+      confidence: High - market analysis reports
+    - flag: Cybersecurity incident May 2025 affecting <1% MTU with $180-400M estimated
+        remediation costs
+      impact: Security breach raises questions about technical debt and security practices
+      confidence: High - official disclosure
+    - flag: Current CTO identity unknown - Balaji Srinivasan left in 2019, no clear
+        successor announced
+      impact: Lack of visible technical executive leadership may indicate organizational
+        issues or reduced engineering influence
+      confidence: Medium - absence of information
+    - flag: Most interview failures happen at pair programming stage - emphasizes
+        code quality but suggests many candidates struggle
+      impact: High bar is good, but 5% pass rate from resume may indicate interview
+        process issues or unrealistic standards
+      confidence: High - official hiring data
+    - flag: 'CEO memo Oct 2024: culture is ''intense and isn''t for everyone'' with
+        ''rest and recharge is our lowest scoring engagement area'''
+      impact: Leadership openly acknowledges burnout culture - concerning for sustainable
+        work-life balance
+      confidence: High - CEO's own words
+    - flag: '''Mission Focused Company'' policy (Sept 2020) discouraged employee activism
+        - 60 employees (5%) took severance and left'
+      impact: Controversial culture policy that may feel constraining depending on
+        personal values
+      confidence: High - public policy announcement
+    - flag: Executive Team score 66/100 on Comparably - below-average leadership approval
+      impact: Despite stability, executives aren't highly rated by employees - possible
+        disconnect
+      confidence: High - Comparably ratings
+    - flag: 'Glassdoor work-life balance rating: 3.0-3.2/5 (below average). Common
+        cons: ''bad work life balance'' (57 reviews), ''no job security'' (21 reviews)'
+      impact: Consistent employee complaints about unsustainable pace and anxiety
+        from layoff history
+      confidence: High - 1,000+ Glassdoor reviews
+    - flag: Only 54-61% of employees would recommend to a friend - below industry
+        standard
+      impact: Majority satisfied but significant minority unhappy enough to not recommend
+      confidence: High - Glassdoor data
+    - flag: Quarterly mandatory in-person 'Surges' in NY/SF required for remote employees
+      impact: Travel burden for remote workers (cost, time, family disruption)
+      confidence: High - 2025 policy change
+    - flag: Tech personnel costs declined 43% YoY while headcount declined only 24%
+        (2023) - implies higher-paid employees left
+      impact: May indicate senior engineer exodus during layoffs, potential loss of
+        institutional knowledge
+      confidence: High - financial analysis
+    - flag: Average interview process takes 60 days with CEO/COO final approval on
+        every hire
+      impact: Slow hiring process creates friction for candidates and may lose top
+        talent to faster companies
+      confidence: High - official hiring documentation
+    - flag: Crypto industry remains controversial and heavily regulated - SEC lawsuit
+        only dismissed Feb 2025 after Trump election
+      impact: Industry perception risk may limit future career mobility to traditional
+        finance/tech
+      confidence: High - recent legal history
+  chosen_peak:
+    dealbreakers: *id003
+    concerning: *id004
+  rope_team_confidence:
+    dealbreakers: *id003
+    concerning: *id004
+  daily_climb:
+    dealbreakers: *id003
+    concerning: *id004
+  story_worth_telling:
+    dealbreakers: *id003
+    concerning: *id004
+missing_critical_data:
+- question: What is current effective equity compensation structure for senior engineers
+    given stock volatility?
+  why_important: Stock down from $381 IPO to current range - need to understand if
+    RSUs/options are compelling vs. cash-heavy comp
+  how_to_find: Ask recruiter for typical Staff/Senior Staff total comp breakdown,
+    equity vesting schedule, refresh policy
+  mountain_element: daily_climb
+- question: What is typical on-call rotation and incident response for engineering
+    teams?
+  why_important: Reliability team 'teaches teams to fish' implies distributed on-call
+    - need details on frequency, severity, and compensation
+  how_to_find: Ask hiring manager and team members about on-call expectations, PagerDuty
+    statistics, incident frequency, escalation paths
+  mountain_element: daily_climb
+- question: What are actual meeting loads and maker time protection practices?
+  why_important: CEO says 'intense culture' and 'rest and recharge lowest scoring'
+    - need to understand if you'll have focus time
+  how_to_find: 'Ask team members: typical meeting schedule, how often deep work gets
+    interrupted, calendar snapshot of typical week'
+  mountain_element: daily_climb
+- question: What is career progression path and timeline for Staff+ engineers?
+  why_important: With 25yr experience, you'll want Staff/Senior Staff/Principal trajectory
+    - need to understand if growth is possible
+  how_to_find: "Ask: what does Staff\u2192Senior Staff promotion look like, typical\
+    \ timeline, IC vs management split, how many principals exist"
+  mountain_element: story_worth_telling
+- question: What is the actual policy on AI/LLM tool usage (Copilot, Cursor, Claude,
+    etc.)?
+  why_important: Modern senior engineers expect AI assistance - security concerns
+    at crypto company may restrict tooling
+  how_to_find: Ask hiring manager directly about approved AI coding assistants, data
+    retention policies, any restricted tools
+  mountain_element: chosen_peak
+- question: What happened to the CTO role after Balaji left in 2019?
+  why_important: Absence of clear technical executive leadership for 6 years raises
+    questions about engineering influence at executive level
+  how_to_find: Ask hiring manager about engineering representation in C-suite, who
+    sets technical strategy, reporting structure
+  mountain_element: rope_team_confidence
+- question: How does the company balance new feature development vs technical debt
+    vs infrastructure work?
+  why_important: High-growth companies often accumulate debt - after 100x traffic
+    spike (2017), layoffs, and rapid hiring, what's the state of the codebase?
+  how_to_find: 'Ask team members: what % time on features vs debt vs ops, how is technical
+    debt prioritized, recent big refactors'
+  mountain_element: chosen_peak
+- question: What specific team/role is being hired for and what is that team's focus?
+  why_important: 37% of company is engineering (1,605 people) - huge variation in
+    work quality depending on whether you're on Base, Core Exchange, ML Platform,
+    etc.
+  how_to_find: Ask recruiter for specific team and domain area, ask team members about
+    roadmap and current priorities
+  mountain_element: story_worth_telling
+- question: What is the geographic distribution of your specific team and collaboration
+    model?
+  why_important: 65% remote but may land on team concentrated in SF/NY requiring more
+    travel or timezone misalignment
+  how_to_find: 'Ask hiring manager: where is team located, what timezones, how often
+    do you travel for Surges vs just quarterly'
+  mountain_element: daily_climb
+- question: What are the actual equity vesting cliffs and refresh cycles?
+  why_important: Public company with volatile stock - need to understand if grants
+    are 4yr with 1yr cliff, annual refreshes, how retention is managed
+  how_to_find: 'Ask recruiter: vesting schedule, typical refresh timing and amounts,
+    what happens if stock drops significantly'
+  mountain_element: daily_climb

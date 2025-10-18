@@ -1,0 +1,131 @@
+company: Cato Networks
+company_slug: cato-networks
+evaluation_date: '2025-10-17'
+evaluator_context: Extracted from conversation notes
+green_flags:
+  mountain_range:
+    critical_matches: &id001
+    - flag: 10-year operational history with zero layoffs through 2023-2025
+      impact: Exceptional stability signal - survived multiple tech downturns without
+        restructuring
+      confidence: explicit_statement
+    - flag: No layoffs in 2023-2025 despite broader tech contraction
+      impact: Demonstrates financial discipline and protects team from restructuring
+        chaos
+      confidence: HIGH - explicit statement from comprehensive search
+    - flag: 10-year executive tenure (CEO, CTO, CISO all founding team)
+      impact: Zero reorg roulette risk; leadership won't pivot quarterly
+      confidence: HIGH - verifiable from LinkedIn/company sources
+    - flag: $359M Series G with $120M secondary enabling employee liquidity
+      impact: Pre-IPO equity has actual exit path, not just paper value
+      confidence: HIGH - explicit in Calcalistech report
+    - flag: 46% ARR growth to $250M+ with 70% gross margins and 95%+ retention
+      impact: Unit economics work; sustainable growth not burn-fueled desperation
+      confidence: HIGH - company press releases and investor sources
+    - flag: Active ML/AI implementation (Bedrock, MCPSaaS, real-time DGA detection)
+      impact: Company isn't just allowing AI tools - actively building with them at
+        scale
+      confidence: HIGH - AWS blog, engineering blog, press releases
+    strong_positives: &id002
+    - flag: Gartner Leader for 2 consecutive years in high-growth SASE market
+      impact: Product is competitive; not just growth-stage hype
+      confidence: HIGH - Gartner Magic Quadrant
+    - flag: 42+ public GitHub repos with active commits including Terraform provider
+      impact: Engineers can work in the open; infrastructure-as-code culture
+      confidence: HIGH - verifiable on github.com/catonetworks
+    - flag: Conference participation (RSA, PyData, AWS Summit) and active engineering
+        blog
+      impact: Engineers get to share work publicly and grow professionally
+      confidence: HIGH - press releases and blog posts
+    - flag: 4.3/5 Glassdoor with 92% CEO approval and 4.2/5 work-life balance
+      impact: Culture isn't toxic; sustainable pace confirmed by reviews
+      confidence: MEDIUM - aggregated reviews, 219 samples
+    - flag: Enterprise customers include Carlsberg (25K users), O-I Glass (23K employees)
+      impact: Solving real problems at scale for recognizable brands
+      confidence: HIGH - company case studies
+    - flag: Tech stack includes Python and modern tools (GraphQL, Terraform)
+      impact: Matches senior engineer preferences; not legacy Java hell
+      confidence: HIGH - careers page and GitHub
+    - flag: First single-vendor SASE platform differentiating from M&A competitors
+      impact: Technical architecture advantage vs Frankenstein acquisitions
+      confidence: HIGH - company positioning and Gartner validation
+  chosen_peak:
+    critical_matches: *id001
+    strong_positives: *id002
+  rope_team_confidence:
+    critical_matches: *id001
+    strong_positives: *id002
+  daily_climb:
+    critical_matches: *id001
+    strong_positives: *id002
+  story_worth_telling:
+    critical_matches: *id001
+    strong_positives: *id002
+red_flags:
+  mountain_range:
+    dealbreakers: &id003
+    - flag: Tel Aviv HQ with 3-4 days/week hybrid requirement for some roles
+      impact: KILLS fully remote requirement for Dublin-based senior engineer
+      confidence: HIGH - Glassdoor and careers page
+    concerning: &id004
+    - flag: Not profitable as of Q2 2025 despite 10 years operating
+      impact: IPO delay risk extends equity liquidity timeline beyond typical
+      confidence: HIGH - explicit CEO statement
+    - flag: "IPO repeatedly postponed (2024\u21922025\u2192beyond 2025)"
+      impact: Equity liquidity may be 2-3+ years out; pre-IPO limbo
+      confidence: HIGH - multiple sources
+    - flag: Sales org dysfunction (38.6% quota attainment, territory chaos)
+      impact: Revenue execution risk could affect engineering priorities/stability
+      confidence: MEDIUM - Glassdoor reviews, sales-specific
+    - flag: Interview process rated 2.92/5 difficulty with only 40.6% positive experience
+      impact: Suggests interview process may be broken or unnecessarily stressful
+      confidence: MEDIUM - Glassdoor aggregate
+    - flag: Late-stage $4.8B valuation means limited equity upside vs earlier stage
+      impact: 2-3x return ceiling vs 10-100x at Series A/B; more stability, less moonshot
+      confidence: HIGH - standard late-stage dynamics
+  chosen_peak:
+    dealbreakers: *id003
+    concerning: *id004
+  rope_team_confidence:
+    dealbreakers: *id003
+    concerning: *id004
+  daily_climb:
+    dealbreakers: *id003
+    concerning: *id004
+  story_worth_telling:
+    dealbreakers: *id003
+    concerning: *id004
+missing_critical_data:
+- question: What's the actual remote work policy for senior engineers in Ireland/EU?
+  why_important: Tel Aviv hybrid kills the opportunity if no remote exceptions for
+    senior talent
+  how_to_find: Ask recruiter directly; check with EU-based engineers on LinkedIn
+  mountain_element: daily_climb
+- question: What's typical meeting load for senior/staff engineers?
+  why_important: Need <30% meeting time confirmed, not just 'collaborative culture'
+  how_to_find: Ask for anonymized calendar samples from current staff engineers
+  mountain_element: daily_climb
+- question: What AI coding tools are approved (Copilot, Cursor, Claude)?
+  why_important: Company uses AI internally but policy for developer tools unclear
+  how_to_find: Ask engineering manager directly about approved tools
+  mountain_element: daily_climb
+- question: What's deployment frequency and process?
+  why_important: Need same-day deploy capability confirmed, not 'careful process'
+  how_to_find: Ask about last 10 prod deploys - timelines and process
+  mountain_element: daily_climb
+- question: What's actual span of control for engineering managers?
+  why_important: "Need \u22646 reports confirmed to ensure manager bandwidth"
+  how_to_find: Ask in team interview; check org structure
+  mountain_element: rope_team_confidence
+- question: How does engineering influence product strategy?
+  why_important: Staff engineers must be advisors not order-takers
+  how_to_find: Ask for recent examples where engineering shaped product decisions
+  mountain_element: chosen_peak
+- question: What's the path to profitability and IPO timeline realistically?
+  why_important: Affects equity liquidity timeline - need honest assessment
+  how_to_find: Ask leadership directly; cross-check with investor network
+  mountain_element: mountain_range
+- question: How distributed is engineering team and what are collaboration norms?
+  why_important: Need to understand timezone overlap and async vs sync culture
+  how_to_find: Ask about team distribution and typical collaboration hours
+  mountain_element: rope_team_confidence

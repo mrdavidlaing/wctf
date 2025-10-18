@@ -1,0 +1,314 @@
+company: Toast, Inc.
+company_slug: toast-inc
+research_date: '2025-10-18'
+financial_health:
+  facts_found:
+  - fact: Toast achieved its first full year of GAAP profitability in 2024 with a
+      GAAP net income of $19 million, compared to a net loss of $246 million in 2023
+    source: TradingView News
+    date: '2025-02-19'
+    confidence: explicit_statement
+  - fact: Toast annual revenue for 2024 was $4.96 billion, a 28.33% increase from
+      2023
+    source: MacroTrends
+    date: '2024-12-31'
+    confidence: explicit_statement
+  - fact: Toast reported Adjusted EBITDA of $373 million for full year 2024, compared
+      to $61 million in 2023
+    source: Business Wire
+    date: '2025-02-19'
+    confidence: explicit_statement
+  - fact: Toast generated Free Cash Flow of $306 million for full year 2024, compared
+      to $93 million in 2023
+    source: Business Wire
+    date: '2025-02-19'
+    confidence: explicit_statement
+  - fact: Toast went public on September 22, 2021, with an IPO at $40 per share, raising
+      approximately $870 million with a market capitalization of roughly $20 billion
+    source: Restaurant Dive/Wikipedia
+    date: '2021-09-22'
+    confidence: explicit_statement
+  - fact: Toast served approximately 134,000 locations as of December 31, 2024, a
+      26% increase year-over-year
+    source: TradingView News/Business Wire
+    date: '2025-02-19'
+    confidence: explicit_statement
+  - fact: Toast added a record 28,000 net new locations in full year 2024
+    source: Business Wire
+    date: '2025-02-19'
+    confidence: explicit_statement
+  - fact: Toast processed $159.1 billion in Gross Payment Volume (GPV) in 2024, a
+      26% increase year-over-year
+    source: TradingView News
+    date: '2025-02-19'
+    confidence: explicit_statement
+  - fact: Toast's Annualized Recurring Run-Rate (ARR) as of December 31, 2024 was
+      over $1.6 billion, representing a 34% year-over-year increase
+    source: Business Wire
+    date: '2025-02-19'
+    confidence: explicit_statement
+  - fact: Toast announced in February 2024 a restructuring plan to lay off approximately
+      550 employees (about 10% of its workforce), expected to be completed by the
+      end of fiscal year 2024
+    source: WCVB/Boston Globe
+    date: '2024-02-15'
+    confidence: explicit_statement
+  - fact: In April 2020, Toast laid off and furloughed 50% of its workforce due to
+      the COVID-19 pandemic and its economic impact on the restaurant industry
+    source: Wikipedia/Restaurant Dive
+    date: '2020-04-01'
+    confidence: explicit_statement
+  - fact: Toast had 5,700 employees as of December 31, 2024, a 3.64% increase from
+      2023
+    source: MacroTrends/StockAnalysis
+    date: '2024-12-31'
+    confidence: explicit_statement
+  - fact: Toast projects full year 2025 Adjusted EBITDA in the range of $510 million
+      to $530 million
+    source: Business Wire
+    date: '2025-02-19'
+    confidence: explicit_statement
+  missing_information:
+  - Specific burn rate figures (not applicable as company is now profitable)
+  - Granular quarterly employee counts between 2020-2024
+  - Specific customer churn rates or retention percentages
+  - International vs. domestic revenue breakdown
+market_position:
+  facts_found:
+  - fact: Toast, Inc. is an American cloud-based restaurant management software company
+      based in Boston, Massachusetts that provides an all-in-one point of sale (POS)
+      system built on the Android operating system
+    source: Wikipedia
+    date: '2025-02-27'
+    confidence: explicit_statement
+  - fact: Toast's product suite includes point of sale, payments, operations, digital
+      ordering and delivery, marketing and loyalty, team management, payroll, inventory
+      management, kitchen display systems, online ordering, and Toast Capital financing
+    source: Toast official website (pos.toasttab.com)
+    date: '2025-01-01'
+    confidence: explicit_statement
+  - fact: Toast is used in approximately 120,000 US restaurant locations as of June
+      2024
+    source: Wikipedia citing Toast Q2 2024 10-Q
+    date: '2024-06-30'
+    confidence: explicit_statement
+  - fact: 'Toast ranks #1 in the Restaurant POS System category on G2 as a Leader
+      with both high market presence and high customer satisfaction'
+    source: G2 and Toast blog
+    date: '2025-01-01'
+    confidence: explicit_statement
+  - fact: Toast has a 16% share of the $962 billion U.S. restaurant payments volume
+      compared to Clover's 8%, while Micros holds 30% and NCR captures 16%
+    source: UBS report cited in Payments Dive
+    date: '2025-03-20'
+    confidence: explicit_statement
+  - fact: Toast's top competitors in the POS Systems category are Square with 25.73%
+      market share, Retail Sales Manager with 13.67%, and Clover with 6.07%, while
+      Toast has 21.74% market share
+    source: 6sense.com
+    date: '2025-01-01'
+    confidence: explicit_statement
+  - fact: Toast has 326 reviews on G2 with an average rating of 4.5 out of 5 stars
+    source: G2.com
+    date: '2025-01-01'
+    confidence: explicit_statement
+  - fact: Toast has over 541 reviews on Capterra with an average rating of 4.1 out
+      of 5 stars
+    source: Capterra.com
+    date: '2025-01-01'
+    confidence: explicit_statement
+  - fact: 'Toast launched internationally in 2023 in three markets: Canada, Ireland,
+      and the United Kingdom, starting with greater London area'
+    source: Popular Fintech and Toast official news releases
+    date: '2023-05-05'
+    confidence: explicit_statement
+  - fact: Toast has onboarded over 2,000 international locations in the UK, Canada,
+      and Ireland as of Q2 2024
+    source: NextGenInvestors Substack
+    date: '2024-08-01'
+    confidence: explicit_statement
+  - fact: Toast is a Principal Participating Organization (PPO) at the PCI Security
+      Standards Council, contributing to payment security standards evolution
+    source: PCI Security Standards Council blog
+    date: '2024-01-01'
+    confidence: explicit_statement
+  - fact: 'Toast offers three main pricing tiers: Starter Kit (free monthly software
+      with hardware costs), Core Plan starting at $69/month per terminal, and custom
+      Enterprise pricing'
+    source: Multiple sources including Toast pricing page, Owner.com, Merchant Maverick
+    date: '2025-01-01'
+    confidence: explicit_statement
+  - fact: Toast requires customers to use Toast Payments as their payment processor
+      with flat-rate processing fees ranging from 2.49% to 3.69% depending on plan
+      and transaction type
+    source: Merchant Maverick and KORONA POS
+    date: '2025-01-01'
+    confidence: explicit_statement
+  missing_information:
+  - SOC 2 Certification Status (job postings mention SOC 2 work but no public attestation
+    report found)
+  - ISO 27001 Certification for the company
+  - Specific SLA (Service Level Agreements) and uptime guarantees
+  - Data center locations and cloud infrastructure provider details
+  - Security bug bounty program existence
+organizational_stability:
+  facts_found:
+  - fact: Aman Narang became CEO effective January 1, 2024, after serving as Co-President
+      since December 2012 and Chief Operating Officer since June 2021
+    source: Toast Official Press Release (Business Wire)
+    date: '2023-09-04'
+    confidence: explicit_statement
+  - fact: All three co-founders (Aman Narang, Jonathan Grimm, Steve Fredette) graduated
+      from MIT and co-founded Toast in 2011
+    source: MIT News
+    date: '2019-03-10'
+    confidence: explicit_statement
+  - fact: Jonathan Grimm serves as Chief Technology Officer and is a Co-Founder of
+      Toast
+    source: Clay Executive Database / MIT News
+    date: '2024-10-17'
+    confidence: explicit_statement
+  - fact: Elena Gomez serves as Chief Financial Officer, joining in this role since
+      2021 with more than 25 years of experience
+    source: Comparably / CFO Dive
+    date: '2024-05-15'
+    confidence: explicit_statement
+  - fact: Mark Hawkins became Chair of Toast's Board of Directors effective January
+      1, 2024
+    source: Toast Official Press Release (Business Wire)
+    date: '2023-09-04'
+    confidence: explicit_statement
+  - fact: Toast headquarters is located in Boston, MA in the Seaport District at 333
+      Summer Street
+    source: Toast Careers Page / Yahoo Finance
+    date: '2024-10-17'
+    confidence: explicit_statement
+  - fact: Toast has office locations in Boston MA, Omaha NE, San Francisco CA, Toronto
+      Canada, Dublin Ireland, Lublin Poland, Bangalore India, and London UK
+    source: Toast Careers Page / Built In
+    date: '2024-10-17'
+    confidence: explicit_statement
+  - fact: Toast operates a hybrid work model where employees within 25 miles of an
+      office are expected in office twice a week
+    source: Toast Careers Page
+    date: '2024-10-17'
+    confidence: explicit_statement
+  - fact: Toast Inc has an overall Glassdoor rating of 3.8 out of 5 stars based on
+      1,532+ company reviews
+    source: Glassdoor
+    date: '2024-10-17'
+    confidence: explicit_statement
+  - fact: 70% of Toast Inc employees would recommend working there to a friend based
+      on Glassdoor reviews
+    source: Glassdoor
+    date: '2024-10-17'
+    confidence: explicit_statement
+  - fact: Toast was named to Glassdoor's Best Places to Work 2024 list
+    source: Toast Official Press Release
+    date: '2024-01-10'
+    confidence: explicit_statement
+  - fact: Engineering has 1,251 employees, making it the second-largest function
+    source: Unify
+    date: '2024-10-17'
+    confidence: explicit_statement
+  - fact: 85% of employees at Toast say it is a great place to work according to Great
+      Place To Work certification, compared to 57% at a typical U.S.-based company
+    source: Great Place To Work
+    date: '2025-05-01'
+    confidence: explicit_statement
+  missing_information:
+  - Full board member list (only 4 confirmed by name)
+  - Specific executive tenure details for VPs
+  - Engineering leadership structure (VP Engineering, Senior Directors)
+  - Stock refresh policy for employees
+  - Internal promotion practices and timelines
+  - Performance improvement plan (PIP) frequency
+technical_culture:
+  facts_found:
+  - fact: Toast's backend uses Java extensively with legacy code built on Play Framework
+      and newer services built as Dropwizard microservices
+    source: Built In Boston
+    date: '2017-08-24'
+    confidence: explicit_statement
+  - fact: Toast's production code runs on AWS and uses various AWS services including
+      RDS, SWF, and Lambda
+    source: Built In Boston
+    date: '2017-08-24'
+    confidence: explicit_statement
+  - fact: Toast has adopted GraphQL and evolved from BFFs (Backend for Frontend) to
+      GraphQL Federation
+    source: Toast Technology Blog
+    date: '2025-10-17'
+    confidence: explicit_statement
+  - fact: Toast uses Kotlin extensively, as evidenced by multiple Kotlin-based open
+      source projects
+    source: GitHub - open-toast
+    date: '2025-10-17'
+    confidence: implied
+  - fact: Toast maintains an open source GitHub organization (open-toast) with 11
+      public repositories
+    source: GitHub
+    date: '2025-10-17'
+    confidence: explicit_statement
+  - fact: Toast's Protokt is a Protobuf compiler and runtime for Kotlin, compatible
+      with Kotlin 2.0+, Java 8+, and Android 4.4+
+    source: GitHub - open-toast/protokt
+    date: '2025-10-17'
+    confidence: explicit_statement
+  - fact: Toast released Protokt version 1.0.0-beta.5 on March 14, 2025, indicating
+      active development
+    source: GitHub - open-toast/protokt releases
+    date: '2025-03-14'
+    confidence: explicit_statement
+  - fact: Toast maintains an active engineering blog at technology.toasttab.com
+    source: Toast Technology Blog
+    date: '2025-10-17'
+    confidence: explicit_statement
+  - fact: Toast is providing AI coding assistants to engineers for massive productivity
+      boost and exploring similar tools for Product Managers
+    source: Toast Technology Blog
+    date: '2025-10-17'
+    confidence: explicit_statement
+  - fact: Toast hosts bi-annual company-wide Hackathons to provide all employees opportunity
+      to innovate on products, processes, and culture
+    source: Toast Careers - Toast Technology Month
+    date: '2025-10-17'
+    confidence: explicit_statement
+  - fact: Toast's interview process includes recruiter screening, technical assessment,
+      technical interview with live coding, and potentially a case study presentation
+    source: Interview Query
+    date: '2025-10-17'
+    confidence: explicit_statement
+  - fact: 'Toast''s onsite interview loop includes: coding round, product management
+      & STAR-based round with PM and senior engineer, system design round with Tech
+      Lead, and hiring manager round'
+    source: Interview Query
+    date: '2025-10-17'
+    confidence: explicit_statement
+  - fact: Toast follows a microservice-oriented architecture, transitioning from monolithic
+      Play Framework to Dropwizard-based microservices
+    source: Built In Boston
+    date: '2017-08-24'
+    confidence: explicit_statement
+  missing_information:
+  - Specific conference presentations by Toast engineers
+  - Exact engineering blog publication frequency
+  - Comprehensive updated tech stack for 2023-2025
+  - Specific CI/CD tools used
+  - Testing frameworks and practices
+  - Current engineering team size
+  - Detailed code review practices
+  - Specific compensation philosophy
+summary:
+  total_facts_found: 52
+  information_completeness: high
+  most_recent_data_point: '2025-10-17'
+  oldest_data_point: '2017-08-24'
+  research_notes: 'The research successfully gathered comprehensive, verified information
+    across all four requested categories. Financial data is particularly strong due
+    to Toast''s public company status (NYSE: TOST) with SEC filings. Market position
+    data is robust with multiple independent verification sources. Organizational
+    stability information is well-documented through official releases and employee
+    review platforms. Technical culture information is strong from official blogs
+    and GitHub activity, though some granular details (specific conference talks,
+    exact tooling) remain unavailable.'

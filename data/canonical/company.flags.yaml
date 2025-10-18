@@ -1,0 +1,263 @@
+company: Canonical
+company_slug: canonical
+evaluation_date: '2025-10-17'
+evaluator_context: Extracted from conversation notes
+green_flags:
+  mountain_range:
+    critical_matches: &id001
+    - flag: 'Profitable and growing: $292M revenue (16.3% YoY growth), $15.5M operating
+        profit (5.3% margin), profitable since 2017'
+      impact: Financial stability means no existential risk, no VC pressure for unsustainable
+        growth, sustainable employment
+      confidence: High - UK Companies House filing
+    - flag: Market leader with 33.9% Linux distribution share, 70% of hyperscale cloud
+        Linux footprint, reference platform for all major K8s clouds
+      impact: Working on infrastructure that powers the internet's backbone, high
+        resume value, job security from market position
+      confidence: High - multiple market research sources
+    - flag: 'Blue-chip customer base: Google, AWS, Netflix, Tesla, Bank of America,
+        US DoD - 35,132+ companies using Ubuntu'
+      impact: Your work impacts major global infrastructure, proof of technical excellence,
+        strong business fundamentals
+      confidence: High - verified customer lists
+    - flag: 'Modern, diverse tech stack: Python, Go, Rust, C, C++, React, Flutter
+        - with strategic technology choices (Go for performance, Python for collaboration)'
+      impact: Work with cutting-edge languages, avoid legacy tech trap, transferable
+        skills
+      confidence: High - job postings, engineering blog
+    - flag: 1,963 public GitHub repos with high-quality OSS projects (cloud-init 3.5k
+        stars, dqlite 4.2k, MicroK8s, Juju, LXD, Snapd)
+      impact: All work publicly visible builds portfolio, transparent development
+        culture, strong open source reputation
+      confidence: High - GitHub data
+    - flag: 'Heavy AI/ML investment: Charmed Kubeflow, MLflow, NVIDIA partnerships,
+        CUDA support, 4+ years of AI tooling investment'
+      impact: Future-proofed technical direction, working on cutting-edge ML infrastructure
+        vs legacy systems
+      confidence: High - company blog, partnership announcements
+    - flag: "27% of revenue spent on R&D, 4x expansion of documentation team (6\u2192\
+        28 authors)"
+      impact: High engineering investment, documentation-as-product culture, quality
+        over shipping fast
+      confidence: High - financial filings, blog posts
+    - flag: True remote-first since 2004 (not pandemic-driven), 80+ nationalities
+        across 70+ countries, twice-yearly in-person sprints
+      impact: Genuine distributed culture with 20+ years experience, not fake remote,
+        real flexibility
+      confidence: High - company careers page, employee reviews
+    - flag: 'Transparent open-source development: all Ubuntu packages on Launchpad,
+        web team open-by-default on GitHub'
+      impact: Your work is public and builds your reputation, no locked-away corporate
+        code
+      confidence: High - public repos, engineering blog
+    - flag: Mission-driven open source work powering infrastructure for Google, AWS,
+        Netflix, Tesla - democratizing Linux
+      impact: Work on systems used by millions, clear mission alignment, meaningful
+        technical impact
+      confidence: High - customer list, company mission
+    - flag: Infrastructure powering 70% of hyperscale cloud Linux footprint, reference
+        platform for all major K8s implementations
+      impact: 'Resume-builder: working on internet-scale infrastructure, high industry
+        recognition'
+      confidence: High - market data, partnerships
+    strong_positives: &id002
+    - flag: No external funding pressure - privately held, self-funded by founder
+        since 2004, no VC/PE involvement
+      impact: Can focus on long-term technical excellence vs short-term metrics, no
+        forced exit timeline
+      confidence: High - Crunchbase, company filings
+    - flag: 'Growing team: 1,175 employees in 2024 (up 13.6% from 1,034 in 2023),
+        actively hiring despite profitable'
+      impact: Growth opportunities, investing in expansion, not in survival mode
+      confidence: High - company filings
+    - flag: TAM growing from $22B (2024) to projected $100B (2032) - 4.5x market expansion
+      impact: Growing market provides headroom for continued company growth and career
+        opportunities
+      confidence: High - Fortune Business Insights
+    - flag: GitLab CI/CD with K8s integration, K8s-native development practices, twice-yearly
+        in-person sprints
+      impact: Modern DevOps practices, cloud-native architecture, face-to-face collaboration
+        balance
+      confidence: High - engineering blog, job postings
+    - flag: 'Active conference presence: NVIDIA GTC, RISC-V Summit, OpenSearchCon,
+        global AI Roadshow'
+      impact: External technical engagement, conference opportunities, industry visibility
+      confidence: High - company blog, event listings
+    - flag: 'Highly selective hiring: 0.03% acceptance rate (300-400 hires from 1M
+        applications), anonymous domain expert review'
+      impact: Work with exceptionally talented colleagues, high technical bar, meritocratic
+        culture
+      confidence: High - interview documentation
+    - flag: 'Long-tenured leadership: CEO Mark Shuttleworth (8+ years current tenure,
+        founder), COO Neil French (10+ years)'
+      impact: Leadership stability, no revolving door at top, proven execution over
+        decades
+      confidence: High - Wikipedia, Crunchbase
+    - flag: Mature 21-year-old company (founded 2004) with proven track record through
+        multiple tech cycles
+      impact: Not a startup risk, survived multiple downturns, established processes
+        and stability
+      confidence: High - company history
+    - flag: Perks/benefits rated 84/100 on Comparably (top 10% of similar-sized companies)
+      impact: Competitive benefits package, above-average total compensation beyond
+        base salary
+      confidence: Medium - Comparably ratings
+    - flag: Career opportunities rated 3.2/5 (slightly above 3.0 average), growth
+        within technical tracks
+      impact: IC growth path exists, can advance technically without management pressure
+      confidence: Medium - Glassdoor ratings
+  chosen_peak:
+    critical_matches: *id001
+    strong_positives: *id002
+  rope_team_confidence:
+    critical_matches: *id001
+    strong_positives: *id002
+  daily_climb:
+    critical_matches: *id001
+    strong_positives: *id002
+  story_worth_telling:
+    critical_matches: *id001
+    strong_positives: *id002
+red_flags:
+  mountain_range:
+    dealbreakers: &id003
+    - flag: PIP quotas introduced in 2023 (Amazon-style forced ranking system)
+      impact: Creates toxic competitive environment, continuous job insecurity, forces
+        out solid performers
+      confidence: Medium - Blind employee forum
+    concerning: &id004
+    - flag: 80% revenue concentration in US market ($232M of $292M total)
+      impact: 'Geographic risk: US regulatory changes, tariffs, or economic downturn
+        could severely impact company'
+      confidence: High - financial filings
+    - flag: Planned IPO for 2023 failed to materialize, company remains private
+      impact: Potential growth challenges, reduced liquidity for employees, unclear
+        exit strategy
+      confidence: High - TechCrunch, financial news
+    - flag: Operating cash flow declined from $62M (2022) to $47M (2023) despite revenue
+        growth
+      impact: Working capital pressures, potential efficiency issues, bear watching
+        for runway concerns
+      confidence: High - financial filings
+    - flag: 'Below-average employee satisfaction: 3.1/5 Glassdoor (vs 3.9 industry
+        average), only 47% would recommend to friend'
+      impact: Cultural issues, unhappy workforce, high likelihood of negative daily
+        experience
+      confidence: High - Glassdoor with 475 reviews
+    - flag: CEO Mark Shuttleworth described as 'abrasive' and 'intense' with 75/100
+        approval rating (vs typical 85+)
+      impact: Challenging leadership style, potential micromanagement, cultural fit
+        risk for those needing autonomy
+      confidence: Medium - employee reviews, Comparably
+    - flag: 'Poor interview experience: only 14% positive rating, 50-day average process,
+        CEO interviews ALL candidates including ICs'
+      impact: Red flag for cultural control issues, lacks delegation, suggests micromanagement
+        culture
+      confidence: High - Glassdoor, career site
+    - flag: Culture & Values rated 3.0/5, Management rated 2.8/5 (Indeed)
+      impact: Systemic cultural problems, poor management quality, likely daily frustration
+      confidence: High - Indeed reviews
+    - flag: 'Historical layoff in 2017: 80-100 employees (Unity desktop discontinuation)'
+      impact: Company willing to cut deep when strategic pivots fail, job security
+        concerns
+      confidence: High - tech news sources
+    - flag: Work-life balance rated 3.2/5, reviews mention '10+ hour days', high-pressure
+        performance culture
+      impact: Burnout risk, unsustainable pace, work-life balance issues despite remote
+        flexibility
+      confidence: Medium - Glassdoor reviews
+    - flag: Compensation rated 3.2/5 (below expectation for senior engineers at profitable
+        company)
+      impact: Below-market pay despite company profitability, compensation may not
+        match skill level
+      confidence: Medium - Glassdoor ratings
+    - flag: Job security rated 2.9/5, concerns about performance pressure and PIP
+        quotas
+      impact: Constant anxiety about performance, forced ranking creates insecurity
+        even for strong performers
+      confidence: Medium - review patterns
+    - flag: 'Career advancement unclear for IC track: ''unclear growth path for non-engineering
+        roles'' noted'
+      impact: Limited visibility into senior IC progression, may hit ceiling without
+        moving to management
+      confidence: Low - implied from research gaps
+    - flag: 'Job security concerns: 2.9/5 rating combined with PIP quotas'
+      impact: Difficult to build long-term career if constantly worried about performance
+        rankings
+      confidence: Medium - combined employee feedback
+  chosen_peak:
+    dealbreakers: *id003
+    concerning: *id004
+  rope_team_confidence:
+    dealbreakers: *id003
+    concerning: *id004
+  daily_climb:
+    dealbreakers: *id003
+    concerning: *id004
+  story_worth_telling:
+    dealbreakers: *id003
+    concerning: *id004
+missing_critical_data:
+- question: What are the actual compensation ranges for senior engineers (L5/L6 equivalent)?
+  why_important: Need to know if pay matches market rate and experience level, especially
+    given 3.2/5 comp rating
+  how_to_find: Ask directly in compensation discussion, check levels.fyi, ask current
+    employees in informational interviews
+  mountain_element: daily_climb
+- question: How does the PIP quota system actually work? What percentage of team put
+    on PIP annually?
+  why_important: Forced ranking is dealbreaker if aggressive (e.g. Amazon's 6%); need
+    to understand actual risk
+  how_to_find: Ask direct question to hiring manager and team members, check Blind
+    for insider info
+  mountain_element: rope_team_confidence
+- question: What does 'IC growth path' actually look like? What levels exist above
+    senior engineer?
+  why_important: Need to understand career ceiling and progression criteria to avoid
+    dead-end role
+  how_to_find: Ask about IC career ladder in interview, request to speak with Staff/Principal
+    engineers
+  mountain_element: story_worth_telling
+- question: What is the actual on-call rotation and incident response load for this
+    team?
+  why_important: Infrastructure company likely has significant on-call; need to understand
+    work-life impact
+  how_to_find: Ask team directly about on-call schedule, PagerDuty stats, incident
+    frequency
+  mountain_element: daily_climb
+- question: How many people have left the team in the last 12 months? What were the
+    reasons?
+  why_important: Attrition rate and reasons indicate team health and cultural fit
+    likelihood
+  how_to_find: Ask hiring manager directly, do LinkedIn research on team members
+  mountain_element: rope_team_confidence
+- question: What was the reasoning behind the failed 2023 IPO? What is the current
+    exit plan?
+  why_important: Understand company direction and any financial stress that caused
+    IPO failure
+  how_to_find: Ask executive in interview, research tech news for IPO withdrawal reasons
+  mountain_element: mountain_range
+- question: How does Mark Shuttleworth's involvement manifest day-to-day? Does he
+    review code/designs?
+  why_important: CEO interviews all candidates suggests high involvement; need to
+    understand micromanagement risk
+  how_to_find: Ask team members directly about CEO interaction frequency and style
+  mountain_element: rope_team_confidence
+- question: What is the meeting culture like? How much maker time do engineers actually
+    get?
+  why_important: Remote culture can be meeting-heavy; need to understand daily schedule
+    reality
+  how_to_find: Ask team members about typical meeting load, ask to see calendar example
+  mountain_element: daily_climb
+- question: What happens if someone doesn't fit the 'high-pressure, self-directed'
+    culture? Is there support or just PIP?
+  why_important: Understand if culture is merely intense or actually toxic with no
+    support systems
+  how_to_find: Ask about new hire onboarding, mentorship, support systems in interviews
+  mountain_element: rope_team_confidence
+- question: What is the equity/profit-sharing situation for employees given company
+    is profitable?
+  why_important: Private profitable company should offer some upside; need to understand
+    if employees benefit
+  how_to_find: Ask about equity/profit-sharing in compensation discussion
+  mountain_element: story_worth_telling
