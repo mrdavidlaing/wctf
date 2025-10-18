@@ -1,0 +1,194 @@
+company: stripe
+evaluation_date: '2025-10-18'
+evaluator_context: Extracted from conversation notes
+green_flags:
+  mountain_range:
+    critical_matches: &id001
+    - flag: Profitable in 2024 and expects to remain profitable in 2025+ with 10.6%
+        net margin, $6.1B ARR
+      impact: Sustainable business model, zero financial risk, company doesn't depend
+        on fundraising
+      confidence: High - RTE and CoinLaw
+    - flag: 'Exceptional growth: $5.12B Dublin revenue (34% YoY), $1.4T payment volume
+        processed (38% YoY)'
+      impact: Strong market momentum creates abundant opportunities
+      confidence: High - Irish Times and Stripe Newsroom
+    - flag: $91.5B valuation with $6.1B ARR = 15x revenue, reasonable for high-growth
+        profitable SaaS
+      impact: Equity has real value, not inflated like some pre-IPO companies
+      confidence: High - TechCrunch and CoinLaw
+    - flag: World's largest Ruby codebase - unique technical challenge at massive
+        scale
+      impact: Working with Ruby at unprecedented scale, deep technical learning
+      confidence: High - Pragmatic Engineer
+    - flag: Active open source contributions to OpenTelemetry, React, strong GitHub
+        presence
+      impact: Matches stated open source values, opportunity for public technical
+        work
+      confidence: High - GitHub
+    - flag: Dublin is key hub for AI/ML and real-time analytics development
+      impact: Working on cutting-edge tech, not just satellite office doing support
+      confidence: High - Pragmatic Engineer
+    - flag: Co-founder Patrick Collison still CEO since 2010 (15 years), long-term
+        vision and stability
+      impact: Founder-led company with sustained leadership
+      confidence: High - Clay
+    - flag: Working on payment infrastructure processing $1.4T annually serving millions
+        of businesses globally
+      impact: Massive scale and impact on global economy
+      confidence: High - Stripe Newsroom
+    - flag: Stripe brand is gold-standard resume credential in fintech and infrastructure
+      impact: Career accelerator, opens doors across industry
+      confidence: High - Industry reputation
+    strong_positives: &id002
+    - flag: '17.15% global payment processing market share, #2 behind PayPal'
+      impact: Market leader position provides stability and brand value
+      confidence: High - ChargeFlow
+    - flag: Expanding headcount from 8,500 to 10,000 by end 2025 despite January layoffs
+      impact: Net hiring growth shows confidence in business trajectory
+      confidence: High - Irish Independent
+    - flag: 'Growing TAM: $103.2B (2023) → $160.0B (2028) payment processing market'
+      impact: Riding secular growth trend in digital payments
+      confidence: High - CapitalOneShopping
+    - flag: Minimal Dublin layoffs (single digits) in Jan 2025 vs 300 globally shows
+        Ireland importance
+      impact: Dublin office protected during cost optimization
+      confidence: High - Irish Independent
+    - flag: 'Modern tech stack: Ruby, Java, Go with heavy AI/ML investment for fraud
+        prevention'
+      impact: Mix of mature and modern technologies, AI/ML opportunities
+      confidence: High - Pragmatic Engineer
+    - flag: Highly active engineering blog with posts on real-time analytics, ML,
+        infrastructure
+      impact: Culture of technical communication and thought leadership
+      confidence: High - Stripe Blog
+    - flag: Engineers regularly present at conferences and publish technical articles
+      impact: Professional development and industry visibility opportunities
+      confidence: High - Stripe Blog
+    - flag: 4.6/5 Capterra rating from 3,250 reviews shows strong product quality
+      impact: Working on product customers genuinely appreciate
+      confidence: High - Capterra
+    - flag: Developer-friendly APIs, global reach, AI/ML fraud detection as key differentiators
+      impact: Technical excellence is core competitive advantage
+      confidence: High - Stripe Blog
+    - flag: Dublin employs ~600 people, substantial and growing with 50+ hires planned
+        for 2025
+      impact: Large local team provides career mobility and collaboration
+      confidence: High - Irish Independent
+    - flag: Dublin office is joint headquarters (with SF), not satellite - true strategic
+        importance
+      impact: First-class citizenship in company decisions and investment
+      confidence: High - Stripe Jobs
+    - flag: No major executive changes in Dublin in past 24 months
+      impact: Stable local leadership during growth phase
+      confidence: Medium - Implied from research
+    - flag: Hybrid/remote work policy available for Dublin office
+      impact: Flexibility for remote work though not purely remote-first
+      confidence: Medium - Stripe Jobs description
+    - flag: Glassdoor 3.9/5 for Dublin office shows solid employee satisfaction
+      impact: Generally positive work environment
+      confidence: High - Glassdoor
+    - flag: Dublin as AI/ML hub means working on cutting-edge fraud prevention and
+        analytics
+      impact: Exposure to production ML at scale, rare learning opportunity
+      confidence: High - Pragmatic Engineer
+    - flag: 'Equity upside potential: $91.5B valuation with strong growth trajectory
+        and profitability'
+      impact: Meaningful financial upside if IPO or continued growth
+      confidence: High - Valuation and metrics
+    - flag: Recent product launches in AI fraud prevention and Stripe Issuing show
+        continued innovation
+      impact: Not just maintenance, actively building new products
+      confidence: High - Stripe Newsroom
+  chosen_peak:
+    critical_matches: *id001
+    strong_positives: *id002
+  rope_team_confidence:
+    critical_matches: *id001
+    strong_positives: *id002
+  daily_climb:
+    critical_matches: *id001
+    strong_positives: *id002
+  story_worth_telling:
+    critical_matches: *id001
+    strong_positives: *id002
+red_flags:
+  mountain_range:
+    dealbreakers: &id003 []
+    concerning: &id004
+    - flag: 300 global layoffs in January 2025 despite profitability
+      impact: Cost optimization even when profitable suggests pressure on margins
+        or growth targets
+      confidence: High - Irish Independent
+    - flag: World's largest Ruby codebase could be technical debt liability vs modern
+        languages
+      impact: Legacy language choice may limit innovation and hiring pool
+      confidence: Medium - Ruby market trends
+    - flag: CTO Rahul Patil appointed 2024 replacing David Singleton - recent technical
+        leadership change
+      impact: New CTO may bring direction changes, uncertainty in technical strategy
+      confidence: High - SiliconRepublic
+    - flag: Hybrid/remote policy unclear if truly remote-first or requires Dublin
+        office presence
+      impact: May not meet remote-first requirement depending on policy specifics
+      confidence: Medium - Ambiguous policy description
+    - flag: Only 3.9/5 Glassdoor for Dublin vs 4.2-4.5 at best companies
+      impact: Room for improvement in employee satisfaction
+      confidence: High - Glassdoor
+  chosen_peak:
+    dealbreakers: *id003
+    concerning: *id004
+  rope_team_confidence:
+    dealbreakers: *id003
+    concerning: *id004
+  daily_climb:
+    dealbreakers: *id003
+    concerning: *id004
+  story_worth_telling:
+    dealbreakers: *id003
+    concerning: *id004
+missing_critical_data:
+- question: What is the actual remote work policy for Dublin? Can staff engineers
+    be fully remote or is office attendance required?
+  why_important: Evaluator seeks remote-first company, need to clarify hybrid vs remote
+    flexibility
+  how_to_find: Ask recruiter about specific remote work expectations for staff+ engineers
+  mountain_element: daily_climb
+- question: What is the staff engineer compensation package for Dublin including base,
+    equity, and bonus?
+  why_important: Understanding total comp and equity structure
+  how_to_find: Research Levels.fyi for Stripe Dublin, ask recruiter for detailed breakdown
+  mountain_element: daily_climb
+- question: What specific teams in Dublin work on AI/ML and real-time analytics? What
+    are they building?
+  why_important: Understanding actual role opportunities and technical challenges
+  how_to_find: Ask hiring manager about team structure and current projects
+  mountain_element: chosen_peak
+- question: What is the staff+ engineer population in Dublin and career progression
+    path?
+  why_important: With 25 years experience, need peer community and growth opportunities
+  how_to_find: Ask about engineering levels, staff+ headcount, promotion criteria
+  mountain_element: story_worth_telling
+- question: Why did January 2025 layoffs happen despite profitability and continued
+    hiring?
+  why_important: Understanding business rationale and whether more cuts are coming
+  how_to_find: Ask leadership about restructuring reasons and forward outlook
+  mountain_element: mountain_range
+- question: What is the on-call rotation and operational burden for payment infrastructure?
+  why_important: Understanding work-life balance for mission-critical systems processing
+    $1.4T
+  how_to_find: Ask engineering manager about on-call expectations, incident load,
+    escalation
+  mountain_element: daily_climb
+- question: What percentage of work is maintaining Ruby monolith vs greenfield innovation?
+  why_important: Understanding if role involves legacy maintenance or building new
+    services
+  how_to_find: Ask about tech stack evolution, microservices migration, innovation
+    time
+  mountain_element: chosen_peak
+- question: What is Stripe's IPO timeline and how does that affect equity value?
+  why_important: Understanding liquidity timeline for equity compensation
+  how_to_find: Research public IPO speculation, ask about company plans during offer
+    stage
+  mountain_element: story_worth_telling
+company_slug: stripe
