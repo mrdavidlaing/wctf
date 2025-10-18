@@ -95,7 +95,103 @@ uv run python scripts/merge_duplicates.py --threshold 90
 
 ---
 
+### get_flags_prompt.py
+
+Display company facts and get the flags extraction prompt.
+
+**Usage:**
+```bash
+# Get extraction prompt for a specific company
+uv run python scripts/get_flags_prompt.py "Company Name"
+
+# Example
+uv run python scripts/get_flags_prompt.py "Stripe"
+```
+
+**What it does:**
+- Displays company facts in structured, readable format
+- Shows the flags extraction prompt for evaluation
+- Organized by category (Financial Health, Market Position, Org Stability, Technical Culture)
+- Each fact shows: text, source, date, confidence level
+- Lists missing information per category
+
+**Output format:**
+- Company name and research date
+- Summary (total facts, completeness)
+- Facts grouped by category with sources
+- Complete extraction prompt with instructions
+
+**Use when:**
+- You want to review a company's facts before evaluation
+- You need the extraction prompt to guide your analysis
+- Working with Claude Code to extract flags
+
+---
+
+### save_flags.py
+
+Save extracted flags YAML for a company.
+
+**Usage:**
+```bash
+# From heredoc (recommended for Claude Code)
+uv run python scripts/save_flags.py "Company Name" << 'EOF'
+company: "Company Name"
+evaluation_date: "2025-10-18"
+evaluator_context: "..."
+...
+EOF
+
+# From file
+uv run python scripts/save_flags.py "Company Name" < flags.yaml
+```
+
+**What it does:**
+- Reads flags YAML from stdin
+- Validates the YAML structure
+- Saves to `data/{company-slug}/company.flags.yaml`
+- Reports success with file path
+
+**Use when:**
+- You've extracted flags and need to save them
+- Working with Claude Code to save evaluation results
+- Want to validate YAML before saving
+
+---
+
 ## Common Workflows
+
+### Extracting Flags for Companies (with Claude Code)
+
+```bash
+# 1. Get the extraction prompt for a company
+uv run python scripts/get_flags_prompt.py "Stripe"
+
+# 2. Claude Code reads the facts and extraction prompt
+#    and extracts the flags YAML
+
+# 3. Save the extracted flags
+uv run python scripts/save_flags.py "Stripe" << 'EOF'
+company: "Stripe"
+evaluation_date: "2025-10-18"
+evaluator_context: "Senior engineer with 15+ years..."
+# ... rest of flags YAML ...
+EOF
+
+# 4. Repeat for next company
+```
+
+**Workflow:**
+- Claude Code orchestrates the process for all companies
+- Calls `get_flags_prompt.py` to see facts and get the extraction prompt
+- Extracts flags based on the facts
+- Calls `save_flags.py` with the extracted YAML
+- Moves to the next company
+
+**List companies needing flags:**
+```bash
+uv run python -c "from wctf_core import WCTFClient; client = WCTFClient(); companies = [c['name'] for c in client.list_companies() if c['has_facts'] and not c['has_flags']]; print('\n'.join(sorted(companies)))"
+```
 
 ### Finding and Fixing Duplicates
 

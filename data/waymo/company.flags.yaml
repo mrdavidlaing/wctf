@@ -1,0 +1,252 @@
+company: Waymo
+evaluation_date: '2025-10-18'
+evaluator_context: Extracted from conversation notes
+green_flags:
+  mountain_range:
+    critical_matches:
+    - flag: Alphabet backing with $5B multi-year commitment plus $5.6B Series C (total
+        $11.1B raised), $45B valuation
+      impact: Ultimate financial security with deep-pocketed parent, no funding risk
+      confidence: High - TechCrunch
+    strong_positives:
+    - flag: Revenue growing to $50-75M (2024) with clear path to scale through robotaxi
+        expansion
+      impact: Strong growth trajectory despite current losses, market leadership position
+      confidence: Medium - Bank of America estimates
+    - flag: Crossed 250K weekly rides, 4M+ autonomous rides in 2024, 100M+ autonomous
+        miles driven
+      impact: Product-market fit proven at scale, real revenue generation
+      confidence: High - Company blog
+    - flag: Dominates U.S. robotaxi market after Cruise suspended, expanding to Miami,
+        DC, Dallas, Nashville by 2026
+      impact: Market leader with clear competitive advantage and expansion runway
+      confidence: High - NYT, Wikipedia
+    - flag: Operating across 720+ square miles in 5 cities (Phoenix, SF, LA, Austin,
+        Atlanta)
+      impact: Proven ability to scale operations across diverse environments
+      confidence: High - Company data
+    - flag: Global autonomous vehicle market projected $207B→$4,450B by 2034 (36.3%
+        CAGR)
+      impact: Massive TAM with strong tailwinds
+      confidence: High - Precedence Research
+  chosen_peak:
+    critical_matches:
+    - flag: Technology IS the business - autonomous driving requires world-class engineering
+        to exist
+      impact: Perfect alignment - engineering is not supporting business, it IS the
+        business
+      confidence: High - Company nature
+    - flag: VP Research Drago Anguelov (invented Inception, SSD detector, ImageNet
+        2014 winner) since 2018
+      impact: World-class technical leadership, technology-first culture at top
+      confidence: High - Google Scholar
+    - flag: 96 research publications (2022-2025), active at CVPR/ICRA/ECCV, Waymo
+        Open Dataset with 3,042 GitHub stars
+      impact: Serious technical culture with academic rigor and open research contributions
+      confidence: High - Company research page
+    - flag: Over 2,000 academic papers cite Waymo Open Dataset - industry-leading
+        research impact
+      impact: Setting standards for autonomous vehicle research globally
+      confidence: High - Company blog
+    strong_positives:
+    - flag: 'Modern AI/ML stack: PyTorch, TensorFlow, Jax/Flax with Python, C++, SQL'
+      impact: Cutting-edge ML tools, highly marketable skills
+      confidence: High - Indeed job postings
+    - flag: Waymo Foundation Model combining AV-specific ML with LLMs/VLMs like Gemini
+        for end-to-end driving
+      impact: Working at frontier of AI/ML application, not just incremental improvements
+      confidence: High - Company blog
+    - flag: EMMA (End-to-End Multimodal Model) research published Oct 2024 powered
+        by Gemini
+      impact: Publishing cutting-edge research, not just building product
+      confidence: High - Company blog
+    - flag: Co-organizes Workshop on Autonomous Driving at CVPR (8th year at CVPR
+        2025)
+      impact: Technical leadership in research community
+      confidence: High - CVPR 2024
+    - flag: Over 20B miles in simulation, 20M+ autonomous miles on public roads
+      impact: Massive testing infrastructure demonstrates engineering maturity
+      confidence: High - PR Newswire
+    - flag: '6th-gen hardware: 13 cameras, 4 lidar, 6 radar with 500m detection range'
+      impact: Continuously evolving hardware platform, not stagnant
+      confidence: High - Company blog
+  rope_team_confidence:
+    critical_matches: []
+    strong_positives:
+    - flag: 'Co-CEO model: Dmitri Dolgov (PhD CS, 2009 hire, Stanford DARPA) + Tekedra
+        Mawakana (Columbia Law, eBay/Yahoo/AOL)'
+      impact: Balanced technical + business leadership, technical co-CEO from day
+        one
+      confidence: High - Company website
+    - flag: VP Operations Ryan McNamara (10-year Navy pilot, Apple iPhone Ops, Nest,
+        Google)
+      impact: Strong operational leadership from tech companies
+      confidence: High - Company website
+    - flag: Daniel Ho (Program Director) hired from Tesla Director of Vehicle Programs
+        (2024)
+      impact: Attracting senior talent from competitors
+      confidence: High - Teslarati
+    - flag: Glassdoor 4.0-4.1/5, 73-76% recommend to friend - stable and positive
+      impact: Strong employee sentiment, above average for tech
+      confidence: High - Glassdoor
+    - flag: Smart talented colleagues (39 reviews), great pay and benefits (35 reviews)
+      impact: Strong peer group and compensation
+      confidence: High - Glassdoor
+    - flag: Low turnover rate under 5% (2,400 employees, 243 hires, 95 departures)
+      impact: People stay - indicator of good culture and work
+      confidence: High - Unify data
+  daily_climb:
+    critical_matches: []
+    strong_positives:
+    - flag: Compensation & Benefits rated 3.9-4.0/5
+      impact: Strong total comp package
+      confidence: High - Glassdoor
+    - flag: Senior SWE salary $192K-$243K base + 15% bonus + equity (RSUs with 409a
+        pricing)
+      impact: Competitive compensation for senior engineers
+      confidence: High - LinkedIn
+    - flag: 'Google/Alphabet benefits: 401k match, healthcare, breakfast/lunch, onsite
+        barista, flexible RTO'
+      impact: Top-tier benefits from parent company
+      confidence: High - Blind
+    - flag: Hybrid work model with flexible RTO (not fully remote but some remote
+        positions available)
+      impact: Some flexibility though not remote-first
+      confidence: Medium - Blind, job postings
+    - flag: Mountain View HQ + Detroit + Phoenix offices
+      impact: Multiple office locations for mobility
+      confidence: High - Craft
+  story_worth_telling:
+    critical_matches:
+    - flag: Working on genuinely transformative technology - autonomous vehicles at
+        scale solving real transportation problems
+      impact: Meaningful work with potential to reshape society, not incremental SaaS
+        features
+      confidence: High - Mission and scale
+    - flag: 16-year autonomy track record (2009 Google project → 2016 spinout), pioneer
+        and market leader
+      impact: 'Resume value: ''built autonomous vehicles at Waymo'' opens any door
+        in tech'
+      confidence: High - Company history
+    strong_positives:
+    - flag: 70% users prefer driverless cars to traditional rideshare - product users
+        actually love
+      impact: Building something people genuinely want, not forcing adoption
+      confidence: High - Obi survey via TechCrunch
+    - flag: 91% fewer serious injury crashes, 79% fewer airbag deployments vs human
+        drivers
+      impact: Measurable positive impact on safety - work that saves lives
+      confidence: High - Company data
+    - flag: Exposure to cutting-edge ML/AI, robotics, sensors, mapping, simulation
+        at scale
+      impact: Incredibly broad technical learning across multiple domains
+      confidence: High - Tech stack and scope
+    - flag: Hyundai partnership for Ioniq 5 EVs, Uber exclusive partnership in Austin/Atlanta
+      impact: Strategic partnerships show commercial traction
+      confidence: High - Company announcements
+red_flags:
+  mountain_range:
+    dealbreakers: []
+    concerning:
+    - flag: Bank of America estimates $1.5B annual loss in 2024, Alphabet Other Bets
+        lost $1.13B in Q2 2024
+      impact: Company is not profitable and burning significant cash
+      confidence: High - Bank of America, CNBC
+    - flag: Shut down autonomous trucking program (Waymo Via) in July 2023
+      impact: Indication of strategic pivots and abandoned initiatives
+      confidence: High - TechCrunch
+    - flag: Laid off 137 employees (8% workforce) in March 2023, second round that
+        year
+      impact: Layoffs even with Alphabet backing shows cost pressure
+      confidence: High - Sunset
+  chosen_peak:
+    dealbreakers: []
+    concerning:
+    - flag: No information on AI coding tool availability (Copilot, Cursor, etc.)
+        or policies
+      impact: Unknown if Alphabet/Waymo provides modern developer productivity tools
+      confidence: Low - Absence of data
+    - flag: No public DORA metrics or deployment frequency data
+      impact: Unknown actual velocity despite mature practices mentioned
+      confidence: Medium - Absence of data
+  rope_team_confidence:
+    dealbreakers: []
+    concerning:
+    - flag: Bad work-life balance mentioned in 12 reviews, disorganized leadership
+        in 6 reviews
+      impact: Some friction points in culture despite overall positive sentiment
+      confidence: Medium - Glassdoor minority opinion
+    - flag: Poor management, limited career growth mentioned in cons
+      impact: Potential career progression challenges
+      confidence: Medium - Glassdoor
+    - flag: Illiquid equity as Alphabet subsidiary (RSUs with 409a pricing, not public
+        stock)
+      impact: Equity value unclear until exit/IPO
+      confidence: High - Blind discussions
+  daily_climb:
+    dealbreakers:
+    - flag: NOT Dublin-based - HQ in Mountain View, CA with offices in Detroit and
+        Phoenix only
+      impact: Eliminates this opportunity - no Dublin office or European presence
+        mentioned
+      confidence: High - Company locations
+    concerning:
+    - flag: Hybrid work model (not fully remote) requires proximity to Mountain View,
+        Detroit, or Phoenix
+      impact: Geographic constraint incompatible with Dublin preference
+      confidence: High - Office locations
+    - flag: Work-life balance rated 3.7-3.8/5 - mediocre
+      impact: Potential for intense work expectations
+      confidence: Medium - Glassdoor
+    - flag: Interview difficulty 2.93/5, 53.6% positive experience, average 32.84
+        days to hire
+      impact: Lengthy interview process with mixed candidate experience
+      confidence: High - Glassdoor
+  story_worth_telling:
+    dealbreakers: []
+    concerning:
+    - flag: Unclear path to profitability or IPO - dependent on Alphabet's long-term
+        patience
+      impact: Equity upside uncertain without clear exit timeline
+      confidence: Medium - Business model risk
+missing_critical_data:
+- question: Does Waymo have any Dublin or European office? Any plans for international
+    engineering presence?
+  why_important: CRITICAL - Need Dublin or remote option for geographic requirements
+  how_to_find: Research company locations, ask recruiter about remote international
+    hiring
+  mountain_element: daily_climb
+- question: Does Waymo/Alphabet provide AI coding tools like GitHub Copilot, Cursor,
+    or internal alternatives?
+  why_important: Core requirement for developer productivity
+  how_to_find: Ask during interviews about approved AI tools and developer productivity
+    investments
+  mountain_element: chosen_peak
+- question: What are actual DORA metrics? Deployment frequency, lead time, MTTR, change
+    failure rate?
+  why_important: Core criterion for evaluating engineering excellence
+  how_to_find: Ask engineering leadership about deployment practices and metrics
+  mountain_element: chosen_peak
+- question: What is the deployment model for AV software? How often do updates ship
+    to fleet?
+  why_important: Understanding engineering velocity in physical product context
+  how_to_find: Ask about OTA update cadence, testing cycles, release processes
+  mountain_element: chosen_peak
+- question: What is remote work policy for senior engineers? Any fully remote positions?
+  why_important: Understanding if role can be performed outside US offices
+  how_to_find: Ask recruiter about remote work flexibility
+  mountain_element: daily_climb
+- question: What is path to profitability or IPO timeline?
+  why_important: Understanding equity value realization timeline
+  how_to_find: Research Alphabet statements about Waymo strategy, ask leadership
+  mountain_element: mountain_range
+- question: What is staff engineer compensation including base, equity, bonus?
+  why_important: Understanding total comp competitiveness
+  how_to_find: Research Levels.fyi, ask recruiter
+  mountain_element: daily_climb
+- question: What is international testing in Tokyo? Could this lead to international
+    engineering roles?
+  why_important: Exploring potential future geographic options
+  how_to_find: Research Tokyo operations, ask about international expansion plans
+  mountain_element: daily_climb
+company_slug: waymo
