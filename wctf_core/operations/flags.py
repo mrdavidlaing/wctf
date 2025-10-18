@@ -42,32 +42,54 @@ def _load_extraction_prompt() -> str:
 
 def _initialize_flags_structure(company_name: str) -> Dict:
     """Initialize empty flags structure with double hierarchy (mountain elements -> severity)."""
-    element_template_green = {
-        "critical_matches": [],
-        "strong_positives": [],
-    }
-    element_template_red = {
-        "dealbreakers": [],
-        "concerning": [],
-    }
-
+    # Create separate dict instances for each mountain element to avoid shared references
     return {
         "company": company_name,
         "evaluation_date": str(date.today()),
         "evaluator_context": "Extracted from conversation notes",
         "green_flags": {
-            "mountain_range": element_template_green.copy(),
-            "chosen_peak": element_template_green.copy(),
-            "rope_team_confidence": element_template_green.copy(),
-            "daily_climb": element_template_green.copy(),
-            "story_worth_telling": element_template_green.copy(),
+            "mountain_range": {
+                "critical_matches": [],
+                "strong_positives": [],
+            },
+            "chosen_peak": {
+                "critical_matches": [],
+                "strong_positives": [],
+            },
+            "rope_team_confidence": {
+                "critical_matches": [],
+                "strong_positives": [],
+            },
+            "daily_climb": {
+                "critical_matches": [],
+                "strong_positives": [],
+            },
+            "story_worth_telling": {
+                "critical_matches": [],
+                "strong_positives": [],
+            },
         },
         "red_flags": {
-            "mountain_range": element_template_red.copy(),
-            "chosen_peak": element_template_red.copy(),
-            "rope_team_confidence": element_template_red.copy(),
-            "daily_climb": element_template_red.copy(),
-            "story_worth_telling": element_template_red.copy(),
+            "mountain_range": {
+                "dealbreakers": [],
+                "concerning": [],
+            },
+            "chosen_peak": {
+                "dealbreakers": [],
+                "concerning": [],
+            },
+            "rope_team_confidence": {
+                "dealbreakers": [],
+                "concerning": [],
+            },
+            "daily_climb": {
+                "dealbreakers": [],
+                "concerning": [],
+            },
+            "story_worth_telling": {
+                "dealbreakers": [],
+                "concerning": [],
+            },
         },
         "missing_critical_data": [],
     }
