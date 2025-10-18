@@ -1,0 +1,195 @@
+company: circleci
+evaluation_date: '2025-10-18'
+evaluator_context: Extracted from conversation notes
+green_flags:
+  mountain_range:
+    critical_matches: &id001
+    - flag: 'Interesting tech stack: Entire platform written in Clojure (functional
+        programming on JVM), Go for agents/CLI'
+      impact: Opportunity to work with Clojure at scale, unique and intellectually
+        stimulating
+      confidence: High - CircleCI blog and StackShare
+    - flag: Active engineering blog with substantive technical content (Clojure microservices,
+        Go agents)
+      impact: Culture of technical communication and knowledge sharing
+      confidence: High - CircleCI blog
+    - flag: Fully remote/distributed global workforce with no office requirement
+      impact: Perfect match for remote-first requirement, true distributed company
+      confidence: High - CircleCI blog and job postings
+    strong_positives: &id002
+    - flag: Strong customer base including Spotify, Coinbase, Samsung, Ford, Facebook
+        serving 1M+ engineers with 2.5M jobs/day
+      impact: Product validation with major enterprise customers demonstrates market
+        fit
+      confidence: High - Business Wire and Wikipedia
+    - flag: Claims to be world's largest shared CI/CD platform processing 2.5M jobs
+        daily
+      impact: Market leadership position in critical developer infrastructure
+      confidence: Medium - CircleCI marketing claims
+    - flag: 'Modern infrastructure: Kubernetes, Docker, PostgreSQL migration, Redis,
+        MongoDB'
+      impact: Working with industry-standard cloud-native technologies
+      confidence: High - CircleCI blog
+    - flag: Publishes annual State of Software Delivery report analyzing 15M data
+        points from 22K teams
+      impact: Thought leadership in CI/CD space, research-oriented culture
+      confidence: High - Business Wire
+    - flag: Open source CircleCI Orbs and GitHub presence
+      impact: Some commitment to open source ecosystem
+      confidence: Medium - CircleCI documentation
+    - flag: CEO Jim Rose and CTO Rob Zuber both 10+ years tenure since 2014/2015
+      impact: Leadership stability with long-term commitment
+      confidence: High - Wikipedia and CircleCI blog
+    - flag: Work-life balance rated 4.5/5 on Glassdoor, highest category
+      impact: Strong work-life balance culture despite startup environment
+      confidence: High - Glassdoor
+    - flag: Employees consistently mention 'great people/team' as top pro
+      impact: Strong engineering culture and colleague quality
+      confidence: High - Glassdoor and Indeed
+    - flag: Quarterly wellness days implemented as employee benefit
+      impact: Company invests in employee wellbeing and sustainable pace
+      confidence: High - LinkedIn employee post
+    - flag: Working on developer tools used by 1M+ engineers globally
+      impact: Direct impact on software engineering profession and productivity
+      confidence: High - TechCrunch
+    - flag: Clojure at scale provides unique technical challenge and resume differentiation
+      impact: Rare opportunity to work with functional programming in production system
+      confidence: High - Tech stack
+  chosen_peak:
+    critical_matches: *id001
+    strong_positives: *id002
+  rope_team_confidence:
+    critical_matches: *id001
+    strong_positives: *id002
+  daily_climb:
+    critical_matches: *id001
+    strong_positives: *id002
+  story_worth_telling:
+    critical_matches: *id001
+    strong_positives: *id002
+red_flags:
+  mountain_range:
+    dealbreakers: &id003
+    - flag: Three rounds of layoffs in 18 months (2022-2024) including 17% cut in
+        Dec 2022 (~100 people)
+      impact: Severe financial distress and organizational instability, high risk
+        of more cuts
+      confidence: High - Blind, Pragmatic Engineer, Glassdoor
+    - flag: Co-founder Paul Biggar removed from board Dec 2023 allegedly for blog
+        post about Israel-Gaza
+      impact: Suggests board intolerance for dissent or controversial opinions, cultural
+        red flag
+      confidence: High - Wikipedia
+    - flag: High risk of company failure or fire sale given financial trajectory and
+        layoffs
+      impact: Career risk - company may not exist in 12-24 months, equity likely worthless
+      confidence: Medium - Financial indicators and layoff patterns
+    concerning: &id004
+    - flag: ARR only $55.7M (2024) despite $1.7B valuation and $316M raised - concerning
+        unit economics
+      impact: Valuation disconnected from reality, burn likely unsustainable, exit
+        pressure
+      confidence: Medium - Getlatka estimates
+    - flag: Current ~500 employees down from peak suggests continued contraction
+      impact: Company shrinking, not growing - reduces opportunities and increases
+        risk
+      confidence: Medium - TrueUp.io estimates
+    - flag: 'Market share declining: 3.2% mindshare down from 3.9% previous year on
+        PeerSpot'
+      impact: Losing ground to competitors (GitHub Actions, GitLab CI), existential
+        threat
+      confidence: High - PeerSpot data
+    - flag: No profitability information available and multiple layoffs suggests continued
+        burn with unclear path to sustainability
+      impact: Financial runway uncertain, risk of shutdown or fire sale acquisition
+      confidence: Medium - Absence of profitability data plus layoffs
+    - flag: Clojure tech stack is niche and limits hiring pool, may be liability vs
+        asset
+      impact: Difficult to hire, could limit career mobility after CircleCI
+      confidence: Medium - Clojure market dynamics
+    - flag: Intense competition from free/bundled alternatives (GitHub Actions, GitLab
+        CI)
+      impact: Product commoditization risk, pressure on pricing and differentiation
+      confidence: High - Competitive landscape
+    - flag: Overall Glassdoor 3.7/5 (vs 4.2-4.5 at strong companies), only 65% recommend
+      impact: Below-average employee sentiment, many unhappy employees
+      confidence: High - Glassdoor
+    - flag: 'Major employee complaints: weak leadership direction, reorgs every 6
+        months, disconnected executives'
+      impact: Leadership dysfunction and constant organizational chaos
+      confidence: High - Glassdoor reviews
+    - flag: Multiple reviews cite layoffs damaging culture and morale severely
+      impact: Toxic environment from repeated cuts and uncertainty
+      confidence: High - Indeed and Glassdoor
+    - flag: Career opportunities rated low 3.4/5 on Glassdoor
+      impact: Limited growth paths, likely due to company contraction
+      confidence: High - Glassdoor
+    - flag: Compensation rated 3.7/5 with reviews stating 'below market' repeatedly
+      impact: Not competitive pay despite needing to retain talent during crisis
+      confidence: High - Glassdoor reviews
+    - flag: Constant reorgs every 6 months creates organizational instability
+      impact: Projects canceled, priorities shift, difficult to maintain focus
+      confidence: High - Glassdoor reviews
+    - flag: 'Equity upside minimal: $1.7B valuation disconnected from $55.7M ARR,
+        down rounds likely'
+      impact: Stock options probably underwater or will be, no financial upside
+      confidence: Medium - Valuation vs revenue mismatch
+    - flag: Resume value declining as CircleCI loses market share to GitHub Actions
+      impact: Less impressive to have worked on shrinking vs growing product
+      confidence: Medium - Market dynamics
+  chosen_peak:
+    dealbreakers: *id003
+    concerning: *id004
+  rope_team_confidence:
+    dealbreakers: *id003
+    concerning: *id004
+  daily_climb:
+    dealbreakers: *id003
+    concerning: *id004
+  story_worth_telling:
+    dealbreakers: *id003
+    concerning: *id004
+missing_critical_data:
+- question: What is the current runway and burn rate? How many months until next funding
+    needed?
+  why_important: Critical for assessing layoff risk and company survival probability
+  how_to_find: Ask CFO or leadership during interviews, research investor updates
+  mountain_element: mountain_range
+- question: What is the plan to return to profitability or growth after three layoff
+    rounds?
+  why_important: Need to understand if there's a viable path forward or just managed
+    decline
+  how_to_find: Ask CEO/leadership about strategic direction and financial targets
+  mountain_element: mountain_range
+- question: Why is ARR only $55.7M with 1M users? What is monetization challenge?
+  why_important: Understanding unit economics and whether business model is fundamentally
+    broken
+  how_to_find: Ask about pricing strategy, customer conversion, and revenue growth
+    plans
+  mountain_element: mountain_range
+- question: How is CircleCI competing against free GitHub Actions and GitLab CI bundled
+    offerings?
+  why_important: Understanding competitive moat and differentiation strategy
+  how_to_find: Ask product leadership about competitive positioning and roadmap
+  mountain_element: mountain_range
+- question: What is the actual staff engineer compensation package including equity
+    strike price?
+  why_important: Understanding if comp is truly below market and if equity has any
+    value
+  how_to_find: Ask recruiter for detailed compensation breakdown, research Levels.fyi
+  mountain_element: daily_climb
+- question: What is the current engineering headcount and how many more cuts are planned?
+  why_important: Understanding team size and whether more layoffs are coming
+  how_to_find: Ask engineering leadership about team size and headcount plans
+  mountain_element: rope_team_confidence
+- question: What specifically led to Paul Biggar being removed from the board?
+  why_important: Understanding governance and whether company tolerates diverse viewpoints
+  how_to_find: Research public statements, ask during interviews if appropriate
+  mountain_element: rope_team_confidence
+- question: What percentage of engineering time is firefighting vs innovation given
+    the reorgs?
+  why_important: Understanding if role would be chaotic maintenance vs building new
+    things
+  how_to_find: Ask engineering manager about typical sprint composition and priorities
+  mountain_element: chosen_peak
+company_slug: circleci
