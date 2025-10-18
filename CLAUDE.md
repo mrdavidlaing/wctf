@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-**WCTF - Worth Climbing The Foothill** - A hybrid SDK and MCP server for managing company research data during job searches. Provides both a Python SDK (`wctf_core`) for direct programmatic access and an MCP server (`wctf_mcp`) for integration with Claude Desktop.
+**WCTF - Worth Climbing Together Framework** - A hybrid SDK and MCP server for managing company research data during job searches. Provides both a Python SDK (`wctf_core`) for direct programmatic access and an MCP server (`wctf_mcp`) for integration with Claude Desktop.
 
 ## Architecture
 

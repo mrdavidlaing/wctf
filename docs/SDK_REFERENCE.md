@@ -5,7 +5,7 @@ Auto-generated from wctf_core v0.2.0 on 2025-10-18
 ## Overview
 
 The WCTF Core SDK provides a Python interface for managing company research data
-for the "Worth Climbing The Foothill" job search framework.
+for the "Worth Climbing Together Framework" job search framework.
 
 This SDK enables:
 - Structured collection of company research facts
@@ -246,52 +246,6 @@ Dictionary with:
 ```
 
 
-**`get_flags_extraction_prompt(company_name: <class 'str'>, evaluator_context: <class 'str'>) -> Dict[str, Any]`**
-
-Get prompt for extracting evaluation flags from research.
-
-**Parameters:**
-- company_name: Name of the company being evaluated
-- evaluator_context: Your evaluation criteria and context (e.g., "Senior engineer seeking strong technical culture...")
-
-**Returns:**
-Dictionary with success status and extraction_prompt
-
-**Example:**
-```python
->>> client = WCTFClient()  # doctest: +SKIP
->>> context = "Senior engineer seeking work-life balance"  # doctest: +SKIP
->>> result = client.get_flags_extraction_prompt("Stripe", context)  # doctest: +SKIP
->>> print(result['extraction_prompt'])  # doctest: +SKIP
-```
-
-
-**`save_flags(company_name: <class 'str'>, flags_yaml: <class 'str'>) -> Dict[str, Any]`**
-
-Save extracted evaluation flags.
-
-Takes YAML content with extracted flags and saves to company.flags.yaml.
-Merges with existing flags if file already exists.
-
-**Parameters:**
-- company_name: Name of the company
-- flags_yaml: Complete YAML content with extracted flags
-
-**Returns:**
-Dictionary with success status and message
-
-**Example:**
-```python
->>> client = WCTFClient()  # doctest: +SKIP
->>> flags_yaml = '''  # doctest: +SKIP
-... company: "Stripe"
-... evaluation_date: "2025-01-15"
-... green_flags: {...}
-... '''
->>> result = client.save_flags("Stripe", flags_yaml)  # doctest: +SKIP
-```
-
-
 **`add_flag(company_name: <class 'str'>, flag_type: <class 'str'>, mountain_element: <class 'str'>, kwargs) -> Dict[str, Any]`**
 
 Manually add a flag to company evaluation.
@@ -481,7 +435,8 @@ Categories:
 
 | Field | Type | Description |
 |-------|------|-------------|
-| `company` | `<class 'str'>` | Company name |
+| `company` | `<class 'str'>` | Company display name |
+| `company_slug` | `Optional[str]` | Slugified company name for filesystem (auto-generated if not provided) |
 | `research_date` | `<class 'datetime.date'>` | Date when research was conducted |
 | `financial_health` | `<class 'wctf_core.models.FactsCategory'>` | Financial health facts |
 | `market_position` | `<class 'wctf_core.models.FactsCategory'>` | Market position facts |
@@ -501,7 +456,8 @@ Complete insider facts structure for a company.
 
 | Field | Type | Description |
 |-------|------|-------------|
-| `company` | `<class 'str'>` | Company name |
+| `company` | `<class 'str'>` | Company display name |
+| `company_slug` | `Optional[str]` | Slugified company name for filesystem (auto-generated if not provided) |
 | `last_updated` | `<class 'datetime.date'>` | Date when last updated |
 | `financial_health` | `<class 'wctf_core.models.InsiderFactsCategory'>` | Financial health facts |
 | `market_position` | `<class 'wctf_core.models.InsiderFactsCategory'>` | Market position facts |
@@ -523,7 +479,8 @@ Uses double hierarchy: mountain elements (what aspect) -> severity (how importan
 
 | Field | Type | Description |
 |-------|------|-------------|
-| `company` | `<class 'str'>` | Company name |
+| `company` | `<class 'str'>` | Company display name |
+| `company_slug` | `Optional[str]` | Slugified company name for filesystem (auto-generated if not provided) |
 | `evaluation_date` | `<class 'datetime.date'>` | Date when evaluation was done |
 | `evaluator_context` | `<class 'str'>` | Context of the evaluator |
 | `senior_engineer_alignment` | `Dict[str, str]` | Alignment with senior engineer criteria |

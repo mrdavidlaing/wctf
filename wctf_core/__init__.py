@@ -1,4 +1,4 @@
-"""WCTF Core SDK - Worth Climbing The Foothill company research data.
+"""WCTF Core SDK - Worth Climbing Together Framework company research data.
 
 This package provides both a high-level SDK (WCTFClient) and lower-level
 operations for managing company research data.

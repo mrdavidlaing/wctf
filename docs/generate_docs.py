@@ -431,7 +431,7 @@ def main():
     output.append("## Overview")
     output.append("")
     output.append("The WCTF Core SDK provides a Python interface for managing company research data")
-    output.append("for the \"Worth Climbing The Foothill\" job search framework.")
+    output.append("for the \"Worth Climbing Together Framework\" job search framework.")
     output.append("")
     output.append("This SDK enables:")
     output.append("- Structured collection of company research facts")

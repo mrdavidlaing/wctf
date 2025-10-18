@@ -1,8 +1,142 @@
-# WCTF Maintenance Scripts
+# WCTF Scripts
+
+Tools for managing company research data and generating insider interview materials.
+
+## Insider Interview Workflow
+
+Scripts for generating interview guides, evaluation overviews, and analytical rubrics.
+
+**Framework Context:** All workflow tools reference `WCTF_FRAMEWORK.md` which explains the evaluation philosophy, mountain metaphor, and flag-based approach. This context helps Claude Code generate better content and helps readers understand the analytical lens.
+
+### generate_interview_guide.py
+
+Generate a conversation flowchart interview guide for validating facts and flags with insider contacts.
+
+**Usage:**
+```bash
+# Via slash command (recommended)
+/interview-guide <company-slug>
+
+# Direct invocation
+uv run python scripts/generate_interview_guide.py <company-slug>
+
+# Example
+uv run python scripts/generate_interview_guide.py workday
+```
+
+**What it creates:**
+- Timestamped HTML file: `data/{company-slug}/YYYYMMDD-insider-interview-guide.html`
+- Conversation flowchart with starter questions and conditional branches
+- Critical data checklist from `missing_critical_data`
+- Interview phases organized by WCTF dimensions
+- Print-ready for A4 paper
+
+**Use when:**
+- Preparing for an insider interview
+- Need structured questions to validate facts and flags
+- Want a conversation guide with follow-up branches
+
+---
+
+### generate_evaluation_overview.py
+
+Generate a brief (3-4 page) evaluation overview to share with insider interview contacts.
+
+**Usage:**
+```bash
+# Via slash command (recommended)
+/evaluation-overview <company-slug>
+
+# Direct invocation
+uv run python scripts/generate_evaluation_overview.py <company-slug>
+
+# Example
+uv run python scripts/generate_evaluation_overview.py workday
+```
+
+**What it creates:**
+- Timestamped HTML file: `data/{company-slug}/YYYYMMDD-evaluation-overview.html`
+- WCTF framework explanation
+- Facts organized by dimension and confidence level
+- Green flags, red flags, and knowledge gaps per dimension
+- Prioritized validation targets
+- Print-ready for A4 paper
+
+**Use when:**
+- Sharing context with insider contacts before/during interview
+- Explaining your evaluation approach
+- Showing what you've researched and what needs validation
+
+---
+
+### generate_evaluation_rubric.py
+
+Generate a comprehensive WCTF evaluation rubric with analytical synthesis.
+
+**Usage:**
+```bash
+# Via slash command (recommended)
+/evaluation-rubric <company-slug>
+
+# Direct invocation
+uv run python scripts/generate_evaluation_rubric.py <company-slug>
+
+# Example
+uv run python scripts/generate_evaluation_rubric.py workday
+```
+
+**What it creates:**
+- Timestamped HTML file: `data/{company-slug}/YYYYMMDD-evaluation-rubric.html`
+- Complete analytical rubric (~6-7 pages) with:
+  - Structured fact sections for each WCTF dimension
+  - Placeholders for AI-synthesized analysis paragraphs
+  - Green flags, red flags, and knowledge gaps
+  - Comprehensive references section with footnotes
+- Print-ready for A4 paper
+
+**Post-generation step:**
+After generating, ask Claude Code to "synthesize the analysis paragraphs" to replace placeholders with narrative synthesis.
+
+**Use when:**
+- Creating comprehensive evaluation documentation
+- Need analytical synthesis of all research findings
+- Want objective presentation without prescriptive recommendations
+
+---
+
+## Insider Interview Slash Commands
+
+Located in `.claude/commands/`, these provide guided workflows:
+
+- `/interview-guide <company-slug>` - Generate interview guide
+- `/evaluation-overview <company-slug>` - Generate evaluation overview
+- `/evaluation-rubric <company-slug>` - Generate evaluation rubric
+
+The slash commands:
+1. Read company facts and flags
+2. Invoke the appropriate Python script
+3. Open the generated HTML file
+4. Summarize what was created
+5. Remind about printing options
+
+**Example workflow:**
+```bash
+# Pre-interview: Generate materials
+/interview-guide workday
+/evaluation-overview workday
+
+# Post-interview: Generate rubric
+/evaluation-rubric workday
+# Then ask: "Synthesize the analysis paragraphs in the rubric"
+```
+
+---
+
+## Maintenance Scripts
 
 Operational tools for managing and maintaining WCTF company research data.
 
-## Scripts
+### Scripts
 
 ### check_duplicates.py
 
