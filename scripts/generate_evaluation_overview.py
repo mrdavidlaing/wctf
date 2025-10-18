@@ -79,7 +79,7 @@ def generate_html(company_name: str, facts: dict, flags: dict) -> str:
             "flags": flags.get("green_flags", {}).get("mountain_range", {})
         },
         "Chosen Peak": {
-            "description": "Technical Culture & Engineering Excellence",
+            "description": "Strategic Alignment & Coordination Fit",
             "facts": facts.get("technical_culture", {}),
             "flags": flags.get("green_flags", {}).get("chosen_peak", {})
         },
@@ -305,7 +305,7 @@ def generate_html(company_name: str, facts: dict, flags: dict) -> str:
     <div class="page">
         <h1>{company_name} Evaluation Overview</h1>
         <p class="metadata">
-            <strong>Framework:</strong> Worth Climbing Together Framework (WCTF)<br>
+            <strong>Framework:</strong> Worth Climbing Together Framework (WCTF) v3.1<br>
             <strong>Evaluator Context:</strong> {evaluator_context}<br>
             <strong>Research Date:</strong> {research_date} | <strong>Evaluation Date:</strong> {eval_date}
         </p>
@@ -319,7 +319,7 @@ def generate_html(company_name: str, facts: dict, flags: dict) -> str:
             <p><strong>The Mountain Metaphor - Five Dimensions:</strong></p>
             <ol>
                 <li><strong>Mountain Range</strong> - Can <em>any</em> team succeed here? (Business viability, market position, financial health)</li>
-                <li><strong>Chosen Peak</strong> - Is everyone climbing the <em>same</em> mountain? (Technical strategy, engineering culture, alignment)</li>
+                <li><strong>Chosen Peak</strong> - Is everyone climbing the <em>same</em> mountain? (Technical strategy, engineering culture, alignment, <strong>coordination style matches terrain demands</strong> ← NEW v3.1)</li>
                 <li><strong>Rope Team Confidence</strong> - Does the team believe they can succeed <em>together</em>? (Leadership trust, team quality, organizational stability)</li>
                 <li><strong>Daily Climb</strong> - Will the 99 days be energizing or draining? (Work-life balance, compensation, daily sustainability)</li>
                 <li><strong>Story Worth Telling</strong> - Would you be proud to explain this work? (Career narrative, impact, skills growth)</li>

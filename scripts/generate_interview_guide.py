@@ -214,7 +214,7 @@ def generate_html(company_name: str, company_slug: str, facts: dict, flags: dict
     <button class="print-button" onclick="window.print()">🖨️ Print to PDF</button>
     <div class="page">
         <h1>{company_name} Insider Interview Guide</h1>
-        <p class="metadata">WCTF Framework - Insider Interview Preparation<br>
+        <p class="metadata">WCTF Framework v3.1 - Insider Interview Preparation<br>
         Generated: {datetime.now().strftime("%B %d, %Y")}</p>
 
         <hr>
@@ -300,6 +300,64 @@ def generate_html(company_name: str, company_slug: str, facts: dict, flags: dict
                 <li>"Any technical debt or legacy constraints slowing you down?"</li>
             </ul>
         </div>
+
+        <hr>
+
+        <h2>PHASE 2b: Coordination & Realignment (NEW in v3.1) (8-10 min)</h2>
+
+        <h3>Coordination Style Question</h3>
+        <blockquote>
+            "How does your team make decisions and coordinate work? Are you moving fast with autonomy, or carefully coordinating across multiple teams?"
+        </blockquote>
+
+        <h4>Branch A: If they describe autonomous/fast-moving (Alpine style)</h4>
+        <div class="conversation-branch">
+            <ul>
+                <li>"How much overlap time does your team have for real-time conversation?"</li>
+                <li>"What happens when the team needs to pivot - how long does that take?"</li>
+                <li>"What decisions can your team make without escalating?"</li>
+                <li>"Does this autonomy match the pace your work demands?"</li>
+            </ul>
+        </div>
+
+        <h4>Branch B: If they describe coordinated/planned (Expedition style)</h4>
+        <div class="conversation-branch">
+            <ul>
+                <li>"How often do teams sync? Weekly? Daily?"</li>
+                <li>"When direction changes, how does coordination happen across teams?"</li>
+                <li>"Does this level of coordination help or hinder getting work done?"</li>
+                <li>"Is the coordination overhead appropriate for the scope of work?"</li>
+            </ul>
+        </div>
+
+        <h4>Branch C: If mixed signals or they mention reorganizations</h4>
+        <div class="conversation-branch">
+            <ul>
+                <li>"How often has the team structure or coordination style changed?"</li>
+                <li>"Does it feel like the coordination approach fits what the work needs?"</li>
+                <li>"When there's a mismatch, how does the team adapt?"</li>
+            </ul>
+        </div>
+
+        <h3>Realignment Ability Question</h3>
+        <blockquote>
+            "Tell me about the last time your direction or priorities shifted. How long did it take the team to realign?"
+        </blockquote>
+
+        <h4>Follow-up Probes:</h4>
+        <ul>
+            <li>"Who was involved in deciding the new direction?"</li>
+            <li>"Did everyone get context on why the change happened, or just the conclusion?"</li>
+            <li>"Could people challenge the decision or raise concerns?"</li>
+            <li>"How has the team gotten better (or worse) at handling these shifts?"</li>
+            <li>"What's the typical pattern - does strategy change faster than the team can adapt?"</li>
+        </ul>
+
+        <h3>Cross-Team Decision Making</h3>
+        <blockquote>
+            "Give me an example of a recent decision across teams where there were trade-offs - where what was best for one team wasn't perfect for another. How did that get resolved?"
+        </blockquote>
+        <p><em>Listen for: common decision framework, clear communication, escalation culture vs autonomy</em></p>
 
         <hr>
 
@@ -405,10 +463,11 @@ def generate_html(company_name: str, company_slug: str, facts: dict, flags: dict
         <hr>
 
         <h2>Interview Flow Guide</h2>
-        <p><strong>Recommended sequence (60-75 minutes total):</strong></p>
+        <p><strong>Recommended sequence (70-85 minutes total):</strong></p>
         <ol>
             <li>Opening & Role (Phase 1) → 10-15 min</li>
             <li>Technical Reality (Phase 2) → 10-15 min</li>
+            <li><strong>Coordination & Realignment (Phase 2b) → 8-10 min</strong> ← NEW v3.1</li>
             <li>Culture & Leadership (Phase 3) → 10 min</li>
             <li>Work Experience (Phase 4) → 10 min</li>
             <li>Honest Reflection (Phase 5) → 5-10 min</li>

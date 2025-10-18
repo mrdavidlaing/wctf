@@ -1,6 +1,6 @@
 # WCTF MCP Server
 
-A Model Context Protocol (MCP) server for managing "Worth Climbing The Foothill" company research data. This server provides structured access to company facts and evaluation flags for engineers researching potential employers.
+A Model Context Protocol (MCP) server for managing **Worth Climbing Together Framework (WCTF) v3.1** company research data. This server provides structured access to company facts and evaluation flags for engineers researching potential employers.
 
 ## Overview
 
@@ -8,6 +8,9 @@ The WCTF MCP Server helps you:
 - Track factual research about companies (financial health, market position, organizational stability, technical culture)
 - Maintain evaluation flags (green flags, red flags, missing data)
 - Query and analyze company data through Claude Desktop or other MCP clients
+- **NEW in v3.1**: Evaluate team coordination styles and realignment ability (alpine/expedition/established route/orienteering/trail crew archetypes)
+
+For complete framework details, see [WCTF_FRAMEWORK.md](WCTF_FRAMEWORK.md).
 
 ## WSL/Windows Architecture
 

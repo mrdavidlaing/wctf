@@ -1,260 +1,415 @@
-# WCTF Framework: Worth Climbing Together Framework
+# Worth Climbing Together Framework (WCTF) v3.1
+*A Data-Informed Approach to Career Decision Making*
 
-## Philosophy
+## Executive Summary
 
-**Worth Climbing Together Framework (WCTF)** is an evaluation framework for senior engineers assessing job opportunities. It treats job evaluation as **mountaineering expedition planning** - recognizing that success requires more than just a viable business model. You need the right mountain, the right team, sustainable daily conditions, and a story you'll be proud to tell.
+The Worth Climbing Together Framework combines systematic data gathering with experienced gut instinct to evaluate career opportunities. The name captures its essence: you're evaluating whether this particular mountain is worth spending 99 days climbing with this specific group of people.
 
-The framework deliberately **avoids mechanical scoring**. There are no perfect companies, only trade-offs. The goal is to surface signals that inform your gut decision, not to produce a calculated "hire/no-hire" score.
+Teams are like climbing expeditions - they spend 99 days on the ascent and 1 day at the summit. What matters most isn't just the destination but whether everyone's climbing the same mountain together, and whether the team's coordination style matches what the terrain demands.
 
-## The Mountain Metaphor
+The framework recognizes that great opportunities require mutual fit: the climb needs to be worth it for you, and you need to be worth having on their rope team.
 
-Every job opportunity is like planning a mountain expedition. Success depends on five elements working together:
-
-### 1. Mountain Range: Macro Environment
-**"Can *any* team succeed here?"**
-
-Before evaluating a specific team, ask whether the broader business environment is viable. Are the company's finances sustainable? Is the market position defensible? Can the business model support long-term employment?
-
-This isn't about picking winners or predicting IPOs. It's about **avoiding mountains that are actively crumbling** - companies burning cash with no path to sustainability, shrinking markets with no defensible moat, or business models fundamentally broken by external forces.
-
-**Key Questions:**
-- Is the business financially viable? (profitability, runway, funding)
-- Is the market position defensible? (competitors, market share, growth trends)
-- Is the company stable enough to support multi-year career investment?
-
-**Green Flags:**
-- Profitable with healthy margins
-- Strong customer retention
-- Growing or stable market position
-- Clear path to sustainability
-
-**Red Flags:**
-- Burning cash with unclear path to profitability
-- Shrinking market share or failing business model
-- Frequent layoffs despite growth claims
-- Financial instability creating existential risk
-
-### 2. Chosen Peak: Strategic Alignment
-**"Is everyone climbing the *same* mountain?"**
-
-Does the organization have clarity about what it's building and why? Are engineering, product, and business aligned on goals? Is there a coherent technical strategy, or are teams pulling in different directions?
-
-This dimension evaluates whether the company treats **technology as strategic differentiator** vs cost center to optimize. Are technical decisions driven by strategic vision or quarterly cost pressure?
-
-**Key Questions:**
-- Is there clear product strategy and technical vision?
-- Do engineering and product work as partners or adversaries?
-- Is technology positioned as strategic asset or expense to minimize?
-- Are teams building the right things with the right approach?
-
-**Green Flags:**
-- Clear technical vision aligned with business strategy
-- Engineering has seat at strategic table
-- Investment in technical excellence and innovation
-- Modern practices and tooling (CI/CD, DORA metrics, developer productivity)
-
-**Red Flags:**
-- No coherent technical strategy or frequent pivots
-- Engineering treated as order-taker, not strategic partner
-- Cost-cutting undermines technical investment
-- Legacy technical debt constraining innovation
-- Lack of deployment velocity or modern practices
-
-### 3. Rope Team Confidence: Mutual Belief
-**"Does the team believe they can succeed *together*?"**
-
-Mountaineering requires trust in your rope team - the people literally holding your safety line. Similarly, job success requires believing in your colleagues and leadership.
-
-This evaluates **organizational trust and stability**. Do people believe in the leadership? Is there psychological safety? Do teammates support each other, or is it political infighting? Is there stability or constant churn?
-
-**Key Questions:**
-- Do you trust the leadership's judgment and integrity?
-- Is there psychological safety and team cohesion?
-- Are teammates competent and collaborative?
-- Is the organization stable or constantly reorganizing?
-
-**Green Flags:**
-- Strong leadership with clear track record
-- High employee satisfaction and low attrition
-- Collaborative culture with psychological safety
-- Organizational stability and long tenure
-
-**Red Flags:**
-- Poor leadership reputation or low CEO approval
-- High attrition or frequent reorganizations
-- Political culture or blame-oriented environment
-- Low employee satisfaction scores
-- Recent layoffs creating trust issues
-
-### 4. Daily Climb: Work Reality
-**"Will the 99 days be energizing or draining?"**
-
-Most of your time won't be at the summit celebrating. It'll be the daily grind of the climb. Is that daily experience sustainable and energizing, or will it drain you?
-
-This evaluates **work-life sustainability, compensation, and daily working conditions**. Can you sustain this pace? Is compensation fair? Are policies reasonable? Is there on-call burden or burnout risk?
-
-**Key Questions:**
-- What are typical working hours and work-life balance?
-- Is compensation competitive and fair?
-- Are policies (remote, hybrid, PTO) reasonable?
-- Is there on-call burden or operational toil?
-- Can you sustain this pace long-term?
-
-**Green Flags:**
-- Sustainable working hours and good work-life balance
-- Competitive total compensation
-- Flexible policies (remote, hybrid) that work for your situation
-- Reasonable on-call and operational burden
-- Career growth paths and development support
-
-**Red Flags:**
-- Chronic overwork or burnout culture
-- Below-market compensation or poor equity terms
-- Inflexible policies incompatible with life needs
-- Heavy on-call burden or constant firefighting
-- No career progression or development support
-
-### 5. Story Worth Telling: The Mom Test
-**"Would you be proud to explain this work to your mom?"**
-
-In five years, when explaining what you did, will you feel proud? Does this build a career narrative you want? Is the work meaningful and the brand valuable?
-
-This is the **"Mom Test"** - not whether your mom would understand the technical details, but whether you'd feel good explaining the mission, impact, and what you accomplished.
-
-**Key Questions:**
-- Does this work align with your values and interests?
-- Will this build skills and resume value you want?
-- Is the company brand and mission something you're proud of?
-- Will you have meaningful impact and ownership?
-- Does this advance your long-term career narrative?
-
-**Green Flags:**
-- Mission and values aligned with your priorities
-- Strong brand value and resume credibility
-- Meaningful impact and real ownership
-- Skills development in areas you care about
-- Work you'd be excited to explain and showcase
-
-**Red Flags:**
-- Mission misaligned with your values
-- Weak brand or questionable company reputation
-- Limited impact or ownership (support role vs builder)
-- Skills stagnation or narrow technology exposure
-- Work you'd rather not discuss or downplay
-
-## Two-Layer Investigation Approach
-
-WCTF evaluation happens in two layers:
-
-### Layer 1: Macro Environment Research
-**5-15 minutes of automated research** using public sources:
-- Company financials, funding, growth metrics
-- Market position, competitors, analyst reports
-- Organizational news (layoffs, leadership changes, expansions)
-- Technical culture indicators (blog, GitHub, StackShare, Glassdoor)
-
-This creates `company.facts.yaml` - structured facts with sources and confidence levels.
-
-**Goal:** Quickly surface obvious red flags and establish baseline understanding.
-
-### Layer 2: Insider Reality Validation
-**Ongoing conversations** with current/former employees:
-- Validate or invalidate Layer 1 findings
-- Understand ground truth vs public narrative
-- Surface cultural nuances and team dynamics
-- Get insider perspective on what it's really like
-
-This creates `company.insider.yaml` - firsthand accounts from people who've experienced the reality.
-
-**Goal:** Go beyond PR and marketing to understand actual working conditions and team reality.
-
-## Flag-Based Evaluation Philosophy
-
-### No Mechanical Scoring
-WCTF **does not** produce a numerical score or automated recommendation. Why?
-
-1. **Context matters** - The same fact can be green or red depending on your situation
-2. **Trade-offs are inevitable** - No perfect company exists; you're choosing which imperfections you can accept
-3. **Gut decisions are valid** - After surfacing signals, trust your intuition
-4. **Individual priorities vary** - What's critical for one person may be negotiable for another
-
-### Green Flags & Red Flags
-Instead of scores, collect **flags** - signals that inform your decision:
-
-**Green Flags** = Positive indicators
-- Critical matches: Non-negotiable requirements met
-- Strong positives: Significant advantages
-- Nice to have: Bonus factors
-
-**Red Flags** = Concerning signals
-- Dealbreakers: Non-negotiable requirements violated
-- Concerning: Significant disadvantages
-- Worth investigating: Potential issues needing validation
-
-**The same fact can be different colors:**
-- "Hybrid 3 days/week" = Green flag if you live locally, Red flag if you don't
-- "Fast growth" = Green flag if you want equity upside, Red flag if you want stability
-- "Startup" = Green flag if you want ownership, Red flag if you need financial security
-
-### Synthesis Over Summation
-The framework encourages **synthesizing tensions** rather than tallying flags:
-- "Profitable but laying off" - What does this mean?
-- "Great mission but poor leadership" - Can you accept this trade-off?
-- "High compensation but weak culture" - What matters more to you?
-
-Present the evidence and tensions objectively. Let the evaluator make informed decisions based on their priorities.
-
-## Evaluator Values & Priorities
-
-WCTF is designed for **senior engineers with 15-25 years experience** who value:
-
-1. **Autonomy & Ownership** - Want to drive decisions, not just execute orders
-2. **Technical Excellence** - Care about engineering quality, velocity, and modern practices
-3. **Sustainability** - Need work-life balance and long-term career stability
-4. **Meaningful Impact** - Want work that matters and aligns with values
-5. **Team Quality** - Prefer working with strong, collaborative teammates
-6. **Career Narrative** - Building resume value and skills for future opportunities
-
-Your personal values may differ! Adapt the framework to emphasize what matters to you.
-
-## Using the Framework
-
-### Step 1: Layer 1 Research
-Use `/research` tools or scripts to collect public facts. Focus on:
-- Obvious red flags (failing business, toxic culture, layoffs)
-- Strong green flags (profitable, growing, high satisfaction)
-- Missing information that needs insider validation
-
-### Step 2: Extract Flags
-Review facts and identify:
-- Which dimension each flag belongs to
-- Whether it's green (positive) or red (concerning)
-- Impact and confidence level
-
-### Step 3: Insider Conversations
-Use `/interview-guide` to prepare structured questions that:
-- Validate low-confidence facts
-- Fill knowledge gaps
-- Understand ground truth vs marketing
-
-### Step 4: Synthesize & Decide
-Use `/evaluation-rubric` to create analytical synthesis:
-- Review all evidence across five dimensions
-- Identify tensions and trade-offs
-- Consider what matters most to you
-- Make informed gut decision
-
-**Remember:** There are no perfect companies. You're choosing which mountain to climb and which imperfections you can accept.
-
-## Framework Evolution
-
-WCTF is a living framework. It evolves based on:
-- New evaluation experiences and lessons learned
-- Changing industry dynamics (remote work, AI tools, market conditions)
-- Individual evaluator priorities and values
-
-The core philosophy remains: **Surface signals, identify tensions, support informed gut decisions.** No mechanical scoring, no prescriptive recommendations, just structured research informing human judgment.
+Rather than mechanically scoring opportunities, WCTF surfaces signals through research and open conversations, then trusts your gut to make the call. Good decisions - ones you can stick with through challenges - require your subconscious to have processed the full terrain.
 
 ---
 
-**Worth Climbing Together Framework** - Success in any endeavor requires climbing together as a team. The framework helps you evaluate whether this is a mountain worth climbing with this particular team.
+## Core Philosophy: The Mountain Expedition
+
+### The Five Elements of Every Expedition
+
+**1. The Mountain Range (Macro Environment)**
+Every company operates within constraints - market conditions, funding runway, competitive pressures. These are like the mountain range and weather conditions that determine:
+- Which peaks are even accessible (what's strategically possible)
+- Maximum achievable elevation (growth potential)
+- Available resources and time (runway vs ambition)
+- Current conditions (tailwinds or headwinds)
+
+Key question: *Given these conditions, can any team realistically reach a meaningful peak?*
+
+**2. The Chosen Peak (Strategic Alignment)**
+Within the available range, which specific summit is the organization attempting? Success requires everyone - from executives to ICs - agreeing on the same destination. Mixed expeditions where half aim for Peak A while half navigate toward Peak B inevitably fail.
+
+Key question: *Is everyone in the organization climbing the same mountain?*
+
+**2b. Team Style Matches Terrain (NEW - The Coordination Fit)**
+Even when everyone agrees on the peak, teams must coordinate in ways that match what the terrain demands. An alpine-style team drowning in expedition bureaucracy fails. An expedition team trying to move with alpine speed creates chaos. Trail crews building infrastructure on an established route waste effort.
+
+Key question: *Does this team's coordination style fit what the mountain demands?*
+
+**3. The Rope Team's Confidence (Mutual Belief)**
+The best equipment and perfect weather mean nothing if the team doesn't believe they can make it. This belief must be grounded in reality - based on the team's actual capabilities, the time available, and the difficulty of the chosen route.
+
+Key question: *Does the team genuinely believe they can reach this peak together?*
+
+**4. The Daily Climb (Work Reality)**
+You spend 99 days climbing for every 1 day on a summit. Those 99 days - the daily struggles, small victories, obstacles overcome together - are what you'll actually experience. The summit is just punctuation; the climb is the story.
+
+Key question: *Will those 99 days of climbing energize or exhaust me?*
+
+**5. The Story Worth Telling (The Mom Test)**
+After all that effort, would reaching this particular peak be meaningful? Would you be proud to tell someone who cares about you (but doesn't know industry jargon) about this accomplishment? This cuts through corporate speak to reveal genuine purpose.
+
+Key question: *Would I be proud to tell my mom we climbed this mountain?*
+
+---
+
+## Understanding Team Coordination Styles
+
+### The Five Archetypes
+
+**Alpine Style (small, fast, autonomous)**
+- Minimal coordination overhead
+- Decisions made on the mountain by the team
+- High trust and shared expertise required
+- *Best for:* Rapidly changing terrain, small scope, innovation sprints
+
+**Expedition Style (coordinated, planned)**
+- Structured coordination between teams
+- Base camp communication, planned sync points
+- Clear roles and handoffs between groups
+- *Best for:* Large scope, multiple teams, stable direction
+
+**Established Route (executing known path)**
+- Path is proven and documented
+- Minimal route-finding needed
+- Focus on execution quality and refinement
+- *Best for:* Maintenance, incremental improvement, stable requirements
+
+**Orienteering (pathfinding together)**
+- Constant navigation decisions
+- Checkpoints known, route between is flexible
+- Terrain dictates tactics day-to-day
+- *Best for:* Innovation, discovery, product-market fit search
+
+**Trail Crew (building while moving)**
+- Creating infrastructure as you progress
+- Can't move faster than you can build
+- Constant coordination on techniques and materials
+- *Best for:* Platform work, foundational systems, technical debt
+
+### The Mismatch Patterns That Kill You
+
+**Alpine team in expedition terrain:**
+- Fast autonomous team when you need coordinated effort
+- *Feels like:* Chaos, duplicated work, stepping on each other
+
+**Expedition team in alpine terrain:**
+- Heavy coordination overhead for rapidly changing conditions
+- *Feels like:* Bureaucracy strangling agility, decisions too slow
+
+**Established Route team suddenly orienteering:**
+- Team expects fixed path, terrain demands constant navigation
+- *Feels like:* "Why isn't someone telling us what to do?"
+
+**Orienteering team on established route:**
+- Overthinking and redesigning what already works
+- *Feels like:* Analysis paralysis, gold-plating
+
+**Trail crew on guided tour:**
+- Building infrastructure when you just need to follow the path
+- *Feels like:* Over-engineering the obvious
+
+### The Realignment Equation
+
+When terrain shifts (and it will), successful teams can realign because:
+
+```
+Realignment_Ability = f(
+  communication_bandwidth,      // Time available for coordination
+  decision_authority,           // Can team adjust or must escalate?
+  shared_context,               // Team tenure and vocabulary
+  psychological_safety,         // Can people challenge direction?
+  information_transparency,     // Does everyone see full picture?
+  practiced_pivots              // Has team done this before?
+)
+```
+
+**The critical principle:** The team must be able to coordinate route changes faster than the terrain demands them.
+
+**Coordination speed must exceed terrain change rate.**
+
+---
+
+## The Two Layers of Investigation
+
+### Layer 1: Macro Environment Assessment (5 minutes)
+**Purpose**: Understand the landscape this team operates within
+**Tool**: Claude with web research
+**Output**: Environmental factors that enable or constrain team success
+
+**What we're evaluating**: Can even a great team succeed in this environment?
+- **Financial foundation**: Runway, profitability, funding trajectory
+- **Market position**: Product-market fit, competitive landscape, growth potential
+- **Organizational stability**: Hiring vs layoffs, leadership changes, strategic consistency
+- **Technical culture**: Innovation signals, engineering blog, open source presence
+
+### Layer 2: Team Reality Investigation (Ongoing)
+**Purpose**: Understand the specific expedition you'd be joining
+**Tool**: Network conversations with insiders
+**Output**: Ground-truth about daily reality and team dynamics
+
+**What we're evaluating**:
+- **The specific peak**: What mountain is this team actually climbing?
+- **Team coordination style**: Alpine, Expedition, Established Route, Orienteering, or Trail Crew?
+- **Style-terrain match**: Does their coordination fit the terrain demands?
+- **Realignment ability**: Can they adapt faster than conditions change?
+- **Your fit**: Would you be a productive member of this rope team?
+- **Daily reality**: Meeting load, deployment friction, tool availability
+
+---
+
+## The Enhanced Question Bank
+
+### Opening Questions (Start Here)
+
+**The Mountain Question**:
+"I think of teams like groups climbing a mountain together - spending 99 days climbing and 1 day at the summit. What's the mountaintop your team is aiming for, and does everyone believe you can get there?"
+
+**The Coordination Style Question (NEW)**:
+"How does your team make decisions and coordinate? Are you moving fast with autonomy, or carefully coordinating across multiple groups, or something else?"
+
+**The Terrain Change Question (NEW)**:
+"Tell me about the last time your direction or priorities shifted. How long did it take the team to realign, and who was involved in deciding the new route?"
+
+**Team Evolution Question**:
+"Tell me about your team rituals - the Monday standups, the quarterly planning, the way feedback flows. How have these evolved?"
+
+**Strategy Communication Question**:
+"How does company strategy get communicated and turned into the goals your team works toward?"
+
+### Coordination & Realignment Probes (NEW)
+
+**Testing Communication Bandwidth**:
+- "How much realtime conversation time does your team have together per week?"
+- "Show me your team's calendar overlap window. What typically happens in that time?"
+- "What timezone is the executive team in? Where do urgent decisions get made?"
+
+**Testing Decision Authority**:
+- "What decisions can your team make without escalation?"
+- "Walk me through the last technical decision that needed external approval - how long did that take?"
+
+**Testing Psychological Safety**:
+- "Tell me about the last time someone challenged the direction or said 'I think we're going the wrong way'"
+- "What happens when someone raises a concern about the plan?"
+
+**Testing Information Transparency**:
+- "How does information flow from customers/stakeholders to the team?"
+- "When direction changes, how much context does the team get - just the conclusion or the full reasoning?"
+
+**Testing Shared Context**:
+- "How long has this team worked together?"
+- "Tell me about your team's shared vocabulary or shorthand"
+
+**Testing Pivot Practice**:
+- "Walk me through the last 2-3 direction changes - what was the pattern?"
+- "How has the team gotten better at adapting over time?"
+
+### Cross-Team Decision Making
+
+**Primary Question**:
+"Give me an example of a recent decision made across teams where there were trade-offs - where what was best for one team wasn't perfect for another. How did that get resolved?"
+
+**Listen for**:
+- ✅ Common decision framework used by all
+- ✅ Clear communication before, during, after
+- ✅ People know who decides what
+- ❌ Sister team dependencies with no leverage
+- ❌ Everything escalates to the top
+- ❌ Strategy changes faster than communication
+
+### The Two-Meeting Expectation
+
+Set this upfront: "I'd love to chat briefly today to get a feel for things, then come back with more specific questions after I've had time to process. Would that work?"
+
+---
+
+## Red Flags & Green Flags Reference
+
+### Organizational Health Signals
+
+**Green Flags**:
+- "We tried X, it didn't work, now we're doing Y" (learning culture)
+- "Our team shipped [specific thing] last quarter" (execution)
+- "I have 5 direct reports" (manager bandwidth)
+- "Here's our actual calendar/metrics" (transparency)
+- "The CTO still commits code" (technical leadership)
+- "We have decision checkpoints every X weeks" (adaptive planning)
+
+**Red Flags**:
+- "We're in transition" (instability)
+- "Everything is urgent" (no priorities = all priorities)
+- "We'll figure out the process" (no muscle memory)
+- "I have 12 reports" (manager underwater)
+- "We just reorganized" (disruption)
+- Meeting calendars they won't share (hiding reality)
+
+### Coordination Style & Terrain Match (NEW)
+
+**Green Flags - Good Fit**:
+- **Alpine terrain + Alpine team**: "We pivot daily, everyone has context and authority"
+- **Expedition terrain + Expedition team**: "We coordinate carefully across 5 teams, monthly planning cycles"
+- **Established Route + Execution team**: "Path is clear, we focus on quality execution"
+- **Orienteering + Experienced crew**: "We each navigate our section, sync at checkpoints"
+- **Trail Crew + Infrastructure team**: "We're building platform, moving deliberately"
+
+**Red Flags - Mismatch**:
+- **Alpine terrain + Expedition bureaucracy**: "Everything changes weekly but we have quarterly planning locks"
+- **Expedition terrain + Cowboy culture**: "Five teams, no coordination, constant collisions"
+- **Pathfinding terrain + Established Route team**: "We keep waiting for someone to tell us the route"
+- **Stable terrain + Constant reorganization**: "Nothing's changing but we restructure every quarter"
+- **Fast terrain + Slow coordination**: "Direction changes daily, we have 2 hours/week overlap"
+
+### Realignment Ability Signals (NEW)
+
+**Green Flags - Can Adapt**:
+- Sufficient overlap for terrain volatility (4+ hours for weekly changes)
+- Team can reroute without base camp approval (decision authority)
+- People speak up when they see problems (psychological safety)
+- Years of climbing together (shared context)
+- Everyone sees the same terrain map (information transparency)
+- Team has successfully pivoted before (practiced)
+- Recent example of distributed member shaping a decision (real participation)
+
+**Red Flags - Adaptation Blocked**:
+- Coordination time < terrain change rate
+- Every route change needs executive approval (escalation culture)
+- People see hazards but stay silent (fear culture)
+- Half the team can't see the route (information filtering)
+- Team assembled recently, no shared language (new formation)
+- Team's first time ever changing plans (no pivot practice)
+- Distributed members "watch the video" of decisions made elsewhere
+
+### Daily Reality Signals
+
+**Green Flags**:
+- < 6 hours meetings/week proven with actual calendar
+- Same-day deployment demonstrated with metrics
+- AI tools actively encouraged
+- Protected maker time blocks visible
+- Recent interesting technical challenge described
+- Clear working hours boundaries respected
+
+**Red Flags**:
+- "We collaborate a lot" (translation: meetings)
+- "Careful deployment process" (translation: slow)
+- "We don't need those tools" (behind the curve)
+- "Very collaborative culture" (translation: interruptions)
+- "Maintaining stability" (translation: no innovation)
+- After-hours expectations normalized
+
+---
+
+## The Gut Synthesis Process
+
+### After Each Conversation
+
+**1. Brain Dump (5 minutes)**
+- List all green flags observed
+- List all red flags observed
+- Note what wasn't said or was dodged
+- Capture your immediate feeling
+
+**2. The Coordination Match Check (NEW - 3 minutes)**
+- What's the terrain? (stable/changing/chaotic)
+- What's the team style? (alpine/expedition/established/orienteering/crew)
+- Do they match?
+- Can they realign faster than terrain shifts?
+
+**3. The Gut Check (2 minutes)**
+- If a role opened tomorrow, would I take it?
+- What's my energy level about this opportunity?
+- Does this feel like climbing the right mountain?
+
+**4. The Mom Test (1 minute)**
+- Can I explain what they do simply?
+- Would I be proud or apologetic?
+
+---
+
+## The Decision Framework
+
+### Binary Decisions (Not Scores)
+
+After collecting flags, make four decisions:
+
+1. **Company Health**: Sinking Ship / Stable / Rocket Ship
+2. **Role Reality**: Soul-Crushing / Acceptable / Energizing
+3. **Coordination Fit (NEW)**: Mismatched / Workable / Natural Fit
+4. **Gut Override**: Take It / Keep Looking
+
+### When Gut Conflicts with Data
+
+Trust pattern recognition from 25 years of experience:
+- Excitement despite red flags? → Dig into why
+- Dread despite green flags? → Something's hidden
+- Confusion? → Need more conversations
+- Perfect on paper but feels off? → Trust the feeling
+
+### The "Voluntold" Situation Check
+
+When evaluating internal moves you didn't choose:
+- Your excitement matters more than the rubric
+- Internal transitions = known dysfunction tolerance
+- Use the framework to negotiate improvements
+
+---
+
+## Implementation Rhythm
+
+### Daily (5 min)
+- One new company quick screen via Claude
+
+### Weekly (2 hours)
+- 2-3 networking conversations booked
+- Update warm pipeline database
+- Review and tag companies: YES / MAYBE / NO
+
+### Per Opportunity (4-6 hours)
+- Initial conversation (1 hour)
+- Follow-up questions (1 hour)
+- 2-3 team member conversations
+- Gut synthesis session
+
+---
+
+## What's New in v3.1
+
+**Added**:
+- **Element 2b**: Team coordination style must match terrain demands
+- **Five team archetypes**: Alpine, Expedition, Established Route, Orienteering, Trail Crew
+- **Realignment equation**: Six factors that enable adaptation
+- **Coordination questions**: Probing bandwidth, authority, safety, context
+- **Mismatch patterns**: Specific failure modes when style doesn't fit terrain
+- **Terrain change velocity**: Explicit evaluation of adaptation ability
+
+**Core insight**:
+It's not just "is communication good?" but "does the team's coordination style match what the mountain demands, and can they realign faster than conditions change?"
+
+---
+
+## Remember
+
+You know what good looks like:
+- Clear decision making across teams
+- Manager with bandwidth
+- Work that matters
+- Team that's performing, not storming
+- Strategy stable enough to execute
+- **Coordination style that matches terrain demands** ← NEW
+- **Realignment ability that exceeds change rate** ← NEW
+
+You know what bad looks like:
+- Everything escalates up
+- Constant reorganization
+- Meetings about meetings
+- "We're figuring it out"
+- Strategy du jour
+- **Alpine speed expected with expedition overhead** ← NEW
+- **Terrain changes faster than team can realign** ← NEW
+
+Trust yourself. The framework just helps you ask the right questions and organize what you learn. Your gut makes the call.
+
+---
+
+*Worth Climbing Together Framework v3.1 - October 2025*
+*"Find mountains worth climbing with people worth climbing alongside, where the team's rhythm matches the terrain's demands"*

@@ -14,14 +14,25 @@ The overall landscape and sustainability of the business:
 - Customer base and retention
 - Economic moat and defensibility
 
-### 2. Chosen Peak (Technical Culture & Work Quality)
-The technical environment and engineering excellence:
+### 2. Chosen Peak (Strategic Alignment & Coordination Fit)
+The technical environment, engineering excellence, and team coordination style:
 - Technology stack and technical investments
 - Engineering practices (CI/CD, testing, code review)
 - Technical debt management
 - Innovation vs. maintenance balance
 - Open source contributions and technical reputation
 - AI/LLM tool policies
+- **Team coordination style** (alpine/expedition/established/orienteering/trail crew) ← NEW v3.1
+- **Coordination-terrain match** (does style fit the demands?) ← NEW v3.1
+- **Realignment ability** (can team adapt faster than conditions change?) ← NEW v3.1
+
+**Coordination Fit Signals to Look For:**
+- Communication bandwidth vs terrain volatility
+- Decision authority (team autonomy vs escalation culture)
+- Psychological safety (can people challenge direction?)
+- Information transparency (everyone sees same picture?)
+- Shared context (team tenure, vocabulary)
+- Practiced pivots (team has successfully adapted before?)
 
 ### 3. Rope Team Confidence (Leadership & Organization)
 Trust in the team and leadership guiding the climb:
@@ -79,13 +90,13 @@ green_flags:
         impact: "Why this matters"
         confidence: "High/Medium/Low - evidence source"
 
-  chosen_peak:  # Technical Culture & Work Quality
+  chosen_peak:  # Strategic Alignment & Coordination Fit
     critical_matches:
-      - flag: "Specific observation"
+      - flag: "Specific observation (e.g., team style matches terrain demands)"
         impact: "Why this matters"
         confidence: "High/Medium/Low - evidence source"
     strong_positives:
-      - flag: "Another observation"
+      - flag: "Another observation (e.g., strong realignment ability)"
         impact: "Why this matters"
         confidence: "High/Medium/Low - evidence source"
 
@@ -121,10 +132,10 @@ red_flags:
         impact: "Potential negative impact"
         confidence: "High/Medium/Low - evidence source"
 
-  chosen_peak:  # Technical Culture & Work Quality
+  chosen_peak:  # Strategic Alignment & Coordination Fit
     dealbreakers: []
     concerning:
-      - flag: "Concern"
+      - flag: "Concern (e.g., coordination style mismatch, terrain changes faster than team can adapt)"
         impact: "Why this is concerning"
         confidence: "High/Medium/Low - evidence source"
 
@@ -155,6 +166,11 @@ missing_critical_data:
 - **Be specific**: Extract actual observations from the conversation, not generic statements
 - **Quote context**: Reference what was actually discussed, not assumptions
 - **Classify carefully**: Each flag should fit one primary mountain element
+- **Coordination flags (NEW v3.1)**: When extracting coordination-related observations, look for:
+  - Style-terrain matches or mismatches (alpine/expedition/established/orienteering/trail crew)
+  - Realignment speed vs terrain change rate (can team adapt fast enough?)
+  - Communication bandwidth relative to decision needs
+  - Decision authority (autonomy vs escalation)
 - **Severity classification**:
   - **Critical Matches** (green): Exactly what you're looking for - standout positives that strongly favor this opportunity
   - **Strong Positives** (green): Generally good signals that indicate health and fit

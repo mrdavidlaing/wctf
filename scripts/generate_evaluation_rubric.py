@@ -147,8 +147,10 @@ def generate_html(company_name: str, facts: dict, flags: dict) -> str:
         },
         {
             "name": "Chosen Peak",
-            "description": "Technical Culture & Engineering Excellence",
-            "facts": facts.get("technical_culture", {}),
+            "description": "Strategic Alignment & Coordination Fit",
+            "facts": {**facts.get("technical_culture", {}),
+                     "facts_found": (facts.get("technical_culture", {}).get("facts_found", []) +
+                                   facts.get("organizational_stability", {}).get("facts_found", []))},
             "green": flags.get("green_flags", {}).get("chosen_peak", {}),
             "red": flags.get("red_flags", {}).get("chosen_peak", {}),
             "gaps": [g for g in missing_data if "chosen_peak" in g.get("mountain_element", "")]
@@ -353,7 +355,7 @@ def generate_html(company_name: str, facts: dict, flags: dict) -> str:
             <ol style="font-size: 10pt; line-height: 1.4;">
                 <li><strong>Mountain Range (Macro Environment):</strong> Can <em>any</em> team succeed here? Before evaluating a specific team, ask whether the broader business environment is viable. Are finances sustainable? Is the market position defensible? Can the business model support long-term employment? This isn't about picking winners or predicting IPOs - it's about avoiding mountains that are actively crumbling.</li>
 
-                <li><strong>Chosen Peak (Strategic Alignment):</strong> Is everyone climbing the <em>same</em> mountain? Does the organization have clarity about what it's building and why? Are engineering, product, and business aligned on goals? Is technology treated as strategic differentiator or cost center to optimize? Are teams building the right things with the right approach?</li>
+                <li><strong>Chosen Peak (Strategic Alignment & Coordination Fit):</strong> Is everyone climbing the <em>same</em> mountain? Does the organization have clarity about what it's building and why? Are engineering, product, and business aligned on goals? <strong>Does the team's coordination style match what the terrain demands?</strong> (NEW v3.1) Can the team realign faster than conditions change?</li>
 
                 <li><strong>Rope Team Confidence (Mutual Belief):</strong> Does the team believe they can succeed <em>together</em>? Mountaineering requires trust in your rope team - the people literally holding your safety line. Similarly, job success requires believing in your colleagues and leadership. Do you trust the leadership's judgment? Is there psychological safety? Are teammates competent and collaborative? Is the organization stable or constantly churning?</li>
 

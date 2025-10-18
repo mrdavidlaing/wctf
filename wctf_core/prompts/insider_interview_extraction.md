@@ -71,6 +71,23 @@ Extract facts into these four categories:
 - Career development opportunities
 - Performance management
 - Company stability signals
+- **Team coordination style and decision-making** (NEW in v3.1)
+- **Realignment ability when direction changes** (NEW in v3.1)
+
+**Coordination & Realignment Facts to Extract:**
+- Team coordination archetype (alpine/expedition/established route/orienteering/trail crew)
+- Communication bandwidth (calendar overlap, sync meeting time)
+- Decision authority (what team can decide vs must escalate)
+- Psychological safety (can people challenge direction?)
+- Information transparency (does everyone see the full picture?)
+- Shared context (team tenure, shared vocabulary)
+- Pivot practice (how team handles direction changes)
+- Timezone distribution and impact on coordination
+- Cross-team decision-making patterns
+
+**Examples:**
+- *Objective*: "Team has 4 hours of calendar overlap per week" or "All architecture decisions must be approved by central committee"
+- *Subjective*: "Team pivots feel chaotic" or "People are afraid to question leadership decisions"
 
 ### 4. Technical Culture
 - Technology stack and tools
@@ -223,9 +240,30 @@ organizational_stability:
       fact_type: "subjective"
       context: "Interviewee has two small children, mentioned flexibility during interview"
 
+    - fact: "Team coordination is mostly async via Slack, very little real-time overlap"
+      source: "Ahmad A (Senior Engineer, Observability Department)"
+      date: "2025-10-08"
+      confidence: "firsthand_account"
+      fact_type: "objective"
+      context: "Team spans multiple timezones globally"
+
+    - fact: "Most technical decisions can be made by team without external approval"
+      source: "Ahmad A (Senior Engineer, Observability Department)"
+      date: "2025-10-08"
+      confidence: "firsthand_account"
+      fact_type: "objective"
+
+    - fact: "Last strategic shift took about 2 weeks for team to fully realign"
+      source: "Ahmad A (Senior Engineer, Observability Department)"
+      date: "2025-10-08"
+      confidence: "firsthand_account"
+      fact_type: "objective"
+      context: "Shift from monolith to microservices approach"
+
   missing_information:
     - "Formal parental leave policies"
     - "Promotion timeline and criteria"
+    - "How cross-team conflicts get resolved"
 
 technical_culture:
   facts_found:
@@ -260,7 +298,7 @@ technical_culture:
     - "Code review SLA"
 
 summary:
-  total_facts_found: 15
+  total_facts_found: 18
   information_completeness: "high"
   most_recent_interview: "2025-10-08"
   oldest_interview: "2025-10-08"
