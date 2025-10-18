@@ -1,0 +1,213 @@
+company: Workday
+evaluation_date: '2025-10-18'
+evaluator_context: Extracted from conversation notes
+green_flags:
+  mountain_range:
+    critical_matches:
+    - flag: 'Profitable public company: $8.4B revenue (16% YoY), 30% operating margin,
+        $5B net cash, $421M free cash flow'
+      impact: Financial stability exceptional - zero business risk, sustainable business
+        model proven
+      confidence: High - Public financials
+    - flag: 98% gross revenue retention, $24.6B subscription backlog, 11K+ customers
+        including 50% Fortune 500
+      impact: Sticky product with enterprise validation and long-term revenue visibility
+      confidence: High - Investor reports
+    strong_positives:
+    - flag: 10-year Gartner Magic Quadrant leader for Cloud HCM, 21% ERP SaaS market
+        share
+      impact: Market leader position provides stability and competitive moat
+      confidence: High - Gartner
+    - flag: Projected mid-teens subscription growth with expanding margins to 30%
+        by FY27
+      impact: Growth trajectory continues with improving economics
+      confidence: High - Management guidance
+    - flag: $1B Paradox acquisition for AI recruiting shows serious AI investment
+        and commitment
+      impact: Major capital allocation to AI innovation, technology as strategic priority
+      confidence: High - Company announcement
+  chosen_peak:
+    critical_matches:
+    - flag: Cloud-native SaaS platform built from ground up - no legacy on-prem baggage
+      impact: Modern architecture foundation enables good engineering practices and
+        deployment velocity
+      confidence: High - Product architecture
+    - flag: Workday Illuminate AI platform with 800B+ parameter proprietary LLM shows
+        technology leadership
+      impact: Building AI capabilities internally (not just consuming vendor APIs),
+        technology as core differentiator
+      confidence: High - Product launches, Josh Bersin analysis
+    strong_positives:
+    - flag: CTO Peter Bailis from Google Cloud AI brings modern engineering culture
+        and practices
+      impact: Leadership with cloud-native, high-velocity engineering background
+      confidence: High - Leadership page
+    - flag: Active engineering blog, DevCon conferences, DevTalk podcast shows technical
+        investment
+      impact: Company values technical community and knowledge sharing
+      confidence: High - Blog and events
+    - flag: 'Modern tech stack: Java, Python, Node.js, TypeScript, React, Kubernetes,
+        AWS'
+      impact: Industry-standard tools with marketable skills
+      confidence: High - StackShare, careers page
+    - flag: G2 4.0/5 rating, 97% customer satisfaction shows quality product execution
+      impact: Engineering delivers value that customers appreciate
+      confidence: High - Review platforms
+    - flag: $230-270M AI transformation investment signals technology as business
+        priority
+      impact: Company treating technology as strategic differentiator, not cost center
+      confidence: High - Restructuring announcement
+    - flag: Recent major AI product launches (Illuminate, Paradox integration) show
+        shipping velocity
+      impact: Demonstrates ability to execute and deliver new capabilities
+      confidence: High - Product announcements
+  rope_team_confidence:
+    critical_matches: []
+    strong_positives:
+    - flag: Dublin established 2008 (17 years) as European HQ with 2,000 employees
+      impact: Long-term commitment with substantial strategic presence and maturity
+      confidence: High - Company history
+    - flag: 416K sq ft new Dublin headquarters completing June 2025
+      impact: Major ongoing investment demonstrates commitment to Dublin operations
+      confidence: High - Irish Times
+    - flag: CTO from Google Cloud AI background likely brings strong engineering culture
+        expectations
+      impact: Technical leadership aligned with modern practices and velocity
+      confidence: Medium - CTO background
+    - flag: Dublin Glassdoor 3.8/5 (504 reviews), Software Engineer 3.8/5 (869 reviews)
+      impact: Solid employee sentiment, not exceptional but acceptable
+      confidence: High - Glassdoor
+  daily_climb:
+    critical_matches:
+    - flag: Hybrid model 50% quarterly office time is compatible with Dublin-based
+        work
+      impact: Reasonable balance allowing flexibility while maintaining collaboration
+      confidence: High - Careers page
+    strong_positives:
+    - flag: Public company provides transparent comp, equity liquidity, and RSU refreshes
+      impact: Predictable compensation with immediate stock value vs pre-IPO uncertainty
+      confidence: High - Public status
+    - flag: Large Dublin engineering community (2,000 people) provides peer network
+        and collaboration
+      impact: Substantial local team for knowledge sharing and career development
+      confidence: High - Office size
+  story_worth_telling:
+    critical_matches: []
+    strong_positives:
+    - flag: Workday brand well-established in enterprise SaaS and cloud platforms
+      impact: Resume value in enterprise software engineering
+      confidence: Medium - Brand reputation
+    - flag: Working on AI transformation of enterprise HR/finance at Fortune 500 scale
+      impact: Meaningful business impact for thousands of large organizations
+      confidence: High - Customer base and AI strategy
+    - flag: Public company equity has immediate liquidity and transparent value
+      impact: RSUs can be sold regularly, clear compensation vs startup uncertainty
+      confidence: High - Public market
+red_flags:
+  mountain_range:
+    dealbreakers: []
+    concerning:
+    - flag: 1,750 global layoffs (8.5%) in Feb 2025, 142 in Dublin despite profitability
+      impact: Cuts for 'AI prioritization' create uncertainty about future reductions
+        and morale damage
+      confidence: High - Irish Examiner, RTE
+    - flag: Layoffs just before new Dublin HQ completion sends mixed signals about
+        commitment
+      impact: Investment in facilities while cutting people creates cynicism
+      confidence: High - Timeline comparison
+  chosen_peak:
+    dealbreakers: []
+    concerning:
+    - flag: No public information on DORA metrics, deployment frequency, or engineering
+        velocity
+      impact: Unknown if engineering practices are mature or if there's technical
+        debt burden
+      confidence: Medium - Absence of data
+    - flag: No information on AI coding tool availability (Copilot, Cursor, etc.)
+      impact: Unknown if company provides modern developer productivity tools
+      confidence: Low - Absence of data
+    - flag: $230-270M restructuring suggests significant organizational churn and
+        process changes
+      impact: AI transformation may create temporary chaos and unclear processes
+      confidence: High - Restructuring magnitude
+    - flag: Enterprise SaaS may have slower deployment cycles than consumer products
+        due to customer validation needs
+      impact: Potential friction in shipping velocity compared to more agile environments
+      confidence: Medium - Enterprise software dynamics
+  rope_team_confidence:
+    dealbreakers: []
+    concerning:
+    - flag: New CEO Carl Eschenbach (Feb 2024) with only 55% Glassdoor approval
+      impact: Poor leadership confidence suggests strategic uncertainty or cultural
+        misalignment
+      confidence: High - Glassdoor
+    - flag: CEO change coinciding with immediate layoffs creates trust and morale
+        issues
+      impact: New leader started with cuts, employees may be wary of future direction
+      confidence: High - Timing of events
+    - flag: Glassdoor 3.7-3.8/5 is below tech leaders (4.2-4.5)
+      impact: Employee satisfaction suggests room for improvement in culture or management
+      confidence: High - Glassdoor comparison
+    - flag: Aneel Bhusri (co-founder) stepped back from co-CEO to Chairman
+      impact: Founder transition may indicate strategic shifts or declining influence
+      confidence: Medium - Role change
+    - flag: 142 Dublin layoffs despite new HQ investment damages trust and morale
+      impact: Surviving employees likely uncertain about stability and company priorities
+      confidence: High - Cultural impact
+  daily_climb:
+    dealbreakers: []
+    concerning:
+    - flag: Work-life balance and career development not specifically called out as
+        strengths
+      impact: May have sustainability or growth path challenges
+      confidence: Low - Absence of standout data
+  story_worth_telling:
+    dealbreakers: []
+    concerning:
+    - flag: Public company (IPO 2012) means limited equity upside vs pre-IPO opportunities
+      impact: Compensation structure more cash-heavy with smaller growth potential
+      confidence: High - Mature public company status
+missing_critical_data:
+- question: What are Workday's DORA metrics? Deployment frequency, lead time for changes,
+    MTTR, change failure rate?
+  why_important: Core criterion for evaluating engineering excellence and velocity
+  how_to_find: Ask engineering leadership about deployment practices, release cadence,
+    incident metrics
+  mountain_element: chosen_peak
+- question: Does Workday provide AI coding tools like GitHub Copilot, Cursor, or internal
+    alternatives?
+  why_important: Critical for developer productivity and keeping skills current
+  how_to_find: Ask during interviews about approved AI tools and developer productivity
+    investments
+  mountain_element: chosen_peak
+- question: How is technology positioned relative to business? Do engineers have seat
+    at strategic table?
+  why_important: Evaluator seeks technology as equal partner, not order-taker
+  how_to_find: Ask about eng/product relationship, technical decision authority, representation
+    in leadership
+  mountain_element: rope_team_confidence
+- question: What is the actual deployment velocity? How often do teams ship to production?
+  why_important: Understanding engineering velocity and process maturity
+  how_to_find: Ask about CI/CD practices, release frequency, deployment processes
+  mountain_element: chosen_peak
+- question: What caused Feb 2025 layoffs if company is profitable and growing? Are
+    more planned?
+  why_important: Assessing job security and whether AI transformation cuts are complete
+  how_to_find: Research CEO statements, ask leadership about headcount plans
+  mountain_element: mountain_range
+- question: What is staff engineer compensation for Dublin including base, RSUs, bonus,
+    refresh schedule?
+  why_important: Understanding total comp competitiveness
+  how_to_find: Research Levels.fyi, ask recruiter for detailed breakdown
+  mountain_element: daily_climb
+- question: What engineering teams are in Dublin? Do they own products or support
+    US teams?
+  why_important: Understanding autonomy and whether tech is equal partner vs support
+    function
+  how_to_find: Ask hiring manager about Dublin team charter and decision authority
+  mountain_element: story_worth_telling
+- question: What is post-layoff morale in Dublin engineering org?
+  why_important: Understanding real cultural state beyond metrics
+  how_to_find: Talk to current employees, search Blind for discussions
+  mountain_element: rope_team_confidence
+company_slug: workday
