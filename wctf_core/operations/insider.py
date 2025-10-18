@@ -13,6 +13,7 @@ import yaml
 from wctf_core.utils.paths import (
     ensure_company_dir,
     get_insider_facts_path,
+    slugify_company_name,
 )
 from wctf_core.utils.yaml_handler import read_yaml, write_yaml, YAMLHandlerError
 
@@ -394,6 +395,10 @@ def save_insider_facts(
                 except YAMLHandlerError:
                     # If existing file is malformed, overwrite it
                     pass
+
+            # Ensure company_slug field is present
+            if 'company_slug' not in facts_data:
+                facts_data['company_slug'] = slugify_company_name(company_name)
 
             # Write the merged facts file
             write_yaml(facts_path, facts_data)

@@ -14,6 +14,7 @@ import yaml
 from wctf_core.utils.paths import (
     ensure_company_dir,
     get_flags_path,
+    slugify_company_name,
 )
 from wctf_core.utils.yaml_handler import read_yaml, write_yaml
 
@@ -365,6 +366,10 @@ def save_flags_op(
         # Merge new flags with existing
         merged_flags = _merge_flags(existing_flags, extracted_flags)
 
+        # Ensure company_slug field is present
+        if 'company_slug' not in merged_flags:
+            merged_flags['company_slug'] = slugify_company_name(company_name)
+
         # Save merged flags
         write_yaml(flags_path, merged_flags)
 
@@ -549,6 +554,10 @@ def add_manual_flag(
 
         # Update evaluation date
         flags_data["evaluation_date"] = str(date.today())
+
+        # Ensure company_slug field is present
+        if 'company_slug' not in flags_data:
+            flags_data['company_slug'] = slugify_company_name(company_name)
 
         # Save updated flags
         write_yaml(flags_path, flags_data)

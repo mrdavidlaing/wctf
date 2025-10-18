@@ -12,7 +12,9 @@ from datetime import date as Date
 from enum import Enum
 from typing import Any, Dict, List, Optional
 
-from pydantic import BaseModel, Field, field_serializer
+from pydantic import BaseModel, Field, field_serializer, model_validator
+
+from wctf_core.utils.paths import slugify_company_name
 
 
 class ConfidenceLevel(str, Enum):
@@ -110,13 +112,21 @@ class CompanyFacts(BaseModel):
         'Stripe'
     """
 
-    company: str = Field(..., description="Company name")
+    company: str = Field(..., description="Company display name")
+    company_slug: Optional[str] = Field(None, description="Slugified company name for filesystem (auto-generated if not provided)")
     research_date: Date = Field(..., description="Date when research was conducted")
     financial_health: FactsCategory = Field(..., description="Financial health facts")
     market_position: FactsCategory = Field(..., description="Market position facts")
     organizational_stability: FactsCategory = Field(..., description="Organizational stability facts")
     technical_culture: FactsCategory = Field(..., description="Technical culture facts")
     summary: Dict[str, Any] = Field(..., description="Summary of all findings")
+
+    @model_validator(mode='after')
+    def generate_slug_if_missing(self) -> 'CompanyFacts':
+        """Auto-generate company_slug from company name if not provided."""
+        if self.company_slug is None:
+            self.company_slug = slugify_company_name(self.company)
+        return self
 
     @field_serializer("research_date")
     def serialize_research_date(self, value: Date) -> str:
@@ -158,13 +168,21 @@ class InterviewMetadata(BaseModel):
 class CompanyInsiderFacts(BaseModel):
     """Complete insider facts structure for a company."""
 
-    company: str = Field(..., description="Company name")
+    company: str = Field(..., description="Company display name")
+    company_slug: Optional[str] = Field(None, description="Slugified company name for filesystem (auto-generated if not provided)")
     last_updated: Date = Field(..., description="Date when last updated")
     financial_health: InsiderFactsCategory = Field(..., description="Financial health facts")
     market_position: InsiderFactsCategory = Field(..., description="Market position facts")
     organizational_stability: InsiderFactsCategory = Field(..., description="Organizational stability facts")
     technical_culture: InsiderFactsCategory = Field(..., description="Technical culture facts")
     summary: Dict[str, Any] = Field(..., description="Summary including interview metadata")
+
+    @model_validator(mode='after')
+    def generate_slug_if_missing(self) -> 'CompanyInsiderFacts':
+        """Auto-generate company_slug from company name if not provided."""
+        if self.company_slug is None:
+            self.company_slug = slugify_company_name(self.company)
+        return self
 
     @field_serializer("last_updated")
     def serialize_last_updated(self, value: Date) -> str:
@@ -221,7 +239,8 @@ class CompanyFlags(BaseModel):
     Uses double hierarchy: mountain elements (what aspect) -> severity (how important).
     """
 
-    company: str = Field(..., description="Company name")
+    company: str = Field(..., description="Company display name")
+    company_slug: Optional[str] = Field(None, description="Slugified company name for filesystem (auto-generated if not provided)")
     evaluation_date: Date = Field(..., description="Date when evaluation was done")
     evaluator_context: str = Field(..., description="Context of the evaluator")
     senior_engineer_alignment: Dict[str, str] = Field(
@@ -239,6 +258,13 @@ class CompanyFlags(BaseModel):
         ..., description="Critical missing information"
     )
     synthesis: Dict[str, Any] = Field(..., description="Overall synthesis and recommendation")
+
+    @model_validator(mode='after')
+    def generate_slug_if_missing(self) -> 'CompanyFlags':
+        """Auto-generate company_slug from company name if not provided."""
+        if self.company_slug is None:
+            self.company_slug = slugify_company_name(self.company)
+        return self
 
     @field_serializer("evaluation_date")
     def serialize_evaluation_date(self, value: Date) -> str:
