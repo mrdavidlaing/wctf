@@ -1,0 +1,206 @@
+company: fly-io
+evaluation_date: '2025-10-18'
+evaluator_context: Extracted from conversation notes
+green_flags:
+  mountain_range:
+    critical_matches: &id001
+    - flag: Runs own hardware infrastructure instead of layering on AWS - building
+        data centers for economic/performance reasons
+      impact: Deep technical challenge solving hard infrastructure problems at hardware
+        level
+      confidence: High - Fly.io blog
+    - flag: Firecracker-based VMs that boot in 250ms enabling instant scaling and
+        eliminating cold starts
+      impact: Working on cutting-edge containerization and virtualization technology
+      confidence: High - Fly.io homepage
+    - flag: CEO Kurt Mackey and CTO Jerome Gravel-Niquet stable since founding (2016),
+        successful track record (Compose→IBM)
+      impact: Experienced founders with exit, long-term commitment
+      confidence: High - Crunchbase
+    - flag: Remote-first since founding with team in Europe, Rwanda, South Africa,
+        Mexico, Argentina, Canada, USA
+      impact: Perfect match for remote-first requirement, truly distributed culture
+      confidence: High - Fly.io hiring docs
+    - flag: Same compensation everywhere in world, no cost-of-living adjustments -
+        fair global pay policy
+      impact: Geographic flexibility without penalty, values global equity
+      confidence: High - Fly.io hiring docs
+    - flag: Building edge computing infrastructure owning hardware - solving genuinely
+        hard distributed systems problems
+      impact: Unique technical challenge, not just software abstraction work
+      confidence: High - Company positioning
+    strong_positives: &id002
+    - flag: '$111M raised ($70M Series C 2023) with top-tier investors: a16z, EQT
+        Ventures, Intel Capital, Dell Technologies Capital'
+      impact: Strong investor backing provides runway and credibility
+      confidence: High - Crunchbase and press releases
+    - flag: Revenue growth $882K (2021) → $7.6M (2023) → $11.2M (2024), 47% YoY growth
+        recent year
+      impact: Solid revenue growth trajectory shows product-market fit
+      confidence: High - Getlatka estimates
+    - flag: Unit-profitable most of company life with 70% margins at optimal capacity,
+        18 months from profitability (as of June 2023)
+      impact: Path to profitability exists, not perpetual burn mode
+      confidence: High - CEO statement in Bloomberg
+    - flag: Notable customers including Fanatics, Tailscale, Supabase, Walmart Labs
+        with 3M+ apps launched
+      impact: Product validation from respected technical companies
+      confidence: High - Company website and press
+    - flag: 12x growth in virtual machines June 2022 to June 2023
+      impact: Strong usage growth indicates market demand
+      confidence: High - FinSMEs
+    - flag: 35 global edge regions for sub-100ms response times, Anycast routing,
+        instant WireGuard VPN
+      impact: Building globally distributed systems at scale
+      confidence: High - Fly.io website
+    - flag: 'Recently added GPU support (Feb 2024): A10, L40S, A100 models for ML/AI
+        workloads'
+      impact: Expanding into AI infrastructure market, staying relevant
+      confidence: High - Fly.io blog
+    - flag: Y Combinator Winter 2020 alumni with successful founder (Kurt Mackey sold
+        Compose to IBM)
+      impact: Proven entrepreneurial leadership and startup pedigree
+      confidence: High - YC and Crunchbase
+    - flag: SOC2 Type 2 attested showing commitment to security standards
+      impact: Professional security practices for enterprise customers
+      confidence: High - Fly.io homepage
+    - flag: Glassdoor 4.5/5 (though only 2 reviews) with perfect 5.0 scores for culture,
+        work-life balance, management, compensation
+      impact: Early employees extremely satisfied (small sample)
+      confidence: Medium - Glassdoor with limited reviews
+    - flag: No executive changes in past 24 months showing leadership stability
+      impact: Stable leadership team during growth phase
+      confidence: High - News searches
+    - flag: 4 months severance for September 2024 layoffs shows respectful treatment
+        of employees
+      impact: Company takes care of people even during difficult decisions
+      confidence: High - Hacker News
+    - flag: 'Massive edge computing TAM: $23.65B (2024) → $327.79B (2033) at 33% CAGR'
+      impact: Huge market opportunity in growing infrastructure category
+      confidence: High - Grand View Research
+    - flag: Working at small team (58-72 employees) means high individual impact and
+        visibility
+      impact: Staff engineer can have significant influence on product and company
+      confidence: High - Multiple sources
+    - flag: 'Equity upside potential: $467M valuation with path to profitability'
+      impact: Reasonable valuation with growth potential if execution continues
+      confidence: High - Series C valuation
+  chosen_peak:
+    critical_matches: *id001
+    strong_positives: *id002
+  rope_team_confidence:
+    critical_matches: *id001
+    strong_positives: *id002
+  daily_climb:
+    critical_matches: *id001
+    strong_positives: *id002
+  story_worth_telling:
+    critical_matches: *id001
+    strong_positives: *id002
+red_flags:
+  mountain_range:
+    dealbreakers: &id003 []
+    concerning: &id004
+    - flag: Recent layoffs of ~40 employees in September 2024 (30% headcount reduction)
+      impact: Financial pressure or restructuring, organizational disruption
+      confidence: High - StartupNews.fyi and multiple sources
+    - flag: Only $11.2M revenue (2024) on $467M valuation = 42x revenue multiple,
+        very high for infrastructure company
+      impact: Valuation may be inflated, down round risk if metrics don't improve
+      confidence: High - Getlatka revenue vs Crunchbase valuation
+    - flag: Still 18 months from profitability as of June 2023, unclear current status
+        post-layoffs
+      impact: Burn continues, need to understand runway and path forward
+      confidence: Medium - CEO statement timing unclear if accelerated
+    - flag: 'CEO publicly acknowledged reliability issues in community post ''Reliability:
+        It''s Not Great'''
+      impact: Production stability problems could impact customer retention and growth
+      confidence: High - Fly.io community forum
+    - flag: Multiple Hacker News discussions about outages and reliability concerns
+      impact: Public perception of reliability issues could hurt enterprise adoption
+      confidence: High - Hacker News
+    - flag: TrustPilot rating only 2.7 stars (14 reviews) vs 4.3 Capterra suggests
+        customer satisfaction issues
+      impact: Mixed customer sentiment, potential product/service gaps
+      confidence: Medium - Review platforms
+    - flag: Hardware ownership strategy creates capital intensity and operational
+        complexity
+      impact: Higher risk than pure software play, requires expertise in data center
+        operations
+      confidence: High - Business model
+    - flag: Very small team (58-72 employees) post-layoffs for complex hardware+software
+        business
+      impact: Team may be stretched thin, limited bandwidth for innovation
+      confidence: High - Multiple headcount sources
+    - flag: Only 2 Glassdoor reviews makes ratings unreliable, can't assess true culture
+      impact: Unknown cultural reality beyond small sample
+      confidence: High - Glassdoor review count
+    - flag: Key engineering team member JP Phillips left December 2024 (built orchestration
+        system)
+      impact: Loss of critical technical knowledge during growth phase
+      confidence: High - Fly.io blog
+    - flag: Small team size means likely wearing multiple hats and being on-call for
+        critical infrastructure
+      impact: Potential for high operational burden and work-life balance challenges
+      confidence: Medium - Inferred from team size and infrastructure nature
+    - flag: No specific compensation ranges available, unclear if 'same everywhere'
+        is competitive
+      impact: Unknown total comp competitiveness vs market
+      confidence: Low - Absence of data
+    - flag: Small company (60 people) with layoffs creates career risk if company
+        struggles
+      impact: Higher risk than established companies, equity may not materialize
+      confidence: Medium - Size and recent layoffs
+    - flag: Career progression unclear in 60-person company, limited staff+ population
+      impact: Growth path beyond staff may require company scale or exit
+      confidence: Medium - Company size
+  chosen_peak:
+    dealbreakers: *id003
+    concerning: *id004
+  rope_team_confidence:
+    dealbreakers: *id003
+    concerning: *id004
+  daily_climb:
+    dealbreakers: *id003
+    concerning: *id004
+  story_worth_telling:
+    dealbreakers: *id003
+    concerning: *id004
+missing_critical_data:
+- question: What is current runway and burn rate after September 2024 layoffs?
+  why_important: Understanding financial sustainability and risk of further cuts
+  how_to_find: Ask CFO/leadership about cash position and monthly burn
+  mountain_element: mountain_range
+- question: What caused the September 2024 layoffs - was it financial pressure or
+    strategic restructuring?
+  why_important: Understanding whether company is in distress vs proactive optimization
+  how_to_find: Ask leadership about layoff rationale and current financial health
+  mountain_element: mountain_range
+- question: What is the status of reliability improvements since CEO's 'It's Not Great'
+    post?
+  why_important: Understanding if core product quality issues have been resolved
+  how_to_find: Ask about uptime SLAs, incident metrics, reliability roadmap
+  mountain_element: chosen_peak
+- question: What is the specific staff engineer compensation package including equity
+    strike price?
+  why_important: Understanding total comp and equity upside potential
+  how_to_find: Ask recruiter for detailed comp breakdown
+  mountain_element: daily_climb
+- question: What would staff engineer actually work on? Infrastructure? Product? Hardware?
+  why_important: Understanding specific role scope and technical challenges
+  how_to_find: Ask hiring manager about team focus and priorities
+  mountain_element: chosen_peak
+- question: What is the on-call rotation and operational burden for infrastructure
+    team?
+  why_important: Understanding work-life balance reality for running global edge infrastructure
+  how_to_find: Ask engineering manager about on-call expectations and incident load
+  mountain_element: daily_climb
+- question: How many staff+ engineers exist and what is career progression path?
+  why_important: With 25 years experience, need clear peer community and growth path
+  how_to_find: Ask about engineering levels and staff+ population
+  mountain_element: story_worth_telling
+- question: What is customer churn rate and how are reliability issues affecting retention?
+  why_important: Understanding business health beyond vanity metrics (3M apps launched)
+  how_to_find: Ask about retention metrics, NPS, customer feedback
+  mountain_element: mountain_range
+company_slug: fly-io
