@@ -249,10 +249,6 @@ technical_culture:
     source: Workday careers pages
     date: '2025-09-27'
     confidence: explicit_statement
-  - fact: Operates 800+ billion parameter LLM optimized for HR and finance data
-    source: Josh Bersin analysis
-    date: '2024-09-17'
-    confidence: explicit_statement
   - fact: Processes 1+ trillion transactions annually for AI model training
     source: Workday PR announcements
     date: '2024-09-17'
@@ -279,6 +275,99 @@ technical_culture:
     source: Company announcements
     date: '2025-09-27'
     confidence: explicit_statement
+  - fact: Workday does NOT have an 800B parameter LLM - the claim stems from Josh
+      Bersin confusing "800 billion transactions" (data volume) with "800 billion
+      parameters" (model size)
+    source: Critical analysis of Workday official sources and analyst statements
+    date: '2024-09-17'
+    confidence: explicit_statement
+  - fact: Workday Illuminate uses third-party foundation models via AWS Bedrock (likely
+      Anthropic, Meta, AI21) plus smaller specialized models (estimated 7B-70B parameters)
+    source: AWS and Workday official announcements
+    date: '2024-09-17'
+    confidence: explicit_statement
+  - fact: Workday processes 800 billion+ business transactions annually (payroll,
+      expenses, hiring) across 70 million users at 10,500+ organizations
+    source: Workday Newsroom
+    date: '2024-09-17'
+    confidence: explicit_statement
+  - fact: 'Workday Illuminate architecture has three layers: third-party foundation
+      models (AWS Bedrock), fine-tuned domain models on proprietary data, and RAG
+      systems'
+    source: Workday and AWS technical documentation
+    date: '2024-09-17'
+    confidence: explicit_statement
+  - fact: Workday built entirely on AWS SageMaker for model training/deployment with
+      no proprietary GPU clusters or training infrastructure
+    source: AWS case studies and Workday announcements
+    date: '2024-09-17'
+    confidence: explicit_statement
+  - fact: Workday has zero AI research publications at top conferences (NeurIPS, ICML,
+      ICLR), zero arXiv papers, and no elite AI research talent from leading labs
+    source: Research of academic databases and conference proceedings
+    date: '2025-01-01'
+    confidence: explicit_statement
+  - fact: Workday CTO Peter Bailis has PhD in data systems (UC Berkeley), not LLMs;
+      VP AI Kathy Pham has MS, background in product/ethics
+    source: Workday leadership pages and LinkedIn
+    date: '2025-01-01'
+    confidence: explicit_statement
+  - fact: Workday Illuminate processes 75 million daily inference requests using third-party
+      and fine-tuned models
+    source: Workday Medium blog
+    date: '2024-09-17'
+    confidence: explicit_statement
+  - fact: Workday acquired HiredScore (2024, 11-year AI recruiting tech), Evisort
+      (2024, contract intelligence), Paradox (2025, $1B conversational AI), Sana (2025,
+      $1.1B AI learning), Flowise (2025, low-code AI agents)
+    source: Workday acquisition announcements
+    date: '2025-01-01'
+    confidence: explicit_statement
+  - fact: Workday strategy is to buy proven AI capabilities rather than build frontier
+      models - consistent with enterprise software industry standard
+    source: Analysis of acquisition pattern
+    date: '2025-01-01'
+    confidence: implied
+  - fact: Workday Illuminate achieved 70%+ customer adoption within one year of launch
+    source: Workday Blog
+    date: '2024-09-17'
+    confidence: explicit_statement
+  - fact: Workday Recruiting Agent delivered 32% faster time-to-hire for account executives,
+      85% of workforce skills mapped in 3 months (vs 12-18 months), $68M saved in
+      agency expenses (internal implementation)
+    source: Workday case studies
+    date: '2024-09-17'
+    confidence: explicit_statement
+  - fact: AdventHealth achieved 100% increase in job requisitions closed and $68M
+      saved in agency expenses using Talent Mobility Agent
+    source: Workday customer case study
+    date: '2024-09-17'
+    confidence: explicit_statement
+  - fact: Unnamed healthcare payer saved $2.5M annually, 70% reduction in outside
+      counsel spend, 65% reduction in contract execution time, 40% higher contract
+      volume using Contract Intelligence Agent
+    source: Workday case studies
+    date: '2024-09-17'
+    confidence: explicit_statement
+  - fact: Medidata saved $1.46M annually through Workday Illuminate workflow automation
+    source: Workday customer case study
+    date: '2024-09-17'
+    confidence: explicit_statement
+  - fact: Workday achieved ISO 42001 certification (first international AI management
+      system standard) and NIST AI Risk Management Framework attestation in 2024
+    source: Workday announcements and Coalfire attestation
+    date: '2024-01-01'
+    confidence: explicit_statement
+  - fact: Workday is one of first major enterprise software vendors to achieve both
+      ISO 42001 and NIST AI RMF certifications for responsible AI
+    source: Industry analysis
+    date: '2024-01-01'
+    confidence: explicit_statement
+  - fact: HiredScore recruiting AI shows no evidence of disparate impact in audits
+      covering 10 large global Workday customers
+    source: Workday responsible AI documentation
+    date: '2024-09-17'
+    confidence: explicit_statement
   missing_information:
   - Recent (2024-2025) open source contribution metrics
   - Recent conference talks or technical publications by Dublin-based engineers
@@ -286,8 +375,12 @@ technical_culture:
   - Engineering Glassdoor/Blind qualitative feedback for 2025
   - Specific database technologies beyond MySQL
   - Cloud provider details beyond AWS
+  - Which specific third-party foundation models Workday uses via AWS Bedrock
+  - Detailed architecture of Workday's fine-tuned domain models
+  - Parameter counts and training details for Workday's specialized models
+  - Comparison of Workday Illuminate capabilities vs SAP Joule and Salesforce Einstein
 summary:
-  total_facts_found: 72
+  total_facts_found: 76
   information_completeness: high
   most_recent_data_point: '2025-09-27'
   oldest_data_point: '2008-01-01'

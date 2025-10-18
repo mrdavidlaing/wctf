@@ -32,11 +32,6 @@ green_flags:
       impact: Modern architecture foundation enables good engineering practices and
         deployment velocity
       confidence: High - Product architecture
-    - flag: Workday Illuminate AI platform with 800B+ parameter proprietary LLM shows
-        technology leadership
-      impact: Building AI capabilities internally (not just consuming vendor APIs),
-        technology as core differentiator
-      confidence: High - Product launches, Josh Bersin analysis
     strong_positives:
     - flag: CTO Peter Bailis from Google Cloud AI brings modern engineering culture
         and practices
@@ -61,6 +56,30 @@ green_flags:
         shipping velocity
       impact: Demonstrates ability to execute and deliver new capabilities
       confidence: High - Product announcements
+    - flag: 'Workday Illuminate delivers verified customer results: 32% faster hiring,
+        65% faster contracts, $68M agency savings, 70%+ adoption rate'
+      impact: Real AI business value with measurable ROI, not just marketing - demonstrates
+        effective AI application layer
+      confidence: High - Multiple named customer case studies
+    - flag: 'Workday uses industry-standard AI strategy: third-party foundation models
+        (AWS Bedrock) + proprietary data fine-tuning + RAG, same as SAP/Salesforce/Oracle'
+      impact: Smart enterprise AI approach (buy vs build frontier models), focusing
+        on application layer where value is created
+      confidence: High - AWS case studies, company announcements
+    - flag: 'Unique data advantage: 800B+ annual transactions across unified HR+Finance
+        platform, only vendor with native integration'
+      impact: Proprietary dataset for model fine-tuning that competitors cannot replicate
+      confidence: High - Company data and market analysis
+    - flag: 'Industry-leading responsible AI: ISO 42001 and NIST AI RMF certified,
+        one of first major vendors with both'
+      impact: Genuine commitment to AI governance and bias mitigation, reducing risk
+        of AI failures
+      confidence: High - Third-party certifications
+    - flag: 'Strategic AI acquisitions totaling $2B+: HiredScore, Evisort, Paradox
+        ($1B), Sana ($1.1B), Flowise'
+      impact: Buying proven AI capabilities shows serious investment and pragmatic
+        strategy
+      confidence: High - Acquisition announcements
   rope_team_confidence:
     critical_matches: []
     strong_positives:
@@ -134,6 +153,31 @@ red_flags:
         due to customer validation needs
       impact: Potential friction in shipping velocity compared to more agile environments
       confidence: Medium - Enterprise software dynamics
+    - flag: 'Workday has zero AI research capability: no papers at top conferences,
+        no elite AI talent, no proprietary GPU infrastructure'
+      impact: Not a technology leader in AI - following industry playbook, not defining
+        it. SAP Joule is more advanced currently.
+      confidence: High - Academic database research, talent analysis
+    - flag: The 800B parameter LLM claim was a misrepresentation that went uncorrected
+        by Workday, undermining technical credibility
+      impact: Marketing exaggeration without technical substance raises questions
+        about other claims and transparency
+      confidence: High - Analysis of all official sources found zero evidence
+    - flag: Workday behind SAP in deployed agent capabilities and lacks transparency
+        about which foundation models are used
+      impact: Playing catch-up to competitors, unclear technical details about core
+        AI platform
+      confidence: High - Analyst assessments (Josh Bersin), product comparison
+    - flag: Forrester describes platform shift to open AI orchestration as "high-risk
+        transformation" with "meaningful distance between announcement and reality"
+      impact: Execution risk on multi-year AI integration, potential for delivery
+        delays or capability gaps
+      confidence: High - Forrester analysis
+    - flag: Many Illuminate agents remain in early access/development with timelines
+        extending to 2026, standard legal disclaimers about delivery uncertainty
+      impact: Current capabilities less mature than announcements suggest, adoption
+        benefits may take years
+      confidence: High - Product roadmap and legal disclaimers
   rope_team_confidence:
     dealbreakers: []
     concerning:
@@ -193,8 +237,8 @@ missing_critical_data:
   why_important: Understanding engineering velocity and process maturity
   how_to_find: Ask about CI/CD practices, release frequency, deployment processes
   mountain_element: chosen_peak
-- question: How do employees view the Feb 2025 AI transformation layoffs? Was it
-    strategic repositioning or mismanagement? Are more cuts planned?
+- question: How do employees view the Feb 2025 AI transformation layoffs? Was it strategic
+    repositioning or mismanagement? Are more cuts planned?
   why_important: Understanding employee perspective on strategic direction and assessing
     job security
   how_to_find: Ask insiders about layoff rationale, morale impact, and whether CEO's
@@ -215,4 +259,32 @@ missing_critical_data:
   why_important: Understanding real cultural state beyond metrics
   how_to_find: Talk to current employees, search Blind for discussions
   mountain_element: rope_team_confidence
+- question: Which specific third-party foundation models does Workday use via AWS
+    Bedrock? Anthropic Claude, Meta Llama, others?
+  why_important: Understanding actual AI capabilities and whether using leading models
+    (Claude, GPT-4) vs commodity models
+  how_to_find: Ask engineering leadership directly, may be NDA-protected partnership
+    details
+  mountain_element: chosen_peak
+- question: What is the actual parameter count and architecture of Workday's fine-tuned
+    domain models?
+  why_important: Understanding technical sophistication - are these 7B, 13B, 70B parameter
+    models? What data went into training?
+  how_to_find: Ask AI/ML engineering team, may require technical deep-dive session
+  mountain_element: chosen_peak
+- question: How does Workday Illuminate compare technically to SAP Joule and Salesforce
+    Agentforce in current capabilities?
+  why_important: Josh Bersin says SAP is "more advanced" - understanding competitive
+    position and whether Workday is catching up or falling behind
+  how_to_find: Independent analyst research, demo all three platforms, ask customers
+    using multiple systems
+  mountain_element: chosen_peak
 company_slug: workday
+synthesis:
+  additional_notes:
+  - 'CRITICAL CORRECTION: Workday does NOT have an 800B parameter LLM. This was a
+    misinterpretation of "800B transactions" (data volume) as "800B parameters" (model
+    size). Workday uses third-party foundation models via AWS Bedrock plus smaller
+    specialized models. However, real customer results (32% faster hiring, 65% faster
+    contracts, $68M savings) demonstrate genuine business value. The story is about
+    smart AI integration and data advantage, not frontier model development.'
