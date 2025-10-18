@@ -1,0 +1,232 @@
+company: adobe
+evaluation_date: '2025-10-18'
+evaluator_context: Extracted from conversation notes
+green_flags:
+  mountain_range:
+    critical_matches: &id001
+    - flag: 'Exceptional financial stability: $21.51B revenue (FY2024), $5.56B GAAP
+        net income, $8.06B operating cash flow, profitable and growing 10-11% YoY'
+      impact: Zero financial risk - mature profitable company provides ultimate job
+        security and investment in innovation
+      confidence: High - 10-K Annual Report FY2024
+    - flag: Strong AI growth trajectory with AI-influenced ARR surpassing $5B in Q3
+        FY2025
+      impact: Company successfully transitioning to AI era, not being disrupted by
+        it
+      confidence: High - Q3 FY2025 Earnings Report
+    - flag: 'Strong open source presence: React Spectrum (14,431 stars), 1,037+ GitHub
+        repos, actively hiring from open source contributors'
+      impact: Demonstrates commitment to open source and public technical work, aligns
+        with stated values
+      confidence: High - GitHub and Adobe Developer pages
+    - flag: 'Modern tech stack: Python, TypeScript, Kubernetes, Docker, Helm, multi-cloud
+        (AWS/Azure), modern CI/CD with Jenkins/Spinnaker'
+      impact: Working with current industry-standard tools, not legacy enterprise
+        stack
+      confidence: High - Tech blog and job listings
+    - flag: CEO Shantanu Narayen 17+ years tenure (CEO since 2007, Chairman since
+        2017) with 93-98% employee approval, Top 5% of similar-sized companies
+      impact: Exceptional leadership stability and employee confidence in direction
+      confidence: High - Adobe profiles and Comparably
+    strong_positives: &id002
+    - flag: Digital Media ARR $18.59B growing 11.7% YoY, Creative Cloud 37M paid subscribers,
+        dominant market position
+      impact: Sustainable recurring revenue model with loyal customer base
+      confidence: High - Earnings reports and subscriber analysis
+    - flag: Market cap $164.65B, S&P 500 company with massive scale
+      impact: Resume value and financial stability for long-term career
+      confidence: High - 10-K FY2024
+    - flag: Low attrition rate 7.8% in FY2024 indicates strong employee retention
+      impact: Employees generally satisfied and staying, suggests good culture
+      confidence: High - 10-K FY2024
+    - flag: Active engineering blogs (Medium 7,900+ followers, blog.developer.adobe.com)
+        showing technical thought leadership
+      impact: Culture of sharing knowledge and technical excellence
+      confidence: High - Public blogs
+    - flag: Adobe Research presence at SIGGRAPH, ICCV with innovations in generative
+        AI, computer graphics
+      impact: Opportunity to work on cutting-edge technology and research
+      confidence: High - Adobe Research website
+    - flag: Firefly trained on Adobe Stock (300M+ assets) avoiding copyright issues,
+        commercially safe AI approach
+      impact: Ethical AI development aligned with legal/business sustainability
+      confidence: High - Adobe Firefly announcement
+    - flag: 'Comprehensive CI/CD: automated testing, SonarQube quality gates, Red/Black
+        and Canary deployments'
+      impact: Mature engineering practices reduce friction and enable velocity
+      confidence: High - Tech blog and Experience League
+    - flag: Uses multiple LLMs (FLAN-T5, Azure OpenAI/ChatGPT) showing pragmatic multi-vendor
+        approach
+      impact: Not locked into single AI platform, technical flexibility
+      confidence: High - Adobe Newsroom
+    - flag: Overall Glassdoor 4.2/5 (11,655 reviews) with 84% recommendation rate
+        shows consistently positive employee sentiment
+      impact: Broad employee satisfaction validates culture claims
+      confidence: High - Glassdoor global ratings
+    - flag: Dublin office 4.3/5 stars (77 reviews) with 77% recommendation, culture
+        rated 4.1/5
+      impact: Dublin-specific positive sentiment for EU-based role
+      confidence: High - Glassdoor Dublin reviews
+    - flag: Blind ratings 4.0/5 with work-life balance highest at 4.2/5
+      impact: Even anonymous reviews show positive work environment
+      confidence: Medium - Blind reviews
+    - flag: Steady growth from 29,945 (FY2023) to 30,709 (FY2024) employees - 2.55%
+        increase with minimal layoffs (100 in 2022)
+      impact: Stable org size without churn or aggressive hiring/firing cycles
+      confidence: High - 10-K reports and layoff tracker
+    - flag: Permanent hybrid model since June 2021 with 'flexibility as default',
+        50% office time (2-3 days/week)
+      impact: Flexible hybrid policy balances remote work with collaboration, not
+        forcing full RTO
+      confidence: High - Adobe blog and Hubble research
+    - flag: US compensation $165K-$495K total comp (P10-P60) with median $250K competitive
+        for staff engineers
+      impact: Strong compensation indicates valuing engineering talent
+      confidence: High - Levels.fyi
+    - flag: Dublin office 3.9/5 work-life balance, 4.1/5 compensation ratings show
+        reasonable balance
+      impact: EU office maintains good work-life balance culture
+      confidence: Medium - Glassdoor Dublin reviews
+    - flag: Dublin office fully refurbished by Gensler with open-plan zones, games
+        room, wellbeing-focused design
+      impact: Investment in employee experience and modern workplace
+      confidence: High - Gensler projects page
+    - flag: 3,000+ employees in Dublin providing large local tech community and networking
+      impact: Substantial team size offers collaboration and internal mobility
+      confidence: High - Irish Times 2017
+    - flag: Working on generative AI products (Firefly, Sensei GenAI) at industry-leading
+        creative software company
+      impact: Opportunity to work on cutting-edge AI in production at massive scale
+        (37M subscribers)
+      confidence: High - Product announcements
+    - flag: Adobe MAX and Adobe Summit conferences provide visibility and industry
+        networking
+      impact: Platform for professional development and technical community engagement
+      confidence: High - Conference websites
+    - flag: React Spectrum and open source stewardship (Magento, 1000+ contributors)
+        provides resume value
+      impact: Contributing to high-profile open source projects builds public technical
+        reputation
+      confidence: High - GitHub
+    - flag: 'Exposure to massive scale: 37M Creative Cloud subscribers, billions in
+        ARR, global operations'
+      impact: Learn to build/operate systems at scale most engineers never see
+      confidence: High - Financial reports
+  chosen_peak:
+    critical_matches: *id001
+    strong_positives: *id002
+  rope_team_confidence:
+    critical_matches: *id001
+    strong_positives: *id002
+  daily_climb:
+    critical_matches: *id001
+    strong_positives: *id002
+  story_worth_telling:
+    critical_matches: *id001
+    strong_positives: *id002
+red_flags:
+  mountain_range:
+    dealbreakers: &id003
+    - flag: Hybrid policy requires 50% office time (2-3 days/week) - NOT remote-first
+        as stated in evaluator context
+      impact: Does not meet core requirement for remote-first work, Dublin location
+        may not be accessible
+      confidence: High - Hubble research and Adobe blog
+    concerning: &id004
+    - flag: Large company (30,709 employees) may mean slower innovation and more bureaucracy
+        compared to startups
+      impact: Potential for process overhead and reduced individual impact
+      confidence: High - Company size from 10-K
+    - flag: Interview includes LeetCode medium/hard which may not assess staff-level
+        system design skills effectively
+      impact: Interview process may not match expectations for 25-year experienced
+        staff engineer
+      confidence: Medium - Glassdoor interview reviews
+    - flag: 'Recent C-suite turnover: CSO resigned March 2025, General Counsel left
+        September 2024'
+      impact: Some leadership instability despite CEO stability, worth understanding
+        why
+      confidence: High - TipRanks and Yahoo Finance
+    - flag: Management rated lowest on Blind at 3.3/5 suggests some middle management
+        quality concerns
+      impact: May experience management friction despite overall positive culture
+      confidence: Medium - Blind reviews
+    - flag: Dublin office required for EU-based roles, no indication of full remote
+        option
+      impact: Geographic constraint limits flexibility and requires Dublin proximity
+      confidence: Medium - Inferred from hybrid policy and Dublin office emphasis
+    - flag: 69% positive interview experience suggests 31% have negative experiences
+      impact: Interview process may have inconsistency or difficulty issues
+      confidence: Medium - Glassdoor interviews
+    - flag: Career opportunities rated lowest at 3.8/5 on Glassdoor
+      impact: Promotion/growth path may be slower or less clear than desired for staff+
+        progression
+      confidence: Medium - Glassdoor ratings
+    - flag: Large org may limit scope and impact compared to smaller companies
+      impact: Risk of being one of thousands vs. high-impact contributor
+      confidence: Low - Implied from company size
+  chosen_peak:
+    dealbreakers: *id003
+    concerning: *id004
+  rope_team_confidence:
+    dealbreakers: *id003
+    concerning: *id004
+  daily_climb:
+    dealbreakers: *id003
+    concerning: *id004
+  story_worth_telling:
+    dealbreakers: *id003
+    concerning: *id004
+missing_critical_data:
+- question: Is there any option for full remote work from outside Dublin for EU-based
+    engineers?
+  why_important: Evaluator seeks remote-first company, hybrid 50% requirement is dealbreaker
+    if no flexibility
+  how_to_find: Ask recruiter about remote work policy exceptions, particularly for
+    staff+ engineers
+  mountain_element: daily_climb
+- question: What teams in Dublin office work on which products? Is there opportunity
+    to work on Firefly/AI products from Dublin?
+  why_important: Understanding which products/teams are in Dublin determines technical
+    challenge and growth opportunities
+  how_to_find: Ask recruiter/hiring manager about Dublin team structure and product
+    assignments
+  mountain_element: chosen_peak
+- question: What is the staff engineer population and career ladder? How does promotion
+    work from staff to principal/distinguished?
+  why_important: With 25 years experience, need clear technical leadership path beyond
+    staff level
+  how_to_find: Ask about engineering levels, staff+ population, promotion criteria
+    during interviews
+  mountain_element: story_worth_telling
+- question: What is the actual on-call rotation and incident response process for
+    Dublin teams?
+  why_important: Understanding operational burden and work-life balance reality
+  how_to_find: Ask engineering manager about on-call expectations, rotation frequency,
+    incident load
+  mountain_element: daily_climb
+- question: What is the specific staff engineer compensation range for Dublin office?
+  why_important: US range ($165K-$495K) doesn't translate to Dublin/EUR compensation
+  how_to_find: Research Glassdoor Dublin salaries, ask recruiter for Dublin-specific
+    range
+  mountain_element: daily_climb
+- question: What percentage of work is greenfield innovation vs. maintaining existing
+    products?
+  why_important: At 30K employees, risk of spending time on legacy maintenance vs.
+    new development
+  how_to_find: Ask team lead about product roadmap and split between new features
+    vs. maintenance
+  mountain_element: chosen_peak
+- question: How does Adobe's culture compare between US HQ and Dublin office? Are
+    remote/hybrid policies different?
+  why_important: Dublin may have different culture/policies than US-based engineering
+  how_to_find: Talk to current Dublin engineers, search for Dublin-specific Blind/Reddit
+    discussions
+  mountain_element: rope_team_confidence
+- question: What is the meeting culture like? How much maker time do staff engineers
+    typically get?
+  why_important: Large company risk of excessive meetings reducing coding/design time
+  how_to_find: Ask about typical weekly schedule, number of recurring meetings, maker
+    time blocks
+  mountain_element: daily_climb
+company_slug: adobe
