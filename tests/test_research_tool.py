@@ -596,7 +596,8 @@ summary:
         assert result["success"] is True
 
         companies = list_companies(base_path=temp_data_dir)
-        assert "ListTestCorp" in companies
+        # Company names are now slugified (lowercase)
+        assert "listtestcorp" in companies
 
 
 # NOTE: Deduplication Workflow (LLM Responsibility)

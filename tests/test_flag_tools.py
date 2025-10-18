@@ -191,8 +191,9 @@ class TestSaveFlags:
         assert "flags_file_path" in result
         assert result["company_name"] == "TestCorp"
 
-        # Verify the file was created
-        flags_path = tmp_path / "data" / "TestCorp" / "company.flags.yaml"
+        # Verify the file was created (use slugified path)
+        from wctf_core.utils.paths import get_flags_path
+        flags_path = get_flags_path("TestCorp", base_path=tmp_path)
         assert flags_path.exists()
 
         # Verify the content
@@ -211,9 +212,9 @@ class TestSaveFlags:
 
     def test_merges_with_existing_flags(self, tmp_path):
         """Test that save_flags_op merges with existing flags."""
-        # Create existing flags file
-        company_dir = tmp_path / "data" / "TestCorp"
-        company_dir.mkdir(parents=True)
+        # Create existing flags file (use slugified path)
+        from wctf_core.utils.paths import ensure_company_dir
+        company_dir = ensure_company_dir("TestCorp", base_path=tmp_path)
 
         existing_flags = {
             "company": "TestCorp",
@@ -355,7 +356,8 @@ class TestAddManualFlag:
         assert "flags_file_path" in result
 
         # Verify file was created
-        flags_path = tmp_path / "data" / "TestCorp" / "company.flags.yaml"
+        from wctf_core.utils.paths import get_flags_path
+        flags_path = get_flags_path("TestCorp", base_path=tmp_path)
         assert flags_path.exists()
 
         # Verify content (double hierarchy)
@@ -386,7 +388,8 @@ class TestAddManualFlag:
         assert result["success"] is True
 
         # Verify content
-        flags_path = tmp_path / "data" / "TestCorp" / "company.flags.yaml"
+        from wctf_core.utils.paths import get_flags_path
+        flags_path = get_flags_path("TestCorp", base_path=tmp_path)
         with open(flags_path) as f:
             flags_data = yaml.safe_load(f)
 
@@ -412,7 +415,8 @@ class TestAddManualFlag:
         assert result["success"] is True
 
         # Verify content
-        flags_path = tmp_path / "data" / "TestCorp" / "company.flags.yaml"
+        from wctf_core.utils.paths import get_flags_path
+        flags_path = get_flags_path("TestCorp", base_path=tmp_path)
         with open(flags_path) as f:
             flags_data = yaml.safe_load(f)
 
@@ -479,9 +483,9 @@ class TestAddManualFlag:
 
     def test_add_manual_flag_appends_to_existing(self, tmp_path):
         """Test that add_manual_flag appends to existing flags."""
-        # Create company directory and existing flags
-        company_dir = tmp_path / "data" / "TestCorp"
-        company_dir.mkdir(parents=True)
+        # Create company directory and existing flags (use slugified path)
+        from wctf_core.utils.paths import ensure_company_dir
+        company_dir = ensure_company_dir("TestCorp", base_path=tmp_path)
 
         existing_flags = {
             "company": "TestCorp",
@@ -546,7 +550,8 @@ class TestAddManualFlag:
         )
 
         # Read raw file content
-        flags_path = tmp_path / "data" / "TestCorp" / "company.flags.yaml"
+        from wctf_core.utils.paths import get_flags_path
+        flags_path = get_flags_path("TestCorp", base_path=tmp_path)
         content = flags_path.read_text()
 
         # Verify it's formatted nicely
