@@ -1,0 +1,188 @@
+company: meta-dublin
+evaluation_date: '2025-10-18'
+evaluator_context: Extracted from conversation notes
+green_flags:
+  mountain_range:
+    critical_matches: &id001
+    - flag: Meta's financial strength ($133B+ revenue globally, highly profitable)
+        means absolute job security
+      impact: Zero financial risk, unlimited resources for infrastructure investment
+      confidence: High - Public company financials
+    - flag: Working on Meta infrastructure at exabyte scale (1M+ TB data), 200-800Gbps
+        network fabric, AI cluster networking
+      impact: Unmatched scale - few places in world work at this infrastructure magnitude
+      confidence: High - Internal research
+    - flag: 'Open source contributions: FBOSS, Open Compute Project, Velox (3-10x
+        efficiency), Apache Arrow, Nimble file format'
+      impact: Strong alignment with open source values, working on public infrastructure
+        projects
+      confidence: High - Internal research
+    - flag: Working on infrastructure powering 3+ billion users across Facebook, Instagram,
+        WhatsApp
+      impact: Unmatched impact scale - more users than any other platform
+      confidence: High - Meta's user base
+    strong_positives: &id002
+    - flag: €395M Ballsbridge campus + €300M Clonee data center shows massive ongoing
+        investment in Ireland
+      impact: Long-term commitment to Dublin operations, not cost-cutting satellite
+      confidence: High - Internal research
+    - flag: 2,000+ employees across 80+ teams makes this substantial operations hub
+      impact: Large local community and career mobility within Ireland
+      confidence: High - Internal research
+    - flag: International HQ for EMEA - strategic importance beyond just cost arbitrage
+      impact: Real decision-making authority for EMEA region
+      confidence: High - Internal research
+    - flag: 'Modern tech stack: Python, C++, Go, Rust for production systems'
+      impact: Working with current languages at massive scale
+      confidence: High - Internal research
+    - flag: Network engineering with BGP, OSPF, ISIS, MPLS, custom Minipack3 switches,
+        FBNIC NICs
+      impact: Deep infrastructure work on custom hardware and network protocols
+      confidence: High - Internal research
+    - flag: 'Working on AI infrastructure: Express Backbone, DSF for AI clusters,
+        GPU/MTIA chip networking with RoCE'
+      impact: Supporting cutting-edge AI workloads at scale
+      confidence: High - Internal research
+    - flag: ZippyDB, TAO graph database, Velox execution engine - Meta-scale distributed
+        systems
+      impact: Learning from proprietary systems handling billions of users
+      confidence: High - Internal research
+    - flag: 100% renewable energy data center with Greenpeace 'A' rating, LEED Gold
+        campus
+      impact: Environmental responsibility aligns with sustainable values
+      confidence: High - Internal research
+    - flag: Established 2009, grown from 25 to 2,000+ employees shows 16-year commitment
+        to Ireland
+      impact: Proven long-term stability, not new experimental office
+      confidence: High - Internal research
+    - flag: Anne O'Leary as Head of Meta Ireland provides local leadership
+      impact: Senior leadership presence for escalation and direction
+      confidence: High - Internal research
+    - flag: Campus designed to mirror Menlo Park culture (Hacker Square equivalent)
+      impact: Intentional cultural alignment with HQ, not second-class treatment
+      confidence: High - Internal research
+    - flag: 110+ nationalities represented shows diverse, international environment
+      impact: Global perspective and multicultural collaboration
+      confidence: High - Internal research
+    - flag: €395M state-of-the-art Ballsbridge campus with rooftop gardens, exercise
+        track, collaborative spaces
+      impact: World-class facilities for in-office days
+      confidence: High - Internal research
+    - flag: 'Meta brand provides exceptional comp: Levels.fyi shows top-tier total
+        compensation'
+      impact: Financial package likely competitive with best in industry
+      confidence: High - Public compensation data
+    - flag: Meta on resume is top-tier credential for infrastructure/systems engineering
+      impact: Career accelerator, opens doors across industry
+      confidence: High - Brand reputation
+    - flag: Production Engineering is largest org in Dublin with several hundred engineers
+      impact: Strong peer community for staff+ engineers
+      confidence: High - Internal research
+    - flag: Network fabric evolution 200→800Gbps, AI infrastructure work shows innovation
+        not just maintenance
+      impact: Cutting-edge infrastructure problems, not legacy systems
+      confidence: High - Internal research
+  chosen_peak:
+    critical_matches: *id001
+    strong_positives: *id002
+  rope_team_confidence:
+    critical_matches: *id001
+    strong_positives: *id002
+  daily_climb:
+    critical_matches: *id001
+    strong_positives: *id002
+  story_worth_telling:
+    critical_matches: *id001
+    strong_positives: *id002
+red_flags:
+  mountain_range:
+    dealbreakers: &id003
+    - flag: 'NO product engineering: No Instagram, Facebook, Messenger, core AI research
+        happens in Dublin'
+      impact: Limited to infrastructure/operations work, not building user-facing
+        products
+      confidence: High - Explicit statement in research
+    - flag: Infrastructure/operations role not product development - if you want to
+        build user-facing products, look elsewhere
+      impact: Career type mismatch if interested in product engineering vs infrastructure
+      confidence: High - Office charter
+    concerning: &id004
+    - flag: WhatsApp, Ads engineering focus on operations/support not core algorithms
+        or features
+      impact: Even when products present, Dublin does operational support not development
+      confidence: High - Internal research
+    - flag: AI work is infrastructure support (networking, GPUs) not model development
+        or AI research
+      impact: Supporting AI vs building it - second-order impact
+      confidence: High - Internal research
+    - flag: Reality Labs in Cork (250km away) not Dublin, limits VR/AR opportunities
+      impact: Geographically separated from cutting-edge product work
+      confidence: High - Internal research
+    - flag: Meta global has had layoffs (2022-2023) though Dublin-specific impact
+        unclear
+      impact: Company-wide uncertainty even if Dublin protected
+      confidence: Medium - Public layoffs, Dublin impact unknown
+    - flag: Work model specifics (remote/hybrid) not documented - likely hybrid given
+        €395M campus investment
+      impact: Uncertain if remote-first possible, campus investment suggests office-centric
+      confidence: Medium - Inferred from campus investment
+    - flag: 24/7 on-call rotations for global infrastructure required
+      impact: Operational burden and potential work-life balance challenges
+      confidence: High - Explicit statement
+    - flag: '''Move fast'' culture with strong ownership may mean intense pace'
+      impact: Potential for burnout or unsustainable workload
+      confidence: Medium - Cultural expectation
+    - flag: Limited product ownership and creative freedom - work defined by Menlo
+        Park priorities
+      impact: Execution focus rather than product vision or strategy
+      confidence: High - Satellite office nature
+  chosen_peak:
+    dealbreakers: *id003
+    concerning: *id004
+  rope_team_confidence:
+    dealbreakers: *id003
+    concerning: *id004
+  daily_climb:
+    dealbreakers: *id003
+    concerning: *id004
+  story_worth_telling:
+    dealbreakers: *id003
+    concerning: *id004
+missing_critical_data:
+- question: What is the remote work policy for Dublin office? Can staff+ engineers
+    work remotely or is office attendance required?
+  why_important: Evaluator seeks remote-first, need to clarify flexibility
+  how_to_find: Ask recruiter about remote work policy specifics
+  mountain_element: daily_climb
+- question: What is staff engineer compensation for Dublin including base, RSUs, bonus?
+  why_important: Understanding total comp package
+  how_to_find: Research Levels.fyi for Meta Dublin, ask recruiter
+  mountain_element: daily_climb
+- question: What is on-call frequency and incident load for production engineering?
+  why_important: Understanding work-life balance for global infrastructure support
+  how_to_find: Ask engineering manager about rotation schedule and typical incident
+    volume
+  mountain_element: daily_climb
+- question: What is staff+ engineer population in Dublin and career progression path?
+  why_important: With 25 years experience, need peer community and growth opportunities
+  how_to_find: Ask about engineering levels, staff+ population in Dublin
+  mountain_element: story_worth_telling
+- question: What is Glassdoor rating specific to Dublin office? Employee sentiment?
+  why_important: Understanding local culture beyond Meta global ratings
+  how_to_find: Search Glassdoor for Dublin-specific reviews, talk to current employees
+  mountain_element: rope_team_confidence
+- question: What is the balance between innovative infrastructure work vs operational
+    firefighting?
+  why_important: Understanding if role is strategic vs reactive
+  how_to_find: Ask about project vs operations time split, recent Dublin innovations
+  mountain_element: chosen_peak
+- question: Can Dublin engineers transfer to product teams in Menlo Park if desired?
+  why_important: Understanding career mobility if want to shift from infrastructure
+    to product
+  how_to_find: Ask about internal mobility and transfer policies
+  mountain_element: story_worth_telling
+- question: What Dublin-specific layoffs occurred during 2022-2023 Meta cuts?
+  why_important: Assessing job security and organizational stability
+  how_to_find: Research Dublin news, ask during interviews
+  mountain_element: mountain_range
+company_slug: meta-dublin
