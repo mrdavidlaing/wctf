@@ -1,0 +1,213 @@
+company: Apple
+evaluation_date: '2025-10-18'
+evaluator_context: Extracted from conversation notes
+green_flags:
+  mountain_range:
+    critical_matches:
+    - flag: 'Ultimate financial stability: Apple Operations International $222.3B
+        revenue, $17.4B R&D investment, zero layoff risk'
+      impact: Absolute job security and unlimited resources for technology investment
+      confidence: High - RTÉ financial reports
+    - flag: 44+ years continuous Ireland operations, CEO calls Ireland 'truly our
+        second home'
+      impact: Deep long-term commitment, not cost-cutting satellite
+      confidence: High - Company history
+    strong_positives:
+    - flag: €250M+ Cork expansion, €60K sq ft new Dublin office with 10-year lease
+      impact: Massive ongoing investment signals strategic commitment to Ireland
+      confidence: High - Silicon Republic
+    - flag: Avoided mass layoffs, only targeted hiring freezes unlike other tech giants
+      impact: Financial discipline without destabilizing workforce
+      confidence: High - Irish Times
+    - flag: 6,000+ Ireland employees, 90+ nationalities, substantial scale and diversity
+      impact: Large technology community with career mobility
+      confidence: High - Apple Careers
+  chosen_peak:
+    critical_matches:
+    - flag: 'Mature engineering practices: Agile, CI/CD, TDD, SRE principles with
+        error budgets and fault analysis'
+      impact: Strong DORA-aligned practices with reliability engineering discipline
+      confidence: High - Job descriptions
+    - flag: 'Working on critical Apple services infrastructure: iCloud, App Store,
+        Siri, Maps serving hundreds of millions'
+      impact: Engineering at massive scale with strict quality and reliability requirements
+      confidence: High - Job postings
+    - flag: Apple's engineering culture globally known for high quality bar and technical
+        excellence
+      impact: Technology is core to business, engineering-driven product company
+      confidence: High - Company reputation
+    strong_positives:
+    - flag: 'Modern tech stack: Java/Spring, Python, Go, Rust, Swift, Kubernetes,
+        Spark, Kafka, React/TypeScript'
+      impact: Current industry-standard tools enabling modern practices
+      confidence: High - Job postings
+    - flag: SRE principles with error budgets, monitoring, alerting, fault analysis
+        explicitly mentioned
+      impact: Sophisticated reliability engineering aligned with high DORA metrics
+      confidence: High - Job descriptions
+    - flag: Global engineering collaboration with world-class teams in Cupertino,
+        Austin, London, Singapore, Hyderabad
+      impact: Exposure to Apple's engineering excellence and best practices
+      confidence: High - Job descriptions
+    - flag: 'Testing practices: Selenium automation, SOAP testing, manual and automated
+        QA'
+      impact: Quality engineering discipline supports low change failure rates
+      confidence: High - Job postings
+    - flag: Cloud infrastructure on GCP and Azure shows multi-cloud expertise
+      impact: Modern cloud-native architecture
+      confidence: High - Job postings
+  rope_team_confidence:
+    critical_matches: []
+    strong_positives:
+    - flag: 44-year track record demonstrates organizational stability and maturity
+      impact: Proven commitment reduces risk of strategic pivots
+      confidence: High - Company history
+    - flag: Staff costs increased $6.7B→$7B+ showing investment in people despite
+        market conditions
+      impact: Company prioritizes retaining engineering talent
+      confidence: High - RTÉ data
+    - flag: Services Engineering (ASE), Online Store Engineering, Ad Platforms, Privacy
+        Engineering teams in Dublin
+      impact: Real engineering ownership of strategic products, not just support
+      confidence: High - Job postings
+  daily_climb:
+    critical_matches:
+    - flag: Hybrid 3 days/week in Dublin is acceptable for Dublin-based role
+      impact: Reasonable office requirement with remote flexibility
+      confidence: High - FlexOS
+    strong_positives:
+    - flag: 'Compensation rated 4.2/5 in Dublin, comprehensive benefits: pension,
+        healthcare, dental, gym, Apple stock'
+      impact: Strong total comp package competitive with market
+      confidence: High - Glassdoor
+    - flag: 700 remote employees out of 6,000 Ireland (largest remote % of Irish tech
+        companies)
+      impact: Company supports remote work more than competitors
+      confidence: High - Wikipedia
+    - flag: Dublin office focusing on senior engineering roles per job ads
+      impact: Appropriate level for 25-year staff engineer
+      confidence: Medium - Business Post
+  story_worth_telling:
+    critical_matches:
+    - flag: 'Working on infrastructure for services used by billions globally: iCloud,
+        App Store, Maps, Siri'
+      impact: Unmatched scale and resume value from Apple infrastructure engineering
+      confidence: High - Job postings
+    strong_positives:
+    - flag: Apple brand is gold-standard resume credential, opens doors across tech
+        industry
+      impact: Career accelerator with exceptional industry recognition
+      confidence: High - Brand reputation
+    - flag: Exposure to Apple's world-class engineering practices and global team
+        collaboration
+      impact: Learn from industry-leading engineering organization
+      confidence: High - Company reputation
+red_flags:
+  mountain_range:
+    dealbreakers: []
+    concerning: []
+  chosen_peak:
+    dealbreakers: []
+    concerning:
+    - flag: No information on AI coding tool availability (Copilot, Cursor, etc.)
+      impact: Unknown if Apple provides modern developer productivity tools - may
+        restrict to internal-only tools
+      confidence: Low - Absence of data, Apple's general caution with external tools
+    - flag: No public DORA metrics or deployment frequency data
+      impact: Unknown actual velocity despite CI/CD mentions - Apple is very secretive
+      confidence: Medium - Company secrecy
+    - flag: No evidence of engineering blog, conference talks, or open source contributions
+        from Dublin teams
+      impact: Limited public technical work suggests closed culture environment
+      confidence: High - Absence from research
+    - flag: No patents or public technical work attributed to Dublin engineering teams
+      impact: Limited visibility into technical innovation vs operational support
+        work
+      confidence: Medium - Absence from research
+  rope_team_confidence:
+    dealbreakers: []
+    concerning:
+    - flag: Dublin Glassdoor 3.7/5 (vs 4.3 global), only 62% recommend vs 79% globally
+      impact: Dublin office has notably worse sentiment than global Apple - suggests
+        local issues
+      confidence: High - Glassdoor
+    - flag: Work-life balance rated 3.6/5, culture 3.7/5 in Dublin - mediocre
+      impact: Local culture may have issues despite global Apple excellence
+      confidence: Medium - Glassdoor
+    - flag: No identified Dublin technical leadership beyond Country Manager
+      impact: Engineering leadership may be distant US-based
+      confidence: Medium - Org chart absence
+    - flag: LeetCode-focused interview process may not assess staff-level system design
+        skills
+      impact: Interview may not respect 25 years experience
+      confidence: Medium - Glassdoor reviews
+  daily_climb:
+    dealbreakers: []
+    concerning:
+    - flag: Cross-timezone work 4-5 days/month for global collaboration
+      impact: Some off-hours work expected for coordination
+      confidence: High - Job descriptions
+    - flag: Only 11.7% remote (700/6,000) despite being 'largest remote % in Ireland'
+      impact: Still primarily office-centric culture
+      confidence: High - Wikipedia data
+    - flag: Dublin office new/expanding (leased 2024), teams may still be forming
+      impact: Organizational uncertainty and processes still stabilizing
+      confidence: Medium - Recent lease
+  story_worth_telling:
+    dealbreakers: []
+    concerning:
+    - flag: Unclear if Dublin teams own products or support US-led development
+      impact: May lack autonomy if primarily supporting Cupertino decisions
+      confidence: Medium - Satellite office risk
+    - flag: No career progression info for Dublin staff+ engineering path
+      impact: Advancement may require US relocation
+      confidence: Low - Data absence
+    - flag: Technical interviews focused on LeetCode, SQL, algorithms suggests junior-level
+        assessment approach
+      impact: Interview process may not respect 25 years of experience or assess staff-level
+        skills
+      confidence: Medium - Glassdoor interview reviews
+missing_critical_data:
+- question: Does Apple provide AI coding tools (Copilot, Cursor, etc.) or restrict
+    to internal-only tools?
+  why_important: Core requirement for developer productivity and keeping skills current
+  how_to_find: Ask during interviews about approved AI developer tools and policies
+  mountain_element: chosen_peak
+- question: What are actual DORA metrics for Dublin teams? Deployment frequency, lead
+    time, MTTR, change failure rate?
+  why_important: Core criterion for evaluating engineering excellence
+  how_to_find: Ask engineering leadership about deployment practices and metrics (may
+    be confidential)
+  mountain_element: chosen_peak
+- question: Why is Dublin Glassdoor rating (3.7/5, 62%) significantly worse than global
+    Apple (4.3/5, 79%)?
+  why_important: Need to understand local office issues despite global excellence
+  how_to_find: Read Dublin-specific Glassdoor reviews, ask during interviews
+  mountain_element: rope_team_confidence
+- question: Do Dublin teams own products end-to-end or support US-led development?
+  why_important: Understanding autonomy and whether technology is equal partner vs
+    support function
+  how_to_find: Ask hiring manager about team charter, decision authority, product
+    ownership
+  mountain_element: story_worth_telling
+- question: What is deployment frequency for Dublin services teams? How often do you
+    ship to production?
+  why_important: Understanding actual engineering velocity beyond CI/CD mentions
+  how_to_find: Ask about release cadence, deployment processes, typical development
+    cycle
+  mountain_element: chosen_peak
+- question: What is staff engineer compensation for Dublin including base, RSUs, bonus?
+  why_important: Understanding total comp competitiveness
+  how_to_find: Research Levels.fyi for Apple Dublin, ask recruiter
+  mountain_element: daily_climb
+- question: What is staff+ engineer population in Dublin and career progression path?
+  why_important: With 25 years experience, need peer community and advancement without
+    US relocation
+  how_to_find: Ask about engineering levels, staff+ headcount in Dublin
+  mountain_element: story_worth_telling
+- question: What is the innovation vs maintenance ratio for Dublin teams?
+  why_important: Understanding if greenfield development or primarily operational
+    support
+  how_to_find: Ask engineering manager about project types and roadmap
+  mountain_element: chosen_peak
+company_slug: apple
