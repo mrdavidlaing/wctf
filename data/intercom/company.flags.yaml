@@ -1,0 +1,199 @@
+company: intercom
+evaluation_date: '2025-10-18'
+evaluator_context: Extracted from conversation notes
+green_flags:
+  mountain_range:
+    critical_matches: &id001
+    - flag: Cash flow positive since late 2023 with $129M cash reserves, $200-343M
+        revenue with 25% YoY growth
+      impact: Sustainable business, no funding dependency or layoff risk
+      confidence: High - Sacra and The Currency
+    - flag: 'Co-founders still leading: Eoghan McCabe (CEO), Des Traynor (CSO), Ciaran
+        Lee (Chief Engineer)'
+      impact: Founder-led with long-term commitment and product vision
+      confidence: High - Intercom About page
+    strong_positives: &id002
+    - flag: 30K customers including Amazon, Microsoft, Atlassian, Shopify with 600M
+        monthly end users
+      impact: Enterprise validation and massive scale
+      confidence: High - Multiple sources
+    - flag: ARR exceeds $240M total funding raised - capital efficient
+      impact: Unit economics work, not burning investor money
+      confidence: High - Contrary Research
+    - flag: 'AI-driven reacceleration: 10% → 25% growth via Fin AI resolving 1M tickets/week'
+      impact: Successfully pivoting to AI, growing faster
+      confidence: High - Sacra
+    - flag: 80% gross margins pre-AI shows healthy business model
+      impact: Profitable unit economics support sustainability
+      confidence: High - Sacra
+    - flag: $1.3B valuation with cash flow positive = reasonable valuation for mature
+        SaaS
+      impact: Equity has real value, not inflated pre-revenue valuation
+      confidence: High - Valuation vs financials
+    - flag: Patented Fin AI Engine with proprietary fin-cx-retrieval model, achieving
+        51% resolution rate
+      impact: Building genuinely novel AI technology, not just wrapper
+      confidence: High - Intercom blog
+    - flag: 4.5/5 on G2 (3,200+ reviews) and Capterra (1,000+ reviews) shows strong
+        product quality
+      impact: Working on product customers appreciate
+      confidence: High - Review platforms
+    - flag: SOC 2 Type II, ISO 27001, ISO 42001 (AI management), GDPR, HIPAA compliant
+      impact: Professional security and compliance standards
+      confidence: High - Intercom Help Center
+    - flag: Processing 600M monthly end users with 1M AI-resolved tickets/week demonstrates
+        scale
+      impact: Working on infrastructure at meaningful scale
+      confidence: High - Company data
+    - flag: AI usage-based pricing ($0.99/resolution) shows product innovation and
+        business model evolution
+      impact: Forward-thinking approach to AI monetization
+      confidence: High - Pricing page
+    - flag: CTO Darragh Curran since 2012 (13 years), grew eng from 2nd hire to 80-90+
+      impact: Stable technical leadership with proven scaling experience
+      confidence: High - Intercom About
+    - flag: Large Dublin office (largest outside SF) with ~400 employees pre-layoffs,
+        substantial Irish presence
+      impact: Major Dublin hub with real decision-making authority
+      confidence: High - The Irish Times
+    - flag: Founded by four Irish engineers, Dublin is home office not satellite
+      impact: Irish roots mean Dublin office is strategically important
+      confidence: High - Wikipedia
+    - flag: 'Strong benefits: all meals, competitive comp, equity, unlimited PTO,
+        comprehensive health insurance'
+      impact: Solid total compensation package
+      confidence: High - Glassdoor reviews
+    - flag: Compensation rated 4.0/5 on Glassdoor
+      impact: Above-average pay satisfaction
+      confidence: High - Glassdoor
+    - flag: Dublin is largest office outside SF with substantial engineering presence
+      impact: Local community of engineers for collaboration
+      confidence: High - Company structure
+    - flag: 'Working on production AI at scale: Fin resolving 1M tickets/week (equivalent
+        to 6,500 human agents)'
+      impact: Meaningful AI impact on real business problems
+      confidence: High - Sacra
+    - flag: Intercom brand well-known in SaaS/product space with 30K customers
+      impact: Resume value in product infrastructure and AI
+      confidence: High - Market position
+    - flag: 'Equity value: $1.3B valuation with path to secondary liquidity, CEO stated
+        employees can sell shares'
+      impact: Equity has liquidity options even without IPO
+      confidence: High - CEO statement
+  chosen_peak:
+    critical_matches: *id001
+    strong_positives: *id002
+  rope_team_confidence:
+    critical_matches: *id001
+    strong_positives: *id002
+  daily_climb:
+    critical_matches: *id001
+    strong_positives: *id002
+  story_worth_telling:
+    critical_matches: *id001
+    strong_positives: *id002
+red_flags:
+  mountain_range:
+    dealbreakers: &id003 []
+    concerning: &id004
+    - flag: Three layoff rounds totaling 200+ employees (49 in Sept 2022, 124 in Nov
+        2022, 39 in May 2020)
+      impact: History of cuts creates uncertainty, though now profitable may mean
+        stable
+      confidence: High - Multiple sources
+    - flag: Growth decelerated to 10% in 2023 before AI turnaround
+      impact: Vulnerable to market shifts, though AI seems to be working
+      confidence: High - Sacra
+    - flag: No evidence of open source contributions or public technical work
+      impact: Conflicts with stated open source values - appears fully proprietary
+      confidence: High - Absence from research
+    - flag: TrustPilot only 3.2/5 with complaints about pricing complexity and slow
+        support
+      impact: Customer satisfaction issues may indicate product/service gaps
+      confidence: High - TrustPilot
+    - flag: Limited technical blog or public engineering presence beyond product announcements
+      impact: Unclear if culture values technical excellence vs pure product focus
+      confidence: Medium - Absence from research
+    - flag: 'CEO transition: McCabe → Peacock (July 2020) → McCabe returns (Oct 2022)'
+      impact: Leadership instability suggests strategic uncertainty or execution issues
+      confidence: High - Wikipedia
+    - flag: Glassdoor 3.8/5 with only 70% recommend, 70% CEO approval - mediocre sentiment
+      impact: Below-average employee satisfaction vs top companies (4.2-4.5)
+      confidence: High - Glassdoor
+    - flag: Customer Support org has particularly negative sentiment per Blind
+      impact: Organizational dysfunction in key function
+      confidence: Medium - Blind discussions
+    - flag: Product/R&D teams better than Support, but still only 3.8/5 overall
+      impact: Even good teams aren't exceptional by industry standards
+      confidence: High - Glassdoor and Blind
+    - flag: Hybrid model requires at least 2 days/week in Dublin office
+      impact: Not ideal for remote-first preference, requires Dublin proximity
+      confidence: High - Intercom blog
+    - flag: Work-life balance only 3.8/5, suggests potential for intense pace or pressure
+      impact: May not be sustainable for long-term career
+      confidence: High - Glassdoor
+    - flag: Career opportunities rated 3.7/5 - lower than other categories
+      impact: Limited growth paths or advancement opportunities
+      confidence: High - Glassdoor
+    - flag: Multiple layoffs causing job insecurity and cultural damage per reviews
+      impact: Morale impact from repeated cuts even if financially stable now
+      confidence: High - Glassdoor reviews
+    - flag: No IPO plans, CEO prefers staying private with secondary market liquidity
+      impact: Equity liquidity less certain than IPO-bound companies
+      confidence: High - CEO statement
+    - flag: Growth reacceleration dependent on AI success - single point of failure
+      impact: If AI adoption slows, back to 10% growth or worse
+      confidence: Medium - Market dependency
+  chosen_peak:
+    dealbreakers: *id003
+    concerning: *id004
+  rope_team_confidence:
+    dealbreakers: *id003
+    concerning: *id004
+  daily_climb:
+    dealbreakers: *id003
+    concerning: *id004
+  story_worth_telling:
+    dealbreakers: *id003
+    concerning: *id004
+missing_critical_data:
+- question: What is the actual remote work flexibility? Can staff engineers work 100%
+    remote or is 2 days/week office strict?
+  why_important: Understanding flexibility within hybrid policy for senior engineers
+  how_to_find: Ask recruiter about remote work exceptions for staff+ level
+  mountain_element: daily_climb
+- question: What is staff engineer compensation package for Dublin including base,
+    equity, bonus?
+  why_important: Understanding total comp competitiveness
+  how_to_find: Research Levels.fyi for Intercom Dublin, ask recruiter
+  mountain_element: daily_climb
+- question: Why did CEO Eoghan McCabe return after stepping down? What strategic changes
+    occurred?
+  why_important: Understanding leadership stability and current direction
+  how_to_find: Research public statements, ask during interviews about company direction
+  mountain_element: rope_team_confidence
+- question: Are more layoffs planned or is headcount stable now that company is profitable?
+  why_important: Assessing job security after three rounds of cuts
+  how_to_find: Ask leadership about hiring plans and financial stability
+  mountain_element: mountain_range
+- question: What engineering teams are in Dublin vs SF? Product ownership vs support
+    roles?
+  why_important: Understanding autonomy and impact potential for Dublin-based engineers
+  how_to_find: Ask hiring manager about Dublin team structure and responsibilities
+  mountain_element: story_worth_telling
+- question: What is the engineering culture like? Code review, testing, deployment
+    practices?
+  why_important: Staff engineer needs mature processes, unclear from research
+  how_to_find: Ask about development workflow during interviews
+  mountain_element: chosen_peak
+- question: What is staff+ engineer population in Dublin and career progression path?
+  why_important: With 25 years experience, need peer community and advancement opportunities
+  how_to_find: Ask about engineering levels, staff+ headcount, promotion criteria
+  mountain_element: story_worth_telling
+- question: What is the on-call burden and operational expectations for production
+    AI systems?
+  why_important: Understanding work-life balance for systems processing 600M monthly
+    users
+  how_to_find: Ask engineering manager about on-call rotation and incident load
+  mountain_element: daily_climb
+company_slug: intercom
