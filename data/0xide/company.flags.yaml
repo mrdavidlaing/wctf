@@ -1,0 +1,206 @@
+company: 0xide
+evaluation_date: '2025-10-18'
+evaluator_context: Extracted from conversation notes
+green_flags:
+  mountain_range:
+    critical_matches: &id001
+    - flag: Strong funding position with $100M Series B (July 2025) providing 3+ years
+        runway at current scale
+      impact: Financial stability reduces risk of layoffs or pivots, allows focus
+        on technical excellence over survival mode
+      confidence: High - explicit company announcement and funding analysis
+    - flag: Growing revenue (ARR $15.1M) with accelerating customer growth including
+        prestigious customers (Lawrence Livermore National Lab, Idaho National Lab,
+        CoreWeave)
+      impact: Product-market fit validation with technical credibility through government
+        lab partnerships
+      confidence: Medium - third-party estimates and company announcements
+    - flag: Massive addressable market ($92B → $508B by 2030, 28.3% CAGR) with 85%
+        of workloads still on-premises
+      impact: Huge growth opportunity in underserved market provides long-term career
+        stability and upside
+      confidence: High - market research reports
+    - flag: Rust-first tech stack from firmware to userspace with 324+ public GitHub
+        repositories
+      impact: Modern systems programming language aligns with cutting-edge technical
+        culture and reduces technical debt
+      confidence: High - GitHub presence
+    - flag: 'Strong open source culture with key projects: Hubris embedded OS (855
+        stars), Helios illumos (364 stars), Propolis VMM (176 stars)'
+      impact: Public technical work builds resume value and demonstrates engineering
+        excellence
+      confidence: High - GitHub metrics
+    - flag: Public RFD (Request for Discussion) process at rfd.shared.oxide.computer
+        with transparent technical design
+      impact: Thoughtful engineering culture with documented decision-making and knowledge
+        sharing
+      confidence: High - public RFD repository
+    - flag: 'Active technical community: On the Metal podcast, Oxide and Friends Discord
+        show, P99 CONF, OxCon annual conference'
+      impact: Strong technical brand and community engagement provides networking
+        and learning opportunities
+      confidence: High - public media presence
+    - flag: 'Legendary technical leadership: Bryan Cantrill (Sun Microsystems veteran,
+        CTO), Jessie Frazelle (Docker/Google/Microsoft, CPO), Steve Tuck (Joyent President/COO,
+        CEO)'
+      impact: World-class technical pedigree with proven track record in systems software
+      confidence: High - public leadership backgrounds
+    - flag: Zero executive turnover since founding (2019), all three co-founders remain
+        in original roles
+      impact: Exceptional stability indicates strong team cohesion and aligned vision
+      confidence: High - company tracking
+    - flag: Remote-first policy requiring only 4-hour Pacific Time overlap
+      impact: Flexible remote work with reasonable timezone requirement for collaboration
+      confidence: High - company careers page
+    - flag: Transparent uniform salary $235,000 for all employees (progressed from
+        $175K in 2019)
+      impact: Fair compensation structure eliminates negotiation games, strong salary
+        progression shows commitment to employees
+      confidence: High - company transparency policy
+    - flag: 100% healthcare premiums covered for employees and dependents
+      impact: Exceptional benefits reduce financial stress and demonstrate employee
+        investment
+      confidence: High - company careers page
+    - flag: Building revolutionary rack-scale cloud computer challenging incumbents
+        (VMware, Nutanix, Dell, HPE)
+      impact: Ambitious technical mission with potential for significant industry
+        impact
+      confidence: High - product positioning
+    - flag: Working on entire stack from custom firmware to control plane to customer-facing
+        APIs
+      impact: Rare opportunity for deep systems work across full hardware/software
+        integration
+      confidence: High - technical architecture
+    strong_positives: &id002
+    - flag: No licensing fees business model differentiates from VMware/Broadcom competitors
+      impact: Compelling customer value proposition in market disrupted by Broadcom
+        acquisition
+      confidence: High - product specifications
+    - flag: Included in Gartner 2024 Market Guide for Full-Stack HCI Software
+      impact: Industry recognition improves market credibility and enterprise sales
+        potential
+      confidence: High - Gartner report
+    - flag: Regular engineering blog at oxide.computer/blog with FAQ Friday series
+      impact: Commitment to technical communication and transparency
+      confidence: High - company blog activity
+    - flag: Custom hardware/software integration solving hard systems problems (firmware,
+        networking, storage)
+      impact: Deep technical challenges provide interesting work and learning opportunities
+      confidence: High - product architecture
+    - flag: Steady growth from 23 to 75-84 employees (3.3x over 4 years) with no layoffs
+        in past 18 months
+      impact: Sustainable growth trajectory without chaos or contraction
+      confidence: High - employment trackers
+    - flag: Active hiring across technical roles (Control Plane Engineer, Networking
+        Engineers, Electrical Engineer)
+      impact: Continued investment in engineering team despite market conditions
+      confidence: High - job postings
+    - flag: Values-driven engineering-focused culture per careers page
+      impact: Culture alignment with engineering excellence over business theatrics
+      confidence: Medium - careers page description
+    - flag: High-profile technical brand with 2.2k GitHub followers and active community
+      impact: Resume value from working at respected systems company
+      confidence: High - GitHub metrics
+    - flag: Equity upside potential as early-stage company ($189M total funding, growth
+        trajectory)
+      impact: Possible significant financial return if company succeeds
+      confidence: Medium - funding stage and growth indicators
+  chosen_peak:
+    critical_matches: *id001
+    strong_positives: *id002
+  rope_team_confidence:
+    critical_matches: *id001
+    strong_positives: *id002
+  daily_climb:
+    critical_matches: *id001
+    strong_positives: *id002
+  story_worth_telling:
+    critical_matches: *id001
+    strong_positives: *id002
+red_flags:
+  mountain_range:
+    dealbreakers: &id003 []
+    concerning: &id004
+    - flag: Not yet profitable with historical burn ~$89M over 6 years
+      impact: Continued dependency on funding rounds creates risk if market conditions
+        deteriorate
+      confidence: Medium - funding round analysis
+    - flag: Hardware startup with complex supply chain and manufacturing challenges
+      impact: Capital-intensive business model with execution risks beyond software
+      confidence: High - business model characteristics
+    - flag: Limited public customer references beyond government labs and CoreWeave
+      impact: Enterprise adoption may be slower than needed for growth targets
+      confidence: Medium - company announcements
+    - flag: Limited public AI/ML strategy despite market trend toward AI infrastructure
+      impact: May be missing major market opportunity or falling behind competitors
+      confidence: Medium - absence from public materials
+    - flag: Small team (75-84 employees) means potentially broader responsibilities
+        and less specialization
+      impact: May involve more operational work vs. pure technical focus
+      confidence: Medium - headcount data
+    - flag: Headquarters in Emeryville, CA may have occasional in-person expectations
+        despite remote-first policy
+      impact: Geographic constraint for those not near Bay Area
+      confidence: Low - policy states remote-first but HQ location is Bay Area
+    - flag: Early-stage company with execution risk - need to prove model at scale
+      impact: Career risk if company fails to achieve product-market fit
+      confidence: Medium - stage and traction
+  chosen_peak:
+    dealbreakers: *id003
+    concerning: *id004
+  rope_team_confidence:
+    dealbreakers: *id003
+    concerning: *id004
+  daily_climb:
+    dealbreakers: *id003
+    concerning: *id004
+  story_worth_telling:
+    dealbreakers: *id003
+    concerning: *id004
+missing_critical_data:
+- question: What is the actual engineering team size and how is it structured (firmware
+    vs. control plane vs. infrastructure)?
+  why_important: Understanding team structure helps assess collaboration model and
+    areas of focus
+  how_to_find: Ask recruiter/hiring manager about team organization chart and engineering
+    headcount breakdown
+  mountain_element: rope_team_confidence
+- question: What does day-to-day look like for a staff engineer? Meeting load? Maker
+    time? On-call expectations?
+  why_important: Critical for understanding if the role allows for deep technical
+    work vs. coordination overhead
+  how_to_find: Ask during interviews about typical week, meeting culture, and on-call
+    rotation
+  mountain_element: daily_climb
+- question: What is the equity compensation structure and typical staff engineer grant?
+  why_important: Understanding upside potential for early-stage company with strong
+    growth
+  how_to_find: Discuss during offer stage, ask about option pool percentage and strike
+    price
+  mountain_element: story_worth_telling
+- question: What is the AI/ML infrastructure strategy and roadmap?
+  why_important: AI workloads are major growth driver for cloud infrastructure, need
+    to understand positioning
+  how_to_find: Ask product/engineering leadership about AI strategy during interviews
+  mountain_element: mountain_range
+- question: What is the deployment/production operations experience? How many racks
+    in production? Customer satisfaction?
+  why_important: Proof of scale and operational maturity beyond initial customers
+  how_to_find: Ask about deployment metrics, customer case studies, operational learnings
+  mountain_element: mountain_range
+- question: What does career progression look like for staff+ engineers? Is there
+    a technical track?
+  why_important: Understanding growth path and whether company values technical leadership
+  how_to_find: Ask about engineering levels, staff+ population, and promotion criteria
+  mountain_element: story_worth_telling
+- question: What is the employee satisfaction level? Any Blind or Reddit discussions?
+  why_important: Insider perspective on culture and day-to-day reality beyond public
+    image
+  how_to_find: Search Blind, Reddit, Glassdoor for employee reviews and discussions
+  mountain_element: daily_climb
+- question: What is the typical deployment timeline and customer onboarding process?
+  why_important: Understanding if product is truly productized vs. custom integration
+    work
+  how_to_find: Ask sales engineering or customer success about implementation process
+  mountain_element: mountain_range
+company_slug: 0xide
