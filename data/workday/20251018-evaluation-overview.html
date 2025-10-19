@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Workday Evaluation Overview - WCTF</title>
+    <style>
+        @media print {
+            @page {
+                size: A4;
+                margin: 1.5cm 1.2cm;
+            }
+            body { font-size: 9pt; }
+            h1 { font-size: 16pt; }
+            h2 { font-size: 11pt; page-break-after: avoid; }
+            h3 { font-size: 10pt; page-break-after: avoid; }
+        }
+
+        body {
+            font-family: 'Arial', 'Helvetica', sans-serif;
+            font-size: 10pt;
+            line-height: 1.35;
+            color: #333;
+            max-width: 21cm;
+            margin: 0 auto;
+            padding: 1cm;
+            background-color: #f5f5f5;
+        }
+
+        .page {
+            background-color: white;
+            padding: 1.5cm 1.2cm;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            font-size: 18pt;
+            font-weight: bold;
+            margin-top: 0;
+            margin-bottom: 0.2cm;
+            border-bottom: 2px solid #333;
+            padding-bottom: 0.2cm;
+            color: #000;
+        }
+
+        h2 {
+            font-size: 13pt;
+            font-weight: bold;
+            margin-top: 0.6cm;
+            margin-bottom: 0.2cm;
+            color: #000;
+            page-break-after: avoid;
+            background-color: #e8e8e8;
+            padding: 0.2cm 0.3cm;
+            border-left: 4px solid #333;
+        }
+
+        h3 {
+            font-size: 10pt;
+            font-weight: bold;
+            margin-top: 0.4cm;
+            margin-bottom: 0.15cm;
+            color: #222;
+            page-break-after: avoid;
+        }
+
+        p { margin: 0.15cm 0; }
+
+        ul, ol {
+            margin: 0.2cm 0;
+            padding-left: 1cm;
+        }
+
+        li {
+            margin: 0.08cm 0;
+            page-break-inside: avoid;
+        }
+
+        hr {
+            border: none;
+            border-top: 1px solid #ccc;
+            margin: 0.4cm 0;
+        }
+
+        .framework-box {
+            background-color: #f0f8ff;
+            border: 2px solid #4682b4;
+            padding: 0.4cm;
+            margin: 0.4cm 0;
+        }
+
+        .priority-box {
+            background-color: #fffacd;
+            border: 2px solid #ffd700;
+            padding: 0.4cm;
+            margin: 0.4cm 0;
+        }
+
+        .print-button {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            padding: 12px 24px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 14pt;
+            font-weight: bold;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+            z-index: 1000;
+        }
+
+        .print-button:hover { background-color: #45a049; }
+
+        @media print {
+            .print-button { display: none; }
+            .page { box-shadow: none; padding: 0; }
+            body { background-color: white; padding: 0; }
+        }
+
+        .metadata {
+            font-size: 10pt;
+            color: #666;
+            font-style: italic;
+            margin-bottom: 0.5cm;
+        }
+    </style>
+</head>
+<body>
+    <button class="print-button" onclick="window.print()">🖨️ Print to PDF</button>
+    <div class="page">
+        <h1>Workday Evaluation Overview</h1>
+        <p class="metadata">
+            <strong>Framework:</strong> Worth Climbing Together Framework (WCTF)<br>
+            <strong>Evaluator Context:</strong> Extracted from conversation notes<br>
+            <strong>Research Date:</strong> 2025-09-27 | <strong>Evaluation Date:</strong> 2025-10-18
+        </p>
+
+        <hr>
+
+        <div class="framework-box">
+            <h2 style="margin-top: 0; background: none; padding: 0; border: none;">The WCTF Framework</h2>
+            <p><strong>Worth Climbing Together Framework (WCTF)</strong> treats job evaluation like planning a mountain expedition. Every job opportunity is a mountain to climb, and success requires more than just a viable business - you need the right peak, the right team, sustainable conditions, and a story worth telling.</p>
+
+            <p><strong>The Mountain Metaphor - Five Dimensions:</strong></p>
+            <ol>
+                <li><strong>Mountain Range</strong> - Can <em>any</em> team succeed here? (Business viability, market position, financial health)</li>
+                <li><strong>Chosen Peak</strong> - Is everyone climbing the <em>same</em> mountain? (Technical strategy, engineering culture, alignment)</li>
+                <li><strong>Rope Team Confidence</strong> - Does the team believe they can succeed <em>together</em>? (Leadership trust, team quality, organizational stability)</li>
+                <li><strong>Daily Climb</strong> - Will the 99 days be energizing or draining? (Work-life balance, compensation, daily sustainability)</li>
+                <li><strong>Story Worth Telling</strong> - Would you be proud to explain this work? (Career narrative, impact, skills growth)</li>
+            </ol>
+
+            <p><strong>Two-Layer Investigation:</strong></p>
+            <ul style="margin-top: 0.3cm;">
+                <li><strong>Layer 1 (Public Research):</strong> Automated research on financials, market position, organizational news, technical culture - creates baseline understanding and surfaces obvious red flags.</li>
+                <li><strong>Layer 2 (Insider Conversations):</strong> Conversations with current/former employees to validate Layer 1 findings, understand ground truth vs PR, and surface cultural nuances.</li>
+            </ul>
+
+            <p><strong>Flag-Based Philosophy:</strong> WCTF does not produce numerical scores or automated recommendations. Instead, it surfaces <strong>green flags</strong> (positive signals) and <strong>red flags</strong> (concerns) to inform your gut decision. Context matters - the same fact can be different colors depending on your priorities. There are no perfect companies, only trade-offs.</p>
+        </div>
+
+        <hr>
+
+
+        <h2>Mountain Range: Business Viability & Financial Health</h2>
+
+        <h3>✅ What I've Found</h3>
+        <ul>
+        <li>Workday went public with $637M IPO on October 12, 2012 <em>(explicit_statement)</em></li>
+        <li>Total funding raised was $254.01M over 8 rounds prior to IPO <em>(explicit_statement)</em></li>
+        <li>Q2 FY2026 total revenue was $2.348 billion, increase of 12.6% from same quarter FY2025 <em>(explicit_statement)</em></li>
+
+        </ul>
+
+        <h3>🟢 Green Flags</h3>
+        <ul>
+        <li>Profitable public company: $8.4B revenue (16% YoY), 30% operating margin, $5B net cash, $421M free cash flow</li>
+        <li>98% gross revenue retention, $24.6B subscription backlog, 11K+ customers including 50% Fortune 500</li>
+        <li>10-year Gartner Magic Quadrant leader for Cloud HCM, 21% ERP SaaS market share</li>
+
+        </ul>
+
+        <h3>🚩 Red Flags</h3>
+        <ul>
+        <li>1,750 global layoffs (8.5%) in Feb 2025, 142 in Dublin despite profitability</li>
+        <li>Layoffs just before new Dublin HQ completion sends mixed signals about commitment</li>
+
+        </ul>
+
+        <h3>🔍 Need to Validate</h3>
+        <ul>
+            <li><em>No specific gaps identified</em></li>
+
+        </ul>
+
+        <hr>
+
+        <h2>Chosen Peak: Technical Culture & Engineering Excellence</h2>
+
+        <h3>✅ What I've Found</h3>
+        <ul>
+        <li>Primary tech stack includes Java, Python, MySQL, Hadoop, Kubernetes, and AWS <em>(explicit_statement)</em></li>
+        <li>Also uses Node.js, TypeScript, React, Scala, Ruby, Swift, Kotlin, Go <em>(explicit_statement)</em></li>
+        <li>Active engineering blog with moderate monthly posts focusing on cloud infrastructure, machine learning, and developer tooling <em>(explicit_statement)</em></li>
+
+        </ul>
+
+        <h3>🟢 Green Flags</h3>
+        <ul>
+        <li>Cloud-native SaaS platform built from ground up - no legacy on-prem baggage</li>
+        <li>CTO Peter Bailis from Google Cloud AI brings modern engineering culture and practices</li>
+        <li>Active engineering blog, DevCon conferences, DevTalk podcast shows technical investment</li>
+
+        </ul>
+
+        <h3>🚩 Red Flags</h3>
+        <ul>
+        <li>No public information on DORA metrics, deployment frequency, or engineering velocity</li>
+        <li>No information on AI coding tool availability (Copilot, Cursor, etc.)</li>
+
+        </ul>
+
+        <h3>🔍 Need to Validate</h3>
+        <ul>
+        <li><strong>What are Workday's DORA metrics? Deployment frequency, lead time for changes, MTTR, change failure rate?</strong><br><em>Core criterion for evaluating engineering excellence and velocity</em></li>
+        <li><strong>Does Workday provide AI coding tools like GitHub Copilot, Cursor, or internal alternatives?</strong><br><em>Critical for developer productivity and keeping skills current</em></li>
+
+        </ul>
+
+        <hr>
+
+        <h2>Rope Team Confidence: Leadership & Team Trust</h2>
+
+        <h3>✅ What I've Found</h3>
+        <ul>
+        <li>Carl Eschenbach is CEO since February 1, 2024, former Sequoia Capital general partner <em>(explicit_statement)</em></li>
+        <li>Chano Fernandez, previous co-CEO, transitioned out of the role by March 2024 <em>(explicit_statement)</em></li>
+        <li>Peter Bailis is CTO, former VP Engineering at Google Cloud AI <em>(explicit_statement)</em></li>
+
+        </ul>
+
+        <h3>🟢 Green Flags</h3>
+        <ul>
+        <li>Dublin established 2008 (17 years) as European HQ with 2,000 employees</li>
+        <li>416K sq ft new Dublin headquarters completing June 2025</li>
+        <li>CTO from Google Cloud AI background likely brings strong engineering culture expectations</li>
+
+        </ul>
+
+        <h3>🚩 Red Flags</h3>
+        <ul>
+        <li>CEO Carl Eschenbach (Feb 2024) has only 55% Glassdoor approval rating</li>
+        <li>Feb 2025 layoffs (1 year into CEO tenure) for AI transformation may indicate strategic uncertainty</li>
+
+        </ul>
+
+        <h3>🔍 Need to Validate</h3>
+        <ul>
+        <li><strong>How is technology positioned relative to business? Do engineers have seat at strategic table?</strong><br><em>Evaluator seeks technology as equal partner, not order-taker</em></li>
+        <li><strong>How do employees view the Feb 2025 AI transformation layoffs? Was it strategic repositioning or mismanagement? Are more cuts planned?</strong><br><em>Understanding employee perspective on strategic direction and assessing job security</em></li>
+
+        </ul>
+
+        <hr>
+
+        <h2>Daily Climb: Day-to-Day Experience</h2>
+
+        <h3>✅ What I've Found</h3>
+        <ul>
+        <li>Carl Eschenbach is CEO since February 1, 2024, former Sequoia Capital general partner <em>(explicit_statement)</em></li>
+        <li>Chano Fernandez, previous co-CEO, transitioned out of the role by March 2024 <em>(explicit_statement)</em></li>
+        <li>Peter Bailis is CTO, former VP Engineering at Google Cloud AI <em>(explicit_statement)</em></li>
+
+        </ul>
+
+        <h3>🟢 Green Flags</h3>
+        <ul>
+        <li>Hybrid model 50% quarterly office time is compatible with Dublin-based work</li>
+        <li>Public company provides transparent comp, equity liquidity, and RSU refreshes</li>
+        <li>Large Dublin engineering community (2,000 people) provides peer network and collaboration</li>
+
+        </ul>
+
+        <h3>🚩 Red Flags</h3>
+        <ul>
+        <li>Work-life balance and career development not specifically called out as strengths</li>
+
+        </ul>
+
+        <h3>🔍 Need to Validate</h3>
+        <ul>
+        <li><strong>What is staff engineer compensation for Dublin including base, RSUs, bonus, refresh schedule?</strong><br><em>Understanding total comp competitiveness</em></li>
+
+        </ul>
+
+        <hr>
+
+        <h2>Story Worth Telling: Career Narrative & Impact</h2>
+
+        <h3>✅ What I've Found</h3>
+        <ul>
+        <li>Provides cloud-based HR, financial management, and student information system software <em>(explicit_statement)</em></li>
+        <li>Primary competitors include SAP SuccessFactors, Oracle HCM Cloud, UKG, and Dayforce <em>(explicit_statement)</em></li>
+        <li>Holds 21% market share for worldwide ERP SaaS revenue <em>(explicit_statement)</em></li>
+
+        </ul>
+
+        <h3>🟢 Green Flags</h3>
+        <ul>
+        <li>Workday brand well-established in enterprise SaaS and cloud platforms</li>
+        <li>Working on AI transformation of enterprise HR/finance at Fortune 500 scale</li>
+        <li>Public company equity has immediate liquidity and transparent value</li>
+
+        </ul>
+
+        <h3>🚩 Red Flags</h3>
+        <ul>
+        <li>Public company (IPO 2012) means limited equity upside vs pre-IPO opportunities</li>
+
+        </ul>
+
+        <h3>🔍 Need to Validate</h3>
+        <ul>
+        <li><strong>What engineering teams are in Dublin? Do they own products or support US teams?</strong><br><em>Understanding autonomy and whether tech is equal partner vs support function</em></li>
+
+        </ul>
+
+        <hr>
+
+
+        <div class="priority-box">
+            <h2 style="margin-top: 0; background: none; padding: 0; border: none;">🎯 Priority Validation Targets</h2>
+            <p><em>Your insider perspective will be invaluable for validating these items:</em></p>
+            <ol>
+            <li>What are Workday's DORA metrics? Deployment frequency, lead time for changes, MTTR, change failure rate?</li>
+            <li>Does Workday provide AI coding tools like GitHub Copilot, Cursor, or internal alternatives?</li>
+            <li>How is technology positioned relative to business? Do engineers have seat at strategic table?</li>
+            <li>What is the actual deployment velocity? How often do teams ship to production?</li>
+            <li>How do employees view the Feb 2025 AI transformation layoffs? Was it strategic repositioning or mismanagement? Are more cuts planned?</li>
+            <li>What is staff engineer compensation for Dublin including base, RSUs, bonus, refresh schedule?</li>
+            <li>What engineering teams are in Dublin? Do they own products or support US teams?</li>
+            <li>What is post-layoff morale in Dublin engineering org?</li>
+
+            </ol>
+        </div>
+
+        <hr>
+
+        <h2>Confidence Levels Explained</h2>
+        <ul>
+            <li><strong>HIGH confidence:</strong> Multiple independent sources, recent data, explicit statements</li>
+            <li><strong>MEDIUM confidence:</strong> Single source, implied information, or dated information</li>
+            <li><strong>LOW confidence:</strong> Absence of data, conflicting signals, or need firsthand validation</li>
+        </ul>
+
+        <p style="margin-top: 0.5cm;"><em>Your input as an insider will be invaluable for validating MEDIUM/LOW confidence items and providing ground truth on the priority questions above.</em></p>
+
+    </div>
+    <script>
+        document.addEventListener('keydown', function(e) {
+            if ((e.ctrlKey || e.metaKey) && e.key === 'p') {
+                e.preventDefault();
+                window.print();
+            }
+        });
+    </script>
+</body>
+</html>

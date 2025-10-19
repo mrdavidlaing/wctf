@@ -1,0 +1,781 @@
+company: Workday
+last_updated: '2025-10-19'
+financial_health:
+  facts_found:
+  - fact: Company had two large rounds of layoffs, first in January 2023 and second
+      in February 2025, each around 8% of workforce
+    source: Dan Garry (Principal Product Manager, AI Agents UX (Dublin))
+    date: '2025-10-19'
+    confidence: firsthand_account
+    fact_type: objective
+    context: First layoffs in company history at that scale
+  - fact: Dublin office was hit proportionately less in layoffs, 5% vs 8% globally
+      (142 out of ~2,000)
+    source: Dan Garry (Principal Product Manager, AI Agents UX (Dublin))
+    date: '2025-10-19'
+    confidence: firsthand_account
+    fact_type: objective
+  - fact: Layoffs motivated by maintaining profitability, not financial crisis
+    source: Dan Garry (Principal Product Manager, AI Agents UX (Dublin))
+    date: '2025-10-19'
+    confidence: firsthand_account
+    fact_type: objective
+    context: Public financial documents state 'we kept this cost level this year due
+      to layoffs' across multiple expense categories
+  - fact: Many people laid off were due to poor performance, though company tried
+      to disguise this
+    source: Dan Garry (Principal Product Manager, AI Agents UX (Dublin))
+    date: '2025-10-19'
+    confidence: firsthand_account
+    fact_type: objective
+    context: Company didn't want to publicly call it performance-based to avoid harming
+      laid-off employees
+  - fact: Revenue growth is decreasing, though still positive
+    source: Dan Garry (Principal Product Manager, AI Agents UX (Dublin))
+    date: '2025-10-19'
+    confidence: firsthand_account
+    fact_type: objective
+    context: Focus shifting to profitability to maintain Rule of 40 (growth + profitability
+      >= 40%)
+  - fact: Company focusing on maintaining 30% operating margin as growth slows
+    source: Dan Garry (Principal Product Manager, AI Agents UX (Dublin))
+    date: '2025-10-19'
+    confidence: firsthand_account
+    fact_type: objective
+  - fact: Backfills for open roles in Dublin are about one-third of positions, vs
+      close to zero in Pleasanton
+    source: Dan Garry (Principal Product Manager, AI Agents UX (Dublin))
+    date: '2025-10-19'
+    confidence: firsthand_account
+    fact_type: objective
+  - fact: Company actively trying to shift headcount from Dublin to Chennai to reduce
+      costs
+    source: Dan Garry (Principal Product Manager, AI Agents UX (Dublin))
+    date: '2025-10-19'
+    confidence: firsthand_account
+    fact_type: objective
+    context: Chennai costs one-third to half of Dublin; Dublin costs about half of
+      US
+  - fact: Customer retention is extremely high, churn is incredibly low
+    source: Dan Garry (Principal Product Manager, AI Agents UX (Dublin))
+    date: '2025-10-19'
+    confidence: firsthand_account
+    fact_type: objective
+    context: People don't change HR systems; implementation period takes years
+  - fact: Company performance factor for bonuses is 100% this cycle, first time at
+      100% in quite a while
+    source: Dan Garry (Principal Product Manager, AI Agents UX (Dublin))
+    date: '2025-10-19'
+    confidence: firsthand_account
+    fact_type: objective
+    context: Based on retention, customer satisfaction, sales targets
+  - fact: Rumored third round of layoffs scheduled for November 5, 2025
+    source: Dan Garry (Principal Product Manager, AI Agents UX (Dublin))
+    date: '2025-10-19'
+    confidence: firsthand_account
+    fact_type: objective
+    context: Timing inferred from elimination of mid-year promotions and typical announcement
+      patterns
+  - fact: €175 million public/private AI investment secured for Dublin operations
+    source: Dan Garry (Principal Product Manager, AI Agents UX (Dublin))
+    date: '2025-10-19'
+    confidence: firsthand_account
+    fact_type: objective
+    context: Partnership with Technical University of Dublin (TUD)
+  - fact: 'Three growth sites identified: Dublin Ireland, Chennai India, Vancouver
+      Canada'
+    source: Dan Garry (Principal Product Manager, AI Agents UX (Dublin))
+    date: '2025-10-19'
+    confidence: firsthand_account
+    fact_type: objective
+  missing_information:
+  - Current Dublin hiring velocity vs pre-layoff
+  - Details on November 2025 layoff rumors (scope, departments)
+  - Specific Chennai headcount growth targets
+  - Actual churn percentage beyond 98% retention figure
+market_position:
+  facts_found:
+  - fact: Implementation period for new customers often takes years
+    source: Dan Garry (Principal Product Manager, AI Agents UX (Dublin))
+    date: '2025-10-19'
+    confidence: firsthand_account
+    fact_type: objective
+    context: Similarly takes years for customers to leave Workday
+  - fact: Company tagline changed from 'your trusted partner to managing your people
+      and your money' to 'managing your people, money and agents'
+    source: Dan Garry (Principal Product Manager, AI Agents UX (Dublin))
+    date: '2025-10-19'
+    confidence: firsthand_account
+    fact_type: objective
+  - fact: Paradox acquisition focuses on AI features overlaid on external career sites,
+      different architecture from core Workday
+    source: Dan Garry (Principal Product Manager, AI Agents UX (Dublin))
+    date: '2025-10-19'
+    confidence: firsthand_account
+    fact_type: objective
+    context: Career site architected completely differently from rest of Workday,
+      would be very difficult to integrate
+  - fact: Most AI acquisitions fill capability gaps that existing teams don't cover
+    source: Dan Garry (Principal Product Manager, AI Agents UX (Dublin))
+    date: '2025-10-19'
+    confidence: firsthand_account
+    fact_type: subjective
+    context: Strategic or coincidental pattern unclear
+  - fact: Positioning includes managing third-party agents through Workday, not just
+      first-party
+    source: Dan Garry (Principal Product Manager, AI Agents UX (Dublin))
+    date: '2025-10-19'
+    confidence: firsthand_account
+    fact_type: objective
+  - fact: Research shows most customers don't understand that an AI agent is not just
+      a chatbot
+    source: Dan Garry (Principal Product Manager, AI Agents UX (Dublin))
+    date: '2025-10-19'
+    confidence: firsthand_account
+    fact_type: objective
+    context: Agent governance message not entirely resonating
+  - fact: Workday On Workday (WOW) team are generally bad early adopters despite being
+      internal customers
+    source: Dan Garry (Principal Product Manager, AI Agents UX (Dublin))
+    date: '2025-10-19'
+    confidence: firsthand_account
+    fact_type: subjective
+  - fact: WOW is treated like a real customer with account executives, customer success
+      managers, and customer badges at conferences
+    source: Dan Garry (Principal Product Manager, AI Agents UX (Dublin))
+    date: '2025-10-19'
+    confidence: firsthand_account
+    fact_type: objective
+    context: Workday On Workday - internal HR system deployment
+  - fact: Existential risk from startups replacing core business assessed as low
+    source: Dan Garry (Principal Product Manager, AI Agents UX (Dublin))
+    date: '2025-10-19'
+    confidence: firsthand_account
+    fact_type: subjective
+  - fact: Higher existential risk from browser extensions/add-ons that customers prefer
+      over native features
+    source: Dan Garry (Principal Product Manager, AI Agents UX (Dublin))
+    date: '2025-10-19'
+    confidence: firsthand_account
+    fact_type: subjective
+  - fact: Real concern is falling below Rule of 40, becoming unattractive investment
+    source: Dan Garry (Principal Product Manager, AI Agents UX (Dublin))
+    date: '2025-10-19'
+    confidence: firsthand_account
+    fact_type: subjective
+  - fact: Seat-based pricing vulnerable to workforce reductions at customer companies
+    source: Dan Garry (Principal Product Manager, AI Agents UX (Dublin))
+    date: '2025-10-19'
+    confidence: firsthand_account
+    fact_type: objective
+  - fact: Code-generated HCM SaaS competitors have failed spectacularly, producing
+      unmaintainable code
+    source: Dan Garry (Principal Product Manager, AI Agents UX (Dublin))
+    date: '2025-10-19'
+    confidence: firsthand_account
+    fact_type: subjective
+  missing_information:
+  - Customer feedback on agent governance
+  - Customer feedback on agent governance value proposition
+  - Win rate for new deals in current market climate
+organizational_stability:
+  facts_found:
+  - fact: CEO Carl Eschenbach was co-CEO for a period before becoming sole CEO in
+      February 2024
+    source: Dan Garry (Principal Product Manager, AI Agents UX (Dublin))
+    date: '2025-10-19'
+    confidence: firsthand_account
+    fact_type: objective
+  - fact: CTO Peter Bailis is not expected to last long in the role
+    source: Dan Garry (Principal Product Manager, AI Agents UX (Dublin))
+    date: '2025-10-19'
+    confidence: firsthand_account
+    fact_type: subjective
+    context: Feeling among employees
+  - fact: Interviewee has never had so little faith in a leader as with CTO Peter
+      Bailis
+    source: Dan Garry (Principal Product Manager, AI Agents UX (Dublin))
+    date: '2025-10-19'
+    confidence: firsthand_account
+    fact_type: subjective
+  - fact: Peter Bailis makes very bold statements without evidence or knowledge and
+      doesn't listen to people trying to correct him
+    source: Dan Garry (Principal Product Manager, AI Agents UX (Dublin))
+    date: '2025-10-19'
+    confidence: firsthand_account
+    fact_type: subjective
+    context: Described as 'Trump leadership style'
+  - fact: AI leadership being concentrated in Pleasanton but not exclusively
+    source: Dan Garry (Principal Product Manager, AI Agents UX (Dublin))
+    date: '2025-10-19'
+    confidence: firsthand_account
+    fact_type: objective
+    context: Garrett (President of Products and Technology) in Pleasanton, VP of Agent
+      Product Development in Pleasanton, but VP of Agent Development Engineering in
+      Boulder
+  - fact: Flowise acquisition founder required to move to San Francisco as part of
+      acquisition terms
+    source: Dan Garry (Principal Product Manager, AI Agents UX (Dublin))
+    date: '2025-10-19'
+    confidence: firsthand_account
+    fact_type: objective
+    context: Flowise was 4-employee acquisition
+  - fact: Garrett hired as new President of Products and Technology, CTO reports to
+      him
+    source: Dan Garry (Principal Product Manager, AI Agents UX (Dublin))
+    date: '2025-10-19'
+    confidence: firsthand_account
+    fact_type: objective
+  - fact: Interviewee likes Garrett and thinks worst thing he's done is hiring Peter
+      Bailis
+    source: Dan Garry (Principal Product Manager, AI Agents UX (Dublin))
+    date: '2025-10-19'
+    confidence: firsthand_account
+    fact_type: subjective
+  - fact: Dublin office is approximately 70% Product and Technology staff
+    source: Dan Garry (Principal Product Manager, AI Agents UX (Dublin))
+    date: '2025-10-19'
+    confidence: firsthand_account
+    fact_type: objective
+  - fact: Remaining 30% in Dublin is sales (including solutions architects, account
+      executives)
+    source: Dan Garry (Principal Product Manager, AI Agents UX (Dublin))
+    date: '2025-10-19'
+    confidence: firsthand_account
+    fact_type: objective
+  - fact: People have moved on from the layoffs fairly quickly
+    source: Dan Garry (Principal Product Manager, AI Agents UX (Dublin))
+    date: '2025-10-19'
+    confidence: firsthand_account
+    fact_type: subjective
+    context: When names became clear, people realized it was mostly poor performers
+      and moved on
+  - fact: QA who was laid off was known for verifying stories before development even
+      started
+    source: Dan Garry (Principal Product Manager, AI Agents UX (Dublin))
+    date: '2025-10-19'
+    confidence: firsthand_account
+    fact_type: objective
+    context: Example of poor performer laid off
+  - fact: Performance rating system uses 1-9 grid based on current performance and
+      future growth potential
+    source: Dan Garry (Principal Product Manager, AI Agents UX (Dublin))
+    date: '2025-10-19'
+    confidence: firsthand_account
+    fact_type: objective
+    context: 9 is exceptional performance with high growth; middle ratings ambiguous
+      between high growth vs high current performance
+  - fact: Interviewee received rating of 5 (meets expectations, expected to grow)
+      in first full cycle, then 8 (exceptional, expected to be promoted once in 2-3
+      years) in second cycle
+    source: Dan Garry (Principal Product Manager, AI Agents UX (Dublin))
+    date: '2025-10-19'
+    confidence: firsthand_account
+    fact_type: objective
+  - fact: Budget owners (senior directors or VPs) now have explicit limit that ~15-20%
+      of employees cannot receive stock
+    source: Dan Garry (Principal Product Manager, AI Agents UX (Dublin))
+    date: '2025-10-19'
+    confidence: firsthand_account
+    fact_type: objective
+    context: Flagged as non-compliant if they don't meet this threshold of people
+      without stock
+  - fact: Stock compensation strategy explicitly shifted to zero for low performers,
+      less for middle, more for high performers
+    source: Dan Garry (Principal Product Manager, AI Agents UX (Dublin))
+    date: '2025-10-19'
+    confidence: firsthand_account
+    fact_type: objective
+    context: Company was surprisingly transparent about this shift
+  - fact: Compensation shifting from RSU-heavy to more cash-based (base salary increases,
+      higher bonus targets)
+    source: Dan Garry (Principal Product Manager, AI Agents UX (Dublin))
+    date: '2025-10-19'
+    confidence: firsthand_account
+    fact_type: objective
+  - fact: Interviewee's initial stock grant was approximately 100% of salary spread
+      over 4 years (25% per year)
+    source: Dan Garry (Principal Product Manager, AI Agents UX (Dublin))
+    date: '2025-10-19'
+    confidence: firsthand_account
+    fact_type: objective
+  - fact: Subsequent annual stock refreshes have been about 50% of salary over 4 years
+      (12.5% per year)
+    source: Dan Garry (Principal Product Manager, AI Agents UX (Dublin))
+    date: '2025-10-19'
+    confidence: firsthand_account
+    fact_type: objective
+  - fact: Bonus target is approximately 50% of salary, paid pre-tax annually
+    source: Dan Garry (Principal Product Manager, AI Agents UX (Dublin))
+    date: '2025-10-19'
+    confidence: firsthand_account
+    fact_type: objective
+  - fact: Interviewee consistently exceeds bonus targets, always receiving >100% individual
+      performance factor
+    source: Dan Garry (Principal Product Manager, AI Agents UX (Dublin))
+    date: '2025-10-19'
+    confidence: firsthand_account
+    fact_type: objective
+    context: First bonus was 112.7% IPF to counterbalance low company performance
+      factor
+  - fact: Annual performance cycle for ratings, promotions, base pay, stock refreshes
+      happens once per year
+    source: Dan Garry (Principal Product Manager, AI Agents UX (Dublin))
+    date: '2025-10-19'
+    confidence: firsthand_account
+    fact_type: objective
+  - fact: Mid-year promotion cycle has been eliminated indefinitely, no more mid-year
+      promotions or base pay increases
+    source: Dan Garry (Principal Product Manager, AI Agents UX (Dublin))
+    date: '2025-10-19'
+    confidence: firsthand_account
+    fact_type: objective
+    context: Mid-year cycle previously allowed promotions for exceptional cases with
+      small budget
+  - fact: Interviewee received 3%, 6%, and ~10% base pay increases over recent cycles
+    source: Dan Garry (Principal Product Manager, AI Agents UX (Dublin))
+    date: '2025-10-19'
+    confidence: firsthand_account
+    fact_type: objective
+    context: Including a 6% mid-year increase before that cycle was eliminated
+  - fact: Interviewee promoted from Senior PM to Principal PM with 20% base salary
+      increase over 3 years
+    source: Dan Garry (Principal Product Manager, AI Agents UX (Dublin))
+    date: '2025-10-19'
+    confidence: firsthand_account
+    fact_type: objective
+  - fact: People more unhappy about cutting snack program than about comp changes
+    source: Dan Garry (Principal Product Manager, AI Agents UX (Dublin))
+    date: '2025-10-19'
+    confidence: firsthand_account
+    fact_type: subjective
+    context: Recognition that Workday was probably too generous before
+  - fact: Fiscal year starts February 1st annually
+    source: Dan Garry (Principal Product Manager, AI Agents UX (Dublin))
+    date: '2025-10-19'
+    confidence: firsthand_account
+    fact_type: objective
+  - fact: Product and Technology org split between platform technology teams and functional
+      application teams
+    source: Dan Garry (Principal Product Manager, AI Agents UX (Dublin))
+    date: '2025-10-19'
+    confidence: firsthand_account
+    fact_type: objective
+    context: Functional teams have QAs, Exo devs, and product managers who are domain
+      experts
+  - fact: Many product managers in functional teams were professionals in their domain
+      (e.g. payroll) for 10 years before becoming PMs
+    source: Dan Garry (Principal Product Manager, AI Agents UX (Dublin))
+    date: '2025-10-19'
+    confidence: firsthand_account
+    fact_type: objective
+    context: Know a lot about domain but don't necessarily get technology
+  - fact: Engineers have seat at strategic table, arguably too much from product manager
+      perspective
+    source: Dan Garry (Principal Product Manager, AI Agents UX (Dublin))
+    date: '2025-10-19'
+    confidence: firsthand_account
+    fact_type: subjective
+    context: 'Rule of three for decisions in app dev org: principal dev, engineering
+      manager, senior director of product; requires senior director level to make
+      roadmap'
+  - fact: Decisions sometimes made without PM involvement, though management supports
+      PMs pushing back
+    source: Dan Garry (Principal Product Manager, AI Agents UX (Dublin))
+    date: '2025-10-19'
+    confidence: firsthand_account
+    fact_type: subjective
+    context: Structure leads to exclusion but management wants PMs with opinions to
+      challenge
+  - fact: Interviewee's VP budget owner has approximately 200 employees, though typical
+      is 50-60
+    source: Dan Garry (Principal Product Manager, AI Agents UX (Dublin))
+    date: '2025-10-19'
+    confidence: firsthand_account
+    fact_type: objective
+  - fact: Internal tool tracks employee usage of AI features and rates adoption level,
+      shared with managers
+    source: Dan Garry (Principal Product Manager, AI Agents UX (Dublin))
+    date: '2025-10-19'
+    confidence: firsthand_account
+    fact_type: objective
+    context: Everyday AI program tracks Copilot, Cursor, Gemini, Zoom AI usage; gives
+      overall rating visible to manager
+  - fact: Interviewee's AI adoption rating varies month to month between medium and
+      high
+    source: Dan Garry (Principal Product Manager, AI Agents UX (Dublin))
+    date: '2025-10-19'
+    confidence: firsthand_account
+    fact_type: objective
+    context: Uses Gemini frequently but not Copilot or Zoom AI features
+  - fact: Unclear what managers do with AI adoption rating information
+    source: Dan Garry (Principal Product Manager, AI Agents UX (Dublin))
+    date: '2025-10-19'
+    confidence: firsthand_account
+    fact_type: objective
+  - fact: Garrett (President of Products and Technology) pushed for Cursor adoption
+      one month after joining
+    source: Dan Garry (Principal Product Manager, AI Agents UX (Dublin))
+    date: '2025-10-19'
+    confidence: firsthand_account
+    fact_type: objective
+    context: Within two weeks, Cursor licenses were available on request
+  - fact: Leadership brings strong engineering culture expectations towards shipping
+    source: Dan Garry (Principal Product Manager, AI Agents UX (Dublin))
+    date: '2025-10-19'
+    confidence: firsthand_account
+    fact_type: subjective
+    context: Peter Bailis and other recent hires despite interviewee's criticism of
+      Bailis
+  - fact: Pressure to ship to Early Access (EA) repeatedly, with attitude that not
+      shipping is unacceptable
+    source: Dan Garry (Principal Product Manager, AI Agents UX (Dublin))
+    date: '2025-10-19'
+    confidence: firsthand_account
+    fact_type: objective
+  - fact: EA customers sign agreement giving Workday absolute warranty to do whatever
+      they want including removing product immediately
+    source: Dan Garry (Principal Product Manager, AI Agents UX (Dublin))
+    date: '2025-10-19'
+    confidence: firsthand_account
+    fact_type: objective
+    context: EA features provided free but may require payment or be turned off later
+  - fact: 'Interviewee''s bar for shipping is very low: if it works with imperfections
+      or requires manual, ship it for feedback'
+    source: Dan Garry (Principal Product Manager, AI Agents UX (Dublin))
+    date: '2025-10-19'
+    confidence: firsthand_account
+    fact_type: subjective
+  - fact: UX team escalated that agent product UX was bad due to technical compromises
+    source: Dan Garry (Principal Product Manager, AI Agents UX (Dublin))
+    date: '2025-10-19'
+    confidence: firsthand_account
+    fact_type: objective
+    context: Leadership acknowledged compromises were necessary to ship to EA on time
+  - fact: Interviewee's management chain all based in Dublin (manager, director, VP)
+    source: Dan Garry (Principal Product Manager, AI Agents UX (Dublin))
+    date: '2025-10-19'
+    confidence: firsthand_account
+    fact_type: objective
+    context: Strong culture of voicing opinions, challenging decisions
+  - fact: Leaders expect to be challenged and explain decisions
+    source: Dan Garry (Principal Product Manager, AI Agents UX (Dublin))
+    date: '2025-10-19'
+    confidence: firsthand_account
+    fact_type: subjective
+    context: Can disagree and escalate without retribution
+  - fact: One US-based PM experiences typical timezone challenges
+    source: Dan Garry (Principal Product Manager, AI Agents UX (Dublin))
+    date: '2025-10-19'
+    confidence: firsthand_account
+    fact_type: objective
+    context: Dublin team doesn't accommodate US timezone for all meetings; decisions
+      made locally with input opportunity afterward
+  - fact: Apps vs Platform teams have major cultural clash
+    source: Dan Garry (Principal Product Manager, AI Agents UX (Dublin))
+    date: '2025-10-19'
+    confidence: firsthand_account
+    fact_type: objective
+    context: Apps extremely change-averse and risk-averse, don't understand modern
+      engineering practices
+  - fact: Friction over security upgrades and framework updates between platform and
+      apps teams
+    source: Dan Garry (Principal Product Manager, AI Agents UX (Dublin))
+    date: '2025-10-19'
+    confidence: firsthand_account
+    fact_type: objective
+    context: Platform wants to deploy critical fixes immediately; Apps need 9 months
+      for QA
+  - fact: Interviewee would recommend joining his specific org/team absolutely
+    source: Dan Garry (Principal Product Manager, AI Agents UX (Dublin))
+    date: '2025-10-19'
+    confidence: firsthand_account
+    fact_type: subjective
+    context: But maybe not other orgs - significant variation in team quality
+  - fact: Interviewee stays for team relationships and organizational culture
+    source: Dan Garry (Principal Product Manager, AI Agents UX (Dublin))
+    date: '2025-10-19'
+    confidence: firsthand_account
+    fact_type: subjective
+    context: Loves teammates and management chain; fears reorganization breaking up
+      team; not passionate about HR/financial software
+  - fact: Apps orgs hire functional experts, not platform people
+    source: Dan Garry (Principal Product Manager, AI Agents UX (Dublin))
+    date: '2025-10-19'
+    confidence: firsthand_account
+    fact_type: objective
+    context: Interviewee wouldn't have qualified for apps org roles
+  - fact: 'One change needed: reduce Apps developers'' extreme risk aversion'
+    source: Dan Garry (Principal Product Manager, AI Agents UX (Dublin))
+    date: '2025-10-19'
+    confidence: firsthand_account
+    fact_type: subjective
+    context: Currently release every 6 months regardless of readiness; need to increase
+      velocity
+  missing_information:
+  - Actual turnover rate post-layoffs
+  - Details on organizational structure changes
+  - Morale measurement beyond subjective observations
+  - Typical tenure at each level
+  - What percentage of eligible employees actually get promoted each cycle
+technical_culture:
+  facts_found:
+  - fact: Uses Gemini AI models
+    source: Dan Garry (Principal Product Manager, AI Agents UX (Dublin))
+    date: '2025-10-19'
+    confidence: firsthand_account
+    fact_type: objective
+  - fact: Primary cloud provider is AWS despite using Google Gemini models
+    source: Dan Garry (Principal Product Manager, AI Agents UX (Dublin))
+    date: '2025-10-19'
+    confidence: firsthand_account
+    fact_type: objective
+  - fact: Significant private cloud infrastructure with own data centers that Workday
+      hosts
+    source: Dan Garry (Principal Product Manager, AI Agents UX (Dublin))
+    date: '2025-10-19'
+    confidence: firsthand_account
+    fact_type: objective
+  - fact: Some customers on private cloud, some on public cloud, customer-by-customer
+      basis
+    source: Dan Garry (Principal Product Manager, AI Agents UX (Dublin))
+    date: '2025-10-19'
+    confidence: firsthand_account
+    fact_type: objective
+  - fact: General trend towards public cloud migration though unclear if goal is 100%
+      migration
+    source: Dan Garry (Principal Product Manager, AI Agents UX (Dublin))
+    date: '2025-10-19'
+    confidence: firsthand_account
+    fact_type: objective
+  - fact: Data center issues have accelerated move to public cloud
+    source: Dan Garry (Principal Product Manager, AI Agents UX (Dublin))
+    date: '2025-10-19'
+    confidence: firsthand_account
+    fact_type: objective
+    context: Portland data center had major outage due to power failures and equipment
+      damage
+  - fact: Still operating 3 private data centers, accelerating move to AWS public
+      cloud
+    source: Dan Garry (Principal Product Manager, AI Agents UX (Dublin))
+    date: '2025-10-19'
+    confidence: firsthand_account
+    fact_type: objective
+  - fact: Portland data center outage caused by redundant power line being cut weeks
+      earlier without alerting, then battery failure and generator overload
+    source: Dan Garry (Principal Product Manager, AI Agents UX (Dublin))
+    date: '2025-10-19'
+    confidence: firsthand_account
+    fact_type: objective
+    context: Batteries lasted 3 minutes vs 10 minute rating; destroyed transformers
+      and breakers; no alerting; JIRA also hosted there so incident management complicated
+  - fact: Disaster recovery guarantee is never lose more than 8-24 hours of data
+    source: Dan Garry (Principal Product Manager, AI Agents UX (Dublin))
+    date: '2025-10-19'
+    confidence: firsthand_account
+    fact_type: objective
+    context: Interviewee uncertain if 8 or 24 hours
+  - fact: US federal government customers want public cloud (AWS GovCloud) over private
+      infrastructure
+    source: Dan Garry (Principal Product Manager, AI Agents UX (Dublin))
+    date: '2025-10-19'
+    confidence: firsthand_account
+    fact_type: objective
+    context: Assumption that regulated industries want private cloud is not necessarily
+      true
+  - fact: GitHub Copilot and Cursor are approved AI coding tools provided to developers
+    source: Dan Garry (Principal Product Manager, AI Agents UX (Dublin))
+    date: '2025-10-19'
+    confidence: firsthand_account
+    fact_type: objective
+    context: There are more AI tools available beyond these
+  - fact: Approximately 70% of developers use AI coding tools actively for tasks like
+      analyzing unfamiliar repos
+    source: Dan Garry (Principal Product Manager, AI Agents UX (Dublin))
+    date: '2025-10-19'
+    confidence: firsthand_account
+    fact_type: objective
+    context: Few developers don't use AI tools at all
+  - fact: Some developers generate code using Cursor and merge it directly, not always
+      with good results
+    source: Dan Garry (Principal Product Manager, AI Agents UX (Dublin))
+    date: '2025-10-19'
+    confidence: firsthand_account
+    fact_type: objective
+  - fact: No apparent limits on Cursor usage, no reports of developers hitting credit
+      limits
+    source: Dan Garry (Principal Product Manager, AI Agents UX (Dublin))
+    date: '2025-10-19'
+    confidence: firsthand_account
+    fact_type: objective
+    context: Unclear if not using enough to hit limits or if limits are high
+  - fact: Gemini video generation limited to 3 clips per day per user
+    source: Dan Garry (Principal Product Manager, AI Agents UX (Dublin))
+    date: '2025-10-19'
+    confidence: firsthand_account
+    fact_type: objective
+    context: Unclear if enforced by Google or Workday policy
+  - fact: Access to multiple LLMs including Claude, but primarily for building products
+      rather than personal use
+    source: Dan Garry (Principal Product Manager, AI Agents UX (Dublin))
+    date: '2025-10-19'
+    confidence: firsthand_account
+    fact_type: objective
+    context: Could assemble something in ML staging environment to use Claude personally
+      but not straightforward
+  - fact: Interviewee uses Gemini frequently, approximately 50/50 for work vs testing
+      capabilities and making funny videos
+    source: Dan Garry (Principal Product Manager, AI Agents UX (Dublin))
+    date: '2025-10-19'
+    confidence: firsthand_account
+    fact_type: subjective
+    context: Capability exploration considered part of role
+  - fact: Proprietary development language Exo compiles to Java, used primarily for
+      functional/application development
+    source: Dan Garry (Principal Product Manager, AI Agents UX (Dublin))
+    date: '2025-10-19'
+    confidence: firsthand_account
+    fact_type: objective
+    context: Product teams building payroll, UI pages use Exo
+  - fact: Exo enabled rapid scaling but has become a massive problem
+    source: Dan Garry (Principal Product Manager, AI Agents UX (Dublin))
+    date: '2025-10-19'
+    confidence: firsthand_account
+    fact_type: subjective
+    context: 'Double-edged sword: wouldn''t have gotten here without it, but now causing
+      issues'
+  - fact: Exo provides extremely high confidence that if something works in test environment,
+      it will work in production (98% of time)
+    source: Dan Garry (Principal Product Manager, AI Agents UX (Dublin))
+    date: '2025-10-19'
+    confidence: firsthand_account
+    fact_type: objective
+    context: Builds on frameworks and services already shipped to production
+  - fact: Exo abstraction causes QAs and developers to lack understanding of basic
+      client-server architecture and HTTP concepts
+    source: Dan Garry (Principal Product Manager, AI Agents UX (Dublin))
+    date: '2025-10-19'
+    confidence: firsthand_account
+    fact_type: objective
+    context: QAs don't know what a 401 error is, don't understand that services must
+      be deployed to production
+  - fact: Almost all of Workday product UI is built using Exo, contributing to consistency
+    source: Dan Garry (Principal Product Manager, AI Agents UX (Dublin))
+    date: '2025-10-19'
+    confidence: firsthand_account
+    fact_type: objective
+    context: Pages that feel different are bespoke React implementations
+  - fact: Workday UI is universally awful but consistent, unlike Facebook Business
+      which is inconsistent
+    source: Dan Garry (Principal Product Manager, AI Agents UX (Dublin))
+    date: '2025-10-19'
+    confidence: firsthand_account
+    fact_type: subjective
+    context: Consistency is valuable because users can learn consistent patterns even
+      if bad
+  - fact: Platform technology teams work differently from functional application teams
+    source: Dan Garry (Principal Product Manager, AI Agents UX (Dublin))
+    date: '2025-10-19'
+    confidence: firsthand_account
+    fact_type: objective
+    context: Platform teams building Agent Gateway, Agent System of Record
+  - fact: 'Platform teams use industry-standard stack: Java, AWS, Kubernetes, with
+      weekly release trains and feature flags'
+    source: Dan Garry (Principal Product Manager, AI Agents UX (Dublin))
+    date: '2025-10-19'
+    confidence: firsthand_account
+    fact_type: objective
+    context: All tenants updated simultaneously with feature toggles
+  - fact: Platform teams have approximately 15% of changes with issues, but fast MTTR
+      via feature flags
+    source: Dan Garry (Principal Product Manager, AI Agents UX (Dublin))
+    date: '2025-10-19'
+    confidence: firsthand_account
+    fact_type: objective
+  - fact: Platform teams have weekly maintenance windows on Saturday mornings
+    source: Dan Garry (Principal Product Manager, AI Agents UX (Dublin))
+    date: '2025-10-19'
+    confidence: firsthand_account
+    fact_type: objective
+  - fact: Application teams release twice yearly (R1 in March, R2 in September/October)
+    source: Dan Garry (Principal Product Manager, AI Agents UX (Dublin))
+    date: '2025-10-19'
+    confidence: firsthand_account
+    fact_type: objective
+    context: Use manual QA processes, less technical sophistication
+  - fact: Application teams often don't understand service architecture concepts
+    source: Dan Garry (Principal Product Manager, AI Agents UX (Dublin))
+    date: '2025-10-19'
+    confidence: firsthand_account
+    fact_type: objective
+  - fact: QAs in application teams test in internal test environments and declare
+      things ready for production without verifying services are deployed to production
+    source: Dan Garry (Principal Product Manager, AI Agents UX (Dublin))
+    date: '2025-10-19'
+    confidence: firsthand_account
+    fact_type: objective
+    context: Cultural issue where Exo creates assumption that SUV success = production
+      readiness
+  - fact: Agent system uses delegated credentials so agent can do exactly what user
+      can do
+    source: Dan Garry (Principal Product Manager, AI Agents UX (Dublin))
+    date: '2025-10-19'
+    confidence: firsthand_account
+    fact_type: objective
+    context: Previously didn't even track that action was performed by agent, just
+      logged as user action
+  - fact: New agent system user concept will track that action was performed by agent
+      on behalf of user in audit trail
+    source: Dan Garry (Principal Product Manager, AI Agents UX (Dublin))
+    date: '2025-10-19'
+    confidence: firsthand_account
+    fact_type: objective
+    context: Will show 'Payroll Agent on behalf of Dan Garry' using existing delegation
+      concept
+  - fact: Agent System of Record controls which skills/permissions an agent has access
+      to
+    source: Dan Garry (Principal Product Manager, AI Agents UX (Dublin))
+    date: '2025-10-19'
+    confidence: firsthand_account
+    fact_type: objective
+    context: First-party agents only; governance of what payroll agent can/cannot
+      do
+  - fact: Product has been demoed at Rising conference multiple years without shipping
+    source: Dan Garry (Principal Product Manager, AI Agents UX (Dublin))
+    date: '2025-10-19'
+    confidence: firsthand_account
+    fact_type: objective
+    context: Interviewee made humorous video about 'third year running' of walkthroughs
+      demo
+  - fact: Agent product shipped to Early Access with known bad UX due to technical
+      limitations
+    source: Dan Garry (Principal Product Manager, AI Agents UX (Dublin))
+    date: '2025-10-19'
+    confidence: firsthand_account
+    fact_type: objective
+    context: Missing orchestrator and other technical compromises; leadership approved
+      shipping anyway
+  - fact: Leadership swinging from 'right pace' to 'ship quickly' - possibly overcorrecting
+    source: Dan Garry (Principal Product Manager, AI Agents UX (Dublin))
+    date: '2025-10-19'
+    confidence: firsthand_account
+    fact_type: subjective
+  missing_information:
+  - Testing coverage requirements
+  - DORA metrics specific numbers
+  - Code review practices and SLAs
+  - On-call rotation and incident response details
+  - DORA metrics (lead time, MTTR, change failure rate) specific numbers
+  - Deployment frequency to production for platform teams beyond 'weekly'
+  - Specific AI tools usage budgets or limits beyond Gemini video
+summary:
+  total_facts_found: 112
+  information_completeness: high
+  most_recent_interview: '2025-10-19'
+  oldest_interview: '2025-10-19'
+  total_interviews: 1
+  interviewees:
+  - name: Dan Garry
+    role: Principal Product Manager, AI Agents UX (Dublin)
+    interview_date: '2025-10-19'
+company_slug: workday

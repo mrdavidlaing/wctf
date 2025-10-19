@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Workday Insider Interview Guide - WCTF</title>
+    <style>
+        @media print {
+            @page {
+                size: A4;
+                margin: 2cm 1.5cm;
+            }
+            body { font-size: 9pt; }
+            h1 { font-size: 16pt; }
+            h2 { font-size: 11pt; page-break-after: avoid; }
+            h3 { font-size: 10pt; page-break-after: avoid; }
+        }
+
+        body {
+            font-family: 'Arial', 'Helvetica', sans-serif;
+            font-size: 10pt;
+            line-height: 1.4;
+            color: #333;
+            max-width: 21cm;
+            margin: 0 auto;
+            padding: 1cm;
+            background-color: #f5f5f5;
+        }
+
+        .page {
+            background-color: white;
+            padding: 2cm 1.5cm;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            font-size: 18pt;
+            font-weight: bold;
+            margin-top: 0;
+            margin-bottom: 0.3cm;
+            border-bottom: 2px solid #333;
+            padding-bottom: 0.2cm;
+            color: #000;
+        }
+
+        h2 {
+            font-size: 14pt;
+            font-weight: bold;
+            margin-top: 0.8cm;
+            margin-bottom: 0.3cm;
+            color: #000;
+            page-break-after: avoid;
+        }
+
+        h3 {
+            font-size: 11pt;
+            font-weight: bold;
+            margin-top: 0.5cm;
+            margin-bottom: 0.2cm;
+            color: #222;
+            page-break-after: avoid;
+        }
+
+        h4 {
+            font-size: 10pt;
+            font-weight: bold;
+            margin-top: 0.3cm;
+            margin-bottom: 0.2cm;
+            font-style: italic;
+            color: #444;
+            page-break-after: avoid;
+        }
+
+        p { margin: 0.2cm 0; }
+
+        ul, ol {
+            margin: 0.3cm 0;
+            padding-left: 1.2cm;
+        }
+
+        li {
+            margin: 0.1cm 0;
+            page-break-inside: avoid;
+        }
+
+        blockquote {
+            background-color: #f5f5f5;
+            border-left: 4px solid #666;
+            padding: 0.3cm 0.5cm;
+            margin: 0.4cm 0;
+            font-weight: bold;
+            page-break-inside: avoid;
+        }
+
+        .critical-checklist {
+            background-color: #fffacd;
+            border: 2px solid #ffd700;
+            padding: 0.5cm;
+            margin: 0.5cm 0;
+        }
+
+        .conversation-branch {
+            background-color: #f0f8ff;
+            border-left: 3px solid #4682b4;
+            padding: 0.3cm 0.5cm;
+            margin: 0.3cm 0 0.3cm 0.5cm;
+        }
+
+        hr {
+            border: none;
+            border-top: 1px solid #ccc;
+            margin: 0.5cm 0;
+        }
+
+        .print-button {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            padding: 12px 24px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 14pt;
+            font-weight: bold;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+            z-index: 1000;
+        }
+
+        .print-button:hover { background-color: #45a049; }
+
+        @media print {
+            .print-button { display: none; }
+            .page { box-shadow: none; padding: 0; }
+            body { background-color: white; padding: 0; }
+        }
+
+        .metadata {
+            font-size: 10pt;
+            color: #666;
+            font-style: italic;
+            margin-bottom: 0.5cm;
+        }
+    </style>
+</head>
+<body>
+    <button class="print-button" onclick="window.print()">🖨️ Print to PDF</button>
+    <div class="page">
+        <h1>Workday Insider Interview Guide</h1>
+        <p class="metadata">WCTF Framework - Insider Interview Preparation<br>
+        Generated: October 18, 2025</p>
+
+        <hr>
+
+        <div class="critical-checklist">
+            <h2 style="margin-top: 0;">✅ Critical Data Checklist</h2>
+            <p><em>Ensure you get answers to these before the interview ends:</em></p>
+            <ul>
+    <li><strong>What are Workday's DORA metrics? Deployment frequency, lead time for changes, MTTR, change failure rate?</strong></li>
+    <li><strong>Does Workday provide AI coding tools like GitHub Copilot, Cursor, or internal alternatives?</strong></li>
+    <li><strong>How is technology positioned relative to business? Do engineers have seat at strategic table?</strong></li>
+    <li><strong>What is the actual deployment velocity? How often do teams ship to production?</strong></li>
+    <li><strong>What caused Feb 2025 layoffs if company is profitable and growing? Are more planned?</strong></li>
+    <li><strong>What is staff engineer compensation for Dublin including base, RSUs, bonus, refresh schedule?</strong></li>
+    <li><strong>What engineering teams are in Dublin? Do they own products or support US teams?</strong></li>
+    <li><strong>What is post-layoff morale in Dublin engineering org?</strong></li>
+
+            </ul>
+        </div>
+
+        <hr>
+
+        <h2>PHASE 1: Opening & Role Context (10-15 min)</h2>
+
+        <h3>Starter Question</h3>
+        <blockquote>
+            "Tell me about your journey to Workday and your current role?"
+        </blockquote>
+
+        <h4>Branch A: If they emphasize excitement about technology/their work</h4>
+        <div class="conversation-branch">
+            <ul>
+                <li>"That's great! What does your role actually encompass day-to-day?"</li>
+                <li>"How big is your team, and what do you own end-to-end?"</li>
+                <li>"What are you most excited about technically right now?"</li>
+            </ul>
+        </div>
+
+        <h4>Branch B: If they mention organizational change/challenges</h4>
+        <div class="conversation-branch">
+            <ul>
+                <li>"How has that affected your team specifically?"</li>
+                <li>"What's changed as a result?"</li>
+                <li>"How's the team handling it?"</li>
+            </ul>
+        </div>
+
+        <h4>Branch C: If they talk about team/office location</h4>
+        <div class="conversation-branch">
+            <ul>
+                <li>"Does your team own products end-to-end or support other teams?"</li>
+                <li>"What's the decision-making autonomy like?"</li>
+                <li>"How does your location fit into the broader organization?"</li>
+            </ul>
+        </div>
+
+        <hr>
+
+        <h2>PHASE 2: Technical Reality Check (10-15 min)</h2>
+
+        <h3>Starter Question</h3>
+        <blockquote>
+            "I'm trying to understand day-to-day engineering at Workday. How often does your team deploy to production?"
+        </blockquote>
+
+        <h4>Branch A: If "daily" or "multiple times per day"</h4>
+        <div class="conversation-branch">
+            <ul>
+                <li>"That's impressive! What CI/CD setup enables that velocity?"</li>
+                <li>"Do teams ship independently or coordinate releases?"</li>
+                <li>"What DORA metrics do you track?"</li>
+                <li><strong>Then:</strong> "Does Workday provide AI coding tools like Copilot or Cursor?"</li>
+            </ul>
+        </div>
+
+        <h4>Branch B: If "weekly" or "sprint-based"</h4>
+        <div class="conversation-branch">
+            <ul>
+                <li>"Is that driven by customer validation needs or internal process?"</li>
+                <li>"How does that cadence affect iteration and experimentation?"</li>
+                <li>"Are there initiatives to speed that up?"</li>
+                <li><strong>Then:</strong> "What productivity tools does engineering get?"</li>
+            </ul>
+        </div>
+
+        <h4>Branch C: If vague or "it depends"</h4>
+        <div class="conversation-branch">
+            <ul>
+                <li>"Walk me through a recent feature - from commit to production."</li>
+                <li>"What's the biggest bottleneck in your deployment pipeline?"</li>
+                <li>"Any technical debt or legacy constraints slowing you down?"</li>
+            </ul>
+        </div>
+
+        <hr>
+
+        <h2>PHASE 3: Culture & Leadership (10 min)</h2>
+
+        <h3>Leadership Question</h3>
+        <blockquote>
+            "How would you describe the leadership and culture at Workday?"
+        </blockquote>
+
+        <h4>If they critique leadership</h4>
+        <div class="conversation-branch">
+            <ul>
+                <li>"What specifically is frustrating people?"</li>
+                <li>"Do engineers feel heard and valued by leadership?"</li>
+                <li>"Is there trust in the strategic direction?"</li>
+            </ul>
+        </div>
+
+        <h4>If they defend leadership</h4>
+        <div class="conversation-branch">
+            <ul>
+                <li>"What are leaders doing well?"</li>
+                <li>"How do they communicate strategy and vision?"</li>
+                <li>"Do engineers have a seat at the strategic table?"</li>
+            </ul>
+        </div>
+
+        <h3>Team Dynamics</h3>
+        <blockquote>
+            "Is technology positioned as a strategic partner or more of an execution arm?"
+        </blockquote>
+        <ul>
+            <li>"Do engineers drive product decisions or mostly implement?"</li>
+            <li>"Who owns technical architecture decisions?"</li>
+            <li>"How is the eng/product relationship?"</li>
+        </ul>
+
+        <hr>
+
+        <h2>PHASE 4: Work Experience & Sustainability (10 min)</h2>
+
+        <h3>Day-to-Day Experience</h3>
+        <blockquote>
+            "What's the actual day-to-day experience like at Workday?"
+        </blockquote>
+
+        <ul>
+            <li>"What are typical working hours for senior ICs?"</li>
+            <li>"Any on-call burden or production support expectations?"</li>
+            <li>"How's work-life balance in practice?"</li>
+            <li>"Are there clear career paths on the IC track?"</li>
+        </ul>
+
+        <h3>Compensation (if comfortable)</h3>
+        <blockquote>
+            "What does typical total comp look like for a senior engineer - base, equity, bonus?"
+        </blockquote>
+        <ul>
+            <li>"How competitive is it compared to other companies?"</li>
+            <li>"What's the equity/refresh structure?"</li>
+            <li>"What's attrition like? Who are you competing with for talent?"</li>
+        </ul>
+
+        <h3>Remote/Hybrid Policies</h3>
+        <ul>
+            <li>"How is [their hybrid policy] enforced in practice?"</li>
+            <li>"Is it flexible or bureaucratic?"</li>
+            <li>"How do people feel about it?"</li>
+        </ul>
+
+        <hr>
+
+        <h2>PHASE 5: Honest Reflection (5-10 min)</h2>
+
+        <h3>Question 1: Biggest Frustration</h3>
+        <blockquote>
+            "Real talk - what's the biggest frustration or challenge working at Workday right now?"
+        </blockquote>
+        <p><em>Listen for: bureaucracy, slow decisions, morale, comp, tech debt, autonomy</em></p>
+
+        <h3>Question 2: One Change</h3>
+        <blockquote>
+            "If you could change one thing about the engineering culture or organization, what would it be?"
+        </blockquote>
+        <p><em>Listen for: process, tooling, leadership, team structure, policies</em></p>
+
+        <h3>Question 3: Why Stay?</h3>
+        <blockquote>
+            "Why are you still at Workday? What keeps you engaged?"
+        </blockquote>
+        <p><em>Listen for: mission, people, comp, growth, technical work, stability</em></p>
+
+        <h3>Question 4: Would You Join Today?</h3>
+        <blockquote>
+            "Last one - would you join Workday today knowing what you know now?"
+        </blockquote>
+        <ul>
+            <li><strong>If "yes":</strong> "What would seal the deal if you were evaluating it today?"</li>
+            <li><strong>If hesitate or "no":</strong> "What would need to change for it to be a 'hell yes'?"</li>
+        </ul>
+
+        <hr>
+
+        <h2>Interview Flow Guide</h2>
+        <p><strong>Recommended sequence (60-75 minutes total):</strong></p>
+        <ol>
+            <li>Opening & Role (Phase 1) → 10-15 min</li>
+            <li>Technical Reality (Phase 2) → 10-15 min</li>
+            <li>Culture & Leadership (Phase 3) → 10 min</li>
+            <li>Work Experience (Phase 4) → 10 min</li>
+            <li>Honest Reflection (Phase 5) → 5-10 min</li>
+        </ol>
+
+        <h2>Conversation Tips</h2>
+        <ul>
+            <li><strong>Tone:</strong> Conversational, not interrogation. Let them talk.</li>
+            <li><strong>Key phrases:</strong> "I'm trying to understand...", "Can you give me a specific example?", "What does that look like in practice?"</li>
+            <li><strong>Listen for signals:</strong>
+                <ul>
+                    <li>✅ Energy/enthusiasm = good signal</li>
+                    <li>⚠️ Defensiveness = bad signal</li>
+                    <li>✅ Specific examples = credibility</li>
+                    <li>⚠️ Unprompted frustrations = pay attention</li>
+                </ul>
+            </li>
+            <li><strong>Flexibility:</strong> This is a guide, not a script. Follow the energy and their answers.</li>
+        </ul>
+
+        <hr>
+
+        <h2>Post-Interview Actions</h2>
+        <ul>
+            <li>☐ Capture detailed notes immediately</li>
+            <li>☐ Rate confidence level on each critical data point (High/Medium/Low)</li>
+            <li>☐ Identify facts that validate or invalidate existing flags</li>
+            <li>☐ Note any new red/green flags discovered</li>
+            <li>☐ Decide if you need additional insider conversations</li>
+            <li>☐ Update company.insider.yaml with extracted facts</li>
+        </ul>
+
+    </div>
+    <script>
+        document.addEventListener('keydown', function(e) {
+            if ((e.ctrlKey || e.metaKey) && e.key === 'p') {
+                e.preventDefault();
+                window.print();
+            }
+        });
+    </script>
+</body>
+</html>
