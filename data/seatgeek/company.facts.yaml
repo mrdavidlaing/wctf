@@ -1,0 +1,394 @@
+company: SeatGeek
+company_slug: seatgeek
+research_date: '2025-10-19'
+financial_health:
+  facts_found:
+  - fact: SeatGeek raised $238 million in Series E funding on August 31, 2022, led
+      by Accel with participation from Wellington Management, Arctos Sports Partners,
+      and Ryan Smith
+    source: Crunchbase, TechCrunch, Sportico
+    date: '2022-08-31'
+    confidence: explicit_statement
+  - fact: Series E valued SeatGeek at $1 billion pre-money valuation (post-money valuation
+      approximately $1.2-1.35 billion)
+    source: Crunchbase News, Tracxn, Sportico
+    date: '2022-08-31'
+    confidence: explicit_statement
+  - fact: Total funding raised across all rounds is approximately $398-405 million
+    source: Tracxn, Crunchbase, CB Insights
+    date: '2022-08-31'
+    confidence: explicit_statement
+  - fact: 2021 annual revenue was $186.3 million, representing a record at the time
+    source: Sportico, Yahoo Finance, The Motley Fool
+    date: '2022-04-18'
+    confidence: explicit_statement
+  - fact: Company expected to generate over $500 million in revenue in 2023
+    source: The Information
+    date: '2023-01-01'
+    confidence: explicit_statement
+  - fact: SeatGeek reported a net loss of $80 million in 2021
+    source: The Motley Fool, Yahoo Finance
+    date: '2021-12-31'
+    confidence: explicit_statement
+  - fact: Company expected to reach profitability on adjusted EBITDA basis in second
+      half of 2023
+    source: Yahoo Finance, Sportico
+    date: '2022-04-18'
+    confidence: explicit_statement
+  - fact: SeatGeek laid off approximately 15% of its workforce in February 2025
+    source: Digital Music News, TicketNews, The Ticketing Business, Information Week
+    date: '2025-02-20'
+    confidence: explicit_statement
+  - fact: Layoffs affected employees globally including offices in New York City and
+      Berlin, including software engineers and UX specialists
+    source: Digital Music News, TicketNews
+    date: '2025-02-20'
+    confidence: explicit_statement
+  - fact: LinkedIn shows 876-881 employees as of current date
+    source: LinkedIn (SeatGeek company page)
+    date: '2025-10-19'
+    confidence: explicit_statement
+  - fact: SeatGeek has signed nearly 300 enterprise clients as of 2023
+    source: Contrary Research
+    date: '2023-01-01'
+    confidence: explicit_statement
+  - fact: Over 46 million people had downloaded the app by 2025
+    source: The Motley Fool
+    date: '2025-01-01'
+    confidence: explicit_statement
+  - fact: Notable NFL clients include Dallas Cowboys, Arizona Cardinals, New Orleans
+      Saints, Baltimore Ravens, Washington Commanders, Tennessee Titans
+    source: Wikipedia, ESPN, Dallas Cowboys official announcement
+    date: '2024-01-01'
+    confidence: explicit_statement
+  - fact: SeatGeek filed confidentially for IPO in April 2023 with Morgan Stanley
+      leading, and Citigroup and Wells Fargo added as underwriters in June 2024
+    source: Bloomberg, Benzinga, TicketNews
+    date: '2024-06-05'
+    confidence: explicit_statement
+  - fact: IPO was initially expected by end of 2024 but has not yet occurred as of
+      October 2025
+    source: Bloomberg, U.S. News, The Motley Fool
+    date: '2024-06-05'
+    confidence: explicit_statement
+  missing_information:
+  - Specific burn rate figures - No explicit monthly or quarterly cash burn rates
+    disclosed
+  - Current runway calculation - No public disclosure of months of runway remaining
+  - 2024 actual annual revenue - Multiple conflicting estimates but no official confirmation
+  - Current profitability status (2024-2025) - One source claims profitability but
+    lacks corroboration
+  - Customer acquisition costs (CAC) - Not disclosed
+  - Customer lifetime value (LTV) - Not disclosed
+  - Cash balance or runway - Not disclosed publicly
+  - Revenue breakdown between primary/secondary ticketing - Not disclosed
+market_position:
+  facts_found:
+  - fact: SeatGeek is a ticketing platform headquartered in New York City that enables
+      users to buy and sell tickets for live sports, concerts, and theater events,
+      founded in 2009
+    source: Wikipedia
+    date: '2024-10-06'
+    confidence: explicit_statement
+  - fact: Originally launched as an aggregator of listings on the secondary ticketing
+      market, the company now operates as both a secondary marketplace and a primary
+      ticketing provider for sports teams and live event venues
+    source: Wikipedia
+    date: '2016-07-01'
+    confidence: explicit_statement
+  - fact: The platform uses a 'Deal Score' algorithm which finds the combination of
+      best available price and seat location for a particular event
+    source: Wikipedia
+    date: '2024-10-01'
+    confidence: explicit_statement
+  - fact: The global online event ticketing market was worth $28.5 billion in 2021
+      and is expected to reach $52 billion by 2030, growing at a CAGR of 7.8%
+    source: Contrary Research
+    date: '2021-12-31'
+    confidence: explicit_statement
+  - fact: SeatGeek has a younger audience compared to competitors, with 36% classified
+      as Gen Z versus 18% from Ticketmaster
+    source: Contrary Research
+    date: '2023-02-01'
+    confidence: explicit_statement
+  - fact: SeatGeek has a Net Promoter Score of 45, compared to Ticketmaster's score
+      of 6
+    source: Contrary Research
+    date: '2023-02-01'
+    confidence: explicit_statement
+  - fact: In June 2021, Ticketmaster had 66% market share in sales among major competitors,
+      while SeatGeek had 9%, Vivid Seats 10%, and StubHub captured a portion of the
+      remaining share
+    source: Bloomberg Second Measure
+    date: '2021-06-30'
+    confidence: explicit_statement
+  - fact: SeatGeek's market share grew from 7.2% in 2019 to 11.5% in 2021
+    source: Contrary Research
+    date: '2021-12-31'
+    confidence: explicit_statement
+  - fact: Major League Baseball named SeatGeek its official ticket marketplace in
+      February 2023, giving the company partnerships across all major North American
+      sports leagues
+    source: Wikipedia, Forbes
+    date: '2023-02-27'
+    confidence: explicit_statement
+  - fact: SeatGeek has a TrustScore of 4.3 out of 5 on Trustpilot based on over 14,000
+      customer reviews
+    source: Trustpilot, Wikipedia
+    date: '2024-10-06'
+    confidence: explicit_statement
+  - fact: As of October 2024, the Better Business Bureau gave SeatGeek an 'F' rating,
+      with 1,866 consumer complaints filed against the company over the prior three
+      years
+    source: Wikipedia, BBB
+    date: '2024-10-06'
+    confidence: explicit_statement
+  - fact: SeatGeek operates primarily in the United States, Canada, and the United
+      Kingdom
+    source: Contrary Research, SeatGeek Support
+    date: '2024-10-01'
+    confidence: explicit_statement
+  - fact: Ticketmaster has a stronger global presence with offerings in 35 countries
+      while SeatGeek is only present in the United States, Canada, and the United
+      Kingdom
+    source: Contrary Research
+    date: '2023-02-01'
+    confidence: explicit_statement
+  - fact: SeatGeek's service fees typically range from 10% to 30% of the ticket price,
+      covering customer support, platform maintenance, and transaction costs
+    source: TheTicketLover, NetworkBuildz
+    date: '2024-10-01'
+    confidence: explicit_statement
+  - fact: SeatGeek implemented mandatory all-in pricing in May 2025, displaying the
+      full price of tickets including fees from the start of the shopping process
+    source: Houston Chronicle, TheTicketingBusiness
+    date: '2025-05-12'
+    confidence: explicit_statement
+  missing_information:
+  - SOC 2 Certification Status - No publicly available evidence
+  - ISO 27001 Certification - No publicly available evidence
+  - PCI DSS Compliance - No specific information found
+  - Specific Enterprise Pricing Tiers - Not publicly disclosed
+  - Customer retention rates - No publicly available data
+  - Churn rate - No publicly available information
+organizational_stability:
+  facts_found:
+  - fact: Jack Groetzinger serves as Co-Founder and CEO of SeatGeek since July 2009,
+      with approximately 16 years tenure
+    source: Clay.com, Wikipedia, Multiple sources
+    date: '2024-11-23'
+    confidence: explicit_statement
+  - fact: Brian D. Murphy serves as Chief Technology Officer since May 2019, previously
+      CTO at Tumblr and VP Engineering at New York Times
+    source: TechCrunch, Billboard
+    date: '2019-05-01'
+    confidence: explicit_statement
+  - fact: Brad Tacy serves as CFO of SeatGeek, starting in February 2017 with approximately
+      8 years tenure
+    source: Comparably
+    date: '2024-11-23'
+    confidence: explicit_statement
+  - fact: Anna Baird (Chief Revenue Officer at Outreach) and Melissa Selcher (Chief
+      Marketing Officer at LinkedIn) joined SeatGeek's Board of Directors in 2022
+    source: Business Wire
+    date: '2022-04-21'
+    confidence: explicit_statement
+  - fact: Peter Joyce, Managing Director for Europe, Middle East and Asia, stepped
+      down after 13 years with SeatGeek in October 2024 to take a career break
+    source: TheTicketingBusiness News
+    date: '2024-10-30'
+    confidence: explicit_statement
+  - fact: SeatGeek is headquartered in New York City at 400 Lafayette St, Floor 4
+    source: Wikipedia, LeadIQ
+    date: '2024-11-23'
+    confidence: explicit_statement
+  - fact: SeatGeek operates 'WorkGeek' flexible workplace policy allowing employees
+      to choose remote, hybrid, or full-time office work
+    source: Glassdoor Benefits page
+    date: '2024-11-23'
+    confidence: explicit_statement
+  - fact: SeatGeek has office locations in New York, Portland OR, Manchester UK, Israel,
+      Berlin Germany, Copenhagen Denmark, and other cities
+    source: LinkedIn, Unify GTM
+    date: '2025-08-01'
+    confidence: explicit_statement
+  - fact: SeatGeek has an overall Glassdoor rating of 3.6 out of 5 stars based on
+      280-283 anonymous employee reviews
+    source: Glassdoor Overview page
+    date: '2025-10-19'
+    confidence: explicit_statement
+  - fact: SeatGeek work-life balance rating is 3.9 out of 5 stars on Glassdoor
+    source: Glassdoor Reviews
+    date: '2025-10-19'
+    confidence: explicit_statement
+  - fact: SeatGeek compensation and benefits rating is 3.6 out of 5 stars on Glassdoor
+    source: Glassdoor Reviews
+    date: '2025-10-19'
+    confidence: explicit_statement
+  - fact: 54% of SeatGeek employees would recommend working there to a friend based
+      on Glassdoor reviews
+    source: Glassdoor Reviews
+    date: '2025-10-19'
+    confidence: explicit_statement
+  - fact: 48% of employees think SeatGeek has a positive business outlook
+    source: Glassdoor Overview page
+    date: '2025-10-19'
+    confidence: explicit_statement
+  - fact: Employee reviews cite poor leadership, low compensation with 3-4% annual
+      raises and no bonuses, and limited career progression as main cons
+    source: Glassdoor Reviews
+    date: '2025-10-19'
+    confidence: explicit_statement
+  - fact: SeatGeek Executive Team receives a 'D+' rating (59 out of 100) from employees
+      on Comparably, ranking in Bottom 25% of similar-sized companies
+    source: Comparably Executive Team page
+    date: '2024-11-23'
+    confidence: explicit_statement
+  missing_information:
+  - Exact current employee count - Sources vary from 797 to 1,000+ with no official
+    2025 confirmation
+  - Complete list of current VPs and their exact start dates
+  - Compensation ranges for leadership team - Not publicly available
+  - Annual retention metrics - High turnover mentioned but no specific percentages
+technical_culture:
+  facts_found:
+  - fact: SeatGeek uses Python, Go, and C# with .NET Core as primary backend languages
+    source: SeatGeek Machine Learning Engineer job posting
+    date: '2025-10-01'
+    confidence: explicit_statement
+  - fact: Frontend stack includes TypeScript with React for web applications, Kotlin
+      for Android, and Swift for iOS
+    source: Job postings and StackShare
+    date: '2025-01-01'
+    confidence: explicit_statement
+  - fact: Infrastructure uses AWS extensively including SageMaker, Redshift, ECS,
+      Lambda, DynamoDB, and API Gateway
+    source: SeatGeek engineering blog posts and AWS Architecture Blog
+    date: '2025-01-01'
+    confidence: explicit_statement
+  - fact: SeatGeek uses Kubernetes for container orchestration, having migrated CI/CD
+      infrastructure from Nomad to Kubernetes
+    source: SeatGeek Engineering Blog - CI migration series
+    date: '2024-01-01'
+    confidence: explicit_statement
+  - fact: SeatGeek maintains 169 public repositories on GitHub
+    source: GitHub.com/seatgeek
+    date: '2025-10-01'
+    confidence: explicit_statement
+  - fact: SeatGeek open-sourced 'fuzzywuzzy', a popular Python fuzzy string matching
+      library with 9.3k stars
+    source: GitHub.com/seatgeek
+    date: '2025-01-01'
+    confidence: explicit_statement
+  - fact: SeatGeek released 'buildkit-operator' as open source - a Kubernetes operator
+      for ephemeral BuildKit instances in CI
+    source: SeatGeek Engineering Blog and GitHub
+    date: '2025-08-01'
+    confidence: explicit_statement
+  - fact: SeatGeek maintains an active engineering blog called 'ChairNerd' at chairnerd.seatgeek.com
+      covering code, design, and growth topics
+    source: chairnerd.seatgeek.com
+    date: '2025-01-01'
+    confidence: explicit_statement
+  - fact: Recent blog posts (2024-2025) cover topics including ephemeral environments,
+      IAM automation, Fastly TLS operator, CDN caching strategy, and CI/CD migration
+      to Kubernetes
+    source: SeatGeek Engineering Blog
+    date: '2024-01-01'
+    confidence: explicit_statement
+  - fact: CI infrastructure improvements reduced average job queue time from 16 seconds
+      to 2 seconds and p98 from 3+ minutes to under 4 seconds
+    source: SeatGeek Engineering Blog
+    date: '2024-01-01'
+    confidence: explicit_statement
+  - fact: CI migration reduced cost per job by 40% compared to previous EC2-based
+      setup
+    source: SeatGeek Engineering Blog
+    date: '2024-01-01'
+    confidence: explicit_statement
+  - fact: SeatGeek actively hiring Senior Machine Learning Engineers with salaries
+      $145-200K, focusing on building ML infrastructure and real-time inference pipelines
+    source: SeatGeek job postings on Greenhouse and The Ladders
+    date: '2025-10-01'
+    confidence: explicit_statement
+  - fact: ML frameworks in use include scikit-learn, TensorFlow, and PyTorch
+    source: SeatGeek job posting
+    date: '2025-10-01'
+    confidence: explicit_statement
+  - fact: SeatGeek launched 'Smart Pricing' AI-powered tool in February 2024 for automated
+      ticket pricing recommendations
+    source: SeatGeek press release
+    date: '2024-02-27'
+    confidence: explicit_statement
+  - fact: Customer support uses Zendesk AI agents, achieving 51.5% automated resolution
+      rate with AI satisfaction scores jumping from 34% to 70%
+    source: Zendesk case study
+    date: '2025-06-01'
+    confidence: explicit_statement
+  - fact: Interview process typically includes recruiter screening, technical/coding
+      rounds, system design, behavioral interviews, with average process taking 20.28
+      days
+    source: Glassdoor interview reviews
+    date: '2025-01-01'
+    confidence: explicit_statement
+  - fact: Interview difficulty rated 2.93 out of 5 on Glassdoor, with 42.8% positive
+      interview experience rating
+    source: Glassdoor
+    date: '2025-01-01'
+    confidence: explicit_statement
+  - fact: SeatGeek runs 12-week summer internship program for college students in
+      Backend (Python, Go), Frontend (TypeScript + React), Mobile (Kotlin, Swift),
+      and Platform (AWS, Docker)
+    source: SeatGeek careers page
+    date: '2025-01-01'
+    confidence: explicit_statement
+  missing_information:
+  - Engineering team size breakdown - Total company size is 1,200+ employees, but
+    specific engineering headcount not disclosed
+  - Specific ML model details - Infrastructure described but specific models not detailed
+    publicly
+  - Patent portfolio - No information found
+  - Engineering blog publication frequency - Posts visible from 2024-2025 but exact
+    cadence not stated
+  - Performance review and promotion process - Not detailed publicly
+  - Testing practices specifics - CI/CD documented but testing frameworks and code
+    coverage requirements not detailed
+summary:
+  total_facts_found: 63
+  information_completeness: medium
+  most_recent_data_point: '2025-10-19'
+  oldest_data_point: '2009-07-01'
+  key_insights:
+  - SeatGeek is a well-funded ($398M total, $1B+ valuation) ticketing platform with
+    strong sports league partnerships but operating in a Ticketmaster-dominated market
+    (66% vs 9% market share)
+  - 'Recent financial concerns: 15% workforce layoff in February 2025, delayed IPO
+    (filed April 2023, not yet executed), and lack of publicly confirmed profitability
+    despite 2023 projections'
+  - 'Mixed organizational stability: Long-tenured founders (16+ years) but executive
+    team rated D+ (Bottom 25%), 48% positive business outlook, and compensation concerns'
+  - Strong technical culture with active engineering blog, 169 GitHub repos, modern
+    stack (Python/Go/TypeScript/React/Kubernetes/AWS), and significant AI/ML investment
+  - Work-life balance rated positively (3.9/5) with flexible remote/hybrid policy,
+    but career growth and compensation rated poorly
+  red_flags:
+  - 15% workforce reduction in February 2025 affecting engineering roles
+  - BBB F rating with 1,866 complaints despite 4.3/5 Trustpilot score
+  - Executive team in bottom 25% of peer companies per employee ratings
+  - Delayed IPO suggests challenging market conditions or internal readiness issues
+  - Only 54% of employees would recommend to a friend
+  - Limited geographic presence (only US, Canada, UK) vs global competitors
+  positive_signals:
+  - Strong founding team with 16+ years commitment
+  - Active engineering culture with open source contributions and technical blog
+  - Modern technology stack with investment in AI/ML
+  - Flexible work policy and good work-life balance (3.9/5)
+  - Growing market share (7.2% to 11.5% from 2019-2021)
+  - Major sports league partnerships including NFL, NBA, MLB, Premier League
+  data_quality_notes:
+  - Most financial data is from 2021-2022; limited 2024-2025 transparency post-SPAC
+    cancellation
+  - No SOC 2, ISO 27001, or security certifications found publicly
+  - Employee count varies across sources (797-1000+) with no official confirmation
+  - Revenue estimates for 2024 range widely ($125M-$750M) across sources
+  - Profitability claims lack official verification

@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SeatGeek Evaluation Overview - WCTF</title>
+    <style>
+        @media print {
+            @page {
+                size: A4;
+                margin: 1.5cm 1.2cm;
+            }
+            body { font-size: 9pt; }
+            h1 { font-size: 16pt; }
+            h2 { font-size: 11pt; page-break-after: avoid; }
+            h3 { font-size: 10pt; page-break-after: avoid; }
+        }
+
+        body {
+            font-family: 'Arial', 'Helvetica', sans-serif;
+            font-size: 10pt;
+            line-height: 1.35;
+            color: #333;
+            max-width: 21cm;
+            margin: 0 auto;
+            padding: 1cm;
+            background-color: #f5f5f5;
+        }
+
+        .page {
+            background-color: white;
+            padding: 1.5cm 1.2cm;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            font-size: 18pt;
+            font-weight: bold;
+            margin-top: 0;
+            margin-bottom: 0.2cm;
+            border-bottom: 2px solid #333;
+            padding-bottom: 0.2cm;
+            color: #000;
+        }
+
+        h2 {
+            font-size: 13pt;
+            font-weight: bold;
+            margin-top: 0.6cm;
+            margin-bottom: 0.2cm;
+            color: #000;
+            page-break-after: avoid;
+            background-color: #e8e8e8;
+            padding: 0.2cm 0.3cm;
+            border-left: 4px solid #333;
+        }
+
+        h3 {
+            font-size: 10pt;
+            font-weight: bold;
+            margin-top: 0.4cm;
+            margin-bottom: 0.15cm;
+            color: #222;
+            page-break-after: avoid;
+        }
+
+        p { margin: 0.15cm 0; }
+
+        ul, ol {
+            margin: 0.2cm 0;
+            padding-left: 1cm;
+        }
+
+        li {
+            margin: 0.08cm 0;
+            page-break-inside: avoid;
+        }
+
+        hr {
+            border: none;
+            border-top: 1px solid #ccc;
+            margin: 0.4cm 0;
+        }
+
+        .framework-box {
+            background-color: #f0f8ff;
+            border: 2px solid #4682b4;
+            padding: 0.4cm;
+            margin: 0.4cm 0;
+        }
+
+        .priority-box {
+            background-color: #fffacd;
+            border: 2px solid #ffd700;
+            padding: 0.4cm;
+            margin: 0.4cm 0;
+        }
+
+        .print-button {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            padding: 12px 24px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 14pt;
+            font-weight: bold;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+            z-index: 1000;
+        }
+
+        .print-button:hover { background-color: #45a049; }
+
+        @media print {
+            .print-button { display: none; }
+            .page { box-shadow: none; padding: 0; }
+            body { background-color: white; padding: 0; }
+        }
+
+        .metadata {
+            font-size: 10pt;
+            color: #666;
+            font-style: italic;
+            margin-bottom: 0.5cm;
+        }
+    </style>
+</head>
+<body>
+    <button class="print-button" onclick="window.print()">🖨️ Print to PDF</button>
+    <div class="page">
+        <h1>SeatGeek Evaluation Overview</h1>
+        <p class="metadata">
+            <strong>Framework:</strong> Worth Climbing Together Framework (WCTF) v3.1<br>
+            <strong>Evaluator Context:</strong> Extracted from conversation notes<br>
+            <strong>Research Date:</strong> 2025-10-19 | <strong>Evaluation Date:</strong> 2025-10-19
+        </p>
+
+        <hr>
+
+        <div class="framework-box">
+            <h2 style="margin-top: 0; background: none; padding: 0; border: none;">The WCTF Framework</h2>
+            <p><strong>Worth Climbing Together Framework (WCTF)</strong> treats job evaluation like planning a mountain expedition. Every job opportunity is a mountain to climb, and success requires more than just a viable business - you need the right peak, the right team, sustainable conditions, and a story worth telling.</p>
+
+            <p><strong>The Mountain Metaphor - Five Dimensions:</strong></p>
+            <ol>
+                <li><strong>Mountain Range</strong> - Can <em>any</em> team succeed here? (Business viability, market position, financial health)</li>
+                <li><strong>Chosen Peak</strong> - Is everyone climbing the <em>same</em> mountain? (Technical strategy, engineering culture, alignment, <strong>coordination style matches terrain demands</strong> ← NEW v3.1)</li>
+                <li><strong>Rope Team Confidence</strong> - Does the team believe they can succeed <em>together</em>? (Leadership trust, team quality, organizational stability)</li>
+                <li><strong>Daily Climb</strong> - Will the 99 days be energizing or draining? (Work-life balance, compensation, daily sustainability)</li>
+                <li><strong>Story Worth Telling</strong> - Would you be proud to explain this work? (Career narrative, impact, skills growth)</li>
+            </ol>
+
+            <p><strong>Two-Layer Investigation:</strong></p>
+            <ul style="margin-top: 0.3cm;">
+                <li><strong>Layer 1 (Public Research):</strong> Automated research on financials, market position, organizational news, technical culture - creates baseline understanding and surfaces obvious red flags.</li>
+                <li><strong>Layer 2 (Insider Conversations):</strong> Conversations with current/former employees to validate Layer 1 findings, understand ground truth vs PR, and surface cultural nuances.</li>
+            </ul>
+
+            <p><strong>Flag-Based Philosophy:</strong> WCTF does not produce numerical scores or automated recommendations. Instead, it surfaces <strong>green flags</strong> (positive signals) and <strong>red flags</strong> (concerns) to inform your gut decision. Context matters - the same fact can be different colors depending on your priorities. There are no perfect companies, only trade-offs.</p>
+        </div>
+
+        <hr>
+
+
+        <h2>Mountain Range: Business Viability & Financial Health</h2>
+
+        <h3>✅ What I've Found</h3>
+        <ul>
+        <li>SeatGeek raised $238 million in Series E funding on August 31, 2022, led by Accel with participation from Wellington Management, Arctos Sports Partners, and Ryan Smith <em>(explicit_statement)</em></li>
+        <li>Series E valued SeatGeek at $1 billion pre-money valuation (post-money valuation approximately $1.2-1.35 billion) <em>(explicit_statement)</em></li>
+        <li>Total funding raised across all rounds is approximately $398-405 million <em>(explicit_statement)</em></li>
+
+        </ul>
+
+        <h3>🟢 Green Flags</h3>
+        <ul>
+        <li>Well-funded with $398M raised total and $1B+ valuation from Series E in 2022</li>
+        <li>300 enterprise clients including major sports teams (NFL, MLB partnerships)</li>
+        <li>Growing market share from 7.2% (2019) to 11.5% (2021) in competitive ticketing market</li>
+
+        </ul>
+
+        <h3>🚩 Red Flags</h3>
+        <ul>
+        <li>15% workforce layoff in February 2025 affecting engineers and UX specialists globally</li>
+        <li>IPO filed April 2023, expected end of 2024, still not executed as of October 2025</li>
+
+        </ul>
+
+        <h3>🔍 Need to Validate</h3>
+        <ul>
+        <li><strong>What is the current monthly burn rate and runway in months?</strong><br><em>Critical for assessing financial stability and risk of further layoffs or down rounds</em></li>
+        <li><strong>What is the actual 2024 revenue and path to profitability?</strong><br><em>Determines financial health and sustainability of engineering investments</em></li>
+
+        </ul>
+
+        <hr>
+
+        <h2>Chosen Peak: Strategic Alignment & Coordination Fit</h2>
+
+        <h3>✅ What I've Found</h3>
+        <ul>
+        <li>SeatGeek uses Python, Go, and C# with .NET Core as primary backend languages <em>(explicit_statement)</em></li>
+        <li>Frontend stack includes TypeScript with React for web applications, Kotlin for Android, and Swift for iOS <em>(explicit_statement)</em></li>
+        <li>Infrastructure uses AWS extensively including SageMaker, Redshift, ECS, Lambda, DynamoDB, and API Gateway <em>(explicit_statement)</em></li>
+
+        </ul>
+
+        <h3>🟢 Green Flags</h3>
+        <ul>
+        <li>Modern tech stack: Python/Go/C# backend, TypeScript/React frontend, Kubernetes on AWS</li>
+        <li>Active engineering blog (ChairNerd) with recent posts on infrastructure, CI/CD, and Kubernetes migration</li>
+        <li>Significant open source contributions including fuzzywuzzy (9.3k stars) and 169 public repos</li>
+
+        </ul>
+
+        <h3>🚩 Red Flags</h3>
+        <ul>
+            <li><em>None identified yet</em></li>
+
+        </ul>
+
+        <h3>🔍 Need to Validate</h3>
+        <ul>
+        <li><strong>What is the engineering team size breakdown and headcount growth plan post-layoff?</strong><br><em>Team size affects scope of impact, mentorship opportunities, and org maturity</em></li>
+        <li><strong>What security certifications does the platform have (SOC 2, ISO 27001, PCI DSS)?</strong><br><em>Payment processing platform needs strong security posture; lack of certs is concerning</em></li>
+
+        </ul>
+
+        <hr>
+
+        <h2>Rope Team Confidence: Leadership & Team Trust</h2>
+
+        <h3>✅ What I've Found</h3>
+        <ul>
+        <li>Jack Groetzinger serves as Co-Founder and CEO of SeatGeek since July 2009, with approximately 16 years tenure <em>(explicit_statement)</em></li>
+        <li>Brian D. Murphy serves as Chief Technology Officer since May 2019, previously CTO at Tumblr and VP Engineering at New York Times <em>(explicit_statement)</em></li>
+        <li>Brad Tacy serves as CFO of SeatGeek, starting in February 2017 with approximately 8 years tenure <em>(explicit_statement)</em></li>
+
+        </ul>
+
+        <h3>🟢 Green Flags</h3>
+        <ul>
+        <li>Founder-led with CEO tenure of 16 years since 2009 founding</li>
+        <li>Experienced CTO (Brian Murphy) from Tumblr and NY Times since 2019</li>
+
+        </ul>
+
+        <h3>🚩 Red Flags</h3>
+        <ul>
+        <li>Executive team rated D+ (59/100, bottom 25% of peer companies) on Comparably</li>
+        <li>Only 48% positive business outlook and 54% would recommend to friend (Glassdoor)</li>
+
+        </ul>
+
+        <h3>🔍 Need to Validate</h3>
+        <ul>
+        <li><strong>How many engineers were affected by the February 2025 layoff and what teams?</strong><br><em>Understanding scope of cuts and whether core platform teams or experimental projects were affected</em></li>
+
+        </ul>
+
+        <hr>
+
+        <h2>Daily Climb: Day-to-Day Experience</h2>
+
+        <h3>✅ What I've Found</h3>
+        <ul>
+        <li>Jack Groetzinger serves as Co-Founder and CEO of SeatGeek since July 2009, with approximately 16 years tenure <em>(explicit_statement)</em></li>
+        <li>Brian D. Murphy serves as Chief Technology Officer since May 2019, previously CTO at Tumblr and VP Engineering at New York Times <em>(explicit_statement)</em></li>
+        <li>Brad Tacy serves as CFO of SeatGeek, starting in February 2017 with approximately 8 years tenure <em>(explicit_statement)</em></li>
+
+        </ul>
+
+        <h3>🟢 Green Flags</h3>
+        <ul>
+        <li>WorkGeek flexible policy: choose remote, hybrid, or full-time office</li>
+        <li>Work-life balance rated 3.9/5 on Glassdoor</li>
+        <li>Multiple office locations (NYC, Portland, Manchester UK, Berlin, Copenhagen, Israel)</li>
+
+        </ul>
+
+        <h3>🚩 Red Flags</h3>
+        <ul>
+        <li>Low compensation: 3-4% annual raises, no bonuses, compensation rated 3.6/5</li>
+        <li>Limited career progression cited as main con in employee reviews</li>
+
+        </ul>
+
+        <h3>🔍 Need to Validate</h3>
+        <ul>
+        <li><strong>What is the total compensation range for staff engineers including equity and refresh schedule?</strong><br><em>Glassdoor indicates low compensation; need actual TC numbers to compare against market</em></li>
+
+        </ul>
+
+        <hr>
+
+        <h2>Story Worth Telling: Career Narrative & Impact</h2>
+
+        <h3>✅ What I've Found</h3>
+        <ul>
+        <li>SeatGeek is a ticketing platform headquartered in New York City that enables users to buy and sell tickets for live sports, concerts, and theater events, founded in 2009 <em>(explicit_statement)</em></li>
+        <li>Originally launched as an aggregator of listings on the secondary ticketing market, the company now operates as both a secondary marketplace and a primary ticketing provider for sports teams and live event venues <em>(explicit_statement)</em></li>
+        <li>The platform uses a 'Deal Score' algorithm which finds the combination of best available price and seat location for a particular event <em>(explicit_statement)</em></li>
+
+        </ul>
+
+        <h3>🟢 Green Flags</h3>
+        <ul>
+        <li>Working on challenging ticketing platform problems in competitive market against Ticketmaster</li>
+        <li>12-week internship program covering Backend, Frontend, Mobile, Platform</li>
+
+        </ul>
+
+        <h3>🚩 Red Flags</h3>
+        <ul>
+        <li>Operating in Ticketmaster-dominated market (66% vs 9% share) with limited geographic expansion (only US/Canada/UK vs Ticketmaster's 35 countries)</li>
+
+        </ul>
+
+        <h3>🔍 Need to Validate</h3>
+        <ul>
+        <li><strong>What is the staff/principal/distinguished engineer career ladder and promotion rate?</strong><br><em>Assessing long-term growth potential beyond staff level for 25+ year career</em></li>
+
+        </ul>
+
+        <hr>
+
+
+        <div class="priority-box">
+            <h2 style="margin-top: 0; background: none; padding: 0; border: none;">🎯 Priority Validation Targets</h2>
+            <p><em>Your insider perspective will be invaluable for validating these items:</em></p>
+            <ol>
+            <li>What is the current monthly burn rate and runway in months?</li>
+            <li>What is the actual 2024 revenue and path to profitability?</li>
+            <li>What is the staff/principal/distinguished engineer career ladder and promotion rate?</li>
+            <li>What is the total compensation range for staff engineers including equity and refresh schedule?</li>
+            <li>How many engineers were affected by the February 2025 layoff and what teams?</li>
+            <li>What is the engineering team size breakdown and headcount growth plan post-layoff?</li>
+            <li>What security certifications does the platform have (SOC 2, ISO 27001, PCI DSS)?</li>
+
+            </ol>
+        </div>
+
+        <hr>
+
+        <h2>Confidence Levels Explained</h2>
+        <ul>
+            <li><strong>HIGH confidence:</strong> Multiple independent sources, recent data, explicit statements</li>
+            <li><strong>MEDIUM confidence:</strong> Single source, implied information, or dated information</li>
+            <li><strong>LOW confidence:</strong> Absence of data, conflicting signals, or need firsthand validation</li>
+        </ul>
+
+        <p style="margin-top: 0.5cm;"><em>Your input as an insider will be invaluable for validating MEDIUM/LOW confidence items and providing ground truth on the priority questions above.</em></p>
+
+    </div>
+    <script>
+        document.addEventListener('keydown', function(e) {
+            if ((e.ctrlKey || e.metaKey) && e.key === 'p') {
+                e.preventDefault();
+                window.print();
+            }
+        });
+    </script>
+</body>
+</html>

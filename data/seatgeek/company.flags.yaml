@@ -1,0 +1,199 @@
+company: SeatGeek
+evaluation_date: '2025-10-19'
+evaluator_context: Extracted from conversation notes
+green_flags:
+  mountain_range:
+    critical_matches: []
+    strong_positives:
+    - flag: Well-funded with $398M raised total and $1B+ valuation from Series E in
+        2022
+      impact: Substantial capital backing provides runway for sustained engineering
+        investment and reduces immediate financial pressure
+      confidence: High - Crunchbase, TechCrunch, Sportico
+    - flag: 300 enterprise clients including major sports teams (NFL, MLB partnerships)
+      impact: Diversified B2B revenue reduces consumer market risk and provides stable
+        enterprise relationships
+      confidence: High - Multiple sources confirm major league partnerships
+    - flag: Growing market share from 7.2% (2019) to 11.5% (2021) in competitive ticketing
+        market
+      impact: Demonstrated ability to gain ground against Ticketmaster's 66% dominance
+        shows execution capability
+      confidence: High - Bloomberg Second Measure, Contrary Research
+    - flag: Net Promoter Score of 45 vs Ticketmaster's 6
+      impact: Strong product-market fit and customer satisfaction provides competitive
+        moat
+      confidence: High - Contrary Research
+  chosen_peak:
+    critical_matches:
+    - flag: 'Modern tech stack: Python/Go/C# backend, TypeScript/React frontend, Kubernetes
+        on AWS'
+      impact: Industry-standard tools reduce technical debt risk and make it easier
+        to attract/retain engineering talent
+      confidence: High - Job postings, StackShare, engineering blog
+    - flag: Active engineering blog (ChairNerd) with recent posts on infrastructure,
+        CI/CD, and Kubernetes migration
+      impact: Demonstrates investment in engineering excellence, knowledge sharing,
+        and technical growth culture
+      confidence: High - chairnerd.seatgeek.com
+    - flag: Significant open source contributions including fuzzywuzzy (9.3k stars)
+        and 169 public repos
+      impact: Shows commitment to engineering community, technical reputation building,
+        and sustainable engineering practices
+      confidence: High - GitHub
+    strong_positives:
+    - flag: 'CI/CD improvements: queue time 16s→2s, p98 3min→4s, 40% cost reduction'
+      impact: Strong DevOps culture with measurable improvements shows mature engineering
+        practices and continuous optimization
+      confidence: High - SeatGeek Engineering Blog
+    - flag: Investment in AI/ML infrastructure with dedicated ML engineers ($145-200K),
+        TensorFlow/PyTorch/scikit-learn stack
+      impact: Forward-looking technical investments provide interesting challenges
+        and career growth opportunities
+      confidence: High - Job postings, engineering blog
+    - flag: Zendesk AI automation achieving 51.5% resolution rate (satisfaction 34%→70%)
+      impact: Real-world AI deployment with measurable impact demonstrates practical
+        ML application vs research theater
+      confidence: High - Zendesk case study
+  rope_team_confidence:
+    critical_matches: []
+    strong_positives:
+    - flag: Founder-led with CEO tenure of 16 years since 2009 founding
+      impact: Long-term commitment and stability at top reduces risk of sudden strategic
+        pivots or acquisition-driven chaos
+      confidence: High - Multiple sources
+    - flag: Experienced CTO (Brian Murphy) from Tumblr and NY Times since 2019
+      impact: Strong technical leadership with proven track record at scale provides
+        engineering advocacy at executive level
+      confidence: High - TechCrunch, Billboard
+  daily_climb:
+    critical_matches:
+    - flag: 'WorkGeek flexible policy: choose remote, hybrid, or full-time office'
+      impact: Maximum autonomy over work location enables sustainable work-life integration
+        for 25+ year career
+      confidence: High - Glassdoor Benefits
+    - flag: Work-life balance rated 3.9/5 on Glassdoor
+      impact: Above-average work-life balance critical for long-term sustainability
+        and avoiding burnout
+      confidence: High - Glassdoor with 280+ reviews
+    strong_positives:
+    - flag: Multiple office locations (NYC, Portland, Manchester UK, Berlin, Copenhagen,
+        Israel)
+      impact: Geographic flexibility provides relocation options without changing
+        employers
+      confidence: High - LinkedIn, Unify GTM
+  story_worth_telling:
+    critical_matches: []
+    strong_positives:
+    - flag: Working on challenging ticketing platform problems in competitive market
+        against Ticketmaster
+      impact: High-visibility domain with real technical challenges (scale, pricing,
+        search, fraud) provides resume value
+      confidence: High - Market position data
+    - flag: 12-week internship program covering Backend, Frontend, Mobile, Platform
+      impact: Investment in junior talent development suggests growth paths and mentorship
+        opportunities
+      confidence: High - SeatGeek careers page
+red_flags:
+  mountain_range:
+    dealbreakers: []
+    concerning:
+    - flag: 15% workforce layoff in February 2025 affecting engineers and UX specialists
+        globally
+      impact: Recent cost-cutting raises questions about runway, profitability timeline,
+        and indicates potential financial stress despite $1B valuation
+      confidence: High - Digital Music News, TicketNews, The Ticketing Business
+    - flag: IPO filed April 2023, expected end of 2024, still not executed as of October
+        2025
+      impact: 18-month delay suggests unfavorable market conditions or internal readiness
+        issues, limiting equity liquidity timeline
+      confidence: High - Bloomberg, multiple sources
+    - flag: $80M net loss in 2021, profitability target missed (expected H2 2023,
+        unconfirmed 2024-2025)
+      impact: Path to profitability unclear, increasing risk of further cost cuts
+        or down rounds
+      confidence: High - Yahoo Finance, The Motley Fool; Medium - lack of 2024 confirmation
+    - flag: No confirmed 2024 revenue data (estimates range $125M-$750M), limited
+        financial transparency post-SPAC cancellation
+      impact: Information asymmetry makes it difficult to assess true financial health
+        and growth trajectory
+      confidence: Medium - Multiple conflicting sources
+  chosen_peak:
+    dealbreakers: []
+    concerning: []
+  rope_team_confidence:
+    dealbreakers: []
+    concerning:
+    - flag: Executive team rated D+ (59/100, bottom 25% of peer companies) on Comparably
+      impact: Poor executive ratings from employees suggests leadership dysfunction
+        that could impact engineering autonomy and strategy
+      confidence: High - Comparably
+    - flag: Only 48% positive business outlook and 54% would recommend to friend (Glassdoor)
+      impact: Below-majority employee confidence indicates cultural or strategic issues
+        that affect day-to-day morale
+      confidence: High - Glassdoor, 280+ reviews
+    - flag: Managing Director for EMEA stepped down after 13 years in October 2024
+      impact: Senior leadership departure after long tenure may signal strategic disagreements
+        or concerns about future direction
+      confidence: High - TheTicketingBusiness News
+  daily_climb:
+    dealbreakers: []
+    concerning:
+    - flag: 'Low compensation: 3-4% annual raises, no bonuses, compensation rated
+        3.6/5'
+      impact: Below-market comp limits ability to build wealth, especially concerning
+        for staff-level role expecting competitive TC
+      confidence: High - Glassdoor employee reviews
+    - flag: Limited career progression cited as main con in employee reviews
+      impact: Staff engineer role may have limited growth path to principal/distinguished
+        levels
+      confidence: Medium - Glassdoor reviews indicate pattern
+  story_worth_telling:
+    dealbreakers: []
+    concerning:
+    - flag: Operating in Ticketmaster-dominated market (66% vs 9% share) with limited
+        geographic expansion (only US/Canada/UK vs Ticketmaster's 35 countries)
+      impact: Constrained market position limits scale of impact and international
+        growth opportunities
+      confidence: High - Bloomberg Second Measure, Contrary Research
+missing_critical_data:
+- question: What is the current monthly burn rate and runway in months?
+  why_important: Critical for assessing financial stability and risk of further layoffs
+    or down rounds
+  how_to_find: Ask CFO/finance team in interview process, or research investor updates
+  mountain_element: mountain_range
+- question: What is the actual 2024 revenue and path to profitability?
+  why_important: Determines financial health and sustainability of engineering investments
+  how_to_find: Request from recruiter or finance team, check if IPO prospectus available
+  mountain_element: mountain_range
+- question: What is the staff/principal/distinguished engineer career ladder and promotion
+    rate?
+  why_important: Assessing long-term growth potential beyond staff level for 25+ year
+    career
+  how_to_find: Ask engineering leadership about career framework and recent promotions
+    at senior levels
+  mountain_element: story_worth_telling
+- question: What is the total compensation range for staff engineers including equity
+    and refresh schedule?
+  why_important: Glassdoor indicates low compensation; need actual TC numbers to compare
+    against market
+  how_to_find: Direct question to recruiter with levels.fyi data as baseline
+  mountain_element: daily_climb
+- question: How many engineers were affected by the February 2025 layoff and what
+    teams?
+  why_important: Understanding scope of cuts and whether core platform teams or experimental
+    projects were affected
+  how_to_find: Ask current employees or hiring manager about team stability
+  mountain_element: rope_team_confidence
+- question: What is the engineering team size breakdown and headcount growth plan
+    post-layoff?
+  why_important: Team size affects scope of impact, mentorship opportunities, and
+    org maturity
+  how_to_find: Ask engineering leadership in interview
+  mountain_element: chosen_peak
+- question: What security certifications does the platform have (SOC 2, ISO 27001,
+    PCI DSS)?
+  why_important: Payment processing platform needs strong security posture; lack of
+    certs is concerning
+  how_to_find: Ask security/compliance team or check trust center page
+  mountain_element: chosen_peak
+company_slug: seatgeek
