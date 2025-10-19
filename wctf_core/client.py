@@ -212,32 +212,25 @@ class WCTFClient:
         """
         return get_company_flags(company_name=company_name, base_path=self.data_dir)
 
-    def get_flags_extraction_prompt(
-        self,
-        company_name: str,
-        evaluator_context: str
-    ) -> Dict[str, Any]:
+    def get_flags_extraction_prompt(self) -> Dict[str, Any]:
         """Get prompt for extracting evaluation flags from research.
 
-        Args:
-            company_name: Name of the company being evaluated
-            evaluator_context: Your evaluation criteria and context
-                (e.g., "Senior engineer seeking strong technical culture...")
+        Returns a prompt for analyzing research facts and extracting green flags,
+        red flags, and missing critical data. The prompt expects research facts
+        to be provided in the conversation context.
 
         Returns:
             Dictionary with success status and extraction_prompt
 
         Example:
-            >>> client = WCTFClient()  # doctest: +SKIP
-            >>> context = "Senior engineer seeking work-life balance"  # doctest: +SKIP
-            >>> result = client.get_flags_extraction_prompt("Stripe", context)  # doctest: +SKIP
-            >>> print(result['extraction_prompt'])  # doctest: +SKIP
+            >>> client = WCTFClient()
+            >>> result = client.get_flags_extraction_prompt()
+            >>> result['success']
+            True
+            >>> 'extraction_prompt' in result
+            True
         """
-        return get_flags_extraction_prompt_op(
-            company_name=company_name,
-            evaluator_context=evaluator_context,
-            base_path=self.data_dir
-        )
+        return get_flags_extraction_prompt_op(base_path=self.data_dir)
 
     def save_flags(
         self,

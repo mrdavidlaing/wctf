@@ -233,7 +233,7 @@ class TestCompanyFlags:
             company="Test Company",
             evaluation_date=date(2025, 9, 28),
             evaluator_context="Senior engineer perspective",
-            senior_engineer_alignment={
+            staff_engineer_alignment={
                 "organizational_maturity": "GOOD",
                 "technical_culture": "EXCELLENT",
                 "decision_making": "GOOD",
@@ -273,7 +273,7 @@ class TestCompanyFlags:
             company="Complete Company",
             evaluation_date=date(2025, 9, 28),
             evaluator_context="25yr staff engineer",
-            senior_engineer_alignment={
+            staff_engineer_alignment={
                 "organizational_maturity": "EXCELLENT",
                 "technical_culture": "GOOD",
                 "decision_making": "EXCELLENT",

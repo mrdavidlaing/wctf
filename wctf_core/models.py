@@ -243,8 +243,8 @@ class CompanyFlags(BaseModel):
     company_slug: Optional[str] = Field(None, description="Slugified company name for filesystem (auto-generated if not provided)")
     evaluation_date: Date = Field(..., description="Date when evaluation was done")
     evaluator_context: str = Field(..., description="Context of the evaluator")
-    senior_engineer_alignment: Dict[str, str] = Field(
-        ..., description="Alignment with senior engineer criteria"
+    staff_engineer_alignment: Dict[str, str] = Field(
+        ..., description="Alignment with staff engineer criteria"
     )
     green_flags: Dict[str, MountainElementGreenFlags] = Field(
         ...,

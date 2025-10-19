@@ -90,7 +90,7 @@ red_flags:
     concerning: []
 
 missing_critical_data:
-  - question: "What's the actual compensation range for senior engineers?"
+  - question: "What's the actual compensation range for staff engineers?"
     why_important: "Critical for financial decision"
     how_to_find: "Ask directly in recruiter call or Glassdoor research"
     mountain_element: "daily_climb"
@@ -107,73 +107,25 @@ class TestGetFlagsExtractionPrompt:
 
     def test_returns_prompt(self, tmp_path):
         """Test that get_flags_extraction_prompt_op returns a prompt."""
-        result = get_flags_extraction_prompt_op(
-            company_name="TestCorp",
-            evaluator_context=SAMPLE_EVALUATOR_CONTEXT,
-            base_path=tmp_path,
-        )
+        result = get_flags_extraction_prompt_op(base_path=tmp_path)
 
         assert result["success"] is True
-        assert result["company_name"] == "TestCorp"
         assert "extraction_prompt" in result
 
-        # Verify prompt contains key elements
+        # Verify prompt contains key mountain elements
         prompt = result["extraction_prompt"]
-        assert "TestCorp" in prompt
-        assert SAMPLE_EVALUATOR_CONTEXT in prompt
         assert "mountain_range" in prompt.lower()
         assert "chosen_peak" in prompt.lower()
         assert "rope_team_confidence" in prompt.lower()
         assert "daily_climb" in prompt.lower()
         assert "story_worth_telling" in prompt.lower()
 
-    def test_validates_company_name(self, tmp_path):
-        """Test company name validation."""
-        # None should raise TypeError
-        with pytest.raises(TypeError):
-            get_flags_extraction_prompt_op(
-                company_name=None,
-                evaluator_context="test",
-                base_path=tmp_path
-            )
+        # Verify prompt mentions staff engineer perspective
+        assert "staff engineer" in prompt.lower()
 
-        # Empty string should return error
-        result = get_flags_extraction_prompt_op(
-            company_name="",
-            evaluator_context="test",
-            base_path=tmp_path
-        )
-        assert result["success"] is False
-        assert "error" in result
-
-        # Whitespace only should return error
-        result = get_flags_extraction_prompt_op(
-            company_name="   ",
-            evaluator_context="test",
-            base_path=tmp_path
-        )
-        assert result["success"] is False
-        assert "error" in result
-
-    def test_validates_evaluator_context(self, tmp_path):
-        """Test evaluator context validation."""
-        # Empty context
-        result = get_flags_extraction_prompt_op(
-            company_name="TestCorp",
-            evaluator_context="",
-            base_path=tmp_path,
-        )
-        assert result["success"] is False
-        assert "error" in result
-
-        # None context
-        result = get_flags_extraction_prompt_op(
-            company_name="TestCorp",
-            evaluator_context=None,
-            base_path=tmp_path,
-        )
-        assert result["success"] is False
-        assert "error" in result
+        # Verify prompt includes flag severity levels
+        assert "critical_matches" in prompt.lower() or "critical matches" in prompt.lower()
+        assert "dealbreakers" in prompt.lower()
 
 
 class TestSaveFlags:

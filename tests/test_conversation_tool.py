@@ -146,7 +146,7 @@ summary:
     flags_content = """company: "flags-company"
 evaluation_date: "2024-01-16"
 evaluator_context: "Senior engineer perspective"
-senior_engineer_alignment:
+staff_engineer_alignment:
   organizational_maturity: "GOOD"
   technical_culture: "GOOD"
 green_flags:

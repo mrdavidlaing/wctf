@@ -1,6 +1,6 @@
 # Mountain Flags Extraction Prompt
 
-You are analyzing conversation notes about **{company_name}** to extract evaluation flags for a senior engineer researching potential employers. Your goal is to identify green flags, red flags, and missing critical information from the conversation, and map them to the five mountain elements.
+You are analyzing research facts about a company to extract evaluation flags for a staff engineer researching potential employers. Your goal is to identify green flags, red flags, and missing critical information from the research, and map them to the five mountain elements.
 
 ## The Five Mountain Elements
 
@@ -62,13 +62,9 @@ Long-term career value and impact:
 - Equity upside potential
 - Resume value and industry recognition
 
-## Input: Conversation Notes
-
-{conversation_notes}
-
 ## Your Task
 
-Analyze the conversation notes and extract:
+Analyze the research facts provided in the conversation context and extract:
 
 1. **Green Flags** - Positive indicators organized by mountain element
 2. **Red Flags** - Concerns or negative indicators organized by mountain element
@@ -82,8 +78,8 @@ Provide your analysis in the following YAML structure (double hierarchy: mountai
 green_flags:
   mountain_range:  # Financial & Market Foundation
     critical_matches:  # Exactly what you're looking for
-      - flag: "Specific observation from conversation"
-        impact: "Why this matters for a senior engineer"
+      - flag: "Specific observation from research"
+        impact: "Why this matters for a staff engineer"
         confidence: "High/Medium/Low - evidence source"
     strong_positives:  # Generally good signals
       - flag: "Another positive observation"
@@ -124,7 +120,7 @@ green_flags:
 red_flags:
   mountain_range:  # Financial & Market Foundation
     dealbreakers:  # Would eliminate this option
-      - flag: "Specific concern from conversation"
+      - flag: "Specific concern from research"
         impact: "Why this kills the opportunity"
         confidence: "High/Medium/Low - evidence source"
     concerning:  # Worth investigating further
@@ -163,8 +159,8 @@ missing_critical_data:
 
 ## Important Guidelines
 
-- **Be specific**: Extract actual observations from the conversation, not generic statements
-- **Quote context**: Reference what was actually discussed, not assumptions
+- **Be specific**: Extract actual observations from the research, not generic statements
+- **Quote context**: Reference what was actually stated in the research, not assumptions
 - **Classify carefully**: Each flag should fit one primary mountain element
 - **Coordination flags (NEW v3.1)**: When extracting coordination-related observations, look for:
   - Style-terrain matches or mismatches (alpine/expedition/established/orienteering/trail crew)
@@ -178,14 +174,12 @@ missing_critical_data:
   - **Concerning** (red): Worth investigating further - potential issues that need clarification
 - **Empty sections OK**: If no flags found for a severity level, use empty list `[]`
 - **Confidence levels**:
-  - High: Directly stated in conversation with clear evidence
-  - Medium: Implied or inferred from discussion
+  - High: Directly stated in research with clear evidence
+  - Medium: Implied or inferred from research data
   - Low: Speculative or based on limited information
-- **Missing data**: Track questions raised but not answered, or critical topics not discussed
-- **Impact matters**: Every flag should explain WHY it matters for a senior engineer
+- **Missing data**: Track questions raised but not answered, or critical topics not covered in research
+- **Impact matters**: Every flag should explain WHY it matters for a staff engineer
 
-## Context
+## Evaluator Context
 
-- Evaluation date: {evaluation_date}
-- Evaluator context: Senior engineer (25yr experience) focused on sustainable excellence
-- Decision framework: Five mountain elements for career decisions
+You are evaluating from the perspective of a staff engineer (25+ years experience) focused on sustainable excellence and long-term career growth. Consider the five mountain elements as your decision framework.

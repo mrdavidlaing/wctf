@@ -2,7 +2,7 @@ company: test-company-1
 evaluation_date: 2025-01-15
 evaluator_context: "Senior engineer, stability focus"
 
-senior_engineer_alignment:
+staff_engineer_alignment:
   organizational_maturity: GOOD
   technical_culture: EXCELLENT
   decision_making: GOOD

@@ -1,6 +1,6 @@
 # WCTF Core SDK Reference
 
-Auto-generated from wctf_core v0.2.0 on 2025-10-18
+Auto-generated from wctf_core v0.2.0 on 2025-10-19
 
 ## Overview
 
@@ -243,6 +243,54 @@ Dictionary with:
 ```python
 >>> client = WCTFClient()
 >>> result = client.get_flags("Stripe")  # doctest: +SKIP
+```
+
+
+**`get_flags_extraction_prompt() -> Dict[str, Any]`**
+
+Get prompt for extracting evaluation flags from research.
+
+Returns a prompt for analyzing research facts and extracting green flags,
+red flags, and missing critical data. The prompt expects research facts
+to be provided in the conversation context.
+
+**Returns:**
+Dictionary with success status and extraction_prompt
+
+**Example:**
+```python
+>>> client = WCTFClient()
+>>> result = client.get_flags_extraction_prompt()
+>>> result['success']
+True
+>>> 'extraction_prompt' in result
+True
+```
+
+
+**`save_flags(company_name: <class 'str'>, flags_yaml: <class 'str'>) -> Dict[str, Any]`**
+
+Save extracted evaluation flags.
+
+Takes YAML content with extracted flags and saves to company.flags.yaml.
+Merges with existing flags if file already exists.
+
+**Parameters:**
+- company_name: Name of the company
+- flags_yaml: Complete YAML content with extracted flags
+
+**Returns:**
+Dictionary with success status and message
+
+**Example:**
+```python
+>>> client = WCTFClient()  # doctest: +SKIP
+>>> flags_yaml = '''  # doctest: +SKIP
+... company: "Stripe"
+... evaluation_date: "2025-01-15"
+... green_flags: {...}
+... '''
+>>> result = client.save_flags("Stripe", flags_yaml)  # doctest: +SKIP
 ```
 
 

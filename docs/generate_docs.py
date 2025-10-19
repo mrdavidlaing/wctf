@@ -141,7 +141,7 @@ def generate_client_api_docs() -> str:
     categories = {
         "Company Discovery": ["list_companies", "company_exists"],
         "Facts Operations": ["get_facts", "save_facts"],
-        "Flags Operations": ["get_flags", "extract_flags", "add_flag"],
+        "Flags Operations": ["get_flags", "get_flags_extraction_prompt", "save_flags", "add_flag"],
         "Research Workflow": ["get_research_prompt"],
         "Insider Interview": ["get_insider_extraction_prompt", "save_insider_facts"],
         "Conversation & Decision": ["get_conversation_questions", "gut_check", "save_decision", "get_evaluation_summary"]

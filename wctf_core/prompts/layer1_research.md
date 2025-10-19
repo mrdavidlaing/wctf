@@ -2,7 +2,7 @@
 
 **Research Mode Required:** Please use Claude Desktop's Research mode (the research toggle/button in the UI) for this investigation. Research mode provides deep, multi-source investigation with citations - much better than basic web search.
 
-Gather factual information about **{company_name}** for a senior engineer evaluating potential employers. Collect structured, verifiable facts across four categories.
+Gather factual information about **{company_name}** for a staff engineer evaluating potential employers. Collect structured, verifiable facts across four categories.
 
 ## Research Scope
 

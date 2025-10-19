@@ -57,7 +57,7 @@ class TestGutCheck:
         # Should include evaluation date
         assert "2025-01-15" in summary
 
-        # Should organize by mountain element (senior_engineer_alignment)
+        # Should organize by mountain element (staff_engineer_alignment)
         assert "organizational_maturity" in summary.lower() or "maturity" in summary.lower()
         assert "technical_culture" in summary.lower() or "culture" in summary.lower()
 

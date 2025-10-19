@@ -216,7 +216,7 @@ class TestGetCompanyFlags:
         assert flags["company"] == "test-company-1"
         # evaluation_date could be a date object or string depending on YAML parsing
         assert "evaluation_date" in flags
-        assert "senior_engineer_alignment" in flags
+        assert "staff_engineer_alignment" in flags
         assert "green_flags" in flags
         assert "red_flags" in flags
         assert "synthesis" in flags
@@ -231,7 +231,7 @@ class TestGetCompanyFlags:
         flags = result["flags"]
 
         # Check senior engineer alignment
-        alignment = flags["senior_engineer_alignment"]
+        alignment = flags["staff_engineer_alignment"]
         assert "organizational_maturity" in alignment
         assert "technical_culture" in alignment
         assert alignment["technical_culture"] == "EXCELLENT"

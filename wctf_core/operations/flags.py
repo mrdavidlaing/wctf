@@ -246,58 +246,29 @@ def _merge_flags(existing: Dict, new: Dict) -> Dict:
 
 
 def get_flags_extraction_prompt_op(
-    company_name: str,
-    evaluator_context: str,
     base_path: Optional[Path] = None,
 ) -> Dict[str, any]:
     """Get the prompt for extracting evaluation flags from research.
 
+    The prompt expects research facts to be provided in the conversation context,
+    similar to the insider interview workflow.
+
     Args:
-        company_name: Name of the company being evaluated
-        evaluator_context: Your evaluation criteria and context (e.g., "Senior engineer seeking...")
-        base_path: Optional base path for data directory (for testing)
+        base_path: Optional base path for data directory (for testing, currently unused)
 
     Returns:
         - success: bool
-        - company_name: str
         - extraction_prompt: str - Prompt for analyzing research facts
 
         On error:
         - success: False
         - error: str
     """
-    # Validate company name
-    if company_name is None:
-        raise TypeError("Company name cannot be None")
-
-    if not isinstance(company_name, str) or not company_name.strip():
-        return {
-            "success": False,
-            "error": "Invalid company name. Company name must be a non-empty string.",
-        }
-
-    company_name = company_name.strip()
-
-    # Validate evaluator context
-    if not evaluator_context or not isinstance(evaluator_context, str):
-        return {
-            "success": False,
-            "error": "Invalid evaluator context. Must be a non-empty string.",
-        }
-
     try:
-        prompt_template = _load_extraction_prompt()
-        evaluation_date = date.today().isoformat()
-
-        prompt = prompt_template.format(
-            company_name=company_name,
-            conversation_notes=evaluator_context,
-            evaluation_date=evaluation_date,
-        )
+        prompt = _load_extraction_prompt()
 
         return {
             "success": True,
-            "company_name": company_name,
             "extraction_prompt": prompt,
         }
 
