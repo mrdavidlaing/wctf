@@ -1,0 +1,349 @@
+company: Jeeves
+research_date: '2025-10-19'
+financial_health:
+  facts_found:
+  - fact: Raised $180 million Series C at $2.1 billion valuation led by Tencent with
+      participation from GIC, Stanford University, Andreessen Horowitz, CRV
+    source: TechCrunch
+    date: '2022-03-22'
+    confidence: explicit_statement
+  - fact: Secured $75 million credit facility from Community Investment Management
+      (CIM) to expand operations in Brazil, Colombia, and Mexico
+    source: PR Newswire
+    date: '2024-05-06'
+    confidence: explicit_statement
+  - fact: Total funding raised between $380M-$447M across equity and debt over 8 rounds
+    source: Tracxn, PitchBook, Crunchbase
+    date: '2024-07-01'
+    confidence: explicit_statement
+  - fact: Company has over 3 years of runway as of mid-2023
+    source: TechCrunch
+    date: '2023-07-25'
+    confidence: explicit_statement
+  - fact: Entered 2023 with over $40 million in annualized revenue, up 250% year-over-year
+    source: TechCrunch
+    date: '2023-07-25'
+    confidence: explicit_statement
+  - fact: Revenue grew 900% between Series B (September 2021) and Series C (March
+      2022)
+    source: TechCrunch
+    date: '2022-03-22'
+    confidence: explicit_statement
+  - fact: Company is not yet profitable as of mid-2023, focusing on achieving positive
+      contribution profit across all countries and products
+    source: TechCrunch
+    date: '2023-07-25'
+    confidence: explicit_statement
+  - fact: Reduced operating costs by 40-50% over five months as of July 2023
+    source: TechCrunch
+    date: '2023-07-25'
+    confidence: explicit_statement
+  - fact: No evidence of layoffs found despite broader fintech industry cuts in 2022-2024
+    source: TechCrunch, TrueUp layoff database
+    date: '2024-01-01'
+    confidence: explicit_statement
+  - fact: Employee count grew from 150 (March 2022) to 182 (July 2023), with current
+      estimates of 150-260 employees
+    source: TechCrunch, Tracxn, company website
+    date: '2024-07-01'
+    confidence: explicit_statement
+  - fact: Customer base grew from hundreds (May 2021) to 5,000+ clients (May 2024)
+    source: PR Newswire, TechCrunch
+    date: '2024-05-06'
+    confidence: explicit_statement
+  - fact: Notable customers include Burger King, H&M, Blueground, Kavak, Rappi, Bitso,
+      Belvo, and Platzi
+    source: FinTech Global
+    date: '2024-05-08'
+    confidence: explicit_statement
+  - fact: Reached $1+ billion in annualized gross transaction volume (GTV) within
+      11 months of public launch
+    source: PR Newswire
+    date: '2022-03-22'
+    confidence: explicit_statement
+  - fact: Payment volumes increased by more than 150% year-to-date as of May 2024
+    source: PR Newswire
+    date: '2024-05-06'
+    confidence: explicit_statement
+  - fact: Nearly 60% of revenue generated from Colombia, Mexico, and Brazil, with
+      Mexico representing approximately 40% of business
+    source: TechCrunch
+    date: '2023-07-25'
+    confidence: explicit_statement
+  missing_information:
+  - Customer churn and retention rates
+  - Specific monthly or quarterly burn rate figures
+  - Current cash on hand position
+  - Detailed EBITDA or net income/loss figures
+  - Average revenue per customer (ARPC)
+  - Terms and interest rates for debt facilities
+  - Customer acquisition cost (CAC) and lifetime value (LTV)
+  - 2024-2025 revenue and valuation updates beyond May 2024
+market_position:
+  facts_found:
+  - fact: Jeeves is an all-in-one financial platform providing corporate cards, cross-border
+      payments, expense management, and multi-currency accounts for global companies
+      in 30+ countries
+    source: tryjeeves.com
+    date: '2025-10-19'
+    confidence: explicit_statement
+  - fact: Jeeves is the only expense management company that can issue local cards
+      in Latin America, North America, and Europe simultaneously
+    source: TechCrunch
+    date: '2023-07-25'
+    confidence: explicit_statement
+  - fact: Company is a full principal member with Mastercard in Colombia, Mexico,
+      and Brazil with local bank identification numbers (BINs) in all 22 countries
+      across three continents
+    source: TechCrunch
+    date: '2023-07-25'
+    confidence: explicit_statement
+  - fact: Corporate cards make up approximately 45% of business, with B2B payments,
+      working capital loans, and revenue-based financing making up the rest
+    source: TechCrunch
+    date: '2022-03-22'
+    confidence: explicit_statement
+  - fact: 'Offers up to 1% cashback on card spend with regional variations (USA: 5%
+      APY + 1% cashback; EU/UK: 3% APY + 1% cashback)'
+    source: tryjeeves.com
+    date: '2025-10-19'
+    confidence: explicit_statement
+  - fact: Jeeves Pay enables payments to 150+ countries in 40+ currencies without
+      transfer fees
+    source: tryjeeves.com
+    date: '2025-10-19'
+    confidence: explicit_statement
+  - fact: Main competitors include Ramp (valued at $8.1B in March 2022), Brex (valued
+      at $12.3B early 2022), Divvy, Payhawk, Pleo, and Tribal Credit
+    source: CB Insights, TechCrunch
+    date: '2022-03-22'
+    confidence: explicit_statement
+  - fact: Target customers are startups and SMEs with 50+ employees, with 40% of customer
+      base being startups
+    source: Contxto, PitchBook
+    date: '2022-03-22'
+    confidence: explicit_statement
+  - fact: TrustPilot rating of 4.1 out of 5 based on 103 reviews
+    source: trustpilot.com
+    date: '2025-10-19'
+    confidence: explicit_statement
+  - fact: Positive reviews highlight ease of use, fast onboarding, excellent customer
+      service, multi-currency management, and free physical cards
+    source: trustpilot.com
+    date: '2025-10-19'
+    confidence: explicit_statement
+  - fact: Negative reviews mention credit lines being decreased without notice, card
+      functionality issues, and addition of cross-border fees
+    source: trustpilot.com
+    date: '2025-10-19'
+    confidence: explicit_statement
+  - fact: Zero monthly fees, no software fees, no setup fees, no overdraft fees, and
+      unlimited free wire transfers
+    source: tryjeeves.com
+    date: '2025-10-19'
+    confidence: explicit_statement
+  - fact: Revenue model based on interchange fees on card transactions and fees related
+      to cross-border payments
+    source: Refresh Miami
+    date: '2023-08-29'
+    confidence: explicit_statement
+  - fact: Global commercial/corporate card market projected to reach $336.94 billion
+      by 2033 at 7.6% CAGR
+    source: Business Research Insights
+    date: '2025-01-01'
+    confidence: explicit_statement
+  - fact: Operates in 30+ countries including Brazil, Canada, Colombia, Mexico, EU,
+      UK, and US
+    source: tryjeeves.com
+    date: '2025-10-19'
+    confidence: explicit_statement
+  missing_information:
+  - Detailed G2 rating scores and number of reviews
+  - Recent 2024-2025 financial metrics beyond payment volume growth
+  - Customer retention and churn rates
+  - Exact market share percentages versus Ramp and Brex
+  - Specific SOC2, ISO 27001, or PCI-DSS compliance certifications
+  - Average contract value (ACV) or deal size
+  - Capterra has 0 reviews as of research date
+organizational_stability:
+  facts_found:
+  - fact: Dileep Thazhmon is Founder & CEO, previously Co-Founder & COO at Jeeng/PowerInbox
+      ($100M+ exit, $40M+ ARR)
+    source: tryjeeves.com, FF News, LinkedIn
+    date: '2025-01-01'
+    confidence: explicit_statement
+  - fact: CEO has M.S./B.S. in Computer Engineering and Computer Science from Drexel
+      University (2000-2005) and MBA from Stanford GSB (2010-2012)
+    source: Clay.com, Crunchbase
+    date: '2012-01-01'
+    confidence: explicit_statement
+  - fact: Arpan Nanavati hired as CTO in March 2022 from PayPal (Head of Engineering)
+      and Walmart (Director of Engineering)
+    source: TechCrunch
+    date: '2022-03-22'
+    confidence: explicit_statement
+  - fact: CTO Arpan Nanavati departed in January 2024 after approximately 2 years
+      tenure
+    source: LinkedIn, ContactOut
+    date: '2024-01-01'
+    confidence: explicit_statement
+  - fact: Alex Melikian hired as CFO in July 2023, previously at Payoneer
+    source: TechCrunch
+    date: '2023-07-25'
+    confidence: explicit_statement
+  - fact: Daniel Adams hired as Chief Compliance Officer in July 2023, previously
+      at Marqeta
+    source: TechCrunch
+    date: '2023-07-25'
+    confidence: explicit_statement
+  - fact: Jordan Bulkoski hired as Chief Revenue Officer in July 2025, previously
+      at Brex and SAP
+    source: FFNews.com
+    date: '2025-07-03'
+    confidence: explicit_statement
+  - fact: Gustavo Gorenstein hired as CEO Brazil in September 2024, previously co-founder
+      of BxBlue (acquired by PicPay)
+    source: Finsiders Brasil
+    date: '2024-09-10'
+    confidence: explicit_statement
+  - fact: Angela Strange, General Partner at Andreessen Horowitz, is confirmed board
+      member
+    source: a16z.com, FFNews
+    date: '2021-06-01'
+    confidence: explicit_statement
+  - fact: Headquarters in Miami, FL with offices in São Paulo, Bogotá, Mexico City,
+      and Madrid
+    source: tryjeeves.com
+    date: '2025-01-01'
+    confidence: explicit_statement
+  - fact: Company operates as fully remote/hybrid-remote with approximately 75% of
+      team located outside the US
+    source: TechCrunch, Refresh Miami
+    date: '2023-08-29'
+    confidence: explicit_statement
+  - fact: Glassdoor shows 13 reviews for Jeeves fintech company
+    source: Glassdoor.com
+    date: '2025-01-01'
+    confidence: explicit_statement
+  - fact: Employee pros from reviews include remote flexibility and great colleagues
+    source: Glassdoor
+    date: '2024-01-01'
+    confidence: explicit_statement
+  - fact: Employee cons from reviews mention challenges with product and engineering
+      leadership
+    source: Glassdoor
+    date: '2024-01-01'
+    confidence: explicit_statement
+  - fact: 'Current team size: 150-260 employees (sources vary); company website states
+      150+ global employees'
+    source: Tracxn, TrueUp, tryjeeves.com
+    date: '2024-07-01'
+    confidence: explicit_statement
+  - fact: Major leadership team scaling in 2022-2023 with C-suite hires having public
+      company experience
+    source: TechCrunch
+    date: '2023-07-25'
+    confidence: explicit_statement
+  missing_information:
+  - Diversity and inclusion metrics
+  - Specific Glassdoor overall rating, culture rating, work-life balance rating, and
+    compensation & benefits rating
+  - Employee retention and turnover rates
+  - CTO replacement after January 2024 departure (position appears unfilled)
+  - Specific remote work policies and benefits
+  - Department-level headcount breakdown
+  - Complete board composition beyond Angela Strange
+  - Executive compensation and equity details
+technical_culture:
+  facts_found:
+  - fact: Tech stack includes React, TypeScript, and AWS (Amazon Web Services) based
+      on job posting analysis
+    source: TrueUp.io
+    date: 2024-2025
+    confidence: explicit_statement
+  - fact: Uses HubSpot (32% of job postings) and Salesforce (27% of job postings)
+      for CRM
+    source: TrueUp.io
+    date: 2024-2025
+    confidence: explicit_statement
+  - fact: Uses Cloudflare CDN for website infrastructure
+    source: Crunchbase Technology Profile
+    date: 2024-2025
+    confidence: explicit_statement
+  - fact: 'Former CTO Arpan Nanavati has extensive FAANG experience: PayPal (Head
+      of Engineering), Walmart (Director of Engineering), Adobe, Zynga, Nickelodeon
+      Studios'
+    source: TechCrunch, LinkedIn
+    date: '2022-03-22'
+    confidence: explicit_statement
+  - fact: Arpan Nanavati holds Master's Degree in Computer Science from University
+      of Southern California
+    source: RocketReach, Weekday
+    date: 2006-2008
+    confidence: explicit_statement
+  - fact: Engineering team shipped 300,693 new lines of code in summer 2023 product
+      launch
+    source: LinkedIn post by CTO Arpan Nanavati
+    date: '2023-07-01'
+    confidence: explicit_statement
+  - fact: Implemented AI OCR (Optical Character Recognition) engine for invoice scanning
+      that automates data extraction across 22 countries
+    source: LinkedIn post by Arpan Nanavati
+    date: '2023-07-01'
+    confidence: explicit_statement
+  - fact: Expense management platform uses AI-driven features for receipt categorization
+      and fraud detection
+    source: Jeeves blog
+    date: '2024-01-01'
+    confidence: explicit_statement
+  - fact: Maintains blog at tryjeeves.com/blog focused primarily on business/finance
+      topics rather than pure engineering content
+    source: tryjeeves.com/blog
+    date: '2024-01-01'
+    confidence: explicit_statement
+  - fact: Currently has 9 engineering/software job openings representing 24% of total
+      openings
+    source: TrueUp.io
+    date: 2024-2025
+    confidence: explicit_statement
+  - fact: 'Top job locations: São Paulo Brazil (32%), Mexico City Mexico (32%), Bogotá
+      Colombia (16%), Remote (14%)'
+    source: TrueUp.io
+    date: 2024-2025
+    confidence: explicit_statement
+  - fact: Uses Lever (jobs.lever.co/tryjeeves) as recruiting platform
+    source: Direct observation
+    date: 2024-2025
+    confidence: explicit_statement
+  - fact: Builds proprietary banking-as-a-service (BaaS) infrastructure
+    source: TechCrunch
+    date: '2021-09-02'
+    confidence: explicit_statement
+  - fact: Company integrates with QuickBooks and Xero for accounting
+    source: tryjeeves.com
+    date: '2024-01-01'
+    confidence: explicit_statement
+  - fact: Won 'PayTech Startup of the Year' at Banking Tech Awards of FinTech Futures
+    source: LinkedIn
+    date: '2023-01-01'
+    confidence: explicit_statement
+  missing_information:
+  - No conference talks or technical presentations found
+  - Development methodologies (agile/scrum) not explicitly confirmed
+  - Mobile tech stack (iOS/Android native vs. cross-platform) not disclosed
+  - Specific databases used not confirmed (PostgreSQL/MySQL/MongoDB unknown)
+  - No dedicated engineering/technical blog found
+  - CI/CD pipeline, testing frameworks, and monitoring tools not disclosed
+  - Backend programming languages not confirmed (Python/Java/Go/Node.js unknown)
+  - No open source projects found maintained by Jeeves
+  - Engineering team size and organizational structure not disclosed
+  - No public GitHub organization or repositories
+  - No public API documentation found
+  - Limited interview process details from Glassdoor
+  - No documented open source contributions by Jeeves engineers
+summary:
+  total_facts_found: 61
+  information_completeness: medium
+  most_recent_data_point: '2025-10-19'
+  oldest_data_point: '2000-01-01'
+company_slug: jeeves
