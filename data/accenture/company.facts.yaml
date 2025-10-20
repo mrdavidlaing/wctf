@@ -1,0 +1,305 @@
+company: Accenture
+company_slug: accenture
+research_date: '2025-10-19'
+financial_health:
+  facts_found:
+  - fact: Reported $69.67 billion in revenues for fiscal year 2025 (ended August 31,
+      2025), representing 7% growth in both U.S. dollars and local currency over FY2024
+    source: Accenture Fourth-Quarter and Full-Year Fiscal 2025 Results (Official Earnings
+      Report)
+    date: '2025-09-25'
+    confidence: explicit_statement
+  - fact: FY2025 adjusted operating margin was 15.6% (10 basis point increase from
+      FY2024); GAAP operating margin 14.7%
+    source: Accenture FY2025 Earnings Report
+    date: '2025-09-25'
+    confidence: explicit_statement
+  - fact: 'FY2025 net income: $7.83 billion GAAP, $8.32 billion adjusted'
+    source: Accenture FY2025 Earnings Report
+    date: '2025-09-25'
+    confidence: explicit_statement
+  - fact: 'FY2025 free cash flow: $10.87 billion (26% increase year-over-year from
+      $8.61 billion in FY2024)'
+    source: Accenture FY2025 Earnings Report
+    date: '2025-09-25'
+    confidence: explicit_statement
+  - fact: Approximately 779,000 employees globally as of August 31, 2025 (down from
+      791,000 in May 2025)
+    source: Accenture FY2025 Earnings Report and Fact Sheet
+    date: '2025-08-31'
+    confidence: explicit_statement
+  - fact: 11,000+ employees laid off between May-August 2025 as part of six-month
+      business optimization program; layoffs expected to continue through November
+      2025
+    source: Tech.co, CX Today
+    date: '2025-09-26'
+    confidence: explicit_statement
+  - fact: 'Restructuring costs: $865 million total ($615M charged Q4 FY2025, $250M
+      expected Q1 FY2026) for employee severance and asset impairments'
+    source: Accenture FY2025 Earnings Report
+    date: '2025-09-25'
+    confidence: explicit_statement
+  - fact: 19,000 jobs cut announced March 2023 (about 2.5% of workforce over 18 months)
+      costing $1.2B in severance plus $300M in office consolidation
+    source: Fortune Magazine
+    date: '2023-03-23'
+    confidence: explicit_statement
+  - fact: 'Public company traded on NYSE (ticker: ACN); $11.5 billion total cash balance
+      as of August 31, 2025 (vs. $5.0 billion in FY2024)'
+    source: Accenture FY2025 Earnings Report
+    date: '2025-08-31'
+    confidence: explicit_statement
+  - fact: Returned $8.3 billion to shareholders in FY2025 ($4.6B buybacks + $3.7B
+      dividends); plans at least $9.3B return in FY2026
+    source: Accenture FY2025 Earnings Report
+    date: '2025-09-25'
+    confidence: explicit_statement
+  - fact: 'FY2026 guidance: 2-5% revenue growth in local currency, adjusted EPS of
+      $13.52-$13.90 (5-8% increase), free cash flow $9.8B-$10.5B'
+    source: Accenture FY2025 Earnings Report
+    date: '2025-09-25'
+    confidence: explicit_statement
+  missing_information:
+  - Burn rate and runway not applicable (profitable company with positive cash flow)
+market_position:
+  facts_found:
+  - fact: Leading global professional services company with approximately 779,000
+      people serving clients in 120+ countries
+    source: Accenture Official Fact Sheet
+    date: '2025-08-31'
+    confidence: explicit_statement
+  - fact: Founded as Andersen Consulting in 1989, rebranded as Accenture on January
+      1, 2001, went public July 19, 2001 on NYSE
+    source: Wikipedia, Accenture history sources
+    date: '2024-10-19'
+    confidence: explicit_statement
+  - fact: 'Five primary service lines being consolidated into ''Reinvention Services''
+      effective September 2025: Strategy & Consulting, Technology, Operations, Industry
+      X, and Song'
+    source: Accenture Fact Sheet and June 2025 restructuring announcement
+    date: '2025-06-20'
+    confidence: explicit_statement
+  - fact: 'Technology services include: software engineering, cloud services (AWS/Azure/Google
+      Cloud), systems integration, data and AI services; 77,000 AI and data professionals,
+      550,000+ employees trained in Gen AI fundamentals'
+    source: Accenture earnings calls and fact sheet
+    date: '2025'
+    confidence: explicit_statement
+  - fact: Serves approximately 9,000 clients including significant portion of Fortune
+      Global 100 and 500; 310 'diamond clients' each generating $100M+ annually
+    source: Accenture Fact Sheet and FY2024 Earnings Report
+    date: '2024-09-26'
+    confidence: explicit_statement
+  - fact: 'FY2025 new bookings: $80.6 billion (1% decrease from FY2024''s record $81.2
+      billion); book-to-bill ratio of 1.2'
+    source: Accenture FY2025 Earnings Report
+    date: '2025-09-25'
+    confidence: explicit_statement
+  - fact: 'Generative AI bookings: $5.9 billion for FY2025 (vs. $3 billion in FY2024)'
+    source: Accenture FY2025 Earnings Report
+    date: '2025-09-25'
+    confidence: explicit_statement
+  - fact: Dublin, Ireland serves as Accenture's legal and operational global headquarters
+      (incorporated in Ireland since 2009); presence in Ireland for almost 50 years
+    source: Wikipedia, Irish Times
+    date: 2009-present
+    confidence: explicit_statement
+  - fact: 'Primary competitors include: Big Four (Deloitte, PwC, EY, KPMG), Strategy
+      Consulting (McKinsey, BCG, Bain), IT Services (IBM Consulting, TCS, Infosys,
+      Cognizant, Wipro, HCL, Capgemini, DXC Technology)'
+    source: Business Chronicler Competitors Analysis
+    date: 2024-2025
+    confidence: explicit_statement
+  - fact: 'Strong ecosystem partnerships with world''s leading technology companies:
+      Adobe, Alibaba, AWS, Cisco, Databricks, Dell, Google, HPE, IBM RedHat, Microsoft,
+      NVIDIA, Oracle, Palo Alto Networks, Salesforce, SAP, ServiceNow, Snowflake,
+      VMware, Workday'
+    source: Accenture Fact Sheet
+    date: '2025'
+    confidence: explicit_statement
+  missing_information:
+  - Exact market share percentages not publicly disclosed
+  - Detailed pricing model for consulting services (typically custom enterprise contracts)
+organizational_stability:
+  facts_found:
+  - fact: Julie Sweet is Chair and CEO; became CEO in September 2019, added Chair
+      position September 2021 (6 years tenure as CEO)
+    source: Accenture official leadership page
+    date: '2024-10-19'
+    confidence: explicit_statement
+  - fact: Rajendra Prasad (RP) becomes Group Chief Executive – Technology and Chief
+      Technology Officer effective September 1, 2025; 20+ years at Accenture
+    source: Accenture press release
+    date: '2025-06-20'
+    confidence: explicit_statement
+  - fact: Kate Clifford becomes Chief Leadership and Human Resources Officer effective
+      September 1, 2025, succeeding Angela Beatty who held role for only 1 year (Sept
+      2024-Sept 2025)
+    source: Accenture newsroom
+    date: '2025-06-20'
+    confidence: explicit_statement
+  - fact: 'THREE senior executives departing September 2025: Karthik Narain (former
+      CTO), Jack Azagury (Group Chief Executive – Consulting, ~30 years tenure), Angela
+      Beatty (CHRO) all leaving to ''pursue other opportunities'''
+    source: Consulting.us news
+    date: '2025-06-20'
+    confidence: explicit_statement
+  - fact: 'Major organizational restructuring announced June 20, 2025: consolidating
+      five service lines into single ''Reinvention Services'' business unit effective
+      September 1, 2025'
+    source: Accenture newsroom
+    date: '2025-06-20'
+    confidence: explicit_statement
+  - fact: 'Global headquarters: 1 Grand Canal Square, Grand Canal Harbour, Dublin
+      2, Ireland; moved incorporation from Bermuda to Ireland in 2009'
+    source: Accenture locations page, D&B
+    date: '2024-10-19'
+    confidence: explicit_statement
+  - fact: Hybrid work model allowing remote work 25-75% of time ('Smart Work Anywhere'),
+      but policy depends on role, client, and project needs; company asks employees
+      to return to base locations 2-3 days per week
+    source: Multiple employee sources and Accenture research
+    date: '2024'
+    confidence: explicit_statement
+  - fact: 'Overall employee rating: 3.7 out of 5 stars on Glassdoor based on 199,080+
+      anonymous reviews; 74% would recommend to a friend'
+    source: Glassdoor main company page
+    date: '2024-10-19'
+    confidence: explicit_statement
+  - fact: 'Glassdoor category ratings: Work-Life Balance 3.6/5, Culture and Values
+      3.8/5, Career Opportunities 3.7/5, Compensation and Benefits 3.3-3.4/5 (decreased
+      5% over last 12 months), CEO Approval 69%, Business Outlook 62% positive'
+    source: Glassdoor
+    date: '2024-10-19'
+    confidence: explicit_statement
+  - fact: 'Accenture Ireland: 3.3 out of 5 stars based on 3,929 employee reviews;
+      only 59% recommend working there (vs 74% globally)'
+    source: Glassdoor Ireland Reviews
+    date: 2024-2025
+    confidence: explicit_statement
+  - fact: 'Ireland compensation & benefits rating: 2.8/5 (19.4% worse than global
+      average)'
+    source: Glassdoor Ireland Reviews
+    date: 2024-2025
+    confidence: explicit_statement
+  - fact: 'February 2025: Accenture discontinued global employee representation goals
+      (previously targeting 50% women by 2025; was at 42% in 2019) and paused participation
+      in external diversity benchmarking surveys'
+    source: Wikipedia - Julie Sweet article
+    date: 2025-02
+    confidence: explicit_statement
+  - fact: Approximately 6,500 employees in Ireland currently (after layoffs reduced
+      from ~7,800)
+    source: Silicon Republic, Irish Examiner
+    date: '2023-07-31'
+    confidence: explicit_statement
+  - fact: 'July 2023: 890 job cuts announced in Ireland (combined with earlier 400),
+      bringing total 2023 layoffs to 1,290 (nearly 20% of Irish workforce) - disproportionately
+      high vs 2.5% global reduction'
+    source: Silicon Republic, Irish Times
+    date: '2023-07-31'
+    confidence: explicit_statement
+  - fact: Software Engineers at Accenture in Dublin earn €35,000-€55,000 per year
+      (base salary €45,000 average) based on 5,238 Glassdoor salary submissions -
+      significantly below Dublin market average of €74,250
+    source: Glassdoor Dublin salaries
+    date: 2025-09
+    confidence: explicit_statement
+  missing_information:
+  - Complete tenure data for all VP-level executives
+technical_culture:
+  facts_found:
+  - fact: 'Core tech stack: JavaScript, Git, Python, Node.js, Java, TypeScript as
+      primary programming languages'
+    source: StackShare - Accenture Tech Stack
+    date: '2024'
+    confidence: explicit_statement
+  - fact: 'AWS partnership: 30+ AWS competencies, 40,000+ trained AWS practitioners,
+      30,000+ AWS certifications held by staff'
+    source: AWS Partner - Accenture
+    date: 2021-2024
+    confidence: explicit_statement
+  - fact: 'Microsoft Azure: Named 16-time Microsoft Global Alliance SI Partner of
+      the Year; operates Accenture Microsoft Business Group launched February 2019'
+    source: Microsoft News - Accenture Microsoft Business Group
+    date: '2019-02-04'
+    confidence: explicit_statement
+  - fact: 'Google Cloud: Named Google Cloud''s 2025 Partner of the Year (3rd consecutive
+      year as Global Services Partner); 15,000+ Google Cloud certifications across
+      workforce'
+    source: Accenture Google Business Group
+    date: 2025-01
+    confidence: explicit_statement
+  - fact: Maintains 218 public repositories on GitHub with active development, including
+      Mercury (event-driven applications), SFMC DevTools, AI Refinery SDK
+    source: Accenture GitHub Organization
+    date: '2025'
+    confidence: explicit_statement
+  - fact: Founding member of Green Software Foundation alongside GitHub, Microsoft,
+      ThoughtWorks; launched with Linux Foundation in May 2021
+    source: Accenture Newsroom
+    date: '2021-05-25'
+    confidence: explicit_statement
+  - fact: $3 billion investment over three years in Data & AI practice announced June
+      2023, doubling team from 40,000 to 80,000 practitioners by fiscal 2026
+    source: CIO.com
+    date: '2023-06-13'
+    confidence: explicit_statement
+  - fact: Achieved over $1 billion in generative AI bookings in first six months of
+      fiscal 2024 - fastest sales growth for any emerging technology in company history
+    source: Diginomica
+    date: '2024'
+    confidence: explicit_statement
+  - fact: Operates 32 Accenture Labs and Nano Labs globally for R&D in disruptive
+      technologies (cloud, quantum, robotics, AI), plus 100+ Connected Innovation
+      Centers
+    source: Accenture Labs Index, Information Age
+    date: '2024'
+    confidence: explicit_statement
+  - fact: 'March 2024: Announced $1 billion investment in LearnVantage service to
+      upskill clients and employees in Gen AI, data science, cloud, cybersecurity;
+      includes acquisition of Udacity'
+    source: The Finance Story
+    date: 2024-03
+    confidence: explicit_statement
+  - fact: 'The Dock innovation center: 7 Hanover Quay, Dublin Silicon Docks, spanning
+      66,300 square feet (7 floors) - flagship R&D and global innovation center opened
+      February 10, 2017'
+    source: Silicon Republic, Accenture Newsroom, MCA Architects
+    date: '2017-02-10'
+    confidence: explicit_statement
+  - fact: The Dock employs 200+ professionals from multiple countries working on AI,
+      analytics, IoT, AR, and emerging technologies
+    source: Accenture Newsroom, Silicon Republic
+    date: '2017-02-10'
+    confidence: explicit_statement
+  - fact: 'February 2024: Opened new Generative AI studio at The Dock providing AI
+      experimentation and piloting capabilities'
+    source: Silicon Republic, Consultancy.eu
+    date: '2024-02-19'
+    confidence: explicit_statement
+  - fact: Accenture Ireland operates hybrid work model with flexibility to work remotely
+      25-75% of time, though specific arrangements are project and client-dependent
+    source: Women for Hire, Glassdoor
+    date: 2024-2025
+    confidence: explicit_statement
+  missing_information:
+  - Detailed breakdown of GitHub contribution activity levels and frequency
+  - Ireland-specific remote work statistics and team structure details
+  - Exact engineering blog posting frequency
+summary:
+  total_facts_found: 50
+  information_completeness: high
+  most_recent_data_point: '2025-10-19'
+  oldest_data_point: '2017-02-10'
+  key_strengths:
+  - Strong financial position with $69.67B revenue and $10.87B free cash flow
+  - Multi-cloud expertise with major partnerships (AWS, Azure, Google Cloud)
+  - $3B AI investment with 80,000 AI practitioners target
+  - Global headquarters in Dublin with flagship innovation center (The Dock)
+  critical_concerns:
+  - 'Ongoing layoffs: 11,000+ through November 2025'
+  - Ireland salaries significantly below market (€45K vs €74K average)
+  - Major organizational restructuring in progress (5 units to 1)
+  - Three senior executives departing simultaneously in 2025
+  - Ireland employee satisfaction lower than global (3.3/5 vs 3.7/5)

@@ -1,88 +1,22 @@
-#!/usr/bin/env python3
-"""Generate insider interview guide from company facts and flags.
-
-Usage:
-    uv run python scripts/generate_interview_guide.py <company-slug>
-
-Example:
-    uv run python scripts/generate_interview_guide.py workday
-"""
-
-import sys
-from datetime import datetime
-from pathlib import Path
-import yaml
-
-
-def load_company_data(company_slug: str) -> tuple[dict, dict]:
-    """Load facts and flags for a company."""
-    data_dir = Path("data") / company_slug
-
-    facts_path = data_dir / "company.facts.yaml"
-    flags_path = data_dir / "company.flags.yaml"
-
-    if not facts_path.exists():
-        raise FileNotFoundError(f"Facts file not found: {facts_path}")
-    if not flags_path.exists():
-        raise FileNotFoundError(f"Flags file not found: {flags_path}")
-
-    with open(facts_path) as f:
-        facts = yaml.safe_load(f)
-
-    with open(flags_path) as f:
-        flags = yaml.safe_load(f)
-
-    return facts, flags
-
-
-def extract_critical_questions(flags: dict) -> list[dict]:
-    """Extract critical missing data questions organized by priority."""
-    missing_data = flags.get("missing_critical_data", [])
-
-    # Categorize by mountain element
-    critical_questions = []
-    for item in missing_data:
-        critical_questions.append({
-            "question": item.get("question", ""),
-            "why_important": item.get("why_important", ""),
-            "element": item.get("mountain_element", "unknown")
-        })
-
-    return critical_questions
-
-
-def generate_html(company_name: str, company_slug: str, facts: dict, flags: dict, critical_questions: list[dict]) -> str:
-    """Generate complete HTML interview guide."""
-
-    # Build critical checklist HTML with reference IDs
-    checklist_html = ""
-    for i, q in enumerate(critical_questions, 1):
-        checklist_html += f"""    <li><strong>[P{i}]</strong> {q['question']} <span class="confidence-low">NEEDS VALIDATION</span></li>\n"""
-
-    # Extract key facts for context
-    financial_facts = facts.get("financial_health", {}).get("facts_found", [])[:3]
-    org_facts = facts.get("organizational_stability", {}).get("facts_found", [])[:3]
-    tech_facts = facts.get("technical_culture", {}).get("facts_found", [])[:3]
-
-    html = f"""<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{company_name} Insider Interview Guide - WCTF</title>
+    <title>Grafana Labs Insider Interview Guide - WCTF</title>
     <style>
-        @media print {{
-            @page {{
+        @media print {
+            @page {
                 size: A4;
                 margin: 2cm 1.5cm;
-            }}
-            body {{ font-size: 9pt; }}
-            h1 {{ font-size: 16pt; }}
-            h2 {{ font-size: 11pt; page-break-after: avoid; }}
-            h3 {{ font-size: 10pt; page-break-after: avoid; }}
-        }}
+            }
+            body { font-size: 9pt; }
+            h1 { font-size: 16pt; }
+            h2 { font-size: 11pt; page-break-after: avoid; }
+            h3 { font-size: 10pt; page-break-after: avoid; }
+        }
 
-        body {{
+        body {
             font-family: 'Arial', 'Helvetica', sans-serif;
             font-size: 10pt;
             line-height: 1.4;
@@ -91,15 +25,15 @@ def generate_html(company_name: str, company_slug: str, facts: dict, flags: dict
             margin: 0 auto;
             padding: 1cm;
             background-color: #f5f5f5;
-        }}
+        }
 
-        .page {{
+        .page {
             background-color: white;
             padding: 2cm 1.5cm;
             box-shadow: 0 0 10px rgba(0,0,0,0.1);
-        }}
+        }
 
-        h1 {{
+        h1 {
             font-size: 18pt;
             font-weight: bold;
             margin-top: 0;
@@ -107,27 +41,27 @@ def generate_html(company_name: str, company_slug: str, facts: dict, flags: dict
             border-bottom: 2px solid #333;
             padding-bottom: 0.2cm;
             color: #000;
-        }}
+        }
 
-        h2 {{
+        h2 {
             font-size: 14pt;
             font-weight: bold;
             margin-top: 0.8cm;
             margin-bottom: 0.3cm;
             color: #000;
             page-break-after: avoid;
-        }}
+        }
 
-        h3 {{
+        h3 {
             font-size: 11pt;
             font-weight: bold;
             margin-top: 0.5cm;
             margin-bottom: 0.2cm;
             color: #222;
             page-break-after: avoid;
-        }}
+        }
 
-        h4 {{
+        h4 {
             font-size: 10pt;
             font-weight: bold;
             margin-top: 0.3cm;
@@ -135,50 +69,50 @@ def generate_html(company_name: str, company_slug: str, facts: dict, flags: dict
             font-style: italic;
             color: #444;
             page-break-after: avoid;
-        }}
+        }
 
-        p {{ margin: 0.2cm 0; }}
+        p { margin: 0.2cm 0; }
 
-        ul, ol {{
+        ul, ol {
             margin: 0.3cm 0;
             padding-left: 1.2cm;
-        }}
+        }
 
-        li {{
+        li {
             margin: 0.1cm 0;
             page-break-inside: avoid;
-        }}
+        }
 
-        blockquote {{
+        blockquote {
             background-color: #f5f5f5;
             border-left: 4px solid #666;
             padding: 0.3cm 0.5cm;
             margin: 0.4cm 0;
             font-weight: bold;
             page-break-inside: avoid;
-        }}
+        }
 
-        .critical-checklist {{
+        .critical-checklist {
             background-color: #fffacd;
             border: 2px solid #ffd700;
             padding: 0.5cm;
             margin: 0.5cm 0;
-        }}
+        }
 
-        .conversation-branch {{
+        .conversation-branch {
             background-color: #f0f8ff;
             border-left: 3px solid #4682b4;
             padding: 0.3cm 0.5cm;
             margin: 0.3cm 0 0.3cm 0.5cm;
-        }}
+        }
 
-        hr {{
+        hr {
             border: none;
             border-top: 1px solid #ccc;
             margin: 0.5cm 0;
-        }}
+        }
 
-        .print-button {{
+        .print-button {
             position: fixed;
             top: 20px;
             right: 20px;
@@ -192,38 +126,38 @@ def generate_html(company_name: str, company_slug: str, facts: dict, flags: dict
             font-weight: bold;
             box-shadow: 0 2px 5px rgba(0,0,0,0.3);
             z-index: 1000;
-        }}
+        }
 
-        .print-button:hover {{ background-color: #45a049; }}
+        .print-button:hover { background-color: #45a049; }
 
-        @media print {{
-            .print-button {{ display: none; }}
-            .page {{ box-shadow: none; padding: 0; }}
-            body {{ background-color: white; padding: 0; }}
-        }}
+        @media print {
+            .print-button { display: none; }
+            .page { box-shadow: none; padding: 0; }
+            body { background-color: white; padding: 0; }
+        }
 
-        .metadata {{
+        .metadata {
             font-size: 10pt;
             color: #666;
             font-style: italic;
             margin-bottom: 0.5cm;
-        }}
+        }
 
         /* Reference IDs and confidence badges */
-        li strong:first-child {{
+        li strong:first-child {
             color: #0066cc;
             font-size: 9pt;
             margin-right: 0.2cm;
             font-family: 'Courier New', monospace;
-        }}
+        }
 
-        @media print {{
-            li strong:first-child {{
+        @media print {
+            li strong:first-child {
                 color: #333;
-            }}
-        }}
+            }
+        }
 
-        .confidence-low {{
+        .confidence-low {
             background-color: #f8d7da;
             color: #721c24;
             padding: 0.05cm 0.15cm;
@@ -231,23 +165,23 @@ def generate_html(company_name: str, company_slug: str, facts: dict, flags: dict
             font-size: 8pt;
             font-weight: bold;
             margin-left: 0.2cm;
-        }}
+        }
 
-        @media print {{
-            .confidence-low {{
+        @media print {
+            .confidence-low {
                 background-color: #e8e8e8;
                 color: #000;
                 border: 1px solid #721c24;
-            }}
-        }}
+            }
+        }
     </style>
 </head>
 <body>
     <button class="print-button" onclick="window.print()">🖨️ Print to PDF</button>
     <div class="page">
-        <h1>{company_name} Insider Interview Guide</h1>
+        <h1>Grafana Labs Insider Interview Guide</h1>
         <p class="metadata">WCTF Framework v3.1 - Insider Interview Preparation<br>
-        Generated: {datetime.now().strftime("%B %d, %Y")}</p>
+        Generated: October 20, 2025</p>
 
         <hr>
 
@@ -256,7 +190,14 @@ def generate_html(company_name: str, company_slug: str, facts: dict, flags: dict
             <p><em>Ensure you get answers to these before the interview ends:</em></p>
             <p><strong>Note:</strong> These reference IDs (<strong>[P1]</strong>, <strong>[P2]</strong>, etc.) match the Priority Validation Targets in your evaluation overview document. Use them for easy cross-referencing during the interview.</p>
             <ul>
-{checklist_html}
+    <li><strong>[P1]</strong> What is the current profitability status and burn rate? <span class="confidence-low">NEEDS VALIDATION</span></li>
+    <li><strong>[P2]</strong> What is the equity compensation structure and typical grants for Staff+ engineers? <span class="confidence-low">NEEDS VALIDATION</span></li>
+    <li><strong>[P3]</strong> What is the current CTO and VP Engineering team composition and their backgrounds? <span class="confidence-low">NEEDS VALIDATION</span></li>
+    <li><strong>[P4]</strong> What is the on-call rotation frequency and incident load for engineers? <span class="confidence-low">NEEDS VALIDATION</span></li>
+    <li><strong>[P5]</strong> What is the annual turnover rate, especially in engineering? <span class="confidence-low">NEEDS VALIDATION</span></li>
+    <li><strong>[P6]</strong> What is the realistic IPO timeline and preparation status? <span class="confidence-low">NEEDS VALIDATION</span></li>
+    <li><strong>[P7]</strong> What's the technical debt situation and balance between new features vs maintenance? <span class="confidence-low">NEEDS VALIDATION</span></li>
+
             </ul>
         </div>
 
@@ -266,7 +207,7 @@ def generate_html(company_name: str, company_slug: str, facts: dict, flags: dict
 
         <h3>Starter Question</h3>
         <blockquote>
-            "Tell me about your journey to {company_name} and your current role?"
+            "Tell me about your journey to Grafana Labs and your current role?"
         </blockquote>
 
         <h4>Branch A: If they emphasize excitement about technology/their work</h4>
@@ -302,7 +243,7 @@ def generate_html(company_name: str, company_slug: str, facts: dict, flags: dict
 
         <h3>Starter Question</h3>
         <blockquote>
-            "I'm trying to understand day-to-day engineering at {company_name}. How often does your team deploy to production?"
+            "I'm trying to understand day-to-day engineering at Grafana Labs. How often does your team deploy to production?"
         </blockquote>
 
         <h4>Branch A: If "daily" or "multiple times per day"</h4>
@@ -311,7 +252,7 @@ def generate_html(company_name: str, company_slug: str, facts: dict, flags: dict
                 <li>"That's impressive! What CI/CD setup enables that velocity?"</li>
                 <li>"Do teams ship independently or coordinate releases?"</li>
                 <li>"What DORA metrics do you track?"</li>
-                <li><strong>Then:</strong> "Does {company_name} provide AI coding tools like Copilot or Cursor?"</li>
+                <li><strong>Then:</strong> "Does Grafana Labs provide AI coding tools like Copilot or Cursor?"</li>
             </ul>
         </div>
 
@@ -398,7 +339,7 @@ def generate_html(company_name: str, company_slug: str, facts: dict, flags: dict
 
         <h3>Leadership Question</h3>
         <blockquote>
-            "How would you describe the leadership and culture at {company_name}?"
+            "How would you describe the leadership and culture at Grafana Labs?"
         </blockquote>
 
         <h4>If they critique leadership</h4>
@@ -435,7 +376,7 @@ def generate_html(company_name: str, company_slug: str, facts: dict, flags: dict
 
         <h3>Day-to-Day Experience</h3>
         <blockquote>
-            "What's the actual day-to-day experience like at {company_name}?"
+            "What's the actual day-to-day experience like at Grafana Labs?"
         </blockquote>
 
         <ul>
@@ -468,7 +409,7 @@ def generate_html(company_name: str, company_slug: str, facts: dict, flags: dict
 
         <h3>Question 1: Biggest Frustration</h3>
         <blockquote>
-            "Real talk - what's the biggest frustration or challenge working at {company_name} right now?"
+            "Real talk - what's the biggest frustration or challenge working at Grafana Labs right now?"
         </blockquote>
         <p><em>Listen for: bureaucracy, slow decisions, morale, comp, tech debt, autonomy</em></p>
 
@@ -480,13 +421,13 @@ def generate_html(company_name: str, company_slug: str, facts: dict, flags: dict
 
         <h3>Question 3: Why Stay?</h3>
         <blockquote>
-            "Why are you still at {company_name}? What keeps you engaged?"
+            "Why are you still at Grafana Labs? What keeps you engaged?"
         </blockquote>
         <p><em>Listen for: mission, people, comp, growth, technical work, stability</em></p>
 
         <h3>Question 4: Would You Join Today?</h3>
         <blockquote>
-            "Last one - would you join {company_name} today knowing what you know now?"
+            "Last one - would you join Grafana Labs today knowing what you know now?"
         </blockquote>
         <ul>
             <li><strong>If "yes":</strong> "What would seal the deal if you were evaluating it today?"</li>
@@ -535,58 +476,12 @@ def generate_html(company_name: str, company_slug: str, facts: dict, flags: dict
 
     </div>
     <script>
-        document.addEventListener('keydown', function(e) {{
-            if ((e.ctrlKey || e.metaKey) && e.key === 'p') {{
+        document.addEventListener('keydown', function(e) {
+            if ((e.ctrlKey || e.metaKey) && e.key === 'p') {
                 e.preventDefault();
                 window.print();
-            }}
-        }});
+            }
+        });
     </script>
 </body>
 </html>
-"""
-    return html
-
-
-def main():
-    if len(sys.argv) != 2:
-        print("Usage: uv run python scripts/generate_interview_guide.py <company-slug>")
-        print("Example: uv run python scripts/generate_interview_guide.py workday")
-        sys.exit(1)
-
-    company_slug = sys.argv[1]
-
-    # Load company data
-    try:
-        facts, flags = load_company_data(company_slug)
-    except FileNotFoundError as e:
-        print(f"❌ Error: {e}")
-        sys.exit(1)
-
-    # Extract critical questions
-    critical_questions = extract_critical_questions(flags)
-
-    # Get company name from facts
-    company_name = facts.get("company", company_slug.replace("-", " ").title())
-
-    # Generate HTML
-    html = generate_html(company_name, company_slug, facts, flags, critical_questions)
-
-    # Create output file with timestamp
-    timestamp = datetime.now().strftime("%Y%m%d")
-    output_dir = Path("data") / company_slug
-    output_dir.mkdir(parents=True, exist_ok=True)
-    output_file = output_dir / f"{timestamp}-insider-interview-guide.html"
-
-    # Write file
-    with open(output_file, "w") as f:
-        f.write(html)
-
-    print(f"✅ Interview guide created: {output_file}")
-    print(f"📄 Format: A4 paper, print-ready")
-    print(f"📍 Location: {output_file.absolute()}")
-    print(f"\n🖨️  To print: Open in browser and use Ctrl+P → Save as PDF")
-
-
-if __name__ == "__main__":
-    main()

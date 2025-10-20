@@ -62,6 +62,22 @@ def build_dimension_summary(dimension_name: str, facts_section: dict, flags_sect
 def generate_html(company_name: str, facts: dict, flags: dict) -> str:
     """Generate complete HTML evaluation overview."""
 
+    # Reference ID mappings
+    dimension_codes = {
+        "Mountain Range": "MR",
+        "Chosen Peak": "CP",
+        "Rope Team Confidence": "RT",
+        "Daily Climb": "DC",
+        "Story Worth Telling": "ST"
+    }
+
+    subsection_codes = {
+        "facts": "F",
+        "green": "G",
+        "red": "R",
+        "validate": "V"
+    }
+
     # Extract evaluation context
     evaluator_context = flags.get("evaluator_context", "Senior Engineer evaluating opportunities")
     research_date = facts.get("research_date", "Unknown")
@@ -103,6 +119,9 @@ def generate_html(company_name: str, facts: dict, flags: dict) -> str:
     # Build dimension HTML sections
     dimension_html = ""
     for dim_name, dim_data in dimensions.items():
+        # Get dimension code
+        dim_code = dimension_codes.get(dim_name, "XX")
+
         facts_list = dim_data["facts"].get("facts_found", [])[:3]
         green_flags = (dim_data["flags"].get("critical_matches", []) +
                       dim_data["flags"].get("strong_positives", []))[:3]
@@ -118,46 +137,82 @@ def generate_html(company_name: str, facts: dict, flags: dict) -> str:
                    if dim_name.lower() in item.get("mountain_element", "").lower().replace("_", " ")][:2]
 
         facts_html = ""
-        for fact in facts_list:
+        for i, fact in enumerate(facts_list, 1):
             fact_text = fact.get("fact", "")
-            confidence = fact.get("confidence", "")
-            facts_html += f"        <li>{fact_text} <em>({confidence})</em></li>\n"
+            confidence_raw = fact.get("confidence", "unknown")
+            # Map fact confidence to HIGH/MEDIUM/LOW
+            if confidence_raw == "explicit_statement":
+                confidence_level = "HIGH"
+                confidence_badge = '<span class="confidence-high">HIGH</span>'
+            elif confidence_raw == "implied":
+                confidence_level = "MEDIUM"
+                confidence_badge = '<span class="confidence-medium">MEDIUM</span>'
+            else:
+                confidence_level = "MEDIUM"
+                confidence_badge = '<span class="confidence-medium">MEDIUM</span>'
+            ref_id = f"{dim_code}-{subsection_codes['facts']}{i}"
+            facts_html += f"        <li><strong>[{ref_id}]</strong> {fact_text} {confidence_badge}</li>\n"
 
         green_html = ""
-        for flag in green_flags:
+        for i, flag in enumerate(green_flags, 1):
             flag_text = flag.get("flag", "")
-            green_html += f"        <li>{flag_text}</li>\n"
+            confidence_raw = flag.get("confidence", "")
+            # Parse confidence from flags (format: "High - description" or "Medium - description" or "Low - description")
+            if confidence_raw.startswith("High"):
+                confidence_badge = '<span class="confidence-high">HIGH</span>'
+            elif confidence_raw.startswith("Medium"):
+                confidence_badge = '<span class="confidence-medium">MEDIUM</span>'
+            elif confidence_raw.startswith("Low"):
+                confidence_badge = '<span class="confidence-low">LOW</span>'
+            else:
+                confidence_badge = '<span class="confidence-medium">MEDIUM</span>'
+            ref_id = f"{dim_code}-{subsection_codes['green']}{i}"
+            green_html += f"        <li><strong>[{ref_id}]</strong> {flag_text} {confidence_badge}</li>\n"
 
         red_html = ""
-        for flag in red_flags:
+        for i, flag in enumerate(red_flags, 1):
             flag_text = flag.get("flag", "")
-            red_html += f"        <li>{flag_text}</li>\n"
+            confidence_raw = flag.get("confidence", "")
+            # Parse confidence from flags (format: "High - description" or "Medium - description" or "Low - description")
+            if confidence_raw.startswith("High"):
+                confidence_badge = '<span class="confidence-high">HIGH</span>'
+            elif confidence_raw.startswith("Medium"):
+                confidence_badge = '<span class="confidence-medium">MEDIUM</span>'
+            elif confidence_raw.startswith("Low"):
+                confidence_badge = '<span class="confidence-low">LOW</span>'
+            else:
+                confidence_badge = '<span class="confidence-medium">MEDIUM</span>'
+            ref_id = f"{dim_code}-{subsection_codes['red']}{i}"
+            red_html += f"        <li><strong>[{ref_id}]</strong> {flag_text} {confidence_badge}</li>\n"
 
         gaps_html = ""
-        for gap in dim_gaps:
+        for i, gap in enumerate(dim_gaps, 1):
             question = gap.get("question", "")
             why = gap.get("why_important", "")
-            gaps_html += f"        <li><strong>{question}</strong><br><em>{why}</em></li>\n"
+            # Validation items are implicitly LOW confidence (need insider validation)
+            confidence_badge = '<span class="confidence-low">LOW</span>'
+            ref_id = f"{dim_code}-{subsection_codes['validate']}{i}"
+            gaps_html += f"        <li><strong>[{ref_id}]</strong> {question} {confidence_badge}<br><em>{why}</em></li>\n"
 
         dimension_html += f"""
-        <h2>{dim_name}: {dim_data['description']}</h2>
+        <h2>[{dim_code}] {dim_name}: {dim_data['description']}</h2>
 
-        <h3>✅ What I've Found</h3>
+        <h3>[{dim_code}-{subsection_codes['facts']}] ✅ What I've Found</h3>
         <ul>
 {facts_html if facts_html else "            <li><em>Limited public information available</em></li>\n"}
         </ul>
 
-        <h3>🟢 Green Flags</h3>
+        <h3>[{dim_code}-{subsection_codes['green']}] 🟢 Green Flags</h3>
         <ul>
 {green_html if green_html else "            <li><em>None identified yet</em></li>\n"}
         </ul>
 
-        <h3>🚩 Red Flags</h3>
+        <h3>[{dim_code}-{subsection_codes['red']}] 🚩 Red Flags</h3>
         <ul>
 {red_html if red_html else "            <li><em>None identified yet</em></li>\n"}
         </ul>
 
-        <h3>🔍 Need to Validate</h3>
+        <h3>[{dim_code}-{subsection_codes['validate']}] 🔍 Need to Validate</h3>
         <ul>
 {gaps_html if gaps_html else "            <li><em>No specific gaps identified</em></li>\n"}
         </ul>
@@ -168,7 +223,7 @@ def generate_html(company_name: str, facts: dict, flags: dict) -> str:
     # Priority checklist
     priority_html = ""
     for i, item in enumerate(missing_data[:8], 1):
-        priority_html += f"""            <li>{item.get('question', '')}</li>\n"""
+        priority_html += f"""            <li><strong>[P{i}]</strong> {item.get('question', '')}</li>\n"""
 
     html = f"""<!DOCTYPE html>
 <html>
@@ -246,6 +301,67 @@ def generate_html(company_name: str, facts: dict, flags: dict) -> str:
         li {{
             margin: 0.08cm 0;
             page-break-inside: avoid;
+        }}
+
+        li strong:first-child {{
+            color: #0066cc;
+            font-size: 9pt;
+            margin-right: 0.2cm;
+            font-family: 'Courier New', monospace;
+        }}
+
+        @media print {{
+            li strong:first-child {{
+                color: #333;
+            }}
+        }}
+
+        .confidence-high {{
+            background-color: #d4edda;
+            color: #155724;
+            padding: 0.05cm 0.15cm;
+            border-radius: 3px;
+            font-size: 8pt;
+            font-weight: bold;
+            margin-left: 0.2cm;
+        }}
+
+        .confidence-medium {{
+            background-color: #fff3cd;
+            color: #856404;
+            padding: 0.05cm 0.15cm;
+            border-radius: 3px;
+            font-size: 8pt;
+            font-weight: bold;
+            margin-left: 0.2cm;
+        }}
+
+        .confidence-low {{
+            background-color: #f8d7da;
+            color: #721c24;
+            padding: 0.05cm 0.15cm;
+            border-radius: 3px;
+            font-size: 8pt;
+            font-weight: bold;
+            margin-left: 0.2cm;
+        }}
+
+        @media print {{
+            .confidence-high {{
+                background-color: #e8e8e8;
+                color: #000;
+                border: 1px solid #155724;
+            }}
+            .confidence-medium {{
+                background-color: #e8e8e8;
+                color: #000;
+                border: 1px solid #856404;
+            }}
+            .confidence-low {{
+                background-color: #e8e8e8;
+                color: #000;
+                border: 1px solid #721c24;
+            }}
         }}
 
         hr {{
@@ -350,9 +466,9 @@ def generate_html(company_name: str, facts: dict, flags: dict) -> str:
 
         <h2>Confidence Levels Explained</h2>
         <ul>
-            <li><strong>HIGH confidence:</strong> Multiple independent sources, recent data, explicit statements</li>
-            <li><strong>MEDIUM confidence:</strong> Single source, implied information, or dated information</li>
-            <li><strong>LOW confidence:</strong> Absence of data, conflicting signals, or need firsthand validation</li>
+            <li><span class="confidence-high">HIGH</span> Multiple independent sources, recent data, explicit statements</li>
+            <li><span class="confidence-medium">MEDIUM</span> Single source, implied information, or dated information</li>
+            <li><span class="confidence-low">LOW</span> Absence of data, conflicting signals, or need firsthand validation</li>
         </ul>
 
         <p style="margin-top: 0.5cm;"><em>Your input as an insider will be invaluable for validating MEDIUM/LOW confidence items and providing ground truth on the priority questions above.</em></p>

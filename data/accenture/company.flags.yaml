@@ -1,0 +1,245 @@
+company: Accenture
+evaluation_date: '2025-10-20'
+evaluator_context: Extracted from conversation notes
+green_flags:
+  mountain_range:
+    critical_matches:
+    - flag: Strong financial position with $10.87B free cash flow and consistent profitability
+      impact: Company has financial stability to weather economic downturns and invest
+        in technology
+      confidence: High - from FY2025 earnings report
+    - flag: Growing AI business with $5.9B in Gen AI bookings for FY2025 (vs $3B in
+        FY2024)
+      impact: Company is successfully pivoting to high-growth AI market, creating
+        new opportunities
+      confidence: High - from official earnings report
+    strong_positives:
+    - flag: Global headquarters in Dublin with flagship innovation center (The Dock)
+      impact: Ireland operations are strategic priority, not just satellite office
+      confidence: High - Dublin is legal and operational global HQ since 2009
+    - flag: 310 'diamond clients' each generating $100M+ annually provides stable
+        revenue base
+      impact: Client relationships are deep and sticky, reducing business risk
+      confidence: High - from FY2024 earnings report
+  chosen_peak:
+    critical_matches:
+    - flag: $3 billion investment in Data & AI practice over three years, doubling
+        team to 80,000 practitioners
+      impact: Massive commitment to AI/ML creates abundant learning and growth opportunities
+      confidence: High - announced June 2023
+    - flag: Multi-cloud leadership with deep partnerships across AWS (30+ competencies),
+        Azure (16-time Partner of Year), Google Cloud (2025 Partner of Year)
+      impact: Access to cutting-edge cloud technology and training across all major
+        platforms
+      confidence: High - from official partnership announcements
+    - flag: 218 public GitHub repositories with active development including Mercury,
+        SFMC DevTools, AI Refinery SDK
+      impact: Strong open source culture and technical reputation
+      confidence: High - verified from GitHub
+    - flag: 'The Dock innovation center in Dublin: 66,300 sq ft R&D facility with
+        200+ professionals working on AI, quantum, IoT, AR'
+      impact: World-class innovation facility in target location with cutting-edge
+        work
+      confidence: High - flagship global innovation center opened 2017
+    strong_positives:
+    - flag: 'Modern tech stack: JavaScript, Python, Java, TypeScript, Node.js with
+        focus on cloud-native development'
+      impact: Current, marketable technical skills
+      confidence: High - from StackShare and job postings
+    - flag: $1B investment in LearnVantage for upskilling in Gen AI, data science,
+        cloud, cybersecurity (includes Udacity acquisition)
+      impact: Extensive free training and certification opportunities
+      confidence: High - announced March 2024
+    - flag: 'February 2024: Opened new Generative AI studio at The Dock'
+      impact: Recent investment in Dublin facility shows continued commitment
+      confidence: High - from Silicon Republic
+    - flag: Founding member of Green Software Foundation with GitHub, Microsoft, ThoughtWorks
+      impact: Progressive technical culture with sustainability focus
+      confidence: High - launched with Linux Foundation May 2021
+  rope_team_confidence:
+    critical_matches: []
+    strong_positives:
+    - flag: CEO Julie Sweet has 6 years stable tenure (since Sept 2019)
+      impact: CEO stability provides consistent strategic direction
+      confidence: High - from official leadership page
+    - flag: Rajendra Prasad appointed CTO with 20+ years at Accenture (internal promotion)
+      impact: Technical leadership continuity with internal expertise
+      confidence: High - announced June 2025
+  daily_climb:
+    critical_matches: []
+    strong_positives:
+    - flag: Comprehensive Vhi health insurance for employees and families, including
+        vision and dental
+      impact: Strong healthcare benefits package
+      confidence: High - from Accenture Ireland benefits page
+    - flag: Pension plan from day one with matching at rising increments, plus ESPP
+        with 15% discount
+      impact: Good retirement and equity benefits
+      confidence: High - from benefits documentation
+    - flag: 20-25 days annual leave (increases at manager level) plus 10 additional
+        days via overtime banking
+      impact: Above-average vacation time with flexibility
+      confidence: High - from benefits page and reviews
+  story_worth_telling:
+    critical_matches:
+    - flag: Free certification programs across Microsoft, Azure, Google Cloud, AWS,
+        SAP, Salesforce, ServiceNow platforms
+      impact: Exceptional skill development and resume-building opportunities
+      confidence: High - from learning and development page
+    - flag: Exposure to Fortune 500 clients across 9,000+ companies in diverse industries
+      impact: Broad experience across different business domains and technical challenges
+      confidence: High - from company fact sheet
+    strong_positives:
+    - flag: 100+ Connected Innovation Centers globally for knowledge sharing
+      impact: Access to global innovation network and learning
+      confidence: High - from Accenture Labs documentation
+    - flag: Global mobility opportunities across 120 countries
+      impact: Potential for international experience and career advancement
+      confidence: High - operates in 120+ countries
+red_flags:
+  mountain_range:
+    dealbreakers: []
+    concerning:
+    - flag: 11,000+ employees laid off May-Nov 2025 with explicit 'exiting people
+        where reskilling is not viable' rationale
+      impact: Active layoffs create job insecurity and suggest AI automation replacing
+        roles
+      severity: High - layoffs ongoing through November 2025
+      confidence: High - from Tech.co, CX Today
+    - flag: FY2025 Q3 bookings ($19.7B) fell short of analyst estimates ($21.5B),
+        down 6% despite 8% revenue growth
+      impact: Sales pipeline weakening suggests potential for further cuts
+      severity: Medium - financial pressure indicator
+      confidence: High - from Consulting.us June 2025
+  chosen_peak:
+    dealbreakers: []
+    concerning: []
+  rope_team_confidence:
+    dealbreakers: []
+    concerning:
+    - flag: 'THREE senior executives departing simultaneously in September 2025: CTO,
+        Head of Consulting (~30 yrs), CHRO'
+      impact: Suggests major disagreement with restructuring direction or toxic leadership
+        environment
+      severity: High - unprecedented exodus at senior level
+      confidence: High - announced June 20, 2025
+    - flag: CHRO position changed twice in one year (Sept 2024-Sept 2025)
+      impact: HR leadership instability suggests cultural or organizational issues
+      severity: Medium-High - critical role for employee experience
+      confidence: High - from Accenture newsroom
+    - flag: 'Major organizational restructuring: consolidating 5 service lines into
+        1 ''Reinvention Services'' unit (Sept 2025)'
+      impact: Massive structural change creates uncertainty, reporting changes, and
+        potential role eliminations
+      severity: High - largest org change in years
+      confidence: High - announced June 2025
+    - flag: 'February 2025: Discontinued global diversity goals (previously 50% women
+        by 2025) and paused external benchmarking'
+      impact: Retreat from public diversity commitments may signal cultural shift
+      severity: Medium - policy reversal
+      confidence: High - from Wikipedia Julie Sweet article
+    - flag: 'Ireland hit disproportionately hard: 1,290 layoffs in 2023 (20% of workforce)
+        vs 2.5% globally'
+      impact: Ireland operations appear more vulnerable to cuts than other locations
+      severity: High - location-specific risk
+      confidence: High - from Irish Times, Silicon Republic
+  daily_climb:
+    dealbreakers:
+    - flag: Software Engineer salaries in Dublin €35K-€55K (€45K average) - 39% below
+        market average of €74K
+      impact: Severely below-market compensation makes financial goals difficult,
+        housing unaffordable in Dublin
+      severity: Critical - €29K/year pay gap
+      confidence: High - from 5,238 Glassdoor salary submissions Sept 2025
+    concerning:
+    - flag: Ireland employee satisfaction 3.3/5 vs 3.7/5 globally; only 59% recommend
+        vs 74% globally
+      impact: Ireland operations have notably worse employee experience than other
+        locations
+      severity: High - location-specific dissatisfaction
+      confidence: High - from 3,929 Glassdoor Ireland reviews
+    - flag: Compensation & Benefits rating 2.8/5 in Ireland (19.4% worse than global
+        3.4/5)
+      impact: Pay dissatisfaction is significant concern in Ireland specifically
+      severity: High - compensation is bottom-rated category
+      confidence: High - from Glassdoor Ireland data
+    - flag: Remote work is project-dependent (25-75% of time), not guaranteed; client-facing
+        roles may require full office presence
+      impact: Cannot rely on remote work flexibility - varies by assignment
+      severity: Medium - unpredictable work arrangement
+      confidence: High - from multiple employee sources
+    - flag: No at-level raises reported; salary increases only come with promotions
+      impact: Compensation stagnates without promotion, falling behind market
+      severity: Medium - limits earning growth
+      confidence: Medium - from multiple Glassdoor reviews
+    - flag: Complicated 'people lead' promotion system criticized as opaque with unclear
+        advancement criteria
+      impact: Difficult to plan career progression and advocate for advancement
+      severity: Medium - career development friction
+      confidence: Medium - repeated theme in reviews
+  story_worth_telling:
+    dealbreakers: []
+    concerning:
+    - flag: Large portion of Ireland work is BPO/outsourcing (Meta content moderation
+        for Facebook/Instagram/WhatsApp)
+      impact: May be assigned to non-technical work rather than software engineering
+      severity: Medium - role mismatch risk
+      confidence: High - Ireland is one of 8 global content moderation locations
+missing_critical_data:
+- mountain_element: daily_climb
+  question: What is the actual remote work policy for software engineers at The Dock
+    innovation center specifically?
+  why_important: The Dock appears to be the premier technical environment, but unclear
+    if it follows same restrictive project-dependent remote policy
+  how_to_find: 'Ask during interview: ''What percentage of engineers at The Dock work
+    remotely? Is there a required office presence?'''
+- mountain_element: story_worth_telling
+  question: What is the typical career progression timeline from Staff Engineer to
+    Senior Engineer to Principal at Accenture Ireland?
+  why_important: Need to understand realistic promotion path given concerns about
+    opaque 'people lead' system
+  how_to_find: 'Ask hiring manager: ''What does the career ladder look like for technical
+    roles? What''s the typical timeline and criteria for each level?'''
+- mountain_element: rope_team_confidence
+  question: How will the September 2025 restructuring (5 units → 1) specifically affect
+    engineering roles and reporting structure?
+  why_important: Massive org change could mean manager changes, team disruption, or
+    role elimination
+  how_to_find: 'Ask: ''How has your team been impacted by the recent restructuring?
+    Have there been any changes to reporting lines or team structure?'''
+- mountain_element: daily_climb
+  question: What is the salary range for this specific Staff Engineer role, and is
+    there negotiation room?
+  why_important: Published averages show €45K (far below market), but actual offers
+    may vary; need to know if negotiable to €60-70K minimum
+  how_to_find: 'Ask directly in HR/recruiter conversation: ''What is the salary range
+    for this position?'' and negotiate firmly toward market rate'
+- mountain_element: chosen_peak
+  question: Which specific project/client would I be assigned to, and what is the
+    technical stack and work arrangement?
+  why_important: Project assignment determines actual tech work, remote flexibility,
+    and whether it's strategic vs BPO work
+  how_to_find: 'Ask hiring manager: ''What project would I join? What technologies?
+    What''s the remote work arrangement for that specific project?'''
+- mountain_element: rope_team_confidence
+  question: How has this specific team been affected by the ongoing layoffs through
+    November 2025?
+  why_important: Some teams may be growing while others shrinking; need to know if
+    this team is stable or at risk
+  how_to_find: 'Ask team members during interview: ''Has your team had any changes
+    in size recently? How has the organization impacted your work?'''
+- mountain_element: chosen_peak
+  question: What percentage of Ireland engineering roles are software development
+    vs BPO/content moderation work?
+  why_important: Large content moderation presence in Ireland - need to understand
+    if engineering roles are truly technical
+  how_to_find: 'Ask: ''What type of work does the engineering team in Dublin focus
+    on? Is this primarily software development or operations/support?'''
+- mountain_element: mountain_range
+  question: Are there any planned future reductions or hiring freezes for Ireland
+    operations specifically?
+  why_important: Ireland was hit disproportionately hard in 2023 (20% cut); need to
+    know if more cuts planned
+  how_to_find: 'Difficult to get honest answer, but ask: ''What are the growth plans
+    for the Dublin office?'' and watch for evasive answers'
+company_slug: accenture
