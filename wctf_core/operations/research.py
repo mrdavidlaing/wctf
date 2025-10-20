@@ -16,6 +16,7 @@ from wctf_core.utils.paths import (
     get_facts_path,
     slugify_company_name,
 )
+from wctf_core.utils.responses import success_response, error_response
 from wctf_core.utils.yaml_handler import read_yaml, write_yaml, YAMLHandlerError
 
 
@@ -151,41 +152,44 @@ def save_research_results(
     Returns:
         Dictionary with:
         - success: bool - Whether save completed successfully
-        - message: str - Human-readable result message
-        - company_name: str - Name of company researched
-        - facts_generated: int - Number of facts found
-        - information_completeness: str - "high", "medium", or "low"
-        - facts_file_path: str - Path to generated facts file
+        - message: str - Human-readable confirmation
+        - company_name: str - Display name of company (e.g., "Toast, Inc.")
+        - company_slug: str - Normalized name for filesystem (e.g., "toast-inc")
+        - file_path: str - Path to saved facts file
+        - items_saved: int - Number of facts saved
+        - operation: str - "created", "updated", or "merged"
         OR (on error):
         - success: False
-        - error: str - Error message
-        - company_name: str - Name of company (if available)
+        - message: str - Human-readable error explanation
+        - error: str - Technical error details
+        - company_name: str - Display name (if available)
+        - company_slug: str - Normalized name (if available)
     """
     # Validate company name
     if company_name is None:
         raise TypeError("Company name cannot be None")
 
     if not isinstance(company_name, str):
-        return {
-            "success": False,
-            "error": "Invalid company name. Company name must be a non-empty string.",
-        }
+        return error_response(
+            error="Invalid company name. Company name must be a non-empty string.",
+            message="Company name must be a valid string"
+        )
 
     if not company_name.strip():
-        return {
-            "success": False,
-            "error": "Invalid company name. Company name cannot be empty or whitespace.",
-        }
+        return error_response(
+            error="Invalid company name. Company name cannot be empty or whitespace.",
+            message="Company name cannot be empty"
+        )
 
     company_name = company_name.strip()
 
     # Validate YAML content
     if not yaml_content or not isinstance(yaml_content, str):
-        return {
-            "success": False,
-            "error": "Invalid YAML content. Must be a non-empty string.",
-            "company_name": company_name,
-        }
+        return error_response(
+            error="Invalid YAML content. Must be a non-empty string.",
+            message="YAML content is required",
+            company_name=company_name
+        )
 
     try:
         # Parse YAML content
@@ -194,82 +198,82 @@ def save_research_results(
         except yaml.YAMLError as e:
             # Show first 200 chars of what was received to help debug
             preview = yaml_content[:200] + "..." if len(yaml_content) > 200 else yaml_content
-            return {
-                "success": False,
-                "error": (
+            return error_response(
+                error=(
                     f"Failed to parse YAML content: {str(e)}\n\n"
                     f"Received content (first 200 chars):\n{preview}\n\n"
                     f"Make sure the content is valid YAML format."
                 ),
-                "company_name": company_name,
-            }
+                message="Failed to parse YAML content",
+                company_name=company_name
+            )
 
         # Validate basic structure
         if not isinstance(facts_data, dict):
-            return {
-                "success": False,
-                "error": (
+            return error_response(
+                error=(
                     "YAML content is not a valid dictionary. "
                     "Expected a YAML object with company, research_date, category sections, and summary."
                 ),
-                "company_name": company_name,
-            }
+                message="YAML content must be a dictionary",
+                company_name=company_name
+            )
 
         # Check for required categories
         required_categories = ['financial_health', 'market_position', 'organizational_stability', 'technical_culture']
         missing_categories = [cat for cat in required_categories if cat not in facts_data]
 
         if missing_categories:
-            return {
-                "success": False,
-                "error": (
+            return error_response(
+                error=(
                     f"YAML content missing required category sections: {', '.join(missing_categories)}. "
                     f"All four categories are required: financial_health, market_position, "
                     f"organizational_stability, technical_culture. "
                     f"Found sections: {', '.join(facts_data.keys())}"
                 ),
-                "company_name": company_name,
-            }
+                message=f"Missing required categories: {', '.join(missing_categories)}",
+                company_name=company_name
+            )
 
         # Validate each category has facts_found (or accept 'facts' as alias)
         for category in required_categories:
             cat_data = facts_data[category]
             if not isinstance(cat_data, dict):
-                return {
-                    "success": False,
-                    "error": (
+                return error_response(
+                    error=(
                         f"Category '{category}' must be a dictionary with 'facts_found' and 'missing_information' fields. "
                         f"Got: {type(cat_data).__name__}"
                     ),
-                    "company_name": company_name,
-                }
+                    message=f"Invalid format for category '{category}'",
+                    company_name=company_name
+                )
 
             # Accept both 'facts_found' and 'facts' as valid keys
             if 'facts_found' not in cat_data and 'facts' not in cat_data:
-                return {
-                    "success": False,
-                    "error": (
+                return error_response(
+                    error=(
                         f"Category '{category}' missing 'facts_found' array. "
                         f"Each category must have a 'facts_found' array (or 'facts') containing research findings. "
                         f"Found keys: {', '.join(cat_data.keys())}"
                     ),
-                    "company_name": company_name,
-                }
+                    message=f"Category '{category}' missing facts_found array",
+                    company_name=company_name
+                )
 
             # Normalize 'facts' to 'facts_found' if needed
             if 'facts' in cat_data and 'facts_found' not in cat_data:
                 cat_data['facts_found'] = cat_data.pop('facts')
 
         if "summary" not in facts_data:
-            return {
-                "success": False,
-                "error": (
+            return error_response(
+                error=(
                     "YAML content missing required 'summary' section. "
                     "Summary must include: total_facts_found, information_completeness, "
                     "most_recent_data_point, oldest_data_point"
                 ),
-                "company_name": company_name,
-            }
+                message="YAML content missing required 'summary' section",
+                company_name=company_name
+            )
 
         # Extract summary information
         summary = facts_data.get("summary", {})
@@ -280,6 +284,9 @@ def save_research_results(
         try:
             company_dir = ensure_company_dir(company_name, base_path=base_path)
             facts_path = get_facts_path(company_name, base_path=base_path)
+
+            # Determine operation type before writing
+            operation = "merged" if facts_path.exists() else "created"
 
             # Deduplicate incoming facts (safety net for when LLM doesn't dedupe)
             for category in ['financial_health', 'market_position', 'organizational_stability', 'technical_culture']:
@@ -338,11 +345,11 @@ def save_research_results(
             write_yaml(facts_path, facts_data)
 
         except Exception as e:
-            return {
-                "success": False,
-                "error": f"Failed to save facts file: {str(e)}",
-                "company_name": company_name,
-            }
+            return error_response(
+                error=f"Failed to save facts file: {str(e)}",
+                message="Failed to save facts file",
+                company_name=company_name
+            )
 
         # Build success message with appropriate tone based on completeness
         if completeness == "low" or facts_count < 10:
@@ -362,18 +369,17 @@ def save_research_results(
                 f"Saved {facts_count} facts (completeness: {completeness})."
             )
 
-        return {
-            "success": True,
-            "message": message,
-            "company_name": company_name,
-            "facts_generated": facts_count,
-            "information_completeness": completeness,
-            "facts_file_path": str(facts_path),
-        }
+        return success_response(
+            company_name=company_name,
+            file_path=facts_path,
+            items_saved=facts_count,
+            message=message,
+            operation=operation
+        )
 
     except Exception as e:
-        return {
-            "success": False,
-            "error": f"Unexpected error saving research: {str(e)}",
-            "company_name": company_name,
-        }
+        return error_response(
+            error=f"Unexpected error saving research: {str(e)}",
+            message="Unexpected error saving research",
+            company_name=company_name
+        )

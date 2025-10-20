@@ -16,6 +16,7 @@ from wctf_core.utils.paths import (
     get_flags_path,
     slugify_company_name,
 )
+from wctf_core.utils.responses import success_response, error_response
 from wctf_core.utils.yaml_handler import read_yaml, write_yaml
 
 
@@ -292,53 +293,60 @@ def save_flags_op(
         base_path: Optional base path for data directory (for testing)
 
     Returns:
-        - success: bool
-        - company_name: str
-        - flags_file_path: str
-        - message: str
+        Dictionary with:
+        - success: bool - Whether save completed successfully
+        - message: str - Human-readable confirmation
+        - company_name: str - Display name of company
+        - company_slug: str - Normalized name for filesystem
+        - file_path: str - Path to saved flags file
+        - items_saved: int - Number of flags saved
+        - operation: str - "created", "updated", or "merged"
 
         On error:
         - success: False
-        - error: str
+        - message: str - Human-readable error explanation
+        - error: str - Technical error details
+        - company_name: str - Display name (if available)
+        - company_slug: str - Normalized name (if available)
     """
     # Validate company name
     if company_name is None:
         raise TypeError("Company name cannot be None")
 
     if not isinstance(company_name, str) or not company_name.strip():
-        return {
-            "success": False,
-            "error": "Invalid company name. Company name must be a non-empty string.",
-        }
+        return error_response(
+            error="Invalid company name. Company name must be a non-empty string.",
+            message="Company name must be a valid string"
+        )
 
     company_name = company_name.strip()
 
     # Validate flags_yaml
     if not flags_yaml or not isinstance(flags_yaml, str):
-        return {
-            "success": False,
-            "error": "Invalid flags YAML. Must be a non-empty string.",
-        }
+        return error_response(
+            error="Invalid flags YAML. Must be a non-empty string.",
+            message="Flags YAML content is required"
+        )
 
     try:
         # Parse YAML content
         try:
             extracted_flags = yaml.safe_load(flags_yaml)
         except yaml.YAMLError as e:
-            return {
-                "success": False,
-                "error": f"Failed to parse YAML content: {str(e)}",
-                "company_name": company_name,
-            }
+            return error_response(
+                error=f"Failed to parse YAML content: {str(e)}",
+                message="Failed to parse YAML content",
+                company_name=company_name
+            )
 
         # Validate flag structure
         is_valid, error_msg = _validate_flag_structure(extracted_flags)
         if not is_valid:
-            return {
-                "success": False,
-                "error": f"Invalid flag structure: {error_msg}",
-                "company_name": company_name,
-            }
+            return error_response(
+                error=f"Invalid flag structure: {error_msg}",
+                message="Invalid flag structure",
+                company_name=company_name
+            )
 
         # Ensure company directory exists
         ensure_company_dir(company_name, base_path=base_path)
@@ -363,22 +371,39 @@ def save_flags_op(
         if 'company_slug' not in merged_flags:
             merged_flags['company_slug'] = slugify_company_name(company_name)
 
+        # Count flags
+        flag_count = 0
+        if "green_flags" in merged_flags:
+            for element, severities in merged_flags["green_flags"].items():
+                for severity, flags in severities.items():
+                    flag_count += len(flags)
+        if "red_flags" in merged_flags:
+            for element, severities in merged_flags["red_flags"].items():
+                for severity, flags in severities.items():
+                    flag_count += len(flags)
+        if "missing_critical_data" in merged_flags:
+            flag_count += len(merged_flags["missing_critical_data"])
+        
+        # Determine operation type BEFORE writing
+        operation = "merged" if flags_path.exists() else "created"
+        
         # Save merged flags
         write_yaml(flags_path, merged_flags)
 
-        return {
-            "success": True,
-            "company_name": company_name,
-            "flags_file_path": str(flags_path),
-            "message": f"Successfully saved flags for {company_name}",
-        }
+        return success_response(
+            company_name=company_name,
+            file_path=flags_path,
+            items_saved=flag_count,
+            message=f"Successfully saved {flag_count} flags for {company_name}",
+            operation=operation
+        )
 
     except Exception as e:
-        return {
-            "success": False,
-            "error": f"Failed to save flags: {str(e)}",
-            "company_name": company_name,
-        }
+        return error_response(
+            error=f"Failed to save flags: {str(e)}",
+            message="Failed to save flags",
+            company_name=company_name
+        )
 
 
 def add_manual_flag(
@@ -413,76 +438,84 @@ def add_manual_flag(
         base_path: Optional base path for data directory (for testing)
 
     Returns:
-        - success: bool
-        - company_name: str
-        - flags_file_path: str
-        - message: str
-        OR
+        Dictionary with:
+        - success: bool - Whether save completed successfully
+        - message: str - Human-readable confirmation
+        - company_name: str - Display name of company
+        - company_slug: str - Normalized name for filesystem
+        - file_path: str - Path to saved flags file
+        - items_saved: int - Always 1 (one flag added)
+        - operation: str - Always "updated" (adding to existing)
+
+        On error:
         - success: False
-        - error: str
+        - message: str - Human-readable error explanation
+        - error: str - Technical error details
+        - company_name: str - Display name (if available)
+        - company_slug: str - Normalized name (if available)
     """
     # Validate company name
     if company_name is None:
         raise TypeError("Company name cannot be None")
 
     if not isinstance(company_name, str) or not company_name.strip():
-        return {
-            "success": False,
-            "error": "Invalid company name. Company name must be a non-empty string.",
-        }
+        return error_response(
+            error="Invalid company name. Company name must be a non-empty string.",
+            message="Company name must be a valid string"
+        )
 
     company_name = company_name.strip()
 
     # Validate flag type
     valid_flag_types = {"green", "red", "missing"}
     if flag_type not in valid_flag_types:
-        return {
-            "success": False,
-            "error": f"Invalid flag type: {flag_type}. Must be one of: {', '.join(valid_flag_types)}",
-        }
+        return error_response(
+            error=f"Invalid flag type: {flag_type}. Must be one of: {', '.join(valid_flag_types)}",
+            message="Invalid flag type"
+        )
 
     # Validate mountain element
     if mountain_element not in MOUNTAIN_ELEMENTS:
-        return {
-            "success": False,
-            "error": f"Invalid mountain element: {mountain_element}. Must be one of: {', '.join(MOUNTAIN_ELEMENTS)}",
-        }
+        return error_response(
+            error=f"Invalid mountain element: {mountain_element}. Must be one of: {', '.join(MOUNTAIN_ELEMENTS)}",
+            message="Invalid mountain element"
+        )
 
     # Validate appropriate fields for flag type
     if flag_type in ("green", "red"):
         if not flag or not impact or not confidence:
-            return {
-                "success": False,
-                "error": f"For {flag_type} flags, must provide: flag, impact, confidence",
-            }
+            return error_response(
+                error=f"For {flag_type} flags, must provide: flag, impact, confidence",
+                message=f"Missing required fields for {flag_type} flag"
+            )
         if not severity:
-            return {
-                "success": False,
-                "error": f"For {flag_type} flags, must provide severity level",
-            }
+            return error_response(
+                error=f"For {flag_type} flags, must provide severity level",
+                message="Severity level is required"
+            )
 
         # Validate severity level
         if flag_type == "green":
             valid_severities = {"critical_matches", "strong_positives"}
             if severity not in valid_severities:
-                return {
-                    "success": False,
-                    "error": f"Invalid severity for green flag: {severity}. Must be one of: {', '.join(valid_severities)}",
-                }
+                return error_response(
+                    error=f"Invalid severity for green flag: {severity}. Must be one of: {', '.join(valid_severities)}",
+                    message="Invalid severity for green flag"
+                )
         elif flag_type == "red":
             valid_severities = {"dealbreakers", "concerning"}
             if severity not in valid_severities:
-                return {
-                    "success": False,
-                    "error": f"Invalid severity for red flag: {severity}. Must be one of: {', '.join(valid_severities)}",
-                }
+                return error_response(
+                    error=f"Invalid severity for red flag: {severity}. Must be one of: {', '.join(valid_severities)}",
+                    message="Invalid severity for red flag"
+                )
 
     elif flag_type == "missing":
         if not question or not why_important or not how_to_find:
-            return {
-                "success": False,
-                "error": "For missing data, must provide: question, why_important, how_to_find",
-            }
+            return error_response(
+                error="For missing data, must provide: question, why_important, how_to_find",
+                message="Missing required fields for missing data"
+            )
 
     try:
         # Ensure company directory exists
@@ -555,16 +588,17 @@ def add_manual_flag(
         # Save updated flags
         write_yaml(flags_path, flags_data)
 
-        return {
-            "success": True,
-            "company_name": company_name,
-            "flags_file_path": str(flags_path),
-            "message": f"Successfully added {flag_type} flag for {company_name}",
-        }
+        return success_response(
+            company_name=company_name,
+            file_path=flags_path,
+            items_saved=1,  # Added one flag
+            message=f"Successfully added {flag_type} flag for {company_name}",
+            operation="updated"  # Always updating existing flags structure
+        )
 
     except Exception as e:
-        return {
-            "success": False,
-            "error": f"Failed to add manual flag: {str(e)}",
-            "company_name": company_name,
-        }
+        return error_response(
+            error=f"Failed to add manual flag: {str(e)}",
+            message="Failed to add manual flag",
+            company_name=company_name
+        )

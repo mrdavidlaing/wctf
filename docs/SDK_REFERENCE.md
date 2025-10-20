@@ -1,6 +1,6 @@
 # WCTF Core SDK Reference
 
-Auto-generated from wctf_core v0.2.0 on 2025-10-19
+Auto-generated from wctf_core v0.2.0 on 2025-10-20
 
 ## Overview
 
@@ -190,8 +190,19 @@ company directory. Merges with existing facts if file already exists.
 **Returns:**
 Dictionary with:
 - success (bool): Whether save was successful
-- message (str): Result message
-- facts_generated (int): Number of facts saved
+- message (str): Human-readable confirmation
+- company_name (str): Display name (e.g., "Toast, Inc.")
+- company_slug (str): Filesystem slug (e.g., "toast-inc")
+- file_path (str): Absolute path to saved file
+- items_saved (int): Number of facts saved
+- operation (str): "created", "updated", or "merged"
+
+On error:
+- success (bool): False
+- message (str): User-friendly error explanation
+- error (str): Technical error details
+- company_name (str): Display name (if available)
+- company_slug (str): Filesystem slug (if available)
 
 **Example:**
 ```python
@@ -255,7 +266,21 @@ red flags, and missing critical data. The prompt expects research facts
 to be provided in the conversation context.
 
 **Returns:**
-Dictionary with success status and extraction_prompt
+Dictionary with:
+- success (bool): Whether operation completed successfully
+- message (str): Human-readable confirmation
+- company_name (str): Display name (e.g., "Toast, Inc.")
+- company_slug (str): Filesystem slug (e.g., "toast-inc")
+- file_path (str): Absolute path to saved file
+- items_saved (int): Count of items saved
+- operation (str): "created", "updated", or "merged"
+
+On error:
+- success (bool): False
+- message (str): User-friendly error explanation
+- error (str): Technical error details
+- company_name (str): Display name (if available)
+- company_slug (str): Filesystem slug (if available) and extraction_prompt
 
 **Example:**
 ```python
@@ -280,7 +305,21 @@ Merges with existing flags if file already exists.
 - flags_yaml: Complete YAML content with extracted flags
 
 **Returns:**
-Dictionary with success status and message
+Dictionary with:
+- success (bool): Whether operation completed successfully
+- message (str): Human-readable confirmation
+- company_name (str): Display name (e.g., "Toast, Inc.")
+- company_slug (str): Filesystem slug (e.g., "toast-inc")
+- file_path (str): Absolute path to saved file
+- items_saved (int): Count of items saved
+- operation (str): "created", "updated", or "merged"
+
+On error:
+- success (bool): False
+- message (str): User-friendly error explanation
+- error (str): Technical error details
+- company_name (str): Display name (if available)
+- company_slug (str): Filesystem slug (if available)
 
 **Example:**
 ```python
@@ -305,7 +344,21 @@ Manually add a flag to company evaluation.
 - **kwargs: Additional flag-specific fields (flag, impact, confidence, etc.)
 
 **Returns:**
-Dictionary with success status and message
+Dictionary with:
+- success (bool): Whether operation completed successfully
+- message (str): Human-readable confirmation
+- company_name (str): Display name (e.g., "Toast, Inc.")
+- company_slug (str): Filesystem slug (e.g., "toast-inc")
+- file_path (str): Absolute path to saved file
+- items_saved (int): Count of items saved
+- operation (str): "created", "updated", or "merged"
+
+On error:
+- success (bool): False
+- message (str): User-friendly error explanation
+- error (str): Technical error details
+- company_name (str): Display name (if available)
+- company_slug (str): Filesystem slug (if available)
 
 
 ---
@@ -357,7 +410,21 @@ extracting structured facts.
 - interviewee_role: Optional role/title
 
 **Returns:**
-Dictionary with success status and extraction prompt
+Dictionary with:
+- success (bool): Whether operation completed successfully
+- message (str): Human-readable confirmation
+- company_name (str): Display name (e.g., "Toast, Inc.")
+- company_slug (str): Filesystem slug (e.g., "toast-inc")
+- file_path (str): Absolute path to saved file
+- items_saved (int): Count of items saved
+- operation (str): "created", "updated", or "merged"
+
+On error:
+- success (bool): False
+- message (str): User-friendly error explanation
+- error (str): Technical error details
+- company_name (str): Display name (if available)
+- company_slug (str): Filesystem slug (if available) and extraction prompt
 
 
 **`save_insider_facts(company_name: <class 'str'>, interview_date: <class 'str'>, interviewee_name: <class 'str'>, extracted_facts_yaml: <class 'str'>, interviewee_role: Optional[str] = None) -> Dict[str, Any]`**
@@ -375,7 +442,21 @@ Merges with existing insider facts if file already exists.
 - interviewee_role: Optional role/title
 
 **Returns:**
-Dictionary with success status and facts count
+Dictionary with:
+- success (bool): Whether operation completed successfully
+- message (str): Human-readable confirmation
+- company_name (str): Display name (e.g., "Toast, Inc.")
+- company_slug (str): Filesystem slug (e.g., "toast-inc")
+- file_path (str): Absolute path to saved file
+- items_saved (int): Count of items saved
+- operation (str): "created", "updated", or "merged"
+
+On error:
+- success (bool): False
+- message (str): User-friendly error explanation
+- error (str): Technical error details
+- company_name (str): Display name (if available)
+- company_slug (str): Filesystem slug (if available)
 
 
 ---
@@ -392,7 +473,21 @@ Get conversation guidance questions based on existing company data.
 - max_questions: Maximum number of questions to return
 
 **Returns:**
-Dictionary with success status and questions list
+Dictionary with:
+- success (bool): Whether operation completed successfully
+- message (str): Human-readable confirmation
+- company_name (str): Display name (e.g., "Toast, Inc.")
+- company_slug (str): Filesystem slug (e.g., "toast-inc")
+- file_path (str): Absolute path to saved file
+- items_saved (int): Count of items saved
+- operation (str): "created", "updated", or "merged"
+
+On error:
+- success (bool): False
+- message (str): User-friendly error explanation
+- error (str): Technical error details
+- company_name (str): Display name (if available)
+- company_slug (str): Filesystem slug (if available) and questions list
 
 
 **`gut_check(company_name: <class 'str'>) -> Dict[str, Any]`**
@@ -406,7 +501,21 @@ with decision making.
 - company_name: Name of the company
 
 **Returns:**
-Dictionary with success status and formatted summary
+Dictionary with:
+- success (bool): Whether operation completed successfully
+- message (str): Human-readable confirmation
+- company_name (str): Display name (e.g., "Toast, Inc.")
+- company_slug (str): Filesystem slug (e.g., "toast-inc")
+- file_path (str): Absolute path to saved file
+- items_saved (int): Count of items saved
+- operation (str): "created", "updated", or "merged"
+
+On error:
+- success (bool): False
+- message (str): User-friendly error explanation
+- error (str): Technical error details
+- company_name (str): Display name (if available)
+- company_slug (str): Filesystem slug (if available) and formatted summary
 
 
 **`save_decision(company_name: <class 'str'>, mountain_worth_climbing: <class 'str'>, confidence: <class 'str'>, reasoning: Optional[str] = None) -> Dict[str, Any]`**
@@ -420,7 +529,21 @@ Save a gut decision to the company's flags file.
 - reasoning: Optional reasoning text explaining the decision
 
 **Returns:**
-Dictionary with success status
+Dictionary with:
+- success (bool): Whether operation completed successfully
+- message (str): Human-readable confirmation
+- company_name (str): Display name (e.g., "Toast, Inc.")
+- company_slug (str): Filesystem slug (e.g., "toast-inc")
+- file_path (str): Absolute path to saved file
+- items_saved (int): Count of items saved
+- operation (str): "created", "updated", or "merged"
+
+On error:
+- success (bool): False
+- message (str): User-friendly error explanation
+- error (str): Technical error details
+- company_name (str): Display name (if available)
+- company_slug (str): Filesystem slug (if available)
 
 
 **`get_evaluation_summary() -> Dict[str, Any]`**
@@ -431,7 +554,21 @@ Returns a formatted table showing all companies with their evaluation
 status, decisions, and confidence levels.
 
 **Returns:**
-Dictionary with success status, company count, and summary table
+Dictionary with:
+- success (bool): Whether operation completed successfully
+- message (str): Human-readable confirmation
+- company_name (str): Display name (e.g., "Toast, Inc.")
+- company_slug (str): Filesystem slug (e.g., "toast-inc")
+- file_path (str): Absolute path to saved file
+- items_saved (int): Count of items saved
+- operation (str): "created", "updated", or "merged"
+
+On error:
+- success (bool): False
+- message (str): User-friendly error explanation
+- error (str): Technical error details
+- company_name (str): Display name (if available)
+- company_slug (str): Filesystem slug (if available), company count, and summary table
 
 **Example:**
 ```python
@@ -531,7 +668,7 @@ Uses double hierarchy: mountain elements (what aspect) -> severity (how importan
 | `company_slug` | `Optional[str]` | Slugified company name for filesystem (auto-generated if not provided) |
 | `evaluation_date` | `<class 'datetime.date'>` | Date when evaluation was done |
 | `evaluator_context` | `<class 'str'>` | Context of the evaluator |
-| `senior_engineer_alignment` | `Dict[str, str]` | Alignment with senior engineer criteria |
+| `staff_engineer_alignment` | `Dict[str, str]` | Alignment with staff engineer criteria |
 | `green_flags` | `Dict[str, wctf_core.models.MountainElementGreenFlags]` | Positive indicators organized by mountain element (mountain_range, chosen_peak, rope_team_confidence, daily_climb, story_worth_telling) |
 | `red_flags` | `Dict[str, wctf_core.models.MountainElementRedFlags]` | Negative indicators organized by mountain element |
 | `missing_critical_data` | `List[wctf_core.models.MissingCriticalData]` | Critical missing information |

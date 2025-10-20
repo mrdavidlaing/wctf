@@ -157,8 +157,19 @@ class WCTFClient:
         Returns:
             Dictionary with:
             - success (bool): Whether save was successful
-            - message (str): Result message
-            - facts_generated (int): Number of facts saved
+            - message (str): Human-readable confirmation
+            - company_name (str): Display name (e.g., "Toast, Inc.")
+            - company_slug (str): Filesystem slug (e.g., "toast-inc")
+            - file_path (str): Absolute path to saved file
+            - items_saved (int): Number of facts saved
+            - operation (str): "created", "updated", or "merged"
+
+            On error:
+            - success (bool): False
+            - message (str): User-friendly error explanation
+            - error (str): Technical error details
+            - company_name (str): Display name (if available)
+            - company_slug (str): Filesystem slug (if available)
 
         Example:
             >>> client = WCTFClient()
@@ -220,7 +231,21 @@ class WCTFClient:
         to be provided in the conversation context.
 
         Returns:
-            Dictionary with success status and extraction_prompt
+            Dictionary with:
+            - success (bool): Whether operation completed successfully
+            - message (str): Human-readable confirmation
+            - company_name (str): Display name (e.g., "Toast, Inc.")
+            - company_slug (str): Filesystem slug (e.g., "toast-inc")
+            - file_path (str): Absolute path to saved file
+            - items_saved (int): Count of items saved
+            - operation (str): "created", "updated", or "merged"
+
+            On error:
+            - success (bool): False
+            - message (str): User-friendly error explanation
+            - error (str): Technical error details
+            - company_name (str): Display name (if available)
+            - company_slug (str): Filesystem slug (if available) and extraction_prompt
 
         Example:
             >>> client = WCTFClient()
@@ -247,7 +272,21 @@ class WCTFClient:
             flags_yaml: Complete YAML content with extracted flags
 
         Returns:
-            Dictionary with success status and message
+            Dictionary with:
+            - success (bool): Whether operation completed successfully
+            - message (str): Human-readable confirmation
+            - company_name (str): Display name (e.g., "Toast, Inc.")
+            - company_slug (str): Filesystem slug (e.g., "toast-inc")
+            - file_path (str): Absolute path to saved file
+            - items_saved (int): Count of items saved
+            - operation (str): "created", "updated", or "merged"
+
+            On error:
+            - success (bool): False
+            - message (str): User-friendly error explanation
+            - error (str): Technical error details
+            - company_name (str): Display name (if available)
+            - company_slug (str): Filesystem slug (if available)
 
         Example:
             >>> client = WCTFClient()  # doctest: +SKIP
@@ -280,7 +319,21 @@ class WCTFClient:
             **kwargs: Additional flag-specific fields (flag, impact, confidence, etc.)
 
         Returns:
-            Dictionary with success status and message
+            Dictionary with:
+            - success (bool): Whether operation completed successfully
+            - message (str): Human-readable confirmation
+            - company_name (str): Display name (e.g., "Toast, Inc.")
+            - company_slug (str): Filesystem slug (e.g., "toast-inc")
+            - file_path (str): Absolute path to saved file
+            - items_saved (int): Count of items saved
+            - operation (str): "created", "updated", or "merged"
+
+            On error:
+            - success (bool): False
+            - message (str): User-friendly error explanation
+            - error (str): Technical error details
+            - company_name (str): Display name (if available)
+            - company_slug (str): Filesystem slug (if available)
         """
         return add_manual_flag_op(
             company_name=company_name,
@@ -338,7 +391,21 @@ class WCTFClient:
             interviewee_role: Optional role/title
 
         Returns:
-            Dictionary with success status and extraction prompt
+            Dictionary with:
+            - success (bool): Whether operation completed successfully
+            - message (str): Human-readable confirmation
+            - company_name (str): Display name (e.g., "Toast, Inc.")
+            - company_slug (str): Filesystem slug (e.g., "toast-inc")
+            - file_path (str): Absolute path to saved file
+            - items_saved (int): Count of items saved
+            - operation (str): "created", "updated", or "merged"
+
+            On error:
+            - success (bool): False
+            - message (str): User-friendly error explanation
+            - error (str): Technical error details
+            - company_name (str): Display name (if available)
+            - company_slug (str): Filesystem slug (if available) and extraction prompt
         """
         return get_insider_extraction_prompt_op(
             company_name=company_name,
@@ -368,7 +435,21 @@ class WCTFClient:
             interviewee_role: Optional role/title
 
         Returns:
-            Dictionary with success status and facts count
+            Dictionary with:
+            - success (bool): Whether operation completed successfully
+            - message (str): Human-readable confirmation
+            - company_name (str): Display name (e.g., "Toast, Inc.")
+            - company_slug (str): Filesystem slug (e.g., "toast-inc")
+            - file_path (str): Absolute path to saved file
+            - items_saved (int): Count of items saved
+            - operation (str): "created", "updated", or "merged"
+
+            On error:
+            - success (bool): False
+            - message (str): User-friendly error explanation
+            - error (str): Technical error details
+            - company_name (str): Display name (if available)
+            - company_slug (str): Filesystem slug (if available)
         """
         return save_insider_facts_op(
             company_name=company_name,
@@ -395,7 +476,21 @@ class WCTFClient:
             max_questions: Maximum number of questions to return
 
         Returns:
-            Dictionary with success status and questions list
+            Dictionary with:
+            - success (bool): Whether operation completed successfully
+            - message (str): Human-readable confirmation
+            - company_name (str): Display name (e.g., "Toast, Inc.")
+            - company_slug (str): Filesystem slug (e.g., "toast-inc")
+            - file_path (str): Absolute path to saved file
+            - items_saved (int): Count of items saved
+            - operation (str): "created", "updated", or "merged"
+
+            On error:
+            - success (bool): False
+            - message (str): User-friendly error explanation
+            - error (str): Technical error details
+            - company_name (str): Display name (if available)
+            - company_slug (str): Filesystem slug (if available) and questions list
         """
         return get_conversation_questions_op(
             company_name=company_name,
@@ -414,7 +509,21 @@ class WCTFClient:
             company_name: Name of the company
 
         Returns:
-            Dictionary with success status and formatted summary
+            Dictionary with:
+            - success (bool): Whether operation completed successfully
+            - message (str): Human-readable confirmation
+            - company_name (str): Display name (e.g., "Toast, Inc.")
+            - company_slug (str): Filesystem slug (e.g., "toast-inc")
+            - file_path (str): Absolute path to saved file
+            - items_saved (int): Count of items saved
+            - operation (str): "created", "updated", or "merged"
+
+            On error:
+            - success (bool): False
+            - message (str): User-friendly error explanation
+            - error (str): Technical error details
+            - company_name (str): Display name (if available)
+            - company_slug (str): Filesystem slug (if available) and formatted summary
         """
         return gut_check_op(company_name=company_name, base_path=self.data_dir)
 
@@ -434,7 +543,21 @@ class WCTFClient:
             reasoning: Optional reasoning text explaining the decision
 
         Returns:
-            Dictionary with success status
+            Dictionary with:
+            - success (bool): Whether operation completed successfully
+            - message (str): Human-readable confirmation
+            - company_name (str): Display name (e.g., "Toast, Inc.")
+            - company_slug (str): Filesystem slug (e.g., "toast-inc")
+            - file_path (str): Absolute path to saved file
+            - items_saved (int): Count of items saved
+            - operation (str): "created", "updated", or "merged"
+
+            On error:
+            - success (bool): False
+            - message (str): User-friendly error explanation
+            - error (str): Technical error details
+            - company_name (str): Display name (if available)
+            - company_slug (str): Filesystem slug (if available)
         """
         return save_gut_decision_op(
             company_name=company_name,
@@ -451,7 +574,21 @@ class WCTFClient:
         status, decisions, and confidence levels.
 
         Returns:
-            Dictionary with success status, company count, and summary table
+            Dictionary with:
+            - success (bool): Whether operation completed successfully
+            - message (str): Human-readable confirmation
+            - company_name (str): Display name (e.g., "Toast, Inc.")
+            - company_slug (str): Filesystem slug (e.g., "toast-inc")
+            - file_path (str): Absolute path to saved file
+            - items_saved (int): Count of items saved
+            - operation (str): "created", "updated", or "merged"
+
+            On error:
+            - success (bool): False
+            - message (str): User-friendly error explanation
+            - error (str): Technical error details
+            - company_name (str): Display name (if available)
+            - company_slug (str): Filesystem slug (if available), company count, and summary table
 
         Example:
             >>> client = WCTFClient()

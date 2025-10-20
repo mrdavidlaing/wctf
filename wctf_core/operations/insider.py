@@ -15,6 +15,7 @@ from wctf_core.utils.paths import (
     get_insider_facts_path,
     slugify_company_name,
 )
+from wctf_core.utils.responses import success_response, error_response
 from wctf_core.utils.yaml_handler import read_yaml, write_yaml, YAMLHandlerError
 
 
@@ -93,28 +94,28 @@ def get_insider_extraction_prompt(
         raise TypeError("Company name cannot be None")
 
     if not isinstance(company_name, str) or not company_name.strip():
-        return {
-            "success": False,
-            "error": "Invalid company name. Company name must be a non-empty string.",
-        }
+        return error_response(
+            error="Invalid company name. Company name must be a non-empty string.",
+            message="Company name must be a valid string"
+        )
 
     company_name = company_name.strip()
 
     # Validate interview_date
     if not interview_date or not isinstance(interview_date, str):
-        return {
-            "success": False,
-            "error": "Invalid interview_date. Must be a non-empty string in YYYY-MM-DD format.",
-            "company_name": company_name,
-        }
+        return error_response(
+            error="Invalid interview_date. Must be a non-empty string in YYYY-MM-DD format.",
+            message="Interview date is required",
+            company_name=company_name
+        )
 
     # Validate interviewee_name
     if not interviewee_name or not isinstance(interviewee_name, str):
-        return {
-            "success": False,
-            "error": "Invalid interviewee_name. Must be a non-empty string.",
-            "company_name": company_name,
-        }
+        return error_response(
+            error="Invalid interviewee_name. Must be a non-empty string.",
+            message="Interviewee name is required",
+            company_name=company_name
+        )
 
     try:
         prompt_template = _load_extraction_prompt()
@@ -171,52 +172,55 @@ def save_insider_facts(
     Returns:
         Dictionary with:
         - success: bool - Whether save completed successfully
-        - company_name: str
-        - facts_saved: bool
-        - facts_file_path: str
-        - facts_count: int
-        - message: str
+        - message: str - Human-readable confirmation
+        - company_name: str - Display name of company
+        - company_slug: str - Normalized name for filesystem
+        - file_path: str - Path to saved insider facts file
+        - items_saved: int - Number of facts saved
+        - operation: str - "created", "updated", or "merged"
 
         On error:
         - success: False
-        - error: str
-        - company_name: str
+        - message: str - Human-readable error explanation
+        - error: str - Technical error details
+        - company_name: str - Display name (if available)
+        - company_slug: str - Normalized name (if available)
     """
     # Validate company name
     if company_name is None:
         raise TypeError("Company name cannot be None")
 
     if not isinstance(company_name, str) or not company_name.strip():
-        return {
-            "success": False,
-            "error": "Invalid company name. Company name must be a non-empty string.",
-        }
+        return error_response(
+            error="Invalid company name. Company name must be a non-empty string.",
+            message="Company name must be a valid string"
+        )
 
     company_name = company_name.strip()
 
     # Validate interview_date
     if not interview_date or not isinstance(interview_date, str):
-        return {
-            "success": False,
-            "error": "Invalid interview_date. Must be a non-empty string in YYYY-MM-DD format.",
-            "company_name": company_name,
-        }
+        return error_response(
+            error="Invalid interview_date. Must be a non-empty string in YYYY-MM-DD format.",
+            message="Interview date is required",
+            company_name=company_name
+        )
 
     # Validate interviewee_name
     if not interviewee_name or not isinstance(interviewee_name, str):
-        return {
-            "success": False,
-            "error": "Invalid interviewee_name. Must be a non-empty string.",
-            "company_name": company_name,
-        }
+        return error_response(
+            error="Invalid interviewee_name. Must be a non-empty string.",
+            message="Interviewee name is required",
+            company_name=company_name
+        )
 
     # Validate YAML content
     if not extracted_facts_yaml or not isinstance(extracted_facts_yaml, str):
-        return {
-            "success": False,
-            "error": "Invalid YAML content. Must be a non-empty string.",
-            "company_name": company_name,
-        }
+        return error_response(
+            error="Invalid YAML content. Must be a non-empty string.",
+            message="YAML content is required",
+            company_name=company_name
+        )
 
     try:
         # Parse YAML content
@@ -236,14 +240,12 @@ def save_insider_facts(
 
         # Validate basic structure
         if not isinstance(facts_data, dict):
-            return {
-                "success": False,
-                "error": (
-                    "YAML content is not a valid dictionary. "
-                    "Expected a YAML object with company, last_updated, category sections, and summary."
-                ),
-                "company_name": company_name,
-            }
+            return error_response(
+                error=("YAML content is not a valid dictionary. "
+                    "Expected a YAML object with company, last_updated, category sections, and summary."),
+                message="YAML content is not a valid dictionary. ",
+                company_name=company_name
+            )
 
         # Check for required categories
         required_categories = ['financial_health', 'market_position', 'organizational_stability', 'technical_culture']
@@ -310,15 +312,13 @@ def save_insider_facts(
                     }
 
         if "summary" not in facts_data:
-            return {
-                "success": False,
-                "error": (
-                    "YAML content missing required 'summary' section. "
+            return error_response(
+                error=("YAML content missing required 'summary' section. "
                     "Summary must include: total_facts_found, information_completeness, "
-                    "most_recent_interview, oldest_interview, total_interviews, interviewees"
-                ),
-                "company_name": company_name,
-            }
+                    "most_recent_interview, oldest_interview, total_interviews, interviewees"),
+                message="YAML content missing required 'summary' section. ",
+                company_name=company_name
+            )
 
         # Deduplicate incoming facts
         for category in required_categories:
@@ -400,30 +400,32 @@ def save_insider_facts(
             if 'company_slug' not in facts_data:
                 facts_data['company_slug'] = slugify_company_name(company_name)
 
-            # Write the merged facts file
-            write_yaml(facts_path, facts_data)
-
             facts_count = facts_data.get('summary', {}).get('total_facts_found', 0)
 
-            return {
-                "success": True,
-                "company_name": company_name,
-                "facts_saved": True,
-                "facts_file_path": str(facts_path),
-                "facts_count": facts_count,
-                "message": f"Successfully saved {facts_count} insider facts for {company_name}",
-            }
+            # Determine operation type BEFORE writing
+            operation = "merged" if facts_path.exists() else "created"
+            
+            # Write the merged facts file
+            write_yaml(facts_path, facts_data)
+            
+            return success_response(
+                company_name=company_name,
+                file_path=facts_path,
+                items_saved=facts_count,
+                message=f"Successfully saved {facts_count} insider facts for {company_name}",
+                operation=operation
+            )
 
         except Exception as e:
-            return {
-                "success": False,
-                "error": f"Failed to save insider facts: {str(e)}",
-                "company_name": company_name,
-            }
+            return error_response(
+                error=f"Failed to save insider facts: {str(e)}",
+                message="Failed to save insider facts",
+                company_name=company_name
+            )
 
     except Exception as e:
-        return {
-            "success": False,
-            "error": f"Unexpected error processing insider facts: {str(e)}",
-            "company_name": company_name,
-        }
+        return error_response(
+            error=f"Unexpected error processing insider facts: {str(e)}",
+            message="Unexpected error processing insider facts",
+            company_name=company_name
+        )

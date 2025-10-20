@@ -18,6 +18,7 @@ from wctf_core.utils.paths import (
     get_flags_path,
     list_companies as list_companies_util,
 )
+from wctf_core.utils.responses import success_response, error_response
 from wctf_core.utils.yaml_handler import YAMLHandlerError, read_yaml, write_yaml
 
 
@@ -44,13 +45,14 @@ def gut_check(
         company_dir = get_company_dir(company_name, base_path=base_path)
         if not company_dir.exists():
             available_companies = list_companies_util(base_path=base_path)
-            return {
-                "success": False,
-                "error": f"Company '{company_name}' not found",
-                "suggestion": f"Available companies: {', '.join(available_companies[:5])}"
-                             + (f" (and {len(available_companies) - 5} more)"
-                                if len(available_companies) > 5 else ""),
-            }
+            return error_response(
+                error=f"Company '{company_name}' not found. "
+                      f"Available companies: {', '.join(available_companies[:5])}"
+                      + (f" (and {len(available_companies) - 5} more)"
+                         if len(available_companies) > 5 else ""),
+                message=f"Company '{company_name}' not found",
+                company_name=company_name
+            )
 
         # Read facts and flags
         facts_path = get_facts_path(company_name, base_path=base_path)
@@ -275,9 +277,21 @@ def save_gut_decision(
         base_path: Optional base path for data directory (for testing)
 
     Returns:
-        Dictionary with either:
-        - success: True, message: <confirmation>
-        - success: False, error: <error message>
+        Dictionary with:
+        - success: bool - Whether save completed successfully
+        - message: str - Human-readable confirmation
+        - company_name: str - Display name of company
+        - company_slug: str - Normalized name for filesystem
+        - file_path: str - Path to saved flags file
+        - items_saved: int - Always 1 (one decision saved)
+        - operation: str - Always "updated" (updating flags file)
+
+        On error:
+        - success: False
+        - message: str - Human-readable error explanation
+        - error: str - Technical error details
+        - company_name: str - Display name (if available)
+        - company_slug: str - Normalized name (if available)
     """
     try:
         # Validate enum values
@@ -285,30 +299,31 @@ def save_gut_decision(
         valid_confidence_values = ["HIGH", "MEDIUM", "LOW"]
 
         if mountain_worth_climbing not in valid_mountain_values:
-            return {
-                "success": False,
-                "error": f"Invalid mountain_worth_climbing value: '{mountain_worth_climbing}'. "
-                        f"Must be one of: {', '.join(valid_mountain_values)}",
-            }
+            return error_response(
+                error=f"Invalid mountain_worth_climbing value: '{mountain_worth_climbing}'. "
+                      f"Must be one of: {', '.join(valid_mountain_values)}",
+                message="Invalid mountain_worth_climbing value"
+            )
 
         if confidence not in valid_confidence_values:
-            return {
-                "success": False,
-                "error": f"Invalid confidence value: '{confidence}'. "
-                        f"Must be one of: {', '.join(valid_confidence_values)}",
-            }
+            return error_response(
+                error=f"Invalid confidence value: '{confidence}'. "
+                      f"Must be one of: {', '.join(valid_confidence_values)}",
+                message="Invalid confidence value"
+            )
 
         # Check if company exists
         company_dir = get_company_dir(company_name, base_path=base_path)
         if not company_dir.exists():
             available_companies = list_companies_util(base_path=base_path)
-            return {
-                "success": False,
-                "error": f"Company '{company_name}' not found",
-                "suggestion": f"Available companies: {', '.join(available_companies[:5])}"
-                             + (f" (and {len(available_companies) - 5} more)"
-                                if len(available_companies) > 5 else ""),
-            }
+            return error_response(
+                error=f"Company '{company_name}' not found. "
+                      f"Available companies: {', '.join(available_companies[:5])}"
+                      + (f" (and {len(available_companies) - 5} more)"
+                         if len(available_companies) > 5 else ""),
+                message=f"Company '{company_name}' not found",
+                company_name=company_name
+            )
 
         # Get flags file path
         flags_path = get_flags_path(company_name, base_path=base_path)
@@ -333,17 +348,21 @@ def save_gut_decision(
         # Write back to file
         write_yaml(flags_path, flags_data)
 
-        return {
-            "success": True,
-            "message": f"Gut decision saved for {company_name}: "
-                      f"{mountain_worth_climbing} (confidence: {confidence})",
-        }
+        return success_response(
+            company_name=company_name,
+            file_path=flags_path,
+            items_saved=1,  # One decision saved
+            message=f"Gut decision saved for {company_name}: "
+                    f"{mountain_worth_climbing} (confidence: {confidence})",
+            operation="updated"  # Always updating flags file
+        )
 
     except Exception as e:
-        return {
-            "success": False,
-            "error": f"Error saving gut decision for '{company_name}': {str(e)}",
-        }
+        return error_response(
+            error=f"Error saving gut decision for '{company_name}': {str(e)}",
+            message="Error saving gut decision",
+            company_name=company_name
+        )
 
 
 def get_evaluation_summary(

@@ -192,8 +192,12 @@ class TestSaveInsiderFacts:
         )
 
         assert result["success"] is True
-        assert result["facts_saved"] is True
-        assert result["facts_count"] == 6
+        # Standard response format checks
+        assert result["company_name"] == "TestCorp"
+        assert result["company_slug"] == "testcorp"
+        assert "file_path" in result
+        assert "operation" in result
+        assert result["items_saved"] == 6
 
         # Verify file was created
         facts_path = get_insider_facts_path("TestCorp", base_path=temp_data_dir)
@@ -270,7 +274,7 @@ summary:
         )
 
         assert result["success"] is True
-        assert result["facts_count"] == 8  # 6 from first + 2 from second
+        assert result["items_saved"] == 8  # 6 from first + 2 from second
 
         # Verify merged content
         facts_path = get_insider_facts_path("TestCorp", base_path=temp_data_dir)
@@ -339,7 +343,7 @@ summary:
         )
 
         assert result["success"] is True
-        assert result["facts_count"] == 1  # Deduplicated to 1
+        assert result["items_saved"] == 1  # Deduplicated to 1
 
         # Verify only one fact saved
         facts_path = get_insider_facts_path("TestCorp", base_path=temp_data_dir)

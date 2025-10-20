@@ -163,8 +163,11 @@ class TestSaveResearchResults:
 
         assert result["success"] is True
         assert "TestCorp" in result["message"]
-        assert result["facts_generated"] == 5
-        assert result["information_completeness"] == "medium"
+        assert result["items_saved"] == 5
+        assert result["operation"] in ["created", "merged"]
+        assert result["company_name"] == "TestCorp"
+        assert result["company_slug"] == "testcorp"
+        assert "file_path" in result
 
     def test_creates_directory_structure(self, temp_data_dir, sample_yaml_content):
         """Test that save creates proper directory structure."""
@@ -569,21 +572,24 @@ summary:
             base_path=temp_data_dir
         )
 
-        # Verify all required fields are present
+        # Verify all required fields are present (standard response format)
         assert "success" in result
         assert "message" in result
         assert "company_name" in result
-        assert "facts_generated" in result
-        assert "information_completeness" in result
-        assert "facts_file_path" in result
+        assert "company_slug" in result
+        assert "items_saved" in result
+        assert "file_path" in result
+        assert "operation" in result
 
         # Verify field types
         assert isinstance(result["success"], bool)
         assert isinstance(result["message"], str)
         assert isinstance(result["company_name"], str)
-        assert isinstance(result["facts_generated"], int)
-        assert isinstance(result["information_completeness"], str)
-        assert isinstance(result["facts_file_path"], str)
+        assert isinstance(result["company_slug"], str)
+        assert isinstance(result["items_saved"], int)
+        assert isinstance(result["file_path"], str)
+        assert isinstance(result["operation"], str)
+        assert result["operation"] in ["created", "merged", "updated"]
 
     def test_company_added_to_list(self, temp_data_dir, sample_yaml_content):
         """Test that saved company appears in companies list."""

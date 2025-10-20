@@ -140,7 +140,11 @@ class TestSaveFlags:
         )
 
         assert result["success"] is True
-        assert "flags_file_path" in result
+        assert "file_path" in result
+        assert "company_name" in result
+        assert "company_slug" in result
+        assert "items_saved" in result
+        assert "operation" in result
         assert result["company_name"] == "TestCorp"
 
         # Verify the file was created (use slugified path)
@@ -305,7 +309,11 @@ class TestAddManualFlag:
         )
 
         assert result["success"] is True
-        assert "flags_file_path" in result
+        assert "file_path" in result
+        assert "company_name" in result
+        assert "company_slug" in result
+        assert "items_saved" in result
+        assert "operation" in result
 
         # Verify file was created
         from wctf_core.utils.paths import get_flags_path
