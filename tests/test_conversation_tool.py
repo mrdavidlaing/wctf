@@ -10,9 +10,11 @@ from wctf_core.operations.conversation import get_conversation_questions
 
 @pytest.fixture
 def test_data_dir(tmp_path: Path) -> Path:
-    """Create a temporary test data directory."""
+    """Create a temporary test data directory with stage structure."""
     data_dir = tmp_path / "data"
-    data_dir.mkdir(parents=True, exist_ok=True)
+    (data_dir / "stage-1").mkdir(parents=True, exist_ok=True)
+    (data_dir / "stage-2").mkdir(parents=True, exist_ok=True)
+    (data_dir / "stage-3").mkdir(parents=True, exist_ok=True)
     return tmp_path
 
 
@@ -20,7 +22,7 @@ def test_data_dir(tmp_path: Path) -> Path:
 def company_with_no_data(test_data_dir: Path) -> tuple[Path, str]:
     """Create a company directory with no facts or flags files."""
     company_name = "new-company"
-    company_dir = test_data_dir / "data" / company_name
+    company_dir = test_data_dir / "data" / "stage-1" / company_name
     company_dir.mkdir(parents=True, exist_ok=True)
     return test_data_dir, company_name
 
@@ -29,7 +31,7 @@ def company_with_no_data(test_data_dir: Path) -> tuple[Path, str]:
 def company_with_minimal_facts(test_data_dir: Path) -> tuple[Path, str]:
     """Create a company with minimal facts (some categories empty)."""
     company_name = "minimal-facts-company"
-    company_dir = test_data_dir / "data" / company_name
+    company_dir = test_data_dir / "data" / "stage-1" / company_name
     company_dir.mkdir(parents=True, exist_ok=True)
 
     facts_content = """company: "minimal-facts-company"
@@ -66,7 +68,7 @@ summary:
 def company_with_complete_facts(test_data_dir: Path) -> tuple[Path, str]:
     """Create a company with comprehensive facts across all categories."""
     company_name = "complete-facts-company"
-    company_dir = test_data_dir / "data" / company_name
+    company_dir = test_data_dir / "data" / "stage-1" / company_name
     company_dir.mkdir(parents=True, exist_ok=True)
 
     facts_content = """company: "complete-facts-company"
@@ -115,7 +117,7 @@ summary:
 def company_with_flags(test_data_dir: Path) -> tuple[Path, str]:
     """Create a company with both facts and flags."""
     company_name = "flags-company"
-    company_dir = test_data_dir / "data" / company_name
+    company_dir = test_data_dir / "data" / "stage-1" / company_name
     company_dir.mkdir(parents=True, exist_ok=True)
 
     facts_content = """company: "flags-company"

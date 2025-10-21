@@ -126,24 +126,24 @@ class TestGetCompanyDir:
 
     def test_get_company_dir(self, tmp_path):
         """Test getting a company directory."""
-        company_dir = get_company_dir("TestCo", base_path=tmp_path)
-        assert company_dir == tmp_path / "data" / "testco"
+        company_dir = get_company_dir("TestCo", stage=1, base_path=tmp_path)
+        assert company_dir == tmp_path / "data" / "stage-1" / "testco"
 
     def test_get_company_dir_slugifies_name(self, tmp_path):
         """Test that company names are slugified."""
-        company_dir = get_company_dir("Test Co", base_path=tmp_path)
+        company_dir = get_company_dir("Test Co", stage=1, base_path=tmp_path)
         # Should be slugified to lowercase with hyphens
-        assert company_dir == tmp_path / "data" / "test-co"
+        assert company_dir == tmp_path / "data" / "stage-1" / "test-co"
 
     def test_get_company_dir_with_special_chars(self, tmp_path):
         """Test getting directory with special characters in name."""
-        company_dir = get_company_dir("Toast, Inc.", base_path=tmp_path)
-        assert company_dir == tmp_path / "data" / "toast-inc"
+        company_dir = get_company_dir("Toast, Inc.", stage=1, base_path=tmp_path)
+        assert company_dir == tmp_path / "data" / "stage-1" / "toast-inc"
 
     def test_get_company_dir_multiple_companies(self, tmp_path):
         """Test getting directories for multiple companies."""
-        company1 = get_company_dir("Company1", base_path=tmp_path)
-        company2 = get_company_dir("Company2", base_path=tmp_path)
+        company1 = get_company_dir("Company1", stage=1, base_path=tmp_path)
+        company2 = get_company_dir("Company2", stage=1, base_path=tmp_path)
 
         assert company1 != company2
         assert company1.name == "company1"
@@ -171,11 +171,11 @@ class TestEnsureCompanyDir:
         """Test that ensure_company_dir creates parent directories."""
         # If data dir doesn't exist, it should be created
         new_base = tmp_path / "nonexistent"
-        company_dir = ensure_company_dir("TestCo", base_path=new_base)
+        company_dir = ensure_company_dir("TestCo", stage=1, base_path=new_base)
 
         assert company_dir.exists()
-        assert company_dir.parent.exists()  # data dir
-        assert company_dir.parent.name == "data"
+        assert company_dir.parent.exists()  # stage-1 dir
+        assert company_dir.parent.name == "stage-1"
 
 
 class TestGetFactsPath:
@@ -183,14 +183,14 @@ class TestGetFactsPath:
 
     def test_get_facts_path(self, tmp_path):
         """Test getting facts file path."""
-        facts_path = get_facts_path("TestCo", base_path=tmp_path)
-        assert facts_path == tmp_path / "data" / "testco" / "company.facts.yaml"
+        facts_path = get_facts_path("TestCo", stage=1, base_path=tmp_path)
+        assert facts_path == tmp_path / "data" / "stage-1" / "testco" / "company.facts.yaml"
         assert facts_path.name == "company.facts.yaml"
 
     def test_get_facts_path_different_companies(self, tmp_path):
         """Test facts paths for different companies."""
-        facts1 = get_facts_path("Company1", base_path=tmp_path)
-        facts2 = get_facts_path("Company2", base_path=tmp_path)
+        facts1 = get_facts_path("Company1", stage=1, base_path=tmp_path)
+        facts2 = get_facts_path("Company2", stage=1, base_path=tmp_path)
 
         assert facts1 != facts2
         assert facts1.parent.name == "company1"
@@ -202,14 +202,14 @@ class TestGetFlagsPath:
 
     def test_get_flags_path(self, tmp_path):
         """Test getting flags file path."""
-        flags_path = get_flags_path("TestCo", base_path=tmp_path)
-        assert flags_path == tmp_path / "data" / "testco" / "company.flags.yaml"
+        flags_path = get_flags_path("TestCo", stage=1, base_path=tmp_path)
+        assert flags_path == tmp_path / "data" / "stage-1" / "testco" / "company.flags.yaml"
         assert flags_path.name == "company.flags.yaml"
 
     def test_get_flags_path_different_companies(self, tmp_path):
         """Test flags paths for different companies."""
-        flags1 = get_flags_path("Company1", base_path=tmp_path)
-        flags2 = get_flags_path("Company2", base_path=tmp_path)
+        flags1 = get_flags_path("Company1", stage=1, base_path=tmp_path)
+        flags2 = get_flags_path("Company2", stage=1, base_path=tmp_path)
 
         assert flags1 != flags2
         assert flags1.parent.name == "company1"
@@ -229,13 +229,13 @@ class TestListCompanies:
 
     def test_list_companies_with_companies(self, tmp_path):
         """Test listing companies when companies exist."""
-        data_dir = tmp_path / "data"
-        data_dir.mkdir()
+        stage_1_dir = tmp_path / "data" / "stage-1"
+        stage_1_dir.mkdir(parents=True)
 
-        # Create some company directories
-        (data_dir / "Company1").mkdir()
-        (data_dir / "Company2").mkdir()
-        (data_dir / "Company3").mkdir()
+        # Create some company directories in stage-1
+        (stage_1_dir / "Company1").mkdir()
+        (stage_1_dir / "Company2").mkdir()
+        (stage_1_dir / "Company3").mkdir()
 
         companies = list_companies(base_path=tmp_path)
         assert len(companies) == 3
@@ -244,13 +244,13 @@ class TestListCompanies:
         assert "Company3" in companies
 
     def test_list_companies_ignores_files(self, tmp_path):
-        """Test that list_companies ignores files in data dir."""
-        data_dir = tmp_path / "data"
-        data_dir.mkdir()
+        """Test that list_companies ignores files in stage directories."""
+        stage_1_dir = tmp_path / "data" / "stage-1"
+        stage_1_dir.mkdir(parents=True)
 
-        # Create companies and a file
-        (data_dir / "Company1").mkdir()
-        (data_dir / "somefile.txt").write_text("test")
+        # Create companies and a file in stage-1
+        (stage_1_dir / "Company1").mkdir()
+        (stage_1_dir / "somefile.txt").write_text("test")
 
         companies = list_companies(base_path=tmp_path)
         assert len(companies) == 1
@@ -264,13 +264,13 @@ class TestListCompanies:
 
     def test_list_companies_sorted(self, tmp_path):
         """Test that companies are returned sorted."""
-        data_dir = tmp_path / "data"
-        data_dir.mkdir()
+        stage_1_dir = tmp_path / "data" / "stage-1"
+        stage_1_dir.mkdir(parents=True)
 
-        # Create companies in non-alphabetical order
-        (data_dir / "Zebra").mkdir()
-        (data_dir / "Apple").mkdir()
-        (data_dir / "Microsoft").mkdir()
+        # Create companies in non-alphabetical order in stage-1
+        (stage_1_dir / "Zebra").mkdir()
+        (stage_1_dir / "Apple").mkdir()
+        (stage_1_dir / "Microsoft").mkdir()
 
         companies = list_companies(base_path=tmp_path)
         assert companies == ["Apple", "Microsoft", "Zebra"]

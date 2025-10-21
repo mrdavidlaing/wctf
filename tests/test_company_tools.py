@@ -17,15 +17,21 @@ from wctf_core.operations.company import (
 def test_data_dir(tmp_path: Path) -> Path:
     """Create a temporary test data directory with sample companies."""
     # Copy test fixtures to temp directory
-    # The tools expect a data/ subdirectory, so we create that structure
+    # The tools expect a data/ subdirectory with stage-based structure
     fixtures_dir = Path(__file__).parent / "fixtures" / "data"
     data_dir = tmp_path / "data"
-    data_dir.mkdir(parents=True, exist_ok=True)
 
-    # Create company directories
+    # Create stage directories
+    stage_1_dir = data_dir / "stage-1"
+    stage_1_dir.mkdir(parents=True, exist_ok=True)
+
+    (data_dir / "stage-2").mkdir(parents=True, exist_ok=True)
+    (data_dir / "stage-3").mkdir(parents=True, exist_ok=True)
+
+    # Create company directories in stage-1
     for company_dir in fixtures_dir.iterdir():
         if company_dir.is_dir():
-            dest_dir = data_dir / company_dir.name
+            dest_dir = stage_1_dir / company_dir.name
             dest_dir.mkdir(parents=True, exist_ok=True)
 
             # Copy YAML files

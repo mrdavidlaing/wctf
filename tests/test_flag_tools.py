@@ -294,7 +294,7 @@ class TestAddManualFlag:
     def test_add_manual_flag_green_flag(self, tmp_path):
         """Test adding a manual green flag."""
         # Create company directory
-        company_dir = tmp_path / "data" / "TestCorp"
+        company_dir = tmp_path / "data" / "stage-1" / "TestCorp"
         company_dir.mkdir(parents=True)
 
         result = add_manual_flag(
@@ -331,7 +331,7 @@ class TestAddManualFlag:
     def test_add_manual_flag_red_flag(self, tmp_path):
         """Test adding a manual red flag."""
         # Create company directory
-        company_dir = tmp_path / "data" / "TestCorp"
+        company_dir = tmp_path / "data" / "stage-1" / "TestCorp"
         company_dir.mkdir(parents=True)
 
         result = add_manual_flag(
@@ -359,7 +359,7 @@ class TestAddManualFlag:
     def test_add_manual_flag_missing_data(self, tmp_path):
         """Test adding missing critical data."""
         # Create company directory
-        company_dir = tmp_path / "data" / "TestCorp"
+        company_dir = tmp_path / "data" / "stage-1" / "TestCorp"
         company_dir.mkdir(parents=True)
 
         result = add_manual_flag(
@@ -494,7 +494,7 @@ class TestAddManualFlag:
     def test_add_manual_flag_preserves_yaml_readability(self, tmp_path):
         """Test that flags file remains human-readable."""
         # Create company directory
-        company_dir = tmp_path / "data" / "TestCorp"
+        company_dir = tmp_path / "data" / "stage-1" / "TestCorp"
         company_dir.mkdir(parents=True)
 
         # Add a flag
