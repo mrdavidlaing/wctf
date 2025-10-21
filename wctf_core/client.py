@@ -33,7 +33,7 @@ from wctf_core.operations.decision import (
     save_gut_decision as save_gut_decision_op,
     get_evaluation_summary as get_evaluation_summary_op,
 )
-from wctf_core.utils.paths import get_company_dir
+from wctf_core.utils.paths import get_company_dir, find_company, get_stage_dir, slugify_company_name
 
 
 class WCTFClient:
@@ -118,6 +118,92 @@ class WCTFClient:
             return company_dir.exists()
         except Exception:
             return False
+
+    # Stage Management Methods
+
+    def promote_stage(self, company_name: str, to_stage: int) -> Dict[str, Any]:
+        """Promote a company to a higher stage in the pipeline.
+
+        Moves a company directory from its current stage to a new stage.
+        This is used to track progress through the job search pipeline.
+
+        Args:
+            company_name: Name of the company to promote
+            to_stage: Target stage number (1, 2, 3, etc.)
+
+        Returns:
+            Dictionary with:
+            - success (bool): Whether promotion was successful
+            - message (str): Human-readable confirmation or error message
+            - company_name (str): Display name of the company
+            - company_slug (str): Filesystem slug
+            - from_stage (int): Original stage number (if found)
+            - to_stage (int): New stage number
+            - new_path (str): Absolute path to new location
+
+            On error:
+            - success (bool): False
+            - error (str): Technical error details
+            - company_name (str): Display name
+            - company_slug (str): Filesystem slug (if available)
+
+        Example:
+            >>> client = WCTFClient()  # doctest: +SKIP
+            >>> result = client.promote_stage("Stripe", 2)  # doctest: +SKIP
+            >>> result['success']  # doctest: +SKIP
+            True
+        """
+        try:
+            slug = slugify_company_name(company_name)
+
+            # Find current stage
+            current_stage, current_path = find_company(company_name, base_path=self.data_dir)
+
+            if current_stage is None:
+                return {
+                    "success": False,
+                    "error": f"Company '{company_name}' not found in any stage",
+                    "company_name": company_name,
+                    "company_slug": slug,
+                }
+
+            if current_stage == to_stage:
+                return {
+                    "success": False,
+                    "error": f"Company '{company_name}' is already in stage {to_stage}",
+                    "company_name": company_name,
+                    "company_slug": slug,
+                    "from_stage": current_stage,
+                    "to_stage": to_stage,
+                }
+
+            # Get target stage directory
+            target_stage_dir = get_stage_dir(to_stage, base_path=self.data_dir)
+            target_path = target_stage_dir / slug
+
+            # Ensure target stage directory exists
+            target_stage_dir.mkdir(parents=True, exist_ok=True)
+
+            # Move the company directory
+            current_path.rename(target_path)
+
+            return {
+                "success": True,
+                "message": f"Promoted '{company_name}' from stage {current_stage} to stage {to_stage}",
+                "company_name": company_name,
+                "company_slug": slug,
+                "from_stage": current_stage,
+                "to_stage": to_stage,
+                "new_path": str(target_path),
+            }
+
+        except Exception as e:
+            return {
+                "success": False,
+                "error": f"Failed to promote company: {str(e)}",
+                "company_name": company_name,
+                "company_slug": slugify_company_name(company_name),
+            }
 
     # Facts Operations
 
