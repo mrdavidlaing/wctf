@@ -3,7 +3,7 @@ company_slug: intel
 evaluation_date: 2025-10-22
 evaluator_context: Senior Software Engineer evaluating opportunity for IC role with focus on technical excellence, organizational stability, and sustainable work environment
 
-senior_engineer_alignment:
+staff_engineer_alignment:
   organizational_maturity: POOR
   technical_culture: EXCELLENT
   compensation_competitiveness: POOR
@@ -13,95 +13,115 @@ senior_engineer_alignment:
   engineering_investment: GOOD
 
 green_flags:
-  critical_matches:
-    - flag: World-class technical culture with 19,000 software engineers and 700+ Intel Labs researchers
-      impact: Access to cutting-edge technology work, deep technical expertise, and opportunity to work on foundational computing systems. Strongest open source contributor with 35+ year commitment.
-      confidence: High - Explicit from research showing largest Linux contributor since 2007, 1,315 GitHub repos, 300+ OSS projects, $100M annual university research investment
-    - flag: Excellent work-life balance ratings (4.0/5 on Glassdoor, 4.1/5 on Blind)
-      impact: Sustainable work environment despite organizational challenges. Engineers consistently praise work-life balance in reviews.
-      confidence: High - Explicit from multiple review platforms showing consistent 4.0+ ratings for work-life balance
-    - flag: Significant government and strategic partner backing ($16.76B from CHIPS Act + US equity, $5B NVIDIA investment, $2B SoftBank)
-      impact: Financial runway secured despite losses, indicating confidence from major stakeholders in Intel's long-term viability
-      confidence: High - Explicit from Q2 2025 earnings and official announcements
-
-  strong_positives:
-    - flag: Strong engineering focus with C/C++/Python stack, oneAPI platform, and emphasis on open source
-      impact: Modern technical stack with commitment to open standards and portability
-      confidence: High - Explicit from Intel developer documentation and job postings
-    - flag: Active technical community participation with 200+ academic papers annually and major conference presence
-      impact: Opportunity for learning, professional development, and external visibility
-      confidence: High - Explicit from Intel Labs publications and conference participation records
-    - flag: Smart colleagues and collaborative teams frequently praised in reviews
-      impact: Learning opportunities from experienced engineers despite organizational challenges
-      confidence: Medium - Implied from aggregated employee reviews on Glassdoor, Blind, Indeed
-    - flag: Comprehensive ISO certifications (14001, 45001, 9001, 27001, 50001) at all mature sites
-      impact: Professional work environment with strong processes for safety, quality, and security
-      confidence: High - Explicit from Intel Corporate Certifications Directory
+  mountain_range:
+    critical_matches: &critical_matches
+      - flag: World-class technical culture with 19,000 software engineers and 700+ Intel Labs researchers
+        impact: Access to cutting-edge technology work, deep technical expertise, and opportunity to work on foundational computing systems. Strongest open source contributor with 35+ year commitment.
+        confidence: High - Explicit from research showing largest Linux contributor since 2007, 1,315 GitHub repos, 300+ OSS projects, $100M annual university research investment
+      - flag: Excellent work-life balance ratings (4.0/5 on Glassdoor, 4.1/5 on Blind)
+        impact: Sustainable work environment despite organizational challenges. Engineers consistently praise work-life balance in reviews.
+        confidence: High - Explicit from multiple review platforms showing consistent 4.0+ ratings for work-life balance
+      - flag: Significant government and strategic partner backing ($16.76B from CHIPS Act + US equity, $5B NVIDIA investment, $2B SoftBank)
+        impact: Financial runway secured despite losses, indicating confidence from major stakeholders in Intel's long-term viability
+        confidence: High - Explicit from Q2 2025 earnings and official announcements
+    strong_positives: &strong_positives
+      - flag: Strong engineering focus with C/C++/Python stack, oneAPI platform, and emphasis on open source
+        impact: Modern technical stack with commitment to open standards and portability
+        confidence: High - Explicit from Intel developer documentation and job postings
+      - flag: Active technical community participation with 200+ academic papers annually and major conference presence
+        impact: Opportunity for learning, professional development, and external visibility
+        confidence: High - Explicit from Intel Labs publications and conference participation records
+      - flag: Smart colleagues and collaborative teams frequently praised in reviews
+        impact: Learning opportunities from experienced engineers despite organizational challenges
+        confidence: Medium - Implied from aggregated employee reviews on Glassdoor, Blind, Indeed
+      - flag: Comprehensive ISO certifications (14001, 45001, 9001, 27001, 50001) at all mature sites
+        impact: Professional work environment with strong processes for safety, quality, and security
+        confidence: High - Explicit from Intel Corporate Certifications Directory
+  chosen_peak:
+    critical_matches: *critical_matches
+    strong_positives: *strong_positives
+  rope_team_confidence:
+    critical_matches: *critical_matches
+    strong_positives: *strong_positives
+  daily_climb:
+    critical_matches: *critical_matches
+    strong_positives: *strong_positives
+  story_worth_telling:
+    critical_matches: *critical_matches
+    strong_positives: *strong_positives
 
 red_flags:
-  dealbreakers:
-    - flag: Massive ongoing layoffs - 24,000 jobs (24% of workforce) cut by end of 2025, following 15,000 cuts in 2024
-      impact: Extreme job insecurity, survivor guilt, constant organizational churn destroying team cohesion and institutional knowledge
-      severity: YES
-      confidence: High - Explicit from Q2 2025 earnings showing workforce reduction from 108,900 to target 75,000
-    - flag: Historic financial losses - $18.8B loss in 2024 (largest in company history) with -$10.9B trailing free cash flow
-      impact: Fundamental business model challenges threatening long-term viability despite government support
-      severity: YES
-      confidence: High - Explicit from Q4 2024 and Q2 2025 earnings releases
-    - flag: Catastrophic employee confidence - only 36% positive business outlook, 48% CEO approval rating
-      impact: Internal recognition that company direction is broken, creating toxic atmosphere where best talent is actively seeking exits
-      severity: YES
-      confidence: High - Explicit from Glassdoor ratings showing significantly below-average outlook
-
-  concerning:
-    - flag: Fourth CEO in 7 years (Lip-Bu Tan started March 2025), major executive turnover including 30-year veterans departing
-      impact: No strategic continuity, repeated strategy pivots, inability to execute long-term plans
-      severity: YES
-      confidence: High - Explicit from company announcements showing leadership instability pattern
-    - flag: Mandatory 4-day RTO policy effective September 2025, increased from 3-day hybrid
-      impact: Reduced flexibility for senior engineers, cited as factor in departures, CEO noted "uneven compliance" with previous policy suggesting enforcement culture
-      severity: MAYBE
-      confidence: High - Explicit from TechCrunch reporting on April 2025 announcement
-    - flag: Foundry business losing $13B annually with breakeven not expected until 2027
-      impact: Core strategic bet bleeding massive cash, creating pressure on other divisions
-      severity: YES
-      confidence: High - Explicit from Q4 2024 earnings and Manufacturing Dive reporting
-    - flag: Below-market compensation compared to competitors, benefits reductions (sabbatical changes, perks eliminated)
-      impact: Total compensation package not competitive with AMD, NVIDIA, cloud companies despite working at struggling company
-      severity: MAYBE
-      confidence: Medium - Implied from aggregated employee reviews mentioning comp concerns
-    - flag: Market share erosion to AMD (36.5% servers) and NVIDIA dominance in AI
-      impact: Losing competitive position in key growth markets, making turnaround harder
-      severity: YES
-      confidence: High - Explicit from Mercury Research data showing AMD gains and NVIDIA AI leadership
-    - flag: Recurring themes of poor communication, frequent restructuring every 2 quarters
-      impact: Constant organizational churn preventing focus on technical execution
-      severity: MAYBE
-      confidence: Medium - Implied from aggregated employee reviews on Glassdoor and Blind
-    - flag: Removed from Dow Jones Industrial Average November 2024, replaced by NVIDIA
-      impact: Symbolic of Intel's decline from blue-chip status to struggling turnaround
-      severity: MAYBE
-      confidence: High - Explicit from Wikipedia DJIA changes
+  mountain_range:
+    dealbreakers: &dealbreakers
+      - flag: Massive ongoing layoffs - 24,000 jobs (24% of workforce) cut by end of 2025, following 15,000 cuts in 2024
+        impact: Extreme job insecurity, survivor guilt, constant organizational churn destroying team cohesion and institutional knowledge
+        confidence: High - Explicit from Q2 2025 earnings showing workforce reduction from 108,900 to target 75,000
+      - flag: Historic financial losses - $18.8B loss in 2024 (largest in company history) with -$10.9B trailing free cash flow
+        impact: Fundamental business model challenges threatening long-term viability despite government support
+        confidence: High - Explicit from Q4 2024 and Q2 2025 earnings releases
+      - flag: Catastrophic employee confidence - only 36% positive business outlook, 48% CEO approval rating
+        impact: Internal recognition that company direction is broken, creating toxic atmosphere where best talent is actively seeking exits
+        confidence: High - Explicit from Glassdoor ratings showing significantly below-average outlook
+    concerning: &concerning
+      - flag: Fourth CEO in 7 years (Lip-Bu Tan started March 2025), major executive turnover including 30-year veterans departing
+        impact: No strategic continuity, repeated strategy pivots, inability to execute long-term plans
+        confidence: High - Explicit from company announcements showing leadership instability pattern
+      - flag: Mandatory 4-day RTO policy effective September 2025, increased from 3-day hybrid
+        impact: Reduced flexibility for senior engineers, cited as factor in departures, CEO noted "uneven compliance" with previous policy suggesting enforcement culture
+        confidence: High - Explicit from TechCrunch reporting on April 2025 announcement
+      - flag: Foundry business losing $13B annually with breakeven not expected until 2027
+        impact: Core strategic bet bleeding massive cash, creating pressure on other divisions
+        confidence: High - Explicit from Q4 2024 earnings and Manufacturing Dive reporting
+      - flag: Below-market compensation compared to competitors, benefits reductions (sabbatical changes, perks eliminated)
+        impact: Total compensation package not competitive with AMD, NVIDIA, cloud companies despite working at struggling company
+        confidence: Medium - Implied from aggregated employee reviews mentioning comp concerns
+      - flag: Market share erosion to AMD (36.5% servers) and NVIDIA dominance in AI
+        impact: Losing competitive position in key growth markets, making turnaround harder
+        confidence: High - Explicit from Mercury Research data showing AMD gains and NVIDIA AI leadership
+      - flag: Recurring themes of poor communication, frequent restructuring every 2 quarters
+        impact: Constant organizational churn preventing focus on technical execution
+        confidence: Medium - Implied from aggregated employee reviews on Glassdoor and Blind
+      - flag: Removed from Dow Jones Industrial Average November 2024, replaced by NVIDIA
+        impact: Symbolic of Intel's decline from blue-chip status to struggling turnaround
+        confidence: High - Explicit from Wikipedia DJIA changes
+  chosen_peak:
+    dealbreakers: *dealbreakers
+    concerning: *concerning
+  rope_team_confidence:
+    dealbreakers: *dealbreakers
+    concerning: *concerning
+  daily_climb:
+    dealbreakers: *dealbreakers
+    concerning: *concerning
+  story_worth_telling:
+    dealbreakers: *dealbreakers
+    concerning: *concerning
 
 missing_critical_data:
   - question: What is the specific team's coordination style and does it match what the turnaround demands?
     why_important: Intel needs orienteering/expedition coordination for turnaround, but may have established-route culture from decades of market dominance. Mismatch would cause execution failures regardless of strategy quality.
     how_to_find: Insider conversations about how decisions are made, how quickly teams can pivot, whether there's psychological safety to challenge direction
+    mountain_element: rope_team_confidence
   - question: What is the realignment ability of the specific team you'd join?
     why_important: With 4 CEOs in 7 years and constant restructuring, teams MUST be able to realign faster than strategy changes. Low realignment ability means every pivot destroys team effectiveness.
     how_to_find: Ask insiders about recent pivots - how long did it take to realign? Were team members able to voice concerns? Did the team emerge stronger or more fragmented?
+    mountain_element: rope_team_confidence
   - question: What is the retention rate for senior engineers on the specific team?
     why_important: If best engineers are leaving despite "good work-life balance," something is deeply broken. Retention signals whether this is a sustainable place to do meaningful work.
     how_to_find: Network research with current and former team members, LinkedIn tracking of team transitions
+    mountain_element: rope_team_confidence
   - question: How does compensation actually compare for IC senior engineers vs AMD, NVIDIA, cloud companies?
     why_important: Reviews say "below market" but no specific data. Need to know if gap is 10% (tolerable for stability) or 30%+ (unsustainable).
     how_to_find: Levels.fyi data, negotiation conversations, insider compensation discussions
+    mountain_element: daily_climb
   - question: What is the actual scope of autonomy and technical decision-making for senior ICs?
     why_important: In restructuring/layoff environment, technical autonomy often gets centralized. Need to know if senior ICs can still make meaningful technical decisions.
     how_to_find: Insider conversations about recent technical decisions, architectural authority, ability to push back on bad directions
+    mountain_element: chosen_peak
   - question: Which specific division/product group and what is their strategic importance?
     why_important: Intel Labs or Core CPU teams might be protected; other groups could face continued cuts. Strategic importance determines runway.
     how_to_find: Must be specified in offer, then validate through insider research about that group's funding and headcount trajectory
+    mountain_element: mountain_range
 
 synthesis:
   mountain_worth_climbing: NO
