@@ -1,0 +1,126 @@
+
+company: Apple
+company_slug: apple
+last_updated: '2025-10-22'
+
+financial_health:
+  facts_found: []
+  missing_information:
+    - Specific budget or runway information for Dublin office
+
+market_position:
+  facts_found:
+    - fact: Dublin Cloud OS SRE team has sister teams in US West Coast and Singapore
+      source: James Wynne (Staff Engineer, Cloud OS SRE)
+      date: '2025-10-22'
+      confidence: firsthand_account
+      fact_type: objective
+    - fact: Dublin team is least established (6 months old), still finding their "area of excellence/ownership"
+      source: James Wynne (Staff Engineer, Cloud OS SRE)
+      date: '2025-10-22'
+      confidence: firsthand_account
+      fact_type: objective
+    - fact: Dublin is actively hiring for Cloud OS SRE and related teams
+      source: James Wynne (Staff Engineer, Cloud OS SRE)
+      date: '2025-10-22'
+      confidence: firsthand_account
+      fact_type: objective
+  missing_information:
+    - Specific product ownership areas for Dublin vs other locations
+
+organizational_stability:
+  facts_found:
+    - fact: Dublin team playing catchup to decisions made on US West Coast, information arrives in fits and spurts
+      source: James Wynne (Staff Engineer, Cloud OS SRE)
+      date: '2025-10-22'
+      confidence: firsthand_account
+      fact_type: subjective
+      context: Current frustration - some changes take long time, others arrive suddenly "like buses"
+    - fact: Teams are very specialized and siloed, no official org chart
+      source: James Wynne (Staff Engineer, Cloud OS SRE)
+      date: '2025-10-22'
+      confidence: firsthand_account
+      fact_type: objective
+    - fact: Coordinating across teams seems chaotic (James believes this is intentional Apple design)
+      source: James Wynne (Staff Engineer, Cloud OS SRE)
+      date: '2025-10-22'
+      confidence: firsthand_account
+      fact_type: subjective
+    - fact: High level of secrecy is barrier to cross-team discussion, lots of information only accessible with specific "code level" clearance
+      source: James Wynne (Staff Engineer, Cloud OS SRE)
+      date: '2025-10-22'
+      confidence: firsthand_account
+      fact_type: objective
+    - fact: Office attendance required Tuesday, Wednesday, Thursday (hybrid model)
+      source: James Wynne (Staff Engineer, Cloud OS SRE)
+      date: '2025-10-22'
+      confidence: firsthand_account
+      fact_type: objective
+      context: Some people come to office in morning, head home around lunch, timeshift 4pm-8pm
+    - fact: Compensation is good (base and equity) with great benefits
+      source: James Wynne (Staff Engineer, Cloud OS SRE)
+      date: '2025-10-22'
+      confidence: firsthand_account
+      fact_type: subjective
+    - fact: Apple is surprisingly strict on Travel & Expenses for traveling
+      source: James Wynne (Staff Engineer, Cloud OS SRE)
+      date: '2025-10-22'
+      confidence: firsthand_account
+      fact_type: subjective
+    - fact: Likely need to move offices to progress up management ladder; Staff/Team Lead might be top level achievable in Dublin
+      source: James Wynne (Staff Engineer, Cloud OS SRE)
+      date: '2025-10-22'
+      confidence: firsthand_account
+      fact_type: subjective
+      context: Hypothesis from James, though he noted this might align with interviewer's preferences
+  missing_information:
+    - Exact reporting structure for Dublin team
+    - Attrition rates for Dublin office
+
+technical_culture:
+  facts_found:
+    - fact: Increasing push to use AI tools, specifically Anthropic models exposed via custom Apple tooling
+      source: James Wynne (Staff Engineer, Cloud OS SRE)
+      date: '2025-10-22'
+      confidence: firsthand_account
+      fact_type: objective
+      context: Validates CP-R1 from evaluation overview
+    - fact: DORA metrics are "pretty good" but huge fleet means rollout takes a long time
+      source: James Wynne (Staff Engineer, Cloud OS SRE)
+      date: '2025-10-22'
+      confidence: firsthand_account
+      fact_type: subjective
+      context: Got impression that "shipping" is fairly smooth despite scale challenges
+    - fact: Biggest frustration is siloed nature and heavy specialization - "just a cog in big machine" with limited visibility into other parts of chain
+      source: James Wynne (Staff Engineer, Cloud OS SRE)
+      date: '2025-10-22'
+      confidence: firsthand_account
+      fact_type: subjective
+      context: James (who likes being connected socially) isn't sure this environment is for him
+    - fact: Culture favors "myopic technical nerdery" focused on deep technical problems
+      source: James Wynne (Staff Engineer, Cloud OS SRE)
+      date: '2025-10-22'
+      confidence: firsthand_account
+      fact_type: subjective
+      context: James thinks it might be better fit for "nerdy software guy"; he's more hardware-oriented
+    - fact: Limited cross-functional impact - hardware fixes solve one problem vs software fixing whole class of problems
+      source: James Wynne (Staff Engineer, Cloud OS SRE)
+      date: '2025-10-22'
+      confidence: firsthand_account
+      fact_type: subjective
+      context: James wishes he liked writing software more to increase scope of impact
+  missing_information:
+    - Specific tech stack details beyond what was in public research
+    - Detailed deployment processes and tooling
+
+summary:
+  total_facts_found: 17
+  information_completeness: high
+  most_recent_interview: '2025-10-22'
+  oldest_interview: '2025-10-22'
+  total_interviews: 1
+  interviewees:
+    - name: James Wynne
+      role: Staff Engineer, Cloud OS SRE
+      interview_date: '2025-10-22'
+
