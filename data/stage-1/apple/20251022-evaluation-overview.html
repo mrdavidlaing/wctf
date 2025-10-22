@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apple Evaluation Overview - WCTF</title>
+    <style>
+        @media print {
+            @page {
+                size: A4;
+                margin: 1.5cm 1.2cm;
+            }
+            body { font-size: 9pt; }
+            h1 { font-size: 16pt; }
+            h2 { font-size: 11pt; page-break-after: avoid; }
+            h3 { font-size: 10pt; page-break-after: avoid; }
+        }
+
+        body {
+            font-family: 'Arial', 'Helvetica', sans-serif;
+            font-size: 10pt;
+            line-height: 1.35;
+            color: #333;
+            max-width: 21cm;
+            margin: 0 auto;
+            padding: 1cm;
+            background-color: #f5f5f5;
+        }
+
+        .page {
+            background-color: white;
+            padding: 1.5cm 1.2cm;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            font-size: 18pt;
+            font-weight: bold;
+            margin-top: 0;
+            margin-bottom: 0.2cm;
+            border-bottom: 2px solid #333;
+            padding-bottom: 0.2cm;
+            color: #000;
+        }
+
+        h2 {
+            font-size: 13pt;
+            font-weight: bold;
+            margin-top: 0.6cm;
+            margin-bottom: 0.2cm;
+            color: #000;
+            page-break-after: avoid;
+            background-color: #e8e8e8;
+            padding: 0.2cm 0.3cm;
+            border-left: 4px solid #333;
+        }
+
+        h3 {
+            font-size: 10pt;
+            font-weight: bold;
+            margin-top: 0.4cm;
+            margin-bottom: 0.15cm;
+            color: #222;
+            page-break-after: avoid;
+        }
+
+        p { margin: 0.15cm 0; }
+
+        ul, ol {
+            margin: 0.2cm 0;
+            padding-left: 1cm;
+        }
+
+        li {
+            margin: 0.08cm 0;
+            page-break-inside: avoid;
+        }
+
+        li strong:first-child {
+            color: #0066cc;
+            font-size: 9pt;
+            margin-right: 0.2cm;
+            font-family: 'Courier New', monospace;
+        }
+
+        @media print {
+            li strong:first-child {
+                color: #333;
+            }
+        }
+
+        .confidence-high {
+            background-color: #d4edda;
+            color: #155724;
+            padding: 0.05cm 0.15cm;
+            border-radius: 3px;
+            font-size: 8pt;
+            font-weight: bold;
+            margin-left: 0.2cm;
+        }
+
+        .confidence-medium {
+            background-color: #fff3cd;
+            color: #856404;
+            padding: 0.05cm 0.15cm;
+            border-radius: 3px;
+            font-size: 8pt;
+            font-weight: bold;
+            margin-left: 0.2cm;
+        }
+
+        .confidence-low {
+            background-color: #f8d7da;
+            color: #721c24;
+            padding: 0.05cm 0.15cm;
+            border-radius: 3px;
+            font-size: 8pt;
+            font-weight: bold;
+            margin-left: 0.2cm;
+        }
+
+        @media print {
+            .confidence-high {
+                background-color: #e8e8e8;
+                color: #000;
+                border: 1px solid #155724;
+            }
+            .confidence-medium {
+                background-color: #e8e8e8;
+                color: #000;
+                border: 1px solid #856404;
+            }
+            .confidence-low {
+                background-color: #e8e8e8;
+                color: #000;
+                border: 1px solid #721c24;
+            }
+        }
+
+        hr {
+            border: none;
+            border-top: 1px solid #ccc;
+            margin: 0.4cm 0;
+        }
+
+        .framework-box {
+            background-color: #f0f8ff;
+            border: 2px solid #4682b4;
+            padding: 0.4cm;
+            margin: 0.4cm 0;
+        }
+
+        .priority-box {
+            background-color: #fffacd;
+            border: 2px solid #ffd700;
+            padding: 0.4cm;
+            margin: 0.4cm 0;
+        }
+
+        .print-button {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            padding: 12px 24px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 14pt;
+            font-weight: bold;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+            z-index: 1000;
+        }
+
+        .print-button:hover { background-color: #45a049; }
+
+        @media print {
+            .print-button { display: none; }
+            .page { box-shadow: none; padding: 0; }
+            body { background-color: white; padding: 0; }
+        }
+
+        .metadata {
+            font-size: 10pt;
+            color: #666;
+            font-style: italic;
+            margin-bottom: 0.5cm;
+        }
+    </style>
+</head>
+<body>
+    <button class="print-button" onclick="window.print()">🖨️ Print to PDF</button>
+    <div class="page">
+        <h1>Apple Evaluation Overview</h1>
+        <p class="metadata">
+            <strong>Framework:</strong> Worth Climbing Together Framework (WCTF) v3.1<br>
+            <strong>Evaluator Context:</strong> Extracted from conversation notes<br>
+            <strong>Research Date:</strong> 2025-10-05 | <strong>Evaluation Date:</strong> 2025-10-18
+        </p>
+
+        <hr>
+
+        <div class="framework-box">
+            <h2 style="margin-top: 0; background: none; padding: 0; border: none;">The WCTF Framework</h2>
+            <p><strong>Worth Climbing Together Framework (WCTF)</strong> treats job evaluation like planning a mountain expedition. Every job opportunity is a mountain to climb, and success requires more than just a viable business - you need the right peak, the right team, sustainable conditions, and a story worth telling.</p>
+
+            <p><strong>The Mountain Metaphor - Five Dimensions:</strong></p>
+            <ol>
+                <li><strong>Mountain Range</strong> - Can <em>any</em> team succeed here? (Business viability, market position, financial health)</li>
+                <li><strong>Chosen Peak</strong> - Is everyone climbing the <em>same</em> mountain? (Technical strategy, engineering culture, alignment, <strong>coordination style matches terrain demands</strong> ← NEW v3.1)</li>
+                <li><strong>Rope Team Confidence</strong> - Does the team believe they can succeed <em>together</em>? (Leadership trust, team quality, organizational stability)</li>
+                <li><strong>Daily Climb</strong> - Will the 99 days be energizing or draining? (Work-life balance, compensation, daily sustainability)</li>
+                <li><strong>Story Worth Telling</strong> - Would you be proud to explain this work? (Career narrative, impact, skills growth)</li>
+            </ol>
+
+            <p><strong>Two-Layer Investigation:</strong></p>
+            <ul style="margin-top: 0.3cm;">
+                <li><strong>Layer 1 (Public Research):</strong> Automated research on financials, market position, organizational news, technical culture - creates baseline understanding and surfaces obvious red flags.</li>
+                <li><strong>Layer 2 (Insider Conversations):</strong> Conversations with current/former employees to validate Layer 1 findings, understand ground truth vs PR, and surface cultural nuances.</li>
+            </ul>
+
+            <p><strong>Flag-Based Philosophy:</strong> WCTF does not produce numerical scores or automated recommendations. Instead, it surfaces <strong>green flags</strong> (positive signals) and <strong>red flags</strong> (concerns) to inform your gut decision. Context matters - the same fact can be different colors depending on your priorities. There are no perfect companies, only trade-offs.</p>
+        </div>
+
+        <hr>
+
+
+        <h2>[MR] Mountain Range: Business Viability & Financial Health</h2>
+
+        <h3>[MR-F] ✅ What I've Found</h3>
+        <ul>
+        <li><strong>[MR-F1]</strong> Apple opening new Dublin office at Four & Five Park Place, 60,000 sq ft on three floors, expected to house several hundred staff <span class="confidence-high">HIGH</span></li>
+        <li><strong>[MR-F2]</strong> 10-year lease signed for Dublin Park Place office space <span class="confidence-high">HIGH</span></li>
+        <li><strong>[MR-F3]</strong> Apple employs 6,000+ people in Ireland, primarily at Cork European headquarters, with 90+ nationalities <span class="confidence-high">HIGH</span></li>
+
+        </ul>
+
+        <h3>[MR-G] 🟢 Green Flags</h3>
+        <ul>
+        <li><strong>[MR-G1]</strong> Ultimate financial stability: Apple Operations International $222.3B revenue, $17.4B R&D investment, zero layoff risk <span class="confidence-high">HIGH</span></li>
+        <li><strong>[MR-G2]</strong> 44+ years continuous Ireland operations, CEO calls Ireland 'truly our second home' <span class="confidence-high">HIGH</span></li>
+        <li><strong>[MR-G3]</strong> €250M+ Cork expansion, €60K sq ft new Dublin office with 10-year lease <span class="confidence-high">HIGH</span></li>
+
+        </ul>
+
+        <h3>[MR-R] 🚩 Red Flags</h3>
+        <ul>
+            <li><em>None identified yet</em></li>
+
+        </ul>
+
+        <h3>[MR-V] 🔍 Need to Validate</h3>
+        <ul>
+            <li><em>No specific gaps identified</em></li>
+
+        </ul>
+
+        <hr>
+
+        <h2>[CP] Chosen Peak: Strategic Alignment & Coordination Fit</h2>
+
+        <h3>[CP-F] ✅ What I've Found</h3>
+        <ul>
+        <li><strong>[CP-F1]</strong> Dublin tech stack includes: Java/Spring, Python, Go, Rust, Swift, Objective-C, Kubernetes, Spark, Kafka, NoSQL, React, TypeScript <span class="confidence-high">HIGH</span></li>
+        <li><strong>[CP-F2]</strong> Development practices: Agile, CI/CD, TDD, SRE principles (monitoring, alerting, error budgets, fault analysis) <span class="confidence-high">HIGH</span></li>
+        <li><strong>[CP-F3]</strong> Global team collaboration across Cupertino, Austin, London, Singapore, Hyderabad, Dublin <span class="confidence-high">HIGH</span></li>
+
+        </ul>
+
+        <h3>[CP-G] 🟢 Green Flags</h3>
+        <ul>
+        <li><strong>[CP-G1]</strong> Mature engineering practices: Agile, CI/CD, TDD, SRE principles with error budgets and fault analysis <span class="confidence-high">HIGH</span></li>
+        <li><strong>[CP-G2]</strong> Working on critical Apple services infrastructure: iCloud, App Store, Siri, Maps serving hundreds of millions <span class="confidence-high">HIGH</span></li>
+        <li><strong>[CP-G3]</strong> Apple's engineering culture globally known for high quality bar and technical excellence <span class="confidence-high">HIGH</span></li>
+
+        </ul>
+
+        <h3>[CP-R] 🚩 Red Flags</h3>
+        <ul>
+        <li><strong>[CP-R1]</strong> No information on AI coding tool availability (Copilot, Cursor, etc.) <span class="confidence-low">LOW</span></li>
+        <li><strong>[CP-R2]</strong> No public DORA metrics or deployment frequency data <span class="confidence-medium">MEDIUM</span></li>
+
+        </ul>
+
+        <h3>[CP-V] 🔍 Need to Validate</h3>
+        <ul>
+        <li><strong>[CP-V1]</strong> Does Apple provide AI coding tools (Copilot, Cursor, etc.) or restrict to internal-only tools? <span class="confidence-low">LOW</span><br><em>Core requirement for developer productivity and keeping skills current</em></li>
+        <li><strong>[CP-V2]</strong> What are actual DORA metrics for Dublin teams? Deployment frequency, lead time, MTTR, change failure rate? <span class="confidence-low">LOW</span><br><em>Core criterion for evaluating engineering excellence</em></li>
+
+        </ul>
+
+        <hr>
+
+        <h2>[RT] Rope Team Confidence: Leadership & Team Trust</h2>
+
+        <h3>[RT-F] ✅ What I've Found</h3>
+        <ul>
+        <li><strong>[RT-F1]</strong> Apple Dublin Glassdoor rating: 3.7/5 stars from 120 reviews <span class="confidence-high">HIGH</span></li>
+        <li><strong>[RT-F2]</strong> 62% of Apple Dublin employees would recommend to a friend, vs 79% of Apple employees worldwide <span class="confidence-high">HIGH</span></li>
+        <li><strong>[RT-F3]</strong> Dublin compensation rating: 4.2/5 stars <span class="confidence-high">HIGH</span></li>
+
+        </ul>
+
+        <h3>[RT-G] 🟢 Green Flags</h3>
+        <ul>
+        <li><strong>[RT-G1]</strong> 44-year track record demonstrates organizational stability and maturity <span class="confidence-high">HIGH</span></li>
+        <li><strong>[RT-G2]</strong> Staff costs increased $6.7B→$7B+ showing investment in people despite market conditions <span class="confidence-high">HIGH</span></li>
+        <li><strong>[RT-G3]</strong> Services Engineering (ASE), Online Store Engineering, Ad Platforms, Privacy Engineering teams in Dublin <span class="confidence-high">HIGH</span></li>
+
+        </ul>
+
+        <h3>[RT-R] 🚩 Red Flags</h3>
+        <ul>
+        <li><strong>[RT-R1]</strong> Dublin Glassdoor 3.7/5 (vs 4.3 global), only 62% recommend vs 79% globally <span class="confidence-high">HIGH</span></li>
+        <li><strong>[RT-R2]</strong> Work-life balance rated 3.6/5, culture 3.7/5 in Dublin - mediocre <span class="confidence-medium">MEDIUM</span></li>
+
+        </ul>
+
+        <h3>[RT-V] 🔍 Need to Validate</h3>
+        <ul>
+        <li><strong>[RT-V1]</strong> Why is Dublin Glassdoor rating (3.7/5, 62%) significantly worse than global Apple (4.3/5, 79%)? <span class="confidence-low">LOW</span><br><em>Need to understand local office issues despite global excellence</em></li>
+
+        </ul>
+
+        <hr>
+
+        <h2>[DC] Daily Climb: Day-to-Day Experience</h2>
+
+        <h3>[DC-F] ✅ What I've Found</h3>
+        <ul>
+        <li><strong>[DC-F1]</strong> Apple Dublin Glassdoor rating: 3.7/5 stars from 120 reviews <span class="confidence-high">HIGH</span></li>
+        <li><strong>[DC-F2]</strong> 62% of Apple Dublin employees would recommend to a friend, vs 79% of Apple employees worldwide <span class="confidence-high">HIGH</span></li>
+        <li><strong>[DC-F3]</strong> Dublin compensation rating: 4.2/5 stars <span class="confidence-high">HIGH</span></li>
+
+        </ul>
+
+        <h3>[DC-G] 🟢 Green Flags</h3>
+        <ul>
+        <li><strong>[DC-G1]</strong> Hybrid 3 days/week in Dublin is acceptable for Dublin-based role <span class="confidence-high">HIGH</span></li>
+        <li><strong>[DC-G2]</strong> Compensation rated 4.2/5 in Dublin, comprehensive benefits: pension, healthcare, dental, gym, Apple stock <span class="confidence-high">HIGH</span></li>
+        <li><strong>[DC-G3]</strong> 700 remote employees out of 6,000 Ireland (largest remote % of Irish tech companies) <span class="confidence-high">HIGH</span></li>
+
+        </ul>
+
+        <h3>[DC-R] 🚩 Red Flags</h3>
+        <ul>
+        <li><strong>[DC-R1]</strong> Cross-timezone work 4-5 days/month for global collaboration <span class="confidence-high">HIGH</span></li>
+        <li><strong>[DC-R2]</strong> Only 11.7% remote (700/6,000) despite being 'largest remote % in Ireland' <span class="confidence-high">HIGH</span></li>
+
+        </ul>
+
+        <h3>[DC-V] 🔍 Need to Validate</h3>
+        <ul>
+        <li><strong>[DC-V1]</strong> What is staff engineer compensation for Dublin including base, RSUs, bonus? <span class="confidence-low">LOW</span><br><em>Understanding total comp competitiveness</em></li>
+
+        </ul>
+
+        <hr>
+
+        <h2>[ST] Story Worth Telling: Career Narrative & Impact</h2>
+
+        <h3>[ST-F] ✅ What I've Found</h3>
+        <ul>
+        <li><strong>[ST-F1]</strong> Apple Services Engineering (ASE) team in Dublin builds infrastructure for iCloud, iTunes, Siri, Maps, Apple Music, TV+, App Store <span class="confidence-high">HIGH</span></li>
+        <li><strong>[ST-F2]</strong> Apple Online Store (AOS) Engineering in Dublin operates global eCommerce platform serving millions across 40 countries, part of team with Cupertino, Austin, London, Singapore, Hyderabad <span class="confidence-high">HIGH</span></li>
+        <li><strong>[ST-F3]</strong> Ad Platforms team in Dublin powers ads/sponsorships across App Store, Apple News, MLS Season Pass <span class="confidence-high">HIGH</span></li>
+
+        </ul>
+
+        <h3>[ST-G] 🟢 Green Flags</h3>
+        <ul>
+        <li><strong>[ST-G1]</strong> Working on infrastructure for services used by billions globally: iCloud, App Store, Maps, Siri <span class="confidence-high">HIGH</span></li>
+        <li><strong>[ST-G2]</strong> Apple brand is gold-standard resume credential, opens doors across tech industry <span class="confidence-high">HIGH</span></li>
+        <li><strong>[ST-G3]</strong> Exposure to Apple's world-class engineering practices and global team collaboration <span class="confidence-high">HIGH</span></li>
+
+        </ul>
+
+        <h3>[ST-R] 🚩 Red Flags</h3>
+        <ul>
+        <li><strong>[ST-R1]</strong> Unclear if Dublin teams own products or support US-led development <span class="confidence-medium">MEDIUM</span></li>
+        <li><strong>[ST-R2]</strong> No career progression info for Dublin staff+ engineering path <span class="confidence-low">LOW</span></li>
+
+        </ul>
+
+        <h3>[ST-V] 🔍 Need to Validate</h3>
+        <ul>
+        <li><strong>[ST-V1]</strong> Do Dublin teams own products end-to-end or support US-led development? <span class="confidence-low">LOW</span><br><em>Understanding autonomy and whether technology is equal partner vs support function</em></li>
+        <li><strong>[ST-V2]</strong> What is staff+ engineer population in Dublin and career progression path? <span class="confidence-low">LOW</span><br><em>With 25 years experience, need peer community and advancement without US relocation</em></li>
+
+        </ul>
+
+        <hr>
+
+
+        <div class="priority-box">
+            <h2 style="margin-top: 0; background: none; padding: 0; border: none;">🎯 Priority Validation Targets</h2>
+            <p><em>Your insider perspective will be invaluable for validating these items:</em></p>
+            <ol>
+            <li><strong>[P1]</strong> Does Apple provide AI coding tools (Copilot, Cursor, etc.) or restrict to internal-only tools?</li>
+            <li><strong>[P2]</strong> What are actual DORA metrics for Dublin teams? Deployment frequency, lead time, MTTR, change failure rate?</li>
+            <li><strong>[P3]</strong> Why is Dublin Glassdoor rating (3.7/5, 62%) significantly worse than global Apple (4.3/5, 79%)?</li>
+            <li><strong>[P4]</strong> Do Dublin teams own products end-to-end or support US-led development?</li>
+            <li><strong>[P5]</strong> What is deployment frequency for Dublin services teams? How often do you ship to production?</li>
+            <li><strong>[P6]</strong> What is staff engineer compensation for Dublin including base, RSUs, bonus?</li>
+            <li><strong>[P7]</strong> What is staff+ engineer population in Dublin and career progression path?</li>
+            <li><strong>[P8]</strong> What is the innovation vs maintenance ratio for Dublin teams?</li>
+
+            </ol>
+        </div>
+
+        <hr>
+
+        <h2>Confidence Levels Explained</h2>
+        <ul>
+            <li><span class="confidence-high">HIGH</span> Multiple independent sources, recent data, explicit statements</li>
+            <li><span class="confidence-medium">MEDIUM</span> Single source, implied information, or dated information</li>
+            <li><span class="confidence-low">LOW</span> Absence of data, conflicting signals, or need firsthand validation</li>
+        </ul>
+
+        <p style="margin-top: 0.5cm;"><em>Your input as an insider will be invaluable for validating MEDIUM/LOW confidence items and providing ground truth on the priority questions above.</em></p>
+
+    </div>
+    <script>
+        document.addEventListener('keydown', function(e) {
+            if ((e.ctrlKey || e.metaKey) && e.key === 'p') {
+                e.preventDefault();
+                window.print();
+            }
+        });
+    </script>
+</body>
+</html>
