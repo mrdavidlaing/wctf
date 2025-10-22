@@ -13,26 +13,46 @@ from datetime import datetime
 from pathlib import Path
 import yaml
 
+# Add parent directory to path to import wctf_core
+sys.path.insert(0, str(Path(__file__).parent.parent))
 
-def load_company_data(company_slug: str) -> tuple[dict, dict]:
-    """Load facts and flags for a company."""
-    data_dir = Path("data") / company_slug
+from wctf_core.utils.paths import get_facts_path, get_flags_path, find_company, get_company_dir
+from wctf_core.utils.yaml_handler import read_yaml
 
-    facts_path = data_dir / "company.facts.yaml"
-    flags_path = data_dir / "company.flags.yaml"
+
+def load_company_data(company_slug: str) -> tuple[dict, dict, int, Path]:
+    """Load facts and flags for a company.
+
+    Args:
+        company_slug: Company name or slug
+
+    Returns:
+        Tuple of (facts_dict, flags_dict, stage_number, company_dir_path)
+
+    Raises:
+        FileNotFoundError: If company not found or missing required files
+    """
+    # Find company across all stages
+    stage, company_dir = find_company(company_slug)
+
+    if stage is None:
+        raise FileNotFoundError(
+            f"Company '{company_slug}' not found in any stage. "
+            f"Please ensure the company exists in data/stage-N/<company>/"
+        )
+
+    facts_path = get_facts_path(company_slug, stage=stage)
+    flags_path = get_flags_path(company_slug, stage=stage)
 
     if not facts_path.exists():
         raise FileNotFoundError(f"Facts file not found: {facts_path}")
     if not flags_path.exists():
         raise FileNotFoundError(f"Flags file not found: {flags_path}")
 
-    with open(facts_path) as f:
-        facts = yaml.safe_load(f)
+    facts = read_yaml(facts_path)
+    flags = read_yaml(flags_path)
 
-    with open(flags_path) as f:
-        flags = yaml.safe_load(f)
-
-    return facts, flags
+    return facts, flags, stage, company_dir
 
 
 def extract_critical_questions(flags: dict) -> list[dict]:
@@ -558,7 +578,7 @@ def main():
 
     # Load company data
     try:
-        facts, flags = load_company_data(company_slug)
+        facts, flags, stage, company_dir = load_company_data(company_slug)
     except FileNotFoundError as e:
         print(f"❌ Error: {e}")
         sys.exit(1)
@@ -572,11 +592,9 @@ def main():
     # Generate HTML
     html = generate_html(company_name, company_slug, facts, flags, critical_questions)
 
-    # Create output file with timestamp
+    # Create output file with timestamp in company directory
     timestamp = datetime.now().strftime("%Y%m%d")
-    output_dir = Path("data") / company_slug
-    output_dir.mkdir(parents=True, exist_ok=True)
-    output_file = output_dir / f"{timestamp}-insider-interview-guide.html"
+    output_file = company_dir / f"{timestamp}-insider-interview-guide.html"
 
     # Write file
     with open(output_file, "w") as f:
@@ -585,6 +603,7 @@ def main():
     print(f"✅ Interview guide created: {output_file}")
     print(f"📄 Format: A4 paper, print-ready")
     print(f"📍 Location: {output_file.absolute()}")
+    print(f"🏔️  Stage: {stage}")
     print(f"\n🖨️  To print: Open in browser and use Ctrl+P → Save as PDF")
 
 
