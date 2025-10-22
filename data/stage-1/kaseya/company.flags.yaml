@@ -3,6 +3,12 @@ company_slug: kaseya
 evaluation_date: '2025-10-22'
 evaluator_context: Senior engineer perspective evaluating organizational maturity,
   technical culture, and team coordination for experienced IC role
+staff_engineer_alignment:
+  mountain_range: POOR        # $3.875B debt load (>15x revenue), unknown profitability
+  chosen_peak: GOOD           # Cooper AI 5-year investment, platform consolidation
+  rope_team_confidence: POOR  # Complete C-suite overhaul in 12 months
+  daily_climb: POOR           # 'Entitled to nothing' culture, 3.7/5 WLB, in-office model
+  story_worth_telling: GOOD   # 1000+ engineers, $12B platform investment, meaningful AI work
 green_flags:
   mountain_range:
     critical_matches:
