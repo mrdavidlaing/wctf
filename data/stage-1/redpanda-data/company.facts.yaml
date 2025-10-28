@@ -1,0 +1,315 @@
+company: Redpanda Data
+research_date: '2025-10-27'
+financial_health:
+  facts_found:
+  - fact: Redpanda raised $100 million in Series D funding led by GV with participation
+      from Lightspeed Venture Partners
+    source: Business Wire
+    date: '2025-04-03'
+    confidence: explicit_statement
+  - fact: Redpanda achieved unicorn status with $1 billion valuation in Series D round
+    source: Business Wire, Bloomberg
+    date: '2025-04-03'
+    confidence: explicit_statement
+  - fact: Total funding raised is $265 million across all rounds (Seed, Series A,
+      B, C, D)
+    source: Business Wire
+    date: '2025-04-03'
+    confidence: explicit_statement
+  - fact: Series D valuation of $1 billion doubled the company's valuation from its
+      2023 financing
+    source: BBN Times, Bloomberg
+    date: '2025-04-03'
+    confidence: implied
+  - fact: Redpanda increased revenue by 300% year-over-year in fiscal year 2024
+    source: Business Wire
+    date: '2024-02-06'
+    confidence: explicit_statement
+  - fact: As of August 2025, Redpanda's annual revenue reached $15M
+    source: LeadIQ Company Overview
+    date: '2025-08-01'
+    confidence: explicit_statement
+  - fact: Customer base grew by 179% in fiscal year 2024
+    source: Business Wire
+    date: '2024-02-06'
+    confidence: explicit_statement
+  - fact: Redpanda experienced 5X revenue growth in fiscal year ending 2023
+    source: Redpanda press release, TechCrunch
+    date: '2023-06-27'
+    confidence: explicit_statement
+  - fact: Redpanda had approximately 167-168 employees as of July-August 2025
+    source: LeadIQ, PitchBook
+    date: '2025-08-01'
+    confidence: explicit_statement
+  - fact: Redpanda had 160 employees as of June 2023
+    source: TechCrunch
+    date: '2023-06-27'
+    confidence: explicit_statement
+  - fact: Employee count is listed as 179 on some sources, with -7% employee growth
+      recently
+    source: Growjo
+    date: '2025-04-01'
+    confidence: implied
+  - fact: Redpanda serves customers including Activision Blizzard, Cisco, Moody's,
+      Texas Instruments, Vodafone, and 2 of the top 5 banks in the U.S.
+    source: Business Wire
+    date: '2025-04-03'
+    confidence: explicit_statement
+  - fact: New York Stock Exchange (NYSE) is using Redpanda to power NYSE Cloud Streaming
+    source: Business Wire
+    date: '2025-10-01'
+    confidence: explicit_statement
+  - fact: Redpanda acquired Benthos, an open-source stream-processing platform with
+      220+ connectors
+    source: TechCrunch
+    date: '2024-05-30'
+    confidence: explicit_statement
+  missing_information:
+  - Exact absolute annual revenue figures beyond $15M estimate
+  - Profitability status (whether company is profitable or operating at a loss)
+  - Burn rate and specific runway estimates
+  - Official confirmation or denial of layoffs (some sources suggest -7% employee
+    contraction but no official announcement)
+  - ARR (Annual Recurring Revenue) figures
+  - Customer retention/churn rates
+market_position:
+  facts_found:
+  - fact: Redpanda is a Kafka-compatible streaming data platform written in C++ using
+      the Seastar framework, featuring a single-binary architecture with no external
+      dependencies (ZooKeeper-free, JVM-free)
+    source: Redpanda.com, Crunchbase
+    date: '2025-10-27'
+    confidence: explicit_statement
+  - fact: Redpanda provides 300+ built-in data connectors to systems including Snowflake,
+      MongoDB, S3, MySQL, PostgreSQL, Apache Iceberg, and AI platforms
+    source: AWS Marketplace, Redpanda.com
+    date: '2025-10-27'
+    confidence: explicit_statement
+  - fact: 'Redpanda offers 4 pricing tiers: Community Edition (free, BSL license),
+      Serverless (pay-as-you-go with $100 free credits), Dedicated (single-tenant
+      managed clusters), and BYOC (Bring Your Own Cloud with 99.99% SLA)'
+    source: Redpanda.com, G2
+    date: '2025-10-27'
+    confidence: explicit_statement
+  - fact: Redpanda provides 3-6x greater cost efficiency compared to traditional Kafka
+      infrastructure, with claims of 1/6th the total costs of Apache Kafka
+    source: Redpanda.com TCO page
+    date: '2025-10-27'
+    confidence: explicit_statement
+  - fact: On G2, Redpanda Data scores 9.0 for ease of use, 9.8 for performance & reliability,
+      9.8 for quality of support, and 10.0 for product direction
+    source: G2 comparison pages
+    date: '2025-10-27'
+    confidence: explicit_statement
+  - fact: Main competitors include Apache Kafka, Confluent Cloud, Amazon Kinesis Data
+      Streams, Amazon MSK, Apache Pulsar, Red Hat OpenShift Streams, and NATS Streaming
+    source: G2 comparisons
+    date: '2025-10-27'
+    confidence: explicit_statement
+  - fact: Redpanda claims 10x faster tail latencies than Apache Kafka and can deliver
+      10x lower average latencies while using 3-6x fewer compute resources
+    source: Redpanda vs Kafka page, Business Wire
+    date: '2023-05-15'
+    confidence: explicit_statement
+  - fact: The global streaming analytics market was valued at $23-33 billion in 2024
+      and is projected to reach $125-365 billion by 2029-2034, growing at CAGR of
+      26-34%
+    source: Fortune Business Insights, MarketsandMarkets
+    date: '2024-10-01'
+    confidence: explicit_statement
+  - fact: Redpanda Cloud achieved SOC 2 Type 2 Attestation, audited by Barr Advisory
+      with zero exceptions, covering all products (BYOC, Dedicated, Serverless) across
+      AWS, GCP, and Azure
+    source: Redpanda Blog, Business Wire
+    date: '2024-01-01'
+    confidence: explicit_statement
+  - fact: Redpanda Cloud is available on AWS, Google Cloud Platform (GCP), and Microsoft
+      Azure across multiple regions
+    source: AWS Marketplace, Azure Marketplace, Google Cloud Marketplace
+    date: '2025-10-27'
+    confidence: explicit_statement
+  - fact: NYSE processes over 500 billion messages daily and handles 1.1 trillion
+      records daily with Redpanda, making decisions in less than 20 microseconds 99%
+      of the time
+    source: Redpanda Case Study - NYSE
+    date: '2024-01-01'
+    confidence: explicit_statement
+  - fact: ShareChat reduced cloud infrastructure spend on event streaming by about
+      70%, resulting in savings of millions of USD annually after switching to Redpanda
+    source: Redpanda Press Release
+    date: '2024-02-06'
+    confidence: explicit_statement
+  missing_information:
+  - TrustPilot reviews (no profile found for Redpanda Data)
+  - Capterra reviews (no dedicated listing found)
+  - Exact G2 review count
+  - ISO 27001 certification status
+  - HIPAA/PCI-DSS compliance attestation
+  - Specific dollar amounts for Enterprise, Dedicated, or BYOC pricing tiers
+  - Exact market share percentage in streaming analytics market
+organizational_stability:
+  facts_found:
+  - fact: Alexander Gallego is the Founder and CEO of Redpanda Data, holds BS in Computer
+      Science and Cryptography from NYU
+    source: LinkedIn, Crunchbase, Redpanda.com
+    date: '2019-01-01'
+    confidence: explicit_statement
+  - fact: Tyler Akidau was appointed as Chief Technology Officer (CTO) in May 2025,
+      bringing 20+ years of experience from Google (12 years) and Snowflake, author
+      of 'Streaming Systems' published by O'Reilly
+    source: Business Wire
+    date: '2025-05-14'
+    confidence: explicit_statement
+  - fact: Clint Nelson serves as Chief Revenue Officer, joined from Samsara where
+      he was VP of Sales
+    source: The Org, Equilar
+    date: '2023-06-01'
+    confidence: explicit_statement
+  - fact: Mike Boyarski serves as Chief Marketing Officer
+    source: Forge Global, Redpanda press release
+    date: '2024-01-01'
+    confidence: explicit_statement
+  - fact: Dave Munichiello from GV (Google Ventures) serves as a board member
+    source: Crunchbase, Forge Global
+    date: '2025-04-03'
+    confidence: explicit_statement
+  - fact: Arif Janmohamed from Lightspeed Venture Partners serves as a board member
+    source: Forge Global, Business Wire
+    date: '2025-04-03'
+    confidence: explicit_statement
+  - fact: Company operates as fully remote/remote-first with employees in 17+ countries
+      across 5 continents
+    source: Redpanda company website, LinkedIn
+    date: '2025-10-27'
+    confidence: explicit_statement
+  - fact: 'Overall Glassdoor rating: 4.0 out of 5 stars based on 19 anonymous employee
+      reviews'
+    source: Glassdoor
+    date: '2025-10-27'
+    confidence: explicit_statement
+  - fact: 'CEO (Alexander Gallego) approval rating: 91%'
+    source: Glassdoor
+    date: '2025-10-27'
+    confidence: explicit_statement
+  - fact: 'Culture & Values rating: 4.1 out of 5'
+    source: Glassdoor
+    date: '2025-10-27'
+    confidence: explicit_statement
+  - fact: 'Work-Life Balance rating: 3.5 out of 5'
+    source: Glassdoor
+    date: '2025-10-27'
+    confidence: explicit_statement
+  - fact: 'Compensation and Benefits rating: 4.0 out of 5'
+    source: Glassdoor
+    date: '2025-10-27'
+    confidence: explicit_statement
+  - fact: 89% of employees would recommend working at Redpanda Data to a friend
+    source: Glassdoor
+    date: '2025-10-27'
+    confidence: explicit_statement
+  - fact: 86% of employees have a positive business outlook for the company
+    source: Glassdoor
+    date: '2025-10-27'
+    confidence: explicit_statement
+  - fact: 'Common positive themes include: great pay and equity, true remote culture,
+      strong technology loved by customers, working with talented people, trust and
+      autonomy'
+    source: Glassdoor employee reviews
+    date: '2025-10-27'
+    confidence: explicit_statement
+  - fact: 'Common challenges noted include: work-life balance issues (everyone ''running
+      hot''), fast-paced startup environment with changing strategy, lack of detailed
+      structure/direction requiring self-sufficiency'
+    source: Glassdoor employee reviews
+    date: '2025-10-27'
+    confidence: explicit_statement
+  missing_information:
+  - Exact start dates for several VPs (Dhruv Gupta, Catherine Chung, Jae Jun)
+  - Complete board composition (only 3 board members/advisors identified)
+  - Physical office addresses or satellite office locations (if any beyond SF HQ)
+  - Recent executive departures or turnover details
+  - Temporal distribution of Glassdoor reviews
+  - Complete C-suite roster details
+technical_culture:
+  facts_found:
+  - fact: Redpanda is written in C++ and built on the Seastar framework for high-performance
+      async I/O
+    source: GitHub - redpanda-data/redpanda
+    date: '2025-01-27'
+    confidence: explicit_statement
+  - fact: Redpanda implements data transforms using WebAssembly (WASM) for inline
+      data processing
+    source: Redpanda.com
+    date: '2025-01-27'
+    confidence: explicit_statement
+  - fact: Redpanda main repository has 8,700+ GitHub stars
+    source: GitHub - redpanda-data/redpanda
+    date: '2025-01-27'
+    confidence: explicit_statement
+  - fact: Redpanda has 115 repositories in the redpanda-data GitHub organization
+    source: GitHub - redpanda-data organization
+    date: '2025-01-27'
+    confidence: explicit_statement
+  - fact: Redpanda is licensed under Business Source License (BSL) 1.1, with a free
+      Community Edition
+    source: javacodegeeks.com
+    date: '2023-04-01'
+    confidence: explicit_statement
+  - fact: Redpanda maintains an active engineering blog at redpanda.com/blog with
+      100+ technical articles covering topics including Raft consensus, storage engines,
+      WASM transforms, CDC pipelines, and performance optimization
+    source: Redpanda.com/blog
+    date: '2025-01-27'
+    confidence: explicit_statement
+  - fact: Redpanda hosts annual 'Streamfest' conference for data engineers and architects
+      focused on streaming data technologies
+    source: Redpanda.com/streamfest
+    date: '2024-12-12'
+    confidence: explicit_statement
+  - fact: 'Software Engineer salary ranges: $163K-$241K (US), varying by location
+      and role level'
+    source: LinkedIn job postings, Glassdoor
+    date: '2025-01-27'
+    confidence: explicit_statement
+  - fact: 'Company emphasizes hiring for talent and humility: ''If you''re the best
+      engineer in the world but you''re awful to work with, we won''t hire you'''
+    source: Redpanda.com/blog/sre-career-path
+    date: 2022-2024
+    confidence: explicit_statement
+  - fact: Redpanda raised $100M Series D (April 2025) led by GV, reaching $1B valuation,
+      to launch Agentic AI Service for enterprise
+    source: Business Wire
+    date: '2025-04-03'
+    confidence: explicit_statement
+  - fact: Redpanda Connect offers 100+ managed connectors including AI services (OpenAI,
+      AWS Bedrock, Vertex AI), vector databases (Pinecone, Qdrant), and GPU clusters
+      on GCP
+    source: Business Wire
+    date: '2024-09-12'
+    confidence: explicit_statement
+  - fact: Redpanda provides Model Context Protocol (MCP) integration to make internal
+      systems AI-ready and give LLMs access to real-time data
+    source: Business Wire, Redpanda.com/blog
+    date: '2025-04-03'
+    confidence: explicit_statement
+  - fact: Company has employee resource groups including Women in Tech, LGBTQIA+ support,
+      Parents & Caregivers, and Neurodiversity awareness
+    source: Redpanda.com/careers
+    date: '2025-01-27'
+    confidence: explicit_statement
+  missing_information:
+  - Specific engineering team size or growth rate
+  - Detailed breakdown of GitHub contributors by organization vs community
+  - Specific engineering onboarding process details
+  - Internal code review practices and standards
+  - Performance review or promotion criteria
+  - Specific benefits package details
+  - Engineering org chart structure
+  - Research paper publications by engineering team
+  - Patent portfolio information
+summary:
+  total_facts_found: 55
+  information_completeness: high
+  most_recent_data_point: '2025-10-27'
+  oldest_data_point: '2019-01-01'
+company_slug: redpanda-data
