@@ -1,0 +1,326 @@
+company: HashiCorp
+company_slug: hashicorp
+research_date: '2025-10-27'
+financial_health:
+  facts_found:
+  - fact: IBM acquired HashiCorp for $6.4 billion ($35 per share in cash) on February
+      27, 2025, after announcement on April 24, 2024
+    source: IBM Newsroom
+    date: '2025-02-27'
+    confidence: explicit_statement
+  - fact: HashiCorp went public on December 9, 2021, pricing at $80 per share and
+      achieving a valuation of over $14 billion, but later declined to $6.4B acquisition
+      price representing significant valuation compression
+    source: CNBC
+    date: '2021-12-09'
+    confidence: explicit_statement
+  - fact: Fiscal year 2024 revenue was $583.1 million, representing 23% year-over-year
+      growth, down from 48% growth in FY2023 and 51% growth in FY2022
+    source: HashiCorp Investor Relations
+    date: '2024-03-05'
+    confidence: explicit_statement
+  - fact: Q3 FY2025 revenue was $173.4 million with 19% year-over-year growth, showing
+      continued growth deceleration
+    source: GlobeNewswire
+    date: '2024-12-05'
+    confidence: explicit_statement
+  - fact: HashiCorp achieved first quarter with positive non-GAAP earnings per share
+      in Q3 FY2024, reporting non-GAAP net income of $5.6 million, progressing toward
+      profitability
+    source: Futurum Group
+    date: '2023-12-07'
+    confidence: explicit_statement
+  - fact: Q3 FY2025 GAAP net loss was $13.0 million, significantly improved from $39.5
+      million loss in prior year quarter
+    source: Quartz
+    date: '2024-12-05'
+    confidence: explicit_statement
+  - fact: HashiCorp maintained strong gross margins with 83% GAAP gross margin and
+      86% non-GAAP gross margin in Q4 FY2024
+    source: HashiCorp Investor Relations
+    date: '2024-03-05'
+    confidence: explicit_statement
+  - fact: Cash and cash equivalents totaled $923.6 million as of October 31, 2024
+    source: Quartz
+    date: '2024-12-05'
+    confidence: explicit_statement
+  - fact: HashiCorp had 2,200 employees as of January 31, 2024, down 8.33% from 2,400
+      employees the previous year
+    source: StockAnalysis
+    date: '2024-01-31'
+    confidence: explicit_statement
+  - fact: HashiCorp announced layoffs of 8% of workforce in June 2023, affecting approximately
+      160-180 employees, citing macroeconomic challenges and extended customer buying
+      cycles
+    source: ChannelWeb
+    date: '2023-06-08'
+    confidence: explicit_statement
+  - fact: HashiCorp had 4,856 customers as of Q3 FY2025, up from 4,354 in Q3 FY2024,
+      with 946 customers over $100K ARR
+    source: GlobeNewswire
+    date: '2024-12-05'
+    confidence: explicit_statement
+  - fact: Net Dollar Retention Rate was 109% as of Q3 FY2025, down from 119% in Q3
+      FY2024, indicating revenue contraction among existing customers
+    source: GlobeNewswire
+    date: '2024-12-05'
+    confidence: explicit_statement
+  - fact: 85% of Fortune 500 companies use HashiCorp products, with notable customers
+      including Bloomberg, Comcast, Deutsche Bank, GitHub, J.P Morgan Chase, Starbucks
+      and Vodafone
+    source: IBM Newsroom
+    date: '2024-04-24'
+    confidence: explicit_statement
+  missing_information:
+  - Specific burn rate figures (monthly or quarterly)
+  - Runway projections post-acquisition
+  - Customer concentration risk metrics (revenue from top 10/20 customers)
+  - Segment-specific retention rates by customer size or industry
+  - Post-layoff productivity or revenue per employee metrics
+  - Post-acquisition employee retention rates or additional layoffs
+market_position:
+  facts_found:
+  - fact: 'HashiCorp provides infrastructure automation tools across eight products:
+      Terraform (IaC), Vault (secrets management), Consul (service mesh), Nomad (orchestration),
+      Boundary (access), Packer (image building), Vagrant (dev environments), and
+      Waypoint (app deployment)'
+    source: HashiCorp Open Source page
+    date: '2023-08-10'
+    confidence: explicit_statement
+  - fact: Terraform had over 370 million downloads through Google Cloud and 2 billion
+      cumulative downloads on AWS
+    source: Next Platform
+    date: '2023-09-05'
+    confidence: explicit_statement
+  - fact: HashiCorp products were downloaded over 500 million times in fiscal year
+      2024
+    source: IBM Newsroom
+    date: '2024-04-24'
+    confidence: explicit_statement
+  - fact: HashiCorp Terraform has 4.7 out of 5 star rating on G2 with 93-94 reviews,
+      with 84% giving 5 stars
+    source: G2
+    date: '2025-10-27'
+    confidence: explicit_statement
+  - fact: HashiCorp Vault rates 4.2/5 stars with 36+ reviews on G2
+    source: G2
+    date: '2022-10-27'
+    confidence: explicit_statement
+  - fact: Primary competitors include GitLab, Google, VMware, Microsoft Azure, Amazon
+      AWS, CyberArk, Canonical, CloudBees, Aqua Security, Chef, and Puppet
+    source: Comparably
+    date: '2024-10-27'
+    confidence: explicit_statement
+  - fact: HashiCorp was named a Niche Player in the 2023 Gartner Magic Quadrant for
+      Privileged Access Management and a Strong Performer in 2024 Gartner Peer Insights
+      Voice of the Customer for PAM
+    source: HashiCorp Blog
+    date: '2023-09-05'
+    confidence: explicit_statement
+  - fact: Gartner praised HashiCorp as having the highest market share for stand-alone
+      secrets management
+    source: BankInfoSecurity
+    date: '2024-04-25'
+    confidence: explicit_statement
+  - fact: HashiCorp achieved SOC 2 Type II, ISO 27001, ISO 27017, and ISO 27018 certifications
+      covering all Enterprise products
+    source: HashiCorp Security page
+    date: '2022-10-27'
+    confidence: explicit_statement
+  - fact: Vault Enterprise has FIPS 140-2 certification
+    source: HashiCorp Vault Compliance page
+    date: '2024-10-27'
+    confidence: explicit_statement
+  - fact: In August 2023, HashiCorp transitioned from Mozilla Public License (MPL)
+      2.0 to Business Source License (BSL) 1.1 for all products, restricting competitive
+      commercial use while allowing non-production uses
+    source: Configu and GlobalDots
+    date: '2023-08-27'
+    confidence: explicit_statement
+  - fact: Terraform Cloud switched to Resources Under Management (RUM) pricing model
+      in 2023, charging $0.00014 per managed resource per hour, with first 500 resources
+      free monthly in Standard tier
+    source: env0 and Spacelift
+    date: '2023-06-27'
+    confidence: explicit_statement
+  missing_information:
+  - Specific market share percentages compared to competitors
+  - HashiCorp's serviceable addressable market (SAM) or serviceable obtainable market
+    (SOM)
+  - Customer churn rates
+  - Geographic revenue breakdown by region
+  - Capterra and TrustPilot ratings and review counts
+  - FedRAMP authorization status (products are not currently FedRAMP authorized)
+organizational_stability:
+  facts_found:
+  - fact: Dave McJannet serves as CEO since July 2016 with approximately 8.5 years
+      tenure, continuing in role post-IBM acquisition
+    source: Simply Wall St
+    date: '2024-11-15'
+    confidence: explicit_statement
+  - fact: Armon Dadgar is Co-Founder and CTO, remaining in role post-acquisition with
+      responsibility for technology strategy
+    source: MarketScreener
+    date: '2024-01-08'
+    confidence: explicit_statement
+  - fact: Mitchell Hashimoto (co-founder) resigned from HashiCorp in December 2023
+      after transitioning from CTO to individual contributor in July 2021
+    source: Wikipedia and HashiCorp Blog
+    date: '2023-12-31'
+    confidence: explicit_statement
+  - fact: Navam Welihinda resigned as CFO effective September 23, 2024; Werner Schwock
+      became Interim CFO
+    source: MarketScreener
+    date: '2024-08-06'
+    confidence: explicit_statement
+  - fact: HashiCorp operates as a division within IBM Software, with CEO Dave McJannet
+      reporting to Rob Thomas, IBM's Senior Vice President of Software
+    source: IBM Newsroom and CNBC
+    date: '2024-04-24'
+    confidence: explicit_statement
+  - fact: HashiCorp headquarters is located at 101 Second Street, Suite 700, San Francisco,
+      California, with additional offices in Austin, Madrid, and Noida
+    source: Clay and Glassdoor
+    date: '2024-11-15'
+    confidence: explicit_statement
+  - fact: HashiCorp operates as a remote-first company with over 80% of employees
+      working remotely across 30+ states and 13+ countries
+    source: HashiCorp Official and FlexJobs
+    date: '2024-11-15'
+    confidence: explicit_statement
+  - fact: HashiCorp has an overall Glassdoor rating of 4.0 out of 5 stars based on
+      444-478 employee reviews
+    source: Glassdoor
+    date: '2024-11-15'
+    confidence: explicit_statement
+  - fact: 75% of HashiCorp employees would recommend working at the company to a friend
+      based on Glassdoor reviews
+    source: Glassdoor
+    date: '2024-11-15'
+    confidence: explicit_statement
+  - fact: CEO Dave McJannet has a 73% approval rating from employees on Glassdoor
+    source: Glassdoor
+    date: '2024-11-15'
+    confidence: explicit_statement
+  - fact: HashiCorp employees rate work-life balance at 4.1-4.3 out of 5 stars on
+      Glassdoor
+    source: Glassdoor
+    date: '2024-11-15'
+    confidence: explicit_statement
+  - fact: HashiCorp employees rate compensation and benefits at 3.9-4.0 out of 5 stars
+      on Glassdoor
+    source: Glassdoor
+    date: '2024-11-15'
+    confidence: explicit_statement
+  - fact: 56% of employees have positive business outlook for the company according
+      to Glassdoor reviews
+    source: Glassdoor
+    date: '2024-11-15'
+    confidence: explicit_statement
+  - fact: Post-IBM acquisition reviews from April-June 2025 show mixed sentiment,
+      with some employees expressing concerns about changes and ambiguity while others
+      remain positive
+    source: Glassdoor
+    date: '2025-04-09'
+    confidence: explicit_statement
+  - fact: 'HashiCorp''s culture is based on 9 foundational principles: Integrity,
+      Kindness, Pragmatism, Humility, Vision, Execution, Communication, Beauty Works
+      Better, and Reflection'
+    source: HashiCorp Official
+    date: '2024-11-15'
+    confidence: explicit_statement
+  - fact: HashiCorp was certified as a Great Place to Work, with 93% of employees
+      agreeing it is a great place to work, 97% feeling welcomed when joining
+    source: Great Place to Work
+    date: '2024-11-15'
+    confidence: explicit_statement
+  missing_information:
+  - Detailed board composition post-IBM acquisition
+  - Specific department sizes and team structures
+  - Employee retention rates post-acquisition
+  - Post-acquisition layoffs or restructuring (if any)
+  - Permanent CFO appointment status
+  - Specific salary ranges by role and level
+  - Internal promotion and advancement rates
+technical_culture:
+  facts_found:
+  - fact: HashiCorp has 923 public GitHub repositories with primary languages being
+      Go, HCL (HashiCorp Configuration Language), Shell, JavaScript, and TypeScript
+    source: GitHub.com/hashicorp
+    date: '2025-10-27'
+    confidence: explicit_statement
+  - fact: The terraform-provider-aws repository has 10,570 stars and 9,777 forks on
+      GitHub, making it one of HashiCorp's most popular open source projects with
+      active development
+    source: GitHub.com/hashicorp/terraform-provider-aws
+    date: '2025-10-27'
+    confidence: explicit_statement
+  - fact: HashiCorp's interview process for software engineers includes machine coding
+      rounds, code pairing, code review, and system design discussions, but explicitly
+      does NOT use LeetCode-style algorithm questions; primary language tested for
+      backend engineers is Go
+    source: Glassdoor and HashiCorp hiring page
+    date: '2025-04-01'
+    confidence: explicit_statement
+  - fact: HashiCorp has documented hiring philosophy requiring consistent interview
+      process and employees must complete 'Interviewing' learning path before conducting
+      interviews
+    source: works.hashicorp.com
+    date: '2024-01-01'
+    confidence: explicit_statement
+  - fact: HashiConf 2025 was held September 24-26, 2025 in San Francisco, marking
+      the 10th anniversary with dual tracks, certification exams, and unveiling of
+      Project infragraph and AI-powered infrastructure features
+    source: HashiCorp.com/conferences/hashiconf
+    date: '2025-09-26'
+    confidence: explicit_statement
+  - fact: HashiCorp released Terraform MCP (Model Context Protocol) Server in 2025
+      to enable AI integration with infrastructure as code; announced Project infragraph,
+      a unified infrastructure graph to support AI-powered operations
+    source: InfoQ and TechTarget
+    date: '2025-05-22'
+    confidence: explicit_statement
+  - fact: HashiCorp launched developer.hashicorp.com as unified documentation platform
+      consolidating docs, tutorials, hands-on labs, and certification prep, featuring
+      'Developer AI' assistant in private beta
+    source: HashiCorp Blog
+    date: '2022-10-01'
+    confidence: explicit_statement
+  - fact: HashiCorp maintains engineering blog at hashicorp.com/en/blog/tags/engineering
+      with recent 2024 posts covering Nomad performance benchmarking, Consul scale
+      testing, and accessible design practices
+    source: HashiCorp.com/blog
+    date: '2024-08-12'
+    confidence: explicit_statement
+  - fact: HashiCorp offers Cloud Engineering Certifications for Terraform, Vault,
+      and Consul, with exams assessing fundamental knowledge and core implementation
+      skills
+    source: HashiCorp Blog
+    date: '2025-09-24'
+    confidence: explicit_statement
+  - fact: HashiCorp uses its own stack (Terraform, Vault, Consul, Nomad) internally
+      for infrastructure automation and secrets management
+    source: HashiCorp case study
+    date: '2024-01-01'
+    confidence: explicit_statement
+  - fact: HashiCorp developed Helios Design System with accessibility as core principle,
+      employing WCAG compliance, with engineers who are W3C invited experts on WAI-ARIA
+      working group
+    source: HashiCorp Blog
+    date: '2021-05-19'
+    confidence: explicit_statement
+  missing_information:
+  - GitHub contribution statistics (total contributors, commit velocity, PR merge
+    rates)
+  - Engineering blog publication frequency metrics and readership statistics
+  - Complete internal tooling stack beyond HashiCorp products (CI/CD, monitoring)
+  - AI/ML team size and investment specifics
+  - Percentage of external vs internal GitHub contributions
+  - Current number of open engineering positions
+  - Specific development methodology (Agile/Scrum/Kanban details)
+  - Post-IBM acquisition technical culture changes
+summary:
+  total_facts_found: 52
+  information_completeness: high
+  most_recent_data_point: '2025-10-27'
+  oldest_data_point: '2021-05-19'
