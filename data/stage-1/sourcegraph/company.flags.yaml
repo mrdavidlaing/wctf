@@ -1,0 +1,211 @@
+company: Sourcegraph
+evaluation_date: '2025-10-30'
+evaluator_context: Extracted from conversation notes
+green_flags:
+  mountain_range:
+    critical_matches:
+    - flag: Operating in rapidly growing AI code assistant market ($5.85B to $49B
+        by 2035, 25% CAGR)
+      impact: Strong market tailwinds provide growth opportunity and job security
+        for next decade
+      confidence: High - explicit market research from Global Data Route Analytics
+    - flag: Elite customer base including FAANG companies (3 out of 5), Uber, Databricks,
+        Reddit, PayPal, Atlassian
+      impact: Validates technical quality and provides stability through enterprise
+        relationships
+      confidence: High - explicitly stated customer list
+    strong_positives:
+    - flag: Achieved ISO/IEC 27001:2022, SOC 2 Type II, GDPR and CCPA compliance
+      impact: Demonstrates operational maturity and enables enterprise sales
+      confidence: High - explicit certifications
+    - flag: Palo Alto Networks reports 40% productivity boost for 2,000 developers
+      impact: Proven value proposition with quantified customer success
+      confidence: High - explicit case study
+  chosen_peak:
+    critical_matches:
+    - flag: Differentiated technology with 54B+ lines of code indexed across 30+ languages
+      impact: Technical moat that's difficult for competitors to replicate quickly
+      confidence: High - explicit technical capability
+    - flag: Founded in 2013, founders Quinn Slack (CEO) and Beyang Liu (CTO) still
+        leading after 12 years
+      impact: Long-term commitment and deep domain expertise from technical founders
+      confidence: High - explicit founder tenure
+    strong_positives:
+    - flag: Open source contributions active (Cody with 3.8k stars, SCIP protocol,
+        592 public repos)
+      impact: Strong engineering brand and technical community engagement
+      confidence: High - verified GitHub activity
+    - flag: Active engineering blog with posts on BM25F, cAdvisor, security automation
+        (Jan-Feb 2025)
+      impact: Culture of technical writing and knowledge sharing
+      confidence: High - verified blog posts
+  rope_team_confidence:
+    critical_matches:
+    - flag: Compensation and benefits rated 4.0/5 on Glassdoor (highest category)
+      impact: Competitive comp indicates company values and can retain talent
+      confidence: High - 116 Glassdoor reviews
+    - flag: Extended stock option exercise window from 90 days to 10 years in May
+        2021
+      impact: Employee-friendly equity policy demonstrates long-term thinking and
+        fairness
+      confidence: High - explicit policy documented in Pragmatic Engineer
+    strong_positives:
+    - flag: Beyang Liu gave conference talk at All Things Open 2024
+      impact: Technical leadership actively engaged in industry thought leadership
+      confidence: High - verified conference appearance
+    - flag: Steve Yegge (ex-Google Code Search, Amazon) joined as Head of Engineering
+        Oct 2022
+      impact: Attracted senior engineering talent from top companies
+      confidence: High - explicit hire announcement
+  daily_climb:
+    critical_matches:
+    - flag: Fully remote with work-life balance rated 3.0/5 (meeting industry average)
+      impact: Remote flexibility enables work-life integration
+      confidence: Medium - Glassdoor reviews
+    - flag: Transparent culture with publicly published employee handbook
+      impact: Reduces information asymmetry and uncertainty for employees
+      confidence: High - Pragmatic Engineer newsletter, verified handbook
+    strong_positives:
+    - flag: Twice-yearly 'Merge' onsite events in international locations (Amsterdam,
+        Montreal, Cancun, Rome)
+      impact: Invests in team building and connection despite remote model
+      confidence: High - jobs page and Glassdoor mentions
+    - flag: 'Interview offers two options: traditional 6-hour OR compensated real-world
+        project'
+      impact: Respects candidate time and demonstrates progressive hiring practices
+      confidence: High - blog post documenting policy
+  story_worth_telling:
+    critical_matches: []
+    strong_positives:
+    - flag: Building AI-powered coding assistants that index 54B lines of code for
+        1M+ developers
+      impact: Technically ambitious mission with potential to transform software development
+      confidence: High - core product mission
+    - flag: Partnership with Leidos (Feb 2024) bringing AI coding to government sector
+      impact: Expanding into new markets with strategic partnerships
+      confidence: High - PR Newswire announcement
+red_flags:
+  mountain_range:
+    dealbreakers:
+    - flag: No funding in 4+ years (last raise July 2021), no profitability or runway
+        data disclosed
+      impact: 'CRITICAL: Unknown financial viability; company may run out of cash
+        without visibility'
+      confidence: High - no funding announcements since 2021, TechCrunch/Crunchbase
+    - flag: Multiple layoff rounds (8% in June 2022, undisclosed in Jan 2024), -19%
+        employee growth in 2024
+      impact: 'CRITICAL: Shrinking company indicates financial stress and poor growth
+        trajectory'
+      confidence: High - TrueUp, Tracxn, Growjo explicit data
+    - flag: Overall Glassdoor rating 2.7/5 (30% below industry average of 3.9), only
+        37% would recommend to friend
+      impact: 'SEVERE: Indicates systemic employee dissatisfaction and cultural problems'
+      confidence: High - 116 Glassdoor reviews
+    concerning:
+    - flag: CEO Quinn Slack leadership rated 63/100 on Comparably (bottom 40% of similar
+        companies)
+      impact: Leadership effectiveness concerns from employee perspective
+      confidence: High - Comparably rating
+    - flag: Made main codebase private in Aug 2024 after being open source until 2023
+      impact: Strategic pivot away from open source community that built early traction
+      confidence: High - Wikipedia, DevClass
+    - flag: Discontinued Cody Free/Pro/Enterprise Starter plans effective July 2025
+      impact: Product strategy instability; may alienate existing user base
+      confidence: High - Sourcegraph blog, Wikipedia
+    - flag: Employee count down 16% from Dec 2022 to Dec 2023 (137 to 115)
+      impact: Sustained contraction over multiple years indicates ongoing financial
+        pressure
+      confidence: High - Tracxn
+  chosen_peak:
+    dealbreakers: []
+    concerning:
+    - flag: 131 active competitors, ranked 7th; competitors like Cognition raised
+        $500M in Aug 2025
+      impact: Intensely competitive market with well-funded rivals gaining momentum
+      confidence: High - Tracxn, CBInsights
+    - flag: GitHub Copilot, Amazon CodeWhisperer as competitors with massive distribution
+        advantages
+      impact: Competing against tech giants with deep pockets and existing developer
+        relationships
+      confidence: High - market analysis
+  rope_team_confidence:
+    dealbreakers:
+    - flag: Culture and values rated 2.8/5, only 34% think company has positive business
+        outlook
+      impact: 'CRITICAL: Employees don''t believe in company''s future; morale collapse
+        risk'
+      confidence: High - Glassdoor 116 reviews
+    concerning:
+    - flag: Steve Yegge stepped back from Head of Engineering to IC role in Feb 2024
+        after 16 months
+      impact: Potential signal of leadership friction or strategic disagreement
+      confidence: High - blog post, LinkedIn
+    - flag: 'RepVue sales rating 3.0/5, ranked #1818, only 42% of reps hitting quota'
+      impact: Sales challenges indicate GTM execution problems and revenue risk
+      confidence: High - RepVue data
+    - flag: Employee reviews mention 'disguised layoffs' via opt-in severance rounds
+      impact: Trust erosion from indirect reduction tactics instead of transparent
+        communication
+      confidence: Medium - Glassdoor reviews
+  daily_climb:
+    dealbreakers: []
+    concerning:
+    - flag: Work-life balance rated exactly 3.0/5 (mediocre, not excellent)
+      impact: Remote-first doesn't automatically mean sustainable; may have execution
+        pressure
+      confidence: Medium - Glassdoor reviews
+  story_worth_telling:
+    dealbreakers: []
+    concerning: []
+missing_critical_data:
+- question: What is the current cash runway and burn rate?
+  why_important: Company is 4 years past last funding with multiple layoffs; need
+    to know if there are 6, 12, or 18 months of runway
+  how_to_find: Insider interview with someone in finance/leadership; ask directly
+    about runway and profitability timeline
+  mountain_element: mountain_range
+- question: Is the company profitable or what is the path to profitability?
+  why_important: At 12 years old with shrinking headcount, need to understand if business
+    model is sustainable long-term
+  how_to_find: Insider interview; review investor updates if accessible; ask about
+    unit economics and CAC/LTV
+  mountain_element: mountain_range
+- question: What was the real reason for Steve Yegge stepping back from Head of Engineering
+    after only 16 months?
+  why_important: Senior engineering leader departures can signal technical strategy
+    disagreements or cultural misalignment
+  how_to_find: Insider interview with someone who worked with Steve; engineering team
+    members from that period
+  mountain_element: rope_team_confidence
+- question: What is causing the low employee morale (2.7 Glassdoor, 63/100 CEO rating)?
+  why_important: Specific cultural issues need to be understood - is it leadership,
+    strategy, compensation, execution stress?
+  how_to_find: Insider interviews with current/recent employees; ask about team dynamics,
+    leadership decisions, communication
+  mountain_element: rope_team_confidence
+- question: What percentage of enterprise customers are renewing vs churning?
+  why_important: Customer retention is critical signal of product-market fit and revenue
+    sustainability
+  how_to_find: Insider interview with sales/customer success; investor updates; ask
+    about NRR and gross retention
+  mountain_element: mountain_range
+- question: How is the Amp product (launched 2025) performing vs Cody in terms of
+    adoption and revenue?
+  why_important: Product pivot success determines future viability; need to know if
+    new bet is working
+  how_to_find: Insider interview with product/engineering; ask about usage metrics,
+    customer feedback, pipeline
+  mountain_element: chosen_peak
+- question: What is the competitive win rate against GitHub Copilot and Cursor?
+  why_important: Direct competition with well-funded players; need to understand if
+    differentiation is resonating
+  how_to_find: Insider interview with sales/product; ask about sales cycles, win/loss
+    analysis, customer comparisons
+  mountain_element: mountain_range
+- question: Are there any active acquisition discussions or interest from larger companies?
+  why_important: Given financial pressure, M&A may be viable path; impacts career
+    stability and equity value
+  how_to_find: Insider interview with leadership or close to exec team; ask about
+    strategic options being explored
+  mountain_element: mountain_range
+company_slug: sourcegraph

@@ -1,0 +1,326 @@
+company: Sourcegraph
+company_slug: sourcegraph
+research_date: '2025-10-28'
+financial_health:
+  facts_found:
+  - fact: Series D raised $125M on July 13, 2021, led by Andreessen Horowitz at $2.625
+      billion valuation
+    source: TechCrunch, Sourcegraph Blog
+    date: '2021-07-13'
+    confidence: explicit_statement
+  - fact: Total funding raised is $223M across 5 rounds from 21 investors
+    source: Tracxn, Crunchbase, PitchBook
+    date: '2021-07-13'
+    confidence: explicit_statement
+  - fact: Revenue reached $50M in March 2025 with 209-person team
+    source: Getlatka
+    date: '2025-03-31'
+    confidence: implied
+  - fact: 24 employees laid off on June 21, 2022 (8% of company)
+    source: TrueUp, LinkedIn
+    date: '2022-06-21'
+    confidence: explicit_statement
+  - fact: Employee-reported layoffs occurred on January 9, 2024
+    source: TrueUp
+    date: '2024-01-09'
+    confidence: explicit_statement
+  - fact: Employee count was 115 as of December 31, 2023, down 16% from December 2022
+    source: Tracxn
+    date: '2023-12-31'
+    confidence: explicit_statement
+  - fact: Company has 190 employees as of 2025
+    source: TrueUp
+    date: '2025-10-28'
+    confidence: implied
+  - fact: Company employee count grew -19% in 2024
+    source: Growjo
+    date: '2024-12-31'
+    confidence: explicit_statement
+  - fact: Over 1 million engineers use Sourcegraph as of 2025
+    source: LeadIQ, RocketReach
+    date: '2025-10-28'
+    confidence: implied
+  - fact: Notable customers include Uber, Plaid, Lyft, Databricks, Reddit, Dropbox,
+      Amazon, PayPal, Atlassian, Palo Alto Networks, and 3 out of 5 FAANG companies
+    source: Sourcegraph Blog, Contrary Research
+    date: '2021-07-13'
+    confidence: explicit_statement
+  - fact: Partnership announced with Leidos on February 8, 2024 to bring AI-enabled
+      software development to government customers
+    source: PR Newswire, Tracxn
+    date: '2024-02-08'
+    confidence: explicit_statement
+  - fact: Announced discontinuation of Cody Free, Pro, and Enterprise Starter plans
+      effective July 23, 2025
+    source: Sourcegraph Blog, Wikipedia
+    date: '2025-06-25'
+    confidence: explicit_statement
+  - fact: Made main code repository completely private in 2024 (previously public
+      under Apache license until 2023)
+    source: Wikipedia, DevClass
+    date: '2024-08-21'
+    confidence: explicit_statement
+  missing_information:
+  - Current profitability status - no explicit statements about profit/loss
+  - Burn rate - no specific monthly or annual cash burn figures
+  - Cash runway - no information about remaining reserves or months of runway
+  - Verified 2024-2025 revenue - Getlatka figures lack official verification
+  - Number of paying enterprise customers (only developer user counts disclosed)
+  - Current ARR figures - no data after December 2020
+  - Path to profitability timeline
+  - IPO plans or timeline
+market_position:
+  facts_found:
+  - fact: Sourcegraph is a code AI platform that has indexed over 54 billion lines
+      of code and serves over 800,000 developers
+    source: Wikipedia, TechCrunch
+    date: '2021-07-13'
+    confidence: explicit_statement
+  - fact: Founded in 2013 by Stanford graduates Quinn Slack and Beyang Liu, headquartered
+      in San Francisco, operates as all-remote company
+    source: ZoomInfo, PitchBook
+    date: '2024-08-28'
+    confidence: explicit_statement
+  - fact: 'Three core products: Code Search (30+ languages), Cody (AI coding assistant),
+      and Amp (coding agent launched 2025)'
+    source: Sourcegraph website, Wikipedia
+    date: '2025-10-28'
+    confidence: explicit_statement
+  - fact: Global AI Code Assistant Market projected to grow from $5.85B in 2024 to
+      $49.36B by 2035, CAGR of 25.36%
+    source: Global Data Route Analytics
+    date: '2024-10-28'
+    confidence: explicit_statement
+  - fact: Top competitors include Tabnine, Cognition (raised $500M Aug 2025), Cursor
+      Tech, GitHub Copilot, Amazon CodeWhisperer
+    source: Tracxn, CBInsights
+    date: '2024-10-28'
+    confidence: explicit_statement
+  - fact: Sourcegraph has 131 active competitors, ranks 7th amongst competitors and
+      4th in total funding
+    source: Tracxn
+    date: '2025-10-28'
+    confidence: explicit_statement
+  - fact: Achieved ISO/IEC 27001:2022 certification, has SOC 2 Type II attestation,
+      GDPR and CCPA compliant
+    source: Sourcegraph blog
+    date: '2025-10-28'
+    confidence: explicit_statement
+  - fact: Amp pricing uses prepaid credit-based model with at-cost pricing (no markup);
+      Amp Free includes $10 in free credits
+    source: Sourcegraph pricing page
+    date: '2025-10-28'
+    confidence: explicit_statement
+  - fact: Palo Alto Networks reported boosting productivity for 2,000 developers by
+      up to 40% using Sourcegraph
+    source: Sourcegraph case studies
+    date: '2025-10-28'
+    confidence: explicit_statement
+  - fact: Glassdoor employee rating of 2.7 out of 5 stars (115 reviews), 30% below
+      IT industry average of 3.9
+    source: Glassdoor
+    date: '2025-10-28'
+    confidence: explicit_statement
+  - fact: 'RepVue overall rating 3.0/5, ranked #1818 out of all Software organizations,
+      42% of sales reps hitting quota'
+    source: RepVue
+    date: '2025-10-28'
+    confidence: explicit_statement
+  - fact: Infrastructure uses Google Cloud Platform as primary hosting, LLM providers
+      include Anthropic (Claude), OpenAI, Fireworks, Baseten
+    source: Amp security page
+    date: '2025-10-28'
+    confidence: explicit_statement
+  missing_information:
+  - Specific G2 rating score (129 reviews found but score not accessible)
+  - TrustPilot reviews - no presence found
+  - Exact enterprise customer count
+  - Market share percentage within AI code assistant market
+  - Exact pricing amounts for Code Search Enterprise tiers
+  - Detailed competitive win/loss rates
+  - Customer churn rate or retention metrics
+organizational_stability:
+  facts_found:
+  - fact: Quinn Slack is CEO and co-founder, serving since April 1, 2013 (12+ years
+      tenure)
+    source: Sourcegraph website
+    date: '2025-10-28'
+    confidence: explicit_statement
+  - fact: Beyang Liu is CTO and co-founder, serving since April 1, 2013 (12+ years
+      tenure)
+    source: Sourcegraph website
+    date: '2025-10-28'
+    confidence: explicit_statement
+  - fact: Board members include Sarah Wang (a16z), Andrew Reed (Sequoia), Scott Raney
+      (Redpoint), Brian Murray (Craft Ventures), Adam Ross and Dan Friedland (Goldcrest)
+    source: Sourcegraph website
+    date: '2025-10-28'
+    confidence: explicit_statement
+  - fact: Steve Yegge joined as Head of Engineering in October 2022, transitioned
+      to IC engineering role in February 2024
+    source: Sourcegraph blog, LinkedIn
+    date: '2024-02-28'
+    confidence: explicit_statement
+  - fact: Erika Rice Scherpelz currently serves as Head of Engineering
+    source: Sourcegraph website
+    date: '2025-10-28'
+    confidence: explicit_statement
+  - fact: Became officially all-remote on February 20, 2020, closing San Francisco
+      office
+    source: Sourcegraph blog
+    date: '2020-02-20'
+    confidence: explicit_statement
+  - fact: 'Hosts twice-yearly ''Merge'' onsite events where all employees meet in
+      person (past locations: Amsterdam, Montreal, Cancun, Rome)'
+    source: Sourcegraph jobs page, Glassdoor
+    date: '2025-10-28'
+    confidence: explicit_statement
+  - fact: Overall Glassdoor rating of 2.7 out of 5 stars based on 116 anonymous reviews
+    source: Glassdoor
+    date: '2025-10-28'
+    confidence: explicit_statement
+  - fact: Work-life balance rated 3.0 out of 5 on Glassdoor
+    source: Glassdoor
+    date: '2025-10-28'
+    confidence: explicit_statement
+  - fact: Culture and values rated 2.8 out of 5 on Glassdoor
+    source: Glassdoor
+    date: '2025-10-28'
+    confidence: explicit_statement
+  - fact: Compensation and benefits rated 4.0 out of 5 on Glassdoor
+    source: Glassdoor
+    date: '2025-10-28'
+    confidence: explicit_statement
+  - fact: Only 37% of employees would recommend working at company to a friend; 34%
+      think company has positive business outlook
+    source: Glassdoor
+    date: '2025-10-28'
+    confidence: explicit_statement
+  - fact: Quinn Slack received leadership rating of 63/100 on Comparably, placing
+      in bottom 40% of similar-sized companies
+    source: Comparably
+    date: '2025-10-28'
+    confidence: explicit_statement
+  missing_information:
+  - Specific tenure dates for VP-level executives (Dan Adler, Carly Jones, Aimee Menee)
+  - Exact dates when most board members joined (except Andrew Reed)
+  - Number of employees impacted in January 2024 layoffs
+  - Recent executive departures or additions in 2024-2025 beyond Steve Yegge role
+    change
+  - Specific team structure breakdown by department
+  - CEO approval percentage on Glassdoor
+technical_culture:
+  facts_found:
+  - fact: Tech stack includes TypeScript and React for web, Go for backend services,
+      Rust for syntect-server, PostgreSQL, Kubernetes, Redis
+    source: Sourcegraph docs, StackShare
+    date: '2023-10-01'
+    confidence: explicit_statement
+  - fact: Created SCIP (SCIP Code Intelligence Protocol), open source language-agnostic
+      protocol for indexing source code
+    source: GitHub sourcegraph/scip
+    date: '2022-05-04'
+    confidence: explicit_statement
+  - fact: Made main internal codebase private in August 2024, transitioning from open
+      source to closed source
+    source: DevClass
+    date: '2024-08-21'
+    confidence: explicit_statement
+  - fact: Cody AI assistant remains open source under Apache 2.0 license with 3.8k
+      stars and 443 forks
+    source: GitHub, DevClass
+    date: '2025-07-09'
+    confidence: explicit_statement
+  - fact: Has 592 public repositories on GitHub; sourcegraph-public-snapshot has 10.2k
+      stars
+    source: GitHub
+    date: '2024-08-01'
+    confidence: explicit_statement
+  - fact: Active engineering blog with multiple posts in January-February 2025, covering
+      BM25F algorithm, cAdvisor metrics, security automation
+    source: Sourcegraph blog
+    date: '2025-02-05'
+    confidence: explicit_statement
+  - fact: 'Beyang Liu gave conference talk ''Beyond Copilot: How AI is changing how
+      we code'' at All Things Open 2024'
+    source: All Things Open
+    date: '2024-10-28'
+    confidence: explicit_statement
+  - fact: Steve Yegge (Head of Engineering hired Oct 2022) previously worked at Google
+      on Code Search and at Amazon
+    source: Sourcegraph blog
+    date: '2022-10-04'
+    confidence: explicit_statement
+  - fact: 'Interview process includes: recruiter screen, coding pairing exercise (not
+      leetcode), system design, cross-team collaboration, values interview, leadership
+      interviews; average 23 days'
+    source: Glassdoor
+    date: '2025-01-01'
+    confidence: explicit_statement
+  - fact: 'Offers two interview options: traditional 6-hour interview OR compensated
+      real-world project on Sourcegraph''s open source libraries'
+    source: Sourcegraph blog
+    date: '2019-01-01'
+    confidence: explicit_statement
+  - fact: Fully remote, globally distributed with 'transparent by default' culture;
+      publishes employee handbook publicly
+    source: Pragmatic Engineer Newsletter
+    date: '2023-01-01'
+    confidence: explicit_statement
+  - fact: Extended stock option post-termination exercise window from 90 days to 10
+      years in May 2021
+    source: Pragmatic Engineer Newsletter
+    date: '2021-05-01'
+    confidence: explicit_statement
+  missing_information:
+  - Specific star counts for SCIP protocol repository
+  - Engineering team size breakdown by role
+  - Technical certifications or training programs for engineers
+  - Code coverage, testing practices, or CI/CD pipeline details
+  - Performance review cadence and promotion criteria
+  - Learning and development budget for engineers
+  - On-call rotation and incident response practices
+  - Number of external contributors to open source projects
+summary:
+  total_facts_found: 50
+  information_completeness: medium
+  most_recent_data_point: '2025-10-28'
+  oldest_data_point: '2013-04-01'
+  key_findings:
+  - Last funding was 4+ years ago (July 2021, $125M Series D at $2.6B valuation);
+    no recent capital raises
+  - Multiple layoff rounds (2022, 2024) with employee count declining 19% in 2024
+    to ~190 employees
+  - Low Glassdoor rating (2.7/5) with only 37% recommending company; culture/leadership
+    rated poorly (2.8/5)
+  - Strong technical pedigree with Stanford founders, experienced engineering leadership
+    (Steve Yegge), active open source contributions
+  - Made core codebase private in Aug 2024, signaling strategic shift from open source
+    roots
+  - Discontinued Cody Free/Pro plans (June 2025), launched new Amp product indicating
+    product pivot
+  - Excellent compensation/benefits rating (4.0/5) and unique perks (10-year option
+    window, all-remote, transparent culture)
+  - Operates in rapidly growing AI code assistant market ($5.85B to $49B by 2035,
+    25% CAGR)
+  - Strong enterprise customer base including FAANG companies, major tech firms, government
+    sector
+  - ISO 27001, SOC 2 Type II certified with robust security posture
+  red_flags:
+  - No profitability data or path to profitability disclosed despite 12 years in operation
+  - Aging capital (4+ years since last raise) in competitive AI/ML market with well-funded
+    competitors
+  - Declining employee morale evidenced by poor Glassdoor ratings and leadership scores
+  - CEO leadership rated bottom 40% of similar companies (63/100 on Comparably)
+  - Multiple 'disguised layoffs' via opt-in severance rounds per employee reviews
+  - Product strategy uncertainty with discontinued plans and frequent pivots
+  - Revenue data unverified from third-party estimates only
+  opportunities:
+  - Large and rapidly growing market with strong tailwinds (AI coding assistants)
+  - Differentiated technology with 54B+ lines of code indexed, strong code intelligence
+    capabilities
+  - Elite customer base provides validation and potential for expansion
+  - Remote-first culture with strong compensation and unique equity terms
+  - Active technical culture with conference talks, engineering blog, open source
+    contributions
+  - Experienced technical founders still leading after 12 years
