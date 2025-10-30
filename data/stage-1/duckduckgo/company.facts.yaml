@@ -1,0 +1,346 @@
+company: DuckDuckGo
+research_date: '2025-10-28'
+financial_health:
+  facts_found:
+  - fact: 'Total funding of $113M raised across 3 rounds: $3M Series A (October 2011),
+      $10M Series B (August 2018), and $100M secondary market round (June 2021)'
+    source: TechCrunch, Crunchbase
+    date: '2021-06-16'
+    confidence: explicit_statement
+  - fact: Lead investors include Union Square Ventures (Series A), OMERS Ventures
+      (Series B), GP Bullhound and Impact America Fund (secondary), plus notable individuals
+      Tim Berners-Lee and Brian Acton (WhatsApp co-founder)
+    source: TechCrunch, Crunchbase
+    date: '2021-06-16'
+    confidence: explicit_statement
+  - fact: Estimated valuation between $900M to $1 billion as of 2024
+    source: Webology, Increv, Cheddar Flow
+    date: '2024'
+    confidence: implied
+  - fact: Company has been profitable since 2014, representing 10+ years of continuous
+      profitability
+    source: TechCrunch, multiple verified sources
+    date: '2024-10-23'
+    confidence: explicit_statement
+  - fact: Annual revenue exceeds $100 million since at least 2021
+    source: TechCrunch (official company statement)
+    date: '2021-06-16'
+    confidence: explicit_statement
+  - fact: 'Revenue model: keyword-based advertising (not user tracking) plus affiliate
+      partnerships with Amazon and eBay'
+    source: TechCrunch
+    date: '2024-10-23'
+    confidence: explicit_statement
+  - fact: Company invested in 6 startups over past 3 years including You.com ($50M
+      round, Sept 2024) and acquired Removaly (2022), indicating strong financial
+      position
+    source: TechCrunch
+    date: '2024-10-23'
+    confidence: explicit_statement
+  - fact: 'Current employee count: 335+ employees from 15+ countries, all working
+      remotely'
+    source: DuckDuckGo official hiring page
+    date: '2024'
+    confidence: explicit_statement
+  - fact: Employee count grew by 22% in recent year
+    source: Growjo
+    date: '2024'
+    confidence: explicit_statement
+  - fact: Average employee retention rate >95% since 2012
+    source: DuckDuckGo official hiring page
+    date: '2024'
+    confidence: explicit_statement
+  - fact: No layoffs or restructuring events found in company history; currently hiring
+      more engineering roles than any time in past 12 months
+    source: Multiple sources, ZoomInfo
+    date: '2024'
+    confidence: explicit_statement
+  - fact: 'User base: 70-100 million users estimated, processing ~100 million searches
+      per day'
+    source: TechCrunch, Backlinko
+    date: '2024'
+    confidence: explicit_statement
+  - fact: 'Annual search volume: 71.9 billion searches in 2024, up from 35.3 billion
+      in 2021 (103% growth)'
+    source: LoopexDigital
+    date: '2024'
+    confidence: explicit_statement
+  missing_information:
+  - Specific 2023-2024 revenue figures beyond '$100M+' (private company, not disclosed)
+  - Exact current valuation (private company, no official disclosure)
+  - Quarter-by-quarter growth metrics
+  - Detailed burn rate metrics (not publicly available, though company is profitable)
+  - Specific customer acquisition costs or unit economics
+market_position:
+  facts_found:
+  - fact: DuckDuckGo is a privacy-focused search engine company founded in 2008 by
+      Gabriel Weinberg, headquartered in Paoli, Pennsylvania
+    source: Wikipedia, DuckDuckGo Help Pages
+    date: '2024-01-30'
+    confidence: explicit_statement
+  - fact: 'Product portfolio includes: search engine, Private Browser (Windows/Mac/iOS/Android),
+      browser extensions (Chrome/Firefox/Safari/Edge), Email Protection with @duck.com
+      addresses, and Duck.ai private AI chatbot'
+    source: DuckDuckGo About page, Spread Privacy blog
+    date: 2024-2025
+    confidence: explicit_statement
+  - fact: Privacy Pro subscription launched offering VPN (5 devices), Personal Information
+      Removal, Identity Theft Restoration, and advanced AI models for $9.99/month
+      or $99.99/year
+    source: Spread Privacy, PCWorld
+    date: '2024'
+    confidence: explicit_statement
+  - fact: Search aggregates results from 400+ sources including Bing, Yahoo Search
+      BOSS, Wolfram Alpha, Yandex, and DuckDuckBot web crawler, but not Google
+    source: Wikipedia
+    date: '2024'
+    confidence: explicit_statement
+  - fact: 'Global search engine market share: 0.54% (5th most popular globally); US
+      market share: 1.96% (4th largest)'
+    source: Backlinko, Statista
+    date: 2024-01
+    confidence: explicit_statement
+  - fact: '#2 mobile search engine in US with 1.81% market share and #2 position in
+      20+ countries including Canada, Germany, Australia, France'
+    source: Backlinko, LoopexDigital
+    date: 2024-2025
+    confidence: explicit_statement
+  - fact: 'Main competitors: Google (92.45% global share), Bing (2.93%), Yahoo (1.45%),
+      plus privacy-focused alternatives Brave Search, Startpage, Ecosia, Qwant'
+    source: CB Insights, Yaguara
+    date: 2023-2025
+    confidence: explicit_statement
+  - fact: Mobile apps have 4.5/5 star cross-platform average rating with 50+ million
+      all-time downloads; 500K iOS downloads and 1M Android downloads in April 2024
+      alone
+    source: Backlinko
+    date: 2024-04
+    confidence: explicit_statement
+  - fact: 'TrustPilot rating: 2.2/5 stars (Poor) based on 538 reviews; negative reviews
+      cite limited results, integration issues, slow performance, US-biased results'
+    source: TrustPilot
+    date: '2025'
+    confidence: explicit_statement
+  - fact: Chrome browser extension has 5+ million users
+    source: Backlinko
+    date: 2024-2025
+    confidence: explicit_statement
+  - fact: Available globally in ~68 regions; 50%+ traffic from US, followed by UK
+      (5.4%), Germany (5.33%), Canada (4.19%), France (2.82%)
+    source: Statista, SerpApi
+    date: 2024-02
+    confidence: explicit_statement
+  - fact: Complies with GDPR and publishes EU Digital Services Act transparency reports;
+      supports Global Privacy Control (GPC)
+    source: DuckDuckGo Help Pages
+    date: 2024-2025
+    confidence: explicit_statement
+  - fact: No SOC 2 or ISO 27001 certifications found; follows 'privacy by design'
+      architecture
+    source: DuckDuckGo Privacy Policy, Centraleyes
+    date: 2024-2025
+    confidence: explicit_statement
+  missing_information:
+  - Customer retention metrics, churn rates, subscription renewal rates
+  - G2 ratings (DuckDuckGo does not have significant G2 presence)
+  - Detailed revenue breakdown between advertising and subscription services
+  - Exact current valuation (estimates vary widely, no official confirmation)
+organizational_stability:
+  facts_found:
+  - fact: Gabriel Weinberg - CEO and Founder, leading company for 17 years since founding
+      in 2008; MIT graduate (Physics B.S., Technology & Policy M.S.)
+    source: DuckDuckGo official website, Crunchbase
+    date: '2025-10-28'
+    confidence: explicit_statement
+  - fact: Caine Tighe - CTO, first official employee, joined 2012
+    source: DuckDuckGo official website
+    date: '2025-10-28'
+    confidence: explicit_statement
+  - fact: C-suite includes Steve Fischer (Chief Business Officer), Mike Ferry (Chief
+      Operating Officer)
+    source: Crunchbase, Craft.co
+    date: '2025-10-28'
+    confidence: explicit_statement
+  - fact: 'VP-level executives include: Marc Soda (Engineering), Beah Burger-Lenehan
+      (Product), Chris Morast (Design), Kamyl Bazbaz (Communications), Cristina Stanley
+      (Marketing), Mike Marino (Finance), Russell Holt (Platform)'
+    source: The Org, Products That Count podcast
+    date: '2025-10-28'
+    confidence: explicit_statement
+  - fact: Board includes Stephen Mendel (board member), Bradford Burnham (Union Square
+      Ventures partner), Damien Steel (advisor); total 3 board members/advisors
+    source: Crunchbase, CBInsights
+    date: '2025-10-28'
+    confidence: explicit_statement
+  - fact: No major executive changes, departures, or new hires announced in 2024-2025;
+      leadership team appears stable
+    source: The Official Board, PitchBook, news sources
+    date: '2025-10-28'
+    confidence: implied
+  - fact: 'Headquarters: 20 Paoli Pike, Paoli, Pennsylvania 19301; also has UK subsidiary
+      at 5th Floor, One New Change London'
+    source: DuckDuckGo official website, Crunchbase
+    date: '2025-10-28'
+    confidence: explicit_statement
+  - fact: Fully remote/distributed company with employees across 27+ countries, no
+      core hours, flexible work schedules
+    source: DuckDuckGo official 'How We Work' page
+    date: '2025-10-28'
+    confidence: explicit_statement
+  - fact: No formalized hierarchy or traditional management structure; flat organizational
+      structure
+    source: DuckDuckGo 'How We Work' page
+    date: '2025-10-28'
+    confidence: explicit_statement
+  - fact: 'Glassdoor overall rating: 4.6/5 stars (21-30 reviews); 92% would recommend
+      to a friend; 100% positive business outlook'
+    source: Glassdoor
+    date: '2025-10-28'
+    confidence: explicit_statement
+  - fact: 'Glassdoor category scores: Work-Life Balance 4.9/5, Culture & Values 4.8/5,
+      Career Opportunities 4.7/5, Compensation & Benefits 4.6/5'
+    source: Glassdoor
+    date: '2025-10-28'
+    confidence: explicit_statement
+  - fact: 'DEI score: 4.8/5 stars (16 ratings), 24.4% higher than IT sector average'
+    source: Glassdoor
+    date: '2025-10-28'
+    confidence: explicit_statement
+  - fact: 'Employee Net Promoter Score: 100 (Comparably); Blind rating: 4.5/5 based
+      on 2 reviews'
+    source: Comparably, Blind
+    date: '2025-10-28'
+    confidence: explicit_statement
+  - fact: 95% average team retention rate since 2012; 86% employee engagement in 2023
+      survey (14% above industry benchmark)
+    source: DuckDuckGo official pages
+    date: 2024-11
+    confidence: explicit_statement
+  - fact: Everyone at same professional level earns same compensation regardless of
+      location, gender, or background
+    source: DuckDuckGo 'How We Work' page
+    date: '2025-10-28'
+    confidence: explicit_statement
+  missing_information:
+  - Recent promotion or departure dates for any executives
+  - Number of Glassdoor reviews by submission year
+  - Exact tenure/start dates for most executives (only CEO and CTO confirmed)
+  - Comprehensive Indeed ratings (minimal review data available)
+  - Specific Glassdoor Management score breakdown (not accessible without login)
+technical_culture:
+  facts_found:
+  - fact: Search engine written in Perl, runs on nginx web server with FreeBSD and
+      Linux; uses PostgreSQL, Solr, Berkeley DB, and flat files for databases
+    source: Wikipedia, High Scalability Blog
+    date: '2013-01-28'
+    confidence: explicit_statement
+  - fact: Frontend uses JavaScript, jQuery, Node.js; Android app built with Kotlin;
+      iOS/macOS browsers built with Swift
+    source: StackShare, GitHub repositories
+    date: '2025-10-25'
+    confidence: explicit_statement
+  - fact: Browser extensions use JavaScript, TypeScript, and HTML
+    source: GitHub duckduckgo organization
+    date: '2025-10-28'
+    confidence: explicit_statement
+  - fact: 'GitHub organization has 120 repositories with 2.5K followers; top languages:
+      JavaScript, Perl, Swift, Python, HTML'
+    source: GitHub.com/duckduckgo
+    date: '2025-10-28'
+    confidence: explicit_statement
+  - fact: 'Android repository: 4,391 stars, 1,103 forks, Apache 2.0 license, last
+      updated October 25, 2025'
+    source: GitHub duckduckgo/Android
+    date: '2025-10-25'
+    confidence: explicit_statement
+  - fact: 'iOS/macOS browsers repository: 122 stars, 31 forks, Apache 2.0 license,
+      last updated October 25, 2025'
+    source: GitHub duckduckgo/apple-browsers
+    date: '2025-10-25'
+    confidence: explicit_statement
+  - fact: 'Key active open source repos include: tracker-radar (1,641 stars), privacy-configuration
+      (173 stars), autoconsent (98 stars)'
+    source: GitHub duckduckgo organization
+    date: '2025-10-28'
+    confidence: explicit_statement
+  - fact: Primary blog is Spread Privacy (spreadprivacy.com); focuses on product launches
+      and privacy features rather than deep technical architecture
+    source: Spread Privacy website analysis
+    date: '2025-10-28'
+    confidence: implied
+  - fact: Presented at FOSDEM 2019 on 'Open Source at DuckDuckGo'; limited public
+      technical conference presence overall
+    source: FOSDEM 2019 schedule
+    date: '2019-02-02'
+    confidence: explicit_statement
+  - fact: Cate Huston (Engineering Director, Native Apps) has appeared on multiple
+      tech podcasts including Dev Interrupted, It Shipped That Way, LinearB AMA
+    source: Range.co, LinearB blog, It Shipped That Way
+    date: 2021-2022
+    confidence: explicit_statement
+  - fact: Hiring process has 6 stages including 2-3 paid test projects; first project
+      5-10 hours over 7 days, second 5-20 hours over 7-14 days; process takes several
+      weeks to months
+    source: DuckDuckGo official 'How We Hire' page
+    date: '2024-11-01'
+    confidence: explicit_statement
+  - fact: No live coding, brain teasers, or academic puzzles in interviews; test projects
+      simulate actual work and are paid
+    source: DuckDuckGo 'How We Hire' page
+    date: '2024-11-01'
+    confidence: explicit_statement
+  - fact: 'Glassdoor interview experience: 42% positive rating, difficulty score 3.2/5'
+    source: Glassdoor
+    date: '2025-10-28'
+    confidence: explicit_statement
+  - fact: 'Two team types: Functional Teams (by discipline) and Objective Teams (by
+      company priority); uses DRI (Directly Responsible Individual) model with no
+      dedicated PM team'
+    source: Key Values - DuckDuckGo Engineering Culture
+    date: '2025-10-28'
+    confidence: explicit_statement
+  - fact: Every team member has Career Advisor (not traditional manager) with weekly
+      1-on-1s; Career Advisors guide professional development rather than direct work
+    source: Key Values, Range blog
+    date: '2022-03-14'
+    confidence: explicit_statement
+  - fact: $1,250 annual professional development budget per team member for courses,
+      conferences, books
+    source: Key Values - DuckDuckGo Engineering Culture
+    date: '2025-10-28'
+    confidence: explicit_statement
+  - fact: Three day-long Hack Days per quarter where engineers work on anything they
+      choose
+    source: Key Values - DuckDuckGo Engineering Culture
+    date: '2025-10-28'
+    confidence: explicit_statement
+  - fact: DuckAssist launched March 2023 using OpenAI's Davinci and Anthropic's Claude
+      models to generate natural language answers from Wikipedia
+    source: Spread Privacy blog, TechCrunch
+    date: '2023-03-08'
+    confidence: explicit_statement
+  - fact: Duck.ai provides anonymous access to AI chatbots; free tier includes Claude
+      3.5 Haiku, Llama 4 Scout, Mistral Small, GPT-4o mini; subscription adds GPT-4o,
+      GPT-5, Claude Sonnet 4
+    source: DuckDuckGo Help Pages, TechCrunch
+    date: '2025-09-04'
+    confidence: explicit_statement
+  - fact: Duck.ai anonymizes queries by hiding user IP addresses from AI model providers;
+      chats stored locally, not used for training
+    source: DuckDuckGo Help Pages, PCWorld
+    date: '2025-09-04'
+    confidence: explicit_statement
+  missing_information:
+  - Code review workflows and tools
+  - Detailed agile/scrum practices
+  - Internal tooling and developer experience investments
+  - Monitoring and observability tools
+  - Performance benchmarking processes
+  - Specific testing frameworks used
+  - Specific CI/CD pipeline tools and deployment processes
+summary:
+  total_facts_found: 61
+  information_completeness: high
+  most_recent_data_point: '2025-10-28'
+  oldest_data_point: '2011-10-13'
+company_slug: duckduckgo

@@ -1,0 +1,226 @@
+company: DuckDuckGo
+evaluation_date: '2025-10-30'
+evaluator_context: Extracted from conversation notes
+green_flags:
+  mountain_range:
+    critical_matches:
+    - flag: 10+ years of continuous profitability with $100M+ annual revenue and no
+        layoffs in company history
+      impact: Exceptional financial stability ensures sustainable employment and reduces
+        risk of sudden restructuring
+      confidence: High - explicitly stated in multiple verified sources
+    - flag: 95% employee retention rate since 2012, 86% engagement (14% above industry
+        benchmark)
+      impact: Outstanding retention and engagement indicates highly satisfied workforce
+        and healthy culture
+      confidence: High - official company data
+    - flag: Strong funding ($113M raised) with ability to invest in other companies
+        ($50M You.com, Removaly acquisition)
+      impact: Financial strength beyond operations shows resilience and strategic
+        optionality
+      confidence: High - TechCrunch verified
+    strong_positives:
+    - flag: Small stable team (335 employees) with 22% recent growth and active hiring
+      impact: Right-sized organization where individual contributions matter, with
+        controlled growth
+      confidence: High - official hiring page and Growjo data
+    - flag: 71.9B searches in 2024 (up from 35.3B in 2021) - 103% growth trajectory
+      impact: Strong product-market fit with consistent usage growth
+      confidence: High - LoopexDigital data
+  chosen_peak:
+    critical_matches:
+    - flag: Privacy-first mission with cutting-edge AI work (DuckAssist using Claude/GPT,
+        Duck.ai anonymization)
+      impact: Meaningful mission-driven work combined with exposure to modern AI/ML
+        technologies
+      confidence: High - documented products and technical implementations
+    - flag: 120 open source repos (Apache 2.0) with 2.5K+ followers, active privacy
+        tools development
+      impact: Strong open source culture enables public portfolio building and community
+        engagement
+      confidence: High - verified GitHub organization metrics
+    strong_positives:
+    - flag: Modern mobile tech stack (Kotlin for Android, Swift for iOS) with active
+        development (last updated Oct 2025)
+      impact: Opportunity to work with current best practices in mobile development
+      confidence: High - verified via GitHub repos
+    - flag: $1,250 annual professional development budget plus 3 Hack Days per quarter
+      impact: Concrete investment in continuous learning and innovation time
+      confidence: High - explicit on Key Values engineering culture page
+  rope_team_confidence:
+    critical_matches:
+    - flag: Flat organizational structure with DRI (Directly Responsible Individual)
+        model, no traditional managers
+      impact: Alpine-style coordination perfect for autonomous senior engineers; clear
+        ownership and accountability
+      confidence: High - documented organizational structure
+    - flag: Career Advisor system with weekly 1-on-1s for development guidance
+      impact: Structured professional development support without traditional hierarchy
+        constraints
+      confidence: High - Key Values and Range blog documentation
+    strong_positives:
+    - flag: 4.6/5 Glassdoor with 92% recommend to friend, 100% positive business outlook
+      impact: Team believes in company direction and would recommend to others
+      confidence: High - Glassdoor verified reviews
+    - flag: Equal pay for equal level regardless of location, gender, or background
+      impact: Eliminates pay disparities and demonstrates commitment to equity and
+        fairness
+      confidence: High - explicit company policy
+  daily_climb:
+    critical_matches:
+    - flag: Fully remote company (27+ countries) with no core hours and flexible schedules
+      impact: Maximum autonomy and work-life balance for self-directed engineers
+      confidence: High - explicit on official 'How We Work' page
+    - flag: Work-Life Balance 4.9/5, Culture & Values 4.8/5 on Glassdoor
+      impact: Daily work experience highly rated by employees on key quality-of-life
+        factors
+      confidence: High - Glassdoor category scores
+    strong_positives:
+    - flag: Paid test projects (5-20 hours each) that simulate real work; no live
+        coding/brain teasers
+      impact: Respectful hiring process that values candidates' time and assesses
+        actual skills
+      confidence: High - documented on official 'How We Hire' page
+    - flag: Two team types (Functional + Objective) with engineers as DRIs for work
+        streams
+      impact: Clear ownership model with flexibility to work across disciplines
+      confidence: High - Key Values engineering culture documentation
+  story_worth_telling:
+    critical_matches:
+    - flag: Privacy-focused search serving 70-100M users with 100M searches/day, protecting
+        people from tracking
+      impact: Tangible impact on user privacy at meaningful scale - work directly
+        protects people
+      confidence: High - TechCrunch and Backlinko data
+    strong_positives:
+    - flag: Duck.ai provides anonymous AI access to millions; pioneering privacy-preserving
+        AI/ML
+      impact: 'Working on cutting-edge problem: how to make AI accessible while protecting
+        privacy'
+      confidence: High - documented product and approach
+    - flag: GDPR compliance, EU Digital Services Act transparency, Global Privacy
+        Control (GPC) support
+      impact: Company takes regulatory compliance seriously and leads on privacy standards
+      confidence: High - DuckDuckGo Help Pages
+red_flags:
+  mountain_range:
+    dealbreakers: []
+    concerning:
+    - flag: Tiny market share (0.54% global, 1.96% US) despite growth vs Google's
+        92.45% dominance
+      impact: Small player status could limit long-term viability if Google aggressively
+        defends privacy space
+      confidence: High - Backlinko and Statista market share data, but 10+ years profitability
+        suggests sustainable niche
+    - flag: TrustPilot rating low at 2.2/5 (538 reviews) citing limited results, slow
+        performance, US-biased results
+      impact: Product quality concerns from users could indicate technical limitations
+        or UX gaps
+      confidence: Medium - TrustPilot skews negative; app store ratings strong (4.5/5,
+        50M+ downloads)
+  chosen_peak:
+    dealbreakers: []
+    concerning:
+    - flag: Core search engine written in Perl (legacy technology from 2008 founding)
+      impact: Limited learning opportunities in modern backend technologies for search
+        team; may affect hiring/retention
+      confidence: High - Wikipedia confirms Perl stack, but mobile/browser teams use
+        modern stacks (Kotlin/Swift/TypeScript)
+    - flag: Limited public technical conference presence and deep engineering blog
+        content
+      impact: Fewer external-facing technical visibility opportunities for building
+        profile
+      confidence: Medium - FOSDEM 2019 found, podcast appearances, but less than peers;
+        strong open source presence compensates
+  rope_team_confidence:
+    dealbreakers: []
+    concerning:
+    - flag: Small Glassdoor sample size (21-30 reviews) limits statistical confidence
+        despite excellent 4.6/5 rating
+      impact: Small sample means outlier experiences less visible; harder to assess
+        true culture breadth
+      confidence: Medium - cross-referenced with Comparably (NPS 100), Blind (4.5/5),
+        95% retention rate supports ratings
+    - flag: Some reviews mention promotion difficulties and developing hierarchy despite
+        flat structure claims
+      impact: Potential gap between stated flat structure and career advancement reality
+        for Staff+ roles
+      confidence: Low - implied from organizational descriptions, but 95% retention
+        suggests most satisfied
+  daily_climb:
+    dealbreakers: []
+    concerning:
+    - flag: Interview process takes weeks to months with only 42% positive Glassdoor
+        rating (difficulty 3.2/5)
+      impact: Lengthy hiring process (6 stages, 2-3 paid projects totaling 10-30 hours)
+        may indicate slower decision-making culture
+      confidence: High - documented on 'How We Hire' page, though projects are paid
+        and respectful of candidate time
+    - flag: 27+ countries with no core hours could create timezone coordination challenges
+      impact: Extreme distribution may make realtime collaboration difficult for some
+        teams
+      confidence: Medium - depends on specific team distribution; async-first culture
+        may mitigate
+  story_worth_telling:
+    dealbreakers: []
+    concerning: []
+missing_critical_data:
+- question: What is the actual compensation range for Staff Software Engineer roles?
+  why_important: Need to verify if remote-first equal pay matches or exceeds market
+    rates for senior roles
+  how_to_find: Levels.fyi data, Glassdoor salary reports, or direct inquiry during
+    interview
+  mountain_element: mountain_range
+- question: What backend technologies are used beyond Perl? Any modernization efforts?
+  why_important: Critical for backend engineers to understand tech stack evolution
+    and learning opportunities
+  how_to_find: Technical interview questions, engineering blog posts, or insider conversations
+  mountain_element: chosen_peak
+- question: How does the Career Advisor system work in practice for promotions to
+    Staff+?
+  why_important: Flat structure could mean unclear advancement; need concrete examples
+    of Staff+ career paths
+  how_to_find: Ask about promotion criteria and timeline in interviews; request to
+    speak with Staff+ engineers
+  mountain_element: rope_team_confidence
+- question: What are the core engineering challenges at DuckDuckGo scale (100M searches/day)?
+  why_important: Understand if technical problems are interesting/challenging enough
+    for Staff+ engagement
+  how_to_find: Technical deep-dive interviews, engineering blog, or insider technical
+    discussions
+  mountain_element: story_worth_telling
+- question: How does remote-first work at 335 people across 27 countries? Timezone
+    distribution?
+  why_important: Verify if 'no core hours' creates collaboration friction or truly
+    enables flexibility; understand realignment ability
+  how_to_find: Ask about team collaboration patterns, meeting cadences, async communication
+    practices, team timezone distribution
+  mountain_element: daily_climb
+- question: What percentage of engineering budget goes to maintaining Perl stack vs
+    new development?
+  why_important: High maintenance burden could limit innovation time and new feature
+    velocity
+  how_to_find: Engineering roadmap discussions, team allocation questions in interviews
+  mountain_element: chosen_peak
+- question: What is DuckDuckGo's AI/ML strategy beyond current offerings (DuckAssist,
+    Duck.ai)?
+  why_important: Understand if AI work is strategic priority or defensive move; future
+    growth area for senior engineers
+  how_to_find: Product roadmap questions, AI team hiring, strategic direction from
+    leadership
+  mountain_element: chosen_peak
+- question: How are conflicts resolved in flat DRI structure? What happens when DRIs
+    disagree?
+  why_important: Flat structures need clear conflict resolution mechanisms; critical
+    for realignment ability
+  how_to_find: Ask specific scenario questions about past conflicts, escalation paths,
+    decision authority boundaries
+  mountain_element: rope_team_confidence
+- question: What does the team coordination style look like in practice? Alpine, Expedition,
+    or hybrid?
+  why_important: Need to validate coordination style matches terrain and that realignment
+    ability exceeds change rate
+  how_to_find: Ask about last 2-3 priority shifts, how communicated, realignment timeline,
+    decision-making process
+  mountain_element: rope_team_confidence
+company_slug: duckduckgo
