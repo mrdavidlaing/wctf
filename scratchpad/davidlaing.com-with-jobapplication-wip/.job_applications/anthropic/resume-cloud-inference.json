@@ -1,0 +1,290 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "David Laing",
+    "label": "Software Engineer - Cloud Inference",
+    "email": "david@davidlaing.com",
+    "url": "https://davidlaing.com",
+    "summary": "Backend software engineer with 15+ years experience architecting and scaling distributed systems across GCP, AWS, and Kubernetes. Currently pioneering AI agent orchestration for cloud inference workflows, with deep expertise in building customer-focused APIs and optimizing cloud resource utilization. Strong track record of scaling platforms from startup to enterprise, including systems handling $3.5M/minute traffic and 100PB data infrastructure. Passionate about bringing responsible AI development practices to large-scale cloud inference systems.",
+    "location": {
+      "city": "Dublin, Ireland",
+      "countryCode": "IE"
+    },
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "mrdavidlaing",
+        "url": "https://github.com/mrdavidlaing"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "mrdavidlaing",
+        "url": "https://linkedin.com/in/mrdavidlaing"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Mechanical Orchard",
+      "position": "Staff Software Engineer - AI Context Engineering Lead",
+      "url": "https://mechanical-orchard.com",
+      "startDate": "2023-09",
+      "summary": "Leading AI agent orchestration initiatives with focus on scalable cloud inference. Building distributed systems on GCP and AWS for AI-assisted development workflows with emphasis on performance optimization and customer experience.",
+      "highlights": [
+        "Pioneered AI agent orchestration for Kubernetes/Terraform automation - architecting scalable cloud inference systems where AI agents collaborate efficiently",
+        "Built and scaled cloud infrastructure on GCP and AWS optimizing for accelerator chip utilization and cost efficiency",
+        "Designed observable, scalable systems for AI agent deployment with comprehensive performance monitoring",
+        "Applied behavior-driven development to AI inference workflows ensuring reliable customer-facing systems"
+      ],
+      "name": "Mechanical Orchard",
+      "location": "San Francisco, CA"
+    },
+    {
+      "company": "Make Time Together Ltd",
+      "position": "Co-founder & Lead Engineer",
+      "url": "https://maketime.ie",
+      "startDate": "2023-08",
+      "summary": "Built full-stack applications from concept to production using modern web stack. Focused on creating customer-centric tools with scalable backend architecture and responsive user experiences.",
+      "highlights": [
+        "Built Decision Copilot using NextJS, React, and TypeScript - full-stack application serving thousands of users",
+        "Designed and implemented scalable backend API architecture with Firebase and cloud functions",
+        "Optimized application performance and user experience through data-driven development practices",
+        "Established sustainable development practices balancing innovation with reliability"
+      ],
+      "name": "Make Time Together Ltd",
+      "location": "Dublin, Ireland"
+    },
+    {
+      "company": "Shopify Ltd",
+      "position": "Senior Staff Reliability Engineer",
+      "url": "https://shopify.com",
+      "startDate": "2022-05",
+      "endDate": "2023-07",
+      "summary": "Scaled cloud infrastructure serving 3 million merchants during peak traffic events. Built and maintained distributed systems handling $3.5M/minute traffic with focus on performance optimization and customer experience.",
+      "highlights": [
+        "Scaled platform infrastructure to handle $3.5M/minute peak traffic (BFCM) through strategic cloud resource optimization",
+        "Architected and maintained distributed systems for 100PB data warehouse with focus on availability and performance",
+        "Implemented performance optimization strategies reducing latency and improving customer experience across commerce platform",
+        "Built comprehensive monitoring and alerting systems for large-scale distributed infrastructure"
+      ],
+      "name": "Shopify Ltd"
+    },
+    {
+      "company": "VMware Ltd",
+      "position": "Staff 2 Software Engineer (Data)",
+      "url": "https://tanzu.vmware.com",
+      "startDate": "2020-05",
+      "endDate": "2022-04",
+      "summary": "Built and maintained scalable data pipelines for cross-portfolio analytics. Focused on creating customer-focused analytics systems and establishing performance optimization practices.",
+      "highlights": [
+        "Architected and maintained dagster.io data pipelines serving analytics across VMware's product portfolio",
+        "Built scalable data processing systems with focus on performance optimization and resource utilization",
+        "Implemented customer-focused analytics APIs providing business intelligence across product teams",
+        "Established best practices for distributed system observability and performance monitoring"
+      ],
+      "name": "VMWare Ltd"
+    },
+    {
+      "company": "Pivotal Software Ltd",
+      "position": "Director of Engineering/SRE",
+      "startDate": "2015-12",
+      "endDate": "2020-04",
+      "summary": "Led engineering initiatives across 80+ R&D teams globally. Built and scaled Cloud Foundry and Kubernetes platforms with focus on developer experience and system reliability.",
+      "highlights": [
+        "Orchestrated engineering initiatives across 80+ R&D teams in 6 global offices, focusing on scalable platform development",
+        "Built and scaled Cloud Foundry and Kubernetes platforms serving thousands of developers",
+        "Established performance optimization practices for pivotaltracker.com serving 1M+ active users",
+        "Led technical mentorship and leadership development across distributed engineering teams",
+        "Collaborated on large-scale API platform design serving enterprise customers globally"
+      ],
+      "name": "Pivotal"
+    },
+    {
+      "company": "StayUp.io Ltd",
+      "position": "Co-founder",
+      "startDate": "2015-03",
+      "endDate": "2015-12",
+      "summary": "Co-founded company building distributed logging infrastructure. Scaled from concept to acquisition in 7 months, focusing on performance-critical systems for Cloud Foundry ecosystem.",
+      "highlights": [
+        "Built scalable ELK distribution handling 2TB daily log processing with optimized performance characteristics",
+        "Designed high-performance distributed systems architecture for real-time log aggregation",
+        "Scaled product from concept to acquisition in 7 months through customer-focused development"
+      ],
+      "name": "StayUp.io Ltd"
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Cape Town",
+      "url": "https://www.uct.ac.za",
+      "area": "Information Systems",
+      "studyType": "Bachelor of Business Science (Honours)",
+      "startDate": "1997-01",
+      "endDate": "2000-12",
+      "score": "Dean's Merit List",
+      "courses": [
+        "Information Systems",
+        "Statistics"
+      ],
+      "summary": "Majored in Information Systems and Statistics with focus on scalable system design and data-driven development."
+    }
+  ],
+  "publications": [
+    {
+      "name": "From Values to Velocity: Building Momentum Through Aligned Systems",
+      "publisher": "Unpublished Thoughts",
+      "releaseDate": "2024-02",
+      "summary": "Exploration of how customer-focused development practices create sustainable team momentum in distributed system development"
+    },
+    {
+      "name": "Staying up-to-date with Kubernetes",
+      "publisher": "Web Publication",
+      "summary": "Practical guide for scaling Kubernetes deployments and maintaining performance in cloud-native environments"
+    }
+  ],
+  "skills": [
+    {
+      "name": "AI & Cloud Inference",
+      "level": "Expert",
+      "keywords": [
+        "AI Agent Orchestration",
+        "Cloud Inference Optimization",
+        "Performance Optimization",
+        "Accelerator Utilization"
+      ]
+    },
+    {
+      "name": "Backend Development",
+      "level": "Expert",
+      "keywords": [
+        "Python",
+        "TypeScript",
+        "Golang",
+        "API Design",
+        "Distributed Systems Architecture"
+      ]
+    },
+    {
+      "name": "Cloud Platforms",
+      "level": "Expert",
+      "keywords": [
+        "GCP",
+        "AWS",
+        "Kubernetes",
+        "Docker",
+        "Terraform",
+        "Cloud Resource Optimization"
+      ]
+    },
+    {
+      "name": "Scalable Systems",
+      "level": "Expert",
+      "keywords": [
+        "Large-scale API Platforms",
+        "Performance Optimization",
+        "System Observability",
+        "Customer-focused Design"
+      ]
+    },
+    {
+      "name": "Modern Web Stack",
+      "level": "Expert",
+      "keywords": [
+        "NextJS",
+        "React",
+        "Full-stack Architecture",
+        "Firebase",
+        "Real-time Systems"
+      ]
+    },
+    {
+      "name": "Leadership & Collaboration",
+      "level": "Expert",
+      "keywords": [
+        "Technical Leadership",
+        "Cross-functional Teams",
+        "Mentorship",
+        "Strategic Partnership"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native speaker"
+    }
+  ],
+  "interests": [
+    {
+      "name": "AI & Cloud Systems",
+      "keywords": [
+        "Responsible AI Development",
+        "Cloud Inference Optimization",
+        "Distributed Systems Innovation"
+      ]
+    },
+    {
+      "name": "Customer-Focused Engineering",
+      "keywords": [
+        "User Experience Optimization",
+        "Performance Engineering",
+        "Scalable Architecture"
+      ]
+    }
+  ],
+  "references": [],
+  "projects": [
+    {
+      "name": "AI Cloud Inference Platform",
+      "description": "Leading development of scalable AI agent orchestration systems optimized for cloud inference workloads, with focus on performance, cost efficiency, and customer experience.",
+      "highlights": [
+        "Architected distributed AI inference systems with optimized resource utilization across GCP and AWS",
+        "Built customer-focused APIs for AI agent deployment and management with comprehensive performance monitoring",
+        "Implemented cost optimization strategies reducing cloud inference costs while maintaining performance SLAs",
+        "Established best practices for responsible AI deployment in cloud environments"
+      ],
+      "keywords": [
+        "Cloud Inference",
+        "AI Systems",
+        "Performance Optimization",
+        "Customer APIs"
+      ],
+      "startDate": "2023",
+      "endDate": "2025",
+      "roles": [
+        "Lead Engineer"
+      ],
+      "entity": "Mechanical Orchard",
+      "type": "platform"
+    },
+    {
+      "name": "Decision Copilot Platform",
+      "description": "Full-stack application built with NextJS, React, and TypeScript, demonstrating customer-focused backend development and scalable architecture design.",
+      "highlights": [
+        "Built complete backend API architecture serving thousands of users with Firebase integration",
+        "Implemented real-time collaboration features with optimized performance characteristics",
+        "Designed scalable system architecture supporting concurrent users and complex workflows",
+        "Established monitoring and observability practices for production web applications"
+      ],
+      "keywords": [
+        "Full-stack Development",
+        "API Design",
+        "Performance Optimization",
+        "Customer Focus"
+      ],
+      "startDate": "2023",
+      "endDate": "2025",
+      "roles": [
+        "Lead Developer"
+      ],
+      "entity": "Make Time Together Ltd",
+      "type": "application"
+    }
+  ],
+  "meta": {
+    "canonical": "https://davidlaing.com/resume-cloud-inference.json",
+    "version": "v1.0.0",
+    "lastModified": "2025-08-09T12:00:00Z",
+    "dateFormat": "ISO 8601 compliant"
+  }
+}

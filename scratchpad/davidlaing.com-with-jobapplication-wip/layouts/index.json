@@ -1,0 +1,54 @@
+{{- $data := dict -}}
+{{- $data = merge $data (dict "site" (dict 
+  "title" .Site.Title
+  "description" .Site.Params.subtitle
+  "url" .Site.BaseURL
+  "author" (dict
+    "name" .Site.Params.languages.en.title
+    "github" "https://github.com/mrdavidlaing"
+    "linkedin" "https://linkedin.com/in/mrdavidlaing"
+  )
+  "lastModified" (now.Format "2006-01-02T15:04:05Z07:00")
+)) -}}
+
+{{- $pages := slice -}}
+{{- range .Site.RegularPages -}}
+  {{- $page := dict 
+    "title" .Title
+    "url" .Permalink
+    "description" .Description
+    "content" .Plain
+    "date" (.Date.Format "2006-01-02")
+    "lastModified" (.Lastmod.Format "2006-01-02")
+    "wordCount" .WordCount
+    "tags" .Params.tags
+  -}}
+  {{- $pages = $pages | append $page -}}
+{{- end -}}
+{{- $data = merge $data (dict "pages" $pages) -}}
+
+{{- $resume := dict -}}
+{{- if fileExists "static/resume.yaml" -}}
+  {{- $resumeContent := readFile "static/resume.yaml" -}}
+  {{- $data = merge $data (dict "resume" (dict
+    "format" "yaml"
+    "schema" "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json"
+    "downloadUrl" (printf "%s/resume.yaml" .Site.BaseURL)
+    "alternateUrl" (printf "%s/cv.yaml" .Site.BaseURL)
+    "humanReadableUrl" (printf "%s/resume/" .Site.BaseURL)
+  )) -}}
+{{- end -}}
+
+{{- $data = merge $data (dict "structured_data" (dict
+  "type" "personal_website"
+  "purpose" "Professional portfolio optimized for LLM consumption"
+  "features" (slice 
+    "Machine-readable resume in YAML format"
+    "JSON Resume schema compliance"
+    "Structured content with semantic markup"
+    "Professional experience and skills data"
+  )
+  "technical_stack" (slice "Hugo" "Terminal Theme" "Solarized Dark" "JetBrains Mono")
+)) -}}
+
+{{- $data | jsonify (dict "indent" "  ") -}}

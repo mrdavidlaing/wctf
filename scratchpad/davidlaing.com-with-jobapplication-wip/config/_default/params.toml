@@ -1,0 +1,28 @@
+# -- Hugo Theme Console Parameters --
+# https://github.com/mrmierzejewski/hugo-theme-console
+
+# Site description
+description = "Principled Context Engineer and Bob Ross of Agentic Coding"
+
+# Content animation style
+animateStyle = "animate-fade-up"
+
+# Copyright
+copyright = "© 1996-2025 David Laing"
+
+# Custom CSS and JS
+custom_css = ["/css/solarized-theme.css"]
+custom_js = ["/js/theme-toggle.js"]
+
+# Navigation links
+[[navlinks]]
+  name = "resume/cv"
+  url = "/resume/"
+
+[[navlinks]]
+  name = "github"
+  url = "https://github.com/mrdavidlaing"
+
+[[navlinks]]
+  name = "linkedin"
+  url = "https://linkedin.com/in/mrdavidlaing"

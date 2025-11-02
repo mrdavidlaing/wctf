@@ -1,0 +1,178 @@
+cv:
+  name: David Laing
+  location: Dublin, Ireland, IE
+  email: david@davidlaing.com
+  social_networks:
+  - network: GitHub
+    username: mrdavidlaing
+  - network: LinkedIn
+    username: mrdavidlaing
+  sections:
+    summary:
+    - Collaborative engineering leader who thrives in high-trust environments with
+      fast feedback loops, authentic direction-setting, and clear accountability structures.
+      Passionate about learning loops, structured decision-making, and data-informed
+      leadership - built Decision Copilot to help teams make better choices together.
+      Excels at leading initiatives I believe in and have helped shape, bringing genuine
+      conviction rather than organizational theater. Values long-term thinking over
+      quarterly theater and fixing root causes over chasing new shiny objects. Requires
+      supportive leadership and clear decision frameworks to enable bottom-up innovation.
+      Specializes in data reliability engineering, platform SRE, cross-functional
+      team leadership, and pioneering work as Principled Context Engineer for AI agent
+      orchestration.
+    education:
+    - institution: University of Cape Town
+      area: Information Systems
+      degree: Bachelor of Business Science (Honours)
+      start_date: 1997-01
+      end_date: 2000-12
+      highlights:
+      - Information Systems
+      - Statistics
+    experience:
+    - company: Mechanical Orchard
+      position: Staff Software Engineer - AI Context Engineering Lead
+      start_date: 2023-09
+      highlights:
+      - Pioneered AI agent orchestration for Kubernetes/Terraform automation - creating
+        environments where AI agents collaborate and self-correct
+      - Continued Decision Copilot development through collaborative IP sharing agreement
+      - Built and maintained cloud infrastructure on GCP and AWS for Imogen modernization
+        platform
+      - Applied behavior-driven transformation to legacy system modernization
+      location: San Francisco, CA
+    - company: Make Time Together Ltd
+      position: Co-founder
+      start_date: 2023-08
+      highlights:
+      - Built Decision Copilot - open-source tool for structured team decision-making
+        (started 2023-08)
+      - Developed full-stack applications using NextJS, React, and TypeScript for
+        decision-making tools
+      - Applied platform engineering principles to financial systems architecture
+        and data reconciliation
+      - Established IP sharing agreement with Mechanical Orchard enabling collaborative
+        development while retaining ownership
+      location: Dublin, Ireland
+    - company: Shopify Ltd
+      position: Senior Staff Reliability Engineer
+      start_date: 2022-05
+      highlights:
+      - Maintained platform reliability during $3.5M/minute peak traffic (BFCM) through
+        data-driven monitoring
+      - Pioneered data reliability engineering practices for 100PB data lake infrastructure
+      - Applied long-term reliability thinking to commerce platform serving millions
+        of merchants
+      end_date: 2023-07
+    - company: VMware Ltd
+      position: Staff 2 Software Engineer (Data)
+      start_date: 2020-05
+      highlights:
+      - Built and maintained dagster.io data pipelines for cross-portfolio analytics
+      - Established telemetry gathering and data curation practices for R&D insights
+      - Created data-driven feedback loops for business unit strategic decisions
+      end_date: 2022-04
+    - company: Pivotal Software Ltd
+      position: Director of Engineering/SRE
+      start_date: 2015-12
+      highlights:
+      - Orchestrated balanced leadership team driving shared outcomes across ~80 R&D
+        teams globally
+      - Built SRE team from scratch to operate Cloud Foundry and Kubernetes platforms
+      - Established reliability practices for pivotaltracker.com (1M active users)
+        and UK charity donation platforms (£1B+ donations)
+      - Created data-driven understanding of enterprise customer upgrade challenges
+      - Collaborated with Google SRE engineers on SLI/SLO design and error budget
+        implementation
+      end_date: 2020-04
+    - company: StayUp.io Ltd
+      position: Co-founder
+      start_date: 2015-03
+      highlights:
+      - Created open-source ELK distribution handling 2TB daily log ingest for Cloud
+        Foundry ecosystem
+      - Built product from concept to acquisition in 7 months
+      end_date: 2015-12
+    - company: City Index Ltd
+      position: R&D Team Leader
+      start_date: 2008-12
+      highlights:
+      - Led LogSearch open source project for Cloud Foundry ecosystem log aggregation
+      - Established TDD & Agile practices across development teams
+      - Led organizational transition to open-source software adoption
+      - Pioneered migration to public cloud infrastructure
+      end_date: 2015-03
+      location: London, UK
+    - company: BBC Worldwide
+      position: Agile Developer
+      start_date: 2008-05
+      highlights:
+      - Learned foundational XP, TDD, and pair programming practices
+      - Contributed to Kangaroo digital media platform development
+      end_date: 2008-10
+      location: London, UK
+    - company: Lucid Communications Ltd
+      position: Senior Developer
+      start_date: 2003-08
+      highlights: []
+      end_date: 2007-04
+      location: London, UK
+    - company: Vardus Internet Solutions
+      position: Developer
+      start_date: 2001-01
+      highlights: []
+      end_date: 2002-08
+      location: Cape Town, SA
+    publications:
+    - title: 'From Values to Velocity: Building Momentum Through Aligned Systems'
+      authors:
+      - David Laing
+      date: 2024-02
+      journal: Unpublished Thoughts - Exploration of how shared values create alignment
+        frameworks that enable sustainable team momentum - with practical examples
+        from engineering leadership
+    - title: Staying up-to-date with Kubernetes
+      authors:
+      - David Laing
+      journal: Web Publication - Explorable model for understanding enterprise software
+        upgrade challenges and long-term maintenance practices
+    - title: SRE & the Vulnerability Budget
+      authors:
+      - David Laing
+      date: 2019-03
+      journal: SRECon AMER - Using Error Budget model to balance security patching
+        with feature development - applying structured decision-making to operational
+        priorities
+    projects:
+    - name: Decision Copilot Development
+      date: '2023'
+      highlights:
+      - Open-source tool for structured team decision-making, addressing the gap between
+        individual expertise and collective decision quality. Developed under Make
+        Time Together Ltd with collaborative IP sharing enabling continued development
+        at Mechanical Orchard.
+      - Built framework for transparent, repeatable decision processes
+      - Created learning loops for decision quality improvement
+      - Established sustainable development model through strategic IP sharing agreement
+      - Growing community around structured decision-making practices
+    technologies:
+    - label: Context Engineering & Orchestration
+      details: AI Agent Orchestration, Team Environment Design, Cross-functional Collaboration,
+        Decision Framework Design
+    - label: Financial Systems & Platform Engineering
+      details: Financial Data Reconciliation, Small Business Finance Applications,
+        Platform Engineering for Finance, Investment Company Operations
+    - label: Modern Web Ecosystem
+      details: TypeScript, NextJS, Firebase, TurboRepo, Full-stack Architecture Patterns
+    - label: Cloud Infrastructure & Platform Engineering
+      details: GCP Networking, Kubernetes, Terraform, Golang, Bash, Platform Architecture
+        Patterns
+    - label: Data Engineering & Analytics
+      details: BigQuery, Python, SQL, dagster.io, Data Pipeline Architecture
+    - label: Leadership & Methodology
+      details: Authentic Leadership, Long-term Systems Thinking, Learning Loops, TDD,
+        Collaborative Development
+    - label: Personal
+      details: Father, Roblox, Minecraft, Dad-jokes
+design:
+  theme: engineeringresumes

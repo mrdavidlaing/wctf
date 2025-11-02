@@ -1,0 +1,605 @@
+/* Canonical Solarized Theme Implementation */
+/* Based on official specification by Ethan Schoonover */
+/* https://github.com/altercation/solarized */
+
+/* JetBrains Mono Font Import from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+
+:root {
+  /* Canonical Solarized Color Palette - 16 colors total */
+  /* 8 monotones (base) + 8 accent colors */
+  
+  /* Base/Monotone Colors - ordered from darkest to lightest */
+  --base03: #002b36;  /* darkest background */
+  --base02: #073642;  /* highlighted background */
+  --base01: #586e75;  /* optional emphasized content / comments */
+  --base00: #657b83;  /* body text / default code / primary content */
+  --base0:  #839496;  /* body text / default code / primary content */
+  --base1:  #93a1a1;  /* optional emphasized content / comments */
+  --base2:  #eee8d5;  /* highlighted background */
+  --base3:  #fdf6e3;  /* lightest background */
+  
+  /* Accent Colors - consistent across light/dark modes */
+  --yellow:  #b58900;
+  --orange:  #cb4b16;
+  --red:     #dc322f;
+  --magenta: #d33682;
+  --violet:  #6c71c4;
+  --blue:    #268bd2;
+  --cyan:    #2aa198;
+  --green:   #859900;
+}
+
+/* DARK MODE - Official Solarized Dark Color Mapping */
+[data-theme="dark"], 
+:root:not([data-theme="light"]) {
+  /* Background/Foreground - Primary relationship */
+  --bg-primary: var(--base03);      /* Background: base03 */
+  --text-primary: var(--base0);     /* Body text: base0 */
+  
+  /* Background/Foreground - Highlighted relationship */
+  --bg-highlighted: var(--base02);  /* Background highlights: base02 */
+  --text-highlighted: var(--base1); /* Comments/secondary: base1 */
+  
+  /* Additional semantic mappings */
+  --bg-secondary: var(--base02);    /* Secondary backgrounds */
+  --text-secondary: var(--base1);   /* Secondary/emphasized text */
+  --text-muted: var(--base01);      /* De-emphasized text */
+  --border-color: var(--base02);    /* Subtle borders */
+  
+  /* Links and accents */
+  --link-color: var(--blue);
+  --link-hover: var(--cyan);
+  --accent-primary: var(--green);
+}
+
+/* LIGHT MODE - Official Solarized Light Color Mapping */
+[data-theme="light"] {
+  /* Background/Foreground - Primary relationship */
+  --bg-primary: var(--base3);       /* Background: base3 */
+  --text-primary: var(--base00);    /* Body text: base00 */
+  
+  /* Background/Foreground - Highlighted relationship */
+  --bg-highlighted: var(--base2);   /* Background highlights: base2 */
+  --text-highlighted: var(--base01);/* Comments/secondary: base01 */
+  
+  /* Additional semantic mappings */
+  --bg-secondary: var(--base2);     /* Secondary backgrounds */
+  --text-secondary: var(--base01);  /* Secondary/emphasized text */
+  --text-muted: var(--base1);       /* De-emphasized text */
+  --border-color: var(--base2);     /* Subtle borders */
+  
+  /* Links and accents */
+  --link-color: var(--blue);
+  --link-hover: var(--violet);
+  --accent-primary: var(--green);
+}
+
+/* Global font family override */
+* {
+  font-family: 'JetBrains Mono', 'JetBrainsMono Nerd Font', 'Fira Code', 'SF Mono', 'Monaco', 'Inconsolata', 'Roboto Mono', 'Consolas', 'Courier New', monospace !important;
+}
+
+/* Smooth transitions for theme changes */
+*,
+*::before,
+*::after {
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+/* Base styling */
+body {
+  background-color: var(--bg-primary) !important;
+  color: var(--text-primary) !important;
+  line-height: 1.6;
+}
+
+/* Content area text color overrides */
+.content p,
+.content div,
+.content span,
+.content h1,
+.content h2,
+.content h3,
+.content h4,
+.content h5,
+.content h6,
+.content [style*="color"],
+.content p[style],
+.content div[style],
+.post-content p,
+.post-content div,
+.post-content span {
+  color: var(--text-primary) !important;
+}
+
+/* Header styling */
+.header {
+  background-color: var(--bg-primary) !important;
+  border-bottom: 1px solid var(--border-color) !important;
+  margin-top: 2rem !important;
+  padding: 1rem 0 !important;
+}
+
+/* Header component resets */
+.header__inner,
+.header__left,
+.header__right {
+  background-color: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.header__inner {
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+}
+
+/* Logo styling */
+.logo {
+  color: var(--text-secondary) !important;
+  background-color: transparent !important;
+  display: flex !important;
+  align-items: baseline !important;
+  gap: 0 !important;
+}
+
+.logo:hover {
+  color: var(--text-primary) !important;
+}
+
+.logo__mark,
+.logo__text,
+.logo a {
+  background-color: transparent !important;
+  border: none !important;
+  color: var(--text-secondary) !important;
+  text-decoration: none !important;
+  transition: all 0.3s ease !important;
+}
+
+.logo a:hover {
+  color: var(--text-primary) !important;
+  text-decoration: underline !important;
+}
+
+/* Terminal prompt styling */
+.prompt {
+  color: var(--green) !important;
+  font-weight: 600 !important;
+  user-select: none !important;
+  display: inline-flex !important;
+  align-items: baseline !important;
+  gap: 0.25rem !important;
+}
+
+/* Git branch info styling */
+.git-info {
+  color: var(--yellow) !important;
+  font-weight: 500 !important;
+}
+
+/* Git icon styling - make it bigger */
+.git-icon {
+  font-size: 2em !important;
+  vertical-align: baseline !important;
+  line-height: 1 !important;
+  display: inline-block !important;
+  transform: translateY(0.1em) !important;
+}
+
+/* Version/server info styling */
+.version-info {
+  color: var(--cyan) !important;
+  font-weight: 400 !important;
+  font-size: 0.85em !important;
+  opacity: 0.8 !important;
+}
+
+
+/* Theme toggle button styling - integrated with menu */
+.theme-toggle {
+  background: transparent !important;
+  color: var(--text-primary) !important;
+  border: none !important;
+  padding: 0.5rem !important;
+  cursor: pointer !important;
+  font-size: 14px !important;
+  transition: all 0.3s ease !important;
+  font-family: inherit !important;
+  display: inline-block !important;
+  vertical-align: middle !important;
+  line-height: 1 !important;
+}
+
+.theme-toggle:hover {
+  color: var(--link-hover) !important;
+  background: transparent !important;
+}
+
+/* Navigation menu styling */
+.menu {
+  display: flex !important;
+  align-items: center !important;
+  gap: 1rem !important;
+}
+
+.menu ul {
+  display: flex !important;
+  list-style: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  gap: 1rem !important;
+  align-items: center !important;
+}
+
+.menu li {
+  margin: 0 !important;
+  display: flex !important;
+  align-items: center !important;
+}
+
+.menu li a {
+  color: var(--text-primary) !important;
+  text-decoration: none !important;
+  padding: 0.5rem !important;
+  transition: all 0.3s ease !important;
+  display: inline-block !important;
+  position: relative !important;
+}
+
+.menu li a:hover {
+  color: var(--link-hover) !important;
+  text-decoration: underline !important;
+}
+
+/* Content area */
+.content {
+  background-color: var(--bg-primary) !important;
+  color: var(--text-primary) !important;
+}
+
+/* Center homepage content vertically */
+body.home .content {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  min-height: calc(100vh - 200px) !important; /* Account for header/footer */
+}
+
+/* Post content */
+.post-content {
+  color: var(--text-primary) !important;
+}
+
+.post-content h1,
+.post-content h2,
+.post-content h3,
+.post-content h4,
+.post-content h5,
+.post-content h6 {
+  color: var(--text-secondary) !important;
+  font-weight: 600 !important;
+}
+
+/* Links */
+a {
+  color: var(--link-color) !important;
+  text-decoration: none !important;
+  background: transparent !important;
+}
+
+a:hover {
+  color: var(--link-hover) !important;
+  text-decoration: underline !important;
+  background: transparent !important;
+}
+
+/* Code blocks and inline code */
+code {
+  background-color: var(--bg-secondary) !important;
+  color: var(--text-secondary) !important;
+  padding: 2px 6px !important;
+  border-radius: 4px !important;
+  font-size: 0.9em !important;
+}
+
+pre {
+  background-color: var(--bg-secondary) !important;
+  color: var(--text-primary) !important;
+  border: 1px solid var(--border-color) !important;
+  border-radius: 6px !important;
+  padding: 16px !important;
+  overflow-x: auto !important;
+}
+
+pre code {
+  background-color: transparent !important;
+  padding: 0 !important;
+  border-radius: 0 !important;
+}
+
+/* Enhanced syntax highlighting */
+.highlight .c,
+.highlight .c1,
+.highlight .cm {
+  color: var(--text-muted) !important;
+  font-style: italic !important;
+}
+
+.highlight .s,
+.highlight .s1,
+.highlight .s2 {
+  color: var(--cyan) !important;
+}
+
+.highlight .k,
+.highlight .kd,
+.highlight .kn {
+  color: var(--green) !important;
+  font-weight: 600 !important;
+}
+
+.highlight .m,
+.highlight .mi,
+.highlight .mf {
+  color: var(--magenta) !important;
+}
+
+.highlight .n,
+.highlight .nv {
+  color: var(--blue) !important;
+}
+
+.highlight .o {
+  color: var(--orange) !important;
+}
+
+.highlight .p {
+  color: var(--text-primary) !important;
+}
+
+/* Table styling */
+table {
+  background-color: var(--bg-secondary) !important;
+  color: var(--text-primary) !important;
+  border-collapse: collapse !important;
+  width: 100% !important;
+}
+
+table th {
+  background-color: var(--bg-highlighted) !important;
+  color: var(--text-highlighted) !important;
+  padding: 12px !important;
+  border: 1px solid var(--border-color) !important;
+}
+
+table td {
+  padding: 10px !important;
+  border: 1px solid var(--border-color) !important;
+}
+
+/* Blockquotes */
+blockquote {
+  border-left: 4px solid var(--accent-primary) !important;
+  background-color: var(--bg-secondary) !important;
+  color: var(--text-primary) !important;
+  padding: 16px 20px !important;
+  margin: 16px 0 !important;
+  border-radius: 0 4px 4px 0 !important;
+}
+
+/* Sticky footer layout */
+body {
+  display: flex !important;
+  flex-direction: column !important;
+  min-height: 100vh !important;
+}
+
+.container {
+  display: flex !important;
+  flex-direction: column !important;
+  flex: 1 !important;
+}
+
+.content {
+  flex: 1 !important;
+}
+
+/* Footer */
+.footer {
+  background-color: var(--bg-secondary) !important;
+  color: var(--text-muted) !important;
+  border-top: 1px solid var(--border-color) !important;
+  padding: 20px 0 !important;
+  margin-top: auto !important;
+  text-align: center !important;
+}
+
+.footer__inner {
+  color: var(--text-muted) !important;
+  text-align: center !important;
+}
+
+/* Selection styling */
+::selection {
+  background-color: var(--bg-highlighted) !important;
+  color: var(--text-highlighted) !important;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg-primary);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--text-muted);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--text-secondary);
+}
+
+/* Profile image styling with canonical Solarized accent */
+img[alt*="Bitmoji"],
+img[src*="mrdavidlaing_bitmoji"] {
+  border: 3px solid var(--accent-primary) !important;
+  outline: none !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15) !important;
+  background-color: var(--base2) !important; /* Always use light theme background */
+  padding: 8px !important;
+  transition: all 0.3s ease !important;
+  opacity: 0.85 !important; /* Tone down the image intensity */
+}
+
+img[alt*="Bitmoji"]:hover,
+img[src*="mrdavidlaing_bitmoji"]:hover {
+  transform: scale(1.05) !important;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2) !important;
+  border-color: var(--blue) !important;
+  opacity: 1 !important; /* Full opacity on hover */
+}
+
+/* Full width responsive design */
+.container {
+  max-width: 100% !important;
+  width: 100% !important;
+  padding: 0 20px !important;
+}
+
+.content {
+  max-width: 100% !important;
+  width: 100% !important;
+  padding: 20px !important;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .content {
+    padding: 15px !important;
+  }
+  
+  .header {
+    padding: 15px 20px !important;
+  }
+  
+  pre {
+    overflow-x: auto !important;
+    white-space: pre-wrap !important;
+    word-wrap: break-word !important;
+  }
+  
+  code {
+    word-wrap: break-word !important;
+  }
+  
+  .theme-toggle {
+    padding: 6px 10px !important;
+    font-size: 12px !important;
+  }
+}
+
+/* Tablet responsiveness */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .content {
+    padding: 18px !important;
+  }
+}
+
+/* Large screen optimization - use full width */
+@media (min-width: 1200px) {
+  .content {
+    max-width: 100% !important;
+    width: 100% !important;
+  }
+}
+
+/* Terminal-style flashing cursor animation */
+.cursor::after {
+  content: "_";
+  color: var(--accent-primary);
+  animation: cursor-blink 1.5s steps(2) infinite;
+  font-weight: bold;
+}
+
+@keyframes cursor-blink {
+  0%, 50% {
+    opacity: 1;
+  }
+  51%, 100% {
+    opacity: 0;
+  }
+}
+
+/* Add cursor to prompt (after the path) */
+.prompt::after {
+  content: "_";
+  color: var(--accent-primary);
+  animation: cursor-blink 1.5s steps(2) infinite;
+  font-weight: bold;
+  margin-left: 2px;
+}
+
+/* Alternative cursor styles for different elements */
+.terminal-cursor::after {
+  content: "█";
+  color: var(--accent-primary);
+  animation: cursor-blink 1.5s steps(2) infinite;
+  font-size: 0.9em;
+  margin-left: 1px;
+}
+
+/* Terminal output styling with clickable links */
+.terminal-output {
+  background-color: var(--bg-secondary) !important;
+  border-radius: 6px !important;
+  margin: 16px 0 !important;
+  line-height: 1.4 !important;
+}
+
+.terminal-output pre {
+  margin: 0 !important;
+  background-color: transparent !important;
+  border: none !important;
+  border-radius: 0 !important;
+}
+
+.terminal-output code {
+  background-color: transparent !important;
+}
+
+.terminal-output a {
+  color: var(--link-color) !important;
+  text-decoration: none !important;
+}
+
+.terminal-output a:hover {
+  color: var(--link-hover) !important;
+  text-decoration: underline !important;
+}
+
+
+/* Print styles */
+@media print {
+  body {
+    background-color: white !important;
+    color: black !important;
+  }
+  
+  .theme-toggle {
+    display: none !important;
+  }
+  
+  /* Hide cursor animations in print */
+  .cursor::after,
+  .logo a::after,
+  .terminal-cursor::after {
+    display: none !important;
+  }
+}

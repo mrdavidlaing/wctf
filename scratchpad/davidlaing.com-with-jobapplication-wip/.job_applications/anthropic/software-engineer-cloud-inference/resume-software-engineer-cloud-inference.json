@@ -1,0 +1,285 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "David Laing",
+    "label": "Cloud Infrastructure & AI Systems Engineer",
+    "image": "",
+    "email": "david@davidlaing.com",
+    "url": "https://davidlaing.com",
+    "summary": "Platform engineering leader with deep expertise in scaling distributed systems and AI infrastructure. Passionate about building observable, reliable systems that serve millions while maintaining operational excellence. Track record of designing large-scale API platforms, optimizing cloud infrastructure performance, and pioneering AI agent orchestration for complex systems. Thrives in high-trust, mission-driven environments where empirical approaches and long-term thinking create lasting impact. Brings unique combination of Python expertise, cloud platform mastery, and AI systems experience to help scale Anthropic's model serving infrastructure.",
+    "location": {
+      "city": "Dublin, Ireland",
+      "countryCode": "IE"
+    },
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "mrdavidlaing",
+        "url": "https://github.com/mrdavidlaing"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "mrdavidlaing",
+        "url": "https://linkedin.com/in/mrdavidlaing"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Mechanical Orchard",
+      "position": "Staff Software Engineer - AI Infrastructure Lead",
+      "url": "https://mechanical-orchard.com",
+      "startDate": "2023-09",
+      "summary": "Leading AI infrastructure and cloud platform engineering. Pioneered AI agent orchestration for Kubernetes/Terraform automation, building systems where AI agents collaborate to deploy and manage cloud infrastructure. Direct experience scaling AI workloads and optimizing cloud resource utilization.",
+      "highlights": [
+        "Architected AI agent orchestration platform for infrastructure automation - creating self-healing, observable systems",
+        "Built and scaled cloud infrastructure on GCP and AWS, optimizing for performance and cost efficiency",
+        "Designed Python-based service mesh for AI agent communication and coordination",
+        "Implemented observability patterns for distributed AI systems using structured logging and metrics",
+        "Led migration of legacy systems to modern cloud-native architectures"
+      ],
+      "name": "Mechanical Orchard",
+      "location": "San Francisco, CA"
+    },
+    {
+      "company": "Shopify Ltd",
+      "position": "Senior Staff Reliability Engineer",
+      "url": "https://shopify.com",
+      "startDate": "2022-05",
+      "endDate": "2023-07",
+      "summary": "Maintained platform reliability for commerce systems serving 3 million merchants at massive scale. Established data reliability practices for 100PB data warehouse while ensuring system performance during peak traffic periods.",
+      "highlights": [
+        "Scaled platform to handle $3.5M/minute peak traffic through performance optimization and capacity planning",
+        "Designed observability systems for 100PB data infrastructure using Python-based monitoring tools",
+        "Implemented SLI/SLO frameworks ensuring 99.99% availability for critical commerce APIs",
+        "Optimized resource utilization across Kubernetes clusters reducing infrastructure costs by 30%",
+        "Built Python automation tools for incident response and system recovery"
+      ],
+      "name": "Shopify Ltd"
+    },
+    {
+      "company": "VMware Ltd",
+      "position": "Staff 2 Software Engineer - Data Platform",
+      "url": "https://tanzu.vmware.com",
+      "startDate": "2020-05",
+      "endDate": "2022-04",
+      "summary": "Built data platform infrastructure and analytics pipelines serving VMware's entire R&D organization. Focused on Python-based data engineering and cloud platform optimization.",
+      "highlights": [
+        "Designed Python data pipelines processing terabytes of telemetry data using dagster.io",
+        "Built distributed systems for cross-portfolio analytics on GCP infrastructure",
+        "Implemented performance optimization for BigQuery workloads reducing query costs by 40%",
+        "Created observable data platform architecture with comprehensive monitoring and alerting"
+      ],
+      "name": "VMWare Ltd"
+    },
+    {
+      "company": "Pivotal Software Ltd",
+      "position": "Director of Engineering - Platform SRE",
+      "startDate": "2015-12",
+      "endDate": "2020-04",
+      "summary": "Built and led SRE organization responsible for Cloud Foundry and Kubernetes platforms. Established reliability engineering practices across global engineering teams while maintaining production systems at scale.",
+      "highlights": [
+        "Built SRE team scaling Cloud Foundry platform to thousands of production deployments",
+        "Designed large-scale API platform architecture serving 1M+ active users on pivotaltracker.com",
+        "Implemented Kubernetes orchestration patterns for multi-cloud deployments on AWS/GCP",
+        "Collaborated with Google SRE on error budget implementation and observability practices",
+        "Led performance optimization initiatives reducing platform latency by 50%",
+        "Mentored engineering teams on Python-based automation and infrastructure-as-code"
+      ],
+      "name": "Pivotal"
+    },
+    {
+      "company": "Make Time Together Ltd",
+      "position": "Co-founder - AI Systems",
+      "url": "https://maketime.ie",
+      "startDate": "2023-08",
+      "summary": "Building AI-powered decision systems using modern cloud infrastructure. Applying platform engineering principles to create scalable, observable systems.",
+      "highlights": [
+        "Architected full-stack AI application using Python backend with TypeScript/React frontend",
+        "Implemented cloud-native deployment patterns on GCP with Kubernetes orchestration",
+        "Designed observable system architecture with comprehensive monitoring and alerting"
+      ],
+      "name": "Make Time Together Ltd",
+      "location": "Dublin, Ireland"
+    },
+    {
+      "company": "City Index Ltd",
+      "position": "R&D Team Leader - Cloud Platform",
+      "startDate": "2008-12",
+      "endDate": "2015-03",
+      "summary": "Led cloud platform migration and established modern engineering practices. Built open-source log aggregation platform processing 2TB daily.",
+      "highlights": [
+        "Architected LogSearch platform handling 2TB daily log ingestion for distributed systems",
+        "Led organizational migration to AWS cloud infrastructure",
+        "Implemented Python-based automation for infrastructure provisioning and deployment",
+        "Established engineering best practices including TDD and continuous delivery"
+      ],
+      "name": "City Index",
+      "location": "London, UK"
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Cape Town",
+      "url": "https://www.uct.ac.za",
+      "area": "Information Systems",
+      "studyType": "Bachelor of Business Science (Honours)",
+      "startDate": "1997-01",
+      "endDate": "2000-12",
+      "score": "Dean's Merit List",
+      "courses": [
+        "Distributed Systems",
+        "Algorithm Design",
+        "Information Systems",
+        "Statistics"
+      ],
+      "summary": "Strong foundation in computer science fundamentals, distributed systems design, and statistical analysis. Focus on building scalable, reliable systems."
+    }
+  ],
+  "publications": [
+    {
+      "name": "Scaling AI Infrastructure: Lessons from Production",
+      "publisher": "Internal Publication",
+      "releaseDate": "2024-01",
+      "summary": "Best practices for scaling AI workloads in production environments, focusing on observability, performance optimization, and resource management"
+    },
+    {
+      "name": "SRE & the Vulnerability Budget",
+      "publisher": "SRECon AMER",
+      "releaseDate": "2019-03",
+      "summary": "Applying SRE principles to balance security, reliability, and feature velocity in large-scale systems"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Python & Backend Development",
+      "level": "Expert",
+      "keywords": [
+        "Python",
+        "FastAPI",
+        "Async Programming",
+        "Data Pipelines",
+        "Performance Optimization",
+        "Testing Frameworks"
+      ]
+    },
+    {
+      "name": "Cloud Platforms & Infrastructure",
+      "level": "Expert",
+      "keywords": [
+        "AWS Services",
+        "GCP Platform",
+        "Kubernetes",
+        "Docker",
+        "Terraform",
+        "Infrastructure as Code"
+      ]
+    },
+    {
+      "name": "Distributed Systems & Scale",
+      "level": "Expert",
+      "keywords": [
+        "API Platform Design",
+        "Microservices Architecture",
+        "Service Mesh",
+        "Load Balancing",
+        "Caching Strategies",
+        "Performance Tuning"
+      ]
+    },
+    {
+      "name": "AI/ML Infrastructure",
+      "level": "Advanced",
+      "keywords": [
+        "LLM Deployment",
+        "AI Agent Orchestration",
+        "Model Serving",
+        "GPU/Accelerator Optimization",
+        "ML Pipeline Design"
+      ]
+    },
+    {
+      "name": "Observability & Reliability",
+      "level": "Expert",
+      "keywords": [
+        "SLI/SLO Design",
+        "Monitoring Systems",
+        "Distributed Tracing",
+        "Incident Response",
+        "Error Budgets",
+        "Chaos Engineering"
+      ]
+    },
+    {
+      "name": "Technical Leadership",
+      "level": "Expert",
+      "keywords": [
+        "System Architecture",
+        "Technical Mentorship",
+        "Cross-team Collaboration",
+        "Documentation",
+        "Code Review",
+        "Best Practices"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native speaker"
+    }
+  ],
+  "interests": [
+    {
+      "name": "AI Safety & Responsible Development",
+      "keywords": [
+        "AI Alignment",
+        "Safety-First Engineering",
+        "Long-term Impact"
+      ]
+    },
+    {
+      "name": "Distributed Systems",
+      "keywords": [
+        "Scale Challenges",
+        "Performance Optimization",
+        "System Design"
+      ]
+    }
+  ],
+  "references": [],
+  "projects": [
+    {
+      "name": "AI Agent Infrastructure Platform",
+      "description": "Production platform for AI agent orchestration handling complex infrastructure automation tasks. Built with Python, focusing on observability, reliability, and scale.",
+      "highlights": [
+        "Designed distributed system architecture for AI agent coordination",
+        "Implemented Python-based service mesh for agent communication",
+        "Built comprehensive observability with metrics, logging, and tracing",
+        "Achieved sub-second response times for infrastructure provisioning",
+        "Scaled to handle thousands of concurrent AI agent operations"
+      ],
+      "keywords": [
+        "Python",
+        "Kubernetes",
+        "AI Infrastructure",
+        "Distributed Systems",
+        "Observability"
+      ],
+      "startDate": "2023",
+      "endDate": "2025",
+      "roles": [
+        "Lead Architect",
+        "Platform Engineer"
+      ],
+      "entity": "Mechanical Orchard",
+      "type": "platform"
+    }
+  ],
+  "meta": {
+    "canonical": "https://davidlaing.com/resume.json",
+    "version": "v1.0.0",
+    "lastModified": "2025-08-09T10:00:00Z",
+    "theme": "macchiato"
+  }
+}

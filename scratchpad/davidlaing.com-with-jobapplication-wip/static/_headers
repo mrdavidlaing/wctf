@@ -1,0 +1,5 @@
+/resume.json
+  Access-Control-Allow-Origin: *
+
+/resume.yaml
+  Access-Control-Allow-Origin: *

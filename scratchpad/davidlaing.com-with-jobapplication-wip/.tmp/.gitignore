@@ -1,0 +1,4 @@
+# Ignore all files in .tmp/ directory
+# This keeps the .tmp/ folder in git but excludes all contents
+*
+!.gitignore

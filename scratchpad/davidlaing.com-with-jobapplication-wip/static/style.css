@@ -1,0 +1,302 @@
+/* Solarized Dark VS Code theme customization */
+/* Using JetBrains Mono Nerd Font */
+
+:root {
+  /* Solarized Dark color palette */
+  --base03: #002b36;
+  --base02: #073642;
+  --base01: #586e75;
+  --base00: #657b83;
+  --base0: #839496;
+  --base1: #93a1a1;
+  --base2: #eee8d5;
+  --base3: #fdf6e3;
+  
+  /* Solarized accent colors - modified */
+  --yellow: #fdf6e3;  /* Changed to light/white */
+  --orange: #cb4b16;
+  --red: #dc322f;
+  --magenta: #d33682;
+  --violet: #6c71c4;
+  --blue: #268bd2;
+  --cyan: #2aa198;
+  --green: #859900;
+}
+
+/* Override font family globally */
+* {
+  font-family: 'JetBrains Mono', 'JetBrainsMono Nerd Font', 'Fira Code', 'Courier New', monospace !important;
+}
+
+/* Dark theme overrides */
+body {
+  background-color: var(--base03) !important;
+  color: var(--base0) !important;
+}
+
+/* Header styling */
+.header {
+  background-color: var(--base03) !important;
+  border-bottom: 1px solid var(--base02) !important;
+  margin-top: 2rem !important;
+  padding-top: 1rem !important;
+}
+
+/* Remove any yellow/colored strips or borders in header */
+.header *,
+.header__inner,
+.header__left,
+.header__right {
+  background-color: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.header__right .theme-toggle {
+  color: var(--base0) !important;
+}
+
+/* Logo styling and text replacement */
+.logo {
+  color: var(--base1) !important;  /* Changed from cyan to white/light */
+  background-color: transparent !important;  /* Remove any background */
+}
+
+.logo:hover {
+  color: var(--base0) !important;
+}
+
+/* Remove any logo background colors */
+.logo__mark,
+.logo__text,
+.logo a {
+  background-color: transparent !important;
+  border: none !important;
+}
+
+
+/* Navigation menu - hide completely */
+.menu__inner .menu,
+.menu__inner,
+.menu,
+.menu-trigger {
+  display: none !important;
+}
+
+.menu__inner .menu li a {
+  color: var(--base0) !important;
+}
+
+.menu__inner .menu li a:hover {
+  color: var(--cyan) !important;
+}
+
+/* Content area */
+.content {
+  background-color: var(--base03) !important;
+}
+
+/* Post content */
+.post-content {
+  color: var(--base0) !important;
+}
+
+.post-content h1,
+.post-content h2,
+.post-content h3,
+.post-content h4,
+.post-content h5,
+.post-content h6 {
+  color: var(--base1) !important;
+}
+
+/* Links */
+a {
+  color: var(--blue) !important;
+}
+
+a:hover {
+  color: var(--cyan) !important;
+}
+
+/* Code blocks and inline code */
+code {
+  background-color: var(--base02) !important;
+  color: var(--base1) !important;
+  padding: 2px 4px !important;
+  border-radius: 3px !important;
+}
+
+pre {
+  background-color: var(--base02) !important;
+  color: var(--base0) !important;
+  border: 1px solid var(--base01) !important;
+}
+
+pre code {
+  background-color: transparent !important;
+  padding: 0 !important;
+}
+
+/* Syntax highlighting for code blocks */
+.highlight .c,
+.highlight .c1,
+.highlight .cm {
+  color: var(--base01) !important; /* comments */
+}
+
+.highlight .s,
+.highlight .s1,
+.highlight .s2 {
+  color: var(--cyan) !important; /* strings */
+}
+
+.highlight .k,
+.highlight .kd,
+.highlight .kn {
+  color: var(--green) !important; /* keywords */
+}
+
+.highlight .m,
+.highlight .mi,
+.highlight .mf {
+  color: var(--magenta) !important; /* numbers */
+}
+
+.highlight .n,
+.highlight .nv {
+  color: var(--blue) !important; /* variables */
+}
+
+.highlight .o {
+  color: var(--base0) !important; /* operators */
+}
+
+.highlight .p {
+  color: var(--base0) !important; /* punctuation */
+}
+
+/* Table styling */
+table {
+  background-color: var(--base02) !important;
+  color: var(--base0) !important;
+}
+
+table th {
+  background-color: var(--base01) !important;
+  color: var(--base1) !important;
+}
+
+table td {
+  border-color: var(--base01) !important;
+}
+
+/* Blockquotes */
+blockquote {
+  border-left: 4px solid var(--base01) !important;
+  background-color: var(--base02) !important;
+  color: var(--base0) !important;
+}
+
+/* Footer */
+.footer {
+  background-color: var(--base02) !important;
+  color: var(--base01) !important;
+  border-top: 1px solid var(--base01) !important;
+}
+
+/* Fix footer copyright text */
+.footer__inner {
+  color: var(--base01) !important;
+}
+
+
+/* Selection styling */
+::selection {
+  background-color: var(--base02) !important;
+  color: var(--base1) !important;
+}
+
+/* Scrollbar styling for webkit browsers */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--base03);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--base01);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--base00);
+}
+
+/* Responsive design improvements */
+.container {
+  max-width: none !important;
+  padding: 0 20px !important;
+}
+
+.content {
+  max-width: none !important;
+  padding: 20px !important;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .content {
+    padding: 10px !important;
+  }
+  
+  .header {
+    padding: 10px 20px !important;
+  }
+  
+  .menu__inner {
+    padding: 0 !important;
+  }
+  
+  pre {
+    overflow-x: auto !important;
+    white-space: pre-wrap !important;
+    word-wrap: break-word !important;
+  }
+  
+  code {
+    word-wrap: break-word !important;
+  }
+}
+
+/* Tablet responsiveness */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .content {
+    padding: 15px !important;
+  }
+}
+
+/* Large screen optimization */
+@media (min-width: 1200px) {
+  .content {
+    max-width: 1200px !important;
+    margin: 0 auto !important;
+  }
+}
+
+/* Style bitmoji outline - light hash to hide white specs */
+img[alt*="Bitmoji"],
+img[src*="mrdavidlaing_bitmoji"] {
+  border: 3px solid var(--base1) !important;  /* Light border */
+  outline: none !important;
+  box-shadow: none !important;
+  background-color: rgba(238, 232, 213, 0.3) !important;  /* base2 with opacity */
+  background-image: 
+    repeating-linear-gradient(45deg, rgba(147, 161, 161, 0.4) 0px, rgba(147, 161, 161, 0.4) 1.28px, transparent 1.28px, transparent 2.56px),
+    repeating-linear-gradient(-45deg, rgba(147, 161, 161, 0.4) 0px, rgba(147, 161, 161, 0.4) 1.28px, transparent 1.28px, transparent 2.56px) !important;
+  background-size: 2.56px 2.56px !important;
+  background-blend-mode: normal !important;
+  padding: 8px !important;
+}

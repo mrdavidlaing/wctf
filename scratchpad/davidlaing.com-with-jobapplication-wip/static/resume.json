@@ -1,0 +1,341 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "David Laing",
+    "label": "Principled Context Engineer",
+    "image": "",
+    "email": "david@davidlaing.com",
+    "url": "https://davidlaing.com",
+    "summary": "Collaborative engineering leader who thrives in high-trust environments with fast feedback loops, authentic direction-setting, and clear accountability structures. Passionate about learning loops, structured decision-making, and data-informed leadership - built Decision Copilot to help teams make better choices together. Excels at leading initiatives I believe in and have helped shape, bringing genuine conviction rather than organizational theater. Values long-term thinking over quarterly theater and fixing root causes over chasing new shiny objects. Requires supportive leadership and clear decision frameworks to enable bottom-up innovation. Specializes in data reliability engineering, platform SRE, cross-functional team leadership, and pioneering work as Principled Context Engineer for AI agent orchestration.",
+    "location": {
+      "city": "Dublin, Ireland",
+      "countryCode": "IE"
+    },
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "mrdavidlaing",
+        "url": "https://github.com/mrdavidlaing"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "mrdavidlaing",
+        "url": "https://linkedin.com/in/mrdavidlaing"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Mechanical Orchard",
+      "position": "Staff Software Engineer - AI Context Engineering Lead",
+      "url": "https://mechanical-orchard.com",
+      "startDate": "2023-09",
+      "summary": "Platform Engineering team member who evolved into pioneering AI agent orchestration role. Built cloud infrastructure and established practices for AI-assisted development workflows. Collaborative IP agreement enables continued Decision Copilot development.",
+      "highlights": [
+        "Pioneered AI agent orchestration for Kubernetes/Terraform automation - creating environments where AI agents collaborate and self-correct",
+        "Continued Decision Copilot development through collaborative IP sharing agreement",
+        "Built and maintained cloud infrastructure on GCP and AWS for Imogen modernization platform",
+        "Applied behavior-driven transformation to legacy system modernization"
+      ],
+      "name": "Mechanical Orchard",
+      "location": "San Francisco, CA"
+    },
+    {
+      "company": "Make Time Together Ltd",
+      "position": "Co-founder",
+      "url": "https://maketime.ie",
+      "startDate": "2023-08",
+      "summary": "Co-founded investment company focused on decision-making tools and small business finance applications. Built Decision Copilot from initial concept to open-source platform for structured team decision-making. Brings unique combination of platform engineering expertise and financial systems knowledge.",
+      "highlights": [
+        "Built Decision Copilot - open-source tool for structured team decision-making (started 2023-08)",
+        "Developed full-stack applications using NextJS, React, and TypeScript for decision-making tools",
+        "Applied platform engineering principles to financial systems architecture and data reconciliation",
+        "Established IP sharing agreement with Mechanical Orchard enabling collaborative development while retaining ownership"
+      ],
+      "name": "Make Time Together Ltd",
+      "location": "Dublin, Ireland"
+    },
+    {
+      "company": "Shopify Ltd",
+      "position": "Senior Staff Reliability Engineer",
+      "url": "https://shopify.com",
+      "startDate": "2022-05",
+      "endDate": "2023-07",
+      "summary": "Established Data Reliability Practice for Shopify's 100PB data warehouse, then transitioned to core SRE maintaining commerce systems for 3 million merchants during peak traffic. Role ended due to 2023 tech industry layoffs.",
+      "highlights": [
+        "Maintained platform reliability during $3.5M/minute peak traffic (BFCM) through data-driven monitoring",
+        "Pioneered data reliability engineering practices for 100PB data lake infrastructure",
+        "Applied long-term reliability thinking to commerce platform serving millions of merchants"
+      ],
+      "name": "Shopify Ltd"
+    },
+    {
+      "company": "VMware Ltd",
+      "position": "Staff 2 Software Engineer (Data)",
+      "url": "https://tanzu.vmware.com",
+      "startDate": "2020-05",
+      "endDate": "2022-04",
+      "summary": "R&D Portfolio Insights team member who established data engineering practices and provided data-driven insights to business leadership across VMware's product portfolio.",
+      "highlights": [
+        "Built and maintained dagster.io data pipelines for cross-portfolio analytics",
+        "Established telemetry gathering and data curation practices for R&D insights",
+        "Created data-driven feedback loops for business unit strategic decisions"
+      ],
+      "name": "VMWare Ltd"
+    },
+    {
+      "company": "Pivotal Software Ltd",
+      "position": "Director of Engineering/SRE",
+      "startDate": "2015-12",
+      "endDate": "2020-04",
+      "summary": "Engineering Lead orchestrating initiatives across 80+ R&D teams in 6 global offices. Built SRE team and established company-wide practices for reducing customer deployment friction.",
+      "highlights": [
+        "Orchestrated balanced leadership team driving shared outcomes across ~80 R&D teams globally",
+        "Built SRE team from scratch to operate Cloud Foundry and Kubernetes platforms",
+        "Established reliability practices for pivotaltracker.com (1M active users) and UK charity donation platforms (£1B+ donations)",
+        "Created data-driven understanding of enterprise customer upgrade challenges",
+        "Collaborated with Google SRE engineers on SLI/SLO design and error budget implementation"
+      ],
+      "name": "Pivotal"
+    },
+    {
+      "company": "StayUp.io Ltd",
+      "position": "Co-founder",
+      "startDate": "2015-03",
+      "endDate": "2015-12",
+      "summary": "Co-founded company to commercialize LogSearch open source project from City Index. Acquired by Pivotal after 7 months to form basis of PCF Log Search product.",
+      "highlights": [
+        "Created open-source ELK distribution handling 2TB daily log ingest for Cloud Foundry ecosystem",
+        "Built product from concept to acquisition in 7 months"
+      ],
+      "name": "StayUp.io Ltd"
+    },
+    {
+      "company": "City Index Ltd",
+      "position": "R&D Team Leader",
+      "startDate": "2008-12",
+      "endDate": "2015-03",
+      "summary": "Led R&D transformation at financial company, establishing modern engineering practices and cloud adoption. During tenure, children were born and led LogSearch open source project that became foundation for StayUp.io.",
+      "highlights": [
+        "Led LogSearch open source project for Cloud Foundry ecosystem log aggregation",
+        "Established TDD & Agile practices across development teams",
+        "Led organizational transition to open-source software adoption",
+        "Pioneered migration to public cloud infrastructure"
+      ],
+      "name": "City Index",
+      "location": "London, UK"
+    },
+    {
+      "company": "BBC Worldwide",
+      "position": "Agile Developer",
+      "startDate": "2008-05",
+      "endDate": "2008-10",
+      "summary": "Early career exposure to collaborative development practices on BBC's digital media platform.",
+      "highlights": [
+        "Learned foundational XP, TDD, and pair programming practices",
+        "Contributed to Kangaroo digital media platform development"
+      ],
+      "name": "BBC Worldwide",
+      "location": "London, UK"
+    },
+    {
+      "company": "Lucid Communications Ltd",
+      "position": "Senior Developer",
+      "startDate": "2003-08",
+      "endDate": "2007-04",
+      "summary": "Senior development role in communications technology company.",
+      "highlights": [],
+      "name": "Lucid Communications",
+      "location": "London, UK"
+    },
+    {
+      "company": "Vardus Internet Solutions",
+      "position": "Developer",
+      "startDate": "2001-01",
+      "endDate": "2002-08",
+      "summary": "Early career development role.",
+      "highlights": [],
+      "name": "Vardus Internet Solutions",
+      "location": "Cape Town, SA"
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Cape Town",
+      "url": "https://www.uct.ac.za",
+      "area": "Information Systems",
+      "studyType": "Bachelor of Business Science (Honours)",
+      "startDate": "1997-01",
+      "endDate": "2000-12",
+      "score": "Dean's Merit List",
+      "courses": [
+        "Information Systems",
+        "Statistics"
+      ],
+      "summary": "Majored in Information Systems and Statistics with focus on data-driven decision making. Active in student leadership securing infrastructure improvements. Early lesson in turning limes into lime-o-nade when things don't go as planned."
+    }
+  ],
+  "publications": [
+    {
+      "name": "From Values to Velocity: Building Momentum Through Aligned Systems",
+      "publisher": "Unpublished Thoughts",
+      "releaseDate": "2024-02",
+      "summary": "Exploration of how shared values create alignment frameworks that enable sustainable team momentum - with practical examples from engineering leadership"
+    },
+    {
+      "name": "Staying up-to-date with Kubernetes",
+      "publisher": "Web Publication",
+      "summary": "Explorable model for understanding enterprise software upgrade challenges and long-term maintenance practices"
+    },
+    {
+      "name": "SRE & the Vulnerability Budget",
+      "publisher": "SRECon AMER",
+      "releaseDate": "2019-03",
+      "summary": "Using Error Budget model to balance security patching with feature development - applying structured decision-making to operational priorities"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Context Engineering & Orchestration",
+      "level": "Expert",
+      "keywords": [
+        "AI Agent Orchestration",
+        "Team Environment Design",
+        "Cross-functional Collaboration",
+        "Decision Framework Design"
+      ]
+    },
+    {
+      "name": "Financial Systems & Platform Engineering",
+      "level": "Expert",
+      "keywords": [
+        "Financial Data Reconciliation",
+        "Small Business Finance Applications",
+        "Platform Engineering for Finance",
+        "Investment Company Operations"
+      ]
+    },
+    {
+      "name": "Modern Web Ecosystem",
+      "level": "Expert",
+      "keywords": [
+        "TypeScript",
+        "NextJS",
+        "Firebase",
+        "TurboRepo",
+        "Full-stack Architecture Patterns"
+      ]
+    },
+    {
+      "name": "Cloud Infrastructure & Platform Engineering",
+      "level": "Expert",
+      "keywords": [
+        "GCP Networking",
+        "Kubernetes",
+        "Terraform",
+        "Golang",
+        "Bash",
+        "Platform Architecture Patterns"
+      ]
+    },
+    {
+      "name": "Data Engineering & Analytics",
+      "level": "Expert",
+      "keywords": [
+        "BigQuery",
+        "Python",
+        "SQL",
+        "dagster.io",
+        "Data Pipeline Architecture"
+      ]
+    },
+    {
+      "name": "Leadership & Methodology",
+      "level": "Expert",
+      "keywords": [
+        "Authentic Leadership",
+        "Long-term Systems Thinking",
+        "Learning Loops",
+        "TDD",
+        "Collaborative Development"
+      ]
+    },
+    {
+      "name": "Personal",
+      "level": "Expert",
+      "keywords": [
+        "Father",
+        "Roblox",
+        "Minecraft",
+        "Dad-jokes"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native speaker"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Learning Systems & Decision Making",
+      "keywords": [
+        "Structured Decision Frameworks",
+        "Learning Loops",
+        "Long-term Systems Thinking"
+      ]
+    },
+    {
+      "name": "Gaming & Family",
+      "keywords": [
+        "Roblox",
+        "Minecraft",
+        "Family time"
+      ]
+    },
+    {
+      "name": "Technology",
+      "keywords": [
+        "AI Agent Orchestration",
+        "Data Engineering",
+        "Platform Engineering"
+      ]
+    }
+  ],
+  "references": [],
+  "projects": [
+    {
+      "name": "Decision Copilot Development",
+      "description": "Open-source tool for structured team decision-making, addressing the gap between individual expertise and collective decision quality. Developed under Make Time Together Ltd with collaborative IP sharing enabling continued development at Mechanical Orchard.",
+      "highlights": [
+        "Built framework for transparent, repeatable decision processes",
+        "Created learning loops for decision quality improvement",
+        "Established sustainable development model through strategic IP sharing agreement",
+        "Growing community around structured decision-making practices"
+      ],
+      "keywords": [
+        "Decision Making",
+        "Team Collaboration",
+        "Open Source",
+        "Learning Loops",
+        "IP Strategy"
+      ],
+      "startDate": "2023",
+      "endDate": "2025",
+      "roles": [
+        "Founder",
+        "Lead Developer"
+      ],
+      "entity": "Make Time Together Ltd",
+      "type": "application"
+    }
+  ],
+  "meta": {
+    "canonical": "https://davidlaing.com/resume.json",
+    "version": "v1.0.0",
+    "lastModified": "2025-07-27T16:42:00Z",
+    "dateFormat": "ISO 8601 compliant - all alignment requires arbitrary starting points",
+    "theme": "macchiato"
+  }
+}

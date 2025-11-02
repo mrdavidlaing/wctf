@@ -1,0 +1,256 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "David Laing",
+    "label": "Staff Software Engineer - AI Reliability Engineering",
+    "email": "david@davidlaing.com",
+    "url": "https://davidlaing.com",
+    "summary": "Reliability engineering leader with 15+ years experience building and scaling distributed systems. Pioneered data reliability practices for 100PB infrastructure at Shopify, maintained platform reliability during $3.5M/minute peak traffic, and established SRE teams from scratch. Currently leading AI agent orchestration initiatives and bringing proven SLI/SLO frameworks to AI infrastructure challenges. Passionate about bringing traditional reliability engineering principles to the unique challenges of large language model systems.",
+    "location": {
+      "city": "Dublin, Ireland",
+      "countryCode": "IE"
+    },
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "mrdavidlaing",
+        "url": "https://github.com/mrdavidlaing"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "mrdavidlaing",
+        "url": "https://linkedin.com/in/mrdavidlaing"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Mechanical Orchard",
+      "position": "Staff Software Engineer - AI Context Engineering Lead",
+      "url": "https://mechanical-orchard.com",
+      "startDate": "2023-09",
+      "summary": "Leading AI agent orchestration initiatives with focus on reliability and observability. Building cloud infrastructure and establishing reliability practices for AI-assisted development workflows on GCP and AWS.",
+      "highlights": [
+        "Pioneered AI agent orchestration for Kubernetes/Terraform automation - creating reliable environments where AI agents collaborate and self-correct",
+        "Established monitoring and observability practices for AI agent reliability and performance optimization",
+        "Built and maintained cloud infrastructure on GCP and AWS with focus on high availability and automated failover",
+        "Applied traditional reliability engineering principles to novel AI infrastructure challenges"
+      ],
+      "name": "Mechanical Orchard",
+      "location": "San Francisco, CA"
+    },
+    {
+      "company": "Shopify Ltd",
+      "position": "Senior Staff Reliability Engineer",
+      "url": "https://shopify.com",
+      "startDate": "2022-05",
+      "endDate": "2023-07",
+      "summary": "Established Data Reliability Practice for Shopify's 100PB data warehouse, then transitioned to core SRE maintaining commerce systems for 3 million merchants during peak traffic events.",
+      "highlights": [
+        "Maintained platform reliability during $3.5M/minute peak traffic (BFCM) through data-driven monitoring and automated failover systems",
+        "Pioneered data reliability engineering practices for 100PB data lake infrastructure with custom SLI/SLO frameworks",
+        "Developed automated monitoring systems for availability and latency metrics across distributed data processing systems",
+        "Led incident response for critical data infrastructure serving millions of merchants",
+        "Built cost optimization systems balancing performance requirements with infrastructure spend"
+      ],
+      "name": "Shopify Ltd"
+    },
+    {
+      "company": "Pivotal Software Ltd",
+      "position": "Director of Engineering/SRE",
+      "startDate": "2015-12",
+      "endDate": "2020-04",
+      "summary": "Built SRE team from scratch and established company-wide reliability practices. Collaborated directly with Google SRE engineers on SLI/SLO design and error budget implementation for Cloud Foundry and Kubernetes platforms.",
+      "highlights": [
+        "Built SRE team from scratch to operate Cloud Foundry and Kubernetes platforms with 99.9%+ availability",
+        "Collaborated with Google SRE engineers on SLI/SLO design and error budget implementation",
+        "Established reliability practices for pivotaltracker.com (1M active users) including chaos engineering and resilience testing",
+        "Led incident response framework and post-mortem processes across 80+ R&D teams globally",
+        "Developed high-availability infrastructure with automated failover and recovery systems",
+        "Implemented comprehensive observability stack for distributed systems monitoring"
+      ],
+      "name": "Pivotal"
+    },
+    {
+      "company": "VMware Ltd",
+      "position": "Staff 2 Software Engineer (Data)",
+      "url": "https://tanzu.vmware.com",
+      "startDate": "2020-05",
+      "endDate": "2022-04",
+      "summary": "Established data engineering practices and built reliable data pipelines for cross-portfolio analytics serving business leadership across VMware's product portfolio.",
+      "highlights": [
+        "Built and maintained highly available dagster.io data pipelines for cross-portfolio analytics",
+        "Established telemetry gathering and monitoring systems for data pipeline reliability",
+        "Implemented SLO frameworks for data freshness and accuracy metrics",
+        "Created automated alerting and recovery systems for critical data processing workflows"
+      ],
+      "name": "VMWare Ltd"
+    },
+    {
+      "company": "StayUp.io Ltd",
+      "position": "Co-founder",
+      "startDate": "2015-03",
+      "endDate": "2015-12",
+      "summary": "Co-founded company to commercialize LogSearch open source project. Built distributed logging infrastructure handling 2TB daily ingest for Cloud Foundry ecosystem.",
+      "highlights": [
+        "Created open-source ELK distribution handling 2TB daily log ingest with 99.9% availability",
+        "Implemented high-availability distributed systems architecture for large-scale log processing",
+        "Built automated scaling and failover systems for log aggregation infrastructure"
+      ],
+      "name": "StayUp.io Ltd"
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Cape Town",
+      "url": "https://www.uct.ac.za",
+      "area": "Information Systems",
+      "studyType": "Bachelor of Business Science (Honours)",
+      "startDate": "1997-01",
+      "endDate": "2000-12",
+      "score": "Dean's Merit List",
+      "courses": [
+        "Information Systems",
+        "Statistics"
+      ],
+      "summary": "Majored in Information Systems and Statistics with focus on data-driven decision making and systems reliability."
+    }
+  ],
+  "publications": [
+    {
+      "name": "SRE & the Vulnerability Budget",
+      "publisher": "SRECon AMER",
+      "releaseDate": "2019-03",
+      "summary": "Using Error Budget model to balance security patching with feature development - applying structured decision-making to operational priorities in distributed systems"
+    },
+    {
+      "name": "Staying up-to-date with Kubernetes",
+      "publisher": "Web Publication",
+      "summary": "Explorable model for understanding enterprise software upgrade challenges and long-term maintenance practices for distributed systems reliability"
+    }
+  ],
+  "skills": [
+    {
+      "name": "AI Infrastructure Reliability",
+      "level": "Expert",
+      "keywords": [
+        "AI Agent Orchestration",
+        "Large-Scale Model Serving",
+        "AI Observability",
+        "ML Infrastructure Monitoring"
+      ]
+    },
+    {
+      "name": "Site Reliability Engineering",
+      "level": "Expert",
+      "keywords": [
+        "SLI/SLO Design",
+        "Error Budget Management",
+        "Incident Response",
+        "Chaos Engineering",
+        "Distributed Systems Observability"
+      ]
+    },
+    {
+      "name": "Cloud Infrastructure & Automation",
+      "level": "Expert",
+      "keywords": [
+        "GCP",
+        "AWS",
+        "Kubernetes",
+        "Terraform",
+        "Automated Failover Systems",
+        "High-Availability Architecture"
+      ]
+    },
+    {
+      "name": "Monitoring & Observability",
+      "level": "Expert",
+      "keywords": [
+        "Custom Metrics Design",
+        "Availability Monitoring",
+        "Latency Optimization",
+        "Cost Optimization",
+        "Performance Analytics"
+      ]
+    },
+    {
+      "name": "Programming & Data",
+      "level": "Expert",
+      "keywords": [
+        "Golang",
+        "Python",
+        "SQL",
+        "Bash",
+        "Data Pipeline Architecture",
+        "BigQuery"
+      ]
+    },
+    {
+      "name": "Leadership & Process",
+      "level": "Expert",
+      "keywords": [
+        "SRE Team Building",
+        "Technical Leadership",
+        "Post-Mortem Process",
+        "Cross-functional Collaboration"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native speaker"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Reliability Engineering & Systems",
+      "keywords": [
+        "AI Infrastructure Challenges",
+        "Distributed Systems Reliability",
+        "Observability Innovation"
+      ]
+    },
+    {
+      "name": "Learning Systems",
+      "keywords": [
+        "Structured Decision Frameworks",
+        "Learning Loops",
+        "Long-term Systems Thinking"
+      ]
+    }
+  ],
+  "references": [],
+  "projects": [
+    {
+      "name": "AI Agent Reliability Framework",
+      "description": "Pioneering work in applying traditional SRE principles to AI agent orchestration systems, establishing monitoring, alerting, and recovery patterns for multi-agent environments.",
+      "highlights": [
+        "Developed SLI/SLO frameworks for AI agent performance and collaboration metrics",
+        "Built automated monitoring for agent reliability and self-correction capabilities",
+        "Established incident response patterns for AI agent infrastructure failures",
+        "Created cost optimization strategies for AI infrastructure at scale"
+      ],
+      "keywords": [
+        "AI Reliability",
+        "Agent Orchestration",
+        "SRE",
+        "Observability"
+      ],
+      "startDate": "2023",
+      "endDate": "2025",
+      "roles": [
+        "Lead Engineer"
+      ],
+      "entity": "Mechanical Orchard",
+      "type": "infrastructure"
+    }
+  ],
+  "meta": {
+    "canonical": "https://davidlaing.com/resume-ai-reliability.json",
+    "version": "v1.0.0",
+    "lastModified": "2025-08-09T12:00:00Z",
+    "dateFormat": "ISO 8601 compliant"
+  }
+}

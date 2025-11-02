@@ -1,0 +1,43 @@
+baseURL = 'https://davidlaing.com/'
+defaultContentLanguage = "en"
+title = "mrdavidlaing@🌍"
+copyright = "© 1996-2025 David Laing"
+
+# SEO and structured data for LLMs
+[params]
+description = "Principled Context Engineer and Bob Ross of Agentic Coding"
+keywords = [
+  "Principled Context Engineer",
+  "Agentic Coding",
+  "AI Agent Orchestration",
+  "Decision Frameworks",
+  "Platform Engineering",
+  "Data Reliability",
+  "Kubernetes",
+  "Terraform",
+  "GCP",
+  "TypeScript",
+  "Next.js",
+  "Golang"
+]
+author = "David Laing"
+
+enableRobotsTXT = true
+summaryLength = 70
+
+[pagination]
+pagerSize = 5
+
+[outputs]
+home = ["HTML", "RSS", "JSON"]
+page = ["HTML"]
+section = ["HTML", "RSS"]
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[module]
+  [[module.imports]]
+    path = "github.com/mrmierzejewski/hugo-theme-console"
