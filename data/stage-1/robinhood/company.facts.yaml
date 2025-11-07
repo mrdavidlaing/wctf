@@ -1,0 +1,443 @@
+company: Robinhood
+research_date: '2025-11-06'
+financial_health:
+  facts_found:
+  - fact: Robinhood went public via IPO on July 29, 2021, at $38 per share on Nasdaq,
+      raising approximately $2 billion and valuing the company at approximately $32
+      billion
+    source: CNBC
+    date: '2021-07-29'
+    confidence: explicit_statement
+  - fact: Robinhood generated $2.951 billion in annual revenue for 2024, representing
+      a 58.23% increase from $1.865 billion in 2023
+    source: Robinhood Q4 2024 Earnings Report
+    date: '2025-02-12'
+    confidence: explicit_statement
+  - fact: Robinhood Q3 2025 revenue was $1.27 billion, up 100% year-over-year, representing
+      a new record
+    source: GlobeNewswire
+    date: '2025-11-05'
+    confidence: explicit_statement
+  - fact: Robinhood reported net income of $1.411 billion for full year 2024, compared
+      to a net loss of $541 million in 2023; this included a $369 million deferred
+      tax benefit
+    source: Robinhood Q4 2024 Earnings Report
+    date: '2025-02-12'
+    confidence: explicit_statement
+  - fact: Robinhood Q3 2025 net income was $556 million, up 44% from Q2 2025, representing
+      the company's second most profitable quarter ever
+    source: GlobeNewswire / FX News Group
+    date: '2025-11-05'
+    confidence: explicit_statement
+  - fact: Robinhood Adjusted EBITDA for full year 2024 was $1.43 billion, up 167%
+      year-over-year from $536 million in 2023
+    source: Robinhood Q4 2024 Earnings Report
+    date: '2025-02-12'
+    confidence: explicit_statement
+  - fact: Robinhood had $4.3 billion in cash and cash equivalents as of December 31,
+      2024
+    source: Robinhood Q4 2024 Earnings Report
+    date: '2025-02-12'
+    confidence: explicit_statement
+  - fact: Robinhood authorized a $1 billion share repurchase program that began execution
+      in July 2024, expected to complete over two to three years
+    source: Robinhood Q3 2024 Earnings Report
+    date: '2024-10-30'
+    confidence: explicit_statement
+  - fact: Robinhood had 2,300 employees as of December 31, 2024, representing a 4.55%
+      increase from 2,200 employees in 2023
+    source: StockAnalysis / Bullfincher
+    date: '2025-01-01'
+    confidence: explicit_statement
+  - fact: Engineering is Robinhood's largest department with 827 employees (approximately
+      one-third of total workforce), followed by Finance & Administration with 339
+      employees
+    source: Unify GTM
+    date: '2025-08-01'
+    confidence: explicit_statement
+  - fact: Robinhood laid off 23% of its workforce (approximately 700 employees) on
+      August 9, 2022, in operations, marketing, and program management functions
+    source: SunsetHQ / Capital Markets Elite Group / Wikipedia
+    date: '2022-08-09'
+    confidence: explicit_statement
+  - fact: Robinhood laid off 7% of full-time staff (approximately 150 employees) on
+      June 27, 2023, marking the third round of layoffs in just over a year
+    source: InvestorsObserver / YouGov / Wikipedia
+    date: '2023-06-27'
+    confidence: explicit_statement
+  - fact: Robinhood had 25.2 million funded customers as of Q4 2024, up 8% year-over-year
+    source: Robinhood Q4 2024 Earnings Report
+    date: '2025-02-12'
+    confidence: explicit_statement
+  - fact: Robinhood Assets Under Custody was $193 billion as of Q4 2024, up 88% year-over-year
+      from $102.6 billion in Q4 2023
+    source: Robinhood Q4 2024 Earnings Report
+    date: '2025-02-12'
+    confidence: explicit_statement
+  - fact: Robinhood had 3.9 million Gold subscribers as of Q3 2025, representing continued
+      strong growth from 2.6 million in Q4 2024
+    source: GlobeNewswire
+    date: '2025-11-05'
+    confidence: explicit_statement
+  - fact: Robinhood entered into an agreement to acquire Bitstamp, the world's longest
+      running cryptocurrency exchange, expected to close in the first half of 2025
+    source: Robinhood Q4 2024 Earnings Report
+    date: '2024-06-01'
+    confidence: explicit_statement
+  - fact: Robinhood CFO Jason Warnick announced his intention to retire in Q1 2026,
+      with Shiv Verma named as next CFO
+    source: FX News Group / GlobeNewswire
+    date: '2025-11-05'
+    confidence: explicit_statement
+  missing_information:
+  - Specific quarterly burn rate metrics for 2024-2025 (company is now profitable
+    so burn rate less relevant)
+  - Detailed churn rate percentages (company tracks churned accounts but does not
+    publicly disclose specific rates)
+  - Net Promoter Score (NPS) or specific customer satisfaction metrics beyond customer
+    growth numbers
+  - Exact revenue breakdown by product line (stocks, options, crypto) for most recent
+    quarters
+market_position:
+  facts_found:
+  - fact: Robinhood's mission is to democratize finance for all, offering commission-free
+      trading through a mobile-first platform to make financial markets accessible
+      to everyone
+    source: Robinhood official website (robinhood.com/about-us)
+    date: '2025-11-06'
+    confidence: explicit_statement
+  - fact: Robinhood offers commission-free trading on stocks, ETFs, options, and cryptocurrencies
+      (25+ digital assets), along with futures trading on 40+ CME Group products
+    source: Robinhood newsroom and CME Group press release
+    date: '2025-01-29'
+    confidence: explicit_statement
+  - fact: Robinhood Gold subscription costs $5/month and includes 4% APY on uninvested
+      cash, instant deposits up to $50,000, margin trading (first $1,000 free), and
+      professional research from Morningstar
+    source: Bankrate, StockBrokers.com
+    date: '2025-11-06'
+    confidence: explicit_statement
+  - fact: 'Robinhood launched three major products in 2025: Robinhood Strategies (digital
+      advisory with 0.25% annual management fee, managing over $500 million for 100,000+
+      customers), Robinhood Banking (with up to $2.5M FDIC insurance), and Robinhood
+      Cortex (AI-powered investing assistant)'
+    source: Robinhood newsroom and Q2 2025 earnings report
+    date: '2025-07-30'
+    confidence: explicit_statement
+  - fact: Robinhood Legend is a browser-based desktop trading platform for active
+      traders offering 90+ technical indicators, options chains, futures trading,
+      and AI-powered custom indicators
+    source: Robinhood newsroom HOOD Summit 2025 announcement
+    date: '2025-09-01'
+    confidence: explicit_statement
+  - fact: The US Securities Brokerage Market size is estimated at $205.32 billion
+      in 2025 and expected to reach $252.58 billion by 2030, growing at a CAGR of
+      4.23%
+    source: Mordor Intelligence US Securities Brokerage Market Analysis
+    date: '2025-11-06'
+    confidence: explicit_statement
+  - fact: Charles Schwab holds a dominant market share of 61.01% in the brokerage
+      sector as of Q1 2025, with other major competitors including Fidelity Investments,
+      E-TRADE, Interactive Brokers, Webull, SoFi Invest, and Public.com
+    source: CanvasBusinessModel.com competitive analysis
+    date: '2025-11-06'
+    confidence: explicit_statement
+  - fact: Robinhood has an overall score of 1.2 out of 5.0 on Trustpilot based on
+      more than 4,139 reviews, with 95% giving it a 1-star rating, with complaints
+      focused on customer service, frozen accounts, and difficulties with withdrawals
+    source: Trustpilot (trustpilot.com/review/robinhood.com)
+    date: '2025-11-06'
+    confidence: explicit_statement
+  - fact: 'Professional review sites rate Robinhood positively for beginners: The
+      Motley Fool gives 4.5/5 stars, Bankrate rates it highly for commission-free
+      trading and ease of use'
+    source: The Motley Fool, Bankrate, NerdWallet reviews
+    date: '2025-11-06'
+    confidence: explicit_statement
+  - fact: Robinhood launched in the United Kingdom in early 2024 with commission-free
+      U.S. stock trading, marking its first international brokerage market
+    source: CNBC and Fortune Europe reporting
+    date: '2024-03-01'
+    confidence: explicit_statement
+  - fact: Robinhood expanded crypto services to all 31 EU/EEA countries in December
+      2023, and launched tokenized U.S. stocks and ETFs across Europe in June 2025,
+      covering 200+ stocks/ETFs with 24/7 trading
+    source: TechCrunch and EU Personal Finance reporting
+    date: '2025-06-30'
+    confidence: explicit_statement
+  - fact: Robinhood Financial LLC is an SEC-registered broker-dealer and FINRA member
+      since 2013, with CRD number 165998
+    source: FINRA BrokerCheck and Robinhood regulatory disclosures
+    date: '2025-11-06'
+    confidence: explicit_statement
+  - fact: 'Robinhood Crypto LLC (NMLS ID: 1702840) is licensed to engage in virtual
+      currency business activity by the New York State Department of Financial Services
+      and operates as a Money Services Business registered with FinCEN'
+    source: Robinhood legal disclosures
+    date: '2025-11-06'
+    confidence: explicit_statement
+  - fact: FINRA ordered Robinhood Financial to pay $3.75 million in restitution to
+      customers and fined Robinhood Financial and Robinhood Securities $26 million
+      in March 2025 for violating numerous FINRA rules including AML failures
+    source: FINRA press release and Wealth Management reporting
+    date: '2025-03-07'
+    confidence: explicit_statement
+  - fact: Robinhood offers commission-free trading on U.S. stocks, ETFs, and options
+      (except $0.50 per contract for index options); futures trading costs $0.75 per
+      contract for non-Gold customers and $0.50 for Gold customers
+    source: Robinhood support documentation
+    date: '2025-11-06'
+    confidence: explicit_statement
+  - fact: Robinhood makes money primarily through payment for order flow (PFOF), interest
+      on cash balances and margin lending (6.75% standard margin rate), securities
+      lending, and subscription fees from Robinhood Gold
+    source: Broker reviews and SEC disclosures
+    date: '2025-11-06'
+    confidence: explicit_statement
+  missing_information:
+  - SOC 2 and ISO 27001 certifications (could not be explicitly verified through official
+    Robinhood documentation)
+  - Google Play Store rating for 2025 (historical data available but current rating
+    not explicitly stated)
+  - Robinhood's specific percentage market share of the brokerage industry (competitors'
+    shares known but not Robinhood's exact percentage)
+  - Complete G2 and Capterra reviews (Robinhood has minimal presence on B2B software
+    review sites as it's a B2C consumer app)
+organizational_stability:
+  facts_found:
+  - fact: Vlad Tenev serves as CEO and President of Robinhood Markets and Chair of
+      the Board of Directors. Co-founded Robinhood in 2013 and became sole CEO in
+      November 2020
+    source: Robinhood Investor Relations - Board of Directors page
+    date: '2024-11-07'
+    confidence: explicit_statement
+  - fact: Jeff Pinner joined Robinhood as Chief Technology Officer on August 12, 2024.
+      Previously served as CTO at Lyft and as a Distinguished Engineer at Cruise
+    source: Robinhood Newsroom
+    date: '2024-08-12'
+    confidence: explicit_statement
+  - fact: Jason Warnick has served as Chief Financial Officer since November 2018.
+      Previously spent 20 years at Amazon as VP of Finance and Chief of Staff to Amazon's
+      CFO
+    source: Zippia and Business of Business
+    date: '2024-11-06'
+    confidence: explicit_statement
+  - fact: Dan Gallagher serves as Chief Legal, Compliance and Corporate Affairs Officer
+      since May 2020. Previously served as SEC Commissioner from 2011-2015 and was
+      a partner at WilmerHale
+    source: Business of Business
+    date: '2020-05-01'
+    confidence: explicit_statement
+  - fact: John Hegeman (Meta Chief Revenue Officer) joined the Board of Directors
+      in March 2025
+    source: Robinhood Investor Relations - Board of Directors
+    date: '2025-03-24'
+    confidence: explicit_statement
+  - fact: Christopher Payne (former DoorDash President & COO) joined the Board of
+      Directors in December 2024
+    source: Robinhood Investor Relations - Board of Directors
+    date: '2024-12-01'
+    confidence: explicit_statement
+  - fact: Baiju Bhatt departed his Chief Creative Officer role in March 2024, though
+      he remains on the Board of Directors
+    source: Robinhood Investor Relations - Board of Directors
+    date: '2024-03-01'
+    confidence: explicit_statement
+  - fact: Robinhood's headquarters is located at 85 Willow Road, Menlo Park, California
+    source: Clay / Wikipedia
+    date: '2018-02-01'
+    confidence: explicit_statement
+  - fact: In January 2022, Robinhood announced it would allow most employees to work
+      remotely on a permanent basis as a 'primarily remote' company
+    source: Robinhood Newsroom / CNBC / Bloomberg
+    date: '2022-01-12'
+    confidence: explicit_statement
+  - fact: 'In 2024, CEO Vlad Tenev reversed the remote-first policy, implementing
+      a tiered return-to-office policy: C-suite executives must be in office 5 days/week,
+      managers 4 days/week, and individual contributors 3 days/week'
+    source: Ainvest / Inc.com
+    date: '2024-01-01'
+    confidence: explicit_statement
+  - fact: 'Robinhood has office locations in: Menlo Park CA (headquarters), New York
+      NY, Seattle WA, Denver CO, Chicago IL, Lake Mary FL, Bellevue WA, Toronto Canada,
+      London UK, and Amsterdam Netherlands'
+    source: Exa.ai, Glassdoor, Clay
+    date: '2024-11-06'
+    confidence: explicit_statement
+  - fact: Robinhood has an overall Glassdoor rating of 3.6 out of 5 stars based on
+      828-930 reviews
+    source: Glassdoor - Robinhood Reviews
+    date: '2024-11-06'
+    confidence: explicit_statement
+  - fact: 60% of employees would recommend working at Robinhood to a friend, and 63%
+      have a positive business outlook for the company
+    source: Glassdoor - Working at Robinhood
+    date: '2024-11-06'
+    confidence: explicit_statement
+  - fact: 'Work-life balance rating: 3.2-3.3 out of 5; Culture and values rating:
+      3.3-3.4 out of 5; Compensation and benefits rating: 4.0 out of 5'
+    source: Glassdoor - Robinhood Reviews
+    date: '2024-11-06'
+    confidence: explicit_statement
+  - fact: CEO Vlad Tenev has a 77% approval rating on Glassdoor based on employee
+      reviews
+    source: Glassdoor - Robinhood Reviews
+    date: '2024-11-06'
+    confidence: explicit_statement
+  - fact: Software Engineer professionals rate Robinhood 3.4 out of 5 stars based
+      on 75 reviews on Glassdoor. 62% of Software Engineers would recommend working
+      at Robinhood to a friend
+    source: Glassdoor - Robinhood Software Engineer Reviews
+    date: '2024-11-06'
+    confidence: explicit_statement
+  - fact: Software Engineers rate compensation and benefits at 4.3 out of 5 stars,
+      which is 7.2% better than the company average
+    source: Glassdoor - Robinhood Software Engineer Reviews
+    date: '2024-11-06'
+    confidence: explicit_statement
+  - fact: Engineering is Robinhood's largest department with 827 team members as of
+      August 2025, representing approximately one-third (33%) of the total workforce
+      of 2,507 employees
+    source: Unify GTM - Robinhood Employee Data
+    date: '2025-08-27'
+    confidence: explicit_statement
+  missing_information:
+  - Current Chief Product Officer (position appears vacant or restructured at VP level
+    since Aparna Chennapragada's departure in August 2022)
+  - Comprehensive names and tenure data for all VP-level executives
+  - Specific breakdown of engineering teams (backend, frontend, infrastructure, security,
+    data, etc.) and reporting structure
+  - 2024-2025 hiring velocity and specific hiring numbers beyond general growth
+  - Diversity metrics and demographic breakdowns of leadership and engineering teams
+technical_culture:
+  facts_found:
+  - fact: Robinhood uses Python/Django and Go for most APIs, with some Java and Rust
+      in the codebase. The company has been shifting from Python towards Go for API
+      development
+    source: Quastor blog - Robinhood's Tech Stack
+    date: '2023-01-01'
+    confidence: explicit_statement
+  - fact: Robinhood uses Amazon RDS with Postgres as the database engine for their
+      primary data store
+    source: Quastor blog - Robinhood's Tech Stack
+    date: '2023-01-01'
+    confidence: explicit_statement
+  - fact: Robinhood's infrastructure is cloud-native and hosted on AWS. The company
+      paid $60 million to AWS in 2020 for cloud hosting fees
+    source: Quastor blog - Robinhood's Tech Stack
+    date: '2023-01-01'
+    confidence: explicit_statement
+  - fact: Robinhood uses Kafka for message streaming between backend services to synchronize
+      data among microservices
+    source: Medium - Robinhood Hosts its First Tech Talk
+    date: '2018-01-01'
+    confidence: explicit_statement
+  - fact: Technology stack includes GitHub, Git, Docker, React, Kubernetes, and nginx
+      as load balancers; Airflow for scheduling jobs; Amazon Redshift for fraud detection
+      and money laundering analysis; ELK stack for search and analytics
+    source: StackShare - Robinhood Tech Stack / Integrate.io
+    date: '2024-01-01'
+    confidence: explicit_statement
+  - fact: Robinhood has 10 public repositories on GitHub including Faust (Python Stream
+      Processing), airflow-prometheus-exporter, Thorn (Easy Webhooks for Python),
+      and kafka-python fork
+    source: GitHub - github.com/robinhood
+    date: '2025-11-06'
+    confidence: explicit_statement
+  - fact: Faust is a Python stream processing library open-sourced by Robinhood in
+      2018. It was used at Robinhood to build high performance distributed systems
+      and real-time data pipelines that process billions of events every day. The
+      project has over 6,800 stars on GitHub
+    source: GitHub - robinhood/faust and Medium
+    date: '2018-08-01'
+    confidence: explicit_statement
+  - fact: Robinhood's engineering blog is hosted on Medium at medium.com/robinhood-engineering
+      and on their newsroom. Recent posts include 'Building a Resilient Card Transaction
+      System' (2024), 'Case Studies in Kubernetes Controller Limits' (2024), and 'Preventing
+      Fraud at Robinhood using Graph Intelligence' (2024)
+    source: Robinhood Newsroom - Engineering Archives
+    date: '2024-01-01'
+    confidence: explicit_statement
+  - fact: Robinhood held its 2nd Annual Women in Tech Conference in 2024 with over
+      195 Robinhood employees and close to 50 external attendees from more than 30
+      different companies
+    source: Robinhood Newsroom - Women in Tech Conference 2024
+    date: '2024-01-01'
+    confidence: explicit_statement
+  - fact: Jeff Pinner serves as Chief Technology Officer since August 12, 2024. He
+      previously served as CTO at Lyft for nearly a decade and holds a Bachelor of
+      Science in Computer Science from MIT
+    source: Robinhood Newsroom - Robinhood Welcomes Jeff Pinner
+    date: '2024-08-12'
+    confidence: explicit_statement
+  - fact: 'Robinhood''s interview process takes approximately 4-6 weeks on average
+      and includes: recruiter screen, technical phone screen (through Karat combining
+      algorithms/data structures and system design), and onsite with 5 rounds'
+    source: Glassdoor and Interviewing.io
+    date: '2024-01-01'
+    confidence: explicit_statement
+  - fact: 'The onsite consists of: 1 algorithms/data structures interview, 2 system
+      design interviews (one broad, one specific), 1 past project round, and 1 hiring
+      manager behavioral interview'
+    source: Interviewing.io - Robinhood's Interview Process
+    date: '2024-01-01'
+    confidence: explicit_statement
+  - fact: Robinhood interviews are highly competitive with only a 1% conversion rate.
+      Engineering interviews feature medium to hard coding questions, often related
+      to Robinhood's product or FinTech domain
+    source: Exponent - Get a Job at Robinhood
+    date: '2024-01-01'
+    confidence: explicit_statement
+  - fact: Robinhood built Apollo, an internal platform where any developer can spin
+      up their own end-to-end Robinhood environment for testing, completely isolated
+      from other environments
+    source: Robinhood Newsroom - Engineering Onboarding
+    date: '2024-01-01'
+    confidence: explicit_statement
+  - fact: Robinhood uses Phabricator for code reviews
+    source: NC State ECE blog - My Internship at Robinhood
+    date: '2023-01-01'
+    confidence: explicit_statement
+  - fact: Robinhood launched Robinhood Cortex in 2025, an AI investment tool designed
+      to provide real-time market insights using generative AI, powered by Amazon
+      Nova foundation models for up to 80% lower cost per token
+    source: AWS Blog - Robinhood and Amazon Nova
+    date: '2024-12-01'
+    confidence: explicit_statement
+  - fact: Robinhood acquired Pluto Capital, Inc. in July 2024 to add AI-powered tools
+      for investment research. The acquisition was valued at $12 million pre-money
+    source: TechCrunch - Robinhood snaps up Pluto to add AI tools
+    date: '2024-07-01'
+    confidence: explicit_statement
+  - fact: Robinhood uses Amazon Bedrock as their fully managed service for building
+      generative AI models. Amazon Bedrock ensures customer data never leaves their
+      virtual private cloud and is not shared with model providers
+    source: AWS Blog - Robinhood and Amazon Nova
+    date: '2024-12-01'
+    confidence: explicit_statement
+  - fact: In December 2019, Robinhood's system received 100k requests per second at
+      peak. By June 2020, this increased to 750k requests per second - a 7x load increase
+      in 6 months
+    source: Quastor blog - Robinhood's Tech Stack
+    date: '2023-01-01'
+    confidence: explicit_statement
+  - fact: Software Engineer compensation at Robinhood ranges from $202K per year for
+      L1 to $559K per year for L5, with median yearly total compensation of $403K
+    source: Levels.fyi - Robinhood Software Engineer Salary
+    date: '2025-11-06'
+    confidence: explicit_statement
+  missing_information:
+  - Specific CI/CD tools and deployment pipelines (Apollo testing environment is mentioned
+    but specific CI/CD tooling not documented)
+  - Code coverage metrics or testing standards and QA processes
+  - Specific open-source contribution policies and guidelines
+  - Recent (2024-2025) engineering blog post publication frequency
+  - Complete roster of Distinguished Engineers and Principal Engineers
+  - Current ML/AI team size and headcount
+  - Specific monitoring tools beyond ELK stack (e.g., Datadog, New Relic, Prometheus)
+summary:
+  total_facts_found: 71
+  information_completeness: high
+  most_recent_data_point: '2025-11-06'
+  oldest_data_point: '2018-01-01'
+company_slug: robinhood
