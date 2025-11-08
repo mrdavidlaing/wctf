@@ -18,6 +18,11 @@ from wctf_core.utils.paths import (
 )
 from wctf_core.utils.responses import success_response, error_response
 from wctf_core.utils.yaml_handler import read_yaml, write_yaml
+from wctf_core.models import TaskCharacteristics, CompanyFlags
+from wctf_core.models.profile import Profile
+from wctf_core.energy_matrix.calculator import calculate_quadrant
+from wctf_core.energy_matrix.synthesis import generate_energy_synthesis
+from wctf_core.operations.profile import get_profile
 
 
 # Valid mountain elements (the five elements of career evaluation)
@@ -243,6 +248,10 @@ def _merge_flags(existing: Dict, new: Dict) -> Dict:
             merged["missing_critical_data"] = []
         merged["missing_critical_data"].extend(new["missing_critical_data"])
 
+    # Preserve profile_version_used if present in new data
+    if "profile_version_used" in new:
+        merged["profile_version_used"] = new["profile_version_used"]
+
     return merged
 
 
@@ -371,6 +380,55 @@ def save_flags_op(
         if 'company_slug' not in merged_flags:
             merged_flags['company_slug'] = slugify_company_name(company_name)
 
+        # Auto-calculate Energy Matrix quadrants if profile is present
+        profile = None
+        if merged_flags.get("profile_version_used"):
+            profile_result = get_profile()
+            if "error" not in profile_result.lower():
+                # Parse profile from result (strip success message)
+                # get_profile returns: "Profile v1.0 (updated 2025-01-08)\n\n<yaml>"
+                lines = profile_result.split("\n")
+                # Find the start of YAML (skip header lines)
+                yaml_start = 0
+                for i, line in enumerate(lines):
+                    if line.strip() and not line.startswith("Profile v"):
+                        yaml_start = i
+                        break
+                profile_yaml = "\n".join(lines[yaml_start:])
+                profile_data = yaml.safe_load(profile_yaml)
+                profile = Profile(**profile_data)
+
+        # Auto-calculate quadrants for all task implications
+        if profile:
+            for flag_color in ["green_flags", "red_flags"]:
+                if flag_color not in merged_flags:
+                    continue
+                for mountain_element in merged_flags[flag_color].values():
+                    for severity_list in mountain_element.values():
+                        for flag in severity_list:
+                            if "task_implications" not in flag:
+                                continue
+                            for impl in flag["task_implications"]:
+                                # Calculate quadrant
+                                chars = TaskCharacteristics(**impl["characteristics"])
+                                quadrant = calculate_quadrant(chars, profile)
+                                impl["energy_matrix_quadrant"] = quadrant
+
+        # Generate synthesis if profile present
+        if profile:
+            # Temporarily create a CompanyFlags-like object with required fields
+            # Note: We need to add staff_engineer_alignment to avoid validation errors
+            temp_flags_data = merged_flags.copy()
+            if "staff_engineer_alignment" not in temp_flags_data:
+                temp_flags_data["staff_engineer_alignment"] = {}
+
+            flags_model = CompanyFlags(**temp_flags_data)
+            synthesis = generate_energy_synthesis(flags_model, profile)
+            # Merge with existing synthesis if present
+            if "synthesis" not in merged_flags:
+                merged_flags["synthesis"] = {}
+            merged_flags["synthesis"].update(synthesis)
+
         # Count flags
         flag_count = 0
         if "green_flags" in merged_flags:
@@ -390,11 +448,17 @@ def save_flags_op(
         # Save merged flags
         write_yaml(flags_path, merged_flags)
 
+        # Build success message with energy matrix info if available
+        message = f"Successfully saved {flag_count} flags for {company_name}"
+        if profile and "synthesis" in merged_flags and "energy_matrix_analysis" in merged_flags["synthesis"]:
+            sustainability = merged_flags["synthesis"]["energy_matrix_analysis"].get("energy_sustainability", "N/A")
+            message += f"\nEnergy Matrix: {sustainability}"
+
         return success_response(
             company_name=company_name,
             file_path=flags_path,
             items_saved=flag_count,
-            message=f"Successfully saved {flag_count} flags for {company_name}",
+            message=message,
             operation=operation
         )
 
