@@ -489,7 +489,7 @@ When evaluating internal moves you didn't choose:
 - **Task implications**: Detailed day-to-day activities with 20+ characteristics per task
 - **Auto-calculated quadrants**: System matches task characteristics to your profile
 - **Energy sustainability analysis**: Predicted daily distribution across quadrants
-- **Sustainability thresholds**: ≥60% mutual (green), ≤20% burnout (red), ≤30% yellow combined
+- **Sustainability thresholds**: ≥60% moare (green), ≤20% burnout (red), ≤30% yellow combined
 - **Three new MCP tools**: get_profile, update_profile, get_energy_summary
 - **Integrated workflow**: Energy analysis built into flag extraction and synthesis
 

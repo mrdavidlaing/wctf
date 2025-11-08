@@ -114,7 +114,7 @@ def _calculate_sustainability_rating(
     moare_pct = distribution["moare_green_flags"]["percentage"]
     burnout_pct = distribution["burnout_red_flags"]["percentage"]
 
-    # LOW: exceeds burnout threshold OR far below mutual threshold
+    # LOW: exceeds burnout threshold OR far below moare threshold
     if thresholds["exceeds_red_maximum"] or moare_pct < 40:
         return "LOW"
 
@@ -159,7 +159,7 @@ def generate_energy_synthesis(flags: CompanyFlags, profile: Profile) -> Dict[str
 
     if distribution["moare_green_flags"]["percentage"] < 60:
         key_insights.append(
-            f"Insufficient moare quadrant work ({distribution['mutual_green_flags']['percentage']}% vs 60% needed)"
+            f"Insufficient moare quadrant work ({distribution['moare_green_flags']['percentage']}% vs 60% needed)"
         )
 
     # Generate decision factors
@@ -171,7 +171,7 @@ def generate_energy_synthesis(flags: CompanyFlags, profile: Profile) -> Dict[str
 
     if not thresholds["meets_green_minimum"]:
         decision_factors.append(
-            f"RED: Only {distribution['mutual_green_flags']['percentage']}% moare quadrant (need ≥60%)"
+            f"RED: Only {distribution['moare_green_flags']['percentage']}% moare quadrant (need ≥60%)"
         )
 
     return {

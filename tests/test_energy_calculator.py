@@ -65,8 +65,8 @@ def sample_profile():
     )
 
 
-def test_mutual_quadrant_high_skill_high_energy(sample_profile):
-    """Test task with high skill + high energy = mutual quadrant."""
+def test_moare_quadrant_high_skill_high_energy(sample_profile):
+    """Test task with high skill + high energy = moare quadrant."""
     chars = TaskCharacteristics(
         # Low conflict, high progress = energizing
         conflict_exposure="low",
@@ -88,7 +88,7 @@ def test_mutual_quadrant_high_skill_high_energy(sample_profile):
 
     quadrant = calculate_quadrant(chars, sample_profile)
 
-    assert quadrant == "mutual"
+    assert quadrant == "moare"
 
 
 def test_burnout_quadrant_low_skill_low_energy(sample_profile):

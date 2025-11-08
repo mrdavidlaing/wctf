@@ -254,7 +254,7 @@ green_flags:
             notes: "Platform work with clear scope, autonomous execution"
 ```
 
-The system will auto-calculate the Energy Matrix quadrant (mutual/sparingly/burnout/help_mentoring)
+The system will auto-calculate the Energy Matrix quadrant (moare/sparingly/burnout/help_mentoring)
 when you save the flags.
 
 ## Evaluator Context

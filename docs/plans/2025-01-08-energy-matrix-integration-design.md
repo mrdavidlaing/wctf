@@ -57,7 +57,7 @@ Energy  │                  │                  │
 ```
 
 **Sustainable role requirements:**
-- ≥60% Mutual (green flags)
+- ≥60% MOARE (green flags)
 - ≤20% Burnout (red flags)
 - ≤30% Sparingly + Help/Mentoring combined (yellow flags)
 
@@ -73,7 +73,7 @@ Everything else serves this:
 
 **Key insight:** "I'd rather climb to the top of the wrong peak than circle at the bottom of the right one."
 
-Progress requires energy. Energy comes from work that fits the Mutual quadrant.
+Progress requires energy. Energy comes from work that fits the MOARE quadrant.
 
 ## Design Goals
 
@@ -227,7 +227,7 @@ green_flags:
       task_implications:
         - task: "Design K8s operators for platform services"
           time_estimate_pct: "20-30%"
-          energy_matrix_quadrant: "mutual"  # AUTO-CALCULATED
+          energy_matrix_quadrant: "moare"  # AUTO-CALCULATED
 
           characteristics:
             # Conflict & alignment
@@ -300,7 +300,7 @@ synthesis:
     profile_version_used: "1.0"
 
     predicted_daily_distribution:
-      mutual_green_flags:
+      moare_green_flags:
         percentage: 20
         tasks_count: 3
       sparingly_yellow_flags:
@@ -314,7 +314,7 @@ synthesis:
         tasks_count: 2
 
     threshold_analysis:
-      meets_green_minimum: false     # ≥60% mutual required
+      meets_green_minimum: false     # ≥60% moare required
       exceeds_red_maximum: true      # ≤20% burnout allowed
       exceeds_yellow_maximum: true   # ≤30% combined yellow allowed
 
@@ -335,7 +335,7 @@ synthesis:
 
     decision_factors:
       - "REJECT: 40% burnout quadrant exceeds 20% threshold"
-      - "RED: Insufficient mutual quadrant work (20% vs 60% needed)"
+      - "RED: Insufficient moare quadrant work (20% vs 60% needed)"
       - "RED: Organizational mismatch adds ambient drain"
 ```
 
@@ -350,7 +350,7 @@ def calculate_quadrant(task_characteristics, profile):
     """
     Calculate energy matrix quadrant from task characteristics and profile.
 
-    Returns: "mutual" | "sparingly" | "burnout" | "help_mentoring"
+    Returns: "moare" | "sparingly" | "burnout" | "help_mentoring"
     """
 
     # Step 1: Calculate "good_at" (strength alignment)
@@ -412,7 +412,7 @@ def calculate_quadrant(task_characteristics, profile):
 
     # Step 3: Map to quadrant
     if good_at and energizes:
-        return "mutual"
+        return "moare"
     elif good_at and not energizes:
         return "sparingly"
     elif not good_at and energizes:
@@ -560,7 +560,7 @@ Using your actual Apple research, here's how Energy Matrix analysis would appear
 ### Task Implications Extracted
 
 **Green Flag:** "Modern tech stack: Kubernetes, Python, Go"
-- Task: "Design K8s operators" (20-30%) → **Mutual** quadrant
+- Task: "Design K8s operators" (20-30%) → **MOARE** quadrant
   - High progress visibility, uses core strengths, low conflict
 
 **Red Flag:** "Highly siloed teams with chaotic cross-team coordination"
@@ -578,7 +578,7 @@ Using your actual Apple research, here's how Energy Matrix analysis would appear
   - Can do it, but draining
 
 **Green Flag:** "SRE principles with error budgets"
-- Task: "Design SLI/SLO frameworks" (15-20%) → **Mutual** quadrant
+- Task: "Design SLI/SLO frameworks" (15-20%) → **MOARE** quadrant
   - Core strength, visible progress, energizing
 
 ### Synthesis Output
@@ -586,7 +586,7 @@ Using your actual Apple research, here's how Energy Matrix analysis would appear
 ```yaml
 energy_matrix_analysis:
   predicted_daily_distribution:
-    mutual_green_flags:
+    moare_green_flags:
       percentage: 20
       tasks_count: 3
     sparingly_yellow_flags:
@@ -616,7 +616,7 @@ energy_matrix_analysis:
 
   decision_factors:
     - "REJECT: 40% burnout quadrant (2x threshold)"
-    - "REJECT: Only 20% mutual quadrant (1/3 of target)"
+    - "REJECT: Only 20% moare quadrant (1/3 of target)"
     - "RED: Organizational coherence mismatch adds ambient drain"
 ```
 
@@ -675,7 +675,7 @@ energy_matrix_analysis:
 The Energy Matrix integration is successful when:
 
 1. **Predictive accuracy:** Energy analysis correctly predicts your actual experience
-   - Test: Evaluate current MO role, should show ~70% mutual + 20-30% sparingly
+   - Test: Evaluate current MO role, should show ~70% moare + 20-30% sparingly
    - Test: Evaluate Apple Dublin, should show ~40% burnout (matches your rejection)
 
 2. **Decision clarity:** Synthesis provides clear accept/reject signal
@@ -694,7 +694,7 @@ The Energy Matrix integration is successful when:
 
 ## Open Questions
 
-1. **Threshold tuning:** Initial thresholds (≥60% mutual, ≤20% burnout, ≤30% yellow) are estimates. How should we tune these based on experience?
+1. **Threshold tuning:** Initial thresholds (≥60% moare, ≤20% burnout, ≤30% yellow) are estimates. How should we tune these based on experience?
 
 2. **Algorithm weights:** Drain severity weights (severe=-3, moderate=-2, mild=-1) are initial guesses. Should these be configurable per-person?
 

@@ -89,7 +89,7 @@ async def test_get_energy_summary_tool_returns_analysis(temp_wctf_dir, monkeypat
             "energy_matrix_analysis": {
                 "energy_sustainability": "MEDIUM",
                 "predicted_daily_distribution": {
-                    "mutual_green_flags": {"percentage": 50, "tasks_count": 3},
+                    "moare_green_flags": {"percentage": 50, "tasks_count": 3},
                 },
             },
         },

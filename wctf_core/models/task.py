@@ -112,7 +112,7 @@ class TaskImplication(BaseModel):
     time_estimate_pct: str = Field(..., description="Estimated % of time (e.g., '20-30%')")
     energy_matrix_quadrant: Optional[EnergyMatrixQuadrant] = Field(
         default=None,
-        description="Auto-calculated quadrant (mutual/sparingly/burnout/help_mentoring)"
+        description="Auto-calculated quadrant (moare/sparingly/burnout/help_mentoring)"
     )
     characteristics: TaskCharacteristics = Field(..., description="Task characteristics for quadrant calculation")
     notes: Optional[str] = Field(default=None, description="Additional notes")

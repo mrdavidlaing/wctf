@@ -145,7 +145,7 @@ def calculate_quadrant(
         profile: Personal profile with drains, generators, and strengths
 
     Returns:
-        Quadrant name: "mutual" | "sparingly" | "burnout" | "help_mentoring"
+        Quadrant name: "moare" | "sparingly" | "burnout" | "help_mentoring"
     """
     strength_score = _calculate_strength_score(chars, profile)
     energy_score = _calculate_energy_score(chars, profile)

@@ -69,7 +69,7 @@ def sample_flags_with_quadrants():
                             TaskImplication(
                                 task="Build systems",
                                 time_estimate_pct="30%",
-                                energy_matrix_quadrant="mutual",
+                                energy_matrix_quadrant="moare",
                                 characteristics=TaskCharacteristics(
                                     conflict_exposure="low",
                                     alignment_clarity="high",
@@ -142,11 +142,11 @@ def test_generate_energy_synthesis_calculates_distribution(sample_flags_with_qua
     assert "predicted_daily_distribution" in synthesis["energy_matrix_analysis"]
 
     dist = synthesis["energy_matrix_analysis"]["predicted_daily_distribution"]
-    assert "mutual_green_flags" in dist
+    assert "moare_green_flags" in dist
     assert "burnout_red_flags" in dist
 
-    # Should have 30% mutual and 40% burnout based on time estimates
-    assert dist["mutual_green_flags"]["percentage"] == 30
+    # Should have 30% moare and 40% burnout based on time estimates
+    assert dist["moare_green_flags"]["percentage"] == 30
     assert dist["burnout_red_flags"]["percentage"] == 40
 
 
@@ -156,7 +156,7 @@ def test_generate_energy_synthesis_checks_thresholds(sample_flags_with_quadrants
 
     thresholds = synthesis["energy_matrix_analysis"]["threshold_analysis"]
 
-    # 30% mutual < 60% required
+    # 30% moare < 60% required
     assert thresholds["meets_green_minimum"] is False
 
     # 40% burnout > 20% allowed
@@ -167,5 +167,5 @@ def test_generate_energy_synthesis_sets_sustainability_rating(sample_flags_with_
     """Test that synthesis sets energy_sustainability rating."""
     synthesis = generate_energy_synthesis(sample_flags_with_quadrants, sample_profile)
 
-    # With 40% burnout and 30% mutual, should be LOW
+    # With 40% burnout and 30% moare, should be LOW
     assert synthesis["energy_matrix_analysis"]["energy_sustainability"] == "LOW"

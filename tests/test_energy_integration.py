@@ -153,8 +153,8 @@ missing_critical_data: []
 
     synthesis = flags_data["synthesis"]["energy_matrix_analysis"]
 
-    # Should have 20% mutual and 40% burnout
-    assert synthesis["predicted_daily_distribution"]["mutual_green_flags"]["percentage"] == 20
+    # Should have 20% moare and 40% burnout
+    assert synthesis["predicted_daily_distribution"]["moare_green_flags"]["percentage"] == 20
     assert synthesis["predicted_daily_distribution"]["burnout_red_flags"]["percentage"] == 40
 
     # Should fail thresholds

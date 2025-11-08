@@ -131,7 +131,7 @@ missing_critical_data: []
     # Verify quadrant was calculated
     task_impl = saved_flags["green_flags"]["mountain_range"]["critical_matches"][0]["task_implications"][0]
     assert "energy_matrix_quadrant" in task_impl
-    assert task_impl["energy_matrix_quadrant"] in ["mutual", "sparingly", "burnout", "help_mentoring"]
+    assert task_impl["energy_matrix_quadrant"] in ["moare", "sparingly", "burnout", "help_mentoring"]
 
     # Verify synthesis was generated
     assert "synthesis" in saved_flags
