@@ -1,4 +1,4 @@
-# Worth Climbing Together Framework (WCTF) v3.1
+# Worth Climbing Together Framework (WCTF) v4.0
 *A Data-Informed Approach to Career Decision Making*
 
 ## Executive Summary
@@ -155,6 +155,115 @@ Realignment_Ability = f(
 - **Realignment ability**: Can they adapt faster than conditions change?
 - **Your fit**: Would you be a productive member of this rope team?
 - **Daily reality**: Meeting load, deployment friction, tool availability
+
+---
+
+## Energy Matrix Integration (v4.0)
+
+### Overview
+
+The Energy Matrix evaluates whether daily work will energize or drain you, answering "Will I have the energy to climb this mountain?"
+
+**Key insight:** A role with 70% draining tasks (even with great compensation and mission) leads to burnout. Accept only roles with ≥60% energizing work that leverages your strengths.
+
+### The Four Quadrants
+
+```
+                           Good at
+        ┌──────────────────┬──────────────────┐
+        │   SPARINGLY      │     MUTUAL       │
+Drains  │   (Top Left)     │   (Top Right)    │
+Energy  │  Skilled but     │  SWEET SPOT      │
+        │  draining work   │  Energizing AND  │
+        │  (limit this)    │  leveraging      │
+        │                  │  strengths       │
+        ├──────────────────┼──────────────────┤
+        │   BURNOUT        │  HELP/MENTORING  │
+Brings  │   (Bottom Left)  │  (Bottom Right)  │
+Energy  │  Weak AND        │  Energizing but  │
+        │  draining        │  still learning  │
+        │  (eliminate)     │  (growth area)   │
+        └──────────────────┴──────────────────┘
+                          Bad at
+```
+
+### Profile Storage
+
+Your personal profile lives in `data/profile.yaml` and includes:
+
+- **Energy drains:** Activities that deplete you (conflict, misalignment, etc.)
+- **Energy generators:** Activities that restore energy (progress, tool building, etc.)
+- **Core strengths:** Established expertise (systems thinking, infrastructure, etc.)
+- **Growth areas:** Skills you're actively learning (multi-agent orchestration, etc.)
+- **Communication preferences:** Async capability, timezone tolerance, meeting load
+- **Organizational coherence needs:** Systemic patterns that enable/drain energy
+
+The profile is versioned in git to track self-knowledge evolution.
+
+### Task Implications
+
+Each flag now includes `task_implications` describing what you'll DO day-to-day:
+
+```yaml
+task_implications:
+  - task: "Design K8s operators for platform services"
+    time_estimate_pct: "20-30%"
+    energy_matrix_quadrant: "mutual"  # Auto-calculated
+    characteristics:
+      conflict_exposure: "low"
+      progress_visibility: "high"
+      uses_systems_thinking: true
+      uses_infrastructure_automation: true
+      # ... 20+ characteristics
+```
+
+Characteristics are matched against your profile to auto-calculate the quadrant.
+
+### Synthesis
+
+The synthesis section includes Energy Matrix analysis:
+
+```yaml
+energy_matrix_analysis:
+  predicted_daily_distribution:
+    mutual_green_flags: {percentage: 20, tasks_count: 3}
+    burnout_red_flags: {percentage: 40, tasks_count: 6}
+    # ...
+
+  threshold_analysis:
+    meets_green_minimum: false  # Need ≥60% mutual
+    exceeds_red_maximum: true   # Allow ≤20% burnout
+
+  energy_sustainability: "LOW"  # HIGH/MEDIUM/LOW
+
+  decision_factors:
+    - "REJECT: 40% burnout quadrant exceeds 20% threshold"
+    - "RED: Only 20% mutual quadrant (need ≥60%)"
+```
+
+### Sustainability Thresholds
+
+- **≥60% Mutual (green):** Energizing work using your strengths
+- **≤20% Burnout (red):** Draining work you're not good at
+- **≤30% Sparingly + Help/Mentoring (yellow):** Combined
+
+Exceeding thresholds triggers reject recommendation.
+
+### MCP Tools
+
+Three new tools support Energy Matrix:
+
+- **get_profile:** Returns current profile for reference during flag extraction
+- **update_profile:** Updates profile with version increment (1.0 → 1.1)
+- **get_energy_summary:** Quick view of energy_matrix_analysis for a company
+
+### Workflow
+
+1. **Get profile:** Reference your drains, generators, and strengths
+2. **Extract flags:** Include task_implications with detailed characteristics
+3. **Save flags:** System auto-calculates quadrants and generates synthesis
+4. **Review synthesis:** Check energy_sustainability and threshold violations
+5. **Make decision:** Accept only roles with sustainable energy distribution
 
 ---
 
@@ -372,6 +481,23 @@ When evaluating internal moves you didn't choose:
 
 ---
 
+## What's New in v4.0
+
+**Added**:
+- **Energy Matrix Integration**: Four-quadrant evaluation of daily work sustainability
+- **Personal profile storage**: Track your energy drains, generators, strengths, and growth areas
+- **Task implications**: Detailed day-to-day activities with 20+ characteristics per task
+- **Auto-calculated quadrants**: System matches task characteristics to your profile
+- **Energy sustainability analysis**: Predicted daily distribution across quadrants
+- **Sustainability thresholds**: ≥60% mutual (green), ≤20% burnout (red), ≤30% yellow combined
+- **Three new MCP tools**: get_profile, update_profile, get_energy_summary
+- **Integrated workflow**: Energy analysis built into flag extraction and synthesis
+
+**Core insight**:
+A role with 70% draining tasks (even with great compensation and mission) leads to burnout. Accept only roles with ≥60% energizing work that leverages your strengths.
+
+---
+
 ## What's New in v3.1
 
 **Added**:
@@ -411,5 +537,5 @@ Trust yourself. The framework just helps you ask the right questions and organiz
 
 ---
 
-*Worth Climbing Together Framework v3.1 - October 2025*
-*"Find mountains worth climbing with people worth climbing alongside, where the team's rhythm matches the terrain's demands"*
+*Worth Climbing Together Framework v4.0 - January 2025*
+*"Find mountains worth climbing with people worth climbing alongside, where the team's rhythm matches the terrain's demands and the daily climb energizes rather than depletes you"*
