@@ -1,0 +1,51 @@
+applications:
+  - short_sha: "44lvd"
+    job_url: "https://jobs.apple.com/en-ie/details/200566030-0562/site-reliability-engineer"
+    job_title: "Site Reliability Engineer"
+    team: "Cloud Services SRE (Cloud Service Infrastructure)"
+    role_number: "200566030-0562"
+    application_date: "2025-11-08"
+    wctf_verdict: "DECLINE"
+    wctf_reason: "35% burnout work (siloed environment blocking glue_work expertise, satellite office dynamics with no decision authority), severe organizational coherence violations (uncertain_problem_space + wide_timezone_spread + no_async_first), energy sustainability FAIL (30% MOARE vs ≥60% threshold)"
+    test_rationale: "Using as test case to validate WCTF process - comparing predictions against actual interview/work experience"
+
+    materials:
+      cv_markdown: "applications/sre-cloud-services/mrdavidlaing-cv-20251108.md"
+      cover_letter_markdown: "applications/sre-cloud-services/mrdavidlaing-cover-letter-20251108.md"
+      cv_pdf_url: "https://davidlaing.com/wctf/44lvd/mrdavidlaing-cv-20251108.pdf"
+      cover_letter_pdf_url: "https://davidlaing.com/wctf/44lvd/mrdavidlaing-cover-letter-20251108.pdf"
+
+    insider_contact:
+      name: "James Wynne"
+      role: "Staff Engineer, Cloud OS SRE"
+      relationship: "Former Pivotal colleague (2016-2019)"
+      referral_status: "available_if_needed"
+      interview_date: "2025-11-07"
+
+    predictions_to_validate:
+      - prediction: "LeetCode-focused interview despite Staff-level role"
+        reasoning: "Apple's standardized interview process doesn't adjust for seniority"
+        validation_method: "Interview process feedback"
+
+      - prediction: "Satellite office dynamics mentioned by interviewers"
+        reasoning: "Dublin reports to Cupertino, significant context-sharing challenges"
+        validation_method: "Questions about team structure and decision-making during interviews"
+
+      - prediction: "Silos evident in team structure discussion"
+        reasoning: "Storage team vs serving team separation, minimal cross-team collaboration"
+        validation_method: "Team interaction patterns described in interviews"
+
+      - prediction: "Career ceiling at Staff/Team Lead level in Dublin"
+        reasoning: "No Principal+ roles in Dublin, advancement requires relocation to Cupertino"
+        validation_method: "Career path discussion during interviews or offer negotiation"
+
+      - prediction: "Limited autonomy in technical decision-making"
+        reasoning: "Architectural decisions made in Cupertino, Dublin implements"
+        validation_method: "Day-to-day work examples and decision authority discussion"
+
+    status: "materials_prepared"
+    next_steps:
+      - "Convert markdown to PDF"
+      - "Publish PDFs to davidlaing.com"
+      - "Submit application"
+      - "Request referral from James if needed"
