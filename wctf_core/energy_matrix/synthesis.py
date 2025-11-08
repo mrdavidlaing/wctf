@@ -34,7 +34,7 @@ def _parse_time_estimate(time_estimate_pct: str) -> int:
 def _aggregate_quadrant_distribution(flags: CompanyFlags) -> Dict[str, Dict[str, Any]]:
     """Aggregate task implications by quadrant."""
     distribution = {
-        "mutual_green_flags": {"percentage": 0, "tasks_count": 0},
+        "moare_green_flags": {"percentage": 0, "tasks_count": 0},
         "sparingly_yellow_flags": {"percentage": 0, "tasks_count": 0},
         "burnout_red_flags": {"percentage": 0, "tasks_count": 0},
         "help_mentoring_yellow_flags": {"percentage": 0, "tasks_count": 0},
@@ -76,9 +76,9 @@ def _aggregate_quadrant_distribution(flags: CompanyFlags) -> Dict[str, Dict[str,
 
         time_pct = _parse_time_estimate(impl.time_estimate_pct)
 
-        if impl.energy_matrix_quadrant == "mutual":
-            distribution["mutual_green_flags"]["percentage"] += time_pct
-            distribution["mutual_green_flags"]["tasks_count"] += 1
+        if impl.energy_matrix_quadrant == "moare":
+            distribution["moare_green_flags"]["percentage"] += time_pct
+            distribution["moare_green_flags"]["tasks_count"] += 1
         elif impl.energy_matrix_quadrant == "sparingly":
             distribution["sparingly_yellow_flags"]["percentage"] += time_pct
             distribution["sparingly_yellow_flags"]["tasks_count"] += 1
@@ -94,13 +94,13 @@ def _aggregate_quadrant_distribution(flags: CompanyFlags) -> Dict[str, Dict[str,
 
 def _check_thresholds(distribution: Dict[str, Dict[str, Any]]) -> Dict[str, bool]:
     """Check sustainability thresholds."""
-    mutual_pct = distribution["mutual_green_flags"]["percentage"]
+    moare_pct = distribution["moare_green_flags"]["percentage"]
     burnout_pct = distribution["burnout_red_flags"]["percentage"]
     sparingly_pct = distribution["sparingly_yellow_flags"]["percentage"]
     help_mentoring_pct = distribution["help_mentoring_yellow_flags"]["percentage"]
 
     return {
-        "meets_green_minimum": mutual_pct >= 60,
+        "meets_green_minimum": moare_pct >= 60,
         "exceeds_red_maximum": burnout_pct > 20,
         "exceeds_yellow_maximum": (sparingly_pct + help_mentoring_pct) > 30,
     }
@@ -111,11 +111,11 @@ def _calculate_sustainability_rating(
     thresholds: Dict[str, bool],
 ) -> str:
     """Calculate overall energy sustainability rating."""
-    mutual_pct = distribution["mutual_green_flags"]["percentage"]
+    moare_pct = distribution["moare_green_flags"]["percentage"]
     burnout_pct = distribution["burnout_red_flags"]["percentage"]
 
     # LOW: exceeds burnout threshold OR far below mutual threshold
-    if thresholds["exceeds_red_maximum"] or mutual_pct < 40:
+    if thresholds["exceeds_red_maximum"] or moare_pct < 40:
         return "LOW"
 
     # MEDIUM: meets minimums but not ideal
@@ -157,9 +157,9 @@ def generate_energy_synthesis(flags: CompanyFlags, profile: Profile) -> Dict[str
             f"{distribution['burnout_red_flags']['percentage']}% burnout quadrant work exceeds 20% threshold"
         )
 
-    if distribution["mutual_green_flags"]["percentage"] < 60:
+    if distribution["moare_green_flags"]["percentage"] < 60:
         key_insights.append(
-            f"Insufficient mutual quadrant work ({distribution['mutual_green_flags']['percentage']}% vs 60% needed)"
+            f"Insufficient moare quadrant work ({distribution['mutual_green_flags']['percentage']}% vs 60% needed)"
         )
 
     # Generate decision factors
@@ -171,7 +171,7 @@ def generate_energy_synthesis(flags: CompanyFlags, profile: Profile) -> Dict[str
 
     if not thresholds["meets_green_minimum"]:
         decision_factors.append(
-            f"RED: Only {distribution['mutual_green_flags']['percentage']}% mutual quadrant (need ≥60%)"
+            f"RED: Only {distribution['mutual_green_flags']['percentage']}% moare quadrant (need ≥60%)"
         )
 
     return {

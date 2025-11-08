@@ -171,7 +171,7 @@ The Energy Matrix evaluates whether daily work will energize or drain you, answe
 ```
                            Good at
         ┌──────────────────┬──────────────────┐
-        │   SPARINGLY      │     MUTUAL       │
+        │   SPARINGLY      │     MOARE        │
 Drains  │   (Top Left)     │   (Top Right)    │
 Energy  │  Skilled but     │  SWEET SPOT      │
         │  draining work   │  Energizing AND  │
@@ -208,7 +208,7 @@ Each flag now includes `task_implications` describing what you'll DO day-to-day:
 task_implications:
   - task: "Design K8s operators for platform services"
     time_estimate_pct: "20-30%"
-    energy_matrix_quadrant: "mutual"  # Auto-calculated
+    energy_matrix_quadrant: "moare"  # Auto-calculated
     characteristics:
       conflict_exposure: "low"
       progress_visibility: "high"
@@ -226,24 +226,24 @@ The synthesis section includes Energy Matrix analysis:
 ```yaml
 energy_matrix_analysis:
   predicted_daily_distribution:
-    mutual_green_flags: {percentage: 20, tasks_count: 3}
+    moare_green_flags: {percentage: 20, tasks_count: 3}
     burnout_red_flags: {percentage: 40, tasks_count: 6}
     # ...
 
   threshold_analysis:
-    meets_green_minimum: false  # Need ≥60% mutual
+    meets_green_minimum: false  # Need ≥60% moare
     exceeds_red_maximum: true   # Allow ≤20% burnout
 
   energy_sustainability: "LOW"  # HIGH/MEDIUM/LOW
 
   decision_factors:
     - "REJECT: 40% burnout quadrant exceeds 20% threshold"
-    - "RED: Only 20% mutual quadrant (need ≥60%)"
+    - "RED: Only 20% moare quadrant (need ≥60%)"
 ```
 
 ### Sustainability Thresholds
 
-- **≥60% Mutual (green):** Energizing work using your strengths
+- **≥60% MOARE (green):** Energizing work using your strengths
 - **≤20% Burnout (red):** Draining work you're not good at
 - **≤30% Sparingly + Help/Mentoring (yellow):** Combined
 

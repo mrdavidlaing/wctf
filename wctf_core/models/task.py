@@ -65,7 +65,7 @@ class TimezoneSpread(str, Enum):
 
 class EnergyMatrixQuadrant(str, Enum):
     """Energy Matrix quadrants."""
-    MUTUAL = "mutual"                    # Good at + energizes
+    MOARE = "moare"                      # Good at + energizes (Give me MOARE!)
     SPARINGLY = "sparingly"              # Good at + drains
     HELP_MENTORING = "help_mentoring"    # Not good at + energizes
     BURNOUT = "burnout"                  # Not good at + drains

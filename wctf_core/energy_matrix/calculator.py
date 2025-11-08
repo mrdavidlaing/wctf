@@ -155,7 +155,7 @@ def calculate_quadrant(
 
     # Map to quadrant
     if good_at and energizes:
-        return EnergyMatrixQuadrant.MUTUAL.value
+        return EnergyMatrixQuadrant.MOARE.value
     elif good_at and not energizes:
         return EnergyMatrixQuadrant.SPARINGLY.value
     elif not good_at and energizes:
