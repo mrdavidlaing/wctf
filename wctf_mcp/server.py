@@ -34,7 +34,11 @@ from wctf_core.operations.decision import (
     save_gut_decision,
     get_evaluation_summary,
 )
-from wctf_mcp.tools.profile_tools import get_profile_tool, update_profile_tool
+from wctf_mcp.tools.profile_tools import (
+    get_profile_tool,
+    update_profile_tool,
+    get_energy_summary_tool,
+)
 
 # Configure logging
 logging.basicConfig(
@@ -618,6 +622,24 @@ async def update_profile(updated_profile_yaml: str, ctx: Context) -> str:
     logger.info("update_profile tool called")
 
     result = await update_profile_tool(updated_profile_yaml)
+
+    # Return the text content directly
+    return result[0].text
+
+
+@mcp.tool()
+async def get_energy_summary(company_name: str, ctx: Context) -> str:
+    """Get just the energy_matrix_analysis from synthesis.
+
+    Quick view of energy distribution without full flags.
+
+    Args:
+        company_name: Company to analyze
+    """
+    await ctx.info(f"Getting energy summary for {company_name}")
+    logger.info(f"get_energy_summary tool called for: {company_name}")
+
+    result = await get_energy_summary_tool(company_name)
 
     # Return the text content directly
     return result[0].text

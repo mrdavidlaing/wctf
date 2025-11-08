@@ -73,3 +73,38 @@ async def test_update_profile_tool_increments_version(temp_wctf_dir, monkeypatch
     # Verify
     assert len(result) == 1
     assert "1.1" in result[0].text
+
+
+@pytest.mark.asyncio
+async def test_get_energy_summary_tool_returns_analysis(temp_wctf_dir, monkeypatch):
+    """Test get_energy_summary_tool returns just the energy analysis."""
+    # Setup company with energy analysis
+    company_dir = temp_wctf_dir / "data" / "stage-1" / "testcorp"
+    company_dir.mkdir(parents=True)
+
+    flags_data = {
+        "company": "TestCorp",
+        "evaluation_date": "2025-01-08",
+        "synthesis": {
+            "energy_matrix_analysis": {
+                "energy_sustainability": "MEDIUM",
+                "predicted_daily_distribution": {
+                    "mutual_green_flags": {"percentage": 50, "tasks_count": 3},
+                },
+            },
+        },
+    }
+
+    with open(company_dir / "company.flags.yaml", "w") as f:
+        yaml.dump(flags_data, f)
+
+    monkeypatch.setenv("WCTF_ROOT", str(temp_wctf_dir))
+
+    # Execute
+    from wctf_mcp.tools.profile_tools import get_energy_summary_tool
+    result = await get_energy_summary_tool("TestCorp")
+
+    # Verify
+    assert len(result) == 1
+    assert "MEDIUM" in result[0].text
+    assert "50" in result[0].text  # Should show percentage
