@@ -8,13 +8,24 @@ Generate a complete job application package using WCTF research and resume data.
 /create-job-application <job_url>
 ```
 
+Or with job posting text directly in conversation context:
+
+```
+/create-job-application
+[Job posting text should already be in the conversation]
+```
+
 ## Arguments
 
-- `job_url`: URL to the job posting (required)
+- `job_url`: URL to the job posting (optional if job text already in conversation)
 
 ## Description
 
 This command creates a tailored job application using existing WCTF research (facts, flags, insider intel) combined with your resume data. It generates professional markdown documents, converts them to branded PDFs, and publishes them to davidlaing.com with obscured URLs.
+
+You can provide either:
+1. A URL to fetch the job posting, OR
+2. The job posting text directly in the conversation (paste it before running the command)
 
 ## Workflow
 
@@ -22,7 +33,11 @@ You will execute the following steps:
 
 ### 1. Extract Job Details
 
-Fetch and parse the job posting from the provided URL. Extract:
+**If job_url provided:** Fetch and parse the job posting from the URL.
+
+**If no URL provided:** Use the job posting text from the conversation context (user should have pasted it in the previous message).
+
+Extract:
 - Company name
 - Job title
 - Team name (if mentioned)
