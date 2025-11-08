@@ -34,6 +34,7 @@ from wctf_core.operations.decision import (
     save_gut_decision,
     get_evaluation_summary,
 )
+from wctf_mcp.tools.profile_tools import get_profile_tool, update_profile_tool
 
 # Configure logging
 logging.basicConfig(
@@ -583,6 +584,43 @@ async def get_evaluation_summary_tool(ctx: Context) -> dict:
         await ctx.warning(f"Error: {result.get('error')}")
 
     return result
+
+
+@mcp.tool()
+async def get_profile(ctx: Context) -> str:
+    """Get current profile.yaml for reference during flag extraction.
+
+    Returns the full profile including energy drains, generators, strengths,
+    and organizational coherence needs.
+    """
+    await ctx.info("Retrieving profile")
+    logger.info("get_profile tool called")
+
+    result = await get_profile_tool()
+
+    # Return the text content directly
+    return result[0].text
+
+
+@mcp.tool()
+async def update_profile(updated_profile_yaml: str, ctx: Context) -> str:
+    """Update profile.yaml with new self-knowledge.
+
+    Args:
+        updated_profile_yaml: Complete profile YAML content
+
+    Actions:
+        - Increments profile_version (e.g., "1.0" -> "1.1")
+        - Updates last_updated timestamp
+        - Writes to data/profile.yaml
+    """
+    await ctx.info("Updating profile")
+    logger.info("update_profile tool called")
+
+    result = await update_profile_tool(updated_profile_yaml)
+
+    # Return the text content directly
+    return result[0].text
 
 
 def main():
