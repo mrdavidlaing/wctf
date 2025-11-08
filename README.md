@@ -339,6 +339,49 @@ Evaluation flags for decision making:
 - `missing_critical_data` - Information gaps to investigate
 - `synthesis` - Overall evaluation and recommendation
 
+## Changelog
+
+### Version 4.0 - Energy Matrix Integration
+
+**Released:** 2025-01-08
+
+#### New Features
+
+- **Energy Matrix Integration:** Evaluates whether daily work will energize or drain you
+- **Profile Storage:** Personal profile in `data/profile.yaml` with energy drains, generators, and strengths
+- **Task Implications:** Each flag now includes tasks you'll do with 20+ characteristics
+- **Auto-Quadrant Calculation:** System automatically calculates which quadrant each task falls into
+- **Sustainability Thresholds:** Checks if role meets ≥60% mutual, ≤20% burnout requirements
+- **Energy Synthesis:** Aggregates task distribution and generates accept/reject signals
+
+#### New MCP Tools
+
+- `get_profile` - Get current profile for reference
+- `update_profile` - Update profile with version increment
+- `get_energy_summary` - Quick energy analysis view
+
+#### Breaking Changes
+
+- `MountainFlags` model now includes `profile_version_used` field
+- `Flag` model now includes `task_implications` field
+- Synthesis section now includes `energy_matrix_analysis`
+
+#### Migration Guide
+
+Existing flags files will continue to work. To use Energy Matrix features:
+
+1. Create `data/profile.yaml` (see design doc for template)
+2. Add `profile_version_used: "1.0"` to new flags files
+3. Include `task_implications` with characteristics for each flag
+4. System will auto-calculate quadrants and synthesis
+
+#### What's Next (v4.1)
+
+- Tune algorithm thresholds based on real evaluations
+- Add organizational coherence pattern detection
+- Support for re-evaluating companies with updated profile
+- Calibration tools for time estimate accuracy
+
 ## Contributing
 
 To add new company data:
