@@ -180,6 +180,83 @@ missing_critical_data:
 - **Missing data**: Track questions raised but not answered, or critical topics not covered in research
 - **Impact matters**: Every flag should explain WHY it matters for a staff engineer
 
+## Energy Matrix Integration
+
+For each flag, identify **task implications** - what you'll actually DO day-to-day because of this fact.
+
+### Task Implication Structure
+
+For each flag, add `task_implications` with:
+
+```yaml
+task_implications:
+  - task: "Clear description of what you'll do"
+    time_estimate_pct: "15-20%"  # Or single value like "10%"
+    characteristics:
+      # Conflict & alignment
+      conflict_exposure: "high" | "moderate" | "low" | "none"
+      alignment_clarity: "high" | "moderate" | "low"
+      authority_ambiguity: "high" | "moderate" | "low"
+
+      # Progress & autonomy
+      progress_visibility: "high" | "moderate" | "low"
+      autonomy_level: "high" | "moderate" | "low"
+      decision_speed: "fast" | "moderate" | "slow"
+
+      # Skill alignment (check profile.yaml for your strengths)
+      learning_required: "none" | "low" | "moderate" | "high"
+      uses_systems_thinking: true | false
+      uses_tool_building: true | false
+      uses_glue_work: true | false
+      uses_infrastructure_automation: true | false
+      uses_decision_frameworks: true | false
+
+      # Work context
+      collaboration_type: "solo" | "paired" | "team" | "cross_team"
+      meeting_intensity: "low" | "moderate" | "high"
+      requires_sync_communication: true | false
+      timezone_spread: "co_located" | "narrow" | "moderate" | "wide"
+    notes: "Optional notes about this task"
+```
+
+### Reference Profile
+
+Use the `get_profile` tool to see your personal energy drains, generators, and strengths.
+Match task characteristics against your profile to ensure accurate quadrant calculation.
+
+### Example
+
+```yaml
+green_flags:
+  mountain_range:
+    critical_matches:
+      - flag: "Modern tech stack: Kubernetes, Python, Go"
+        impact: "Matches infrastructure expertise"
+        confidence: "High - explicit in job description"
+        task_implications:
+          - task: "Design K8s operators for platform services"
+            time_estimate_pct: "20-30%"
+            characteristics:
+              conflict_exposure: "low"
+              alignment_clarity: "high"
+              authority_ambiguity: "low"
+              progress_visibility: "high"
+              autonomy_level: "high"
+              decision_speed: "fast"
+              uses_systems_thinking: true
+              uses_tool_building: true
+              uses_infrastructure_automation: true
+              learning_required: "low"
+              collaboration_type: "team"
+              meeting_intensity: "low"
+              requires_sync_communication: false
+              timezone_spread: "narrow"
+            notes: "Platform work with clear scope, autonomous execution"
+```
+
+The system will auto-calculate the Energy Matrix quadrant (mutual/sparingly/burnout/help_mentoring)
+when you save the flags.
+
 ## Evaluator Context
 
 You are evaluating from the perspective of a staff engineer (25+ years experience) focused on sustainable excellence and long-term career growth. Consider the five mountain elements as your decision framework.
