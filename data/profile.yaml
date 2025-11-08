@@ -1,12 +1,12 @@
 profile_version: "1.0"
-last_updated: "2025-01-08"
+last_updated: "2025-11-08"
 
 # Energy drains (things that deplete your reserves)
 energy_drains:
   interpersonal_conflict:
     severity: "severe"
     trigger: "childhood_trauma"
-    description: "Conflicts in close working relationships cause severe energy drain"
+    description: "Witnessing conflicts between others on immediate team or in leadership chain causes severe energy drain (childhood trauma from parents' divorce). Direct one-on-one conflict is moderate drain, but being present during conflicts between team members or leaders is extreme drain"
 
   misalignment:
     severity: "severe"
