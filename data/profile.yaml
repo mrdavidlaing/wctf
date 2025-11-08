@@ -1,0 +1,99 @@
+profile_version: "1.0"
+last_updated: "2025-01-08"
+
+# Energy drains (things that deplete your reserves)
+energy_drains:
+  interpersonal_conflict:
+    severity: "severe"
+    trigger: "childhood_trauma"
+    description: "Conflicts in close working relationships cause severe energy drain"
+
+  misalignment:
+    severity: "severe"
+    trigger: "blocks_progress"
+    description: "Team moving in different directions, circular motion instead of forward progress"
+
+  authority_ambiguity:
+    severity: "moderate"
+    trigger: "creates_latent_conflict"
+    description: "Unclear ownership/authority creates hidden conflicts that drain energy"
+
+  financial_anxiety:
+    severity: "moderate"
+    trigger: "survival_concerns"
+    description: "Worrying about money leaks energy from progress work"
+
+# Energy generators (things that restore/amplify your reserves)
+energy_generators:
+  visible_progress:
+    strength: "core_need"
+    description: "Building things, shipping features, seeing forward momentum"
+
+  aligned_collaboration:
+    strength: "strong"
+    description: "Team moving together toward shared goal with clear direction"
+
+  tool_building:
+    strength: "core_need"
+    description: "Creating systems and tools, flow state work"
+
+  structured_processes:
+    strength: "moderate"
+    description: "Clear decision frameworks that prevent conflict"
+
+# Core strengths (established expertise)
+core_strengths:
+  - name: "systems_thinking"
+    level: "expert"
+    description: "Designing and building complex interconnected systems"
+
+  - name: "tool_building"
+    level: "expert"
+    description: "Creating automation, CLIs, infrastructure tooling"
+
+  - name: "glue_work"
+    level: "expert"
+    description: "Bridging between teams, enabling others' progress"
+
+  - name: "infrastructure_automation"
+    level: "expert"
+    description: "Platform engineering, SRE practices, release engineering"
+
+  - name: "decision_frameworks"
+    level: "proficient"
+    description: "Building frameworks that prevent misalignment conflicts"
+
+# Growth areas (actively learning)
+growth_areas:
+  - name: "multi_agent_orchestration"
+    current_level: "learning"
+    energizing: true
+    description: "Coordinating multiple AI agents for complex workflows"
+
+  - name: "ai_augmented_workflows"
+    current_level: "proficient"
+    energizing: true
+    description: "Building human+AI collaboration systems"
+
+# Communication & decision-making preferences
+communication_preferences:
+  async_work_capability: "strong"
+  timezone_flexibility: "6_hours"
+  decision_making_speed_needs:
+    when_uncertain: "fast_alignment"
+    when_clear: "autonomous"
+  meeting_intensity_tolerance:
+    max_pct: 30
+    ideal_pct: 20
+
+# Organizational coherence requirements
+organizational_coherence_needs:
+  - pattern: "uncertain_problem_space"
+    requires_one_of:
+      - "async_first_culture"
+      - "co_located_team"
+      - "fast_sync_decision_cadence"
+    incompatible_with:
+      - "wide_timezone_spread + sync_heavy_culture"
+    impact_if_violated: "severe_drain"
+    description: "Uncertain problems need tight feedback loops - either async-friendly OR co-located"
