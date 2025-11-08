@@ -370,3 +370,77 @@ class TestEnums:
         assert FlagSeverity.YES == "YES"
         assert FlagSeverity.NO == "NO"
         assert FlagSeverity.MAYBE == "MAYBE"
+
+
+def test_task_characteristics_basic_structure():
+    """Test TaskCharacteristics model validates correctly."""
+    from wctf_core.models import TaskCharacteristics
+    chars = TaskCharacteristics(
+        conflict_exposure="low",
+        alignment_clarity="high",
+        authority_ambiguity="low",
+        progress_visibility="high",
+        autonomy_level="high",
+        decision_speed="fast",
+        learning_required="low",
+        collaboration_type="team",
+        meeting_intensity="low",
+        requires_sync_communication=False,
+        timezone_spread="narrow",
+    )
+    assert chars.conflict_exposure == "low"
+    assert chars.progress_visibility == "high"
+    assert chars.requires_sync_communication is False
+
+
+def test_task_implication_basic_structure():
+    """Test TaskImplication model with characteristics."""
+    from wctf_core.models import TaskImplication, TaskCharacteristics
+    impl = TaskImplication(
+        task="Design K8s operators for platform services",
+        time_estimate_pct="20-30%",
+        characteristics=TaskCharacteristics(
+            conflict_exposure="low",
+            alignment_clarity="high",
+            authority_ambiguity="low",
+            progress_visibility="high",
+            autonomy_level="high",
+            decision_speed="fast",
+            learning_required="low",
+            collaboration_type="team",
+            meeting_intensity="low",
+            requires_sync_communication=False,
+            timezone_spread="narrow",
+        ),
+        notes="Platform work with clear scope",
+    )
+    assert impl.task == "Design K8s operators for platform services"
+    assert impl.time_estimate_pct == "20-30%"
+    assert impl.energy_matrix_quadrant is None  # Not calculated yet
+
+
+def test_task_implication_with_strength_flags():
+    """Test TaskImplication with core strength usage flags."""
+    from wctf_core.models import TaskImplication, TaskCharacteristics
+    impl = TaskImplication(
+        task="Build automation tooling",
+        time_estimate_pct="15%",
+        characteristics=TaskCharacteristics(
+            conflict_exposure="none",
+            alignment_clarity="high",
+            authority_ambiguity="low",
+            progress_visibility="high",
+            autonomy_level="high",
+            decision_speed="fast",
+            learning_required="none",
+            collaboration_type="solo",
+            meeting_intensity="low",
+            requires_sync_communication=False,
+            timezone_spread="co_located",
+            uses_systems_thinking=True,
+            uses_tool_building=True,
+            uses_infrastructure_automation=True,
+        ),
+    )
+    assert impl.characteristics.uses_tool_building is True
+    assert impl.characteristics.uses_systems_thinking is True
