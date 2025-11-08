@@ -31,6 +31,12 @@ from wctf_core.models.task import (
     TaskImplication,
 )
 
+# Rebuild models that have forward references to TaskImplication
+Flag.model_rebuild()
+MountainElementGreenFlags.model_rebuild()
+MountainElementRedFlags.model_rebuild()
+CompanyFlags.model_rebuild()
+
 __all__ = [
     # Company models
     "ConfidenceLevel",

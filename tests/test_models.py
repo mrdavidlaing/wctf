@@ -444,3 +444,76 @@ def test_task_implication_with_strength_flags():
     )
     assert impl.characteristics.uses_tool_building is True
     assert impl.characteristics.uses_systems_thinking is True
+
+
+def test_flag_with_task_implications():
+    """Test Flag model with task implications."""
+    from wctf_core.models import Flag, TaskImplication, TaskCharacteristics
+
+    flag = Flag(
+        flag="Modern tech stack: Kubernetes, Python, Go",
+        impact="Matches infrastructure expertise",
+        confidence="High - explicit in job description",
+        task_implications=[
+            TaskImplication(
+                task="Design K8s operators",
+                time_estimate_pct="20-30%",
+                characteristics=TaskCharacteristics(
+                    conflict_exposure="low",
+                    alignment_clarity="high",
+                    authority_ambiguity="low",
+                    progress_visibility="high",
+                    autonomy_level="high",
+                    decision_speed="fast",
+                    learning_required="low",
+                    collaboration_type="team",
+                    meeting_intensity="low",
+                    requires_sync_communication=False,
+                    timezone_spread="narrow",
+                    uses_systems_thinking=True,
+                    uses_tool_building=True,
+                    uses_infrastructure_automation=True,
+                ),
+                notes="Platform work with clear scope",
+            )
+        ],
+    )
+
+    assert len(flag.task_implications) == 1
+    assert flag.task_implications[0].task == "Design K8s operators"
+
+
+def test_company_flags_with_profile_version():
+    """Test CompanyFlags model includes profile_version_used and synthesis is optional."""
+    flags = CompanyFlags(
+        company="TestCorp",
+        evaluation_date=date(2025, 1, 8),
+        evaluator_context="Test evaluation",
+        profile_version_used="1.0",
+        staff_engineer_alignment={
+            "organizational_maturity": "GOOD",
+            "technical_culture": "EXCELLENT",
+            "decision_making": "GOOD",
+            "work_sustainability": "EXCELLENT",
+            "growth_trajectory": "GOOD",
+        },
+        green_flags={
+            "mountain_range": MountainElementGreenFlags(),
+            "chosen_peak": MountainElementGreenFlags(),
+            "rope_team_confidence": MountainElementGreenFlags(),
+            "daily_climb": MountainElementGreenFlags(),
+            "story_worth_telling": MountainElementGreenFlags(),
+        },
+        red_flags={
+            "mountain_range": MountainElementRedFlags(),
+            "chosen_peak": MountainElementRedFlags(),
+            "rope_team_confidence": MountainElementRedFlags(),
+            "daily_climb": MountainElementRedFlags(),
+            "story_worth_telling": MountainElementRedFlags(),
+        },
+        missing_critical_data=[],
+    )
+
+    assert flags.profile_version_used == "1.0"
+    # synthesis should be optional and None if not provided
+    assert flags.synthesis is None or isinstance(flags.synthesis, dict)

@@ -10,11 +10,14 @@ All models use Pydantic v2 for validation and serialization.
 
 from datetime import date as Date
 from enum import Enum
-from typing import Any, Dict, List, Optional
+from typing import TYPE_CHECKING, Any, Dict, List, Optional
 
 from pydantic import BaseModel, Field, field_serializer, model_validator
 
 from wctf_core.utils.paths import slugify_company_name
+
+if TYPE_CHECKING:
+    from wctf_core.models.task import TaskImplication
 
 
 class ConfidenceLevel(str, Enum):
@@ -191,11 +194,19 @@ class CompanyInsiderFacts(BaseModel):
 
 
 class Flag(BaseModel):
-    """A flag (positive or negative) about a company."""
+    """A single evaluation flag (green or red).
 
-    flag: str = Field(..., description="The flag observation")
-    impact: str = Field(..., description="Impact of this flag")
-    confidence: str = Field(..., description="Confidence level in this flag")
+    Flags are derived from facts through evaluation and include
+    task implications for Energy Matrix analysis.
+    """
+
+    flag: str = Field(..., description="The flag statement")
+    impact: str = Field(..., description="Why this matters")
+    confidence: str = Field(..., description="Confidence in this flag")
+    task_implications: List['TaskImplication'] = Field(
+        default_factory=list,
+        description="Tasks you'll do because of this flag"
+    )
 
 
 class MountainElementGreenFlags(BaseModel):
@@ -237,12 +248,17 @@ class CompanyFlags(BaseModel):
     """Complete flags structure for a company evaluation.
 
     Uses double hierarchy: mountain elements (what aspect) -> severity (how important).
+    Includes task implications for Energy Matrix analysis.
     """
 
     company: str = Field(..., description="Company display name")
     company_slug: Optional[str] = Field(None, description="Slugified company name for filesystem (auto-generated if not provided)")
     evaluation_date: Date = Field(..., description="Date when evaluation was done")
     evaluator_context: str = Field(..., description="Context of the evaluator")
+    profile_version_used: Optional[str] = Field(
+        default=None,
+        description="Version of profile.yaml used for this evaluation"
+    )
     staff_engineer_alignment: Dict[str, str] = Field(
         ..., description="Alignment with staff engineer criteria"
     )
@@ -257,7 +273,10 @@ class CompanyFlags(BaseModel):
     missing_critical_data: List[MissingCriticalData] = Field(
         ..., description="Critical missing information"
     )
-    synthesis: Dict[str, Any] = Field(..., description="Overall synthesis and recommendation")
+    synthesis: Optional[Dict[str, Any]] = Field(
+        default=None,
+        description="Overall synthesis and recommendation including Energy Matrix analysis"
+    )
 
     @model_validator(mode='after')
     def generate_slug_if_missing(self) -> 'CompanyFlags':
