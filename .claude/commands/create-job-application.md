@@ -90,6 +90,47 @@ Create a tailored CV in markdown format highlighting relevant experience from re
 - Use headers for sections (Summary, Experience, Skills, Education)
 - Bullet points for achievements
 - No complex formatting (tables, images, etc.)
+- **MUST wrap sections in HTML tags to prevent page breaks in PDF:**
+  - Wrap each major section (Professional Summary, Technical Skills, Professional Experience, Education, etc.) in `<section>` tags
+  - Within Professional Experience, wrap each individual job entry in `<div class="keep-together">` tags
+  - Leave blank lines before and after opening/closing tags
+  - Example structure:
+    ```markdown
+    <section>
+
+    ## Professional Summary
+
+    Content here...
+
+    </section>
+
+    ---
+
+    <section>
+
+    ## Professional Experience
+
+    <div class="keep-together">
+
+    ### Job Title - Company
+    *Dates*
+
+    - Achievement 1
+    - Achievement 2
+
+    </div>
+
+    <div class="keep-together">
+
+    ### Job Title - Company
+    *Dates*
+
+    - Achievement 1
+
+    </div>
+
+    </section>
+    ```
 
 Save to: `data/stage-2/<company>/applications/<job-slug>/mrdavidlaing-cv-YYYYMMDD.md`
 
@@ -139,6 +180,36 @@ Create a tailored cover letter using the **WCTF-informed but subtle approach**.
   ---
   ```
 - Follow with standard cover letter structure
+- **MUST wrap content in `<section>` tags to prevent page breaks in PDF:**
+  - Wrap the header (name, contact info, recipient) in one `<section>`
+  - Wrap the body (letter content) in another `<section>`
+  - Leave blank lines before and after opening/closing tags
+  - Example structure:
+    ```markdown
+    <section>
+
+    # David Laing
+    Contact info...
+
+    Date
+
+    Recipient info...
+
+    </section>
+
+    ---
+
+    <section>
+
+    Dear Hiring Manager,
+
+    Letter content...
+
+    Sincerely,
+    David Laing
+
+    </section>
+    ```
 
 Save to: `data/stage-2/<company>/applications/<job-slug>/mrdavidlaing-cover-letter-YYYYMMDD.md`
 

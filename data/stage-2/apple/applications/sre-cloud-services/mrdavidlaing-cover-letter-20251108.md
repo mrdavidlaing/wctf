@@ -1,3 +1,5 @@
+<section>
+
 # David Laing
 Dublin, Ireland
 david@davidlaing.com
@@ -11,7 +13,11 @@ Dublin, Ireland
 
 **RE: Site Reliability Engineer - Role 200566030-0562**
 
+</section>
+
 ---
+
+<section>
 
 Dear Hiring Manager,
 
@@ -33,3 +39,5 @@ Thank you for considering my application.
 
 Sincerely,
 David Laing
+
+</section>
