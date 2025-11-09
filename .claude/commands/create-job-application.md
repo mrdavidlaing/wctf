@@ -266,43 +266,29 @@ applications:
 - Include insider contact only if company.insider.yaml exists
 - Include predictions only if company.flags.yaml exists
 
-### 6. Convert Markdown to PDF
+### 6. Publish Markdown Files to davidlaing.com
 
-Use `npx md-to-pdf` to convert both markdown files to PDFs with davidlaing-com branding.
+Copy the markdown files to the davidlaing-com Hugo content directory. PDFs will be automatically generated during the Hugo build process.
 
-**For CV:**
-```bash
-npx md-to-pdf data/stage-2/<company>/applications/<job-slug>/mrdavidlaing-cv-YYYYMMDD.md \
-  --stylesheet /workspace/active/projects/davidlaing-com/styles/solarized-light.css \
-  --pdf-options '{"format": "Letter", "margin": "20mm"}'
-```
-
-**For Cover Letter:**
-```bash
-npx md-to-pdf data/stage-2/<company>/applications/<job-slug>/mrdavidlaing-cover-letter-YYYYMMDD.md \
-  --stylesheet /workspace/active/projects/davidlaing-com/styles/solarized-light.css \
-  --pdf-options '{"format": "Letter", "margin": "20mm"}'
-```
-
-This will create PDFs in the same directory as the markdown files.
-
-**Note:** If the solarized-light.css stylesheet doesn't exist yet, use the professional.css from the markdown-to-pdf skill as a fallback, or generate without a custom stylesheet.
-
-### 7. Publish PDFs to davidlaing.com
-
-Create the destination directory and copy PDFs:
+Create the destination directory and copy markdown files:
 
 ```bash
-mkdir -p /workspace/active/projects/davidlaing-com/static/wctf/<short-sha>
+mkdir -p /workspace/active/projects/davidlaing-com/content/wctf/<short-sha>
 
-cp data/stage-2/<company>/applications/<job-slug>/mrdavidlaing-cv-YYYYMMDD.pdf \
-   /workspace/active/projects/davidlaing-com/static/wctf/<short-sha>/
+cp data/stage-2/<company>/applications/<job-slug>/mrdavidlaing-cv-YYYYMMDD.md \
+   /workspace/active/projects/davidlaing-com/content/wctf/<short-sha>/
 
-cp data/stage-2/<company>/applications/<job-slug>/mrdavidlaing-cover-letter-YYYYMMDD.pdf \
-   /workspace/active/projects/davidlaing-com/static/wctf/<short-sha>/
+cp data/stage-2/<company>/applications/<job-slug>/mrdavidlaing-cover-letter-YYYYMMDD.md \
+   /workspace/active/projects/davidlaing-com/content/wctf/<short-sha>/
 ```
 
-**Result:** PDFs are now accessible at:
+**Note:** When the davidlaing.com site is built (via `make build`), Hugo will:
+1. Convert the markdown files to HTML
+2. Generate PDFs from the HTML using WeasyPrint
+3. Place PDFs alongside the markdown files in `content/wctf/<short-sha>/`
+4. Copy PDFs to `static/wctf/<short-sha>/` for deployment
+
+**Result:** After the site is built and deployed, PDFs will be accessible at:
 - `https://davidlaing.com/wctf/<short-sha>/mrdavidlaing-cv-YYYYMMDD.pdf`
 - `https://davidlaing.com/wctf/<short-sha>/mrdavidlaing-cover-letter-YYYYMMDD.pdf`
 
@@ -310,8 +296,10 @@ cp data/stage-2/<company>/applications/<job-slug>/mrdavidlaing-cover-letter-YYYY
 - URLs are obscured (short-sha not guessable)
 - Downloaded files have professional names
 - Short-sha links back to application tracking in WCTF
+- PDFs are automatically generated with proper fonts and styling
+- Markdown and PDF files are co-located in the same directory
 
-### 8. Output Application Summary
+### 7. Output Application Summary
 
 Present the user with a summary of what was created:
 
@@ -336,11 +324,13 @@ Present the user with a summary of what was created:
    - <prediction 2>
 
 📝 Next Steps:
-   1. Review the generated CV and cover letter
-   2. Copy the PDF URLs above
-   3. Visit the job posting and submit your application
-   4. Paste the CV and cover letter URLs into the application form
-   5. Update application status in company.applications.yaml as it progresses
+   1. Review the generated CV and cover letter markdown files
+   2. Build and deploy the davidlaing.com site to generate PDFs:
+      cd /workspace/active/projects/davidlaing-com && make build
+   3. Copy the PDF URLs above
+   4. Visit the job posting and submit your application
+   5. Paste the CV and cover letter URLs into the application form
+   6. Update application status in company.applications.yaml as it progresses
 ```
 
 If WCTF research exists and shows a DECLINE verdict, also note:
