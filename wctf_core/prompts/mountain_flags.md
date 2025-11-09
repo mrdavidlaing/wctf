@@ -281,9 +281,36 @@ task_implications:
 **Red Flag Compounding:**
 Multiple severe issues create MORE than additive overhead due to interaction effects.
 
+**Theater/Deception Patterns (Vaporware, POC Theater, Demo Ware):**
+
+When research reveals intentional deception vs execution gaps, time overhead is SEVERE:
+
+*Vaporware (product doesn't exist, only demos):*
+- Building demos pretending they're real product: 20-30%
+- This is BURNOUT work (moral injury, destroys meaning)
+- Triggers: "No real customers," "zero POC conversions," "sales failure," "building lies"
+
+*POC Theater (running POCs with no conversion intent/ability):*
+- Performing sales theater: 15-25%
+- Combine with vaporware overhead (they overlap)
+- Triggers: "X paid POCs" but zero conversions, customer concentration with no expansion
+
+*Scapegoating Culture (blame vs fix):*
+- Navigating blame dynamics: 10-20%
+- Adds to interpersonal conflict exposure
+- Triggers: Leadership terminations during crisis, "weak leadership," pattern of blame
+
+**When multiple deception patterns present → escalate to Level 5 (Terminal Decline):**
+- Customer loss + sales failure + vaporware + pivot = death spiral
+- Don't give benefit of doubt - assume Level 5 until insider proves otherwise
+
+**Founder Pedigree Discount:**
+Past success only counts if validated by CURRENT results. "Proven leader failing now" is RED flag, not green.
+
 **Validation Check:**
 - For "PROCEED WITH EXTREME CAUTION" companies → Energy Sustainability should be MEDIUM or LOW (not HIGH)
 - For "CONCERNING STABILITY" companies → Usually MEDIUM
+- For vaporware/POC theater patterns → Usually LOW (10-25% productive work)
 - Total time should sum to ~100% (green + yellow + red)
 
 ### Reference Profile
