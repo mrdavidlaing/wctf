@@ -219,6 +219,73 @@ task_implications:
     notes: "Optional notes about this task"
 ```
 
+### Time Estimate Realism - CRITICAL GUIDANCE
+
+**IMPORTANT**: Time estimates must reflect ACTUAL organizational overhead, not wishful thinking. Dysfunction consumes time exponentially, not linearly.
+
+**Organizational Health Levels (use research facts to classify):**
+
+**Level 1 - Exceptional Stability** (profitable, founder-led 10+ years, no layoffs, high sentiment):
+- Green (productive work): 70-85%
+- Yellow (coordination): 10-20%
+- Red (defensive): 0-10%
+
+**Level 2 - Healthy Growth** (growing revenue, stable leadership, good sentiment 3.5-4.0):
+- Green (productive work): 60-70%
+- Yellow (coordination): 20-30%
+- Red (defensive): 5-15%
+
+**Level 3 - Moderate Dysfunction** (1-2 layoffs, occasional reorgs, mixed sentiment 3.0-3.5):
+- Green (productive work): 50-60%
+- Yellow (coordination): 25-35%
+- Red (defensive): 15-25%
+
+**Level 4 - Severe Dysfunction** (3+ layoffs in 18mo, reorgs every 6mo, <3.0 sentiment):
+- Green (productive work): 30-45%
+- Yellow (coordination): 30-40%
+- Red (defensive): 25-40%
+
+**Level 5 - Terminal Decline** (mass layoffs >30%, leadership exodus, bankruptcy risk):
+- Green (productive work): 10-25%
+- Yellow (keeping lights on): 30-40%
+- Red (survival/exit): 40-60%
+
+**Task-Specific Time Guidance:**
+
+*Navigating Reorgs:*
+- Every 2-3 years: 5-10%
+- Every 12-18 months: 10-15%
+- Every 6 months: 20-30% (constant realignment overhead)
+
+*Managing Layoff Anxiety:*
+- Single past layoff: 5%
+- 2 layoffs in 2 years: 10-15%
+- 3+ layoffs in 18 months: 15-25% (ongoing survival stress)
+
+*Below-Market Compensation:*
+- Slight gap (<10%): 5%
+- Moderate gap (10-20%): 10-15%
+- Severe gap (>20%) + layoffs: 15-25% (active job search)
+
+*Manager Churn:*
+- Stable (2+ years same manager): 0-5%
+- 1 change per year: 10%
+- 2-3 changes per year: 15-20%
+- 5-6 managers in 2 years: 20-25% (constant re-proving value)
+
+*Unclear Product Vision:*
+- Clear vision: 0-5%
+- Some uncertainty: 10-15%
+- "All over the place": 20-30% (constant reprioritization waste)
+
+**Red Flag Compounding:**
+Multiple severe issues create MORE than additive overhead due to interaction effects.
+
+**Validation Check:**
+- For "PROCEED WITH EXTREME CAUTION" companies → Energy Sustainability should be MEDIUM or LOW (not HIGH)
+- For "CONCERNING STABILITY" companies → Usually MEDIUM
+- Total time should sum to ~100% (green + yellow + red)
+
 ### Reference Profile
 
 Use the `get_profile` tool to see your personal energy drains, generators, and strengths.
