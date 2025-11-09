@@ -1,0 +1,297 @@
+company: FuturHealth
+company_slug: futurhealth
+evaluation_date: '2025-11-09'
+evaluator_context: Extracted using WCTF calibrated workflow - Level 2 Chaotic Growth Organization
+profile_version_used: '1.0'
+green_flags:
+  mountain_range:
+    critical_matches: []
+    strong_positives: []
+  chosen_peak:
+    critical_matches: []
+    strong_positives:
+    - flag: Modern tech stack (Node.js, Django, Vue/Nuxt, React Native, GCP, K8s)
+      impact: Uses current technologies aligned with infrastructure automation expertise
+      confidence: High - Job postings detail stack
+      task_implications:
+      - task: Build K8s infrastructure for telehealth platform on GCP
+        time_estimate_pct: 20%
+        characteristics:
+          conflict_exposure: high
+          alignment_clarity: low
+          authority_ambiguity: high
+          progress_visibility: moderate
+          autonomy_level: moderate
+          decision_speed: slow
+          learning_required: low
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_glue_work: false
+          uses_infrastructure_automation: true
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: moderate
+          requires_sync_communication: true
+          timezone_spread: narrow
+        notes: Good tech stack but org chaos limits effectiveness. No CTO/VP Eng → authority_ambiguity HIGH
+        energy_matrix_quadrant: sparingly
+    - flag: HIPAA-compliant infrastructure with HiTrust certification
+      impact: Established security framework provides some structure
+      confidence: High - Job postings explicitly state
+      task_implications:
+      - task: Maintain HIPAA/HiTrust compliance for healthcare infrastructure
+        time_estimate_pct: 12%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: moderate
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: moderate
+          uses_systems_thinking: true
+          uses_tool_building: false
+          uses_glue_work: false
+          uses_infrastructure_automation: true
+          uses_decision_frameworks: true
+          collaboration_type: solo
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: co_located
+        notes: Compliance requirements provide clear decision_frameworks - rare structure in chaotic org
+        energy_matrix_quadrant: moare
+  rope_team_confidence:
+    critical_matches: []
+    strong_positives: []
+  daily_climb:
+    critical_matches: []
+    strong_positives:
+    - flag: Fully remote engineering positions with flexible schedule
+      impact: Supports timezone flexibility and async work capability from profile
+      confidence: High - Multiple job postings confirm
+      task_implications:
+      - task: Collaborate remotely with distributed engineering team
+        time_estimate_pct: 10%
+        characteristics:
+          conflict_exposure: moderate
+          alignment_clarity: low
+          authority_ambiguity: high
+          progress_visibility: moderate
+          autonomy_level: high
+          decision_speed: moderate
+          learning_required: none
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: true
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: narrow
+        notes: Remote work aligns with profile but organizational immaturity creates coordination overhead
+        energy_matrix_quadrant: sparingly
+  story_worth_telling:
+    critical_matches: []
+    strong_positives:
+    - flag: Rapid growth market (GLP-1 market projected $100-150B by 2030)
+      impact: Large addressable market creates opportunity for impact
+      confidence: High - Industry analyst projections
+      task_implications:
+      - task: Scale infrastructure to support explosive patient growth
+        time_estimate_pct: 18%
+        characteristics:
+          conflict_exposure: high
+          alignment_clarity: low
+          authority_ambiguity: high
+          progress_visibility: high
+          autonomy_level: moderate
+          decision_speed: slow
+          learning_required: low
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_glue_work: true
+          uses_infrastructure_automation: true
+          uses_decision_frameworks: false
+          collaboration_type: cross_team
+          meeting_intensity: high
+          requires_sync_communication: true
+          timezone_spread: narrow
+        notes: Growth creates visible_progress but org immaturity means misalignment and conflict risks
+        energy_matrix_quadrant: sparingly
+red_flags:
+  mountain_range:
+    dealbreakers:
+    - flag: No follow-on funding after Dec 2023 Series A ($5M) - 10+ months with no capital
+      impact: SEVERE FINANCIAL ANXIETY - triggers profile drain. Burning $5M with explosive growth claims but no investor validation
+      confidence: High - PitchBook/Tracxn show no subsequent rounds
+      task_implications:
+      - task: Work under extreme financial pressure with potential runway crisis
+        time_estimate_pct: 22%
+        characteristics:
+          conflict_exposure: high
+          alignment_clarity: low
+          authority_ambiguity: high
+          progress_visibility: low
+          autonomy_level: low
+          decision_speed: slow
+          learning_required: none
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: false
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: cross_team
+          meeting_intensity: high
+          requires_sync_communication: true
+          timezone_spread: narrow
+        notes: TRIGGERS financial_anxiety SEVERE drain. No strengths used, all drains active → BURNOUT
+        energy_matrix_quadrant: burnout
+    - flag: 'Conflicting employee data: 2-10 (LinkedIn) vs 49 (PitchBook) vs 58 (RocketReach)'
+      impact: Organizational chaos - can't track basic headcount. Signals misalignment and authority ambiguity
+      confidence: High - Three sources with wildly different numbers
+      task_implications:
+      - task: Navigate unclear organizational structure with shifting team composition
+        time_estimate_pct: 13%
+        characteristics:
+          conflict_exposure: high
+          alignment_clarity: low
+          authority_ambiguity: high
+          progress_visibility: low
+          autonomy_level: low
+          decision_speed: slow
+          learning_required: none
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: true
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: cross_team
+          meeting_intensity: high
+          requires_sync_communication: true
+          timezone_spread: narrow
+        notes: TRIGGERS misalignment SEVERE + authority_ambiguity MODERATE drains. Minimal glue_work doesn't offset
+        energy_matrix_quadrant: burnout
+    concerning:
+    - flag: BBB complaints about billing practices, unauthorized charges, not accredited
+      impact: Customer-facing operational failures create scapegoating risk and reputational damage
+      confidence: High - BBB documented pattern of complaints
+      task_implications:
+      - task: Deal with fallout from billing issues and customer complaints
+        time_estimate_pct: 10%
+        characteristics:
+          conflict_exposure: high
+          alignment_clarity: low
+          authority_ambiguity: moderate
+          progress_visibility: low
+          autonomy_level: low
+          decision_speed: slow
+          learning_required: moderate
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: true
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: cross_team
+          meeting_intensity: high
+          requires_sync_communication: true
+          timezone_spread: narrow
+        notes: SCAPEGOATING THEATER - operational failures create blame dynamics in young company
+        energy_matrix_quadrant: burnout
+    - flag: No CTO/VP Engineering, only 4 Glassdoor reviews, processes 'not 100% set up'
+      impact: Severe technical leadership vacuum in healthcare compliance environment
+      confidence: High - No senior technical leaders in public profiles
+      task_implications:
+      - task: Make critical technical decisions without senior engineering leadership
+        time_estimate_pct: 12%
+        characteristics:
+          conflict_exposure: high
+          alignment_clarity: low
+          authority_ambiguity: high
+          progress_visibility: moderate
+          autonomy_level: moderate
+          decision_speed: slow
+          learning_required: high
+          uses_systems_thinking: true
+          uses_tool_building: false
+          uses_glue_work: true
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: true
+          collaboration_type: cross_team
+          meeting_intensity: high
+          requires_sync_communication: true
+          timezone_spread: narrow
+        notes: TRIGGERS authority_ambiguity MODERATE drain. High learning in healthcare → BURNOUT
+        energy_matrix_quadrant: burnout
+    - flag: Candidates ghosted after 5 rounds of interviews (1-1.5 months process)
+      impact: Disrespectful hiring practices signal poor culture and interpersonal dysfunction
+      confidence: Medium - Multiple Glassdoor interview reviews
+      task_implications:
+      - task: Work in environment with poor interpersonal practices and communication breakdowns
+        time_estimate_pct: 9%
+        characteristics:
+          conflict_exposure: high
+          alignment_clarity: low
+          authority_ambiguity: high
+          progress_visibility: low
+          autonomy_level: low
+          decision_speed: slow
+          learning_required: none
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: false
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: moderate
+          requires_sync_communication: true
+          timezone_spread: narrow
+        notes: TRIGGERS interpersonal_conflict SEVERE drain - witnessing dysfunction
+        energy_matrix_quadrant: burnout
+    - flag: 'Suspicious metrics: conflicting patient numbers (1.5M vs 400K), ''6B interactions'' vaporware'
+      impact: VAPORWARE/THEATER PATTERN - unreliable data creates misalignment and trust issues
+      confidence: High - Documented metric conflicts in public statements
+      task_implications:
+      - task: Navigate misleading metrics and unclear business reality
+        time_estimate_pct: 6%
+        characteristics:
+          conflict_exposure: moderate
+          alignment_clarity: low
+          authority_ambiguity: moderate
+          progress_visibility: low
+          autonomy_level: low
+          decision_speed: slow
+          learning_required: none
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: false
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: solo
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: co_located
+        notes: VAPORWARE THEATER - conflicting metrics signal misalignment, erode trust
+        energy_matrix_quadrant: sparingly
+  chosen_peak:
+    dealbreakers: []
+    concerning: []
+  rope_team_confidence:
+    dealbreakers: []
+    concerning: []
+  daily_climb:
+    dealbreakers: []
+    concerning: []
+  story_worth_telling:
+    dealbreakers: []
+    concerning: []
+missing_critical_data:
+- question: What is the current cash runway and burn rate?
+  why_important: Only $5M raised 10+ months ago with explosive growth claims - likely running out of money soon
+  how_to_find: Ask during insider conversations or executive interview
+- question: Why has there been no follow-on funding despite growth claims?
+  why_important: Red flag if investors aren't backing explosive growth with more capital
+  how_to_find: Ask founders directly or research investor sentiment
+- question: What is the actual employee count and why is it inconsistent?
+  why_important: Conflicting data (2-10 vs 49 vs 58) suggests organizational chaos or deliberate obfuscation
+  how_to_find: Ask HR or look at LinkedIn employee list directly

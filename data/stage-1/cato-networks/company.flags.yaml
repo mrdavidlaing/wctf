@@ -1,6 +1,6 @@
 company: Cato Networks
 company_slug: cato-networks
-evaluation_date: '2025-10-17'
+evaluation_date: '2025-11-09'
 evaluator_context: Extracted from conversation notes
 green_flags:
   mountain_range:
@@ -26,6 +26,296 @@ green_flags:
       impact: Company isn't just allowing AI tools - actively building with them at
         scale
       confidence: HIGH - AWS blog, engineering blog, press releases
+    - flag: Strong financial trajectory - $300M ARR (June 2025), 46% YoY growth, $4.8B
+        valuation Series G with $239M primary + $120M secondary for employee liquidity
+      impact: Financial stability provides runway for strategic work without survival
+        stress. Secondary offering shows company values employee liquidity.
+      confidence: High - explicit statements from Calcalistech, press releases
+      task_implications:
+      - task: Design and build platform services without constant cost-cutting pressure
+        time_estimate_pct: 0%
+        characteristics:
+          conflict_exposure: none
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: none
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_infrastructure_automation: true
+          collaboration_type: team
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: narrow
+        notes: This is about absence of financial anxiety drain, not a time-consuming
+          task
+    - flag: Growing market position - 3,000+ customers (up from 1,800 in 18 months),
+        95%+ gross retention, Gartner Leader in SSE/SASE for 2 consecutive years
+      impact: Market validation and customer stickiness indicate real product-market
+        fit, not vaporware or theater
+      confidence: High - Gartner Magic Quadrant, press releases, explicit customer
+        counts
+      task_implications:
+      - task: Build features for real production workloads (not demos or POCs)
+        time_estimate_pct: 60-70%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: low
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_infrastructure_automation: true
+          collaboration_type: team
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: narrow
+        notes: Core productive work - baseline for Level 2 org (60-70% green time)
+    - flag: Active technical culture - 42+ public GitHub repos with active commits,
+        Terraform provider, SDKs in multiple languages (Go, Python)
+      impact: Strong open source presence signals technical investment and community
+        engagement, matches tool-building strengths
+      confidence: High - github.com/catonetworks visible and recent
+      task_implications:
+      - task: Build and maintain open source tooling (Terraform provider, SDKs)
+        time_estimate_pct: 15-20%
+        characteristics:
+          conflict_exposure: none
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: low
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_infrastructure_automation: true
+          collaboration_type: solo
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: co_located
+        notes: Aligns perfectly with tool-building energy generator
+    - flag: Real ML/AI innovation in production - Real-time deep learning for threat
+        detection (June 2023), Amazon Bedrock GraphQL integration, first vendor with
+        ML in real-time prevention
+      impact: Solving actual technical problems with ML, not just AI hype or theater.
+        Matches growth area in AI-augmented workflows.
+      confidence: High - AWS blog post, press releases, technical details
+      task_implications:
+      - task: Design systems for real-time ML inference at scale
+        time_estimate_pct: 10-15%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: moderate
+          learning_required: moderate
+          uses_systems_thinking: true
+          uses_infrastructure_automation: true
+          collaboration_type: team
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: narrow
+        notes: Growth area that's energizing (AI-augmented workflows)
+    - flag: 'Exceptional leadership stability: 10-year founder tenure for CEO (Shlomo
+        Kramer - InfoSec Hall of Fame), CTO (Gur Shatz), CISO (Efrat Kishon); stable
+        C-suite since 2019'
+      impact: No manager churn overhead, no re-proving value every 6-12 months. Leadership
+        has deep context and track record (Kramer co-founded Check Point, Imperva).
+      confidence: High - LinkedIn, company website, explicit tenures
+      task_implications:
+      - task: Build relationships with stable leadership team
+        time_estimate_pct: 5%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: moderate
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: none
+          uses_glue_work: true
+          collaboration_type: cross_team
+          meeting_intensity: low
+          requires_sync_communication: true
+          timezone_spread: narrow
+        notes: Onboarding investment, then stable - much better than 5-6 managers
+          in 2 years
+    - flag: 'Founder pedigree validated by current results: Shlomo Kramer (Check Point,
+        Imperva co-founder) delivering 46% YoY growth, Gartner Leader status, 3,000+
+        customers'
+      impact: Learning from proven leader who is CURRENTLY succeeding (not past success
+        + current failure). Strong resume value.
+      confidence: High - track record + current metrics both strong
+      task_implications:
+      - task: Learn leadership and technical strategy from successful founder
+        time_estimate_pct: 2-5%
+        characteristics:
+          conflict_exposure: none
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: low
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: moderate
+          uses_systems_thinking: true
+          collaboration_type: solo
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: co_located
+        notes: Growth opportunity through osmosis and occasional mentorship
+    - flag: Strong financial trajectory - $300M ARR (June 2025), 46% YoY growth, $4.8B
+        valuation Series G with $239M primary + $120M secondary for employee liquidity
+      impact: Financial stability provides runway for strategic work without survival
+        stress. Secondary offering shows company values employee liquidity.
+      confidence: High - explicit statements from Calcalistech, press releases
+      task_implications:
+      - task: Design and build platform services without constant cost-cutting pressure
+        time_estimate_pct: 0%
+        characteristics:
+          conflict_exposure: none
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: none
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_infrastructure_automation: true
+          collaboration_type: team
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: narrow
+        notes: This is about absence of financial anxiety drain, not a time-consuming
+          task
+    - flag: Growing market position - 3,000+ customers (up from 1,800 in 18 months),
+        95%+ gross retention, Gartner Leader in SSE/SASE for 2 consecutive years
+      impact: Market validation and customer stickiness indicate real product-market
+        fit, not vaporware or theater
+      confidence: High - Gartner Magic Quadrant, press releases, explicit customer
+        counts
+      task_implications:
+      - task: Build features for real production workloads (not demos or POCs)
+        time_estimate_pct: 60-70%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: low
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_infrastructure_automation: true
+          collaboration_type: team
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: narrow
+        notes: Core productive work - baseline for Level 2 org (60-70% green time)
+    - flag: Active technical culture - 42+ public GitHub repos with active commits,
+        Terraform provider, SDKs in multiple languages (Go, Python)
+      impact: Strong open source presence signals technical investment and community
+        engagement, matches tool-building strengths
+      confidence: High - github.com/catonetworks visible and recent
+      task_implications:
+      - task: Build and maintain open source tooling (Terraform provider, SDKs)
+        time_estimate_pct: 15-20%
+        characteristics:
+          conflict_exposure: none
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: low
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_infrastructure_automation: true
+          collaboration_type: solo
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: co_located
+        notes: Aligns perfectly with tool-building energy generator
+    - flag: Real ML/AI innovation in production - Real-time deep learning for threat
+        detection (June 2023), Amazon Bedrock GraphQL integration, first vendor with
+        ML in real-time prevention
+      impact: Solving actual technical problems with ML, not just AI hype or theater.
+        Matches growth area in AI-augmented workflows.
+      confidence: High - AWS blog post, press releases, technical details
+      task_implications:
+      - task: Design systems for real-time ML inference at scale
+        time_estimate_pct: 10-15%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: moderate
+          learning_required: moderate
+          uses_systems_thinking: true
+          uses_infrastructure_automation: true
+          collaboration_type: team
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: narrow
+        notes: Growth area that's energizing (AI-augmented workflows)
+    - flag: 'Exceptional leadership stability: 10-year founder tenure for CEO (Shlomo
+        Kramer - InfoSec Hall of Fame), CTO (Gur Shatz), CISO (Efrat Kishon); stable
+        C-suite since 2019'
+      impact: No manager churn overhead, no re-proving value every 6-12 months. Leadership
+        has deep context and track record (Kramer co-founded Check Point, Imperva).
+      confidence: High - LinkedIn, company website, explicit tenures
+      task_implications:
+      - task: Build relationships with stable leadership team
+        time_estimate_pct: 5%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: moderate
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: none
+          uses_glue_work: true
+          collaboration_type: cross_team
+          meeting_intensity: low
+          requires_sync_communication: true
+          timezone_spread: narrow
+        notes: Onboarding investment, then stable - much better than 5-6 managers
+          in 2 years
+    - flag: 'Founder pedigree validated by current results: Shlomo Kramer (Check Point,
+        Imperva co-founder) delivering 46% YoY growth, Gartner Leader status, 3,000+
+        customers'
+      impact: Learning from proven leader who is CURRENTLY succeeding (not past success
+        + current failure). Strong resume value.
+      confidence: High - track record + current metrics both strong
+      task_implications:
+      - task: Learn leadership and technical strategy from successful founder
+        time_estimate_pct: 2-5%
+        characteristics:
+          conflict_exposure: none
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: low
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: moderate
+          uses_systems_thinking: true
+          collaboration_type: solo
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: co_located
+        notes: Growth opportunity through osmosis and occasional mentorship
     strong_positives: &id002
     - flag: Gartner Leader for 2 consecutive years in high-growth SASE market
       impact: Product is competitive; not just growth-stage hype
@@ -49,6 +339,616 @@ green_flags:
     - flag: First single-vendor SASE platform differentiating from M&A competitors
       impact: Technical architecture advantage vs Frankenstein acquisitions
       confidence: HIGH - company positioning and Gartner validation
+    - flag: No layoffs or restructuring in 2023-2025 period despite market volatility
+      impact: Organizational stability means less defensive work managing layoff anxiety,
+        navigating reorgs
+      confidence: High - comprehensive search results, explicit statement
+      task_implications:
+      - task: Navigate occasional reorgs (industry standard every 2-3 years)
+        time_estimate_pct: 5-10%
+        characteristics:
+          conflict_exposure: moderate
+          alignment_clarity: moderate
+          authority_ambiguity: moderate
+          progress_visibility: low
+          autonomy_level: low
+          decision_speed: slow
+          learning_required: none
+          uses_glue_work: true
+          collaboration_type: cross_team
+          meeting_intensity: moderate
+          requires_sync_communication: true
+          timezone_spread: moderate
+        notes: Standard reorg overhead for healthy org, not constant churn
+    - flag: Path to profitability stated by CEO - "Can reach positive cash flow without
+        additional funding"
+      impact: Leadership has clear path forward, reduces risk of emergency cost-cutting
+        or fire sale
+      confidence: High - CEO explicit statement to Calcalistech (June 2025)
+      task_implications:
+      - task: Execute on revenue-generating features vs survival pivots
+        time_estimate_pct: 0%
+        characteristics:
+          conflict_exposure: none
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: none
+          uses_systems_thinking: true
+          uses_tool_building: true
+          collaboration_type: team
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: narrow
+        notes: This represents absence of survival-mode overhead, not additional work
+    - flag: 'Growing in substantial market: SASE projected $28.5B by 2028 at 26% CAGR'
+      impact: Market tailwinds provide growth opportunities without zero-sum internal
+        competition
+      confidence: High - Gartner market sizing
+      task_implications:
+      - task: Build for market expansion vs defending shrinking pie
+        time_estimate_pct: 0%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: none
+          uses_systems_thinking: true
+          collaboration_type: team
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: narrow
+        notes: Enables focus on building vs politics of resource scarcity
+    - flag: Technical content and conference presence - Active engineering blog (Agentic
+        AI Jan 2025), RSA 2024, PyData Tel Aviv, BSides, AWS Summit
+      impact: Engineers have time and support for external visibility, indicates healthy
+        engineering culture
+      confidence: High - catonetworks.com/blog, press releases
+      task_implications:
+      - task: Write technical blog posts and present at conferences
+        time_estimate_pct: 5%
+        characteristics:
+          conflict_exposure: none
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: low
+          uses_systems_thinking: true
+          collaboration_type: solo
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: co_located
+        notes: Optional but supported - good for Story Worth Telling
+    - flag: Modern infrastructure stack - Storm, Spark, Kafka, SQS for data processing;
+        K8s implied for platform
+      impact: Aligns with infrastructure automation expertise, familiar tooling
+      confidence: Medium - explicitly listed in careers page for infrastructure roles
+      task_implications:
+      - task: Design and operate distributed data processing pipelines
+        time_estimate_pct: 15-20%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: low
+          uses_systems_thinking: true
+          uses_infrastructure_automation: true
+          collaboration_type: team
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: narrow
+        notes: Core infrastructure work, well-aligned with strengths
+    - flag: 'Internal framework development: MCPSaaS framework with OAuth 2.1, used
+        across R&D/ops/PMO'
+      impact: Investment in internal tooling and developer productivity, strong systems
+        thinking culture
+      confidence: High - blog post (Jan 2025) with technical details
+      task_implications:
+      - task: Build internal platforms and frameworks for developer productivity
+        time_estimate_pct: 10-15%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: moderate
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_infrastructure_automation: true
+          collaboration_type: team
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: narrow
+        notes: Multiplier work - builds tools that enable others (glue work strength)
+    - flag: Strong employee sentiment - 4.3/5 Glassdoor (219 reviews), 92% CEO approval,
+        91% would recommend to friend, 79% positive business outlook, 4.2/5 work-life
+        balance
+      impact: High sentiment indicates healthy culture, low interpersonal conflict
+        exposure
+      confidence: High - Glassdoor data (Oct 2025)
+      task_implications:
+      - task: Navigate normal interpersonal dynamics in healthy culture
+        time_estimate_pct: 5%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: moderate
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: none
+          uses_glue_work: true
+          collaboration_type: team
+          meeting_intensity: low
+          requires_sync_communication: true
+          timezone_spread: narrow
+        notes: Baseline healthy culture overhead, not severe drain
+    - flag: Recent board additions with strong pedigree - Eyal Waldman (Mellanox founder,
+        NVIDIA $7B exit) and Gili Iohan (Varonis CFO) added Oct 2024
+      impact: High-quality board oversight, access to mentorship from successful exits
+      confidence: High - company announcements (Oct 2024)
+      task_implications:
+      - task: Potential mentorship opportunities with board members
+        time_estimate_pct: 0-2%
+        characteristics:
+          conflict_exposure: none
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: low
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: low
+          collaboration_type: solo
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: co_located
+        notes: Optional growth opportunity, not required work
+    - flag: Hybrid work model with Tel Aviv HQ and global offices (1,300+ employees
+        across 30 countries)
+      impact: Global distribution suggests async-friendly culture, compatible with
+        timezone flexibility needs (6 hours)
+      confidence: Medium - careers page, press releases about global footprint
+      task_implications:
+      - task: Coordinate across timezones with async-first practices
+        time_estimate_pct: 10-15%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: moderate
+          authority_ambiguity: low
+          progress_visibility: moderate
+          autonomy_level: high
+          decision_speed: moderate
+          learning_required: low
+          uses_glue_work: true
+          collaboration_type: cross_team
+          meeting_intensity: moderate
+          requires_sync_communication: false
+          timezone_spread: wide
+        notes: Requires async discipline but profile indicates strong async capability
+    - flag: Hybrid work policy (3-4 days/week in office for some roles, flexible for
+        others)
+      impact: Flexibility supports work-life balance (rated 4.2/5), compatible with
+        ideal 20-30% meeting load
+      confidence: Medium - Glassdoor, careers page
+      task_implications:
+      - task: Commute 3-4 days/week if in Tel Aviv/office location
+        time_estimate_pct: 0%
+        characteristics:
+          conflict_exposure: none
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: moderate
+          decision_speed: fast
+          learning_required: none
+          collaboration_type: team
+          meeting_intensity: low
+          requires_sync_communication: true
+          timezone_spread: co_located
+        notes: Commute is outside work hours, not counted in work time
+    - flag: Work-life balance rated 4.2/5 on Glassdoor, no evidence of death march
+        culture
+      impact: Sustainable pace supports long-term productivity, reduces burnout risk
+      confidence: High - Glassdoor reviews
+      task_implications:
+      - task: Work sustainable 40-45 hour weeks
+        time_estimate_pct: 0%
+        characteristics:
+          conflict_exposure: none
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: none
+          collaboration_type: team
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: narrow
+        notes: Baseline expectation, not overhead
+    - flag: 'Interesting technical challenges: Real-time ML for threat detection,
+        proprietary global backbone (80+ POPs), distributed SASE platform at scale'
+      impact: Challenging technical problems provide learning opportunities and resume
+        value (security + ML + distributed systems)
+      confidence: High - press releases, blog posts, technical content
+      task_implications:
+      - task: Solve complex distributed systems problems (global edge, real-time ML)
+        time_estimate_pct: 20-25%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: moderate
+          uses_systems_thinking: true
+          uses_infrastructure_automation: true
+          collaboration_type: team
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: narrow
+        notes: Challenging work in growth areas (AI, distributed systems)
+    - flag: First single-vendor SASE platform (not acquisition-built like competitors)
+      impact: Unified architecture provides learning opportunities in building vs
+        integrating, cleaner systems design
+      confidence: High - explicit differentiation on company website
+      task_implications:
+      - task: Design integrated systems vs patching acquisitions together
+        time_estimate_pct: 0%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: low
+          uses_systems_thinking: true
+          collaboration_type: team
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: narrow
+        notes: This is quality of work, not separate time allocation
+    - flag: 'Equity upside potential: $4.8B valuation with IPO planned (underwriters
+        hired: Goldman Sachs, JPMorgan, Barclays), though postponed beyond 2025'
+      impact: Pre-IPO equity could provide significant upside if company executes
+        on $500M+ IPO target
+      confidence: Medium - IPO plan confirmed but timeline uncertain (postponed from
+        2025)
+      task_implications:
+      - task: Vest equity over 4 years toward potential IPO exit
+        time_estimate_pct: 0%
+        characteristics:
+          conflict_exposure: none
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: low
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: none
+          collaboration_type: solo
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: co_located
+        notes: Passive upside, no time investment required
+    - flag: No layoffs or restructuring in 2023-2025 period despite market volatility
+      impact: Organizational stability means less defensive work managing layoff anxiety,
+        navigating reorgs
+      confidence: High - comprehensive search results, explicit statement
+      task_implications:
+      - task: Navigate occasional reorgs (industry standard every 2-3 years)
+        time_estimate_pct: 5-10%
+        characteristics:
+          conflict_exposure: moderate
+          alignment_clarity: moderate
+          authority_ambiguity: moderate
+          progress_visibility: low
+          autonomy_level: low
+          decision_speed: slow
+          learning_required: none
+          uses_glue_work: true
+          collaboration_type: cross_team
+          meeting_intensity: moderate
+          requires_sync_communication: true
+          timezone_spread: moderate
+        notes: Standard reorg overhead for healthy org, not constant churn
+    - flag: Path to profitability stated by CEO - "Can reach positive cash flow without
+        additional funding"
+      impact: Leadership has clear path forward, reduces risk of emergency cost-cutting
+        or fire sale
+      confidence: High - CEO explicit statement to Calcalistech (June 2025)
+      task_implications:
+      - task: Execute on revenue-generating features vs survival pivots
+        time_estimate_pct: 0%
+        characteristics:
+          conflict_exposure: none
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: none
+          uses_systems_thinking: true
+          uses_tool_building: true
+          collaboration_type: team
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: narrow
+        notes: This represents absence of survival-mode overhead, not additional work
+    - flag: 'Growing in substantial market: SASE projected $28.5B by 2028 at 26% CAGR'
+      impact: Market tailwinds provide growth opportunities without zero-sum internal
+        competition
+      confidence: High - Gartner market sizing
+      task_implications:
+      - task: Build for market expansion vs defending shrinking pie
+        time_estimate_pct: 0%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: none
+          uses_systems_thinking: true
+          collaboration_type: team
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: narrow
+        notes: Enables focus on building vs politics of resource scarcity
+    - flag: Technical content and conference presence - Active engineering blog (Agentic
+        AI Jan 2025), RSA 2024, PyData Tel Aviv, BSides, AWS Summit
+      impact: Engineers have time and support for external visibility, indicates healthy
+        engineering culture
+      confidence: High - catonetworks.com/blog, press releases
+      task_implications:
+      - task: Write technical blog posts and present at conferences
+        time_estimate_pct: 5%
+        characteristics:
+          conflict_exposure: none
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: low
+          uses_systems_thinking: true
+          collaboration_type: solo
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: co_located
+        notes: Optional but supported - good for Story Worth Telling
+    - flag: Modern infrastructure stack - Storm, Spark, Kafka, SQS for data processing;
+        K8s implied for platform
+      impact: Aligns with infrastructure automation expertise, familiar tooling
+      confidence: Medium - explicitly listed in careers page for infrastructure roles
+      task_implications:
+      - task: Design and operate distributed data processing pipelines
+        time_estimate_pct: 15-20%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: low
+          uses_systems_thinking: true
+          uses_infrastructure_automation: true
+          collaboration_type: team
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: narrow
+        notes: Core infrastructure work, well-aligned with strengths
+    - flag: 'Internal framework development: MCPSaaS framework with OAuth 2.1, used
+        across R&D/ops/PMO'
+      impact: Investment in internal tooling and developer productivity, strong systems
+        thinking culture
+      confidence: High - blog post (Jan 2025) with technical details
+      task_implications:
+      - task: Build internal platforms and frameworks for developer productivity
+        time_estimate_pct: 10-15%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: moderate
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_infrastructure_automation: true
+          collaboration_type: team
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: narrow
+        notes: Multiplier work - builds tools that enable others (glue work strength)
+    - flag: Strong employee sentiment - 4.3/5 Glassdoor (219 reviews), 92% CEO approval,
+        91% would recommend to friend, 79% positive business outlook, 4.2/5 work-life
+        balance
+      impact: High sentiment indicates healthy culture, low interpersonal conflict
+        exposure
+      confidence: High - Glassdoor data (Oct 2025)
+      task_implications:
+      - task: Navigate normal interpersonal dynamics in healthy culture
+        time_estimate_pct: 5%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: moderate
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: none
+          uses_glue_work: true
+          collaboration_type: team
+          meeting_intensity: low
+          requires_sync_communication: true
+          timezone_spread: narrow
+        notes: Baseline healthy culture overhead, not severe drain
+    - flag: Recent board additions with strong pedigree - Eyal Waldman (Mellanox founder,
+        NVIDIA $7B exit) and Gili Iohan (Varonis CFO) added Oct 2024
+      impact: High-quality board oversight, access to mentorship from successful exits
+      confidence: High - company announcements (Oct 2024)
+      task_implications:
+      - task: Potential mentorship opportunities with board members
+        time_estimate_pct: 0-2%
+        characteristics:
+          conflict_exposure: none
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: low
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: low
+          collaboration_type: solo
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: co_located
+        notes: Optional growth opportunity, not required work
+    - flag: Hybrid work model with Tel Aviv HQ and global offices (1,300+ employees
+        across 30 countries)
+      impact: Global distribution suggests async-friendly culture, compatible with
+        timezone flexibility needs (6 hours)
+      confidence: Medium - careers page, press releases about global footprint
+      task_implications:
+      - task: Coordinate across timezones with async-first practices
+        time_estimate_pct: 10-15%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: moderate
+          authority_ambiguity: low
+          progress_visibility: moderate
+          autonomy_level: high
+          decision_speed: moderate
+          learning_required: low
+          uses_glue_work: true
+          collaboration_type: cross_team
+          meeting_intensity: moderate
+          requires_sync_communication: false
+          timezone_spread: wide
+        notes: Requires async discipline but profile indicates strong async capability
+    - flag: Hybrid work policy (3-4 days/week in office for some roles, flexible for
+        others)
+      impact: Flexibility supports work-life balance (rated 4.2/5), compatible with
+        ideal 20-30% meeting load
+      confidence: Medium - Glassdoor, careers page
+      task_implications:
+      - task: Commute 3-4 days/week if in Tel Aviv/office location
+        time_estimate_pct: 0%
+        characteristics:
+          conflict_exposure: none
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: moderate
+          decision_speed: fast
+          learning_required: none
+          collaboration_type: team
+          meeting_intensity: low
+          requires_sync_communication: true
+          timezone_spread: co_located
+        notes: Commute is outside work hours, not counted in work time
+    - flag: Work-life balance rated 4.2/5 on Glassdoor, no evidence of death march
+        culture
+      impact: Sustainable pace supports long-term productivity, reduces burnout risk
+      confidence: High - Glassdoor reviews
+      task_implications:
+      - task: Work sustainable 40-45 hour weeks
+        time_estimate_pct: 0%
+        characteristics:
+          conflict_exposure: none
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: none
+          collaboration_type: team
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: narrow
+        notes: Baseline expectation, not overhead
+    - flag: 'Interesting technical challenges: Real-time ML for threat detection,
+        proprietary global backbone (80+ POPs), distributed SASE platform at scale'
+      impact: Challenging technical problems provide learning opportunities and resume
+        value (security + ML + distributed systems)
+      confidence: High - press releases, blog posts, technical content
+      task_implications:
+      - task: Solve complex distributed systems problems (global edge, real-time ML)
+        time_estimate_pct: 20-25%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: moderate
+          uses_systems_thinking: true
+          uses_infrastructure_automation: true
+          collaboration_type: team
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: narrow
+        notes: Challenging work in growth areas (AI, distributed systems)
+    - flag: First single-vendor SASE platform (not acquisition-built like competitors)
+      impact: Unified architecture provides learning opportunities in building vs
+        integrating, cleaner systems design
+      confidence: High - explicit differentiation on company website
+      task_implications:
+      - task: Design integrated systems vs patching acquisitions together
+        time_estimate_pct: 0%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: low
+          uses_systems_thinking: true
+          collaboration_type: team
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: narrow
+        notes: This is quality of work, not separate time allocation
+    - flag: 'Equity upside potential: $4.8B valuation with IPO planned (underwriters
+        hired: Goldman Sachs, JPMorgan, Barclays), though postponed beyond 2025'
+      impact: Pre-IPO equity could provide significant upside if company executes
+        on $500M+ IPO target
+      confidence: Medium - IPO plan confirmed but timeline uncertain (postponed from
+        2025)
+      task_implications:
+      - task: Vest equity over 4 years toward potential IPO exit
+        time_estimate_pct: 0%
+        characteristics:
+          conflict_exposure: none
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: low
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: none
+          collaboration_type: solo
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: co_located
+        notes: Passive upside, no time investment required
   chosen_peak:
     critical_matches: *id001
     strong_positives: *id002
@@ -71,7 +971,7 @@ red_flags:
     - flag: Not profitable as of Q2 2025 despite 10 years operating
       impact: IPO delay risk extends equity liquidity timeline beyond typical
       confidence: HIGH - explicit CEO statement
-    - flag: "IPO repeatedly postponed (2024\u21922025\u2192beyond 2025)"
+    - flag: IPO repeatedly postponed (2024→2025→beyond 2025)
       impact: Equity liquidity may be 2-3+ years out; pre-IPO limbo
       confidence: HIGH - multiple sources
     - flag: Sales org dysfunction (38.6% quota attainment, territory chaos)
@@ -83,6 +983,356 @@ red_flags:
     - flag: Late-stage $4.8B valuation means limited equity upside vs earlier stage
       impact: 2-3x return ceiling vs 10-100x at Series A/B; more stability, less moonshot
       confidence: HIGH - standard late-stage dynamics
+    - flag: Not yet profitable despite $250M+ ARR and 10 years in operation
+      impact: 'Risk: If path to profitability fails, could trigger layoffs or fire
+        sale despite CEO confidence'
+      confidence: High - explicit statement (not profitable as of Q2 2025)
+      task_implications:
+      - task: Monitor financial health and prepare contingency if profitability path
+          fails
+        time_estimate_pct: 2-5%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: moderate
+          authority_ambiguity: low
+          progress_visibility: low
+          autonomy_level: high
+          decision_speed: moderate
+          learning_required: none
+          collaboration_type: solo
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: co_located
+        notes: Low-grade anxiety drain, mitigated by strong funding and CEO confidence
+    - flag: 'Competing with much larger players: Zscaler ($30.6B market cap), Palo
+        Alto ($145.2B), Fortinet ($77.0B), Cloudflare ($44.9B)'
+      impact: Resource disadvantage in R&D, sales, marketing could limit growth or
+        create acquisition pressure
+      confidence: High - public market caps vs Cato $4.8B private valuation
+      task_implications:
+      - task: Build efficiently with smaller team vs competitors' resources
+        time_estimate_pct: 0%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: none
+          uses_systems_thinking: true
+          collaboration_type: team
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: narrow
+        notes: Challenge vs overhead - can be energizing if framed as "do more with
+          less" innovation
+    - flag: No information on AI coding tools policy or engineering practices (CI/CD,
+        code review, testing frameworks)
+      impact: Unknown whether engineering practices match expectations for staff level
+        (autonomy, quality gates, modern tooling)
+      confidence: High - comprehensive search found no evidence on these topics
+      task_implications:
+      - task: Assess and potentially establish engineering best practices
+        time_estimate_pct: 5-10%
+        characteristics:
+          conflict_exposure: moderate
+          alignment_clarity: moderate
+          authority_ambiguity: moderate
+          progress_visibility: moderate
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: low
+          uses_decision_frameworks: true
+          uses_glue_work: true
+          collaboration_type: cross_team
+          meeting_intensity: moderate
+          requires_sync_communication: true
+          timezone_spread: moderate
+        notes: Could be opportunity to build frameworks (energy generator) or conflict
+          if resisted
+    - flag: First M&A (Aim Security acquisition Sept 2025) introduces integration
+        risk
+      impact: Acquisition integration can create alignment issues, technical debt,
+        cultural friction
+      confidence: Medium - first acquisition, unknown integration approach
+      task_implications:
+      - task: Navigate acquisition integration challenges (cultural, technical)
+        time_estimate_pct: 5-10%
+        characteristics:
+          conflict_exposure: moderate
+          alignment_clarity: moderate
+          authority_ambiguity: moderate
+          progress_visibility: low
+          autonomy_level: low
+          decision_speed: slow
+          learning_required: low
+          uses_glue_work: true
+          collaboration_type: cross_team
+          meeting_intensity: moderate
+          requires_sync_communication: true
+          timezone_spread: moderate
+        notes: First M&A creates learning curve, potential for misalignment drain
+    - flag: Sales org challenges - Only 38.6% hitting quota (Glassdoor reviews 2023-2024)
+      impact: Sales execution issues could slow growth, create pressure on engineering
+        to "fix" sales problems with features
+      confidence: Medium - Glassdoor reviews from sales team members
+      task_implications:
+      - task: Respond to urgent feature requests driven by sales struggles
+        time_estimate_pct: 5-10%
+        characteristics:
+          conflict_exposure: moderate
+          alignment_clarity: moderate
+          authority_ambiguity: moderate
+          progress_visibility: moderate
+          autonomy_level: low
+          decision_speed: slow
+          learning_required: none
+          uses_glue_work: true
+          collaboration_type: cross_team
+          meeting_intensity: moderate
+          requires_sync_communication: true
+          timezone_spread: moderate
+        notes: Sales pressure can create misalignment between product strategy and
+          urgent deals
+    - flag: Interview difficulty rated 2.92/5 with only 40.6% positive experience
+        (Glassdoor)
+      impact: May indicate interview process issues (not directly relevant post-hire,
+        but signals potential process/culture concerns)
+      confidence: High - Glassdoor interview data
+      task_implications:
+      - task: No direct task implication (pre-hire only)
+        time_estimate_pct: 0%
+        characteristics:
+          conflict_exposure: none
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: none
+          collaboration_type: solo
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: co_located
+        notes: Signal of potential process maturity issues, but not direct impact
+          on daily work
+    - flag: Tel Aviv HQ location may limit remote flexibility for some roles (3-4
+        days/week in office)
+      impact: Geographic constraint if role requires Tel Aviv presence - commute or
+        relocation overhead
+      confidence: Medium - some roles have office requirements per Glassdoor/careers
+      task_implications:
+      - task: Relocate to Tel Aviv or negotiate remote exception
+        time_estimate_pct: 0%
+        characteristics:
+          conflict_exposure: none
+          alignment_clarity: moderate
+          authority_ambiguity: low
+          progress_visibility: low
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: none
+          collaboration_type: solo
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: co_located
+        notes: One-time decision/relocation, not ongoing time overhead
+    - flag: IPO postponed beyond 2025, timing uncertain
+      impact: Equity liquidity timeline extended, market conditions could deteriorate
+        further
+      confidence: High - explicit statement (postponed from 2025)
+      task_implications:
+      - task: Manage expectations on equity liquidity timeline
+        time_estimate_pct: 0-1%
+        characteristics:
+          conflict_exposure: none
+          alignment_clarity: moderate
+          authority_ambiguity: low
+          progress_visibility: low
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: none
+          collaboration_type: solo
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: co_located
+        notes: Minor psychological overhead, not significant time drain
+    - flag: Not yet profitable despite $250M+ ARR and 10 years in operation
+      impact: 'Risk: If path to profitability fails, could trigger layoffs or fire
+        sale despite CEO confidence'
+      confidence: High - explicit statement (not profitable as of Q2 2025)
+      task_implications:
+      - task: Monitor financial health and prepare contingency if profitability path
+          fails
+        time_estimate_pct: 2-5%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: moderate
+          authority_ambiguity: low
+          progress_visibility: low
+          autonomy_level: high
+          decision_speed: moderate
+          learning_required: none
+          collaboration_type: solo
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: co_located
+        notes: Low-grade anxiety drain, mitigated by strong funding and CEO confidence
+    - flag: 'Competing with much larger players: Zscaler ($30.6B market cap), Palo
+        Alto ($145.2B), Fortinet ($77.0B), Cloudflare ($44.9B)'
+      impact: Resource disadvantage in R&D, sales, marketing could limit growth or
+        create acquisition pressure
+      confidence: High - public market caps vs Cato $4.8B private valuation
+      task_implications:
+      - task: Build efficiently with smaller team vs competitors' resources
+        time_estimate_pct: 0%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: none
+          uses_systems_thinking: true
+          collaboration_type: team
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: narrow
+        notes: Challenge vs overhead - can be energizing if framed as "do more with
+          less" innovation
+    - flag: No information on AI coding tools policy or engineering practices (CI/CD,
+        code review, testing frameworks)
+      impact: Unknown whether engineering practices match expectations for staff level
+        (autonomy, quality gates, modern tooling)
+      confidence: High - comprehensive search found no evidence on these topics
+      task_implications:
+      - task: Assess and potentially establish engineering best practices
+        time_estimate_pct: 5-10%
+        characteristics:
+          conflict_exposure: moderate
+          alignment_clarity: moderate
+          authority_ambiguity: moderate
+          progress_visibility: moderate
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: low
+          uses_decision_frameworks: true
+          uses_glue_work: true
+          collaboration_type: cross_team
+          meeting_intensity: moderate
+          requires_sync_communication: true
+          timezone_spread: moderate
+        notes: Could be opportunity to build frameworks (energy generator) or conflict
+          if resisted
+    - flag: First M&A (Aim Security acquisition Sept 2025) introduces integration
+        risk
+      impact: Acquisition integration can create alignment issues, technical debt,
+        cultural friction
+      confidence: Medium - first acquisition, unknown integration approach
+      task_implications:
+      - task: Navigate acquisition integration challenges (cultural, technical)
+        time_estimate_pct: 5-10%
+        characteristics:
+          conflict_exposure: moderate
+          alignment_clarity: moderate
+          authority_ambiguity: moderate
+          progress_visibility: low
+          autonomy_level: low
+          decision_speed: slow
+          learning_required: low
+          uses_glue_work: true
+          collaboration_type: cross_team
+          meeting_intensity: moderate
+          requires_sync_communication: true
+          timezone_spread: moderate
+        notes: First M&A creates learning curve, potential for misalignment drain
+    - flag: Sales org challenges - Only 38.6% hitting quota (Glassdoor reviews 2023-2024)
+      impact: Sales execution issues could slow growth, create pressure on engineering
+        to "fix" sales problems with features
+      confidence: Medium - Glassdoor reviews from sales team members
+      task_implications:
+      - task: Respond to urgent feature requests driven by sales struggles
+        time_estimate_pct: 5-10%
+        characteristics:
+          conflict_exposure: moderate
+          alignment_clarity: moderate
+          authority_ambiguity: moderate
+          progress_visibility: moderate
+          autonomy_level: low
+          decision_speed: slow
+          learning_required: none
+          uses_glue_work: true
+          collaboration_type: cross_team
+          meeting_intensity: moderate
+          requires_sync_communication: true
+          timezone_spread: moderate
+        notes: Sales pressure can create misalignment between product strategy and
+          urgent deals
+    - flag: Interview difficulty rated 2.92/5 with only 40.6% positive experience
+        (Glassdoor)
+      impact: May indicate interview process issues (not directly relevant post-hire,
+        but signals potential process/culture concerns)
+      confidence: High - Glassdoor interview data
+      task_implications:
+      - task: No direct task implication (pre-hire only)
+        time_estimate_pct: 0%
+        characteristics:
+          conflict_exposure: none
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: none
+          collaboration_type: solo
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: co_located
+        notes: Signal of potential process maturity issues, but not direct impact
+          on daily work
+    - flag: Tel Aviv HQ location may limit remote flexibility for some roles (3-4
+        days/week in office)
+      impact: Geographic constraint if role requires Tel Aviv presence - commute or
+        relocation overhead
+      confidence: Medium - some roles have office requirements per Glassdoor/careers
+      task_implications:
+      - task: Relocate to Tel Aviv or negotiate remote exception
+        time_estimate_pct: 0%
+        characteristics:
+          conflict_exposure: none
+          alignment_clarity: moderate
+          authority_ambiguity: low
+          progress_visibility: low
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: none
+          collaboration_type: solo
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: co_located
+        notes: One-time decision/relocation, not ongoing time overhead
+    - flag: IPO postponed beyond 2025, timing uncertain
+      impact: Equity liquidity timeline extended, market conditions could deteriorate
+        further
+      confidence: High - explicit statement (postponed from 2025)
+      task_implications:
+      - task: Manage expectations on equity liquidity timeline
+        time_estimate_pct: 0-1%
+        characteristics:
+          conflict_exposure: none
+          alignment_clarity: moderate
+          authority_ambiguity: low
+          progress_visibility: low
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: none
+          collaboration_type: solo
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: co_located
+        notes: Minor psychological overhead, not significant time drain
   chosen_peak:
     dealbreakers: *id003
     concerning: *id004
@@ -114,7 +1364,7 @@ missing_critical_data:
   how_to_find: Ask about last 10 prod deploys - timelines and process
   mountain_element: daily_climb
 - question: What's actual span of control for engineering managers?
-  why_important: "Need \u22646 reports confirmed to ensure manager bandwidth"
+  why_important: Need ≤6 reports confirmed to ensure manager bandwidth
   how_to_find: Ask in team interview; check org structure
   mountain_element: rope_team_confidence
 - question: How does engineering influence product strategy?
@@ -128,4 +1378,124 @@ missing_critical_data:
 - question: How distributed is engineering team and what are collaboration norms?
   why_important: Need to understand timezone overlap and async vs sync culture
   how_to_find: Ask about team distribution and typical collaboration hours
+  mountain_element: rope_team_confidence
+- question: What are the engineering team's CI/CD practices, code review standards,
+    and testing frameworks?
+  why_important: Staff engineer needs to understand quality gates, autonomy level,
+    and technical rigor expectations. Absence of this info creates uncertainty about
+    daily work quality.
+  how_to_find: 'Insider interview: Ask about deployment frequency, code review process,
+    test coverage expectations, incident response practices'
+  mountain_element: chosen_peak
+- question: What is the company's policy on AI coding tools (GitHub Copilot, Claude
+    Code, etc.)?
+  why_important: Impacts daily productivity and learning. Restrictive policies create
+    friction; supportive policies amplify tool-building strengths.
+  how_to_find: 'Insider interview: Ask about approved AI tools, procurement process,
+    security/compliance constraints'
+  mountain_element: chosen_peak
+- question: What is the team coordination style and how does it match the terrain
+    demands (alpine/expedition/established/orienteering)?
+  why_important: Misalignment between coordination style and terrain creates severe
+    energy drain (profile lists as severe drain). Need to assess communication bandwidth,
+    decision authority, realignment ability.
+  how_to_find: 'Insider interview: Ask about decision-making speed, autonomy level,
+    how team adapts to changing requirements, recent pivots and how they were handled'
+  mountain_element: chosen_peak
+- question: What are typical compensation ranges for staff engineer level, including
+    base, equity, and bonus?
+  why_important: Below-market compensation creates financial anxiety drain (profile
+    lists as moderate drain). Need to assess if total comp is competitive.
+  how_to_find: 'Insider interview: Ask about comp philosophy, equity grant sizes,
+    refresh cadence. Check levels.fyi for market data.'
+  mountain_element: daily_climb
+- question: What is the actual meeting load and maker time availability for senior
+    engineers?
+  why_important: Profile indicates 20-30% ideal meeting load, max 30%. Exceeding this
+    creates energy drain and reduces productive work time.
+  how_to_find: 'Insider interview: Ask about weekly meeting hours, focus time policies,
+    meeting-free days, async vs sync culture'
+  mountain_element: daily_climb
+- question: What is the specific tech stack for platform/infrastructure engineering
+    roles (container orchestration, observability, IaC tools)?
+  why_important: Need to assess learning curve and alignment with infrastructure automation
+    expertise. High learning required can be drain vs energizer depending on specific
+    technologies.
+  how_to_find: 'Insider interview: Ask about infrastructure stack, deployment pipelines,
+    observability tools (Datadog/Prometheus/etc), IaC adoption (Terraform/Pulumi)'
+  mountain_element: chosen_peak
+- question: How does the sales org challenge (38.6% quota attainment) impact engineering
+    priorities and roadmap stability?
+  why_important: Sales pressure can create misalignment drain through constant pivots,
+    urgent feature requests, or blame culture. Need to understand engineering/sales
+    boundary.
+  how_to_find: 'Insider interview: Ask about product roadmap stability, how sales
+    requests are prioritized, recent examples of sales-driven changes'
+  mountain_element: rope_team_confidence
+- question: What was the rationale and integration plan for Aim Security acquisition
+    (Sept 2025)?
+  why_important: M&A integration can create authority ambiguity, cultural conflict,
+    technical debt. First acquisition creates uncertainty about integration competence.
+  how_to_find: 'Insider interview: Ask about integration timeline, cultural fit, technical
+    overlap/synergy, team structure changes'
+  mountain_element: rope_team_confidence
+- question: What are the engineering team's CI/CD practices, code review standards,
+    and testing frameworks?
+  why_important: Staff engineer needs to understand quality gates, autonomy level,
+    and technical rigor expectations. Absence of this info creates uncertainty about
+    daily work quality.
+  how_to_find: 'Insider interview: Ask about deployment frequency, code review process,
+    test coverage expectations, incident response practices'
+  mountain_element: chosen_peak
+- question: What is the company's policy on AI coding tools (GitHub Copilot, Claude
+    Code, etc.)?
+  why_important: Impacts daily productivity and learning. Restrictive policies create
+    friction; supportive policies amplify tool-building strengths.
+  how_to_find: 'Insider interview: Ask about approved AI tools, procurement process,
+    security/compliance constraints'
+  mountain_element: chosen_peak
+- question: What is the team coordination style and how does it match the terrain
+    demands (alpine/expedition/established/orienteering)?
+  why_important: Misalignment between coordination style and terrain creates severe
+    energy drain (profile lists as severe drain). Need to assess communication bandwidth,
+    decision authority, realignment ability.
+  how_to_find: 'Insider interview: Ask about decision-making speed, autonomy level,
+    how team adapts to changing requirements, recent pivots and how they were handled'
+  mountain_element: chosen_peak
+- question: What are typical compensation ranges for staff engineer level, including
+    base, equity, and bonus?
+  why_important: Below-market compensation creates financial anxiety drain (profile
+    lists as moderate drain). Need to assess if total comp is competitive.
+  how_to_find: 'Insider interview: Ask about comp philosophy, equity grant sizes,
+    refresh cadence. Check levels.fyi for market data.'
+  mountain_element: daily_climb
+- question: What is the actual meeting load and maker time availability for senior
+    engineers?
+  why_important: Profile indicates 20-30% ideal meeting load, max 30%. Exceeding this
+    creates energy drain and reduces productive work time.
+  how_to_find: 'Insider interview: Ask about weekly meeting hours, focus time policies,
+    meeting-free days, async vs sync culture'
+  mountain_element: daily_climb
+- question: What is the specific tech stack for platform/infrastructure engineering
+    roles (container orchestration, observability, IaC tools)?
+  why_important: Need to assess learning curve and alignment with infrastructure automation
+    expertise. High learning required can be drain vs energizer depending on specific
+    technologies.
+  how_to_find: 'Insider interview: Ask about infrastructure stack, deployment pipelines,
+    observability tools (Datadog/Prometheus/etc), IaC adoption (Terraform/Pulumi)'
+  mountain_element: chosen_peak
+- question: How does the sales org challenge (38.6% quota attainment) impact engineering
+    priorities and roadmap stability?
+  why_important: Sales pressure can create misalignment drain through constant pivots,
+    urgent feature requests, or blame culture. Need to understand engineering/sales
+    boundary.
+  how_to_find: 'Insider interview: Ask about product roadmap stability, how sales
+    requests are prioritized, recent examples of sales-driven changes'
+  mountain_element: rope_team_confidence
+- question: What was the rationale and integration plan for Aim Security acquisition
+    (Sept 2025)?
+  why_important: M&A integration can create authority ambiguity, cultural conflict,
+    technical debt. First acquisition creates uncertainty about integration competence.
+  how_to_find: 'Insider interview: Ask about integration timeline, cultural fit, technical
+    overlap/synergy, team structure changes'
   mountain_element: rope_team_confidence

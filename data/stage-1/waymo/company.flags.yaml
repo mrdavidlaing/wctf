@@ -1,252 +1,495 @@
-company: Waymo
-evaluation_date: '2025-10-18'
+company: waymo
+evaluation_date: '2025-11-09'
 evaluator_context: Extracted from conversation notes
 green_flags:
   mountain_range:
     critical_matches:
-    - flag: Alphabet backing with $5B multi-year commitment plus $5.6B Series C (total
-        $11.1B raised), $45B valuation
-      impact: Ultimate financial security with deep-pocketed parent, no funding risk
-      confidence: High - TechCrunch
+    - flag: Market leader in autonomous vehicles - 91% fewer injury crashes than humans
+      impact: Working on genuinely transformative technology with proven safety advantage.
+        Building the future of transportation with measurable impact.
+      confidence: High - Independent research from Waymo showing 91% fewer serious
+        injury crashes, 79% fewer airbag deployments vs human drivers
+      task_implications:
+      - task: Design and implement autonomous driving ML systems handling 250K+ rides/week
+          across 720+ square miles
+        time_estimate_pct: 40%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: moderate
+          learning_required: moderate
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_glue_work: false
+          uses_infrastructure_automation: true
+          uses_decision_frameworks: true
+          collaboration_type: team
+          meeting_intensity: moderate
+          requires_sync_communication: true
+          timezone_spread: co_located
+        notes: Clear product vision provides aligned_collaboration generator. Autonomous
+          driving is cutting-edge ML/systems work using expert strengths. Technical
+          complexity requires some learning but strong alignment with systems_thinking
+          + infrastructure_automation.
+        energy_matrix_quadrant: moare
+    - flag: World-class research culture - 96 peer-reviewed publications, 2000+ academic
+        citations of open datasets
+      impact: Strong technical culture that values knowledge sharing and scientific
+        rigor. Waymo Open Dataset is industry benchmark.
+      confidence: High - Public research record showing 96 papers in top venues (CVPR,
+        ICRA, ECCV), Open Dataset with 3,042 GitHub stars
+      task_implications:
+      - task: Contribute to open-source datasets, publish research findings, present
+          at CVPR/ICRA conferences
+        time_estimate_pct: 15%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: moderate
+          learning_required: low
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_glue_work: true
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: cross_team
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: co_located
+        notes: Strong visible_progress generator - publishing research and building
+          tools that benefit broader community. Uses expert glue_work to bridge research
+          and engineering teams.
+        energy_matrix_quadrant: moare
+    - flag: Strong financial backing - $11.1B external funding + $5B Alphabet commitment
+        at $45B valuation
+      impact: Exceptional financial runway eliminates short-term survival concerns.
+        Multi-year commitment from parent company provides stability.
+      confidence: High - Recent $5.6B Series C in Oct 2024, Alphabet's separate $5B
+        multi-year investment commitment
+      task_implications:
+      - task: Build long-term autonomous vehicle infrastructure without quarterly
+          pressure
+        time_estimate_pct: 30%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: low
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_glue_work: false
+          uses_infrastructure_automation: true
+          uses_decision_frameworks: true
+          collaboration_type: team
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: co_located
+        notes: Strong funding reduces financial_anxiety drain significantly. Can focus
+          on long-term technical goals rather than short-term revenue pressure.
+        energy_matrix_quadrant: moare
+    - flag: Experienced stable leadership - Co-CEOs since 2021, VP Research with Inception/SSD
+        invention credentials
+      impact: Leadership team with deep technical expertise and long tenure. Reduces
+        authority_ambiguity and provides clear technical direction.
+      confidence: High - Dmitri Dolgov (PhD, joined 2009), Tekedra Mawakana (JD, joined
+        2017), Drago Anguelov (invented Inception architecture)
+      task_implications:
+      - task: Collaborate with world-class technical leaders on autonomous driving
+          architecture decisions
+        time_estimate_pct: 10%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: moderate
+          uses_systems_thinking: true
+          uses_tool_building: false
+          uses_glue_work: true
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: true
+          collaboration_type: cross_team
+          meeting_intensity: moderate
+          requires_sync_communication: true
+          timezone_spread: co_located
+        notes: Stable leadership provides clear decision frameworks and reduces authority_ambiguity
+          drain. Technical expertise enables fast alignment on complex problems.
+        energy_matrix_quadrant: moare
     strong_positives:
-    - flag: Revenue growing to $50-75M (2024) with clear path to scale through robotaxi
-        expansion
-      impact: Strong growth trajectory despite current losses, market leadership position
-      confidence: Medium - Bank of America estimates
-    - flag: Crossed 250K weekly rides, 4M+ autonomous rides in 2024, 100M+ autonomous
-        miles driven
-      impact: Product-market fit proven at scale, real revenue generation
-      confidence: High - Company blog
-    - flag: Dominates U.S. robotaxi market after Cruise suspended, expanding to Miami,
-        DC, Dallas, Nashville by 2026
-      impact: Market leader with clear competitive advantage and expansion runway
-      confidence: High - NYT, Wikipedia
-    - flag: Operating across 720+ square miles in 5 cities (Phoenix, SF, LA, Austin,
-        Atlanta)
-      impact: Proven ability to scale operations across diverse environments
-      confidence: High - Company data
-    - flag: Global autonomous vehicle market projected $207B→$4,450B by 2034 (36.3%
-        CAGR)
-      impact: Massive TAM with strong tailwinds
-      confidence: High - Precedence Research
-  chosen_peak:
-    critical_matches:
-    - flag: Technology IS the business - autonomous driving requires world-class engineering
-        to exist
-      impact: Perfect alignment - engineering is not supporting business, it IS the
-        business
-      confidence: High - Company nature
-    - flag: VP Research Drago Anguelov (invented Inception, SSD detector, ImageNet
-        2014 winner) since 2018
-      impact: World-class technical leadership, technology-first culture at top
-      confidence: High - Google Scholar
-    - flag: 96 research publications (2022-2025), active at CVPR/ICRA/ECCV, Waymo
-        Open Dataset with 3,042 GitHub stars
-      impact: Serious technical culture with academic rigor and open research contributions
-      confidence: High - Company research page
-    - flag: Over 2,000 academic papers cite Waymo Open Dataset - industry-leading
-        research impact
-      impact: Setting standards for autonomous vehicle research globally
-      confidence: High - Company blog
-    strong_positives:
-    - flag: 'Modern AI/ML stack: PyTorch, TensorFlow, Jax/Flax with Python, C++, SQL'
-      impact: Cutting-edge ML tools, highly marketable skills
-      confidence: High - Indeed job postings
-    - flag: Waymo Foundation Model combining AV-specific ML with LLMs/VLMs like Gemini
+    - flag: Modern ML stack - PyTorch, TensorFlow, Jax/Flax with Gemini integration
         for end-to-end driving
-      impact: Working at frontier of AI/ML application, not just incremental improvements
-      confidence: High - Company blog
-    - flag: EMMA (End-to-End Multimodal Model) research published Oct 2024 powered
-        by Gemini
-      impact: Publishing cutting-edge research, not just building product
-      confidence: High - Company blog
-    - flag: Co-organizes Workshop on Autonomous Driving at CVPR (8th year at CVPR
-        2025)
-      impact: Technical leadership in research community
-      confidence: High - CVPR 2024
-    - flag: Over 20B miles in simulation, 20M+ autonomous miles on public roads
-      impact: Massive testing infrastructure demonstrates engineering maturity
-      confidence: High - PR Newswire
-    - flag: '6th-gen hardware: 13 cameras, 4 lidar, 6 radar with 500m detection range'
-      impact: Continuously evolving hardware platform, not stagnant
-      confidence: High - Company blog
+      impact: Using cutting-edge tools and foundation models. Strong technical culture
+        embracing latest AI advances.
+      confidence: High - Job postings show PyTorch/TF/Jax stack, EMMA research paper
+        published Oct 2024 using Gemini
+      task_implications:
+      - task: Build ML pipelines using state-of-the-art foundation models and frameworks
+        time_estimate_pct: 20%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: moderate
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_glue_work: false
+          uses_infrastructure_automation: true
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: co_located
+        notes: Strong tool_building generator. Using modern stack enables high autonomy
+          and fast decision making. Moderate learning for latest ML techniques.
+        energy_matrix_quadrant: moare
+    - flag: Real-world scale validation - 5M+ autonomous rides, 100M+ miles, 250K
+        rides/week across 5 cities
+      impact: Not vaporware - technology is deployed at meaningful scale. Evidence
+        of product-market fit with rapid growth.
+      confidence: High - Official Waymo blog reports 4M rides in 2024 alone, 250K
+        weekly rides as of April 2025
+      task_implications:
+      - task: Scale production autonomous vehicle systems handling real-world edge
+          cases at 250K+ rides/week
+        time_estimate_pct: 25%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: moderate
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_glue_work: false
+          uses_infrastructure_automation: true
+          uses_decision_frameworks: true
+          collaboration_type: team
+          meeting_intensity: moderate
+          requires_sync_communication: true
+          timezone_spread: co_located
+        notes: Real scale provides visible_progress generator - shipping actual product
+          used by real customers. Systems thinking + infrastructure automation at
+          massive scale.
+        energy_matrix_quadrant: moare
+    - flag: Low employee turnover - Under 5% (95 departures from ~2,400 employees),
+        73-76% would recommend to friend
+      impact: Employees generally stay and would recommend the company. Indicates
+        healthy culture despite challenges.
+      confidence: High - Unify data shows 243 hires/95 departures, Glassdoor shows
+        73-76% recommendation rate
+      task_implications:
+      - task: Build long-term relationships with stable team members
+        time_estimate_pct: 5%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: moderate
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: low
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: true
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: co_located
+        notes: Low turnover reduces interpersonal_conflict drain from team churn.
+          Stability enables aligned_collaboration generator.
+        energy_matrix_quadrant: moare
+    - flag: Competitive compensation - $192K-$243K base for Senior SWE + 15% bonus
+        + equity, Google-level benefits
+      impact: Strong compensation package reduces financial concerns. Google benefits
+        (healthcare, 401k match, food, barista).
+      confidence: High - LinkedIn salary data, Blind reports on benefits matching
+        Google
+      task_implications:
+      - task: Focus on technical work without financial stress
+        time_estimate_pct: 3%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: moderate
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: none
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: false
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: solo
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: co_located
+        notes: Strong compensation eliminates financial_anxiety drain. Can focus energy
+          on technical challenges.
+        energy_matrix_quadrant: help_mentoring
+  chosen_peak:
+    critical_matches: []
+    strong_positives: []
   rope_team_confidence:
     critical_matches: []
-    strong_positives:
-    - flag: 'Co-CEO model: Dmitri Dolgov (PhD CS, 2009 hire, Stanford DARPA) + Tekedra
-        Mawakana (Columbia Law, eBay/Yahoo/AOL)'
-      impact: Balanced technical + business leadership, technical co-CEO from day
-        one
-      confidence: High - Company website
-    - flag: VP Operations Ryan McNamara (10-year Navy pilot, Apple iPhone Ops, Nest,
-        Google)
-      impact: Strong operational leadership from tech companies
-      confidence: High - Company website
-    - flag: Daniel Ho (Program Director) hired from Tesla Director of Vehicle Programs
-        (2024)
-      impact: Attracting senior talent from competitors
-      confidence: High - Teslarati
-    - flag: Glassdoor 4.0-4.1/5, 73-76% recommend to friend - stable and positive
-      impact: Strong employee sentiment, above average for tech
-      confidence: High - Glassdoor
-    - flag: Smart talented colleagues (39 reviews), great pay and benefits (35 reviews)
-      impact: Strong peer group and compensation
-      confidence: High - Glassdoor
-    - flag: Low turnover rate under 5% (2,400 employees, 243 hires, 95 departures)
-      impact: People stay - indicator of good culture and work
-      confidence: High - Unify data
+    strong_positives: []
   daily_climb:
     critical_matches: []
-    strong_positives:
-    - flag: Compensation & Benefits rated 3.9-4.0/5
-      impact: Strong total comp package
-      confidence: High - Glassdoor
-    - flag: Senior SWE salary $192K-$243K base + 15% bonus + equity (RSUs with 409a
-        pricing)
-      impact: Competitive compensation for senior engineers
-      confidence: High - LinkedIn
-    - flag: 'Google/Alphabet benefits: 401k match, healthcare, breakfast/lunch, onsite
-        barista, flexible RTO'
-      impact: Top-tier benefits from parent company
-      confidence: High - Blind
-    - flag: Hybrid work model with flexible RTO (not fully remote but some remote
-        positions available)
-      impact: Some flexibility though not remote-first
-      confidence: Medium - Blind, job postings
-    - flag: Mountain View HQ + Detroit + Phoenix offices
-      impact: Multiple office locations for mobility
-      confidence: High - Craft
+    strong_positives: []
   story_worth_telling:
-    critical_matches:
-    - flag: Working on genuinely transformative technology - autonomous vehicles at
-        scale solving real transportation problems
-      impact: Meaningful work with potential to reshape society, not incremental SaaS
-        features
-      confidence: High - Mission and scale
-    - flag: 16-year autonomy track record (2009 Google project → 2016 spinout), pioneer
-        and market leader
-      impact: 'Resume value: ''built autonomous vehicles at Waymo'' opens any door
-        in tech'
-      confidence: High - Company history
-    strong_positives:
-    - flag: 70% users prefer driverless cars to traditional rideshare - product users
-        actually love
-      impact: Building something people genuinely want, not forcing adoption
-      confidence: High - Obi survey via TechCrunch
-    - flag: 91% fewer serious injury crashes, 79% fewer airbag deployments vs human
-        drivers
-      impact: Measurable positive impact on safety - work that saves lives
-      confidence: High - Company data
-    - flag: Exposure to cutting-edge ML/AI, robotics, sensors, mapping, simulation
-        at scale
-      impact: Incredibly broad technical learning across multiple domains
-      confidence: High - Tech stack and scope
-    - flag: Hyundai partnership for Ioniq 5 EVs, Uber exclusive partnership in Austin/Atlanta
-      impact: Strategic partnerships show commercial traction
-      confidence: High - Company announcements
+    critical_matches: []
+    strong_positives: []
 red_flags:
   mountain_range:
     dealbreakers: []
     concerning:
-    - flag: Bank of America estimates $1.5B annual loss in 2024, Alphabet Other Bets
-        lost $1.13B in Q2 2024
-      impact: Company is not profitable and burning significant cash
-      confidence: High - Bank of America, CNBC
-    - flag: Shut down autonomous trucking program (Waymo Via) in July 2023
-      impact: Indication of strategic pivots and abandoned initiatives
-      confidence: High - TechCrunch
-    - flag: Laid off 137 employees (8% workforce) in March 2023, second round that
-        year
-      impact: Layoffs even with Alphabet backing shows cost pressure
-      confidence: High - Sunset
+    - flag: Not profitable - $1.5B annual losses on only $50-75M revenue
+      impact: Dependent on Alphabet for survival. Risk of shutdown if parent company
+        changes strategy or faces pressure.
+      confidence: High - Bank of America estimated 2024 loss at $1.5B, revenue at
+        $50-75M. Alphabet Other Bets segment lost $1.13B in Q2 2024 alone.
+      task_implications:
+      - task: Navigate uncertainty about long-term viability and potential restructuring
+        time_estimate_pct: 10%
+        characteristics:
+          conflict_exposure: moderate
+          alignment_clarity: moderate
+          authority_ambiguity: moderate
+          progress_visibility: moderate
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: low
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: false
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: moderate
+          requires_sync_communication: true
+          timezone_spread: co_located
+        notes: Moderate financial_anxiety drain. Well-funded for now but not self-sustaining.
+          Recent layoffs and trucking shutdown show cost-cutting pressure.
+        energy_matrix_quadrant: burnout
+    - flag: Recent cost-cutting - 8% layoffs (137 employees) in March 2023, shut down
+        Waymo Via trucking division July 2023
+      impact: Evidence of financial pressure leading to pivots and workforce reductions.
+        Risk of future cuts if losses continue.
+      confidence: High - Two rounds of layoffs in 2023 totaling 137 employees. Complete
+        shutdown of autonomous trucking program after years of investment.
+      task_implications:
+      - task: Work in environment with recent layoff trauma and strategic pivot
+        time_estimate_pct: 8%
+        characteristics:
+          conflict_exposure: moderate
+          alignment_clarity: moderate
+          authority_ambiguity: low
+          progress_visibility: moderate
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: low
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: true
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: moderate
+          requires_sync_communication: true
+          timezone_spread: co_located
+        notes: Moderate financial_anxiety + interpersonal_conflict drain from layoff
+          aftermath. Trucking shutdown shows willingness to pivot, which triggers
+          misalignment drain.
+        energy_matrix_quadrant: sparingly
+    - flag: Poor work-life balance - Glassdoor 3.7-3.8/5, 'bad work-life balance'
+        mentioned in 12 reviews
+      impact: Risk of burnout in high-pressure moonshot environment. May conflict
+        with energy sustainability needs.
+      confidence: High - Work-life balance rated 3.7-3.8/5 on Glassdoor, lowest of
+        all categories. Bad work-life balance is second most common CON.
+      task_implications:
+      - task: Manage work intensity and prevent burnout in high-pressure autonomous
+          driving development
+        time_estimate_pct: 15%
+        characteristics:
+          conflict_exposure: moderate
+          alignment_clarity: moderate
+          authority_ambiguity: low
+          progress_visibility: moderate
+          autonomy_level: low
+          decision_speed: slow
+          learning_required: low
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: false
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: high
+          requires_sync_communication: true
+          timezone_spread: co_located
+        notes: Significant drain on energy reserves. High meeting intensity + low
+          autonomy = difficulty maintaining boundaries. Conflicts with communication_preferences
+          max 30% meeting time.
+        energy_matrix_quadrant: burnout
+    - flag: Hybrid work requirement - Not fully remote, some positions restricted
+        to Mountain View/Phoenix
+      impact: Limited geographic flexibility. Conflicts with async-first preference
+        and timezone flexibility strength.
+      confidence: Medium - Blind discussions indicate hybrid model with some remote
+        positions for specific roles. HQ in Mountain View, offices in Detroit and
+        Phoenix.
+      task_implications:
+      - task: Coordinate with co-located team in hybrid environment
+        time_estimate_pct: 8%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: moderate
+          authority_ambiguity: low
+          progress_visibility: moderate
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: low
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: true
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: moderate
+          requires_sync_communication: true
+          timezone_spread: co_located
+        notes: Minor constraint on async_work_capability. Co-located has benefits
+          for uncertain problem space, but reduces flexibility.
+        energy_matrix_quadrant: sparingly
+    - flag: Illiquid equity - RSUs with 409a pricing as private subsidiary of Alphabet
+      impact: Equity compensation has uncertain value and no liquidity. Less valuable
+        than public company stock.
+      confidence: High - Glassdoor reviews mention 'illiquid equity' as common CON.
+        As Alphabet subsidiary, no IPO path in near term.
+      task_implications:
+      - task: Accept compensation structure with illiquid equity component
+        time_estimate_pct: 5%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: low
+          autonomy_level: low
+          decision_speed: slow
+          learning_required: none
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: false
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: solo
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: co_located
+        notes: Moderate financial_anxiety drain. Total comp is strong but equity portion
+          has uncertain value and no liquidity path.
+        energy_matrix_quadrant: burnout
+    - flag: Disorganized leadership mentioned in reviews - 6 Glassdoor reviews cite
+        'disorganized leadership' as CON
+      impact: Some authority_ambiguity and misalignment risk despite stable executive
+        team. May affect decision speed and clarity.
+      confidence: Medium - Disorganized leadership appears as common CON in Glassdoor
+        reviews, despite stable co-CEO structure since 2021.
+      task_implications:
+      - task: Navigate unclear decision-making processes in middle management
+        time_estimate_pct: 6%
+        characteristics:
+          conflict_exposure: moderate
+          alignment_clarity: low
+          authority_ambiguity: moderate
+          progress_visibility: moderate
+          autonomy_level: low
+          decision_speed: slow
+          learning_required: low
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: true
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: cross_team
+          meeting_intensity: high
+          requires_sync_communication: true
+          timezone_spread: co_located
+        notes: Moderate authority_ambiguity drain. Executive team is stable but middle
+          management may have unclear decision processes. Triggers misalignment concern.
+        energy_matrix_quadrant: sparingly
   chosen_peak:
     dealbreakers: []
-    concerning:
-    - flag: No information on AI coding tool availability (Copilot, Cursor, etc.)
-        or policies
-      impact: Unknown if Alphabet/Waymo provides modern developer productivity tools
-      confidence: Low - Absence of data
-    - flag: No public DORA metrics or deployment frequency data
-      impact: Unknown actual velocity despite mature practices mentioned
-      confidence: Medium - Absence of data
+    concerning: []
   rope_team_confidence:
     dealbreakers: []
-    concerning:
-    - flag: Bad work-life balance mentioned in 12 reviews, disorganized leadership
-        in 6 reviews
-      impact: Some friction points in culture despite overall positive sentiment
-      confidence: Medium - Glassdoor minority opinion
-    - flag: Poor management, limited career growth mentioned in cons
-      impact: Potential career progression challenges
-      confidence: Medium - Glassdoor
-    - flag: Illiquid equity as Alphabet subsidiary (RSUs with 409a pricing, not public
-        stock)
-      impact: Equity value unclear until exit/IPO
-      confidence: High - Blind discussions
+    concerning: []
   daily_climb:
-    dealbreakers:
-    - flag: NOT Dublin-based - HQ in Mountain View, CA with offices in Detroit and
-        Phoenix only
-      impact: Eliminates this opportunity - no Dublin office or European presence
-        mentioned
-      confidence: High - Company locations
-    concerning:
-    - flag: Hybrid work model (not fully remote) requires proximity to Mountain View,
-        Detroit, or Phoenix
-      impact: Geographic constraint incompatible with Dublin preference
-      confidence: High - Office locations
-    - flag: Work-life balance rated 3.7-3.8/5 - mediocre
-      impact: Potential for intense work expectations
-      confidence: Medium - Glassdoor
-    - flag: Interview difficulty 2.93/5, 53.6% positive experience, average 32.84
-        days to hire
-      impact: Lengthy interview process with mixed candidate experience
-      confidence: High - Glassdoor
+    dealbreakers: []
+    concerning: []
   story_worth_telling:
     dealbreakers: []
-    concerning:
-    - flag: Unclear path to profitability or IPO - dependent on Alphabet's long-term
-        patience
-      impact: Equity upside uncertain without clear exit timeline
-      confidence: Medium - Business model risk
+    concerning: []
 missing_critical_data:
-- question: Does Waymo have any Dublin or European office? Any plans for international
-    engineering presence?
-  why_important: CRITICAL - Need Dublin or remote option for geographic requirements
-  how_to_find: Research company locations, ask recruiter about remote international
-    hiring
-  mountain_element: daily_climb
-- question: Does Waymo/Alphabet provide AI coding tools like GitHub Copilot, Cursor,
-    or internal alternatives?
-  why_important: Core requirement for developer productivity
-  how_to_find: Ask during interviews about approved AI tools and developer productivity
-    investments
-  mountain_element: chosen_peak
-- question: What are actual DORA metrics? Deployment frequency, lead time, MTTR, change
-    failure rate?
-  why_important: Core criterion for evaluating engineering excellence
-  how_to_find: Ask engineering leadership about deployment practices and metrics
-  mountain_element: chosen_peak
-- question: What is the deployment model for AV software? How often do updates ship
-    to fleet?
-  why_important: Understanding engineering velocity in physical product context
-  how_to_find: Ask about OTA update cadence, testing cycles, release processes
-  mountain_element: chosen_peak
-- question: What is remote work policy for senior engineers? Any fully remote positions?
-  why_important: Understanding if role can be performed outside US offices
-  how_to_find: Ask recruiter about remote work flexibility
-  mountain_element: daily_climb
-- question: What is path to profitability or IPO timeline?
-  why_important: Understanding equity value realization timeline
-  how_to_find: Research Alphabet statements about Waymo strategy, ask leadership
+- question: What is the actual path to profitability? When does Waymo expect to be
+    cash-flow positive?
+  why_important: Need to understand if this is a 2-3 year path or 10+ year bet. Affects
+    financial_anxiety drain severity.
+  how_to_find: Insider interview with finance/strategy team member
   mountain_element: mountain_range
-- question: What is staff engineer compensation including base, equity, bonus?
-  why_important: Understanding total comp competitiveness
-  how_to_find: Research Levels.fyi, ask recruiter
+- question: How does work-life balance vary by team? Is it worse for certain roles
+    (perception vs planning vs infrastructure)?
+  why_important: Meeting intensity tolerance is max 30%. Need to verify if specific
+    teams have sustainable workload.
+  how_to_find: Insider interviews with engineers on different teams
   mountain_element: daily_climb
-- question: What is international testing in Tokyo? Could this lead to international
-    engineering roles?
-  why_important: Exploring potential future geographic options
-  how_to_find: Research Tokyo operations, ask about international expansion plans
+- question: What is the actual remote work policy? Can senior engineers work fully
+    remote or is hybrid mandatory?
+  why_important: Async_work_capability is core strength. Need to verify if role allows
+    timezone flexibility.
+  how_to_find: Ask during recruiter screen or insider interview
   mountain_element: daily_climb
+profile_version_used: '1.0'
 company_slug: waymo
+synthesis:
+  energy_matrix_analysis:
+    profile_version_used: '1.0'
+    predicted_daily_distribution:
+      moare_green_flags:
+        percentage: 72.5
+        tasks_count: 7
+      sparingly_yellow_flags:
+        percentage: 11.0
+        tasks_count: 3
+      burnout_red_flags:
+        percentage: 15.0
+        tasks_count: 3
+      help_mentoring_yellow_flags:
+        percentage: 1.5
+        tasks_count: 1
+    threshold_analysis:
+      meets_green_minimum: true
+      exceeds_red_maximum: false
+      exceeds_yellow_maximum: false
+    energy_sustainability: HIGH
+    key_insights: []
+    decision_factors: []

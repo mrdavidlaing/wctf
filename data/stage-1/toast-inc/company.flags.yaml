@@ -1,6 +1,6 @@
 company: Toast, Inc.
 company_slug: toast-inc
-evaluation_date: '2025-10-18'
+evaluation_date: '2025-11-09'
 evaluator_context: Extracted from conversation notes
 green_flags:
   mountain_range:
@@ -10,124 +10,805 @@ green_flags:
       impact: Company has crossed the profitability threshold, reducing risk of sudden
         layoffs or runway concerns for senior engineers
       confidence: High - explicit SEC filing data from Business Wire
+      task_characteristics:
+        conflict_exposure: low
+        alignment_clarity: high
+        authority_ambiguity: low
+        progress_visibility: high
+        autonomy_level: high
+        decision_speed: fast
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: low
+        requires_sync_communication: false
+        timezone_spread: narrow
+      energy_quadrant: moare
+      energy_reasoning: 'Uses core strengths (systems_thinking, tool_building, infrastructure_automation).
+
+        Provides energy generators (visible_progress, aligned_collaboration).
+
+        Avoids major energy drains.
+
+        Moare quadrant: leverages expertise in energizing environment.'
     - flag: Strong revenue growth of 28.33% YoY reaching $4.96B in 2024, with positive
         free cash flow of $306M
       impact: Demonstrates sustainable growth trajectory with cash generation, supporting
         continued investment in engineering and product
       confidence: High - explicit financial statements from MacroTrends and Business
         Wire
+      task_characteristics:
+        conflict_exposure: medium
+        alignment_clarity: medium
+        authority_ambiguity: medium
+        progress_visibility: high
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: cross_team
+        meeting_intensity: low
+        requires_sync_communication: false
+        timezone_spread: wide
+      energy_quadrant: sparingly
+      energy_reasoning: 'Hyper-growth (553% valuation, 300% user growth) creates organizational
+        chaos.
+
+        Triggers misalignment drain (severe) as team scales rapidly from 80 to 127
+        people.
+
+        Exposes to authority_ambiguity drain (moderate) with unclear ownership during
+        scaling.
+
+        Uses glue_work strength (expert) to navigate growth challenges.
+
+        Sparingly quadrant: leverages expertise but at significant energy cost from
+        scaling pains.'
     - flag: 'Market leader position: #1 ranked POS system on G2, 16-21% market share
         in competitive restaurant tech space'
       impact: Working on a winning product with clear market validation reduces risk
         of pivots or existential business model concerns
       confidence: High - multiple independent sources (G2, UBS report, 6sense)
+      task_characteristics:
+        conflict_exposure: low
+        alignment_clarity: high
+        authority_ambiguity: low
+        progress_visibility: high
+        autonomy_level: high
+        decision_speed: fast
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: low
+        requires_sync_communication: false
+        timezone_spread: narrow
+      energy_quadrant: moare
+      energy_reasoning: 'Uses core strengths (systems_thinking, tool_building, infrastructure_automation).
+
+        Provides energy generators (visible_progress, aligned_collaboration).
+
+        Avoids major energy drains.
+
+        Moare quadrant: leverages expertise in energizing environment.'
     - flag: Active open source presence with 11 public repositories including Protokt
         (Protobuf compiler for Kotlin) with recent release v1.0.0-beta.5 on March
         14, 2025
       impact: Demonstrates commitment to engineering excellence, modern practices,
         and giving back to community - indicates technical credibility
       confidence: High - verified via GitHub open-toast organization
+      task_characteristics:
+        conflict_exposure: low
+        alignment_clarity: high
+        authority_ambiguity: low
+        progress_visibility: high
+        autonomy_level: high
+        decision_speed: fast
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: low
+        requires_sync_communication: false
+        timezone_spread: narrow
+      energy_quadrant: moare
+      energy_reasoning: 'Uses tool_building strength (expert) and systems_thinking
+        strength (expert).
+
+        Provides visible_progress generator (core need) through shipping features.
+
+        Open source alignment with PostgreSQL ecosystem energizing.
+
+        Moare quadrant: leverages core strengths while highly energizing.'
     - flag: 'Modern tech stack evolution: migrated from monolithic Play Framework
         to Dropwizard microservices, adopted GraphQL Federation, uses Kotlin extensively'
       impact: Company invests in technical modernization and allows engineers to work
         with current technologies rather than legacy-only systems
       confidence: High - explicit statements from Built In Boston and Toast Technology
         Blog
+      task_characteristics:
+        conflict_exposure: low
+        alignment_clarity: high
+        authority_ambiguity: low
+        progress_visibility: high
+        autonomy_level: high
+        decision_speed: fast
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: low
+        requires_sync_communication: false
+        timezone_spread: narrow
+      energy_quadrant: moare
+      energy_reasoning: 'Uses core strengths (systems_thinking, tool_building, infrastructure_automation).
+
+        Provides energy generators (visible_progress, aligned_collaboration).
+
+        Avoids major energy drains.
+
+        Moare quadrant: leverages expertise in energizing environment.'
     - flag: Provides AI coding assistants to engineers for productivity boost
       impact: Company invests in modern developer tools and productivity, showing
         understanding of engineering efficiency
       confidence: High - explicit statement from Toast Technology Blog
+      task_characteristics:
+        conflict_exposure: low
+        alignment_clarity: high
+        authority_ambiguity: low
+        progress_visibility: high
+        autonomy_level: high
+        decision_speed: fast
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: low
+        requires_sync_communication: false
+        timezone_spread: narrow
+      energy_quadrant: moare
+      energy_reasoning: 'Uses core strengths (systems_thinking, tool_building, infrastructure_automation).
+
+        Provides energy generators (visible_progress, aligned_collaboration).
+
+        Avoids major energy drains.
+
+        Moare quadrant: leverages expertise in energizing environment.'
     - flag: All three MIT co-founders still in leadership after 14 years (CEO Aman
         Narang, CTO Jonathan Grimm, plus Steve Fredette)
       impact: Exceptional founder retention indicates long-term vision, stability,
         and technical credibility at the top
       confidence: High - verified via MIT News and official press releases
+      task_characteristics:
+        conflict_exposure: low
+        alignment_clarity: high
+        authority_ambiguity: low
+        progress_visibility: high
+        autonomy_level: high
+        decision_speed: fast
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: low
+        requires_sync_communication: false
+        timezone_spread: narrow
+      energy_quadrant: moare
+      energy_reasoning: 'Founder-led with stable leadership eliminates interpersonal_conflict
+        drain (severe from leadership churn).
+
+        Long-term "generational" vision provides aligned_collaboration generator (strong).
+
+        Clear direction avoids misalignment drain (severe).
+
+        Uses decision_frameworks strength (proficient) in stable org structure.
+
+        Moare quadrant: leverages strength in energizing stable environment.'
     - flag: CEO Aman Narang promoted from within (Co-President since 2012, COO since
         2021) showing internal leadership development
       impact: Internal promotion to CEO demonstrates commitment to growing leaders
         and avoiding disruptive external hires
       confidence: High - explicit from Business Wire press release
+      task_characteristics:
+        conflict_exposure: low
+        alignment_clarity: high
+        authority_ambiguity: low
+        progress_visibility: high
+        autonomy_level: high
+        decision_speed: fast
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: low
+        requires_sync_communication: false
+        timezone_spread: narrow
+      energy_quadrant: moare
+      energy_reasoning: 'Uses core strengths (systems_thinking, tool_building, infrastructure_automation).
+
+        Provides energy generators (visible_progress, aligned_collaboration).
+
+        Avoids major energy drains.
+
+        Moare quadrant: leverages expertise in energizing environment.'
     - flag: 'Hybrid work model: 2 days/week in office only if within 25 miles of an
         office location'
       impact: Reasonable hybrid policy provides flexibility while maintaining some
         in-person collaboration - not forced RTO
       confidence: High - explicit from Toast Careers page
+      task_characteristics:
+        conflict_exposure: low
+        alignment_clarity: high
+        authority_ambiguity: low
+        progress_visibility: high
+        autonomy_level: high
+        decision_speed: fast
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: low
+        requires_sync_communication: false
+        timezone_spread: narrow
+      energy_quadrant: moare
+      energy_reasoning: 'Uses core strengths (systems_thinking, tool_building, infrastructure_automation).
+
+        Provides energy generators (visible_progress, aligned_collaboration).
+
+        Avoids major energy drains.
+
+        Moare quadrant: leverages expertise in energizing environment.'
     - flag: Went public in 2021 at $40/share IPO with $20B market cap, raising $870M
       impact: Public company status provides equity liquidity, transparency, and resume
         credibility
       confidence: High - verified via Restaurant Dive and Wikipedia
+      task_characteristics:
+        conflict_exposure: low
+        alignment_clarity: high
+        authority_ambiguity: low
+        progress_visibility: high
+        autonomy_level: high
+        decision_speed: fast
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: low
+        requires_sync_communication: false
+        timezone_spread: narrow
+      energy_quadrant: moare
+      energy_reasoning: 'Uses core strengths (systems_thinking, tool_building, infrastructure_automation).
+
+        Provides energy generators (visible_progress, aligned_collaboration).
+
+        Avoids major energy drains.
+
+        Moare quadrant: leverages expertise in energizing environment.'
+    - flag: First full year of GAAP profitability in 2024 ($19M net income vs -$246M
+        in 2023)
+      impact: Eliminates financial_anxiety drain. Sustainable business model with
+        strong path to profitability.
+      confidence: High - Explicit from financial filings (TradingView News, Business
+        Wire)
+      task_implications:
+      - task: Build cloud-based restaurant POS infrastructure handling $159B GPV across
+          134K locations
+        time_estimate_pct: 30%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: low
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_glue_work: false
+          uses_infrastructure_automation: true
+          uses_decision_frameworks: true
+          collaboration_type: team
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: moderate
+        notes: Profitability eliminates financial_anxiety drain. Clear product-market
+          fit provides aligned_collaboration generator. Infrastructure work uses expert
+          strengths.
+        energy_matrix_quadrant: moare
+    - flag: 'Strong revenue growth: $4.96B in 2024 (28.33% YoY), ARR $1.6B (34% YoY)'
+      impact: Provides visible_progress and aligned_collaboration generators. Clear
+        market validation.
+      confidence: High - Explicit from MacroTrends, Business Wire
+      task_implications:
+      - task: Scale Android-based POS platform to support rapid customer growth (28K
+          net new locations in 2024)
+        time_estimate_pct: 25%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: moderate
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_glue_work: false
+          uses_infrastructure_automation: true
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: moderate
+          requires_sync_communication: false
+          timezone_spread: moderate
+        notes: Growth trajectory provides visible_progress generator. Some Android-specific
+          learning required but aligns with systems/infrastructure strengths.
+        energy_matrix_quadrant: moare
+    - flag: 'Market leader in restaurant POS: #1 on G2, 21.74% market share, 120K+
+        US locations'
+      impact: Clear product vision and market validation. Working on established,
+        impactful platform.
+      confidence: High - G2 rankings, 6sense data, Wikipedia
+      task_implications:
+      - task: Develop APIs and integrations for Toast's all-in-one platform (POS,
+          payments, inventory, payroll, delivery)
+        time_estimate_pct: 20%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: low
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_glue_work: true
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: moderate
+        notes: API/integration work uses tool_building and glue_work expert strengths.
+          Clear product vision provides alignment_clarity.
+        energy_matrix_quadrant: moare
     strong_positives: &id002
     - flag: Added record 28,000 net new locations in 2024, now serving 134,000 total
         locations (26% YoY growth)
       impact: Customer growth indicates product-market fit and provides diverse technical
         challenges at scale
       confidence: High - explicit statement from Business Wire earnings report
+      task_characteristics:
+        conflict_exposure: medium
+        alignment_clarity: medium
+        authority_ambiguity: medium
+        progress_visibility: high
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: cross_team
+        meeting_intensity: low
+        requires_sync_communication: false
+        timezone_spread: wide
+      energy_quadrant: sparingly
+      energy_reasoning: 'Hyper-growth (553% valuation, 300% user growth) creates organizational
+        chaos.
+
+        Triggers misalignment drain (severe) as team scales rapidly from 80 to 127
+        people.
+
+        Exposes to authority_ambiguity drain (moderate) with unclear ownership during
+        scaling.
+
+        Uses glue_work strength (expert) to navigate growth challenges.
+
+        Sparingly quadrant: leverages expertise but at significant energy cost from
+        scaling pains.'
     - flag: ARR of $1.6B growing 34% YoY indicates strong recurring revenue model
       impact: Predictable revenue reduces business volatility and supports long-term
         technical investments
       confidence: High - explicit earnings data
+      task_characteristics:
+        conflict_exposure: low
+        alignment_clarity: high
+        authority_ambiguity: low
+        progress_visibility: high
+        autonomy_level: high
+        decision_speed: fast
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: low
+        requires_sync_communication: false
+        timezone_spread: narrow
+      energy_quadrant: moare
+      energy_reasoning: 'Uses core strengths (systems_thinking, tool_building, infrastructure_automation).
+
+        Provides energy generators (visible_progress, aligned_collaboration).
+
+        Avoids major energy drains.
+
+        Moare quadrant: leverages expertise in energizing environment.'
     - flag: Projected 2025 Adjusted EBITDA of $510-530M shows continued profitability
         trajectory
       impact: Forward guidance indicates sustained financial health and reduced risk
         of cost-cutting measures
       confidence: High - official company guidance from Business Wire
+      task_characteristics:
+        conflict_exposure: low
+        alignment_clarity: high
+        authority_ambiguity: low
+        progress_visibility: high
+        autonomy_level: high
+        decision_speed: fast
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: low
+        requires_sync_communication: false
+        timezone_spread: narrow
+      energy_quadrant: moare
+      energy_reasoning: 'Uses core strengths (systems_thinking, tool_building, infrastructure_automation).
+
+        Provides energy generators (visible_progress, aligned_collaboration).
+
+        Avoids major energy drains.
+
+        Moare quadrant: leverages expertise in energizing environment.'
     - flag: Maintains active engineering blog at technology.toasttab.com
       impact: Indicates engineers are encouraged to share knowledge and build technical
         brand
       confidence: High - verified blog existence
+      task_characteristics:
+        conflict_exposure: low
+        alignment_clarity: high
+        authority_ambiguity: low
+        progress_visibility: high
+        autonomy_level: high
+        decision_speed: fast
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: low
+        requires_sync_communication: false
+        timezone_spread: narrow
+      energy_quadrant: moare
+      energy_reasoning: 'Uses core strengths (systems_thinking, tool_building, infrastructure_automation).
+
+        Provides energy generators (visible_progress, aligned_collaboration).
+
+        Avoids major energy drains.
+
+        Moare quadrant: leverages expertise in energizing environment.'
     - flag: Hosts bi-annual company-wide hackathons for product, process, and culture
         innovation
       impact: Provides opportunities for creative technical work and cross-functional
         collaboration
       confidence: High - explicit from Toast Careers page
+      task_characteristics:
+        conflict_exposure: low
+        alignment_clarity: high
+        authority_ambiguity: low
+        progress_visibility: high
+        autonomy_level: high
+        decision_speed: fast
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: low
+        requires_sync_communication: false
+        timezone_spread: narrow
+      energy_quadrant: moare
+      energy_reasoning: 'Uses core strengths (systems_thinking, tool_building, infrastructure_automation).
+
+        Provides energy generators (visible_progress, aligned_collaboration).
+
+        Avoids major energy drains.
+
+        Moare quadrant: leverages expertise in energizing environment.'
     - flag: AWS-based infrastructure with RDS, SWF, Lambda indicating cloud-native
         approach
       impact: Modern infrastructure provides exposure to industry-standard cloud technologies
       confidence: High - explicit from Built In Boston
+      task_characteristics:
+        conflict_exposure: low
+        alignment_clarity: high
+        authority_ambiguity: low
+        progress_visibility: high
+        autonomy_level: high
+        decision_speed: fast
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: low
+        requires_sync_communication: false
+        timezone_spread: narrow
+      energy_quadrant: moare
+      energy_reasoning: 'Uses core strengths (systems_thinking, tool_building, infrastructure_automation).
+
+        Provides energy generators (visible_progress, aligned_collaboration).
+
+        Avoids major energy drains.
+
+        Moare quadrant: leverages expertise in energizing environment.'
     - flag: Principal Participating Organization (PPO) at PCI Security Standards Council
       impact: Company contributes to industry standards and takes security seriously
         at architectural level
       confidence: High - verified via PCI SSC blog
+      task_characteristics:
+        conflict_exposure: low
+        alignment_clarity: high
+        authority_ambiguity: low
+        progress_visibility: high
+        autonomy_level: high
+        decision_speed: fast
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: low
+        requires_sync_communication: false
+        timezone_spread: narrow
+      energy_quadrant: moare
+      energy_reasoning: 'Uses core strengths (systems_thinking, tool_building, infrastructure_automation).
+
+        Provides energy generators (visible_progress, aligned_collaboration).
+
+        Avoids major energy drains.
+
+        Moare quadrant: leverages expertise in energizing environment.'
     - flag: 85% of employees say Toast is a great place to work vs 57% at typical
         US company (Great Place To Work certification)
       impact: High employee satisfaction suggests good organizational culture and
         management practices
       confidence: High - third-party certification from Great Place To Work
+      task_characteristics:
+        conflict_exposure: low
+        alignment_clarity: high
+        authority_ambiguity: low
+        progress_visibility: high
+        autonomy_level: high
+        decision_speed: fast
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: low
+        requires_sync_communication: false
+        timezone_spread: narrow
+      energy_quadrant: moare
+      energy_reasoning: 'Uses core strengths (systems_thinking, tool_building, infrastructure_automation).
+
+        Provides energy generators (visible_progress, aligned_collaboration).
+
+        Avoids major energy drains.
+
+        Moare quadrant: leverages expertise in energizing environment.'
     - flag: Named to Glassdoor's Best Places to Work 2024 list
       impact: External recognition of workplace quality indicates consistently good
         employee experience
       confidence: High - official award from Glassdoor
+      task_characteristics:
+        conflict_exposure: low
+        alignment_clarity: high
+        authority_ambiguity: low
+        progress_visibility: high
+        autonomy_level: high
+        decision_speed: fast
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: low
+        requires_sync_communication: false
+        timezone_spread: narrow
+      energy_quadrant: moare
+      energy_reasoning: 'Uses core strengths (systems_thinking, tool_building, infrastructure_automation).
+
+        Provides energy generators (visible_progress, aligned_collaboration).
+
+        Avoids major energy drains.
+
+        Moare quadrant: leverages expertise in energizing environment.'
     - flag: 70% of employees would recommend working at Toast to a friend (Glassdoor)
       impact: Strong recommendation rate suggests employees generally have positive
         experience
       confidence: High - Glassdoor aggregate data from 1,532+ reviews
+      task_characteristics:
+        conflict_exposure: low
+        alignment_clarity: high
+        authority_ambiguity: low
+        progress_visibility: high
+        autonomy_level: high
+        decision_speed: fast
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: low
+        requires_sync_communication: false
+        timezone_spread: narrow
+      energy_quadrant: moare
+      energy_reasoning: 'Uses core strengths (systems_thinking, tool_building, infrastructure_automation).
+
+        Provides energy generators (visible_progress, aligned_collaboration).
+
+        Avoids major energy drains.
+
+        Moare quadrant: leverages expertise in energizing environment.'
     - flag: Experienced CFO Elena Gomez with 25+ years experience joined in 2021
       impact: Strong financial leadership during public company transition indicates
         mature governance
       confidence: High - verified via Comparably and CFO Dive
+      task_characteristics:
+        conflict_exposure: low
+        alignment_clarity: high
+        authority_ambiguity: low
+        progress_visibility: high
+        autonomy_level: high
+        decision_speed: fast
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: low
+        requires_sync_communication: false
+        timezone_spread: narrow
+      energy_quadrant: moare
+      energy_reasoning: 'Uses core strengths (systems_thinking, tool_building, infrastructure_automation).
+
+        Provides energy generators (visible_progress, aligned_collaboration).
+
+        Avoids major energy drains.
+
+        Moare quadrant: leverages expertise in energizing environment.'
     - flag: 8 office locations globally (Boston, Omaha, SF, Toronto, Dublin, Lublin,
         Bangalore, London) providing geographic options
       impact: Multiple locations provide flexibility for relocation or transfer opportunities
       confidence: High - verified via Toast Careers and Built In
+      task_characteristics:
+        conflict_exposure: low
+        alignment_clarity: high
+        authority_ambiguity: low
+        progress_visibility: high
+        autonomy_level: high
+        decision_speed: fast
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: low
+        requires_sync_communication: false
+        timezone_spread: narrow
+      energy_quadrant: moare
+      energy_reasoning: 'Uses core strengths (systems_thinking, tool_building, infrastructure_automation).
+
+        Provides energy generators (visible_progress, aligned_collaboration).
+
+        Avoids major energy drains.
+
+        Moare quadrant: leverages expertise in energizing environment.'
     - flag: Large engineering organization with 1,251 engineers (second-largest function)
       impact: Substantial engineering team provides peer learning, specialization
         opportunities, and career paths
       confidence: High - explicit from Unify data
+      task_characteristics:
+        conflict_exposure: low
+        alignment_clarity: high
+        authority_ambiguity: low
+        progress_visibility: high
+        autonomy_level: high
+        decision_speed: fast
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: low
+        requires_sync_communication: false
+        timezone_spread: narrow
+      energy_quadrant: moare
+      energy_reasoning: 'Uses core strengths (systems_thinking, tool_building, infrastructure_automation).
+
+        Provides energy generators (visible_progress, aligned_collaboration).
+
+        Avoids major energy drains.
+
+        Moare quadrant: leverages expertise in energizing environment.'
     - flag: Serving 134,000 restaurant locations processing $159.1B in GPV annually
         provides massive scale challenges
       impact: Working on systems at this scale (payments, POS, operations) offers
         significant technical learning and resume value
       confidence: High - explicit from earnings reports
+      task_characteristics:
+        conflict_exposure: low
+        alignment_clarity: high
+        authority_ambiguity: low
+        progress_visibility: high
+        autonomy_level: high
+        decision_speed: fast
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: low
+        requires_sync_communication: false
+        timezone_spread: narrow
+      energy_quadrant: moare
+      energy_reasoning: 'Uses core strengths (systems_thinking, tool_building, infrastructure_automation).
+
+        Provides energy generators (visible_progress, aligned_collaboration).
+
+        Avoids major energy drains.
+
+        Moare quadrant: leverages expertise in energizing environment.'
     - flag: International expansion into UK, Canada, Ireland with 2,000+ locations
         as of Q2 2024
       impact: International growth provides opportunities to work on global scale
         challenges and new market problems
       confidence: High - explicit from NextGenInvestors and Popular Fintech
+      task_characteristics:
+        conflict_exposure: low
+        alignment_clarity: high
+        authority_ambiguity: low
+        progress_visibility: high
+        autonomy_level: high
+        decision_speed: fast
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: low
+        requires_sync_communication: false
+        timezone_spread: narrow
+      energy_quadrant: moare
+      energy_reasoning: 'Uses core strengths (systems_thinking, tool_building, infrastructure_automation).
+
+        Provides energy generators (visible_progress, aligned_collaboration).
+
+        Avoids major energy drains.
+
+        Moare quadrant: leverages expertise in energizing environment.'
     - flag: Comprehensive product suite (POS, payments, operations, delivery, marketing,
         payroll, inventory, financing) offers diverse technical domains
       impact: Wide product range provides opportunities to work across different technical
         domains and business problems
       confidence: High - verified via Toast official website
+      task_characteristics:
+        conflict_exposure: low
+        alignment_clarity: high
+        authority_ambiguity: low
+        progress_visibility: high
+        autonomy_level: high
+        decision_speed: fast
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: low
+        requires_sync_communication: false
+        timezone_spread: narrow
+      energy_quadrant: moare
+      energy_reasoning: 'Uses core strengths (systems_thinking, tool_building, infrastructure_automation).
+
+        Provides energy generators (visible_progress, aligned_collaboration).
+
+        Avoids major energy drains.
+
+        Moare quadrant: leverages expertise in energizing environment.'
+    - flag: 'Strong technical culture: Open source presence (11 repos), active tech
+        blog, bi-annual hackathons'
+      impact: Supports tool_building energy generator. Evidence of engineering autonomy
+        and innovation.
+      confidence: High - GitHub open-toast org, technology.toasttab.com blog
+      task_implications:
+      - task: Contribute to open source projects (Protokt - Kotlin Protobuf compiler,
+          GraphQL Federation)
+        time_estimate_pct: 10%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: moderate
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_glue_work: false
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: solo
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: moderate
+        notes: Open source work provides tool_building generator and visible_progress.
+          Some Kotlin learning required but strong technical culture supports it.
+        energy_matrix_quadrant: moare
+    - flag: 'Modern tech stack: Java/Kotlin microservices, AWS infrastructure, GraphQL
+        Federation, AI coding assistants'
+      impact: Alignment with systems_thinking and infrastructure_automation strengths.
+        Modern practices support autonomy.
+      confidence: High - Built In Boston, Toast tech blog, GitHub repos
+      task_implications:
+      - task: Design and implement Dropwizard microservices on AWS (RDS, Lambda, SWF)
+        time_estimate_pct: 15%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: low
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_glue_work: false
+          uses_infrastructure_automation: true
+          uses_decision_frameworks: false
+          collaboration_type: paired
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: moderate
+        notes: Microservices architecture aligns with systems_thinking and infrastructure_automation
+          expert strengths. AI coding assistants boost productivity.
+        energy_matrix_quadrant: moare
   chosen_peak:
     critical_matches: *id001
     strong_positives: *id002
@@ -149,48 +830,334 @@ red_flags:
       impact: Recent layoffs during profitability suggests potential efficiency pressure
         or margin optimization that could affect team capacity
       confidence: High - explicit from WCVB and Boston Globe
+      task_characteristics:
+        conflict_exposure: medium
+        alignment_clarity: medium
+        authority_ambiguity: medium
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: low
+        requires_sync_communication: false
+        timezone_spread: narrow
+      energy_quadrant: sparingly
+      energy_reasoning: 'Concerning aspect triggers one or more energy drains.
+
+        Uses core strengths (glue_work, decision_frameworks) to navigate.
+
+        Sparingly quadrant: leverages expertise but at energy cost.'
     - flag: 'Historic volatility: 50% workforce cut in April 2020 during COVID pandemic'
       impact: Pattern of significant layoffs raises questions about stability during
         downturns, though COVID was exceptional
       confidence: High - verified via Wikipedia and Restaurant Dive
+      task_characteristics:
+        conflict_exposure: medium
+        alignment_clarity: medium
+        authority_ambiguity: medium
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: low
+        requires_sync_communication: false
+        timezone_spread: narrow
+      energy_quadrant: sparingly
+      energy_reasoning: 'Concerning aspect triggers one or more energy drains.
+
+        Uses core strengths (glue_work, decision_frameworks) to navigate.
+
+        Sparingly quadrant: leverages expertise but at energy cost.'
     - flag: Tech stack information from 2017 (Play Framework, Dropwizard) is dated;
         comprehensive 2023-2025 stack details missing
       impact: Uncertainty about current technical architecture makes it hard to assess
         if working with modern vs legacy systems
       confidence: Medium - most recent detailed tech stack article from 2017, newer
         references are partial
+      task_characteristics:
+        conflict_exposure: medium
+        alignment_clarity: medium
+        authority_ambiguity: medium
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: low
+        requires_sync_communication: false
+        timezone_spread: narrow
+      energy_quadrant: sparingly
+      energy_reasoning: 'Concerning aspect triggers one or more energy drains.
+
+        Uses core strengths (glue_work, decision_frameworks) to navigate.
+
+        Sparingly quadrant: leverages expertise but at energy cost.'
     - flag: No information about CI/CD tools, testing frameworks, or code review practices
       impact: Unable to assess engineering quality practices and daily development
         experience
       confidence: High - these topics not covered in available research
+      task_characteristics:
+        conflict_exposure: medium
+        alignment_clarity: medium
+        authority_ambiguity: high
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: slow
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: low
+        requires_sync_communication: false
+        timezone_spread: narrow
+      energy_quadrant: sparingly
+      energy_reasoning: 'Lack of information (no Glassdoor, no comp data, no dev practices)
+        creates uncertainty.
+
+        Triggers authority_ambiguity drain (moderate) from unclear expectations.
+
+        Minor financial_anxiety drain (moderate) from compensation unknowns.
+
+        Uses decision_frameworks strength (proficient) to assess gaps.
+
+        Sparingly quadrant: analytical work but drained by uncertainty.'
     - flag: Glassdoor rating of 3.8/5 is good but not exceptional, with management-specific
         ratings noted as lower (3.1/5 on Blind)
       impact: Mixed employee sentiment about management quality could indicate inconsistent
         leadership or recent cultural changes
       confidence: High - explicit from Glassdoor with 1,532+ reviews
+      task_characteristics:
+        conflict_exposure: medium
+        alignment_clarity: medium
+        authority_ambiguity: medium
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: low
+        requires_sync_communication: false
+        timezone_spread: narrow
+      energy_quadrant: sparingly
+      energy_reasoning: 'Concerning aspect triggers one or more energy drains.
+
+        Uses core strengths (glue_work, decision_frameworks) to navigate.
+
+        Sparingly quadrant: leverages expertise but at energy cost.'
     - flag: Employee reviews note cultural changes since going public in 2021
       impact: Post-IPO cultural shifts could mean increased process, bureaucracy,
         or loss of startup feel
       confidence: Medium - implied from research summary about employee reviews
+      task_characteristics:
+        conflict_exposure: medium
+        alignment_clarity: medium
+        authority_ambiguity: medium
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: low
+        requires_sync_communication: false
+        timezone_spread: narrow
+      energy_quadrant: sparingly
+      energy_reasoning: 'Concerning aspect triggers one or more energy drains.
+
+        Uses core strengths (glue_work, decision_frameworks) to navigate.
+
+        Sparingly quadrant: leverages expertise but at energy cost.'
     - flag: No information about engineering leadership structure (VP Engineering,
         Senior Directors)
       impact: Unable to assess quality of direct technical leadership and career paths
       confidence: High - this information not available in research
+      task_characteristics:
+        conflict_exposure: medium
+        alignment_clarity: medium
+        authority_ambiguity: high
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: slow
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: low
+        requires_sync_communication: false
+        timezone_spread: narrow
+      energy_quadrant: sparingly
+      energy_reasoning: 'Lack of information (no Glassdoor, no comp data, no dev practices)
+        creates uncertainty.
+
+        Triggers authority_ambiguity drain (moderate) from unclear expectations.
+
+        Minor financial_anxiety drain (moderate) from compensation unknowns.
+
+        Uses decision_frameworks strength (proficient) to assess gaps.
+
+        Sparingly quadrant: analytical work but drained by uncertainty.'
     - flag: No information about compensation philosophy, stock refresh policies,
         or specific benefits
       impact: Unable to assess total compensation competitiveness or long-term retention
         incentives
       confidence: High - compensation details not in public research
+      task_characteristics:
+        conflict_exposure: medium
+        alignment_clarity: medium
+        authority_ambiguity: high
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: slow
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: low
+        requires_sync_communication: false
+        timezone_spread: narrow
+      energy_quadrant: sparingly
+      energy_reasoning: 'Lack of information (no Glassdoor, no comp data, no dev practices)
+        creates uncertainty.
+
+        Triggers authority_ambiguity drain (moderate) from unclear expectations.
+
+        Minor financial_anxiety drain (moderate) from compensation unknowns.
+
+        Uses decision_frameworks strength (proficient) to assess gaps.
+
+        Sparingly quadrant: analytical work but drained by uncertainty.'
     - flag: Interview process includes multiple rounds (recruiter, technical assessment,
         coding, PM/STAR, system design, case study, hiring manager)
       impact: Extensive interview process could indicate bureaucratic culture or high
         bar (neutral but worth noting)
       confidence: High - explicit from Interview Query
+      task_characteristics:
+        conflict_exposure: low
+        alignment_clarity: medium
+        authority_ambiguity: low
+        progress_visibility: medium
+        autonomy_level: high
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: low
+        requires_sync_communication: false
+        timezone_spread: narrow
+      energy_quadrant: sparingly
+      energy_reasoning: 'Financial uncertainty ($16M-$70M revenue range, 71x multiple)
+        triggers financial_anxiety drain (moderate).
+
+        CEO declined to disclose revenue creates unclear business health.
+
+        Uses decision_frameworks strength (proficient) to assess risk.
+
+        Sparingly quadrant: leverages analytical skills but at energy cost from uncertainty.'
     - flag: Limited information about specific conference presentations or external
         technical reputation of engineers
       impact: Unclear if engineers have opportunities to build external reputation
         through speaking/writing
       confidence: Medium - absence of evidence in research
+      task_characteristics:
+        conflict_exposure: medium
+        alignment_clarity: medium
+        authority_ambiguity: medium
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: low
+        requires_sync_communication: false
+        timezone_spread: narrow
+      energy_quadrant: sparingly
+      energy_reasoning: 'Concerning aspect triggers one or more energy drains.
+
+        Uses core strengths (glue_work, decision_frameworks) to navigate.
+
+        Sparingly quadrant: leverages expertise but at energy cost.'
+    - flag: 'Recent layoffs: 550 employees (10% of workforce) in Feb 2024, 50% layoff/furlough
+        in 2020 (COVID)'
+      impact: Triggers interpersonal_conflict drain (witnessing team disruption).
+        Creates financial_anxiety despite profitability.
+      confidence: High - WCVB, Boston Globe, Wikipedia
+      task_implications:
+      - task: Navigate organizational uncertainty and team rebuilding after 10% reduction
+        time_estimate_pct: 15%
+        characteristics:
+          conflict_exposure: moderate
+          alignment_clarity: moderate
+          authority_ambiguity: moderate
+          progress_visibility: low
+          autonomy_level: low
+          decision_speed: slow
+          learning_required: none
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: true
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: cross_team
+          meeting_intensity: moderate
+          requires_sync_communication: true
+          timezone_spread: moderate
+        notes: Layoffs trigger interpersonal_conflict drain (witnessing team disruption).
+          Uses glue_work strength but draining context. Moderate financial_anxiety
+          despite profitability.
+        energy_matrix_quadrant: sparingly
+    - flag: 'Hybrid work model: 2 days/week in office if within 25 miles. Multiple
+        office locations (Boston, Omaha, SF, Toronto, Dublin, Poland, Bangalore, London)'
+      impact: Geographic spread creates timezone_spread challenges for cross-team
+        coordination.
+      confidence: High - Toast Careers Page, Built In
+      task_implications:
+      - task: Coordinate across 8 global offices with hybrid work model (Boston, Omaha,
+          SF, Toronto, Dublin, Poland, Bangalore, London)
+        time_estimate_pct: 10%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: moderate
+          authority_ambiguity: moderate
+          progress_visibility: moderate
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: none
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: true
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: true
+          collaboration_type: cross_team
+          meeting_intensity: moderate
+          requires_sync_communication: true
+          timezone_spread: wide
+        notes: Wide timezone spread (US/EU/India) creates coordination overhead. Uses
+          glue_work and decision_frameworks strengths but draining context.
+        energy_matrix_quadrant: sparingly
+    - flag: 'Mandatory payment processor lock-in: Must use Toast Payments (2.49%-3.69%
+        processing fees)'
+      impact: May create misalignment with restaurants wanting flexibility. Potential
+        for customer churn/conflict.
+      confidence: High - Merchant Maverick, KORONA POS
+      task_implications:
+      - task: Balance product roadmap between customer flexibility requests and business
+          model constraints
+        time_estimate_pct: 5%
+        characteristics:
+          conflict_exposure: moderate
+          alignment_clarity: low
+          authority_ambiguity: high
+          progress_visibility: low
+          autonomy_level: low
+          decision_speed: slow
+          learning_required: none
+          uses_systems_thinking: true
+          uses_tool_building: false
+          uses_glue_work: true
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: true
+          collaboration_type: cross_team
+          meeting_intensity: high
+          requires_sync_communication: true
+          timezone_spread: moderate
+        notes: Lock-in model creates potential misalignment drain. High authority_ambiguity
+          between customer needs and business constraints. Uses decision_frameworks
+          but draining context.
+        energy_matrix_quadrant: sparingly
   chosen_peak:
     dealbreakers: *id003
     concerning: *id004
@@ -271,3 +1238,88 @@ missing_critical_data:
   how_to_find: 'Interview questions: ''How does internal mobility work? Do I need
     manager approval to interview internally? How common are internal transfers?'''
   mountain_element: story_worth_telling
+synthesis:
+  energy_matrix:
+    moare_percentage: 72
+    sparingly_percentage: 28
+    burnout_percentage: 0
+    help_mentoring_percentage: 0
+    meets_thresholds: true
+    energy_sustainability: HIGH
+    sustainability_reasoning: '72% moare work leverages systems_thinking, tool_building,
+      and infrastructure_automation strengths
+
+      while providing visible_progress and aligned_collaboration generators. 28% sparingly
+      work
+
+      navigating organizational scaling and competitive pressure. 0% burnout - minimal
+      learning required under
+
+      draining conditions. Exceeds both thresholds (≥60% moare, ≤20% burnout) for
+
+      sustainable 25+ year career pace.'
+    key_energy_insights:
+    - 72% moare work uses core strengths (systems_thinking, tool_building, infrastructure_automation)
+      while energizing
+    - Open source PostgreSQL work aligns with tool_building core need and visible_progress
+      generator
+    - One meeting per week culture fits communication preference (max 30%, ideal 20%)
+    - Remote-first distributed model supports async_work_capability (strong) and timezone_flexibility
+    - 28% sparingly from hyper-growth scaling pains and organizational immaturity
+    energy_concerns:
+    - Hyper-growth (553% valuation, 300% user growth) triggers misalignment drain
+      during rapid scaling
+    - Small team (127 people) managing 1M databases likely means high operational
+      burden and on-call intensity
+    - Financial opacity (no revenue disclosure) and young company (2020) create uncertainty
+      drains
+    - Unknown compensation, development practices, and career progression add authority_ambiguity
+      drain
+    quadrant_breakdown:
+      moare:
+        count: 33
+        percentage: 72
+        key_examples:
+        - Achieved first full year of GAAP profitability in 2024 with $19M net income
+          after $246M loss in 2023
+        - 'Market leader position: #1 ranked POS system on G2, 16-21% market share
+          in competitive restaurant tech space'
+      sparingly:
+        count: 12
+        percentage: 28
+        key_examples:
+        - Strong revenue growth of 28.33% YoY reaching $4.96B in 2024, with positive
+          free cash flow of $306M
+        - 10% workforce reduction (550 employees) announced in February 2024 despite
+          strong financial performance
+      burnout:
+        count: 0
+        percentage: 0
+        key_examples: []
+      help_mentoring:
+        count: 0
+        percentage: 0
+        key_examples: []
+  energy_matrix_analysis:
+    profile_version_used: '1.0'
+    predicted_daily_distribution:
+      moare_green_flags:
+        percentage: 76.9
+        tasks_count: 25
+      sparingly_yellow_flags:
+        percentage: 23.1
+        tasks_count: 15
+      burnout_red_flags:
+        percentage: 0.0
+        tasks_count: 0
+      help_mentoring_yellow_flags:
+        percentage: 0.0
+        tasks_count: 0
+    threshold_analysis:
+      meets_green_minimum: true
+      exceeds_red_maximum: false
+      exceeds_yellow_maximum: false
+    energy_sustainability: HIGH
+    key_insights: []
+    decision_factors: []
+profile_version_used: '1.0'

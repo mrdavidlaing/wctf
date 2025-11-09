@@ -1,5 +1,5 @@
 company: Accenture
-evaluation_date: '2025-10-20'
+evaluation_date: '2025-11-09'
 evaluator_context: Extracted from conversation notes
 green_flags:
   mountain_range:
@@ -21,6 +21,156 @@ green_flags:
         revenue base
       impact: Client relationships are deep and sticky, reducing business risk
       confidence: High - from FY2024 earnings report
+    - flag: 'Strong financial position: $69.67B revenue FY2025, $10.87B free cash
+        flow (26% YoY increase), $11.5B cash balance'
+      impact: Company won't go bankrupt - financial runway is secure despite layoffs
+      confidence: High - explicit in FY2025 earnings report
+      task_implications:
+      - task: Standard engineering work without survival-mode pressure
+        time_estimate_pct: 0%
+        characteristics:
+          conflict_exposure: none
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: none
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: false
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: solo
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: co_located
+        notes: Baseline capability - financial security allows focus on engineering
+    - flag: 'Massive scale: 779,000 employees globally, 9,000 clients including Fortune
+        100/500'
+      impact: Resume value - Accenture name carries weight in industry
+      confidence: High - explicit in fact sheet Aug 2025
+      task_implications:
+      - task: Working on Fortune 500-scale challenges
+        time_estimate_pct: 5-10%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: moderate
+          authority_ambiguity: moderate
+          progress_visibility: moderate
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: moderate
+          uses_systems_thinking: true
+          uses_tool_building: false
+          uses_glue_work: true
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: cross_team
+          meeting_intensity: moderate
+          requires_sync_communication: true
+          timezone_spread: moderate
+        notes: Exposure to enterprise-scale problems for resume building
+    - flag: 'Strong financial position: $69.67B revenue FY2025, $10.87B free cash
+        flow (26% YoY increase), $11.5B cash balance'
+      impact: Company won't go bankrupt - financial runway is secure despite layoffs
+      confidence: High - explicit in FY2025 earnings report
+      task_implications:
+      - task: Standard engineering work without survival-mode pressure
+        time_estimate_pct: 0%
+        characteristics:
+          conflict_exposure: none
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: none
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: false
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: solo
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: co_located
+        notes: Baseline capability - financial security allows focus on engineering
+    - flag: 'Massive scale: 779,000 employees globally, 9,000 clients including Fortune
+        100/500'
+      impact: Resume value - Accenture name carries weight in industry
+      confidence: High - explicit in fact sheet Aug 2025
+      task_implications:
+      - task: Working on Fortune 500-scale challenges
+        time_estimate_pct: 5-10%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: moderate
+          authority_ambiguity: moderate
+          progress_visibility: moderate
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: moderate
+          uses_systems_thinking: true
+          uses_tool_building: false
+          uses_glue_work: true
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: cross_team
+          meeting_intensity: moderate
+          requires_sync_communication: true
+          timezone_spread: moderate
+        notes: Exposure to enterprise-scale problems for resume building
+    - flag: 'Strong financial position: $69.67B revenue FY2025, $10.87B free cash
+        flow (26% YoY increase), $11.5B cash balance'
+      impact: Company won't go bankrupt - financial runway is secure despite layoffs
+      confidence: High - explicit in FY2025 earnings report
+      task_implications:
+      - task: Standard engineering work without survival-mode pressure
+        time_estimate_pct: 0%
+        characteristics:
+          conflict_exposure: none
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: none
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: false
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: solo
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: co_located
+        notes: Baseline capability - financial security allows focus on engineering
+    - flag: 'Massive scale: 779,000 employees globally, 9,000 clients including Fortune
+        100/500'
+      impact: Resume value - Accenture name carries weight in industry
+      confidence: High - explicit in fact sheet Aug 2025
+      task_implications:
+      - task: Working on Fortune 500-scale challenges
+        time_estimate_pct: 5-10%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: moderate
+          authority_ambiguity: moderate
+          progress_visibility: moderate
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: moderate
+          uses_systems_thinking: true
+          uses_tool_building: false
+          uses_glue_work: true
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: cross_team
+          meeting_intensity: moderate
+          requires_sync_communication: true
+          timezone_spread: moderate
+        notes: Exposure to enterprise-scale problems for resume building
   chosen_peak:
     critical_matches:
     - flag: $3 billion investment in Data & AI practice over three years, doubling
@@ -56,6 +206,309 @@ green_flags:
     - flag: Founding member of Green Software Foundation with GitHub, Microsoft, ThoughtWorks
       impact: Progressive technical culture with sustainability focus
       confidence: High - launched with Linux Foundation May 2021
+    - flag: 'Strong cloud partnerships: 40K AWS practitioners, 16x Microsoft Partner
+        of Year, Google Cloud 2025 Partner of Year'
+      impact: Modern infrastructure stack - matches infrastructure automation expertise
+      confidence: High - explicit in partnership announcements
+      task_implications:
+      - task: Cloud platform engineering with K8s/AWS/Azure/GCP
+        time_estimate_pct: 15-20%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: moderate
+          learning_required: low
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_glue_work: false
+          uses_infrastructure_automation: true
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: moderate
+          requires_sync_communication: false
+          timezone_spread: narrow
+        notes: Core strength alignment - infrastructure automation at scale
+    - flag: $3B AI investment doubling team to 80K practitioners; $5.9B Gen AI bookings
+        FY2025
+      impact: Significant AI/LLM exposure - aligns with AI-augmented workflows growth
+        area
+      confidence: High - explicit in June 2023 announcement and FY2025 results
+      task_implications:
+      - task: Building AI-augmented engineering workflows and platforms
+        time_estimate_pct: 10-15%
+        characteristics:
+          conflict_exposure: moderate
+          alignment_clarity: moderate
+          authority_ambiguity: moderate
+          progress_visibility: moderate
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: moderate
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_glue_work: true
+          uses_infrastructure_automation: true
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: moderate
+          requires_sync_communication: true
+          timezone_spread: moderate
+        notes: Emerging area - learning opportunity but also coordination overhead
+    - flag: 'Active open source: 218 GitHub repos with Mercury, SFMC DevTools, AI
+        Refinery SDK'
+      impact: Technical credibility - evidence of engineering culture beyond consulting
+      confidence: High - visible on GitHub
+      task_implications:
+      - task: Contributing to open source platform tooling
+        time_estimate_pct: 5%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: low
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_glue_work: false
+          uses_infrastructure_automation: true
+          uses_decision_frameworks: false
+          collaboration_type: solo
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: wide
+        notes: Autonomous tool building - energy generator
+    - flag: 'The Dock innovation center in Dublin: 66,300 sq ft, 7 floors, flagship
+        R&D with Gen AI studio'
+      impact: Dublin presence is strategically important - not just cost center
+      confidence: High - opened Feb 2017, Gen AI studio added Feb 2024
+      task_implications:
+      - task: Working from strategic innovation hub vs back-office location
+        time_estimate_pct: 0%
+        characteristics:
+          conflict_exposure: none
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: moderate
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: none
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: false
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: solo
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: co_located
+        notes: Context advantage - not just offshore operations
+    - flag: 'Strong cloud partnerships: 40K AWS practitioners, 16x Microsoft Partner
+        of Year, Google Cloud 2025 Partner of Year'
+      impact: Modern infrastructure stack - matches infrastructure automation expertise
+      confidence: High - explicit in partnership announcements
+      task_implications:
+      - task: Cloud platform engineering with K8s/AWS/Azure/GCP
+        time_estimate_pct: 15-20%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: moderate
+          learning_required: low
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_glue_work: false
+          uses_infrastructure_automation: true
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: moderate
+          requires_sync_communication: false
+          timezone_spread: narrow
+        notes: Core strength alignment - infrastructure automation at scale
+    - flag: $3B AI investment doubling team to 80K practitioners; $5.9B Gen AI bookings
+        FY2025
+      impact: Significant AI/LLM exposure - aligns with AI-augmented workflows growth
+        area
+      confidence: High - explicit in June 2023 announcement and FY2025 results
+      task_implications:
+      - task: Building AI-augmented engineering workflows and platforms
+        time_estimate_pct: 10-15%
+        characteristics:
+          conflict_exposure: moderate
+          alignment_clarity: moderate
+          authority_ambiguity: moderate
+          progress_visibility: moderate
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: moderate
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_glue_work: true
+          uses_infrastructure_automation: true
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: moderate
+          requires_sync_communication: true
+          timezone_spread: moderate
+        notes: Emerging area - learning opportunity but also coordination overhead
+    - flag: 'Active open source: 218 GitHub repos with Mercury, SFMC DevTools, AI
+        Refinery SDK'
+      impact: Technical credibility - evidence of engineering culture beyond consulting
+      confidence: High - visible on GitHub
+      task_implications:
+      - task: Contributing to open source platform tooling
+        time_estimate_pct: 5%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: low
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_glue_work: false
+          uses_infrastructure_automation: true
+          uses_decision_frameworks: false
+          collaboration_type: solo
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: wide
+        notes: Autonomous tool building - energy generator
+    - flag: 'The Dock innovation center in Dublin: 66,300 sq ft, 7 floors, flagship
+        R&D with Gen AI studio'
+      impact: Dublin presence is strategically important - not just cost center
+      confidence: High - opened Feb 2017, Gen AI studio added Feb 2024
+      task_implications:
+      - task: Working from strategic innovation hub vs back-office location
+        time_estimate_pct: 0%
+        characteristics:
+          conflict_exposure: none
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: moderate
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: none
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: false
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: solo
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: co_located
+        notes: Context advantage - not just offshore operations
+    - flag: 'Strong cloud partnerships: 40K AWS practitioners, 16x Microsoft Partner
+        of Year, Google Cloud 2025 Partner of Year'
+      impact: Modern infrastructure stack - matches infrastructure automation expertise
+      confidence: High - explicit in partnership announcements
+      task_implications:
+      - task: Cloud platform engineering with K8s/AWS/Azure/GCP
+        time_estimate_pct: 15-20%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: moderate
+          learning_required: low
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_glue_work: false
+          uses_infrastructure_automation: true
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: moderate
+          requires_sync_communication: false
+          timezone_spread: narrow
+        notes: Core strength alignment - infrastructure automation at scale
+    - flag: $3B AI investment doubling team to 80K practitioners; $5.9B Gen AI bookings
+        FY2025
+      impact: Significant AI/LLM exposure - aligns with AI-augmented workflows growth
+        area
+      confidence: High - explicit in June 2023 announcement and FY2025 results
+      task_implications:
+      - task: Building AI-augmented engineering workflows and platforms
+        time_estimate_pct: 10-15%
+        characteristics:
+          conflict_exposure: moderate
+          alignment_clarity: moderate
+          authority_ambiguity: moderate
+          progress_visibility: moderate
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: moderate
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_glue_work: true
+          uses_infrastructure_automation: true
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: moderate
+          requires_sync_communication: true
+          timezone_spread: moderate
+        notes: Emerging area - learning opportunity but also coordination overhead
+    - flag: 'Active open source: 218 GitHub repos with Mercury, SFMC DevTools, AI
+        Refinery SDK'
+      impact: Technical credibility - evidence of engineering culture beyond consulting
+      confidence: High - visible on GitHub
+      task_implications:
+      - task: Contributing to open source platform tooling
+        time_estimate_pct: 5%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: low
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_glue_work: false
+          uses_infrastructure_automation: true
+          uses_decision_frameworks: false
+          collaboration_type: solo
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: wide
+        notes: Autonomous tool building - energy generator
+    - flag: 'The Dock innovation center in Dublin: 66,300 sq ft, 7 floors, flagship
+        R&D with Gen AI studio'
+      impact: Dublin presence is strategically important - not just cost center
+      confidence: High - opened Feb 2017, Gen AI studio added Feb 2024
+      task_implications:
+      - task: Working from strategic innovation hub vs back-office location
+        time_estimate_pct: 0%
+        characteristics:
+          conflict_exposure: none
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: moderate
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: none
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: false
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: solo
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: co_located
+        notes: Context advantage - not just offshore operations
   rope_team_confidence:
     critical_matches: []
     strong_positives:
@@ -65,6 +518,78 @@ green_flags:
     - flag: Rajendra Prasad appointed CTO with 20+ years at Accenture (internal promotion)
       impact: Technical leadership continuity with internal expertise
       confidence: High - announced June 2025
+    - flag: 'CEO Julie Sweet: 6 years tenure (Sept 2019), stable leadership'
+      impact: Top leadership stability provides some continuity during restructuring
+      confidence: High - explicit on leadership page
+      task_implications:
+      - task: Working under stable executive leadership
+        time_estimate_pct: 0%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: moderate
+          authority_ambiguity: moderate
+          progress_visibility: moderate
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: none
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: false
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: solo
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: co_located
+        notes: Baseline expectation - stable CEO doesn't offset lower-level churn
+    - flag: 'CEO Julie Sweet: 6 years tenure (Sept 2019), stable leadership'
+      impact: Top leadership stability provides some continuity during restructuring
+      confidence: High - explicit on leadership page
+      task_implications:
+      - task: Working under stable executive leadership
+        time_estimate_pct: 0%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: moderate
+          authority_ambiguity: moderate
+          progress_visibility: moderate
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: none
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: false
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: solo
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: co_located
+        notes: Baseline expectation - stable CEO doesn't offset lower-level churn
+    - flag: 'CEO Julie Sweet: 6 years tenure (Sept 2019), stable leadership'
+      impact: Top leadership stability provides some continuity during restructuring
+      confidence: High - explicit on leadership page
+      task_implications:
+      - task: Working under stable executive leadership
+        time_estimate_pct: 0%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: moderate
+          authority_ambiguity: moderate
+          progress_visibility: moderate
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: none
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: false
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: solo
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: co_located
+        notes: Baseline expectation - stable CEO doesn't offset lower-level churn
   daily_climb:
     critical_matches: []
     strong_positives:
@@ -80,6 +605,78 @@ green_flags:
         days via overtime banking
       impact: Above-average vacation time with flexibility
       confidence: High - from benefits page and reviews
+    - flag: 'Hybrid work model: 25-75% remote with ''Smart Work Anywhere'' policy'
+      impact: Flexibility for async work and timezone management
+      confidence: High - multiple employee sources 2024
+      task_implications:
+      - task: Managing hybrid work schedule with flexibility
+        time_estimate_pct: 2-3%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: none
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: false
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: solo
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: narrow
+        notes: Supports energy management through workspace control
+    - flag: 'Hybrid work model: 25-75% remote with ''Smart Work Anywhere'' policy'
+      impact: Flexibility for async work and timezone management
+      confidence: High - multiple employee sources 2024
+      task_implications:
+      - task: Managing hybrid work schedule with flexibility
+        time_estimate_pct: 2-3%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: none
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: false
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: solo
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: narrow
+        notes: Supports energy management through workspace control
+    - flag: 'Hybrid work model: 25-75% remote with ''Smart Work Anywhere'' policy'
+      impact: Flexibility for async work and timezone management
+      confidence: High - multiple employee sources 2024
+      task_implications:
+      - task: Managing hybrid work schedule with flexibility
+        time_estimate_pct: 2-3%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: none
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: false
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: solo
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: narrow
+        notes: Supports energy management through workspace control
   story_worth_telling:
     critical_matches:
     - flag: Free certification programs across Microsoft, Azure, Google Cloud, AWS,
@@ -96,6 +693,78 @@ green_flags:
     - flag: Global mobility opportunities across 120 countries
       impact: Potential for international experience and career advancement
       confidence: High - operates in 120+ countries
+    - flag: 32 Accenture Labs globally plus 100+ Connected Innovation Centers
+      impact: Access to R&D environments and emerging tech exploration
+      confidence: High - Accenture Labs Index 2024
+      task_implications:
+      - task: Participating in R&D initiatives on quantum, robotics, AI
+        time_estimate_pct: 5-10%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: moderate
+          authority_ambiguity: moderate
+          progress_visibility: moderate
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: high
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_glue_work: false
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: moderate
+          requires_sync_communication: true
+          timezone_spread: moderate
+        notes: Learning opportunity in cutting-edge areas
+    - flag: 32 Accenture Labs globally plus 100+ Connected Innovation Centers
+      impact: Access to R&D environments and emerging tech exploration
+      confidence: High - Accenture Labs Index 2024
+      task_implications:
+      - task: Participating in R&D initiatives on quantum, robotics, AI
+        time_estimate_pct: 5-10%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: moderate
+          authority_ambiguity: moderate
+          progress_visibility: moderate
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: high
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_glue_work: false
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: moderate
+          requires_sync_communication: true
+          timezone_spread: moderate
+        notes: Learning opportunity in cutting-edge areas
+    - flag: 32 Accenture Labs globally plus 100+ Connected Innovation Centers
+      impact: Access to R&D environments and emerging tech exploration
+      confidence: High - Accenture Labs Index 2024
+      task_implications:
+      - task: Participating in R&D initiatives on quantum, robotics, AI
+        time_estimate_pct: 5-10%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: moderate
+          authority_ambiguity: moderate
+          progress_visibility: moderate
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: high
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_glue_work: false
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: moderate
+          requires_sync_communication: true
+          timezone_spread: moderate
+        notes: Learning opportunity in cutting-edge areas
 red_flags:
   mountain_range:
     dealbreakers: []
@@ -111,9 +780,171 @@ red_flags:
       impact: Sales pipeline weakening suggests potential for further cuts
       severity: Medium - financial pressure indicator
       confidence: High - from Consulting.us June 2025
+    - flag: 'Aggressive cost-cutting despite profitability: 30,000+ jobs cut (19K
+        in 2023, 11K+ in 2025) while returning $8.3B to shareholders'
+      impact: Prioritizing shareholder returns over workforce stability - creates
+        anxiety and survivor guilt
+      confidence: High - explicit in earnings reports and layoff announcements
+      task_implications:
+      - task: Managing layoff anxiety and survivor stress
+        time_estimate_pct: 15-25%
+        characteristics:
+          conflict_exposure: high
+          alignment_clarity: low
+          authority_ambiguity: high
+          progress_visibility: low
+          autonomy_level: low
+          decision_speed: slow
+          learning_required: none
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: false
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: solo
+          meeting_intensity: high
+          requires_sync_communication: true
+          timezone_spread: co_located
+        notes: SEVERE ENERGY DRAIN - 3+ layoffs in 18 months creates constant survival
+          stress per calibration guidance
+    - flag: 'Aggressive cost-cutting despite profitability: 30,000+ jobs cut (19K
+        in 2023, 11K+ in 2025) while returning $8.3B to shareholders'
+      impact: Prioritizing shareholder returns over workforce stability - creates
+        anxiety and survivor guilt
+      confidence: High - explicit in earnings reports and layoff announcements
+      task_implications:
+      - task: Managing layoff anxiety and survivor stress
+        time_estimate_pct: 15-25%
+        characteristics:
+          conflict_exposure: high
+          alignment_clarity: low
+          authority_ambiguity: high
+          progress_visibility: low
+          autonomy_level: low
+          decision_speed: slow
+          learning_required: none
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: false
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: solo
+          meeting_intensity: high
+          requires_sync_communication: true
+          timezone_spread: co_located
+        notes: SEVERE ENERGY DRAIN - 3+ layoffs in 18 months creates constant survival
+          stress per calibration guidance
+    - flag: 'Aggressive cost-cutting despite profitability: 30,000+ jobs cut (19K
+        in 2023, 11K+ in 2025) while returning $8.3B to shareholders'
+      impact: Prioritizing shareholder returns over workforce stability - creates
+        anxiety and survivor guilt
+      confidence: High - explicit in earnings reports and layoff announcements
+      task_implications:
+      - task: Managing layoff anxiety and survivor stress
+        time_estimate_pct: 15-25%
+        characteristics:
+          conflict_exposure: high
+          alignment_clarity: low
+          authority_ambiguity: high
+          progress_visibility: low
+          autonomy_level: low
+          decision_speed: slow
+          learning_required: none
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: false
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: solo
+          meeting_intensity: high
+          requires_sync_communication: true
+          timezone_spread: co_located
+        notes: SEVERE ENERGY DRAIN - 3+ layoffs in 18 months creates constant survival
+          stress per calibration guidance
   chosen_peak:
     dealbreakers: []
-    concerning: []
+    concerning:
+    - flag: 'Major restructuring: Consolidating 5 service lines into 1 ''Reinvention
+        Services'' unit (Sept 2025)'
+      impact: Massive organizational churn creates authority ambiguity and alignment
+        chaos
+      confidence: High - announced June 20, 2025
+      task_implications:
+      - task: Navigating major reorganization and role redefinition
+        time_estimate_pct: 20-30%
+        characteristics:
+          conflict_exposure: high
+          alignment_clarity: low
+          authority_ambiguity: high
+          progress_visibility: low
+          autonomy_level: low
+          decision_speed: slow
+          learning_required: none
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: true
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: cross_team
+          meeting_intensity: high
+          requires_sync_communication: true
+          timezone_spread: moderate
+        notes: SEVERE ENERGY DRAIN - reorg every 6 months per calibration guidance
+          creates constant realignment overhead, triggers interpersonal conflict exposure
+    - flag: 'Major restructuring: Consolidating 5 service lines into 1 ''Reinvention
+        Services'' unit (Sept 2025)'
+      impact: Massive organizational churn creates authority ambiguity and alignment
+        chaos
+      confidence: High - announced June 20, 2025
+      task_implications:
+      - task: Navigating major reorganization and role redefinition
+        time_estimate_pct: 20-30%
+        characteristics:
+          conflict_exposure: high
+          alignment_clarity: low
+          authority_ambiguity: high
+          progress_visibility: low
+          autonomy_level: low
+          decision_speed: slow
+          learning_required: none
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: true
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: cross_team
+          meeting_intensity: high
+          requires_sync_communication: true
+          timezone_spread: moderate
+        notes: SEVERE ENERGY DRAIN - reorg every 6 months per calibration guidance
+          creates constant realignment overhead, triggers interpersonal conflict exposure
+    - flag: 'Major restructuring: Consolidating 5 service lines into 1 ''Reinvention
+        Services'' unit (Sept 2025)'
+      impact: Massive organizational churn creates authority ambiguity and alignment
+        chaos
+      confidence: High - announced June 20, 2025
+      task_implications:
+      - task: Navigating major reorganization and role redefinition
+        time_estimate_pct: 20-30%
+        characteristics:
+          conflict_exposure: high
+          alignment_clarity: low
+          authority_ambiguity: high
+          progress_visibility: low
+          autonomy_level: low
+          decision_speed: slow
+          learning_required: none
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: true
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: cross_team
+          meeting_intensity: high
+          requires_sync_communication: true
+          timezone_spread: moderate
+        notes: SEVERE ENERGY DRAIN - reorg every 6 months per calibration guidance
+          creates constant realignment overhead, triggers interpersonal conflict exposure
   rope_team_confidence:
     dealbreakers: []
     concerning:
@@ -143,6 +974,165 @@ red_flags:
       impact: Ireland operations appear more vulnerable to cuts than other locations
       severity: High - location-specific risk
       confidence: High - from Irish Times, Silicon Republic
+    - flag: 'THREE senior executives departing simultaneously (Sept 2025): CTO, Group
+        Chief Exec Consulting (30yr tenure), CHRO (only 1yr tenure)'
+      impact: Leadership instability at senior level signals dysfunction, creates
+        manager churn cascade
+      confidence: High - announced June 20, 2025
+      task_implications:
+      - task: Navigating leadership vacuum and potential manager changes
+        time_estimate_pct: 15-20%
+        characteristics:
+          conflict_exposure: high
+          alignment_clarity: low
+          authority_ambiguity: high
+          progress_visibility: low
+          autonomy_level: low
+          decision_speed: slow
+          learning_required: none
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: true
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: cross_team
+          meeting_intensity: high
+          requires_sync_communication: true
+          timezone_spread: moderate
+        notes: SEVERE ENERGY DRAIN - manager churn creates constant re-proving of
+          value, triggers interpersonal conflict
+    - flag: Discontinued diversity goals Feb 2025 after failing to hit targets (42%
+        women vs 50% goal)
+      impact: Cultural regression - signals potential cultural issues and lack of
+        commitment to values
+      confidence: High - Wikipedia article on Julie Sweet
+      task_implications:
+      - task: Working in environment that may deprioritize inclusion
+        time_estimate_pct: 5%
+        characteristics:
+          conflict_exposure: moderate
+          alignment_clarity: low
+          authority_ambiguity: moderate
+          progress_visibility: low
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: none
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: false
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: moderate
+          requires_sync_communication: false
+          timezone_spread: co_located
+        notes: Values misalignment - energy drain from cultural disconnection
+    - flag: 'THREE senior executives departing simultaneously (Sept 2025): CTO, Group
+        Chief Exec Consulting (30yr tenure), CHRO (only 1yr tenure)'
+      impact: Leadership instability at senior level signals dysfunction, creates
+        manager churn cascade
+      confidence: High - announced June 20, 2025
+      task_implications:
+      - task: Navigating leadership vacuum and potential manager changes
+        time_estimate_pct: 15-20%
+        characteristics:
+          conflict_exposure: high
+          alignment_clarity: low
+          authority_ambiguity: high
+          progress_visibility: low
+          autonomy_level: low
+          decision_speed: slow
+          learning_required: none
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: true
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: cross_team
+          meeting_intensity: high
+          requires_sync_communication: true
+          timezone_spread: moderate
+        notes: SEVERE ENERGY DRAIN - manager churn creates constant re-proving of
+          value, triggers interpersonal conflict
+    - flag: Discontinued diversity goals Feb 2025 after failing to hit targets (42%
+        women vs 50% goal)
+      impact: Cultural regression - signals potential cultural issues and lack of
+        commitment to values
+      confidence: High - Wikipedia article on Julie Sweet
+      task_implications:
+      - task: Working in environment that may deprioritize inclusion
+        time_estimate_pct: 5%
+        characteristics:
+          conflict_exposure: moderate
+          alignment_clarity: low
+          authority_ambiguity: moderate
+          progress_visibility: low
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: none
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: false
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: moderate
+          requires_sync_communication: false
+          timezone_spread: co_located
+        notes: Values misalignment - energy drain from cultural disconnection
+    - flag: 'THREE senior executives departing simultaneously (Sept 2025): CTO, Group
+        Chief Exec Consulting (30yr tenure), CHRO (only 1yr tenure)'
+      impact: Leadership instability at senior level signals dysfunction, creates
+        manager churn cascade
+      confidence: High - announced June 20, 2025
+      task_implications:
+      - task: Navigating leadership vacuum and potential manager changes
+        time_estimate_pct: 15-20%
+        characteristics:
+          conflict_exposure: high
+          alignment_clarity: low
+          authority_ambiguity: high
+          progress_visibility: low
+          autonomy_level: low
+          decision_speed: slow
+          learning_required: none
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: true
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: cross_team
+          meeting_intensity: high
+          requires_sync_communication: true
+          timezone_spread: moderate
+        notes: SEVERE ENERGY DRAIN - manager churn creates constant re-proving of
+          value, triggers interpersonal conflict
+    - flag: Discontinued diversity goals Feb 2025 after failing to hit targets (42%
+        women vs 50% goal)
+      impact: Cultural regression - signals potential cultural issues and lack of
+        commitment to values
+      confidence: High - Wikipedia article on Julie Sweet
+      task_implications:
+      - task: Working in environment that may deprioritize inclusion
+        time_estimate_pct: 5%
+        characteristics:
+          conflict_exposure: moderate
+          alignment_clarity: low
+          authority_ambiguity: moderate
+          progress_visibility: low
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: none
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: false
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: moderate
+          requires_sync_communication: false
+          timezone_spread: co_located
+        notes: Values misalignment - energy drain from cultural disconnection
   daily_climb:
     dealbreakers:
     - flag: Software Engineer salaries in Dublin €35K-€55K (€45K average) - 39% below
@@ -151,6 +1141,150 @@ red_flags:
         housing unaffordable in Dublin
       severity: Critical - €29K/year pay gap
       confidence: High - from 5,238 Glassdoor salary submissions Sept 2025
+    - flag: 'Dublin Software Engineer compensation: €45K average vs €74K market average
+        (-39% gap)'
+      impact: SEVERE compensation gap creates constant financial anxiety and active
+        job search pressure
+      confidence: High - Glassdoor Dublin salaries Sept 2025, 5,238 submissions
+      task_implications:
+      - task: Managing financial anxiety from severe below-market pay
+        time_estimate_pct: 15-25%
+        characteristics:
+          conflict_exposure: moderate
+          alignment_clarity: low
+          authority_ambiguity: low
+          progress_visibility: low
+          autonomy_level: low
+          decision_speed: slow
+          learning_required: none
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: false
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: solo
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: co_located
+        notes: DEALBREAKER - severe gap (>20%) + layoffs = 15-25% time drain per calibration,
+          triggers moderate energy drain from profile
+      - task: Active job searching due to compensation gap
+        time_estimate_pct: 10-15%
+        characteristics:
+          conflict_exposure: none
+          alignment_clarity: high
+          authority_ambiguity: none
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: low
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: false
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: solo
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: co_located
+        notes: BURNOUT WORK - necessary survival activity but drains energy from productive
+          work
+    - flag: 'Dublin Software Engineer compensation: €45K average vs €74K market average
+        (-39% gap)'
+      impact: SEVERE compensation gap creates constant financial anxiety and active
+        job search pressure
+      confidence: High - Glassdoor Dublin salaries Sept 2025, 5,238 submissions
+      task_implications:
+      - task: Managing financial anxiety from severe below-market pay
+        time_estimate_pct: 15-25%
+        characteristics:
+          conflict_exposure: moderate
+          alignment_clarity: low
+          authority_ambiguity: low
+          progress_visibility: low
+          autonomy_level: low
+          decision_speed: slow
+          learning_required: none
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: false
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: solo
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: co_located
+        notes: DEALBREAKER - severe gap (>20%) + layoffs = 15-25% time drain per calibration,
+          triggers moderate energy drain from profile
+      - task: Active job searching due to compensation gap
+        time_estimate_pct: 10-15%
+        characteristics:
+          conflict_exposure: none
+          alignment_clarity: high
+          authority_ambiguity: none
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: low
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: false
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: solo
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: co_located
+        notes: BURNOUT WORK - necessary survival activity but drains energy from productive
+          work
+    - flag: 'Dublin Software Engineer compensation: €45K average vs €74K market average
+        (-39% gap)'
+      impact: SEVERE compensation gap creates constant financial anxiety and active
+        job search pressure
+      confidence: High - Glassdoor Dublin salaries Sept 2025, 5,238 submissions
+      task_implications:
+      - task: Managing financial anxiety from severe below-market pay
+        time_estimate_pct: 15-25%
+        characteristics:
+          conflict_exposure: moderate
+          alignment_clarity: low
+          authority_ambiguity: low
+          progress_visibility: low
+          autonomy_level: low
+          decision_speed: slow
+          learning_required: none
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: false
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: solo
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: co_located
+        notes: DEALBREAKER - severe gap (>20%) + layoffs = 15-25% time drain per calibration,
+          triggers moderate energy drain from profile
+      - task: Active job searching due to compensation gap
+        time_estimate_pct: 10-15%
+        characteristics:
+          conflict_exposure: none
+          alignment_clarity: high
+          authority_ambiguity: none
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: low
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: false
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: solo
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: co_located
+        notes: BURNOUT WORK - necessary survival activity but drains energy from productive
+          work
     concerning:
     - flag: Ireland employee satisfaction 3.3/5 vs 3.7/5 globally; only 59% recommend
         vs 74% globally
@@ -177,6 +1311,237 @@ red_flags:
       impact: Difficult to plan career progression and advocate for advancement
       severity: Medium - career development friction
       confidence: Medium - repeated theme in reviews
+    - flag: 'Ireland employee satisfaction: 3.3/5 Glassdoor (vs 3.7/5 global), only
+        59% recommend (vs 74% global)'
+      impact: Dublin headquarters has worse culture than global average - indicates
+        local dysfunction
+      confidence: High - Glassdoor Ireland reviews 2024-2025
+      task_implications:
+      - task: Working in below-average local culture environment
+        time_estimate_pct: 5-10%
+        characteristics:
+          conflict_exposure: moderate
+          alignment_clarity: moderate
+          authority_ambiguity: moderate
+          progress_visibility: moderate
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: none
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: false
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: moderate
+          requires_sync_communication: true
+          timezone_spread: co_located
+        notes: Cultural misfit adds friction to daily work
+    - flag: 'Ireland compensation rating: 2.8/5 (19.4% worse than global 3.3/5 average)'
+      impact: Compensation dissatisfaction is worse in Ireland than globally - reinforces
+        pay gap concern
+      confidence: High - Glassdoor Ireland reviews
+      task_implications:
+      - task: Dealing with compensation dissatisfaction culture
+        time_estimate_pct: 5%
+        characteristics:
+          conflict_exposure: moderate
+          alignment_clarity: low
+          authority_ambiguity: low
+          progress_visibility: low
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: none
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: false
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: co_located
+        notes: Team morale drain from widespread pay dissatisfaction
+    - flag: 'Ireland disproportionate layoffs: 1,290 in 2023 (20% of Irish workforce)
+        vs 2.5% global reduction'
+      impact: Dublin treated as cost center for cutting, not strategic hub - survival
+        anxiety higher than global avg
+      confidence: High - Silicon Republic, Irish Times July 2023
+      task_implications:
+      - task: Managing heightened Ireland-specific layoff anxiety
+        time_estimate_pct: 5-10%
+        characteristics:
+          conflict_exposure: moderate
+          alignment_clarity: low
+          authority_ambiguity: moderate
+          progress_visibility: low
+          autonomy_level: low
+          decision_speed: slow
+          learning_required: none
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: false
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: solo
+          meeting_intensity: moderate
+          requires_sync_communication: false
+          timezone_spread: co_located
+        notes: Additional Ireland-specific survival stress
+    - flag: 'Ireland employee satisfaction: 3.3/5 Glassdoor (vs 3.7/5 global), only
+        59% recommend (vs 74% global)'
+      impact: Dublin headquarters has worse culture than global average - indicates
+        local dysfunction
+      confidence: High - Glassdoor Ireland reviews 2024-2025
+      task_implications:
+      - task: Working in below-average local culture environment
+        time_estimate_pct: 5-10%
+        characteristics:
+          conflict_exposure: moderate
+          alignment_clarity: moderate
+          authority_ambiguity: moderate
+          progress_visibility: moderate
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: none
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: false
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: moderate
+          requires_sync_communication: true
+          timezone_spread: co_located
+        notes: Cultural misfit adds friction to daily work
+    - flag: 'Ireland compensation rating: 2.8/5 (19.4% worse than global 3.3/5 average)'
+      impact: Compensation dissatisfaction is worse in Ireland than globally - reinforces
+        pay gap concern
+      confidence: High - Glassdoor Ireland reviews
+      task_implications:
+      - task: Dealing with compensation dissatisfaction culture
+        time_estimate_pct: 5%
+        characteristics:
+          conflict_exposure: moderate
+          alignment_clarity: low
+          authority_ambiguity: low
+          progress_visibility: low
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: none
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: false
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: co_located
+        notes: Team morale drain from widespread pay dissatisfaction
+    - flag: 'Ireland disproportionate layoffs: 1,290 in 2023 (20% of Irish workforce)
+        vs 2.5% global reduction'
+      impact: Dublin treated as cost center for cutting, not strategic hub - survival
+        anxiety higher than global avg
+      confidence: High - Silicon Republic, Irish Times July 2023
+      task_implications:
+      - task: Managing heightened Ireland-specific layoff anxiety
+        time_estimate_pct: 5-10%
+        characteristics:
+          conflict_exposure: moderate
+          alignment_clarity: low
+          authority_ambiguity: moderate
+          progress_visibility: low
+          autonomy_level: low
+          decision_speed: slow
+          learning_required: none
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: false
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: solo
+          meeting_intensity: moderate
+          requires_sync_communication: false
+          timezone_spread: co_located
+        notes: Additional Ireland-specific survival stress
+    - flag: 'Ireland employee satisfaction: 3.3/5 Glassdoor (vs 3.7/5 global), only
+        59% recommend (vs 74% global)'
+      impact: Dublin headquarters has worse culture than global average - indicates
+        local dysfunction
+      confidence: High - Glassdoor Ireland reviews 2024-2025
+      task_implications:
+      - task: Working in below-average local culture environment
+        time_estimate_pct: 5-10%
+        characteristics:
+          conflict_exposure: moderate
+          alignment_clarity: moderate
+          authority_ambiguity: moderate
+          progress_visibility: moderate
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: none
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: false
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: moderate
+          requires_sync_communication: true
+          timezone_spread: co_located
+        notes: Cultural misfit adds friction to daily work
+    - flag: 'Ireland compensation rating: 2.8/5 (19.4% worse than global 3.3/5 average)'
+      impact: Compensation dissatisfaction is worse in Ireland than globally - reinforces
+        pay gap concern
+      confidence: High - Glassdoor Ireland reviews
+      task_implications:
+      - task: Dealing with compensation dissatisfaction culture
+        time_estimate_pct: 5%
+        characteristics:
+          conflict_exposure: moderate
+          alignment_clarity: low
+          authority_ambiguity: low
+          progress_visibility: low
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: none
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: false
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: co_located
+        notes: Team morale drain from widespread pay dissatisfaction
+    - flag: 'Ireland disproportionate layoffs: 1,290 in 2023 (20% of Irish workforce)
+        vs 2.5% global reduction'
+      impact: Dublin treated as cost center for cutting, not strategic hub - survival
+        anxiety higher than global avg
+      confidence: High - Silicon Republic, Irish Times July 2023
+      task_implications:
+      - task: Managing heightened Ireland-specific layoff anxiety
+        time_estimate_pct: 5-10%
+        characteristics:
+          conflict_exposure: moderate
+          alignment_clarity: low
+          authority_ambiguity: moderate
+          progress_visibility: low
+          autonomy_level: low
+          decision_speed: slow
+          learning_required: none
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: false
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: solo
+          meeting_intensity: moderate
+          requires_sync_communication: false
+          timezone_spread: co_located
+        notes: Additional Ireland-specific survival stress
   story_worth_telling:
     dealbreakers: []
     concerning:
@@ -242,4 +1607,178 @@ missing_critical_data:
     know if more cuts planned
   how_to_find: 'Difficult to get honest answer, but ask: ''What are the growth plans
     for the Dublin office?'' and watch for evasive answers'
+- question: What is the actual team coordination style in practice? Alpine (tight
+    bandwidth), expedition (loose), established route (process-driven), orienteering
+    (autonomous), or trail crew (maintenance)?
+  why_important: Need to understand if coordination style matches uncertain AI/cloud
+    terrain - rapid change requires tight feedback loops or strong async culture
+  how_to_find: 'Insider interview: Ask about decision-making speed, meeting load,
+    communication patterns, how quickly team can pivot when tech landscape shifts'
+  mountain_element: chosen_peak
+- question: What is the realignment ability? Can teams adapt faster than AI/cloud
+    landscape changes, or do reorgs/layoffs slow adaptation?
+  why_important: Critical for sustainable work in volatile technical terrain - if
+    terrain changes faster than team can realign, creates burnout from constant misalignment
+  how_to_find: 'Insider interview: Ask about recent pivots (e.g., Gen AI strategy),
+    how long decisions take, whether reorg overhead prevents rapid iteration'
+  mountain_element: chosen_peak
+- question: What is manager tenure and span of control in Dublin? How many manager
+    changes do engineers experience?
+  why_important: Manager churn compounds other dysfunction - need to understand if
+    2-3 changes per year (15-20% overhead) or worse
+  how_to_find: 'Insider interview: Ask about manager stability, average tenure, how
+    often reporting structure changes'
+  mountain_element: rope_team_confidence
+- question: What is the actual meeting load percentage? Does consulting culture create
+    >30% meeting time?
+  why_important: Profile specifies max 30% meeting tolerance, ideal 20% - need to
+    verify if sustainable or burnout risk
+  how_to_find: 'Insider interview: Ask about typical week''s meeting schedule, client
+    vs internal meeting ratio'
+  mountain_element: daily_climb
+- question: How do layoffs actually happen? Performance-based, org-level cuts, or
+    arbitrary? Is there psychological safety?
+  why_important: Scapegoating culture vs honest execution challenges - affects whether
+    environment is HELP (learning from failures) or BURNOUT (blame)
+  how_to_find: 'Insider interview: Ask about how layoffs were communicated, whether
+    performance reviews are fair, if people can safely raise concerns'
+  mountain_element: rope_team_confidence
+- question: What is the actual equity compensation for senior engineers in Dublin?
+    RSUs, options, or none?
+  why_important: Compensation gap might be offset by equity - need total comp picture
+    to assess financial sustainability
+  how_to_find: 'Insider interview: Ask about equity grants, vesting schedules, refresher
+    policies'
+  mountain_element: daily_climb
+- question: What is the engineering-to-consulting ratio in Dublin office? Primarily
+    engineering or client-facing work?
+  why_important: Determines whether role matches infrastructure automation expertise
+    or diverts into consulting/sales theater
+  how_to_find: 'Insider interview: Ask about typical project structure, percentage
+    of time on internal platforms vs client delivery'
+  mountain_element: chosen_peak
+- question: Are there deception patterns? Vaporware (demos vs real product), POC theater
+    (paid POCs with no conversion), or honest execution challenges?
+  why_important: Vaporware/POC theater are moral injury BURNOUT work (20-30% overhead
+    building lies) - dealbreaker per calibration
+  how_to_find: 'Insider interview: Ask about customer conversion rates, whether sales
+    demos represent real product capabilities, if engineering feels pressure to build
+    theater vs real features'
+  mountain_element: rope_team_confidence
+- question: What is the actual team coordination style in practice? Alpine (tight
+    bandwidth), expedition (loose), established route (process-driven), orienteering
+    (autonomous), or trail crew (maintenance)?
+  why_important: Need to understand if coordination style matches uncertain AI/cloud
+    terrain - rapid change requires tight feedback loops or strong async culture
+  how_to_find: 'Insider interview: Ask about decision-making speed, meeting load,
+    communication patterns, how quickly team can pivot when tech landscape shifts'
+  mountain_element: chosen_peak
+- question: What is the realignment ability? Can teams adapt faster than AI/cloud
+    landscape changes, or do reorgs/layoffs slow adaptation?
+  why_important: Critical for sustainable work in volatile technical terrain - if
+    terrain changes faster than team can realign, creates burnout from constant misalignment
+  how_to_find: 'Insider interview: Ask about recent pivots (e.g., Gen AI strategy),
+    how long decisions take, whether reorg overhead prevents rapid iteration'
+  mountain_element: chosen_peak
+- question: What is manager tenure and span of control in Dublin? How many manager
+    changes do engineers experience?
+  why_important: Manager churn compounds other dysfunction - need to understand if
+    2-3 changes per year (15-20% overhead) or worse
+  how_to_find: 'Insider interview: Ask about manager stability, average tenure, how
+    often reporting structure changes'
+  mountain_element: rope_team_confidence
+- question: What is the actual meeting load percentage? Does consulting culture create
+    >30% meeting time?
+  why_important: Profile specifies max 30% meeting tolerance, ideal 20% - need to
+    verify if sustainable or burnout risk
+  how_to_find: 'Insider interview: Ask about typical week''s meeting schedule, client
+    vs internal meeting ratio'
+  mountain_element: daily_climb
+- question: How do layoffs actually happen? Performance-based, org-level cuts, or
+    arbitrary? Is there psychological safety?
+  why_important: Scapegoating culture vs honest execution challenges - affects whether
+    environment is HELP (learning from failures) or BURNOUT (blame)
+  how_to_find: 'Insider interview: Ask about how layoffs were communicated, whether
+    performance reviews are fair, if people can safely raise concerns'
+  mountain_element: rope_team_confidence
+- question: What is the actual equity compensation for senior engineers in Dublin?
+    RSUs, options, or none?
+  why_important: Compensation gap might be offset by equity - need total comp picture
+    to assess financial sustainability
+  how_to_find: 'Insider interview: Ask about equity grants, vesting schedules, refresher
+    policies'
+  mountain_element: daily_climb
+- question: What is the engineering-to-consulting ratio in Dublin office? Primarily
+    engineering or client-facing work?
+  why_important: Determines whether role matches infrastructure automation expertise
+    or diverts into consulting/sales theater
+  how_to_find: 'Insider interview: Ask about typical project structure, percentage
+    of time on internal platforms vs client delivery'
+  mountain_element: chosen_peak
+- question: Are there deception patterns? Vaporware (demos vs real product), POC theater
+    (paid POCs with no conversion), or honest execution challenges?
+  why_important: Vaporware/POC theater are moral injury BURNOUT work (20-30% overhead
+    building lies) - dealbreaker per calibration
+  how_to_find: 'Insider interview: Ask about customer conversion rates, whether sales
+    demos represent real product capabilities, if engineering feels pressure to build
+    theater vs real features'
+  mountain_element: rope_team_confidence
+- question: What is the actual team coordination style in practice? Alpine (tight
+    bandwidth), expedition (loose), established route (process-driven), orienteering
+    (autonomous), or trail crew (maintenance)?
+  why_important: Need to understand if coordination style matches uncertain AI/cloud
+    terrain - rapid change requires tight feedback loops or strong async culture
+  how_to_find: 'Insider interview: Ask about decision-making speed, meeting load,
+    communication patterns, how quickly team can pivot when tech landscape shifts'
+  mountain_element: chosen_peak
+- question: What is the realignment ability? Can teams adapt faster than AI/cloud
+    landscape changes, or do reorgs/layoffs slow adaptation?
+  why_important: Critical for sustainable work in volatile technical terrain - if
+    terrain changes faster than team can realign, creates burnout from constant misalignment
+  how_to_find: 'Insider interview: Ask about recent pivots (e.g., Gen AI strategy),
+    how long decisions take, whether reorg overhead prevents rapid iteration'
+  mountain_element: chosen_peak
+- question: What is manager tenure and span of control in Dublin? How many manager
+    changes do engineers experience?
+  why_important: Manager churn compounds other dysfunction - need to understand if
+    2-3 changes per year (15-20% overhead) or worse
+  how_to_find: 'Insider interview: Ask about manager stability, average tenure, how
+    often reporting structure changes'
+  mountain_element: rope_team_confidence
+- question: What is the actual meeting load percentage? Does consulting culture create
+    >30% meeting time?
+  why_important: Profile specifies max 30% meeting tolerance, ideal 20% - need to
+    verify if sustainable or burnout risk
+  how_to_find: 'Insider interview: Ask about typical week''s meeting schedule, client
+    vs internal meeting ratio'
+  mountain_element: daily_climb
+- question: How do layoffs actually happen? Performance-based, org-level cuts, or
+    arbitrary? Is there psychological safety?
+  why_important: Scapegoating culture vs honest execution challenges - affects whether
+    environment is HELP (learning from failures) or BURNOUT (blame)
+  how_to_find: 'Insider interview: Ask about how layoffs were communicated, whether
+    performance reviews are fair, if people can safely raise concerns'
+  mountain_element: rope_team_confidence
+- question: What is the actual equity compensation for senior engineers in Dublin?
+    RSUs, options, or none?
+  why_important: Compensation gap might be offset by equity - need total comp picture
+    to assess financial sustainability
+  how_to_find: 'Insider interview: Ask about equity grants, vesting schedules, refresher
+    policies'
+  mountain_element: daily_climb
+- question: What is the engineering-to-consulting ratio in Dublin office? Primarily
+    engineering or client-facing work?
+  why_important: Determines whether role matches infrastructure automation expertise
+    or diverts into consulting/sales theater
+  how_to_find: 'Insider interview: Ask about typical project structure, percentage
+    of time on internal platforms vs client delivery'
+  mountain_element: chosen_peak
+- question: Are there deception patterns? Vaporware (demos vs real product), POC theater
+    (paid POCs with no conversion), or honest execution challenges?
+  why_important: Vaporware/POC theater are moral injury BURNOUT work (20-30% overhead
+    building lies) - dealbreaker per calibration
+  how_to_find: 'Insider interview: Ask about customer conversion rates, whether sales
+    demos represent real product capabilities, if engineering feels pressure to build
+    theater vs real features'
+  mountain_element: rope_team_confidence
 company_slug: accenture

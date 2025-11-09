@@ -1,6 +1,6 @@
 company: Doist
 company_slug: doist
-evaluation_date: '2025-10-14'
+evaluation_date: '2025-11-09'
 evaluator_context: Extracted from conversation notes
 green_flags:
   mountain_range:
@@ -68,9 +68,164 @@ green_flags:
       impact: Sustainable pace verified by employee reviews. Not burnout culture disguised
         as 'passion'. You've earned this
       confidence: High - Glassdoor 32 reviews
+    - flag: 100% bootstrapped, profitable since day one, $26.5M ARR (32.5% YoY growth),
+        no VC pressure
+      impact: Complete financial independence eliminates financial_anxiety drain.
+        No VC pressure means sustainable pace, no forced exit timeline. Profitable
+        all 18 years with reinvestment strategy.
+      confidence: High - Explicit statements from Crunchbase, Getlatka, CEO interviews
+      task_implications:
+      - task: Build task management infrastructure for 40M+ users with natural language
+          processing
+        time_estimate_pct: 30%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: low
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_glue_work: false
+          uses_infrastructure_automation: true
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: moderate
+        notes: Profitability + no VC eliminates financial_anxiety (moderate drain).
+          Stable profitable business provides aligned_collaboration (strong generator).
+          Infrastructure work uses systems_thinking + tool_building + infrastructure_automation
+          expert strengths.
+        energy_matrix_quadrant: moare
+    - flag: 'Ultra-stable leadership: Founder-CEO 18 years, CTO 13 years, CMO 13 years
+        - no recent departures'
+      impact: Eliminates authority_ambiguity drain. Clear ownership, consistent vision,
+        no reorg churn. Leadership continuity enables deep product refinement over
+        18 years.
+      confidence: High - LinkedIn, company profiles, interviews
+      task_implications:
+      - task: Design and implement cross-platform synchronization for 300K paying
+          customers
+        time_estimate_pct: 25%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: low
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_glue_work: false
+          uses_infrastructure_automation: true
+          uses_decision_frameworks: true
+          collaboration_type: team
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: moderate
+        notes: Stable leadership eliminates authority_ambiguity (moderate drain).
+          18 years of consistent vision provides aligned_collaboration (strong generator).
+          Distributed systems work uses core expert strengths.
+        energy_matrix_quadrant: moare
+    - flag: 97% employee retention, 50% with company 4+ years, 4.7/5 Glassdoor (95%
+        recommend)
+      impact: Exceptional retention indicates minimal interpersonal_conflict. High
+        satisfaction suggests healthy culture with clear processes. Long tenures mean
+        institutional knowledge and stable teams.
+      confidence: High - Doist.com, Glassdoor, Globalization Partners
+      task_implications:
+      - task: Contribute to open source projects (Reactist, bitmapist, todoist-ai
+          MCP support)
+        time_estimate_pct: 10%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: none
+          uses_systems_thinking: false
+          uses_tool_building: true
+          uses_glue_work: true
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: solo
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: wide
+        notes: High retention = low interpersonal_conflict exposure. Open source aligns
+          with tool_building strength and provides visible_progress generator.
+        energy_matrix_quadrant: moare
+    - flag: 'Remote-first since 2010 (14+ years), async-first culture: 1 meeting/day
+        average, no mandatory hours'
+      impact: Perfect match for profile's async capability and timezone flexibility.
+        Proven async culture (pre-dating remote work trend) minimizes meeting_intensity
+        drain. 32 nationalities proves wide timezone coordination works.
+      confidence: High - Doist.com, CEO/CTO/CMO interviews
+      task_implications:
+      - task: Coordinate with 39 engineers across 32 nationalities in async-first
+          environment
+        time_estimate_pct: 15%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: moderate
+          autonomy_level: high
+          decision_speed: moderate
+          learning_required: low
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: true
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: true
+          collaboration_type: cross_team
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: wide
+        notes: Proven async culture matches profile's async_first_culture requirement
+          for uncertain problem spaces. Uses glue_work expert strength. 1 meeting/day
+          average keeps meeting_intensity low despite wide timezone_spread.
+        energy_matrix_quadrant: sparingly
+    - flag: 'DORA ''high performing'': 18-26 deploys/day, feature flags, 1 day/week
+        ''Housekeeping'' for tech debt'
+      impact: Fast deployment velocity enables visible_progress generator. Feature
+        flags provide safety and autonomy. Dedicated tech debt time prevents accumulation.
+        Engineering blog shows investment in technical excellence.
+      confidence: High - doist.dev blog, Datadog metrics
+      task_implications:
+      - task: Implement CI/CD automation and monitoring via GitHub Actions, Datadog,
+          Sentry
+        time_estimate_pct: 20%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: none
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_glue_work: false
+          uses_infrastructure_automation: true
+          uses_decision_frameworks: false
+          collaboration_type: solo
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: narrow
+        notes: High deployment velocity provides visible_progress generator. Automation
+          work uses infrastructure_automation + tool_building + systems_thinking expert
+          strengths. 'Housekeeping' time prevents tech debt accumulation.
+        energy_matrix_quadrant: moare
     strong_positives: &id002
-    - flag: "Actively hiring in 2025 with controlled growth (40\u219250\u219260\u2192\
-        93\u2192103 employees over 10 years)"
+    - flag: Actively hiring in 2025 with controlled growth (40→50→60→93→103 employees
+        over 10 years)
       impact: Growing but not the breakneck hiring that leads to layoffs. Sustainable
         expansion pattern
       confidence: High - Job sites, company profiles, historical data
@@ -127,6 +282,120 @@ green_flags:
       impact: Legacy and values-driven work. Building tools that help people, not
         surveillance capitalism
       confidence: High - Company mission, track record
+    - flag: 18 years of product refinement, 4.4/5 G2 (806 reviews), praised by NYT,
+        WSJ, Forbes
+      impact: Long-term product evolution shows sustained focus and alignment. Strong
+        user ratings validate product quality. Media recognition adds to 'story worth
+        telling'.
+      confidence: High - G2, Capterra, media citations
+      task_implications:
+      - task: Refine user experience based on 2 billion completed tasks and user feedback
+        time_estimate_pct: 10%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: moderate
+          uses_systems_thinking: true
+          uses_tool_building: false
+          uses_glue_work: false
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: true
+          collaboration_type: team
+          meeting_intensity: moderate
+          requires_sync_communication: true
+          timezone_spread: moderate
+        notes: 18 years of refinement shows aligned_collaboration. Product work requires
+          more sync communication and learning vs pure infrastructure.
+        energy_matrix_quadrant: moare
+    - flag: 'Active open source presence: 151+ GitHub repos, todoist-ai with MCP support,
+        engineering blog'
+      impact: Technical investment in community and modern integrations (MCP). Engineering
+        blog demonstrates learning culture. Open source contributions provide visibility.
+      confidence: High - github.com/doist, doist.dev
+      task_implications:
+      - task: Write technical blog posts and contribute to engineering community
+        time_estimate_pct: 5%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: none
+          uses_systems_thinking: false
+          uses_tool_building: true
+          uses_glue_work: true
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: solo
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: narrow
+        notes: Public technical writing provides visible_progress and aligns with
+          tool_building + glue_work strengths.
+        energy_matrix_quadrant: moare
+    - flag: Python/Go backend, React frontend, Swift iOS, Kotlin Android - modern
+        stack on AWS
+      impact: Mainstream tech stack with strong community support. Polyglot environment
+        offers variety. AWS provides mature tooling.
+      confidence: High - Job postings, CEO Quora session
+      task_implications:
+      - task: Work with custom Python framework built by founder (quirky in-house
+          Flask-like framework)
+        time_estimate_pct: 15%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: moderate
+          authority_ambiguity: low
+          progress_visibility: moderate
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: moderate
+          uses_systems_thinking: true
+          uses_tool_building: false
+          uses_glue_work: false
+          uses_infrastructure_automation: true
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: moderate
+        notes: Custom framework requires learning but uses systems_thinking + infrastructure_automation
+          strengths. 'Quirky' may mean limited documentation.
+        energy_matrix_quadrant: sparingly
+    - flag: 'Transparent culture: extremely transparent about decisions/finances per
+        employee reviews'
+      impact: Transparency reduces authority_ambiguity and provides context for decisions.
+        Aligns with profile's need for clarity to prevent misalignment drain.
+      confidence: Medium - Glassdoor employee reviews
+      task_implications:
+      - task: Participate in transparent decision-making and financial discussions
+        time_estimate_pct: 5%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: moderate
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: none
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: true
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: true
+          collaboration_type: team
+          meeting_intensity: low
+          requires_sync_communication: true
+          timezone_spread: moderate
+        notes: Transparency eliminates authority_ambiguity and supports decision_frameworks
+          strength. Low time commitment for high alignment benefit.
+        energy_matrix_quadrant: moare
   chosen_peak:
     critical_matches: *id001
     strong_positives: *id002
@@ -184,6 +453,182 @@ red_flags:
         typical of staff engineer work. Trade-off between impact per engineer vs organizational
         complexity
       confidence: Medium - Inferred from team size
+    - flag: 70% churn rate acknowledged by CEO (compensated by high volume)
+      impact: High churn may indicate product stickiness challenges or pricing pressure.
+        While volume compensates financially, constant customer acquisition could
+        create pressure.
+      severity: MEDIUM
+      confidence: High - CEO explicit statement in Getlatka interview
+      task_implications:
+      - task: Balance feature development with customer retention improvements
+        time_estimate_pct: 10%
+        characteristics:
+          conflict_exposure: moderate
+          alignment_clarity: moderate
+          authority_ambiguity: low
+          progress_visibility: moderate
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: moderate
+          uses_systems_thinking: true
+          uses_tool_building: false
+          uses_glue_work: true
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: true
+          collaboration_type: cross_team
+          meeting_intensity: moderate
+          requires_sync_communication: true
+          timezone_spread: moderate
+        notes: Churn pressure may create some misalignment between growth and retention
+          priorities. Cross-team coordination with product/marketing needed.
+        energy_matrix_quadrant: sparingly
+    - flag: Smaller scale ($26.5M ARR) competing against giants (Asana, Microsoft,
+        Notion)
+      impact: Resource constraints vs well-funded competitors. May limit ability to
+        invest in cutting-edge R&D. Less 'story worth telling' impact vs larger scale
+        companies.
+      severity: LOW
+      confidence: High - Market analysis, competitor data
+      task_implications:
+      - task: Make strategic technology choices with limited resources vs better-funded
+          competitors
+        time_estimate_pct: 8%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: moderate
+          authority_ambiguity: low
+          progress_visibility: moderate
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: moderate
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_infrastructure_automation: true
+          uses_decision_frameworks: true
+          collaboration_type: team
+          meeting_intensity: moderate
+          requires_sync_communication: true
+          timezone_spread: moderate
+        notes: Resource constraints require careful prioritization but use decision_frameworks
+          strength. Bootstrapped independence may offset lack of unlimited funding.
+        energy_matrix_quadrant: moare
+    - flag: Custom 'quirky' in-house Python framework built by founder (not mainstream)
+      impact: Learning curve for custom framework. Limited community resources. Potential
+        maintenance burden. May make hiring harder or slow onboarding.
+      severity: LOW
+      confidence: High - Job posting explicit mention
+      task_implications:
+      - task: Learn and work with founder's custom Python framework vs standard tools
+        time_estimate_pct: 12%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: moderate
+          authority_ambiguity: low
+          progress_visibility: moderate
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: high
+          uses_systems_thinking: true
+          uses_tool_building: false
+          uses_glue_work: false
+          uses_infrastructure_automation: true
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: moderate
+        notes: High learning_required for custom framework. May lack documentation
+          typical of mainstream tools. Uses systems_thinking but not tool_building
+          (learning not creating).
+        energy_matrix_quadrant: sparingly
+    - flag: Small engineering team (39 engineers) for 40M+ users - high leverage but
+        limited redundancy
+      impact: High efficiency ($200K revenue per employee) but single points of failure.
+        Limited ability to parallelize large initiatives. Each engineer critical.
+      severity: LOW
+      confidence: High - Company data
+      task_implications:
+      - task: Manage critical infrastructure with limited team redundancy
+        time_estimate_pct: 10%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: moderate
+          decision_speed: fast
+          learning_required: low
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_infrastructure_automation: true
+          uses_decision_frameworks: true
+          collaboration_type: team
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: moderate
+        notes: High leverage role uses all expert strengths. Small team means high
+          visibility but also higher responsibility. 97% retention mitigates single-point-of-failure
+          risk.
+        energy_matrix_quadrant: moare
+    - flag: Paid test task (10 hours) + '3 hell-yeah approvals' required - rigorous
+        hiring may limit flexibility
+      impact: High hiring bar ensures quality but may create reluctance to hire when
+        needed. Could slow growth or create burnout risk if team can't scale.
+      severity: LOW
+      confidence: Medium - Job postings, Glassdoor
+      task_implications:
+      - task: Work in environment with very high hiring bar and small team size
+        time_estimate_pct: 5%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: moderate
+          autonomy_level: high
+          decision_speed: moderate
+          learning_required: none
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: false
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: moderate
+        notes: High bar ensures talented teammates but may mean slower team growth.
+          97% retention suggests bar works well.
+        energy_matrix_quadrant: help_mentoring
+    - flag: No SOC2/ISO 27001 certification explicitly mentioned - potential enterprise
+        sales barrier
+      impact: May limit enterprise customer acquisition. Fortune 100 companies mentioned
+        but formal compliance missing from research. Could constrain growth.
+      severity: LOW
+      confidence: Medium - Missing information, GDPR mentioned but not SOC2/ISO
+      task_implications:
+      - task: Navigate security/compliance questions from enterprise customers without
+          formal certifications
+        time_estimate_pct: 5%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: moderate
+          authority_ambiguity: low
+          progress_visibility: low
+          autonomy_level: low
+          decision_speed: slow
+          learning_required: moderate
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: true
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: cross_team
+          meeting_intensity: moderate
+          requires_sync_communication: true
+          timezone_spread: moderate
+        notes: Compliance work uses glue_work but limited progress_visibility. May
+          involve slow-moving sales/legal processes.
+        energy_matrix_quadrant: burnout
   chosen_peak:
     dealbreakers: *id003
     concerning: *id004
@@ -209,8 +654,8 @@ missing_critical_data:
     Flask/Django?
   why_important: Need to understand if this is brilliant tailored tooling or technical
     debt trap. Impacts learning curve and maintenance burden
-  how_to_find: "Ask CTO Gon\xE7alo Silva or backend engineers in interview. Request\
-    \ code samples or architectural overview"
+  how_to_find: Ask CTO Gonçalo Silva or backend engineers in interview. Request code
+    samples or architectural overview
   mountain_element: chosen_peak
 - question: What does staff engineer scope look like with only 39 engineers? What's
     the career ladder?
@@ -236,9 +681,9 @@ missing_critical_data:
   mountain_element: chosen_peak
 - question: What's the engineering manager span of control? How many reports does
     a manager typically have?
-  why_important: "You want managers with \u22646 reports who have bandwidth for 1-on-1s\
-    \ and career development. Small team might mean healthier ratios or 'everyone\
-    \ reports to CTO'"
+  why_important: You want managers with ≤6 reports who have bandwidth for 1-on-1s
+    and career development. Small team might mean healthier ratios or 'everyone reports
+    to CTO'
   how_to_find: Ask about org structure, manager ratios, who you'd report to and their
     current team size
   mountain_element: rope_team_confidence
@@ -256,3 +701,27 @@ missing_critical_data:
   how_to_find: Ask product leadership or CEO for current retention metrics, what's
     been learned since 2020 quote
   mountain_element: mountain_range
+profile_version_used: '1.0'
+synthesis:
+  energy_matrix_analysis:
+    profile_version_used: '1.0'
+    predicted_daily_distribution:
+      moare_green_flags:
+        percentage: 66.5
+        tasks_count: 45
+      sparingly_yellow_flags:
+        percentage: 28.1
+        tasks_count: 20
+      burnout_red_flags:
+        percentage: 2.7
+        tasks_count: 5
+      help_mentoring_yellow_flags:
+        percentage: 2.7
+        tasks_count: 5
+    threshold_analysis:
+      meets_green_minimum: true
+      exceeds_red_maximum: false
+      exceeds_yellow_maximum: true
+    energy_sustainability: MEDIUM
+    key_insights: []
+    decision_factors: []

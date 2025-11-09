@@ -1,0 +1,697 @@
+company: wayflyer
+evaluation_date: '2025-11-09'
+evaluator_context: Extracted from conversation notes
+green_flags:
+  mountain_range:
+    critical_matches:
+    - flag: Strong path to profitability - achieved monthly profitability in Oct 2023,
+        reduced operating losses 85% in Q3 2023, forecast full profitability in 2024
+      impact: Eliminates financial_anxiety drain. Company has demonstrated ability
+        to reach profitability without massive new funding rounds
+      confidence: High - Multiple explicit statements from Irish Times, FFNews (Nov
+        2023)
+      task_implications:
+      - task: Build ML-powered underwriting models for revenue-based financing (92%
+          approval rate, 85% processing efficiency)
+        time_estimate_pct: 30%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: low
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_glue_work: false
+          uses_infrastructure_automation: true
+          uses_decision_frameworks: true
+          collaboration_type: team
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: moderate
+        notes: Path to profitability eliminates financial_anxiety drain. ML/data-driven
+          fintech work aligns with systems_thinking and tool_building strengths
+        energy_matrix_quadrant: moare
+    - flag: Product-oriented ML pods with embedded data scientists - modern ML stack
+        (Python, Pydantic, Evidently, 20+ data roles, tens of models in production)
+      impact: Aligns with tool_building and systems_thinking strengths. Embedded data
+        scientists avoid central ML team bottlenecks
+      confidence: High - Evidently AI case study (2023)
+      task_implications:
+      - task: Design and deploy ML models for cash flow prediction, fraud detection,
+          NLP transaction categorization in product pods
+        time_estimate_pct: 25%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: low
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_glue_work: false
+          uses_infrastructure_automation: true
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: moderate
+        notes: Embedded pod structure provides aligned_collaboration generator. Clear
+          ownership eliminates authority_ambiguity drain
+        energy_matrix_quadrant: moare
+    - flag: Strong product-market fit - 80%+ customer retention, 94% satisfaction,
+        4.8/5 TrustPilot, deployed $5B to 5,000+ brands, 23% eCommerce market share
+      impact: Clear value proposition reduces misalignment. High retention indicates
+        solving real problems
+      confidence: High - Multiple sources (TrustPilot 2025, New Frontier Funding 2024)
+      task_implications:
+      - task: Build infrastructure for transparent pricing and automated repayment
+          systems (12-18% daily sales repayment)
+        time_estimate_pct: 20%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: moderate
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_glue_work: false
+          uses_infrastructure_automation: true
+          uses_decision_frameworks: true
+          collaboration_type: team
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: moderate
+        notes: Strong PMF provides aligned_collaboration and visible_progress generators.
+          Building fintech payment systems uses core strengths
+        energy_matrix_quadrant: moare
+    - flag: Modern tech stack - TypeScript/React frontend, Python/Django backend,
+        PostgreSQL, Redis, Docker, CI/CD, Playwright/Vitest testing
+      impact: Standard modern stack enables tool_building and infrastructure_automation
+        work
+      confidence: High - Speedinvest Job Board (2024)
+      task_implications:
+      - task: Build full-stack features and API infrastructure with TypeScript React
+          + Python Django REST APIs
+        time_estimate_pct: 15%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: low
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_glue_work: false
+          uses_infrastructure_automation: true
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: moderate
+        notes: Modern stack familiar to profile. Full-stack TypeScript/Python work
+          uses tool_building and systems_thinking strengths
+        energy_matrix_quadrant: moare
+    - flag: Strong path to profitability - achieved monthly profitability in Oct 2023,
+        reduced operating losses 85% in Q3 2023, forecast full profitability in 2024
+      impact: Eliminates financial_anxiety drain. Company has demonstrated ability
+        to reach profitability without massive new funding rounds
+      confidence: High - Multiple explicit statements from Irish Times, FFNews (Nov
+        2023)
+      task_implications:
+      - task: Build ML-powered underwriting models for revenue-based financing (92%
+          approval rate, 85% processing efficiency)
+        time_estimate_pct: 30%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: low
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_glue_work: false
+          uses_infrastructure_automation: true
+          uses_decision_frameworks: true
+          collaboration_type: team
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: moderate
+        notes: Path to profitability eliminates financial_anxiety drain. ML/data-driven
+          fintech work aligns with systems_thinking and tool_building strengths
+        energy_matrix_quadrant: moare
+    - flag: Product-oriented ML pods with embedded data scientists - modern ML stack
+        (Python, Pydantic, Evidently, 20+ data roles, tens of models in production)
+      impact: Aligns with tool_building and systems_thinking strengths. Embedded data
+        scientists avoid central ML team bottlenecks
+      confidence: High - Evidently AI case study (2023)
+      task_implications:
+      - task: Design and deploy ML models for cash flow prediction, fraud detection,
+          NLP transaction categorization in product pods
+        time_estimate_pct: 25%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: low
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_glue_work: false
+          uses_infrastructure_automation: true
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: moderate
+        notes: Embedded pod structure provides aligned_collaboration generator. Clear
+          ownership eliminates authority_ambiguity drain
+        energy_matrix_quadrant: moare
+    - flag: Strong product-market fit - 80%+ customer retention, 94% satisfaction,
+        4.8/5 TrustPilot, deployed $5B to 5,000+ brands, 23% eCommerce market share
+      impact: Clear value proposition reduces misalignment. High retention indicates
+        solving real problems
+      confidence: High - Multiple sources (TrustPilot 2025, New Frontier Funding 2024)
+      task_implications:
+      - task: Build infrastructure for transparent pricing and automated repayment
+          systems (12-18% daily sales repayment)
+        time_estimate_pct: 20%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: moderate
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_glue_work: false
+          uses_infrastructure_automation: true
+          uses_decision_frameworks: true
+          collaboration_type: team
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: moderate
+        notes: Strong PMF provides aligned_collaboration and visible_progress generators.
+          Building fintech payment systems uses core strengths
+        energy_matrix_quadrant: moare
+    - flag: Modern tech stack - TypeScript/React frontend, Python/Django backend,
+        PostgreSQL, Redis, Docker, CI/CD, Playwright/Vitest testing
+      impact: Standard modern stack enables tool_building and infrastructure_automation
+        work
+      confidence: High - Speedinvest Job Board (2024)
+      task_implications:
+      - task: Build full-stack features and API infrastructure with TypeScript React
+          + Python Django REST APIs
+        time_estimate_pct: 15%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: low
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_glue_work: false
+          uses_infrastructure_automation: true
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: moderate
+        notes: Modern stack familiar to profile. Full-stack TypeScript/Python work
+          uses tool_building and systems_thinking strengths
+        energy_matrix_quadrant: moare
+    strong_positives:
+    - flag: Agile development with cross-functional teams (engineers, PMs, designers,
+        data scientists)
+      impact: Enables fast iteration and clear decision frameworks
+      confidence: High - Speedinvest, The Org (2024-2025)
+      task_implications:
+      - task: Collaborate in cross-functional pods on feature development with clear
+          ownership
+        time_estimate_pct: 10%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: moderate
+          decision_speed: fast
+          learning_required: none
+          uses_systems_thinking: true
+          uses_tool_building: false
+          uses_glue_work: true
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: true
+          collaboration_type: team
+          meeting_intensity: moderate
+          requires_sync_communication: true
+          timezone_spread: narrow
+        notes: Cross-functional work uses glue_work strength. Clear pod structure
+          prevents misalignment drain
+        energy_matrix_quadrant: moare
+    - flag: Agile development with cross-functional teams (engineers, PMs, designers,
+        data scientists)
+      impact: Enables fast iteration and clear decision frameworks
+      confidence: High - Speedinvest, The Org (2024-2025)
+      task_implications:
+      - task: Collaborate in cross-functional pods on feature development with clear
+          ownership
+        time_estimate_pct: 10%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: moderate
+          decision_speed: fast
+          learning_required: none
+          uses_systems_thinking: true
+          uses_tool_building: false
+          uses_glue_work: true
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: true
+          collaboration_type: team
+          meeting_intensity: moderate
+          requires_sync_communication: true
+          timezone_spread: narrow
+        notes: Cross-functional work uses glue_work strength. Clear pod structure
+          prevents misalignment drain
+        energy_matrix_quadrant: moare
+  chosen_peak:
+    critical_matches: []
+    strong_positives: []
+  rope_team_confidence:
+    critical_matches: []
+    strong_positives: []
+  daily_climb:
+    critical_matches: []
+    strong_positives: []
+  story_worth_telling:
+    critical_matches: []
+    strong_positives: []
+red_flags:
+  mountain_range:
+    dealbreakers: []
+    concerning:
+    - flag: Recent major layoff - 40% workforce reduction (200 employees) in Nov 2022,
+        from ~500 to ~300
+      impact: Creates interpersonal_conflict exposure and potential authority_ambiguity
+        as team restructures. Stabilized since but trauma may linger
+      confidence: High - Multiple sources (Irish Times, Silicon Republic, Sifted Nov
+        2022)
+      task_implications:
+      - task: Navigate post-layoff organizational dynamics and potential survivor
+          guilt
+        time_estimate_pct: 10%
+        characteristics:
+          conflict_exposure: moderate
+          alignment_clarity: moderate
+          authority_ambiguity: moderate
+          progress_visibility: moderate
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: none
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: true
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: moderate
+          requires_sync_communication: true
+          timezone_spread: narrow
+        notes: Layoff in Nov 2022 (2+ years ago, stabilized) but may create latent
+          interpersonal_conflict and authority_ambiguity drains as profile is sensitive
+          to these
+        energy_matrix_quadrant: sparingly
+    - flag: Work-life balance concerns - Glassdoor shows 3.4/5 rating for work-life
+        balance, Growth Capital Associates rate only 2.9/5 with 32% recommendation
+      impact: Fast-paced fintech pressure may conflict with energy sustainability
+        needs
+      confidence: Medium - Glassdoor reviews (2023-2025)
+      task_implications:
+      - task: Manage expectations around fast-paced fintech workload and overtime
+          expectations
+        time_estimate_pct: 15%
+        characteristics:
+          conflict_exposure: moderate
+          alignment_clarity: moderate
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: moderate
+          decision_speed: fast
+          learning_required: none
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: false
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: solo
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: co_located
+        notes: Work-life balance issues don't directly trigger profile drains but
+          reduce time for energy_generators like tool_building outside work
+        energy_matrix_quadrant: burnout
+    - flag: Co-founder departure - Jack Pierse left July 2023 to launch HappyStack,
+        potential leadership instability signal
+      impact: Founder departure can create alignment_clarity concerns if vision shifts
+      confidence: High - Irish Times, Silicon Republic (July 2023)
+      task_implications:
+      - task: Monitor for potential strategic direction changes post co-founder departure
+        time_estimate_pct: 5%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: moderate
+          authority_ambiguity: low
+          progress_visibility: moderate
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: none
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: false
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: solo
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: co_located
+        notes: Co-founder departure in July 2023 (1.5 years ago). CEO Aidan Corbett
+          remains, but could trigger misalignment concerns if vision diverges
+        energy_matrix_quadrant: burnout
+    - flag: Management issues noted in Glassdoor - 'nepotism concerns', 'frequent
+        strategy changes', 'disconnected management'
+      impact: Creates authority_ambiguity and misalignment drains. Pattern similar
+        to CircleCI red flags
+      confidence: Medium - Glassdoor reviews (2023-2025)
+      task_implications:
+      - task: Navigate unclear reporting structures and frequent strategic pivots
+        time_estimate_pct: 10%
+        characteristics:
+          conflict_exposure: moderate
+          alignment_clarity: low
+          authority_ambiguity: high
+          progress_visibility: moderate
+          autonomy_level: moderate
+          decision_speed: slow
+          learning_required: none
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: true
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: true
+          collaboration_type: cross_team
+          meeting_intensity: high
+          requires_sync_communication: true
+          timezone_spread: moderate
+        notes: Management concerns directly trigger authority_ambiguity (moderate
+          drain) and misalignment (severe drain) from profile. Frequent strategy changes
+          prevent aligned_collaboration
+        energy_matrix_quadrant: sparingly
+    - flag: Limited technical visibility - no engineering blog, minimal open source
+        (2 reference repos), no conference talks found
+      impact: Suggests less investment in external technical brand, but doesn't directly
+        impact daily work
+      confidence: High - GitHub, blog analysis (2025)
+      task_implications:
+      - task: Advocate for engineering blog or open source contributions if external
+          visibility matters
+        time_estimate_pct: 5%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: moderate
+          authority_ambiguity: moderate
+          progress_visibility: low
+          autonomy_level: moderate
+          decision_speed: slow
+          learning_required: moderate
+          uses_systems_thinking: false
+          uses_tool_building: true
+          uses_glue_work: true
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: cross_team
+          meeting_intensity: moderate
+          requires_sync_communication: true
+          timezone_spread: moderate
+        notes: Low external visibility is neutral for profile but could affect story_worth_telling.
+          Building internal tooling culture could compensate
+        energy_matrix_quadrant: moare
+    - flag: Failed acquisition - Peblo acquired May 2022 for €10M, shut down Nov 2023
+        with <15 job losses
+      impact: Indicates potential misalignment or strategic uncertainty around adjacencies
+      confidence: High - Irish Times (Nov 2023)
+      task_implications:
+      - task: Assess risk of working on experimental product lines that may be shut
+          down
+        time_estimate_pct: 5%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: moderate
+          authority_ambiguity: low
+          progress_visibility: moderate
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: none
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: false
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: solo
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: co_located
+        notes: Failed acquisition suggests some strategic misalignment, but core business
+          remains focused. Low impact if working on core product
+        energy_matrix_quadrant: burnout
+    - flag: Recent major layoff - 40% workforce reduction (200 employees) in Nov 2022,
+        from ~500 to ~300
+      impact: Creates interpersonal_conflict exposure and potential authority_ambiguity
+        as team restructures. Stabilized since but trauma may linger
+      confidence: High - Multiple sources (Irish Times, Silicon Republic, Sifted Nov
+        2022)
+      task_implications:
+      - task: Navigate post-layoff organizational dynamics and potential survivor
+          guilt
+        time_estimate_pct: 10%
+        characteristics:
+          conflict_exposure: moderate
+          alignment_clarity: moderate
+          authority_ambiguity: moderate
+          progress_visibility: moderate
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: none
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: true
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: moderate
+          requires_sync_communication: true
+          timezone_spread: narrow
+        notes: Layoff in Nov 2022 (2+ years ago, stabilized) but may create latent
+          interpersonal_conflict and authority_ambiguity drains as profile is sensitive
+          to these
+        energy_matrix_quadrant: sparingly
+    - flag: Work-life balance concerns - Glassdoor shows 3.4/5 rating for work-life
+        balance, Growth Capital Associates rate only 2.9/5 with 32% recommendation
+      impact: Fast-paced fintech pressure may conflict with energy sustainability
+        needs
+      confidence: Medium - Glassdoor reviews (2023-2025)
+      task_implications:
+      - task: Manage expectations around fast-paced fintech workload and overtime
+          expectations
+        time_estimate_pct: 15%
+        characteristics:
+          conflict_exposure: moderate
+          alignment_clarity: moderate
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: moderate
+          decision_speed: fast
+          learning_required: none
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: false
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: solo
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: co_located
+        notes: Work-life balance issues don't directly trigger profile drains but
+          reduce time for energy_generators like tool_building outside work
+        energy_matrix_quadrant: burnout
+    - flag: Co-founder departure - Jack Pierse left July 2023 to launch HappyStack,
+        potential leadership instability signal
+      impact: Founder departure can create alignment_clarity concerns if vision shifts
+      confidence: High - Irish Times, Silicon Republic (July 2023)
+      task_implications:
+      - task: Monitor for potential strategic direction changes post co-founder departure
+        time_estimate_pct: 5%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: moderate
+          authority_ambiguity: low
+          progress_visibility: moderate
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: none
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: false
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: solo
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: co_located
+        notes: Co-founder departure in July 2023 (1.5 years ago). CEO Aidan Corbett
+          remains, but could trigger misalignment concerns if vision diverges
+        energy_matrix_quadrant: burnout
+    - flag: Management issues noted in Glassdoor - 'nepotism concerns', 'frequent
+        strategy changes', 'disconnected management'
+      impact: Creates authority_ambiguity and misalignment drains. Pattern similar
+        to CircleCI red flags
+      confidence: Medium - Glassdoor reviews (2023-2025)
+      task_implications:
+      - task: Navigate unclear reporting structures and frequent strategic pivots
+        time_estimate_pct: 10%
+        characteristics:
+          conflict_exposure: moderate
+          alignment_clarity: low
+          authority_ambiguity: high
+          progress_visibility: moderate
+          autonomy_level: moderate
+          decision_speed: slow
+          learning_required: none
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: true
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: true
+          collaboration_type: cross_team
+          meeting_intensity: high
+          requires_sync_communication: true
+          timezone_spread: moderate
+        notes: Management concerns directly trigger authority_ambiguity (moderate
+          drain) and misalignment (severe drain) from profile. Frequent strategy changes
+          prevent aligned_collaboration
+        energy_matrix_quadrant: sparingly
+    - flag: Limited technical visibility - no engineering blog, minimal open source
+        (2 reference repos), no conference talks found
+      impact: Suggests less investment in external technical brand, but doesn't directly
+        impact daily work
+      confidence: High - GitHub, blog analysis (2025)
+      task_implications:
+      - task: Advocate for engineering blog or open source contributions if external
+          visibility matters
+        time_estimate_pct: 5%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: moderate
+          authority_ambiguity: moderate
+          progress_visibility: low
+          autonomy_level: moderate
+          decision_speed: slow
+          learning_required: moderate
+          uses_systems_thinking: false
+          uses_tool_building: true
+          uses_glue_work: true
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: cross_team
+          meeting_intensity: moderate
+          requires_sync_communication: true
+          timezone_spread: moderate
+        notes: Low external visibility is neutral for profile but could affect story_worth_telling.
+          Building internal tooling culture could compensate
+        energy_matrix_quadrant: moare
+    - flag: Failed acquisition - Peblo acquired May 2022 for €10M, shut down Nov 2023
+        with <15 job losses
+      impact: Indicates potential misalignment or strategic uncertainty around adjacencies
+      confidence: High - Irish Times (Nov 2023)
+      task_implications:
+      - task: Assess risk of working on experimental product lines that may be shut
+          down
+        time_estimate_pct: 5%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: moderate
+          authority_ambiguity: low
+          progress_visibility: moderate
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: none
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: false
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: solo
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: co_located
+        notes: Failed acquisition suggests some strategic misalignment, but core business
+          remains focused. Low impact if working on core product
+        energy_matrix_quadrant: burnout
+  chosen_peak:
+    dealbreakers: []
+    concerning: []
+  rope_team_confidence:
+    dealbreakers: []
+    concerning: []
+  daily_climb:
+    dealbreakers: []
+    concerning: []
+  story_worth_telling:
+    dealbreakers: []
+    concerning: []
+missing_critical_data: []
+profile_version_used: '1.0'
+company_slug: wayflyer
+synthesis:
+  energy_matrix_analysis:
+    profile_version_used: '1.0'
+    predicted_daily_distribution:
+      moare_green_flags:
+        percentage: 70.0
+        tasks_count: 12
+      sparingly_yellow_flags:
+        percentage: 13.3
+        tasks_count: 4
+      burnout_red_flags:
+        percentage: 16.7
+        tasks_count: 6
+      help_mentoring_yellow_flags:
+        percentage: 0.0
+        tasks_count: 0
+    threshold_analysis:
+      meets_green_minimum: true
+      exceeds_red_maximum: false
+      exceeds_yellow_maximum: false
+    energy_sustainability: HIGH
+    key_insights: []
+    decision_factors: []

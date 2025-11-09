@@ -1,0 +1,70 @@
+{
+  "batch_number": 4,
+  "total_batches": 4,
+  "companies_in_batch": 9,
+  "companies": [
+    {
+      "name": "supabase",
+      "stage": "stage-1",
+      "company_dir": "data/stage-1/supabase",
+      "flags_path": "data/stage-1/supabase/company.flags.yaml",
+      "facts_path": "data/stage-1/supabase/company.facts.yaml"
+    },
+    {
+      "name": "tipalti",
+      "stage": "stage-1",
+      "company_dir": "data/stage-1/tipalti",
+      "flags_path": "data/stage-1/tipalti/company.flags.yaml",
+      "facts_path": "data/stage-1/tipalti/company.facts.yaml"
+    },
+    {
+      "name": "toast-inc",
+      "stage": "stage-1",
+      "company_dir": "data/stage-1/toast-inc",
+      "flags_path": "data/stage-1/toast-inc/company.flags.yaml",
+      "facts_path": "data/stage-1/toast-inc/company.facts.yaml"
+    },
+    {
+      "name": "waymo",
+      "stage": "stage-1",
+      "company_dir": "data/stage-1/waymo",
+      "flags_path": "data/stage-1/waymo/company.flags.yaml",
+      "facts_path": "data/stage-1/waymo/company.facts.yaml"
+    },
+    {
+      "name": "wayve",
+      "stage": "stage-1",
+      "company_dir": "data/stage-1/wayve",
+      "flags_path": "data/stage-1/wayve/company.flags.yaml",
+      "facts_path": "data/stage-1/wayve/company.facts.yaml"
+    },
+    {
+      "name": "apple",
+      "stage": "stage-2",
+      "company_dir": "data/stage-2/apple",
+      "flags_path": "data/stage-2/apple/company.flags.yaml",
+      "facts_path": "data/stage-2/apple/company.facts.yaml"
+    },
+    {
+      "name": "chronosphere",
+      "stage": "stage-2",
+      "company_dir": "data/stage-2/chronosphere",
+      "flags_path": "data/stage-2/chronosphere/company.flags.yaml",
+      "facts_path": "data/stage-2/chronosphere/company.facts.yaml"
+    },
+    {
+      "name": "grafana",
+      "stage": "stage-2",
+      "company_dir": "data/stage-2/grafana",
+      "flags_path": "data/stage-2/grafana/company.flags.yaml",
+      "facts_path": "data/stage-2/grafana/company.facts.yaml"
+    },
+    {
+      "name": "workday",
+      "stage": "stage-2",
+      "company_dir": "data/stage-2/workday",
+      "flags_path": "data/stage-2/workday/company.flags.yaml",
+      "facts_path": "data/stage-2/workday/company.facts.yaml"
+    }
+  ]
+}

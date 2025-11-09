@@ -1,0 +1,733 @@
+company: grafana
+evaluation_date: '2025-11-09'
+evaluator_context: Extracted from conversation notes
+green_flags:
+  mountain_range:
+    critical_matches:
+    - flag: 'Exceptional revenue growth: $250M ARR (Aug 2024) to $400M ARR (Sep 2025)
+        in 13 months = 60% YoY growth'
+      impact: Financial stability and runway provide predictable environment for long-term
+        technical work
+      confidence: High - explicit in press releases
+      task_implications:
+      - task: Build production features with 12-18 month horizons without funding
+          panic
+        time_estimate_pct: 30-35%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: low
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_glue_work: false
+          uses_infrastructure_automation: true
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: moderate
+        notes: Core feature development in stable environment
+        energy_matrix_quadrant: moare
+    - flag: 'Strong market position: Named Leader in 2025 Gartner Magic Quadrant for
+        Observability Platforms, positioned furthest in Completeness of Vision'
+      impact: Company solving real problems with clear product-market fit, work has
+        external validation and impact
+      confidence: High - explicit third-party validation
+      task_implications:
+      - task: Respond to customer-driven feature requests from established user base
+          (7,000+ customers)
+        time_estimate_pct: 15-20%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: moderate
+          uses_systems_thinking: true
+          uses_tool_building: false
+          uses_glue_work: true
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: cross_team
+          meeting_intensity: moderate
+          requires_sync_communication: true
+          timezone_spread: moderate
+        notes: Customer feedback loop requires coordination
+        energy_matrix_quadrant: moare
+    - flag: 'Massive open source community: 25M+ users of open source Grafana globally,
+        67,000+ GitHub stars, top 50 global organizations by GitHub stars'
+      impact: Resume value and technical credibility, work impacts millions of engineers
+        globally
+      confidence: High - explicit metrics
+      task_implications:
+      - task: Maintain and improve open source Grafana codebase with global community
+          engagement
+        time_estimate_pct: 10-15%
+        characteristics:
+          conflict_exposure: moderate
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: moderate
+          learning_required: low
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_glue_work: true
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: cross_team
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: wide
+        notes: Community engagement requires conflict navigation but async-friendly
+        energy_matrix_quadrant: moare
+    - flag: 'Exceptional revenue growth: $250M ARR (Aug 2024) to $400M ARR (Sep 2025)
+        in 13 months = 60% YoY growth'
+      impact: Financial stability and runway provide predictable environment for long-term
+        technical work
+      confidence: High - explicit in press releases
+      task_implications:
+      - task: Build production features with 12-18 month horizons without funding
+          panic
+        time_estimate_pct: 30-35%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: low
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_glue_work: false
+          uses_infrastructure_automation: true
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: moderate
+        notes: Core feature development in stable environment
+        energy_matrix_quadrant: moare
+    - flag: 'Strong market position: Named Leader in 2025 Gartner Magic Quadrant for
+        Observability Platforms, positioned furthest in Completeness of Vision'
+      impact: Company solving real problems with clear product-market fit, work has
+        external validation and impact
+      confidence: High - explicit third-party validation
+      task_implications:
+      - task: Respond to customer-driven feature requests from established user base
+          (7,000+ customers)
+        time_estimate_pct: 15-20%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: moderate
+          uses_systems_thinking: true
+          uses_tool_building: false
+          uses_glue_work: true
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: cross_team
+          meeting_intensity: moderate
+          requires_sync_communication: true
+          timezone_spread: moderate
+        notes: Customer feedback loop requires coordination
+        energy_matrix_quadrant: moare
+    - flag: 'Massive open source community: 25M+ users of open source Grafana globally,
+        67,000+ GitHub stars, top 50 global organizations by GitHub stars'
+      impact: Resume value and technical credibility, work impacts millions of engineers
+        globally
+      confidence: High - explicit metrics
+      task_implications:
+      - task: Maintain and improve open source Grafana codebase with global community
+          engagement
+        time_estimate_pct: 10-15%
+        characteristics:
+          conflict_exposure: moderate
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: moderate
+          learning_required: low
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_glue_work: true
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: cross_team
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: wide
+        notes: Community engagement requires conflict navigation but async-friendly
+        energy_matrix_quadrant: moare
+    strong_positives:
+    - flag: 'Blue-chip customer base: Anthropic, NVIDIA, Salesforce, Microsoft, Bloomberg,
+        Citigroup, Dell Technologies'
+      impact: Work on interesting scale problems, resume credibility
+      confidence: High - explicit in press releases
+      task_implications: []
+    - flag: 'Consistent market recognition: #13 on 2025 Forbes Cloud 100 list, fifth
+        consecutive year on the list'
+      impact: Industry validation of company trajectory and technical reputation
+      confidence: High - third-party recognition
+      task_implications: []
+    - flag: 'Blue-chip customer base: Anthropic, NVIDIA, Salesforce, Microsoft, Bloomberg,
+        Citigroup, Dell Technologies'
+      impact: Work on interesting scale problems, resume credibility
+      confidence: High - explicit in press releases
+      task_implications: []
+    - flag: 'Consistent market recognition: #13 on 2025 Forbes Cloud 100 list, fifth
+        consecutive year on the list'
+      impact: Industry validation of company trajectory and technical reputation
+      confidence: High - third-party recognition
+      task_implications: []
+  chosen_peak:
+    critical_matches:
+    - flag: 'Modern tech stack: Go for backend, TypeScript/React for frontend, Kubernetes
+        for orchestration'
+      impact: Matches infrastructure expertise (systems_thinking, tool_building, infrastructure_automation),
+        modern practices
+      confidence: High - explicit in job postings and GitHub
+      task_implications:
+      - task: Design and implement backend services in Go with K8s deployment
+        time_estimate_pct: 20-25%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: low
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_glue_work: false
+          uses_infrastructure_automation: true
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: narrow
+        notes: Core strength area with minimal coordination overhead
+        energy_matrix_quadrant: moare
+    - flag: 'Strong open source culture: #1 contributor to Prometheus, Top 10 contributor
+        to OpenTelemetry, employees as maintainers on governing boards'
+      impact: Work in the open, learn from best-in-class observability engineers,
+        contribute to industry standards
+      confidence: High - explicit company blog statements
+      task_implications:
+      - task: Contribute to Prometheus/OpenTelemetry upstream projects alongside internal
+          work
+        time_estimate_pct: 10-15%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: moderate
+          learning_required: moderate
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_glue_work: true
+          uses_infrastructure_automation: true
+          uses_decision_frameworks: false
+          collaboration_type: cross_team
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: wide
+        notes: Upstream contribution provides industry impact and learning
+        energy_matrix_quadrant: moare
+    - flag: 'High deployment velocity: 20x per day production deploys with emphasis
+        on no regressions and test coverage'
+      impact: Fast feedback cycles, strong engineering practices, minimal deployment
+        ceremony
+      confidence: High - employee interviews and Datadog metrics
+      task_implications: []
+    - flag: 'AI/LLM tooling provided: GitHub Copilot and ChatGPT Enterprise available
+        to engineers'
+      impact: Company invests in developer productivity, aligns with AI-augmented
+        workflow growth area
+      confidence: High - employee interviews
+      task_implications: []
+    - flag: 'Modern tech stack: Go for backend, TypeScript/React for frontend, Kubernetes
+        for orchestration'
+      impact: Matches infrastructure expertise (systems_thinking, tool_building, infrastructure_automation),
+        modern practices
+      confidence: High - explicit in job postings and GitHub
+      task_implications:
+      - task: Design and implement backend services in Go with K8s deployment
+        time_estimate_pct: 20-25%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: low
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_glue_work: false
+          uses_infrastructure_automation: true
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: narrow
+        notes: Core strength area with minimal coordination overhead
+        energy_matrix_quadrant: moare
+    - flag: 'Strong open source culture: #1 contributor to Prometheus, Top 10 contributor
+        to OpenTelemetry, employees as maintainers on governing boards'
+      impact: Work in the open, learn from best-in-class observability engineers,
+        contribute to industry standards
+      confidence: High - explicit company blog statements
+      task_implications:
+      - task: Contribute to Prometheus/OpenTelemetry upstream projects alongside internal
+          work
+        time_estimate_pct: 10-15%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: moderate
+          learning_required: moderate
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_glue_work: true
+          uses_infrastructure_automation: true
+          uses_decision_frameworks: false
+          collaboration_type: cross_team
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: wide
+        notes: Upstream contribution provides industry impact and learning
+        energy_matrix_quadrant: moare
+    - flag: 'High deployment velocity: 20x per day production deploys with emphasis
+        on no regressions and test coverage'
+      impact: Fast feedback cycles, strong engineering practices, minimal deployment
+        ceremony
+      confidence: High - employee interviews and Datadog metrics
+      task_implications: []
+    - flag: 'AI/LLM tooling provided: GitHub Copilot and ChatGPT Enterprise available
+        to engineers'
+      impact: Company invests in developer productivity, aligns with AI-augmented
+        workflow growth area
+      confidence: High - employee interviews
+      task_implications: []
+    strong_positives:
+    - flag: All code requires review before merge with emphasis on reasonable test
+        coverage
+      impact: Quality bar maintained, knowledge sharing, regression prevention
+      confidence: High - GitHub documentation
+      task_implications: []
+    - flag: Pair programming heavily used especially during onboarding
+      impact: Fast context transfer, reduced isolation, collaborative culture
+      confidence: High - company blog
+      task_implications: []
+    - flag: Regular company-wide hackathons producing real features (Grafana Incident
+        chatbot, Explore Metrics)
+      impact: Innovation time, creative outlet, bottom-up feature development
+      confidence: High - company blog examples
+      task_implications: []
+    - flag: All code requires review before merge with emphasis on reasonable test
+        coverage
+      impact: Quality bar maintained, knowledge sharing, regression prevention
+      confidence: High - GitHub documentation
+      task_implications: []
+    - flag: Pair programming heavily used especially during onboarding
+      impact: Fast context transfer, reduced isolation, collaborative culture
+      confidence: High - company blog
+      task_implications: []
+    - flag: Regular company-wide hackathons producing real features (Grafana Incident
+        chatbot, Explore Metrics)
+      impact: Innovation time, creative outlet, bottom-up feature development
+      confidence: High - company blog examples
+      task_implications: []
+  rope_team_confidence:
+    critical_matches:
+    - flag: 'Founder-led stability: Raj Dutt CEO and Co-Founder with technical background
+        since inception'
+      impact: Long-term vision continuity, technical credibility at leadership level,
+        no founder churn
+      confidence: High - multiple sources
+      task_implications: []
+    - flag: 'Remote-first for 10+ years: 100% remote across 40+ countries, founded
+        from three continents'
+      impact: Mature async practices expected, timezone flexibility built into culture,
+        not pandemic pivot
+      confidence: High - company history and employee reviews
+      task_implications:
+      - task: Coordinate across timezones using async-first communication patterns
+        time_estimate_pct: 10-15%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: moderate
+          autonomy_level: high
+          decision_speed: moderate
+          learning_required: low
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: true
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: true
+          collaboration_type: cross_team
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: wide
+        notes: Matches profile need for async_first_culture in uncertain problem spaces
+        energy_matrix_quadrant: sparingly
+    - flag: 'Founder-led stability: Raj Dutt CEO and Co-Founder with technical background
+        since inception'
+      impact: Long-term vision continuity, technical credibility at leadership level,
+        no founder churn
+      confidence: High - multiple sources
+      task_implications: []
+    - flag: 'Remote-first for 10+ years: 100% remote across 40+ countries, founded
+        from three continents'
+      impact: Mature async practices expected, timezone flexibility built into culture,
+        not pandemic pivot
+      confidence: High - company history and employee reviews
+      task_implications:
+      - task: Coordinate across timezones using async-first communication patterns
+        time_estimate_pct: 10-15%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: moderate
+          autonomy_level: high
+          decision_speed: moderate
+          learning_required: low
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: true
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: true
+          collaboration_type: cross_team
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: wide
+        notes: Matches profile need for async_first_culture in uncertain problem spaces
+        energy_matrix_quadrant: sparingly
+    strong_positives:
+    - flag: Major reorganization in 2020 from project focus to product focus with
+        successful execution
+      impact: Company has demonstrated realignment ability when needed
+      confidence: High - company announcement
+      task_implications: []
+    - flag: 'High engineer satisfaction: Software Engineer professionals rate 5.0/5
+        on Glassdoor (18 reviews), overall 4.1/5 with 82% recommend to friend'
+      impact: Engineers are happy, culture is healthy, retention likely good
+      confidence: High - Glassdoor ratings
+      task_implications: []
+    - flag: Major reorganization in 2020 from project focus to product focus with
+        successful execution
+      impact: Company has demonstrated realignment ability when needed
+      confidence: High - company announcement
+      task_implications: []
+    - flag: 'High engineer satisfaction: Software Engineer professionals rate 5.0/5
+        on Glassdoor (18 reviews), overall 4.1/5 with 82% recommend to friend'
+      impact: Engineers are happy, culture is healthy, retention likely good
+      confidence: High - Glassdoor ratings
+      task_implications: []
+  daily_climb:
+    critical_matches:
+    - flag: 'Protected maker time: 2-5pm daily protected blocks per calendar policy,
+        4 hours meetings per week average'
+      impact: 20% meeting load matches ideal profile preference, deep work time protected
+        institutionally
+      confidence: High - employee interviews and calendar screenshots
+      task_implications:
+      - task: Attend coordination meetings and sprint ceremonies
+        time_estimate_pct: 15-20%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: moderate
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: none
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: true
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: low
+          requires_sync_communication: true
+          timezone_spread: moderate
+        notes: Well within tolerable range, protected maker time respected
+        energy_matrix_quadrant: moare
+    - flag: 'Protected maker time: 2-5pm daily protected blocks per calendar policy,
+        4 hours meetings per week average'
+      impact: 20% meeting load matches ideal profile preference, deep work time protected
+        institutionally
+      confidence: High - employee interviews and calendar screenshots
+      task_implications:
+      - task: Attend coordination meetings and sprint ceremonies
+        time_estimate_pct: 15-20%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: moderate
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: none
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: true
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: low
+          requires_sync_communication: true
+          timezone_spread: moderate
+        notes: Well within tolerable range, protected maker time respected
+        energy_matrix_quadrant: moare
+    strong_positives:
+    - flag: 100% remote with 40+ countries represented, no office requirement
+      impact: Geographic flexibility, no commute, work from anywhere
+      confidence: High - careers page
+      task_implications: []
+    - flag: 100% remote with 40+ countries represented, no office requirement
+      impact: Geographic flexibility, no commute, work from anywhere
+      confidence: High - careers page
+      task_implications: []
+  story_worth_telling:
+    critical_matches:
+    - flag: 'Working on observability at massive scale: customers processing 12M metrics/hour
+        and 2TB logs/day'
+      impact: Interesting technical challenges at scale, systems thinking opportunities,
+        resume credibility
+      confidence: High - Gartner review
+      task_implications: []
+    - flag: 'Industry-leading position in observability: Gartner Leader, furthest
+        in Completeness of Vision'
+      impact: Work on cutting-edge observability problems, shape industry direction,
+        high resume value
+      confidence: High - Gartner Magic Quadrant
+      task_implications: []
+    - flag: 'Working on observability at massive scale: customers processing 12M metrics/hour
+        and 2TB logs/day'
+      impact: Interesting technical challenges at scale, systems thinking opportunities,
+        resume credibility
+      confidence: High - Gartner review
+      task_implications: []
+    - flag: 'Industry-leading position in observability: Gartner Leader, furthest
+        in Completeness of Vision'
+      impact: Work on cutting-edge observability problems, shape industry direction,
+        high resume value
+      confidence: High - Gartner Magic Quadrant
+      task_implications: []
+    strong_positives:
+    - flag: 'High-profile customers: SpaceX, Wimbledon, Tour de France monitoring
+        critical infrastructure'
+      impact: Work has real-world impact, interesting use cases, compelling stories
+      confidence: High - multiple sources
+      task_implications: []
+    - flag: 'Growing engineering organization: 1,400+ team members with 18% YoY growth
+        rate'
+      impact: Career growth opportunities, expanding scope, new leadership roles emerging
+      confidence: High - press releases and third-party data
+      task_implications: []
+    - flag: 'High-profile customers: SpaceX, Wimbledon, Tour de France monitoring
+        critical infrastructure'
+      impact: Work has real-world impact, interesting use cases, compelling stories
+      confidence: High - multiple sources
+      task_implications: []
+    - flag: 'Growing engineering organization: 1,400+ team members with 18% YoY growth
+        rate'
+      impact: Career growth opportunities, expanding scope, new leadership roles emerging
+      confidence: High - press releases and third-party data
+      task_implications: []
+red_flags:
+  mountain_range:
+    dealbreakers: []
+    concerning: []
+  chosen_peak:
+    dealbreakers: []
+    concerning: []
+  rope_team_confidence:
+    dealbreakers: []
+    concerning:
+    - flag: One anecdotal Glassdoor review (June 2024) alleges 'silent layoffs' via
+        performance terminations
+      impact: Could indicate financial pressure or management issues not publicly
+        disclosed, creates anxiety
+      confidence: Low - single anonymous report, not corroborated
+      task_implications:
+      - task: Monitor for layoff signals and maintain external network/job search
+          readiness
+        time_estimate_pct: 5%
+        characteristics:
+          conflict_exposure: moderate
+          alignment_clarity: low
+          authority_ambiguity: high
+          progress_visibility: low
+          autonomy_level: low
+          decision_speed: slow
+          learning_required: none
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: false
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: solo
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: co_located
+        notes: Low confidence flag, minimal time allocation unless confirmed
+        energy_matrix_quadrant: burnout
+    - flag: One anecdotal Glassdoor review (June 2024) alleges 'silent layoffs' via
+        performance terminations
+      impact: Could indicate financial pressure or management issues not publicly
+        disclosed, creates anxiety
+      confidence: Low - single anonymous report, not corroborated
+      task_implications:
+      - task: Monitor for layoff signals and maintain external network/job search
+          readiness
+        time_estimate_pct: 5%
+        characteristics:
+          conflict_exposure: moderate
+          alignment_clarity: low
+          authority_ambiguity: high
+          progress_visibility: low
+          autonomy_level: low
+          decision_speed: slow
+          learning_required: none
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: false
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: solo
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: co_located
+        notes: Low confidence flag, minimal time allocation unless confirmed
+        energy_matrix_quadrant: burnout
+  daily_climb:
+    dealbreakers: []
+    concerning: []
+  story_worth_telling:
+    dealbreakers: []
+    concerning: []
+missing_critical_data:
+- question: What is current profitability status and burn rate?
+  why_important: While revenue growth is strong, profitability and runway determine
+    long-term stability
+  how_to_find: Ask insiders in finance or executive roles about path to profitability,
+    current margins, burn multiple
+  mountain_element: mountain_range
+- question: What is the actual annual turnover rate and median employee tenure?
+  why_important: Retention metrics indicate cultural health and stability beyond Glassdoor
+    ratings
+  how_to_find: Ask insiders in engineering or HR about attrition rates, tenure distribution,
+    exit patterns
+  mountain_element: rope_team_confidence
+- question: What is the team coordination style and realignment ability?
+  why_important: Need to understand if team style (alpine/expedition/established/orienteering/trail
+    crew) matches uncertain observability terrain, and if team can adapt as conditions
+    change
+  how_to_find: Ask insiders about decision authority, communication patterns, recent
+    pivots, team autonomy levels, shared context mechanisms
+  mountain_element: chosen_peak
+- question: What is typical on-call rotation frequency and incident load?
+  why_important: On-call burden impacts work-life balance and burnout risk in observability
+    space
+  how_to_find: Ask engineers about on-call schedule, typical incident volume, escalation
+    patterns, incident response time
+  mountain_element: daily_climb
+- question: What is compensation range for staff engineer level?
+  why_important: Below-market compensation adds defensive overhead, impacts financial
+    anxiety drain
+  how_to_find: Ask insiders about salary bands, equity packages, refresh cadence,
+    compare to Levels.fyi data
+  mountain_element: daily_climb
+- question: What is the engineering organization structure and reporting chain?
+  why_important: Authority ambiguity and manager quality impact daily experience and
+    decision speed
+  how_to_find: Ask insiders about engineering VP structure, team topology, manager:IC
+    ratios, promotion paths
+  mountain_element: rope_team_confidence
+- question: What is current profitability status and burn rate?
+  why_important: While revenue growth is strong, profitability and runway determine
+    long-term stability
+  how_to_find: Ask insiders in finance or executive roles about path to profitability,
+    current margins, burn multiple
+  mountain_element: mountain_range
+- question: What is the actual annual turnover rate and median employee tenure?
+  why_important: Retention metrics indicate cultural health and stability beyond Glassdoor
+    ratings
+  how_to_find: Ask insiders in engineering or HR about attrition rates, tenure distribution,
+    exit patterns
+  mountain_element: rope_team_confidence
+- question: What is the team coordination style and realignment ability?
+  why_important: Need to understand if team style (alpine/expedition/established/orienteering/trail
+    crew) matches uncertain observability terrain, and if team can adapt as conditions
+    change
+  how_to_find: Ask insiders about decision authority, communication patterns, recent
+    pivots, team autonomy levels, shared context mechanisms
+  mountain_element: chosen_peak
+- question: What is typical on-call rotation frequency and incident load?
+  why_important: On-call burden impacts work-life balance and burnout risk in observability
+    space
+  how_to_find: Ask engineers about on-call schedule, typical incident volume, escalation
+    patterns, incident response time
+  mountain_element: daily_climb
+- question: What is compensation range for staff engineer level?
+  why_important: Below-market compensation adds defensive overhead, impacts financial
+    anxiety drain
+  how_to_find: Ask insiders about salary bands, equity packages, refresh cadence,
+    compare to Levels.fyi data
+  mountain_element: daily_climb
+- question: What is the engineering organization structure and reporting chain?
+  why_important: Authority ambiguity and manager quality impact daily experience and
+    decision speed
+  how_to_find: Ask insiders about engineering VP structure, team topology, manager:IC
+    ratios, promotion paths
+  mountain_element: rope_team_confidence
+profile_version_used: '1.0'
+company_slug: grafana
+synthesis:
+  energy_matrix_analysis:
+    profile_version_used: '1.0'
+    predicted_daily_distribution:
+      moare_green_flags:
+        percentage: 86.8
+        tasks_count: 12
+      sparingly_yellow_flags:
+        percentage: 9.3
+        tasks_count: 2
+      burnout_red_flags:
+        percentage: 3.9
+        tasks_count: 2
+      help_mentoring_yellow_flags:
+        percentage: 0.0
+        tasks_count: 0
+    threshold_analysis:
+      meets_green_minimum: true
+      exceeds_red_maximum: false
+      exceeds_yellow_maximum: false
+    energy_sustainability: HIGH
+    key_insights: []
+    decision_factors: []

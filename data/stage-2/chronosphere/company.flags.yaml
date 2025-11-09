@@ -5,105 +5,617 @@ evaluator_context: Extracted from conversation notes
 green_flags:
   mountain_range:
     critical_matches: &id001
-    - flag: "Strong revenue growth trajectory: $5.1M (2021) \u2192 $42.3M (2024),\
-        \ 78% YoY new business ARR growth"
+    - flag: 'Strong revenue growth trajectory: $5.1M (2021) → $42.3M (2024), 78% YoY
+        new business ARR growth'
       impact: Company has real market traction and isn't just burning VC money - reduces
         risk of running out of runway
       confidence: High - explicit financial statements
+      task_characteristics:
+        conflict_exposure: medium
+        alignment_clarity: medium
+        authority_ambiguity: medium
+        progress_visibility: high
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: cross_team
+        meeting_intensity: low
+        requires_sync_communication: false
+        timezone_spread: wide
+      energy_quadrant: sparingly
+      energy_reasoning: 'Hyper-growth (553% valuation, 300% user growth) creates organizational
+        chaos.
+
+        Triggers misalignment drain (severe) as team scales rapidly from 80 to 127
+        people.
+
+        Exposes to authority_ambiguity drain (moderate) with unclear ownership during
+        scaling.
+
+        Uses glue_work strength (expert) to navigate growth challenges.
+
+        Sparingly quadrant: leverages expertise but at significant energy cost from
+        scaling pains.'
     - flag: Net revenue retention 145%+ with 100% customer retention - customers expanding
         usage
       impact: Product solves real problems people pay more for over time - stable
         foundation
       confidence: High - CEO interview and press releases
+      task_characteristics:
+        conflict_exposure: low
+        alignment_clarity: high
+        authority_ambiguity: low
+        progress_visibility: high
+        autonomy_level: high
+        decision_speed: fast
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: low
+        requires_sync_communication: false
+        timezone_spread: narrow
+      energy_quadrant: moare
+      energy_reasoning: 'Enterprise validation (PwC, McDonald''s, J&J) eliminates
+        financial_anxiety drain (moderate).
+
+        Provides visible_progress generator (core need) through customer growth.
+
+        Uses systems_thinking strength (expert) for enterprise-scale architecture.
+
+        Moare quadrant: leverages core strength while energizing.'
     - flag: 'Blue-chip customer base: DoorDash, Snap, Robinhood, Visa - top 10 serve
         2B end users'
       impact: Real validation from companies with serious observability needs at scale
       confidence: High - public customer lists
+      task_characteristics:
+        conflict_exposure: low
+        alignment_clarity: high
+        authority_ambiguity: low
+        progress_visibility: high
+        autonomy_level: high
+        decision_speed: fast
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: low
+        requires_sync_communication: false
+        timezone_spread: narrow
+      energy_quadrant: moare
+      energy_reasoning: 'Uses core strengths (systems_thinking, tool_building, infrastructure_automation).
+
+        Provides energy generators (visible_progress, aligned_collaboration).
+
+        Avoids major energy drains.
+
+        Moare quadrant: leverages expertise in energizing environment.'
     - flag: Primary language Go, created M3 open-source TSDB (Apache 2.0) at Uber,
         still actively maintained
       impact: Modern tech stack with proven OSS pedigree - not legacy tech or trendy
         garbage
       confidence: High - GitHub repos and engineering blogs
+      task_characteristics:
+        conflict_exposure: low
+        alignment_clarity: high
+        authority_ambiguity: low
+        progress_visibility: high
+        autonomy_level: high
+        decision_speed: fast
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: low
+        requires_sync_communication: false
+        timezone_spread: narrow
+      energy_quadrant: moare
+      energy_reasoning: 'Uses core strengths (systems_thinking, tool_building, infrastructure_automation).
+
+        Provides energy generators (visible_progress, aligned_collaboration).
+
+        Avoids major energy drains.
+
+        Moare quadrant: leverages expertise in energizing environment.'
     - flag: 82+ public GitHub repos, CNCF member, acquired Calyptia/Fluent Bit (15B+
         Docker pulls)
       impact: Serious open source commitment, not just consuming OSS but stewarding
         major projects
       confidence: High - GitHub and CNCF records
+      task_characteristics:
+        conflict_exposure: low
+        alignment_clarity: high
+        authority_ambiguity: low
+        progress_visibility: high
+        autonomy_level: high
+        decision_speed: fast
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: low
+        requires_sync_communication: false
+        timezone_spread: narrow
+      energy_quadrant: moare
+      energy_reasoning: 'Uses core strengths (systems_thinking, tool_building, infrastructure_automation).
+
+        Provides energy generators (visible_progress, aligned_collaboration).
+
+        Avoids major energy drains.
+
+        Moare quadrant: leverages expertise in energizing environment.'
     - flag: Uses Temporal for deployment workflows since 2020, K8s operators for M3DB
       impact: Real engineering sophistication for orchestrating complex distributed
         systems
       confidence: High - engineering blog posts with technical depth
+      task_characteristics:
+        conflict_exposure: low
+        alignment_clarity: high
+        authority_ambiguity: low
+        progress_visibility: high
+        autonomy_level: high
+        decision_speed: fast
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: low
+        requires_sync_communication: false
+        timezone_spread: narrow
+      energy_quadrant: moare
+      energy_reasoning: 'Uses core strengths (systems_thinking, tool_building, infrastructure_automation).
+
+        Provides energy generators (visible_progress, aligned_collaboration).
+
+        Avoids major energy drains.
+
+        Moare quadrant: leverages expertise in energizing environment.'
     - flag: 'Both founders (Mao/Skillington) have deep technical background: created
         M3 at Uber, worked together 4 years'
       impact: Technical founders who understand the problem space deeply - not just
         MBA types
       confidence: High - company bios and historical records
+      task_characteristics:
+        conflict_exposure: low
+        alignment_clarity: high
+        authority_ambiguity: low
+        progress_visibility: high
+        autonomy_level: high
+        decision_speed: fast
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: low
+        requires_sync_communication: false
+        timezone_spread: narrow
+      energy_quadrant: moare
+      energy_reasoning: 'Founder-led with stable leadership eliminates interpersonal_conflict
+        drain (severe from leadership churn).
+
+        Long-term "generational" vision provides aligned_collaboration generator (strong).
+
+        Clear direction avoids misalignment drain (severe).
+
+        Uses decision_frameworks strength (proficient) in stable org structure.
+
+        Moare quadrant: leverages strength in energizing stable environment.'
     - flag: Matt Mihic (Head of Eng) ex-Uber/Okta/Square - built observability orgs
         before
       impact: Engineering leader has done this before at scale, not learning on the
         job
       confidence: High - LinkedIn and company announcements
+      task_characteristics:
+        conflict_exposure: low
+        alignment_clarity: high
+        authority_ambiguity: low
+        progress_visibility: high
+        autonomy_level: high
+        decision_speed: fast
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: low
+        requires_sync_communication: false
+        timezone_spread: narrow
+      energy_quadrant: moare
+      energy_reasoning: 'Uses core strengths (systems_thinking, tool_building, infrastructure_automation).
+
+        Provides energy generators (visible_progress, aligned_collaboration).
+
+        Avoids major energy drains.
+
+        Moare quadrant: leverages expertise in energizing environment.'
     - flag: Working on observability for companies serving 2B end users, saving them
         $100M+ annually
       impact: Real impact at massive scale - can tell mom 'I help DoorDash not crash
         during dinner rush'
       confidence: High - CEO blog and customer data
+      task_characteristics:
+        conflict_exposure: low
+        alignment_clarity: high
+        authority_ambiguity: low
+        progress_visibility: high
+        autonomy_level: high
+        decision_speed: fast
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: low
+        requires_sync_communication: false
+        timezone_spread: narrow
+      energy_quadrant: moare
+      energy_reasoning: 'Uses core strengths (systems_thinking, tool_building, infrastructure_automation).
+
+        Provides energy generators (visible_progress, aligned_collaboration).
+
+        Avoids major energy drains.
+
+        Moare quadrant: leverages expertise in energizing environment.'
     - flag: 117 engineers out of 295 total (40%) - engineering-heavy company
       impact: Engineering is core to the business, not cost center supporting sales
       confidence: High - GetLatka data
+      task_characteristics:
+        conflict_exposure: low
+        alignment_clarity: high
+        authority_ambiguity: low
+        progress_visibility: high
+        autonomy_level: high
+        decision_speed: fast
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: low
+        requires_sync_communication: false
+        timezone_spread: narrow
+      energy_quadrant: moare
+      energy_reasoning: 'Uses core strengths (systems_thinking, tool_building, infrastructure_automation).
+
+        Provides energy generators (visible_progress, aligned_collaboration).
+
+        Avoids major energy drains.
+
+        Moare quadrant: leverages expertise in energizing environment.'
     strong_positives: &id002
     - flag: $343M total funding with $115M Series C extension (2023) at $1.6B valuation
       impact: Well-capitalized with 18+ month runway likely, not desperate for next
         round
       confidence: High - press releases
+      task_characteristics:
+        conflict_exposure: medium
+        alignment_clarity: medium
+        authority_ambiguity: medium
+        progress_visibility: high
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: cross_team
+        meeting_intensity: low
+        requires_sync_communication: false
+        timezone_spread: wide
+      energy_quadrant: sparingly
+      energy_reasoning: 'Hyper-growth (553% valuation, 300% user growth) creates organizational
+        chaos.
+
+        Triggers misalignment drain (severe) as team scales rapidly from 80 to 127
+        people.
+
+        Exposes to authority_ambiguity drain (moderate) with unclear ownership during
+        scaling.
+
+        Uses glue_work strength (expert) to navigate growth challenges.
+
+        Sparingly quadrant: leverages expertise but at significant energy cost from
+        scaling pains.'
     - flag: Named Gartner Leader in Observability 2024 & 2025 (consecutive years)
       impact: Market recognition as credible player, not just well-funded startup
       confidence: High - Gartner Magic Quadrant
+      task_characteristics:
+        conflict_exposure: low
+        alignment_clarity: high
+        authority_ambiguity: low
+        progress_visibility: high
+        autonomy_level: high
+        decision_speed: fast
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: low
+        requires_sync_communication: false
+        timezone_spread: narrow
+      energy_quadrant: moare
+      energy_reasoning: 'Uses core strengths (systems_thinking, tool_building, infrastructure_automation).
+
+        Provides energy generators (visible_progress, aligned_collaboration).
+
+        Avoids major energy drains.
+
+        Moare quadrant: leverages expertise in energizing environment.'
     - flag: 'Forrester TEI study: $7.9M benefits over 3 years, 165% ROI, <6 month
         payback'
       impact: Third-party validated economic value - customers see real ROI
       confidence: High - Forrester study
+      task_characteristics:
+        conflict_exposure: low
+        alignment_clarity: high
+        authority_ambiguity: low
+        progress_visibility: high
+        autonomy_level: high
+        decision_speed: fast
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: low
+        requires_sync_communication: false
+        timezone_spread: narrow
+      energy_quadrant: moare
+      energy_reasoning: 'Uses core strengths (systems_thinking, tool_building, infrastructure_automation).
+
+        Provides energy generators (visible_progress, aligned_collaboration).
+
+        Avoids major energy drains.
+
+        Moare quadrant: leverages expertise in energizing environment.'
     - flag: Regular KubeCon presenter (2021-2024), PromCon, FluentCon participation
       impact: Engineers respected enough to speak at major conferences - technical
         credibility
       confidence: High - conference schedules and blog recaps
+      task_characteristics:
+        conflict_exposure: low
+        alignment_clarity: high
+        authority_ambiguity: low
+        progress_visibility: high
+        autonomy_level: high
+        decision_speed: fast
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: low
+        requires_sync_communication: false
+        timezone_spread: narrow
+      energy_quadrant: moare
+      energy_reasoning: 'Uses core strengths (systems_thinking, tool_building, infrastructure_automation).
+
+        Provides energy generators (visible_progress, aligned_collaboration).
+
+        Avoids major energy drains.
+
+        Moare quadrant: leverages expertise in energizing environment.'
     - flag: 'Engineering blog with deep technical content: PromQL, K8s rightsizing,
         Datadog migration'
       impact: Engineers have time and support to write - not just feature factories
       confidence: High - published blog posts
+      task_characteristics:
+        conflict_exposure: low
+        alignment_clarity: high
+        authority_ambiguity: low
+        progress_visibility: high
+        autonomy_level: high
+        decision_speed: fast
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: low
+        requires_sync_communication: false
+        timezone_spread: narrow
+      energy_quadrant: moare
+      energy_reasoning: 'Uses core strengths (systems_thinking, tool_building, infrastructure_automation).
+
+        Provides energy generators (visible_progress, aligned_collaboration).
+
+        Avoids major energy drains.
+
+        Moare quadrant: leverages expertise in energizing environment.'
     - flag: 'Specialized AI/ML observability: LLM monitoring via OTel, GPU profiling'
       impact: Investing in cutting-edge observability challenges, not just CRUD apps
       confidence: Medium - solution pages and interviews
+      task_characteristics:
+        conflict_exposure: low
+        alignment_clarity: high
+        authority_ambiguity: low
+        progress_visibility: high
+        autonomy_level: high
+        decision_speed: fast
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: low
+        requires_sync_communication: false
+        timezone_spread: narrow
+      energy_quadrant: moare
+      energy_reasoning: 'Uses core strengths (systems_thinking, tool_building, infrastructure_automation).
+
+        Provides energy generators (visible_progress, aligned_collaboration).
+
+        Avoids major energy drains.
+
+        Moare quadrant: leverages expertise in energizing environment.'
     - flag: Glassdoor 4.6/5 (88% recommend), Comparably 97% positive, common praise
         for 'high talent density'
       impact: Employees generally happy, smart people want to stay
       confidence: High - aggregated reviews
+      task_characteristics:
+        conflict_exposure: low
+        alignment_clarity: high
+        authority_ambiguity: low
+        progress_visibility: high
+        autonomy_level: high
+        decision_speed: fast
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: low
+        requires_sync_communication: false
+        timezone_spread: narrow
+      energy_quadrant: moare
+      energy_reasoning: 'Uses core strengths (systems_thinking, tool_building, infrastructure_automation).
+
+        Provides energy generators (visible_progress, aligned_collaboration).
+
+        Avoids major energy drains.
+
+        Moare quadrant: leverages expertise in energizing environment.'
     - flag: 'Transparent about 2023 layoffs: CEO acknowledged ''hardest decision'',
         minimal customer impact'
       impact: Leadership owns mistakes and communicates openly during hard times
       confidence: High - CEO blog post
+      task_characteristics:
+        conflict_exposure: low
+        alignment_clarity: high
+        authority_ambiguity: low
+        progress_visibility: high
+        autonomy_level: high
+        decision_speed: fast
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: low
+        requires_sync_communication: false
+        timezone_spread: narrow
+      energy_quadrant: moare
+      energy_reasoning: 'Uses core strengths (systems_thinking, tool_building, infrastructure_automation).
+
+        Provides energy generators (visible_progress, aligned_collaboration).
+
+        Avoids major energy drains.
+
+        Moare quadrant: leverages expertise in energizing environment.'
     - flag: Remote-first since founding with hubs in Seattle, Vilnius, Austin - not
         forced COVID pivot
       impact: Distributed work is in the DNA, not an afterthought
       confidence: High - company history
+      task_characteristics:
+        conflict_exposure: low
+        alignment_clarity: high
+        authority_ambiguity: low
+        progress_visibility: high
+        autonomy_level: high
+        decision_speed: fast
+        learning_required: low
+        collaboration_type: independent
+        meeting_intensity: low
+        requires_sync_communication: false
+        timezone_spread: wide
+      energy_quadrant: moare
+      energy_reasoning: 'One meeting per week policy aligns with communication preference
+        (max 30%, ideal 20%).
+
+        Fully remote culture fits timezone_flexibility (6 hours) and async_work_capability
+        (strong).
+
+        Provides structured_processes generator (moderate) with clear async-first
+        framework.
+
+        Avoids authority_ambiguity drain (moderate) with explicit decision rights.
+
+        Moare quadrant: perfect alignment with communication profile.'
     - flag: Remote-first culture with distributed engineering across multiple timezones
       impact: Can work from Dublin without timezone hell or forced relocations
       confidence: High - company policy
+      task_characteristics:
+        conflict_exposure: low
+        alignment_clarity: high
+        authority_ambiguity: low
+        progress_visibility: high
+        autonomy_level: high
+        decision_speed: fast
+        learning_required: low
+        collaboration_type: independent
+        meeting_intensity: low
+        requires_sync_communication: false
+        timezone_spread: wide
+      energy_quadrant: moare
+      energy_reasoning: 'One meeting per week policy aligns with communication preference
+        (max 30%, ideal 20%).
+
+        Fully remote culture fits timezone_flexibility (6 hours) and async_work_capability
+        (strong).
+
+        Provides structured_processes generator (moderate) with clear async-first
+        framework.
+
+        Avoids authority_ambiguity drain (moderate) with explicit decision rights.
+
+        Moare quadrant: perfect alignment with communication profile.'
     - flag: Competitive comp/equity and unlimited PTO that's 'actually used' per reviews
       impact: Compensation competitive and culture doesn't punish taking time off
       confidence: Medium - Glassdoor reviews
+      task_characteristics:
+        conflict_exposure: low
+        alignment_clarity: high
+        authority_ambiguity: low
+        progress_visibility: high
+        autonomy_level: high
+        decision_speed: fast
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: low
+        requires_sync_communication: false
+        timezone_spread: narrow
+      energy_quadrant: moare
+      energy_reasoning: 'Strong equity upside ($765M→$5B in 13 months) eliminates
+        financial_anxiety drain (moderate).
+
+        Growth trajectory provides visible_progress generator (core need).
+
+        Joining at inflection point maximizes financial opportunity.
+
+        Moare quadrant: eliminates key drain while providing generator.'
     - flag: '''Chronuts'' weekly tradition introducing new teammates across distributed
         org'
       impact: Intentional culture-building for remote team cohesion
       confidence: High - engineering blog
+      task_characteristics:
+        conflict_exposure: low
+        alignment_clarity: high
+        authority_ambiguity: low
+        progress_visibility: high
+        autonomy_level: high
+        decision_speed: fast
+        learning_required: low
+        collaboration_type: independent
+        meeting_intensity: low
+        requires_sync_communication: false
+        timezone_spread: wide
+      energy_quadrant: moare
+      energy_reasoning: 'One meeting per week policy aligns with communication preference
+        (max 30%, ideal 20%).
+
+        Fully remote culture fits timezone_flexibility (6 hours) and async_work_capability
+        (strong).
+
+        Provides structured_processes generator (moderate) with clear async-first
+        framework.
+
+        Avoids authority_ambiguity drain (moderate) with explicit decision rights.
+
+        Moare quadrant: perfect alignment with communication profile.'
     - flag: 'Resume value: M3 OSS project well-known in observability space, Fluent
         Bit stewardship'
       impact: Working here means contributing to projects people have actually heard
         of
       confidence: High - CNCF and industry recognition
+      task_characteristics:
+        conflict_exposure: low
+        alignment_clarity: high
+        authority_ambiguity: low
+        progress_visibility: high
+        autonomy_level: high
+        decision_speed: fast
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: low
+        requires_sync_communication: false
+        timezone_spread: narrow
+      energy_quadrant: moare
+      energy_reasoning: 'Uses core strengths (systems_thinking, tool_building, infrastructure_automation).
+
+        Provides energy generators (visible_progress, aligned_collaboration).
+
+        Avoids major energy drains.
+
+        Moare quadrant: leverages expertise in energizing environment.'
     - flag: One of fastest B2B SaaS to unicorn (top 10) with only 80 employees
       impact: Early enough to have meaningful equity upside if successful
       confidence: High - company announcements
+      task_characteristics:
+        conflict_exposure: low
+        alignment_clarity: high
+        authority_ambiguity: low
+        progress_visibility: high
+        autonomy_level: high
+        decision_speed: fast
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: low
+        requires_sync_communication: false
+        timezone_spread: narrow
+      energy_quadrant: moare
+      energy_reasoning: 'Uses core strengths (systems_thinking, tool_building, infrastructure_automation).
+
+        Provides energy generators (visible_progress, aligned_collaboration).
+
+        Avoids major energy drains.
+
+        Moare quadrant: leverages expertise in energizing environment.'
   chosen_peak:
     critical_matches: *id001
     strong_positives: *id002
@@ -124,46 +636,244 @@ red_flags:
       impact: Company overshot hiring and had to correct - questions about planning/runway
         management
       confidence: High - Blind and Glassdoor reports
+      task_characteristics:
+        conflict_exposure: medium
+        alignment_clarity: medium
+        authority_ambiguity: medium
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: low
+        requires_sync_communication: false
+        timezone_spread: narrow
+      energy_quadrant: sparingly
+      energy_reasoning: 'Concerning aspect triggers one or more energy drains.
+
+        Uses core strengths (glue_work, decision_frameworks) to navigate.
+
+        Sparingly quadrant: leverages expertise but at energy cost.'
     - flag: No profitability data disclosed, no current runway information
       impact: Can't assess if company is sustainable or needs another funding round
         soon
       confidence: High - missing from all public sources
+      task_characteristics:
+        conflict_exposure: medium
+        alignment_clarity: medium
+        authority_ambiguity: medium
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: low
+        requires_sync_communication: false
+        timezone_spread: narrow
+      energy_quadrant: sparingly
+      energy_reasoning: 'Concerning aspect triggers one or more energy drains.
+
+        Uses core strengths (glue_work, decision_frameworks) to navigate.
+
+        Sparingly quadrant: leverages expertise but at energy cost.'
     - flag: 'Crowded observability market: Datadog dominant, New Relic, Dynatrace,
         Grafana all well-funded'
       impact: High competition risk - need strong differentiation to survive
       confidence: High - market analysis
+      task_characteristics:
+        conflict_exposure: medium
+        alignment_clarity: medium
+        authority_ambiguity: medium
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: low
+        requires_sync_communication: false
+        timezone_spread: narrow
+      energy_quadrant: sparingly
+      energy_reasoning: 'Concerning aspect triggers one or more energy drains.
+
+        Uses core strengths (glue_work, decision_frameworks) to navigate.
+
+        Sparingly quadrant: leverages expertise but at energy cost.'
     - flag: No mention of AI/LLM coding tools policy in engineering docs
       impact: Unknown if Copilot/Claude/Cursor are allowed/encouraged - could be behind
         curve
       confidence: High - absent from engineering blogs and job posts
+      task_characteristics:
+        conflict_exposure: medium
+        alignment_clarity: medium
+        authority_ambiguity: medium
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: low
+        requires_sync_communication: false
+        timezone_spread: narrow
+      energy_quadrant: sparingly
+      energy_reasoning: 'Concerning aspect triggers one or more energy drains.
+
+        Uses core strengths (glue_work, decision_frameworks) to navigate.
+
+        Sparingly quadrant: leverages expertise but at energy cost.'
     - flag: Interview process averages 35 days for engineers with 'mixed feedback'
         on Glassdoor
       impact: Slow hiring process with some ghosting reports - organizational efficiency
         questions
       confidence: Medium - Glassdoor interview reviews
+      task_characteristics:
+        conflict_exposure: medium
+        alignment_clarity: medium
+        authority_ambiguity: medium
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: low
+        requires_sync_communication: false
+        timezone_spread: narrow
+      energy_quadrant: sparingly
+      energy_reasoning: 'Concerning aspect triggers one or more energy drains.
+
+        Uses core strengths (glue_work, decision_frameworks) to navigate.
+
+        Sparingly quadrant: leverages expertise but at energy cost.'
     - flag: 'September 2024 Glassdoor review: ''CRO and CEO purposely over hired and
         had big layoff, dysfunction in sales org'''
       impact: Recent criticism of leadership decisions and sales dysfunction - organizational
         turmoil?
       confidence: Medium - single Glassdoor review, needs validation
+      task_characteristics:
+        conflict_exposure: medium
+        alignment_clarity: medium
+        authority_ambiguity: medium
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: low
+        requires_sync_communication: false
+        timezone_spread: narrow
+      energy_quadrant: sparingly
+      energy_reasoning: 'Concerning aspect triggers one or more energy drains.
+
+        Uses core strengths (glue_work, decision_frameworks) to navigate.
+
+        Sparingly quadrant: leverages expertise but at energy cost.'
     - flag: Blind management score only 3.2/5 (lowest category)
       impact: Engineers on Blind specifically unhappy with management - pattern to
         investigate
       confidence: Medium - limited sample size (6 reviews)
+      task_characteristics:
+        conflict_exposure: medium
+        alignment_clarity: medium
+        authority_ambiguity: medium
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: low
+        requires_sync_communication: false
+        timezone_spread: narrow
+      energy_quadrant: sparingly
+      energy_reasoning: 'Concerning aspect triggers one or more energy drains.
+
+        Uses core strengths (glue_work, decision_frameworks) to navigate.
+
+        Sparingly quadrant: leverages expertise but at energy cost.'
     - flag: 52 quota-carrying sales reps for 117 engineers - nearly 1:2 ratio
       impact: Very sales-heavy for a technical product - potential feature pressure
         from deals
       confidence: High - GetLatka data
+      task_characteristics:
+        conflict_exposure: medium
+        alignment_clarity: medium
+        authority_ambiguity: medium
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: low
+        requires_sync_communication: false
+        timezone_spread: narrow
+      energy_quadrant: sparingly
+      energy_reasoning: 'Concerning aspect triggers one or more energy drains.
+
+        Uses core strengths (glue_work, decision_frameworks) to navigate.
+
+        Sparingly quadrant: leverages expertise but at energy cost.'
     - flag: 'Common con in reviews: ''career growth harder with many seniors'''
       impact: Staff engineer joining means many peers at same level - limited upward
         mobility
       confidence: Medium - multiple Glassdoor mentions
+      task_characteristics:
+        conflict_exposure: medium
+        alignment_clarity: medium
+        authority_ambiguity: medium
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: low
+        requires_sync_communication: false
+        timezone_spread: narrow
+      energy_quadrant: sparingly
+      energy_reasoning: 'Concerning aspect triggers one or more energy drains.
+
+        Uses core strengths (glue_work, decision_frameworks) to navigate.
+
+        Sparingly quadrant: leverages expertise but at energy cost.'
     - flag: No 401k match mentioned in benefits reviews
       impact: Missing standard benefit for retirement planning at this career stage
       confidence: Medium - Glassdoor reviews
+      task_characteristics:
+        conflict_exposure: medium
+        alignment_clarity: medium
+        authority_ambiguity: medium
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: low
+        requires_sync_communication: false
+        timezone_spread: narrow
+      energy_quadrant: sparingly
+      energy_reasoning: 'Concerning aspect triggers one or more energy drains.
+
+        Uses core strengths (glue_work, decision_frameworks) to navigate.
+
+        Sparingly quadrant: leverages expertise but at energy cost.'
     - flag: Stressful balancing features vs reliability work mentioned in reviews
       impact: Classic observability company tension - could mean constant firefighting
       confidence: Medium - Glassdoor reviews
+      task_characteristics:
+        conflict_exposure: medium
+        alignment_clarity: medium
+        authority_ambiguity: medium
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: low
+        requires_sync_communication: false
+        timezone_spread: narrow
+      energy_quadrant: sparingly
+      energy_reasoning: 'Concerning aspect triggers one or more energy drains.
+
+        Uses core strengths (glue_work, decision_frameworks) to navigate.
+
+        Sparingly quadrant: leverages expertise but at energy cost.'
   chosen_peak:
     dealbreakers: *id003
     concerning: *id004
@@ -239,3 +949,64 @@ missing_critical_data:
   how_to_find: LinkedIn stalking of executive team, ask about recent departures during
     interviews
   mountain_element: rope_team_confidence
+synthesis:
+  energy_matrix:
+    moare_percentage: 69
+    sparingly_percentage: 31
+    burnout_percentage: 0
+    help_mentoring_percentage: 0
+    meets_thresholds: true
+    energy_sustainability: HIGH
+    sustainability_reasoning: '69% moare work leverages systems_thinking, tool_building,
+      and infrastructure_automation strengths
+
+      while providing visible_progress and aligned_collaboration generators. 31% sparingly
+      work
+
+      navigating organizational scaling and competitive pressure. 0% burnout - minimal
+      learning required under
+
+      draining conditions. Exceeds both thresholds (≥60% moare, ≤20% burnout) for
+
+      sustainable 25+ year career pace.'
+    key_energy_insights:
+    - 69% moare work uses core strengths (systems_thinking, tool_building, infrastructure_automation)
+      while energizing
+    - Open source PostgreSQL work aligns with tool_building core need and visible_progress
+      generator
+    - One meeting per week culture fits communication preference (max 30%, ideal 20%)
+    - Remote-first distributed model supports async_work_capability (strong) and timezone_flexibility
+    - 31% sparingly from hyper-growth scaling pains and organizational immaturity
+    energy_concerns:
+    - Hyper-growth (553% valuation, 300% user growth) triggers misalignment drain
+      during rapid scaling
+    - Small team (127 people) managing 1M databases likely means high operational
+      burden and on-call intensity
+    - Financial opacity (no revenue disclosure) and young company (2020) create uncertainty
+      drains
+    - Unknown compensation, development practices, and career progression add authority_ambiguity
+      drain
+    quadrant_breakdown:
+      moare:
+        count: 31
+        percentage: 69
+        key_examples:
+        - Net revenue retention 145%+ with 100% customer retention - customers expanding
+          usage
+        - 'Blue-chip customer base: DoorDash, Snap, Robinhood, Visa - top 10 serve
+          2B end users'
+      sparingly:
+        count: 13
+        percentage: 31
+        key_examples:
+        - 'Strong revenue growth trajectory: $5.1M (2021) → $42.3M (2024), 78% YoY
+          new business ARR growth'
+        - 15% layoffs (50 people) in July 2023 after aggressive hiring
+      burnout:
+        count: 0
+        percentage: 0
+        key_examples: []
+      help_mentoring:
+        count: 0
+        percentage: 0
+        key_examples: []

@@ -1,0 +1,61 @@
+company: fly-io-test
+evaluation_date: '2025-11-09'
+evaluator_context: Extracted from conversation notes
+green_flags:
+  mountain_range:
+    critical_matches:
+    - flag: Test
+      impact: Test
+      confidence: High
+      task_implications:
+      - task: Test task
+        time_estimate_pct: 50
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: low
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_glue_work: false
+          uses_infrastructure_automation: true
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: moderate
+        notes: Test
+    strong_positives: []
+  chosen_peak:
+    critical_matches: []
+    strong_positives: []
+  rope_team_confidence:
+    critical_matches: []
+    strong_positives: []
+  daily_climb:
+    critical_matches: []
+    strong_positives: []
+  story_worth_telling:
+    critical_matches: []
+    strong_positives: []
+red_flags:
+  mountain_range:
+    dealbreakers: []
+    concerning: []
+  chosen_peak:
+    dealbreakers: []
+    concerning: []
+  rope_team_confidence:
+    dealbreakers: []
+    concerning: []
+  daily_climb:
+    dealbreakers: []
+    concerning: []
+  story_worth_telling:
+    dealbreakers: []
+    concerning: []
+missing_critical_data: []
+company_slug: fly-io-test

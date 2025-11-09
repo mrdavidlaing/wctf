@@ -1,0 +1,261 @@
+company: intel
+evaluation_date: '2025-11-09'
+evaluator_context: Extracted from conversation notes
+green_flags:
+  mountain_range:
+    critical_matches: []
+    strong_positives: []
+  chosen_peak:
+    critical_matches:
+    - flag: 'World-class technical culture: 19,000 software engineers, 1,315 GitHub
+        repos, largest Linux contributor since 2007'
+      impact: Deep expertise in systems/infrastructure work, strong open source engagement
+      confidence: High - 35+ years open source history
+      task_implications:
+      - task: Contribute to Linux kernel, PyTorch, OpenVINO at massive scale
+        time_estimate_pct: 20%
+        characteristics:
+          conflict_exposure: moderate
+          alignment_clarity: moderate
+          authority_ambiguity: moderate
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: moderate
+          learning_required: low
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_glue_work: false
+          uses_infrastructure_automation: true
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: moderate
+          requires_sync_communication: true
+          timezone_spread: moderate
+        notes: Uses expert strengths but org instability creates some ambiguity
+        energy_matrix_quadrant: moare
+    strong_positives:
+    - flag: Good work-life balance (4.0/5) despite organizational chaos
+      impact: Preserves energy through sustainable pace
+      confidence: High - Glassdoor ratings
+      task_implications:
+      - task: Build semiconductor tooling within 40-hour weeks
+        time_estimate_pct: 10%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: moderate
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_glue_work: false
+          uses_infrastructure_automation: true
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: narrow
+        notes: Work-life balance provides recovery from organizational stress
+        energy_matrix_quadrant: moare
+  rope_team_confidence:
+    critical_matches: []
+    strong_positives: []
+  daily_climb:
+    critical_matches: []
+    strong_positives: []
+  story_worth_telling:
+    critical_matches: []
+    strong_positives: []
+red_flags:
+  mountain_range:
+    dealbreakers:
+    - flag: $18.8B loss in 2024, -$10.9B free cash flow, $13B annual foundry losses
+      severity: 'YES'
+      impact: SEVERE financial_anxiety drain - company survival genuinely uncertain
+      confidence: High - Explicit financial statements
+      task_implications:
+      - task: Work under constant threat of layoffs and business unit shutdowns
+        time_estimate_pct: 20%
+        characteristics:
+          conflict_exposure: high
+          alignment_clarity: low
+          authority_ambiguity: high
+          progress_visibility: low
+          autonomy_level: low
+          decision_speed: slow
+          learning_required: none
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: false
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: solo
+          meeting_intensity: high
+          requires_sync_communication: true
+          timezone_spread: narrow
+        notes: SEVERE financial_anxiety - survival concerns leak energy from progress
+        energy_matrix_quadrant: burnout
+    - flag: 24,000 jobs cut (24% of workforce) following 23,000 cuts in 2022-2024
+      severity: 'YES'
+      impact: SEVERE interpersonal_conflict - constant team disruption and survivor
+        guilt
+      confidence: High - Explicit headcount targets
+      task_implications:
+      - task: Navigate continuous team restructuring, losing colleagues quarterly
+        time_estimate_pct: 15%
+        characteristics:
+          conflict_exposure: high
+          alignment_clarity: low
+          authority_ambiguity: high
+          progress_visibility: low
+          autonomy_level: low
+          decision_speed: slow
+          learning_required: none
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: false
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: high
+          requires_sync_communication: true
+          timezone_spread: narrow
+        notes: Triggers SEVERE interpersonal_conflict - witnessing colleagues lose
+          jobs
+        energy_matrix_quadrant: burnout
+    concerning:
+    - flag: 4th CEO in 7 years, 30-year veteran departed, 48% CEO approval
+      severity: MAYBE
+      impact: SEVERE misalignment - unclear direction, circular motion
+      confidence: High - Explicit leadership turnover
+      task_implications:
+      - task: Adapt to shifting priorities as new CEO reorganizes
+        time_estimate_pct: 15%
+        characteristics:
+          conflict_exposure: moderate
+          alignment_clarity: low
+          authority_ambiguity: high
+          progress_visibility: low
+          autonomy_level: low
+          decision_speed: slow
+          learning_required: none
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: false
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: cross_team
+          meeting_intensity: high
+          requires_sync_communication: true
+          timezone_spread: narrow
+        notes: SEVERE misalignment - CEO churn prevents stable direction
+        energy_matrix_quadrant: burnout
+    - flag: 'Employee demoralization: 36% positive outlook, constant layoff threat'
+      severity: MAYBE
+      impact: Blocks aligned_collaboration generator, team focused on survival
+      confidence: High - Glassdoor metrics and reviews
+      task_implications:
+      - task: Work with demoralized team focused on job security over innovation
+        time_estimate_pct: 10%
+        characteristics:
+          conflict_exposure: moderate
+          alignment_clarity: low
+          authority_ambiguity: moderate
+          progress_visibility: low
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: none
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: true
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: moderate
+          requires_sync_communication: false
+          timezone_spread: narrow
+        notes: Glue work needed but energy-draining context
+        energy_matrix_quadrant: sparingly
+    - flag: Mandatory 4-day RTO (increased from 3-day)
+      severity: MAYBE
+      impact: Reduces flexibility counter to async work preference
+      confidence: High - Official policy
+      task_implications:
+      - task: Commute 4 days/week, reduced remote flexibility
+        time_estimate_pct: 5%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: moderate
+          authority_ambiguity: low
+          progress_visibility: moderate
+          autonomy_level: low
+          decision_speed: moderate
+          learning_required: none
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: false
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: moderate
+          requires_sync_communication: true
+          timezone_spread: co_located
+        notes: Pure overhead, reduces async capability
+        energy_matrix_quadrant: burnout
+  chosen_peak:
+    dealbreakers: []
+    concerning: []
+  rope_team_confidence:
+    dealbreakers: []
+    concerning: []
+  daily_climb:
+    dealbreakers: []
+    concerning: []
+  story_worth_telling:
+    dealbreakers: []
+    concerning: []
+missing_critical_data:
+- question: What is actual compensation for senior infrastructure engineers?
+  why_important: Below-market comp amplifies financial_anxiety
+  how_to_find: Levels.fyi, insider interviews
+  mountain_element: daily_climb
+- question: What is team stability on specific infrastructure teams?
+  why_important: May find stable pocket despite overall chaos
+  how_to_find: Insider interviews with engineers on target teams
+  mountain_element: rope_team_confidence
+- question: Are specific teams protected from layoffs (CHIPS Act)?
+  why_important: Government projects may have reduced layoff risk
+  how_to_find: Research CHIPS Act staffing, insider interviews
+  mountain_element: mountain_range
+profile_version_used: '1.0'
+company_slug: intel
+synthesis:
+  energy_matrix_analysis:
+    profile_version_used: '1.0'
+    predicted_daily_distribution:
+      moare_green_flags:
+        percentage: 31.6
+        tasks_count: 2
+      sparingly_yellow_flags:
+        percentage: 10.5
+        tasks_count: 1
+      burnout_red_flags:
+        percentage: 57.9
+        tasks_count: 4
+      help_mentoring_yellow_flags:
+        percentage: 0.0
+        tasks_count: 0
+    threshold_analysis:
+      meets_green_minimum: false
+      exceeds_red_maximum: true
+      exceeds_yellow_maximum: false
+    energy_sustainability: LOW
+    key_insights:
+    - 68.4% of work in draining quadrants (sparingly + burnout)
+    - 57.9% burnout quadrant work exceeds 20% threshold
+    - Insufficient moare quadrant work (31.6% vs 60% needed)
+    decision_factors:
+    - 'REJECT: 57.9% burnout quadrant exceeds 20% threshold'
+    - 'RED: Only 31.6% moare quadrant (need ≥60%)'

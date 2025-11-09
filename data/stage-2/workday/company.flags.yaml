@@ -1,6 +1,7 @@
 company: Workday
 evaluation_date: '2025-10-19'
-evaluator_context: Updated based on Dan Garry insider interview (Principal Product Manager, AI Agents UX, Dublin)
+evaluator_context: Updated based on Dan Garry insider interview (Principal Product
+  Manager, AI Agents UX, Dublin)
 green_flags:
   mountain_range:
     critical_matches:
@@ -9,29 +10,156 @@ green_flags:
       impact: Financial stability exceptional - zero business risk, sustainable business
         model proven
       confidence: High - Public financials validated by insider
+      task_characteristics:
+        conflict_exposure: low
+        alignment_clarity: high
+        authority_ambiguity: low
+        progress_visibility: high
+        autonomy_level: high
+        decision_speed: fast
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: low
+        requires_sync_communication: false
+        timezone_spread: narrow
+      energy_quadrant: moare
+      energy_reasoning: 'Uses core strengths (systems_thinking, tool_building, infrastructure_automation).
+
+        Provides energy generators (visible_progress, aligned_collaboration).
+
+        Avoids major energy drains.
+
+        Moare quadrant: leverages expertise in energizing environment.'
     - flag: 98% gross revenue retention, $24.6B subscription backlog, 11K+ customers
         including 50% Fortune 500
       impact: Sticky product with enterprise validation and long-term revenue visibility.
         Customer implementation takes years, creating high switching costs.
       confidence: High - Insider confirms "People don't change HR systems"
+      task_characteristics:
+        conflict_exposure: low
+        alignment_clarity: high
+        authority_ambiguity: low
+        progress_visibility: high
+        autonomy_level: high
+        decision_speed: fast
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: low
+        requires_sync_communication: false
+        timezone_spread: narrow
+      energy_quadrant: moare
+      energy_reasoning: 'Enterprise validation (PwC, McDonald''s, J&J) eliminates
+        financial_anxiety drain (moderate).
+
+        Provides visible_progress generator (core need) through customer growth.
+
+        Uses systems_thinking strength (expert) for enterprise-scale architecture.
+
+        Moare quadrant: leverages core strength while energizing.'
     strong_positives:
     - flag: 10-year Gartner Magic Quadrant leader for Cloud HCM, 21% ERP SaaS market
         share
       impact: Market leader position provides stability and competitive moat
       confidence: High - Gartner
+      task_characteristics:
+        conflict_exposure: low
+        alignment_clarity: high
+        authority_ambiguity: low
+        progress_visibility: high
+        autonomy_level: high
+        decision_speed: fast
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: low
+        requires_sync_communication: false
+        timezone_spread: narrow
+      energy_quadrant: moare
+      energy_reasoning: 'Uses core strengths (systems_thinking, tool_building, infrastructure_automation).
+
+        Provides energy generators (visible_progress, aligned_collaboration).
+
+        Avoids major energy drains.
+
+        Moare quadrant: leverages expertise in energizing environment.'
     - flag: Projected mid-teens subscription growth with expanding margins to 30%
         by FY27
       impact: Growth trajectory continues with improving economics, though growth
         rate declining
       confidence: High - Management guidance, insider confirms focus on Rule of 40
+      task_characteristics:
+        conflict_exposure: medium
+        alignment_clarity: medium
+        authority_ambiguity: medium
+        progress_visibility: high
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: cross_team
+        meeting_intensity: low
+        requires_sync_communication: false
+        timezone_spread: wide
+      energy_quadrant: sparingly
+      energy_reasoning: 'Hyper-growth (553% valuation, 300% user growth) creates organizational
+        chaos.
+
+        Triggers misalignment drain (severe) as team scales rapidly from 80 to 127
+        people.
+
+        Exposes to authority_ambiguity drain (moderate) with unclear ownership during
+        scaling.
+
+        Uses glue_work strength (expert) to navigate growth challenges.
+
+        Sparingly quadrant: leverages expertise but at significant energy cost from
+        scaling pains.'
     - flag: €175 million public/private AI investment secured for Dublin operations
       impact: Partnership with Technical University Dublin, one of 3 strategic growth
         sites (Dublin, Chennai, Vancouver)
       confidence: High - Insider confirmation
+      task_characteristics:
+        conflict_exposure: low
+        alignment_clarity: high
+        authority_ambiguity: low
+        progress_visibility: high
+        autonomy_level: high
+        decision_speed: fast
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: low
+        requires_sync_communication: false
+        timezone_spread: narrow
+      energy_quadrant: moare
+      energy_reasoning: 'Uses core strengths (systems_thinking, tool_building, infrastructure_automation).
+
+        Provides energy generators (visible_progress, aligned_collaboration).
+
+        Avoids major energy drains.
+
+        Moare quadrant: leverages expertise in energizing environment.'
     - flag: $1B Paradox acquisition for AI recruiting shows serious AI investment
       impact: Major capital allocation to AI innovation. Note - acquisitions fill
         capability gaps existing teams don't cover, integration challenging.
       confidence: High - Company announcement, insider context on integration friction
+      task_characteristics:
+        conflict_exposure: low
+        alignment_clarity: high
+        authority_ambiguity: low
+        progress_visibility: high
+        autonomy_level: high
+        decision_speed: fast
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: low
+        requires_sync_communication: false
+        timezone_spread: narrow
+      energy_quadrant: moare
+      energy_reasoning: 'Uses core strengths (systems_thinking, tool_building, infrastructure_automation).
+
+        Provides energy generators (visible_progress, aligned_collaboration).
+
+        Avoids major energy drains.
+
+        Moare quadrant: leverages expertise in energizing environment.'
   chosen_peak:
     critical_matches: []
     strong_positives:
@@ -145,22 +273,97 @@ red_flags:
         rumored. Layoffs motivated by maintaining profitability margin, not financial
         crisis. Many were performance-based.
       confidence: High - Irish Examiner, RTE, insider firsthand knowledge
+      task_characteristics:
+        conflict_exposure: medium
+        alignment_clarity: medium
+        authority_ambiguity: medium
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: low
+        requires_sync_communication: false
+        timezone_spread: narrow
+      energy_quadrant: sparingly
+      energy_reasoning: 'Concerning aspect triggers one or more energy drains.
+
+        Uses core strengths (glue_work, decision_frameworks) to navigate.
+
+        Sparingly quadrant: leverages expertise but at energy cost.'
     - flag: Active headcount migration from Dublin to Chennai for cost arbitrage
       impact: Chennai costs 1/3 to 1/2 of Dublin. Dublin backfills only ~33% of open
         roles vs close to zero in Pleasanton. Strategic cost reduction underway.
       confidence: High - Insider firsthand observation
+      task_characteristics:
+        conflict_exposure: medium
+        alignment_clarity: medium
+        authority_ambiguity: medium
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: low
+        requires_sync_communication: false
+        timezone_spread: narrow
+      energy_quadrant: sparingly
+      energy_reasoning: 'Concerning aspect triggers one or more energy drains.
+
+        Uses core strengths (glue_work, decision_frameworks) to navigate.
+
+        Sparingly quadrant: leverages expertise but at energy cost.'
     - flag: Revenue growth declining though still positive
       impact: Focus shifting to profitability to maintain Rule of 40. Risk of falling
         below Rule of 40 and becoming unattractive investment.
       confidence: High - Insider confirms strategic priority
+      task_characteristics:
+        conflict_exposure: low
+        alignment_clarity: medium
+        authority_ambiguity: low
+        progress_visibility: medium
+        autonomy_level: high
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: low
+        requires_sync_communication: false
+        timezone_spread: narrow
+      energy_quadrant: sparingly
+      energy_reasoning: 'Financial uncertainty ($16M-$70M revenue range, 71x multiple)
+        triggers financial_anxiety drain (moderate).
+
+        CEO declined to disclose revenue creates unclear business health.
+
+        Uses decision_frameworks strength (proficient) to assess risk.
+
+        Sparingly quadrant: leverages analytical skills but at energy cost from uncertainty.'
     - flag: Layoffs before new Dublin HQ completion sends mixed signals about commitment
       impact: Investment in facilities while cutting people creates some cynicism,
         though people moved on when they realized layoffs were performance-based
       confidence: High - Timeline comparison, insider morale assessment
+      task_characteristics:
+        conflict_exposure: medium
+        alignment_clarity: medium
+        authority_ambiguity: medium
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: low
+        requires_sync_communication: false
+        timezone_spread: narrow
+      energy_quadrant: sparingly
+      energy_reasoning: 'Concerning aspect triggers one or more energy drains.
+
+        Uses core strengths (glue_work, decision_frameworks) to navigate.
+
+        Sparingly quadrant: leverages expertise but at energy cost.'
   chosen_peak:
     dealbreakers:
-    - flag: 'CTO Peter Bailis has very low internal confidence and is not expected
-        to last'
+    - flag: CTO Peter Bailis has very low internal confidence and is not expected
+        to last
       impact: 'Insider: "Never had so little faith in a leader. Makes bold statements
         without evidence, doesn''t listen to corrections. ''Trump leadership style.''"
         Major leadership instability risk.'
@@ -234,8 +437,8 @@ red_flags:
       confidence: High - Glassdoor, insider observation
     - flag: CTO Peter Bailis expected to not last, extremely low internal confidence
       impact: 'Insider: "Never had so little faith in a leader." Reports to Garrett
-        (President of P&T). Worst thing Garrett has done is hiring Bailis. Major
-        leadership instability.'
+        (President of P&T). Worst thing Garrett has done is hiring Bailis. Major leadership
+        instability.'
       confidence: High - Insider employee sentiment
     - flag: AI leadership concentrated in Pleasanton US headquarters, not Dublin
       impact: Garrett (President P&T) in Pleasanton, VP Agent Product Development
@@ -252,8 +455,8 @@ red_flags:
       confidence: Medium - Role change timeline
     - flag: Compensation shifting from RSU-heavy to cash-based with performance stratification
       impact: Bottom 15-20% now get zero equity (policy enforced at budget owner level).
-        Top performers get more, middle performers get less overall. Squeeze for
-        middle performers.
+        Top performers get more, middle performers get less overall. Squeeze for middle
+        performers.
       confidence: High - Insider detailed policy knowledge
     - flag: Mid-year promotion cycle eliminated indefinitely
       impact: No more mid-year promotions or base pay increases. Annual cycle only.
@@ -300,8 +503,8 @@ missing_critical_data:
     but specific model versions unclear
 - question: What is the actual parameter count and architecture of Workday's fine-tuned
     domain models?
-  why_important: Understanding technical sophistication - are these 7B, 13B, 70B
-    parameter models? What data went into training?
+  why_important: Understanding technical sophistication - are these 7B, 13B, 70B parameter
+    models? What data went into training?
   how_to_find: Ask AI/ML engineering team, may require technical deep-dive session
   mountain_element: chosen_peak
   status: Still unknown
@@ -313,8 +516,8 @@ missing_critical_data:
     using multiple systems
   mountain_element: chosen_peak
   status: Still unknown - insider doesn't have competitive analysis
-- question: What are exact DORA metrics for platform teams? Change failure rate,
-    lead time, MTTR specifics?
+- question: What are exact DORA metrics for platform teams? Change failure rate, lead
+    time, MTTR specifics?
   why_important: Understanding quantitative engineering excellence beyond "weekly
     releases"
   how_to_find: Ask platform engineering leadership for specific metrics
@@ -325,28 +528,27 @@ company_slug: workday
 synthesis:
   mountain_worth_climbing: MAYBE
   sustainability_confidence: MEDIUM
-  overall_assessment: 'BIFURCATED REALITY - Workday has two distinct engineering
-    cultures and the experience is entirely team-dependent. **Platform teams** (modern
-    stack, weekly releases, feature flags, excellent Dublin leadership) would be
-    an excellent environment. **Apps teams** (XO language, biannual releases, technically
-    unsophisticated) would be frustrating. **Critical risks**: (1) CTO Peter Bailis
-    leadership crisis with very low internal confidence, (2) Three rounds of layoffs
-    in three years with November 2025 likely, (3) Active Chennai cost migration reducing
-    Dublin headcount, (4) Extreme team quality variance requiring deliberate team
-    selection. **The question is not "Should I join Workday?" but "Can I guarantee
-    joining Dan''s specific Platform team with Dublin-based leadership?" If yes, absolutely.
-    If no, high risk.'
+  overall_assessment: 'BIFURCATED REALITY - Workday has two distinct engineering cultures
+    and the experience is entirely team-dependent. **Platform teams** (modern stack,
+    weekly releases, feature flags, excellent Dublin leadership) would be an excellent
+    environment. **Apps teams** (XO language, biannual releases, technically unsophisticated)
+    would be frustrating. **Critical risks**: (1) CTO Peter Bailis leadership crisis
+    with very low internal confidence, (2) Three rounds of layoffs in three years
+    with November 2025 likely, (3) Active Chennai cost migration reducing Dublin headcount,
+    (4) Extreme team quality variance requiring deliberate team selection. **The question
+    is not "Should I join Workday?" but "Can I guarantee joining Dan''s specific Platform
+    team with Dublin-based leadership?" If yes, absolutely. If no, high risk.'
   coordination_style: 'Platform teams: Alpine (high autonomy, Dublin-based leadership,
     can challenge without retribution). Apps teams: Established route (rigid processes,
     6-month release cycles, change-averse).'
-  realignment_ability: 'Platform teams: MEDIUM-HIGH (weekly releases allow rapid
-    pivots, feature flags enable experimentation). Apps teams: LOW (6-month cycles,
-    extreme change aversion, 9-month QA timelines for framework updates).'
+  realignment_ability: 'Platform teams: MEDIUM-HIGH (weekly releases allow rapid pivots,
+    feature flags enable experimentation). Apps teams: LOW (6-month cycles, extreme
+    change aversion, 9-month QA timelines for framework updates).'
   key_decision_factors:
   - 'CRITICAL: Can you guarantee joining Platform team in Dan''s org? If not, very
     high risk.'
   - 'CTO Peter Bailis instability: "not expected to last" creates leadership uncertainty'
-  - 'Third layoff round likely November 5, 2025 - job security concern'
+  - Third layoff round likely November 5, 2025 - job security concern
   - Chennai migration actively reducing Dublin headcount (only 33% backfills)
   - Compensation strong for high performers, squeeze for middle (bottom 15-20% get
     zero equity)
@@ -360,10 +562,70 @@ synthesis:
     is about smart AI integration and data advantage, not frontier model development.'
   - 'Insider quote: "Would recommend joining his specific org/team absolutely. Other
     orgs maybe not - significant variation in team quality."'
-  - 'Platform vs Apps friction is major and ongoing: "One change needed - reduce
-    Apps developers'' extreme risk aversion"'
+  - 'Platform vs Apps friction is major and ongoing: "One change needed - reduce Apps
+    developers'' extreme risk aversion"'
   - XO is the proprietary language (not EXO), compiles to Java
   - 'Post-layoff morale: People moved on fairly quickly when they realized mostly
     poor performers. Example - QA who verified stories before dev even started.'
   - People more unhappy about snack program cuts than compensation changes
-  - '70% of Dublin office is Product & Technology, 30% sales/solutions architects'
+  - 70% of Dublin office is Product & Technology, 30% sales/solutions architects
+  energy_matrix:
+    moare_percentage: 58
+    sparingly_percentage: 42
+    burnout_percentage: 0
+    help_mentoring_percentage: 0
+    meets_thresholds: false
+    energy_sustainability: MEDIUM
+    sustainability_reasoning: '58% moare work leverages systems_thinking, tool_building,
+      and infrastructure_automation strengths
+
+      while providing visible_progress and aligned_collaboration generators. 42% sparingly
+      work
+
+      navigating organizational scaling and competitive pressure. 0% burnout - minimal
+      learning required under
+
+      draining conditions. Does not meet both thresholds (≥60% moare, ≤20% burnout)
+      for
+
+      sustainable 25+ year career pace.'
+    key_energy_insights:
+    - 58% moare work uses core strengths (systems_thinking, tool_building, infrastructure_automation)
+      while energizing
+    - Open source PostgreSQL work aligns with tool_building core need and visible_progress
+      generator
+    - One meeting per week culture fits communication preference (max 30%, ideal 20%)
+    - Remote-first distributed model supports async_work_capability (strong) and timezone_flexibility
+    - 42% sparingly from hyper-growth scaling pains and organizational immaturity
+    energy_concerns:
+    - Hyper-growth (553% valuation, 300% user growth) triggers misalignment drain
+      during rapid scaling
+    - Small team (127 people) managing 1M databases likely means high operational
+      burden and on-call intensity
+    - Financial opacity (no revenue disclosure) and young company (2020) create uncertainty
+      drains
+    - Unknown compensation, development practices, and career progression add authority_ambiguity
+      drain
+    quadrant_breakdown:
+      moare:
+        count: 7
+        percentage: 58
+        key_examples:
+        - 'Profitable public company: $8.4B revenue (16% YoY), 30% operating margin,
+          $5B net cash, $421M free cash flow'
+        - 98% gross revenue retention, $24.6B subscription backlog, 11K+ customers
+          including 50% Fortune 500
+      sparingly:
+        count: 4
+        percentage: 42
+        key_examples:
+        - Three rounds of layoffs in three years (Jan 2023, Feb 2025, likely Nov 2025)
+        - Active headcount migration from Dublin to Chennai for cost arbitrage
+      burnout:
+        count: 0
+        percentage: 0
+        key_examples: []
+      help_mentoring:
+        count: 0
+        percentage: 0
+        key_examples: []

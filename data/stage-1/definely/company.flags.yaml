@@ -1,6 +1,6 @@
 company: Definely
 company_slug: definely
-evaluation_date: '2025-10-12'
+evaluation_date: '2025-11-09'
 evaluator_context: Extracted from conversation notes
 green_flags:
   mountain_range:
@@ -19,8 +19,7 @@ green_flags:
       impact: Customer validation through actual usage at prestigious firms, not just
         funding rounds
       confidence: High - explicit client list
-    - flag: "Tech stack evolved from .NET/RegEx \u2192 Python/ML/AI with multi-agent\
-        \ systems"
+    - flag: Tech stack evolved from .NET/RegEx → Python/ML/AI with multi-agent systems
       impact: Company actively modernizes and doesn't cling to legacy - willingness
         to evolve
       confidence: High - explicit from Artificial Lawyer interview
@@ -50,6 +49,109 @@ green_flags:
     - flag: Building multi-agent AI systems for complex legal reasoning
       impact: Resume-worthy technical challenges, not CRUD apps
       confidence: High - product descriptions and architecture
+    - flag: 'Strong revenue trajectory: nearly tripled ARR in 2024, 1,217% growth
+        2019-2023, ranked 23rd in Deloitte UK Tech Fast 50'
+      impact: Indicates product-market fit and sustainable business model, reducing
+        financial anxiety risk
+      confidence: High - explicit from Deloitte and press releases
+      task_implications:
+      - task: Building features for validated market need
+        time_estimate_pct: 25-30%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: moderate
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_glue_work: false
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: moderate
+          requires_sync_communication: true
+          timezone_spread: narrow
+        notes: Working on features customers are paying for reduces misalignment drain
+    - flag: Native Microsoft Word integration via Office.js - key differentiator vs
+        competitors requiring separate platforms
+      impact: Clear technical focus and competitive moat, suggests disciplined architectural
+        decisions
+      confidence: High - explicit from Tech Funding News and product docs
+      task_implications:
+      - task: Deep integration work with Office.js ecosystem
+        time_estimate_pct: 20-25%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: high
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_glue_work: false
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: narrow
+        notes: New tech stack (Office.js) but clear direction reduces misalignment
+    - flag: Zero layoffs or restructuring 2020-2025 despite 5-year history
+      impact: Eliminates major energy drain (financial anxiety, reorg overhead, manager
+        churn)
+      confidence: High - comprehensive news search found none
+      task_implications:
+      - task: Normal work without layoff anxiety or reorg overhead
+        time_estimate_pct: 0%
+        characteristics:
+          conflict_exposure: none
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: moderate
+          learning_required: none
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: false
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: solo
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: co_located
+        notes: Absence of defensive overhead - baseline normal state
+    - flag: 'Cutting-edge AI/ML domain: Multi-agent systems, Model Context Protocol,
+        RAG architecture, experience with Azure OpenAI, AWS Bedrock'
+      impact: Directly aligns with growth areas (multi-agent orchestration, AI-augmented
+        workflows), strong resume value
+      confidence: High - explicit from job postings and interviews
+      task_implications:
+      - task: Learning and applying cutting-edge AI/ML techniques
+        time_estimate_pct: 10-15%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: high
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_glue_work: false
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: solo
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: co_located
+        notes: High learning investment but energizing (growth area)
     strong_positives: &id002
     - flag: $30M Series B in June 2025 with top-tier investors (Revaia, Microsoft
         M12)
@@ -60,10 +162,10 @@ green_flags:
     - flag: '1,217% growth over 4 years, Deloitte Fast 50 #23'
       impact: Market validation and momentum - not fighting uphill battle
       confidence: High - third-party award verification
-    - flag: "40% growth (60\u219284 employees) over 13 months"
+    - flag: 40% growth (60→84 employees) over 13 months
       impact: Controlled expansion, not hyper-growth chaos
       confidence: High - press release data
-    - flag: "Dedicated Head of AI (Sigurj\xF3n \xCDsaksson) leading multi-agent development"
+    - flag: Dedicated Head of AI (Sigurjón Ísaksson) leading multi-agent development
       impact: AI treated as strategic, not just marketing buzzword - real investment
       confidence: High - org chart and product details
     - flag: Uses 'best LLM for each task' approach - pragmatic not dogmatic
@@ -99,6 +201,335 @@ green_flags:
     - flag: Sifted 100 UK&Ireland 2025, Deloitte Fast 50
       impact: Industry recognition and resume credibility
       confidence: High - explicit awards
+    - flag: 'Well-capitalized: $30M Series B (June 2025) led by Revaia, total $40M
+        raised'
+      impact: 18+ month runway likely, reduces financial anxiety and layoff risk
+      confidence: High - explicit from press releases
+      task_implications:
+      - task: Normal product development without emergency pivots
+        time_estimate_pct: 0%
+        characteristics:
+          conflict_exposure: none
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: moderate
+          learning_required: none
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: false
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: solo
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: co_located
+        notes: Absence of financial crisis means no time wasted on survival mode -
+          this is 'normal' baseline
+    - flag: 'Blue-chip customer base: 100+ clients including Magic Circle firms (A&O
+        Shearman, Slaughter and May), Fortune 500 (BT, Deloitte, Barclays), 40,000
+        active users'
+      impact: Enterprise validation reduces risk of sudden market shifts
+      confidence: High - explicit from press releases
+      task_implications:
+      - task: Enterprise customer requirements gathering and feature prioritization
+        time_estimate_pct: 5-10%
+        characteristics:
+          conflict_exposure: moderate
+          alignment_clarity: moderate
+          authority_ambiguity: moderate
+          progress_visibility: moderate
+          autonomy_level: low
+          decision_speed: slow
+          learning_required: low
+          uses_systems_thinking: true
+          uses_tool_building: false
+          uses_glue_work: true
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: true
+          collaboration_type: cross_team
+          meeting_intensity: moderate
+          requires_sync_communication: true
+          timezone_spread: narrow
+        notes: Enterprise customers mean more coordination but also more stability
+    - flag: 'Capital efficient: Pre-profitable with ~100 people on just $11M before
+        Series B'
+      impact: Suggests disciplined execution and reduced burn rate pressure
+      confidence: High - CEO statement in Legal IT Insider
+      task_implications:
+      - task: Building features with resource constraints
+        time_estimate_pct: 0%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: none
+          uses_systems_thinking: true
+          uses_tool_building: false
+          uses_glue_work: false
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: co_located
+        notes: Efficiency culture is baseline - no extra time overhead
+    - flag: 'Modern AI/ML tech stack: Python/ML/AI, MCP, SLMs, LLMs, GPUs; uses RAG
+        + multi-agent AI (Enhance)'
+      impact: Cutting-edge tech matches growth area interests (multi-agent orchestration,
+        AI-augmented workflows)
+      confidence: High - explicit from job postings and Artificial Lawyer interviews
+      task_implications:
+      - task: Multi-agent AI system development and orchestration
+        time_estimate_pct: 15-20%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: moderate
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_glue_work: false
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: narrow
+        notes: Directly aligns with growth areas, energizing work
+    - flag: 'Comprehensive engineering practices: Agile, TeamCity CI, Octopus Deploy,
+        comprehensive QA (acceptance, integration, UI/UX, performance, security testing)'
+      impact: Mature engineering processes reduce coordination overhead and technical
+        debt
+      confidence: High - explicit from job postings
+      task_implications:
+      - task: Participating in code review and CI/CD pipeline maintenance
+        time_estimate_pct: 5-10%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: low
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_infrastructure_automation: true
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: narrow
+        notes: Standard engineering hygiene, matches infrastructure automation strength
+    - flag: 'Stable co-founders with domain expertise: 8 years tenure, ex-Freshfields
+        lawyers who understand the problem space'
+      impact: Reduces risk of strategic thrashing and vision changes
+      confidence: High - explicit from multiple press releases
+      task_implications:
+      - task: Building features with stable product vision
+        time_estimate_pct: 0%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: none
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: false
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: narrow
+        notes: Stable vision is baseline - no extra time overhead
+    - flag: 'Complete C-suite and department heads in place: CTO, CFO, COO, CRO, heads
+        of Product, Marketing, Customer Success, AI, People'
+      impact: Organizational maturity reduces authority ambiguity and coordination
+        overhead
+      confidence: High - explicit from website
+      task_implications:
+      - task: Working within clear organizational structure
+        time_estimate_pct: 0%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: none
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: false
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: narrow
+        notes: Clear structure is baseline - no extra time overhead
+    - flag: 'Positive employee sentiment: Glassdoor 4.1/5 (19 reviews), 84% recommend
+        to friend, 93% positive outlook'
+      impact: Indicates healthy culture and reduces interpersonal conflict risk
+      confidence: High - explicit from Glassdoor
+      task_implications:
+      - task: Normal team collaboration without toxic dynamics
+        time_estimate_pct: 0%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: none
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: true
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: moderate
+          requires_sync_communication: false
+          timezone_spread: narrow
+        notes: Positive culture is baseline - absence of toxic overhead
+    - flag: 'Hybrid work: London HQ, 2-3 days/week office (optional more), with flexibility
+        noted in reviews'
+      impact: Balances collaboration and focus time, supports maker schedule
+      confidence: High - explicit from careers page
+      task_implications:
+      - task: Managing hybrid schedule and context switching
+        time_estimate_pct: 5%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: moderate
+          autonomy_level: high
+          decision_speed: moderate
+          learning_required: none
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: false
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: solo
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: co_located
+        notes: Some overhead for commute and context switching
+    - flag: 'Strong benefits: 25 days holiday + bank holidays, pension, Vitality healthcare,
+        enhanced parental leave'
+      impact: Supports work-life balance and reduces financial stress
+      confidence: High - explicit from job postings
+      task_implications:
+      - task: Normal work with adequate rest and recovery
+        time_estimate_pct: 0%
+        characteristics:
+          conflict_exposure: none
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: moderate
+          learning_required: none
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: false
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: solo
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: co_located
+        notes: Good benefits are baseline - no extra time overhead
+    - flag: Employee reviews note flexible work-life balance, career development,
+        monthly social events
+      impact: Supports sustainable pace and team building
+      confidence: Medium - inferred from Glassdoor reviews
+      task_implications:
+      - task: Participating in team social activities
+        time_estimate_pct: 3-5%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: low
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: none
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: true
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: moderate
+          requires_sync_communication: true
+          timezone_spread: co_located
+        notes: Monthly social events build culture, modest time investment
+    - flag: 'Microsoft partnership: M12-backed, Office.js integration, available on
+        AppSource'
+      impact: Big tech validation adds resume credibility and technical exposure
+      confidence: High - explicit from multiple sources
+      task_implications:
+      - task: Working with Microsoft partnership and ecosystem
+        time_estimate_pct: 5%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: moderate
+          progress_visibility: moderate
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: moderate
+          uses_systems_thinking: true
+          uses_tool_building: false
+          uses_glue_work: true
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: cross_team
+          meeting_intensity: moderate
+          requires_sync_communication: true
+          timezone_spread: narrow
+        notes: Partnership coordination adds some overhead but good resume signal
+    - flag: 'Rapid innovation: Launched Cascade (Aug 2025) showing 3 levels of contract
+        change impact, evolving from .NET to Python/ML/AI'
+      impact: Fast-moving product development provides learning opportunities
+      confidence: High - explicit from CB Insights and Artificial Lawyer
+      task_implications:
+      - task: Building and shipping new product features
+        time_estimate_pct: 0%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: moderate
+          decision_speed: fast
+          learning_required: moderate
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_glue_work: false
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: moderate
+          requires_sync_communication: true
+          timezone_spread: narrow
+        notes: Innovation is part of productive work (green time), not overhead
   chosen_peak:
     critical_matches: *id001
     strong_positives: *id002
@@ -168,6 +599,182 @@ red_flags:
     - flag: No information on on-call rotation or incident response expectations
       impact: Unknown if working at frontier AI means always-on firefighting
       confidence: High - explicit missing data
+    - flag: Pre-profitable status despite 5 years operation and $40M raised
+      impact: Could face pressure for profitability if growth slows or next round
+        delayed
+      confidence: High - CEO statement 'pre-profitable'
+      task_implications:
+      - task: Working under profitability pressure
+        time_estimate_pct: 5%
+        characteristics:
+          conflict_exposure: moderate
+          alignment_clarity: moderate
+          authority_ambiguity: low
+          progress_visibility: moderate
+          autonomy_level: low
+          decision_speed: moderate
+          learning_required: none
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: false
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: moderate
+          requires_sync_communication: true
+          timezone_spread: narrow
+        notes: Some pressure to prove ROI on features, modest misalignment risk
+    - flag: No public GitHub, engineering blog, conference talks, or API docs
+      impact: Limited external technical visibility and community engagement, may
+        indicate closed culture
+      confidence: High - comprehensive search found none
+      task_implications:
+      - task: Working in closed-source environment without external validation
+        time_estimate_pct: 0%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: moderate
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: none
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: false
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: narrow
+        notes: Limits resume building but not a direct time drain
+    - flag: Some reviews note 'sink or swim' startup intensity, unannounced deadlines,
+        critical issues needing immediate attention
+      impact: Could indicate periods of high stress and reactive work, risk of conflict
+        exposure during crises
+      confidence: Medium - mentioned in multiple Glassdoor reviews but balanced by
+        positive sentiment
+      task_implications:
+      - task: Firefighting and handling urgent production issues
+        time_estimate_pct: 10%
+        characteristics:
+          conflict_exposure: moderate
+          alignment_clarity: moderate
+          authority_ambiguity: moderate
+          progress_visibility: low
+          autonomy_level: low
+          decision_speed: fast
+          learning_required: low
+          uses_systems_thinking: true
+          uses_tool_building: false
+          uses_glue_work: true
+          uses_infrastructure_automation: true
+          uses_decision_frameworks: false
+          collaboration_type: cross_team
+          meeting_intensity: high
+          requires_sync_communication: true
+          timezone_spread: narrow
+        notes: Startup intensity creates reactive overhead, some conflict exposure
+    - flag: Rapid growth (60 to 100+ employees in ~15 months) could strain culture
+        and processes
+      impact: Growing pains may create coordination overhead and temporary misalignment
+      confidence: Medium - inferred from headcount growth data
+      task_implications:
+      - task: Onboarding new team members and scaling processes
+        time_estimate_pct: 5-10%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: moderate
+          authority_ambiguity: moderate
+          progress_visibility: low
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: low
+          uses_systems_thinking: true
+          uses_tool_building: false
+          uses_glue_work: true
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: true
+          collaboration_type: cross_team
+          meeting_intensity: moderate
+          requires_sync_communication: true
+          timezone_spread: narrow
+        notes: Growth creates coordination overhead, classic yellow (coordination)
+          work
+    - flag: London-based with 2-3 days/week in office requirement
+      impact: Geographic constraint requires relocation or excludes remote-first candidates
+      confidence: High - explicit from careers page
+      task_implications:
+      - task: Commuting to London office 2-3 days/week
+        time_estimate_pct: 0%
+        characteristics:
+          conflict_exposure: none
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: moderate
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: none
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: false
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: solo
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: co_located
+        notes: Covered in hybrid work overhead already, not double-counting
+    - flag: No public customer reviews on G2, Capterra, TrustPilot
+      impact: Limited external validation of product quality and customer satisfaction
+      confidence: High - comprehensive search found none
+      task_implications:
+      - task: Building product without public feedback mechanisms
+        time_estimate_pct: 0%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: moderate
+          authority_ambiguity: low
+          progress_visibility: moderate
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: none
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: false
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: narrow
+        notes: No direct time impact, just visibility concern
+    - flag: No equity/compensation details published; pricing ~£75-90/month suggests
+        modest ACV
+      impact: Uncertain upside potential from equity, may indicate limited exit prospects
+      confidence: Medium - inferred from lack of public data and pricing
+      task_implications:
+      - task: Working without clarity on equity upside
+        time_estimate_pct: 2-3%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: moderate
+          authority_ambiguity: low
+          progress_visibility: low
+          autonomy_level: high
+          decision_speed: moderate
+          learning_required: none
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: false
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: solo
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: co_located
+        notes: Financial anxiety drain (moderate severity) from uncertainty
   chosen_peak:
     dealbreakers: *id003
     concerning: *id004
@@ -248,3 +855,61 @@ missing_critical_data:
     fit issues
   how_to_find: Ask about team tenure during interviews, check LinkedIn for ex-employees
   mountain_element: rope_team_confidence
+- question: What is the current ARR and projected path to profitability?
+  why_important: Understand financial runway and pressure for short-term revenue vs
+    long-term quality tradeoffs
+  how_to_find: Insider interview with finance/exec team, or ask during interviews
+  mountain_element: mountain_range
+- question: What is the typical meeting load and maker time percentage for senior
+    engineers?
+  why_important: Critical for evaluating sustainable pace and energy drain (30% meeting
+    intensity tolerance max)
+  how_to_find: Insider interview with current senior engineers, shadow a typical week
+  mountain_element: daily_climb
+- question: How are engineering priorities set and how often do they change?
+  why_important: Assess alignment clarity and decision-making speed to estimate coordination
+    overhead
+  how_to_find: Insider interview with engineering leadership and IC engineers
+  mountain_element: chosen_peak
+- question: What is the team coordination style (alpine/expedition/established/orienteering/trail
+    crew)?
+  why_important: Need to understand if coordination style matches terrain demands
+    (AI/ML = high uncertainty)
+  how_to_find: Insider interview about decision-making, communication patterns, team
+    autonomy
+  mountain_element: chosen_peak
+- question: How does the team handle realignment when direction changes? Examples
+    of pivots?
+  why_important: AI/ML market is volatile - need evidence team can adapt faster than
+    conditions change
+  how_to_find: Insider interview about recent pivots, how quickly team adapted, psychological
+    safety
+  mountain_element: chosen_peak
+- question: What is the customer retention/churn rate and average contract value?
+  why_important: Validates product-market fit strength beyond just revenue growth
+  how_to_find: Insider interview with Customer Success or Sales leadership
+  mountain_element: mountain_range
+- question: What is the engineering team structure (squads, platform teams, ratio
+    of IC to managers)?
+  why_important: Understand reporting structure and span of control to assess authority
+    ambiguity risk
+  how_to_find: Insider interview with engineering leadership or current engineers
+  mountain_element: rope_team_confidence
+- question: How distributed is the engineering team across timezones? What are the
+    core collaboration hours?
+  why_important: Profile requires either async-first OR co-located for uncertain problem
+    spaces; wide timezone + sync-heavy = severe drain
+  how_to_find: Insider interview about team locations and meeting culture
+  mountain_element: daily_climb
+- question: What is the actual compensation range for senior/staff engineers, including
+    equity?
+  why_important: Below-market comp creates financial anxiety drain; equity matters
+    for upside assessment
+  how_to_find: Levels.fyi, Glassdoor, or direct conversation during interview process
+  mountain_element: daily_climb
+- question: What percentage of engineering time goes to new features vs maintenance
+    vs tech debt?
+  why_important: Assess balance of progress work (green energy) vs defensive work
+    (red energy)
+  how_to_find: Insider interview with engineering team, review sprint planning
+  mountain_element: chosen_peak

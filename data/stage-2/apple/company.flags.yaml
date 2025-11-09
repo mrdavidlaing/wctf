@@ -1,544 +1,893 @@
-company: Apple
-evaluation_date: '2025-10-22'
-evaluator_context: Based on public research and insider interview with James Wynne (Staff Engineer, Cloud OS SRE) on 2025-10-22
+company: apple
+evaluation_date: '2025-11-09'
+evaluator_context: Extracted from conversation notes
 green_flags:
   mountain_range:
     critical_matches:
-    - flag: 'Ultimate financial stability: Apple Operations International $222.3B
-        revenue, $17.4B R&D investment, zero layoff risk'
-      impact: Absolute job security and unlimited resources for technology investment
-      confidence: High - RTÉ financial reports
-    - flag: 44+ years continuous Ireland operations, CEO calls Ireland 'truly our
-        second home'
-      impact: Deep long-term commitment, not cost-cutting satellite
-      confidence: High - Company history
+    - flag: Exceptional financial stability - €250M+ Cork investment, $222.3B revenue,
+        no layoffs unlike other tech giants
+      impact: Eliminates financial_anxiety drain, company has 44+ years Ireland track
+        record, 10-year Dublin lease signals long-term commitment
+      confidence: High - Multiple sources (RTE, Irish Times, Apple filings)
+      task_implications:
+      - task: Build infrastructure for iCloud, iTunes, Siri, Maps, Apple Music, TV+,
+          App Store serving millions globally
+        time_estimate_pct: 35%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: low
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_glue_work: false
+          uses_infrastructure_automation: true
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: moderate
+        notes: Core infrastructure work at massive scale, eliminates financial_anxiety,
+          uses systems_thinking + infrastructure_automation expert strengths
+        energy_matrix_quadrant: moare
+    - flag: Exceptional financial stability - €250M+ Cork investment, $222.3B AOI
+        revenue FY2024, no layoffs vs tech industry trend
+      impact: Eliminates financial_anxiety drain (moderate severity per profile),
+        44+ year Ireland track record, 10-year Dublin lease = long-term commitment
+      confidence: High - RTE, Irish Times, Apple filings, Silicon Republic
+      task_implications:
+      - task: Build core infrastructure for Apple Services (iCloud, iTunes, Siri,
+          Maps, Apple Music, TV+, App Store) serving millions globally across 40 countries
+        time_estimate_pct: 35%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: low
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_glue_work: false
+          uses_infrastructure_automation: true
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: moderate
+        notes: Core MOARE work - uses 3 expert strengths (systems_thinking, tool_building,
+          infrastructure_automation), provides visible_progress generator, eliminates
+          financial_anxiety drain
+        energy_matrix_quadrant: moare
     strong_positives:
-    - flag: €250M+ Cork expansion, €60K sq ft new Dublin office with 10-year lease
-      impact: Massive ongoing investment signals strategic commitment to Ireland
-      confidence: High - Silicon Republic
-    - flag: Avoided mass layoffs, only targeted hiring freezes unlike other tech giants
-      impact: Financial discipline without destabilizing workforce
-      confidence: High - Irish Times
-    - flag: 6,000+ Ireland employees, 90+ nationalities, substantial scale and diversity
-      impact: Large technology community with career mobility
-      confidence: High - Apple Careers
+    - flag: 'Tim Cook: Ireland ''incredibly important'' and ''truly our second home'',
+        Liam Donohoe as Country Manager'
+      impact: Executive commitment to Ireland operations provides strategic stability
+      confidence: High - AppleInsider, LinkedIn
+      task_implications:
+      - task: Operate within stable, long-term strategic context for Irish engineering
+          teams
+        time_estimate_pct: 5%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: moderate
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: none
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: false
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: narrow
+        notes: Background context that reduces strategic uncertainty overhead
+        energy_matrix_quadrant: help_mentoring
   chosen_peak:
     critical_matches:
-    - flag: 'Mature engineering practices: Agile, CI/CD, TDD, SRE principles with
-        error budgets and fault analysis'
-      impact: Strong DORA-aligned practices with reliability engineering discipline
-      confidence: High - Job descriptions, validated by insider
-    - flag: 'VALIDATED: DORA metrics are "pretty good", shipping is fairly smooth
-        despite huge fleet requiring long rollout times'
-      impact: Actual engineering velocity confirms CI/CD maturity at scale
-      confidence: High - Insider firsthand (James Wynne, SRE)
-    - flag: 'VALIDATED: Anthropic AI models available via custom Apple tooling, increasing
-        push to use AI'
-      impact: Modern AI coding assistance available, company actively encouraging adoption
-      confidence: High - Insider firsthand (James Wynne)
-    - flag: 'Working on critical Apple services infrastructure: iCloud, App Store,
-        Siri, Maps serving hundreds of millions'
-      impact: Engineering at massive scale with strict quality and reliability requirements
-      confidence: High - Job postings
-    - flag: Apple's engineering culture globally known for high quality bar and technical
-        excellence
-      impact: Technology is core to business, engineering-driven product company
-      confidence: High - Company reputation
-    strong_positives:
     - flag: 'Modern tech stack: Java/Spring, Python, Go, Rust, Swift, Kubernetes,
-        Spark, Kafka, React/TypeScript'
-      impact: Current industry-standard tools enabling modern practices
-      confidence: High - Job postings
-    - flag: SRE principles with error budgets, monitoring, alerting, fault analysis
-        explicitly mentioned
-      impact: Sophisticated reliability engineering aligned with high DORA metrics
-      confidence: High - Job descriptions
-    - flag: Global engineering collaboration with world-class teams in Cupertino,
-        Austin, London, Singapore, Hyderabad
-      impact: Exposure to Apple's engineering excellence and best practices
-      confidence: High - Job descriptions
-    - flag: 'Testing practices: Selenium automation, SOAP testing, manual and automated
-        QA'
-      impact: Quality engineering discipline supports low change failure rates
-      confidence: High - Job postings
-    - flag: Cloud infrastructure on GCP and Azure shows multi-cloud expertise
-      impact: Modern cloud-native architecture
-      confidence: High - Job postings
+        Spark, Kafka, NoSQL, React, TypeScript'
+      impact: Matches infrastructure_automation and tool_building expert strengths,
+        includes growth area technologies
+      confidence: High - Apple Careers, Indeed, Glassdoor job postings
+      task_implications:
+      - task: Design K8s operators and distributed systems using Python/Go for Apple
+          services infrastructure
+        time_estimate_pct: 25%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: low
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_glue_work: false
+          uses_infrastructure_automation: true
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: moderate
+        notes: Uses expert strengths (systems_thinking, tool_building, infrastructure_automation),
+          visible_progress generator
+        energy_matrix_quadrant: moare
+    - flag: 'Strong engineering practices: Agile, CI/CD, TDD, SRE principles (monitoring,
+        alerting, error budgets)'
+      impact: Structured_processes preference satisfied, decision frameworks prevent
+        conflict
+      confidence: High - Apple Careers job descriptions
+      task_implications:
+      - task: Implement SRE practices with monitoring, error budgets, fault analysis
+          for Apple services
+        time_estimate_pct: 15%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: none
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_glue_work: false
+          uses_infrastructure_automation: true
+          uses_decision_frameworks: true
+          collaboration_type: team
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: narrow
+        notes: Uses decision_frameworks strength, structured_processes generator,
+          visible_progress generator
+        energy_matrix_quadrant: moare
+    - flag: 'Modern tech stack matches expert strengths: Python, Go, Rust, Kubernetes,
+        Spark, Kafka, NoSQL + strong practices (Agile, CI/CD, TDD, SRE)'
+      impact: Direct alignment with infrastructure_automation and tool_building expert
+        strengths, structured_processes preference satisfied
+      confidence: High - Apple Careers, Indeed, Glassdoor job postings
+      task_implications:
+      - task: Design Kubernetes operators and distributed data systems (Spark, Kafka)
+          for Apple services platform
+        time_estimate_pct: 25%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: low
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_glue_work: false
+          uses_infrastructure_automation: true
+          uses_decision_frameworks: true
+          collaboration_type: team
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: moderate
+        notes: Core MOARE work - uses 4 expert strengths including decision_frameworks
+          (SRE practices), visible_progress and tool_building generators
+        energy_matrix_quadrant: moare
+    strong_positives:
+    - flag: 'Global team collaboration: Cupertino, Austin, London, Singapore, Hyderabad,
+        Dublin'
+      impact: Exposure to multiple engineering cultures, cross-timezone coordination
+        experience
+      confidence: High - Apple Careers
+      task_implications:
+      - task: Coordinate with global engineering teams across 4-5 time zones
+        time_estimate_pct: 10%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: moderate
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: low
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: true
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: cross_team
+          meeting_intensity: moderate
+          requires_sync_communication: true
+          timezone_spread: wide
+        notes: Uses glue_work expert strength, aligned_collaboration generator when
+          coordination is clear
+        energy_matrix_quadrant: sparingly
+    - flag: 'Global collaboration with major hubs: Cupertino, Austin, London, Singapore,
+        Hyderabad, Dublin'
+      impact: Exposure to multiple engineering cultures, leverages glue_work expert
+        strength for cross-team coordination
+      confidence: High - Apple Careers
+      task_implications:
+      - task: Coordinate infrastructure work across global engineering teams spanning
+          5+ time zones (4-5 days/month cross-timezone work mentioned)
+        time_estimate_pct: 8%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: moderate
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: low
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: true
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: cross_team
+          meeting_intensity: moderate
+          requires_sync_communication: true
+          timezone_spread: wide
+        notes: MOARE work - uses glue_work expert strength, provides aligned_collaboration
+          generator when coordination is clear
+        energy_matrix_quadrant: sparingly
   rope_team_confidence:
     critical_matches: []
     strong_positives:
-    - flag: 44-year track record demonstrates organizational stability and maturity
-      impact: Proven commitment reduces risk of strategic pivots
-      confidence: High - Company history
-    - flag: Staff costs increased $6.7B→$7B+ showing investment in people despite
-        market conditions
-      impact: Company prioritizes retaining engineering talent
-      confidence: High - RTÉ data
-    - flag: Services Engineering (ASE), Online Store Engineering, Ad Platforms, Privacy
-        Engineering teams in Dublin
-      impact: Real engineering ownership of strategic products, not just support
-      confidence: High - Job postings
+    - flag: 'Comprehensive benefits: pension, healthcare, dental, onsite gym (Cork),
+        wellness facilities, Apple stock'
+      impact: Signals mature, employee-focused organization with long-term thinking
+      confidence: High - Indeed, Glassdoor
+      task_implications:
+      - task: Navigate benefits and wellness programs as part of total compensation
+        time_estimate_pct: 2%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: low
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: none
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: false
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: solo
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: co_located
+        notes: Minimal overhead, reduces financial_anxiety drain
+        energy_matrix_quadrant: help_mentoring
+    - flag: 'Comprehensive benefits and strong compensation: 4.2/5 compensation rating,
+        pension, healthcare, dental, wellness, Apple stock'
+      impact: Reinforces financial_anxiety elimination, signals mature employee-focused
+        organization
+      confidence: High - Glassdoor, Indeed
+      task_implications:
+      - task: Minimal overhead for benefits navigation within well-established programs
+        time_estimate_pct: 2%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: low
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: none
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: false
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: solo
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: co_located
+        notes: MOARE work - minimal overhead task that enables focus, strengthens
+          financial_anxiety elimination
+        energy_matrix_quadrant: help_mentoring
   daily_climb:
     critical_matches:
-    - flag: 'VALIDATED: Hybrid Tue/Wed/Thu in office, flexible timeshifting allowed
-        (morning office, home lunch, 4pm-8pm)'
-      impact: Reasonable office requirement with actual flexibility in practice
-      confidence: High - Insider firsthand (James Wynne)
-    - flag: 'VALIDATED: Compensation is good (base + equity) with great benefits'
-      impact: Total comp competitive and attractive
-      confidence: High - Insider firsthand (James Wynne)
+    - flag: 'Strong compensation rating: 4.2/5 stars on Glassdoor'
+      impact: Eliminates below-market compensation drain, reduces financial_anxiety
+      confidence: High - Glassdoor
+      task_implications:
+      - task: Focus on engineering work without compensation concerns
+        time_estimate_pct: 0%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: none
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: false
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: solo
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: co_located
+        notes: Eliminates financial_anxiety drain, no time overhead (absence of drain)
+        energy_matrix_quadrant: help_mentoring
     strong_positives:
-    - flag: 'Compensation rated 4.2/5 in Dublin, comprehensive benefits: pension,
-        healthcare, dental, gym, Apple stock'
-      impact: Strong total comp package competitive with market
-      confidence: High - Glassdoor, validated by insider
-    - flag: 700 remote employees out of 6,000 Ireland (largest remote % of Irish tech
-        companies)
-      impact: Company supports remote work more than competitors
+    - flag: 700+ of 6,000 Ireland employees remote (largest remote % of any Irish
+        tech company)
+      impact: Remote-first culture compatibility, timezone flexibility tolerated
       confidence: High - Wikipedia
-    - flag: Dublin office focusing on senior engineering roles per job ads
-      impact: Appropriate level for 25-year staff engineer
-      confidence: Medium - Business Post
+      task_implications:
+      - task: Work remotely with flexible timezone within hybrid model constraints
+        time_estimate_pct: 5%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: none
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: false
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: solo
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: narrow
+        notes: Matches async_work_capability strength and timezone_flexibility need
+        energy_matrix_quadrant: help_mentoring
+    - flag: 'Strong remote culture: 700+ of 6,000 Ireland employees remote (highest
+        % of Irish tech companies)'
+      impact: Matches async_work_capability (strong per profile) and timezone_flexibility
+        (6 hours) despite hybrid requirement
+      confidence: High - Wikipedia
+      task_implications:
+      - task: Work within flexible remote arrangement while meeting hybrid obligations
+        time_estimate_pct: 3%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: none
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: false
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: solo
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: narrow
+        notes: MOARE work - enabler that supports async_work_capability strength
+        energy_matrix_quadrant: help_mentoring
   story_worth_telling:
     critical_matches:
-    - flag: 'Working on infrastructure for services used by billions globally: iCloud,
-        App Store, Maps, Siri'
-      impact: Unmatched scale and resume value from Apple infrastructure engineering
-      confidence: High - Job postings
+    - flag: 'Core infrastructure for billion-user services: iCloud, Siri, Maps, Apple
+        Music, TV+, App Store serving 40 countries'
+      impact: Massive scale experience, global impact, strong resume value
+      confidence: High - Apple Jobs Ireland
+      task_implications:
+      - task: Design systems handling billions of users across critical Apple services
+        time_estimate_pct: 30%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: moderate
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_glue_work: false
+          uses_infrastructure_automation: true
+          uses_decision_frameworks: true
+          collaboration_type: team
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: moderate
+        notes: Uses expert strengths, visible_progress generator, tool_building generator,
+          strong career story
+        energy_matrix_quadrant: moare
+    - flag: 'Massive scale impact: Infrastructure for billion+ user services (iCloud,
+        Siri, Maps, Apple Music, TV+, App Store) across 40 countries'
+      impact: Strong resume value, global impact, leverages systems_thinking expert
+        strength at unprecedented scale
+      confidence: High - Apple Jobs Ireland
+      task_implications:
+      - task: Design and operate systems handling billions of requests for critical
+          Apple consumer services
+        time_estimate_pct: 20%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: moderate
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_glue_work: false
+          uses_infrastructure_automation: true
+          uses_decision_frameworks: true
+          collaboration_type: team
+          meeting_intensity: moderate
+          requires_sync_communication: false
+          timezone_spread: moderate
+        notes: MOARE work - uses 4 expert strengths, provides visible_progress and
+          tool_building core need generators, strong career story
+        energy_matrix_quadrant: moare
     strong_positives:
-    - flag: Apple brand is gold-standard resume credential, opens doors across tech
-        industry
-      impact: Career accelerator with exceptional industry recognition
-      confidence: High - Brand reputation
-    - flag: Exposure to Apple's world-class engineering practices and global team
-        collaboration
-      impact: Learn from industry-leading engineering organization
-      confidence: High - Company reputation
+    - flag: Cork manufactures iMacs for EMEIA - Apple's only self-operated manufacturing
+        plant globally
+      impact: Unique exposure to hardware-software integration, manufacturing engineering
+      confidence: High - Apple Job Creation, Wikipedia
+      task_implications:
+      - task: Potential collaboration with Cork manufacturing operations on hardware-software
+          integration
+        time_estimate_pct: 5%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: moderate
+          progress_visibility: moderate
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: moderate
+          uses_systems_thinking: true
+          uses_tool_building: false
+          uses_glue_work: true
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: cross_team
+          meeting_intensity: moderate
+          requires_sync_communication: true
+          timezone_spread: narrow
+        notes: Learning opportunity outside typical software-only experience
+        energy_matrix_quadrant: sparingly
 red_flags:
   mountain_range:
     dealbreakers: []
-    concerning:
-    - flag: 'INSIDER: Dublin team only 6 months old, still finding "area of excellence/ownership"'
-      impact: Team immature, unclear product ownership, organizational uncertainty
-      confidence: High - Insider firsthand (James Wynne)
+    concerning: []
   chosen_peak:
     dealbreakers: []
     concerning:
-    - flag: 'INSIDER: Highly siloed teams, no official org chart, chaotic cross-team
-        coordination (intentionally designed chaos)'
-      impact: '"Just a cog in big machine" - limited visibility, difficult collaboration,
-        fragmented ownership'
-      confidence: High - Insider firsthand (James Wynne, biggest frustration)
-    - flag: 'INSIDER: High secrecy is barrier to cross-team discussion, information
-        gated by "code level" clearance'
-      impact: Cannot discuss work across teams, severely limits learning and collaboration
-      confidence: High - Insider firsthand (James Wynne)
-    - flag: 'INSIDER: Culture favors "myopic technical nerdery" with deep specialization
-        over breadth'
-      impact: Limited cross-functional impact, narrow scope of influence, may not
-        suit generalist senior engineers
-      confidence: High - Insider firsthand (James Wynne, cultural mismatch)
-    - flag: RESOLVED - AI tools available (Anthropic via Apple tooling)
-      impact: Concern addressed by insider validation
-      confidence: High - Insider firsthand (James Wynne)
-    - flag: No public DORA metrics or deployment frequency data
-      impact: Unknown actual velocity despite CI/CD mentions - Apple is very secretive
-      confidence: Medium - Company secrecy
-    - flag: No evidence of engineering blog, conference talks, or open source contributions
-        from Dublin teams
-      impact: Limited public technical work suggests closed culture environment
-      confidence: High - Absence from research
-    - flag: No patents or public technical work attributed to Dublin engineering teams
-      impact: Limited visibility into technical innovation vs operational support
-        work
-      confidence: Medium - Absence from research
+    - flag: 'Unclear reporting structure: Dublin to Cork European HQ or independent?'
+      impact: Authority_ambiguity potential, could trigger latent conflict drain
+      confidence: High - Explicitly noted as missing information
+      task_implications:
+      - task: Navigate unclear organizational boundaries between Dublin and Cork operations
+        time_estimate_pct: 8%
+        characteristics:
+          conflict_exposure: moderate
+          alignment_clarity: moderate
+          authority_ambiguity: moderate
+          progress_visibility: moderate
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: low
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: true
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: true
+          collaboration_type: cross_team
+          meeting_intensity: moderate
+          requires_sync_communication: true
+          timezone_spread: narrow
+        notes: Authority_ambiguity moderate drain trigger, uses glue_work and decision_frameworks
+          to mitigate
+        energy_matrix_quadrant: sparingly
+    - flag: 'Unclear reporting structure: Dublin to Cork European HQ or independent?
+        Explicit gap in research'
+      impact: Authority_ambiguity moderate drain trigger per profile - latent conflict
+        risk, needs clarification before accepting
+      confidence: High - Explicitly noted as missing information in research
+      task_implications:
+      - task: Navigate unclear organizational boundaries between Dublin startup and
+          Cork established HQ (6,000+ employees)
+        time_estimate_pct: 10%
+        characteristics:
+          conflict_exposure: moderate
+          alignment_clarity: moderate
+          authority_ambiguity: moderate
+          progress_visibility: moderate
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: low
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: true
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: true
+          collaboration_type: cross_team
+          meeting_intensity: moderate
+          requires_sync_communication: true
+          timezone_spread: narrow
+        notes: SPARINGLY work - authority_ambiguity moderate drain, but uses glue_work
+          + decision_frameworks expert strengths to mitigate
+        energy_matrix_quadrant: sparingly
   rope_team_confidence:
     dealbreakers: []
     concerning:
-    - flag: 'INSIDER: Dublin team playing catchup to US West Coast decisions, information
-        arrives "in fits and spurts like buses"'
-      impact: Satellite office with no decision authority, reactive not proactive,
-        second-class team status
-      confidence: High - Insider firsthand (James Wynne, current frustration)
-    - flag: 'VALIDATED: Dublin Glassdoor 3.7/5 (vs 4.3 global), 62% recommend vs
-        79% globally - insider confirms cultural issues'
-      impact: Dublin office has notably worse sentiment than global Apple - local
-        team dysfunction confirmed
-      confidence: High - Glassdoor + Insider validation
-    - flag: Work-life balance rated 3.6/5, culture 3.7/5 in Dublin - mediocre
-      impact: Local culture may have issues despite global Apple excellence
-      confidence: Medium - Glassdoor
-    - flag: No identified Dublin technical leadership beyond Country Manager
-      impact: Engineering leadership may be distant US-based
-      confidence: Medium - Org chart absence
-    - flag: LeetCode-focused interview process may not assess staff-level system design
-        skills
-      impact: Interview may not respect 25 years experience
-      confidence: Medium - Glassdoor reviews
+    - flag: 'Lower employee satisfaction: 3.7/5 Dublin vs higher global Apple average,
+        only 62% recommend vs 79% globally'
+      impact: Signals potential organizational_stability issues specific to Dublin
+        office, new office culture not yet established
+      confidence: High - Glassdoor
+      task_implications:
+      - task: Navigate less mature Dublin culture vs established Cork operations,
+          build trust with new team
+        time_estimate_pct: 10%
+        characteristics:
+          conflict_exposure: moderate
+          alignment_clarity: moderate
+          authority_ambiguity: moderate
+          progress_visibility: low
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: low
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: true
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: moderate
+          requires_sync_communication: true
+          timezone_spread: narrow
+        notes: New office = less established culture, uses glue_work strength to build
+          team cohesion
+        energy_matrix_quadrant: sparingly
+    - flag: Limited promotion opportunities mentioned in reviews (temporary rotations
+        required)
+      impact: Career progression may require relocating to other Apple sites
+      confidence: Medium - Mentioned in concerns section
+      task_implications:
+      - task: Manage career advancement expectations within Dublin constraints
+        time_estimate_pct: 5%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: moderate
+          authority_ambiguity: low
+          progress_visibility: moderate
+          autonomy_level: moderate
+          decision_speed: slow
+          learning_required: none
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: false
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: solo
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: narrow
+        notes: Career planning overhead, decision_speed slow due to organizational
+          constraints
+        energy_matrix_quadrant: burnout
+    - flag: 'Lower Dublin satisfaction vs global Apple: 3.7/5 vs higher global, 62%
+        recommend vs 79% globally'
+      impact: Signals Dublin-specific issues not visible in public research - interpersonal_conflict
+        risk (severe drain per profile if team conflicts), needs insider validation
+      confidence: High - Glassdoor
+      task_implications:
+      - task: Navigate less mature Dublin office culture (new 2024 office) vs established
+          Cork HQ, build relationships in forming team
+        time_estimate_pct: 12%
+        characteristics:
+          conflict_exposure: moderate
+          alignment_clarity: moderate
+          authority_ambiguity: moderate
+          progress_visibility: low
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: low
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: true
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: moderate
+          requires_sync_communication: true
+          timezone_spread: narrow
+        notes: SPARINGLY work - new office culture forming, uses glue_work strength
+          but lower satisfaction is RED FLAG needing investigation
+        energy_matrix_quadrant: sparingly
+    - flag: Limited promotion opportunities mentioned, temporary rotations required
+        for advancement
+      impact: Career progression constraints in Dublin site, may require relocation
+        to Cork/US for staff+ growth
+      confidence: Medium - Mentioned in concerns section of research
+      task_implications:
+      - task: Manage career expectations and plan progression within Dublin satellite
+          constraints
+        time_estimate_pct: 5%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: moderate
+          authority_ambiguity: low
+          progress_visibility: moderate
+          autonomy_level: moderate
+          decision_speed: slow
+          learning_required: none
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: false
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: solo
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: narrow
+        notes: SPARINGLY work - career planning overhead, slow decision_speed due
+          to organizational constraints
+        energy_matrix_quadrant: burnout
   daily_climb:
     dealbreakers: []
     concerning:
-    - flag: 'INSIDER: Surprisingly strict on Travel & Expenses for business travel'
-      impact: Apple bureaucracy may limit conference attendance and professional development
-        travel
-      confidence: High - Insider firsthand (James Wynne)
-    - flag: Cross-timezone work 4-5 days/month for global collaboration
-      impact: Some off-hours work expected for coordination
-      confidence: High - Job descriptions
-    - flag: Only 11.7% remote (700/6,000) despite being 'largest remote % in Ireland'
-      impact: Still primarily office-centric culture
-      confidence: High - Wikipedia data
-    - flag: Dublin office new/expanding (leased 2024), teams may still be forming
-      impact: Organizational uncertainty and processes still stabilizing
-      confidence: Medium - Recent lease
+    - flag: Hybrid 3 days/week mandatory office attendance (Mon/Tue/Thu typically)
+      impact: Reduces timezone_flexibility, constraints vs fully remote preference
+      confidence: High - FlexOS
+      task_implications:
+      - task: Commute to Dublin office 3 days/week, coordinate schedules around mandatory
+          in-office days
+        time_estimate_pct: 10%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: low
+          autonomy_level: low
+          decision_speed: slow
+          learning_required: none
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: false
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: moderate
+          requires_sync_communication: true
+          timezone_spread: co_located
+        notes: Time overhead for commute and schedule constraints, low autonomy on
+          work location
+        energy_matrix_quadrant: help_mentoring
+    - flag: Strict rules and policies cited as negatives in reviews
+      impact: May conflict with autonomy_level preferences, potential friction
+      confidence: Medium - Mentioned in concerns section
+      task_implications:
+      - task: Navigate corporate policies and approval processes for technical decisions
+        time_estimate_pct: 8%
+        characteristics:
+          conflict_exposure: moderate
+          alignment_clarity: moderate
+          authority_ambiguity: moderate
+          progress_visibility: low
+          autonomy_level: low
+          decision_speed: slow
+          learning_required: low
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: false
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: true
+          collaboration_type: cross_team
+          meeting_intensity: moderate
+          requires_sync_communication: true
+          timezone_spread: narrow
+        notes: Low autonomy, slow decisions due to policy overhead, uses decision_frameworks
+          to navigate
+        energy_matrix_quadrant: burnout
+    - flag: Work-life balance rated 3.6/5 - moderate satisfaction
+      impact: Potential for maker time constraints, meeting load unclear
+      confidence: High - Glassdoor
+      task_implications:
+      - task: Manage work-life boundaries within Apple's expectations and culture
+        time_estimate_pct: 5%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: moderate
+          authority_ambiguity: low
+          progress_visibility: low
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: none
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: false
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: solo
+          meeting_intensity: moderate
+          requires_sync_communication: false
+          timezone_spread: narrow
+        notes: Boundary-setting overhead to maintain sustainability
+        energy_matrix_quadrant: burnout
+    - flag: Mandatory hybrid 3 days/week (Mon/Tue/Thu typically) despite strong remote
+        culture
+      impact: Reduces timezone_flexibility, commute overhead, constraints vs async_work_capability
+        preference
+      confidence: High - FlexOS
+      task_implications:
+      - task: Commute to Dublin office 3 days/week, coordinate maker time around mandatory
+          in-office schedule
+        time_estimate_pct: 12%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: low
+          autonomy_level: low
+          decision_speed: slow
+          learning_required: none
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: false
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: moderate
+          requires_sync_communication: true
+          timezone_spread: co_located
+        notes: SPARINGLY work - commute overhead, low autonomy on location, reduces
+          async_work_capability advantage
+        energy_matrix_quadrant: help_mentoring
+    - flag: Strict rules and policies cited as negatives, work-life balance 3.6/5
+      impact: Low autonomy in decision-making, potential meeting load concerns (max_pct
+        30% per profile)
+      confidence: Medium - Glassdoor reviews mention strict policies, 3.6/5 WLB rating
+      task_implications:
+      - task: Navigate corporate approval processes and policy compliance for technical
+          decisions
+        time_estimate_pct: 10%
+        characteristics:
+          conflict_exposure: moderate
+          alignment_clarity: moderate
+          authority_ambiguity: moderate
+          progress_visibility: low
+          autonomy_level: low
+          decision_speed: slow
+          learning_required: low
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: false
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: true
+          collaboration_type: cross_team
+          meeting_intensity: moderate
+          requires_sync_communication: true
+          timezone_spread: narrow
+        notes: SPARINGLY work - low autonomy, slow decisions, but uses decision_frameworks
+          strength to navigate. Could become BURNOUT if combined with team conflict
+        energy_matrix_quadrant: burnout
   story_worth_telling:
     dealbreakers: []
-    concerning:
-    - flag: 'INSIDER: Limited scope of impact - hardware specialist solving one problem
-        vs software solving class of problems'
-      impact: Narrow specialization limits career growth and cross-functional influence
-      confidence: High - Insider firsthand (James Wynne wished he liked software
-        more)
-    - flag: 'VALIDATED: Dublin teams support US-led development, not end-to-end product
-        ownership'
-      impact: Lack of autonomy, supporting Cupertino decisions, satellite office
-        confirmed
-      confidence: High - Insider firsthand (James Wynne, catchup dynamics)
-    - flag: 'INSIDER: Career progression likely requires office relocation; Staff/Team
-        Lead may be Dublin ceiling'
-      impact: Limited advancement path without moving to US, IC track caps at Staff
-        level
-      confidence: High - Insider hypothesis (James Wynne)
-    - flag: Technical interviews focused on LeetCode, SQL, algorithms suggests junior-level
-        assessment approach
-      impact: Interview process may not respect 25 years of experience or assess staff-level
-        skills
-      confidence: Medium - Glassdoor interview reviews
-task_implications:
-  description: "Daily work at Apple Dublin based on facts, flags, and insider interview with James Wynne (Staff Engineer, Cloud OS SRE, 2025-10-22)"
-  tasks:
-    - name: "Working in highly siloed environment"
-      time_estimate_pct: 35
-      time_estimate_range: "30-40%"
-      time_estimate_notes: "Intentionally designed silos pervade all work"
-      conflict_exposure: "high"
-      progress_visibility: "low"
-      autonomy_level: "low"
-      cross_team_collaboration: "blocked"
-      decision_authority: "low"
-      technical_depth_required: "high"
-      skill_alignment:
-        matches_strengths: ["systems_thinking"]
-        blocks_strengths: ["glue_work", "decision_frameworks"]
-        matches_growth_areas: []
-      energy_drains_triggered:
-        - drain: "authority_ambiguity"
-          severity: "moderate"
-          why: "No official org chart, unclear ownership across teams"
-        - drain: "interpersonal_conflict"
-          severity: "moderate"
-          why: "Latent conflicts from unclear boundaries and blocked collaboration"
-      energy_generators_blocked:
-        - generator: "aligned_collaboration"
-          strength: "strong"
-          why: "Silos and secrecy prevent team alignment"
-        - generator: "structured_processes"
-          strength: "moderate"
-          why: "Chaotic cross-team coordination by design"
-      energy_matrix_quadrant: "burnout"
-      quadrant_reasoning: "Expert at glue_work but environment blocks it. Creates authority ambiguity (moderate drain) and prevents aligned collaboration (strong generator). Low autonomy + high conflict + blocked strengths = burnout."
-
-    - name: "Satellite office 'catchup' dynamics"
-      time_estimate_pct: 25
-      time_estimate_range: "20-30%"
-      time_estimate_notes: "Reacting to US West Coast decisions, information 'in fits and spurts'"
-      conflict_exposure: "moderate"
-      progress_visibility: "low"
-      autonomy_level: "very_low"
-      cross_team_collaboration: "reactive"
-      decision_authority: "very_low"
-      technical_depth_required: "moderate"
-      skill_alignment:
-        matches_strengths: []
-        blocks_strengths: ["decision_frameworks", "glue_work"]
-        matches_growth_areas: []
-      energy_drains_triggered:
-        - drain: "misalignment"
-          severity: "severe"
-          why: "Team playing catchup to distant decisions, circular motion instead of forward progress"
-        - drain: "authority_ambiguity"
-          severity: "moderate"
-          why: "Decisions made in Cupertino, Dublin implements without context"
-      energy_generators_blocked:
-        - generator: "visible_progress"
-          strength: "core_need"
-          why: "Progress defined elsewhere, Dublin reacts and supports"
-        - generator: "aligned_collaboration"
-          strength: "strong"
-          why: "Information arrives irregularly, no shared direction setting"
-      organizational_coherence_violation:
-        pattern: "uncertain_problem_space"
-        violated_requirement: "requires async_first OR co_located OR fast_sync_decision"
-        actual_state: "wide_timezone_spread + sync_heavy_culture + slow_irregular_info_flow"
-        impact: "severe_drain"
-      energy_matrix_quadrant: "burnout"
-      quadrant_reasoning: "Severe misalignment drain (blocks progress core need). No decision authority. Violates organizational coherence needs. Reactive work prevents visible progress generation."
-
-    - name: "Deep technical specialization on infrastructure"
-      time_estimate_pct: 30
-      time_estimate_range: "25-35%"
-      time_estimate_notes: "iCloud, App Store, Maps, Siri infrastructure; Python, Go, Rust, K8s, Kafka"
-      conflict_exposure: "low"
-      progress_visibility: "moderate"
-      autonomy_level: "moderate"
-      cross_team_collaboration: "limited"
-      decision_authority: "moderate"
-      technical_depth_required: "very_high"
-      skill_alignment:
-        matches_strengths: ["infrastructure_automation", "systems_thinking", "tool_building"]
-        blocks_strengths: ["glue_work"]
-        matches_growth_areas: []
-      energy_drains_triggered: []
-      energy_generators_matched:
-        - generator: "tool_building"
-          strength: "core_need"
-          contribution: "partial"
-          why: "Infrastructure work but narrow scope limits impact"
-      energy_generators_blocked:
-        - generator: "visible_progress"
-          strength: "core_need"
-          why: "Fleet rollout takes long time, progress is slow and incremental"
-      energy_matrix_quadrant: "sparingly"
-      quadrant_reasoning: "Expert strengths (infrastructure_automation, systems_thinking) but mixed energy. Tool_building (core need) satisfied partially but narrow specialization blocks glue_work and limits visible progress. Good at it but not fully energizing."
-
-    - name: "Cross-timezone global team collaboration"
-      time_estimate_pct: 12
-      time_estimate_range: "10-15%"
-      time_estimate_notes: "4-5 days/month across Cupertino, Austin, London, Singapore, Hyderabad"
-      conflict_exposure: "low"
-      progress_visibility: "moderate"
-      autonomy_level: "low"
-      cross_team_collaboration: "required"
-      decision_authority: "low"
-      technical_depth_required: "moderate"
-      skill_alignment:
-        matches_strengths: ["glue_work"]
-        blocks_strengths: []
-        matches_growth_areas: []
-      communication_preferences_mismatch:
-        preference: "async_work_capability: strong, timezone_flexibility: 6_hours"
-        actual: "Wide timezone spread requiring sync meetings across 8+ hour difference"
-        impact: "Medium drain - violates preference but within tolerance 4-5 days/month"
-      energy_drains_triggered:
-        - drain: "misalignment"
-          severity: "moderate"
-          why: "Uncertain problem space + wide timezone spread per organizational coherence violation"
-      energy_generators_matched:
-        - generator: "aligned_collaboration"
-          strength: "strong"
-          contribution: "partial"
-          why: "Good at glue work but timezone spread limits effectiveness"
-      energy_matrix_quadrant: "sparingly"
-      quadrant_reasoning: "Expert at glue_work but timezone spread (organizational coherence violation) drains energy. Moderate frequency (4-5 days/month) keeps it yellow not red. Skilled but not sustainable as primary work mode."
-
-    - name: "SRE practices with good DORA metrics"
-      time_estimate_pct: 25
-      time_estimate_range: "20-30%"
-      time_estimate_notes: "Error budgets, monitoring, alerting, CI/CD, TDD - insider confirmed 'pretty good' DORA metrics"
-      conflict_exposure: "low"
-      progress_visibility: "high"
-      autonomy_level: "high"
-      cross_team_collaboration: "structured"
-      decision_authority: "high"
-      technical_depth_required: "high"
-      skill_alignment:
-        matches_strengths: ["infrastructure_automation", "systems_thinking", "decision_frameworks"]
-        blocks_strengths: []
-        matches_growth_areas: []
-      energy_drains_triggered: []
-      energy_generators_matched:
-        - generator: "visible_progress"
-          strength: "core_need"
-          contribution: "strong"
-          why: "Smooth shipping confirmed by insider, DORA metrics track progress"
-        - generator: "aligned_collaboration"
-          strength: "strong"
-          contribution: "strong"
-          why: "SRE discipline provides structure and shared goals"
-        - generator: "structured_processes"
-          strength: "moderate"
-          contribution: "strong"
-          why: "Error budgets, monitoring, fault analysis provide clear frameworks"
-        - generator: "tool_building"
-          strength: "core_need"
-          contribution: "moderate"
-          why: "Infrastructure automation and tooling work"
-      energy_matrix_quadrant: "moare"
-      quadrant_reasoning: "Expert strengths (infrastructure_automation, systems_thinking, decision_frameworks) fully aligned. Generates visible_progress (core need), aligned_collaboration, and structured_processes. High autonomy, high progress visibility. Green flag work."
-
-    - name: "AI-augmented development"
-      time_estimate_pct: 8
-      time_estimate_range: "5-10%"
-      time_estimate_notes: "Anthropic models via custom Apple tooling, increasing push to use AI"
-      conflict_exposure: "low"
-      progress_visibility: "high"
-      autonomy_level: "high"
-      cross_team_collaboration: "low"
-      decision_authority: "high"
-      technical_depth_required: "moderate"
-      skill_alignment:
-        matches_strengths: ["tool_building", "systems_thinking"]
-        blocks_strengths: []
-        matches_growth_areas: ["ai_augmented_workflows"]
-      energy_drains_triggered: []
-      energy_generators_matched:
-        - generator: "tool_building"
-          strength: "core_need"
-          contribution: "moderate"
-          why: "Building AI-augmented workflows"
-        - generator: "visible_progress"
-          strength: "core_need"
-          contribution: "moderate"
-          why: "AI tools accelerate shipping velocity"
-      energy_matrix_quadrant: "moare"
-      quadrant_reasoning: "Growth area (ai_augmented_workflows, energizing) with tool_building (core need). Enables visible progress. Learning while doing energizing work. Green flag."
-
-  energy_matrix_summary:
-    predicted_daily_distribution:
-      moare_pct: 30
-      moare_range: "25-35%"
-      sparingly_pct: 35
-      sparingly_range: "30-40%"
-      burnout_pct: 35
-      burnout_range: "30-45%"
-      help_mentoring_pct: 0
-    threshold_analysis:
-      moare_threshold: "≥60%"
-      moare_actual: "25-35%"
-      moare_status: "FAIL"
-      burnout_threshold: "≤20%"
-      burnout_actual: "30-45%"
-      burnout_status: "FAIL"
-      yellow_threshold: "≤30%"
-      yellow_actual: "30-40%"
-      yellow_status: "MARGINAL"
-    energy_sustainability: "POOR"
-    sustainability_reasoning: "Fails both critical thresholds. Only 25-35% moare (need ≥60%). Burnout at 30-45% (need ≤20%). Yellow at upper limit. Unsustainable energy profile."
-    critical_concerns:
-      - "Severe organizational coherence violation: uncertain_problem_space + wide_timezone_spread + no_async_first = severe_drain"
-      - "Satellite office dynamics create severe misalignment drain (blocks progress core need)"
-      - "Silos and secrecy block glue_work (expert strength) and aligned_collaboration (strong generator)"
-      - "Authority ambiguity pervades environment (no org chart, unclear ownership)"
-      - "Latent interpersonal conflicts from silos and territorial boundaries"
-    mitigating_factors:
-      - "Good DORA metrics and SRE practices provide some moare work"
-      - "AI tools available and encouraged (growth area)"
-      - "Modern tech stack enables tool_building when scope permits"
-      - "Exceptional compensation and zero layoff risk (financial anxiety mitigation)"
-    decision_factors:
-      - "Question: Does exceptional comp + zero layoff risk outweigh 35% burnout work and severe energy drain?"
-      - "Insider (James Wynne, similar profile) gave lukewarm 'maybe' when asked if he'd join today"
-      - "Silos and satellite status are structural Apple design choices unlikely to change"
-      - "6-month-old team still finding ownership area - could improve OR worsen"
-
+    concerning: []
 missing_critical_data:
-- question: ANSWERED - AI tools available (Anthropic via Apple tooling)
-  why_important: Validated by insider
-  how_to_find: James Wynne confirmed
-  mountain_element: chosen_peak
-  status: VALIDATED
-- question: ANSWERED - DORA metrics "pretty good", shipping smooth despite huge fleet
-  why_important: Validated by insider
-  how_to_find: James Wynne confirmed
-  mountain_element: chosen_peak
-  status: VALIDATED
-- question: ANSWERED - Dublin lower ratings due to satellite office dynamics, catchup
-    culture, siloed teams
-  why_important: Root cause identified
-  how_to_find: James Wynne explained
+- question: What is the actual Dublin employee count and team composition vs 'several
+    hundred expected'?
+  why_important: Need to understand if Dublin teams are actually operational or still
+    ramping up, affects team maturity and culture stability
+  how_to_find: 'Ask insider: When did Dublin teams start? Current headcount? Hiring
+    velocity?'
   mountain_element: rope_team_confidence
-  status: VALIDATED
-- question: ANSWERED - Dublin teams support US-led development, NOT end-to-end ownership
-  why_important: Critical autonomy question resolved
-  how_to_find: James Wynne confirmed
-  mountain_element: story_worth_telling
-  status: VALIDATED
-- question: ANSWERED - Deployment smooth, but fleet rollout takes time due to scale
-  why_important: Velocity question answered
-  how_to_find: James Wynne confirmed
+- question: What is the reporting structure between Dublin and Cork operations?
+  why_important: Authority_ambiguity is moderate drain trigger - need clarity on decision-making
+    authority and organizational boundaries
+  how_to_find: 'Ask insider: Do Dublin teams report to Cork leadership or independent?
+    How are decisions coordinated?'
   mountain_element: chosen_peak
-  status: VALIDATED
-- question: ANSWERED - Compensation good (base + equity) with great benefits
-  why_important: Total comp question answered at high level
-  how_to_find: James Wynne confirmed
+- question: What is the actual meeting load and maker time availability for Dublin
+    engineers?
+  why_important: Meeting_intensity tolerance is 20-30% max per profile, work-life
+    balance 3.6/5 suggests potential concerns
+  how_to_find: 'Ask insider: Typical meeting schedule? Maker time blocks? Timezone
+    coordination overhead?'
   mountain_element: daily_climb
-  status: PARTIAL - no specific numbers
-- question: ANSWERED - Career progression likely requires office move; Staff/Team Lead
-    may be Dublin ceiling
-  why_important: Critical career path limitation identified
-  how_to_find: James Wynne hypothesis
+- question: Why is Dublin satisfaction lower than global Apple average (3.7/5 vs higher,
+    62% recommend vs 79%)?
+  why_important: Specific issues at Dublin office may indicate organizational_stability
+    or culture problems not visible in public research
+  how_to_find: 'Ask insider: What are the main complaints? How does Dublin culture
+    differ from Cork or Cupertino?'
+  mountain_element: rope_team_confidence
+- question: What are the actual career progression paths within Dublin vs requiring
+    relocation?
+  why_important: Reviews mention limited promotion opportunities requiring temporary
+    rotations - affects long-term story_worth_telling
+  how_to_find: 'Ask insider: Staff engineer progression at Dublin? Need to rotate
+    to US/Cork? Typical tenure?'
   mountain_element: story_worth_telling
-  status: VALIDATED
-- question: What is the innovation vs maintenance ratio for Dublin teams?
-  why_important: Understanding if greenfield development or primarily operational
-    support
-  how_to_find: Ask engineering manager about project types and roadmap
+- question: What specific technical ownership do Dublin teams have vs supporting Cork/Cupertino?
+  why_important: Autonomy_level and impact depend on whether Dublin leads features
+    or provides support - affects visible_progress generator
+  how_to_find: 'Ask insider: What does Dublin own end-to-end? What decisions can Dublin
+    teams make independently?'
   mountain_element: chosen_peak
-  status: UNANSWERED
-
-synthesis:
-  mountain_worth_climbing: 'NO'
-  sustainability_confidence: LOW
-  overall_assessment: 'Energy Matrix analysis reveals unsustainable profile - fails both critical thresholds with 35% burnout work and severe organizational coherence violations. Exceptional comp cannot offset severe energy drains.'
-
-  energy_matrix_analysis:
-    predicted_daily_distribution:
-      moare_green: "25-35%"
-      sparingly_yellow: "30-40%"
-      burnout_red: "30-45%"
-    threshold_results:
-      moare_threshold: "≥60% required"
-      moare_actual: "25-35%"
-      moare_verdict: "FAIL - Less than half of required sustainable work"
-      burnout_threshold: "≤20% maximum"
-      burnout_actual: "30-45%"
-      burnout_verdict: "FAIL - Nearly double acceptable burnout level"
-      yellow_threshold: "≤30% combined"
-      yellow_actual: "30-40%"
-      yellow_verdict: "MARGINAL - At upper limit"
-    energy_sustainability_rating: "POOR"
-    sustainability_confidence: "HIGH - Based on insider validation of structural issues"
-
-  key_insights:
-  - 'ENERGY MATRIX VERDICT: 30-45% burnout work (need ≤20%) + only 25-35% moare work (need ≥60%) = unsustainable'
-  - 'SEVERE DRAIN: Organizational coherence violation - uncertain_problem_space + wide_timezone_spread + no_async_first = structural mismatch'
-  - 'SEVERE DRAIN: Satellite office creates misalignment (blocks progress core need) - "information in fits and spurts", no decision authority'
-  - 'SEVERE DRAIN: Silos block glue_work (expert strength) and aligned_collaboration (strong generator) - latent conflicts from unclear boundaries'
-  - 'MODERATE DRAIN: Authority ambiguity pervades (no org chart, unclear ownership) - violates need for structured processes'
-  - 'GREEN FLAG: 25-35% moare work (SRE practices, AI tools, some infrastructure) provides some energy generation'
-  - 'GREEN FLAG: Good DORA metrics, smooth shipping, modern tech stack when scope permits'
-  - 'GREEN FLAG: Exceptional compensation and zero layoff risk mitigates financial anxiety drain'
-  - 'YELLOW FLAG: 30-40% sparingly work (deep specialization, timezone collaboration) - good at it but draining'
-  - 'CRITICAL: James Wynne (similar profile, same frustrations) gave lukewarm "maybe" - real-world validation of energy drain prediction'
-
-  decision_factors:
-  - 'ENERGY SUSTAINABILITY: Fails both thresholds - 30-45% burnout (need ≤20%), 25-35% moare (need ≥60%)'
-  - 'STRUCTURAL ISSUES: Silos, satellite status, secrecy are intentional Apple design choices - will not change'
-  - 'ORGANIZATIONAL COHERENCE: Severe mismatch between uncertain_problem_space work mode and wide_timezone_spread + sync_heavy culture'
-  - 'CORE NEEDS BLOCKED: Visible progress (core need) blocked by satellite dynamics, aligned collaboration (strong generator) blocked by silos'
-  - 'EXPERT STRENGTHS WASTED: Glue work expertise actively blocked by secrecy and silos - using only 30% of capability'
-  - 'FINANCIAL TRADE-OFF: Exceptional comp + zero layoff risk vs 35% burnout work - money cannot buy back energy'
-  - 'INSIDER VALIDATION: James Wynne experiencing exact predicted frustrations after 6 months - not theoretical'
-  - 'TEAM IMMATURITY: 6-month-old team still finding ownership - current 35% burnout could worsen before improving'
-
-  next_steps:
-  - 'RECOMMENDATION: DECLINE - Energy Matrix shows unsustainable profile that would lead to burnout'
-  - 'Even exceptional compensation cannot offset 30-45% burnout work and severe organizational coherence violations'
-  - 'Structural issues (silos, satellite status, secrecy) are intentional design choices that will not change'
-  - 'Your core need for visible progress and strong generator of aligned collaboration are blocked by environment'
-  - 'Expert strength in glue work is actively prevented by secrecy and silos - would be underutilized and frustrated'
-  - 'Insider with similar profile experiencing predicted frustrations validates Energy Matrix analysis'
-  - 'Better to find role with ≥60% moare work that leverages glue work strength and provides aligned collaboration'
-  - 'Financial security is important but not worth sacrificing 25 years of career capital to burnout risk'
-
+- question: What specific issues cause Dublin's lower satisfaction (3.7/5 vs global
+    average, 62% vs 79% recommend)?
+  why_important: CRITICAL - Interpersonal_conflict is severe drain per profile (childhood
+    trauma trigger). Need to rule out team conflicts before considering. Lower satisfaction
+    may indicate misalignment or authority_ambiguity issues.
+  how_to_find: 'Insider interview: Ask about team dynamics, leadership quality, conflict
+    patterns. ''What frustrates people most about Dublin vs other Apple sites?'''
+  mountain_element: rope_team_confidence
+- question: What is Dublin's actual employee count and operational maturity (vs 'several
+    hundred expected')?
+  why_important: New office culture formation risk - forming teams have higher conflict
+    potential. Need to know if teams are established or still storming/norming.
+  how_to_find: 'Insider interview: ''How many engineers in Dublin now? When did teams
+    actually start? How stable are team compositions?'''
+  mountain_element: rope_team_confidence
+- question: How does Dublin-Cork reporting structure work? Independent or Cork-managed?
+  why_important: Authority_ambiguity (moderate drain) - unclear ownership creates
+    hidden conflicts. Need explicit decision-making boundaries.
+  how_to_find: 'Insider interview: ''Who do Dublin teams report to? How are decisions
+    split between Dublin and Cork? Any matrix conflicts?'''
+  mountain_element: chosen_peak
+- question: What is actual meeting load and maker time availability?
+  why_important: 'Profile tolerance: max 30% meeting_intensity, ideal 20%. Work-life
+    balance 3.6/5 suggests potential concerns. Need specifics.'
+  how_to_find: 'Insider interview: ''Typical meeting schedule per week? Maker time
+    blocks? Sync vs async culture?'''
+  mountain_element: daily_climb
+- question: What technical ownership does Dublin have vs Cork/Cupertino? Support role
+    or product ownership?
+  why_important: Autonomy_level and visible_progress generators depend on ownership.
+    Support roles may lack progress visibility (core need per profile).
+  how_to_find: 'Insider interview: ''What does Dublin own end-to-end? What decisions
+    can Dublin make independently? Any features shipped by Dublin alone?'''
+  mountain_element: chosen_peak
+- question: How do career paths work for staff engineers in Dublin vs requiring Cork/US
+    rotation?
+  why_important: Story_worth_telling element - need clarity on long-term growth without
+    forced relocation. Review mentions 'temporary rotations required'.
+  how_to_find: 'Insider interview: ''Staff engineer progression at Dublin? Recent
+    promotions? Required rotations to US/Cork? Typical tenure?'''
+  mountain_element: story_worth_telling
+profile_version_used: '1.0'
 company_slug: apple
+synthesis:
+  energy_matrix_analysis:
+    profile_version_used: '1.0'
+    predicted_daily_distribution:
+      moare_green_flags:
+        percentage: 57.8
+        tasks_count: 7
+      sparingly_yellow_flags:
+        percentage: 19.7
+        tasks_count: 7
+      burnout_red_flags:
+        percentage: 10.3
+        tasks_count: 5
+      help_mentoring_yellow_flags:
+        percentage: 12.2
+        tasks_count: 8
+    threshold_analysis:
+      meets_green_minimum: false
+      exceeds_red_maximum: false
+      exceeds_yellow_maximum: true
+    energy_sustainability: MEDIUM
+    key_insights:
+    - Insufficient moare quadrant work (57.8% vs 60% needed)
+    decision_factors:
+    - 'RED: Only 57.8% moare quadrant (need ≥60%)'

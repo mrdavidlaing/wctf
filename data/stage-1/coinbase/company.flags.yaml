@@ -1,6 +1,6 @@
 company: Coinbase
 company_slug: coinbase
-evaluation_date: '2025-10-17'
+evaluation_date: '2025-11-09'
 evaluator_context: Extracted from conversation notes
 green_flags:
   mountain_range:
@@ -11,6 +11,32 @@ green_flags:
         can track company health in real-time vs. private companies where runway is
         opaque
       confidence: High - explicit public financial statements
+      task_characteristics:
+        conflict_exposure: low
+        alignment_clarity: high
+        authority_ambiguity: low
+        progress_visibility: high
+        autonomy_level: high
+        decision_speed: fast
+        learning_required: low
+        collaboration_type: independent
+        meeting_intensity: low
+        requires_sync_communication: false
+        timezone_spread: narrow
+      energy_quadrant: moare
+      energy_reasoning: 'Strong profitability eliminates financial_anxiety drain (moderate
+        drain from profile).
+
+        Public financial transparency provides structured_processes generator (clear
+        decision-making without survival pressure).
+
+        Uses decision_frameworks strength (proficient level) to navigate public company
+        accountability.
+
+        Moare quadrant: leverages strength while providing energizing clarity and
+        eliminating financial stress.
+
+        '
     - flag: Dominant US market position with 65%+ spot market share and custodian
         for 8 of 11 Bitcoin ETFs including BlackRock's
       impact: Working at the infrastructure layer of a growing industry rather than
@@ -31,9 +57,9 @@ green_flags:
       impact: Elite engineering velocity means less time fighting process, more time
         shipping features
       confidence: High - engineering blog explicit statements
-    - flag: "Heavy ML/AI investment: proprietary frameworks (EasyML, Seq2Win), SageMaker\
-        \ reducing training 20hrs\u219210mins, GenAI customer support, NodeSmith AI-driven\
-        \ node upgrades"
+    - flag: 'Heavy ML/AI investment: proprietary frameworks (EasyML, Seq2Win), SageMaker
+        reducing training 20hrs→10mins, GenAI customer support, NodeSmith AI-driven
+        node upgrades'
       impact: Cutting-edge AI work at scale - significant resume value and learning
         opportunities
       confidence: High - recent engineering blog posts and AWS case studies
@@ -72,6 +98,292 @@ green_flags:
       impact: Cutting-edge technical challenges combining multiple hot domains - strong
         resume builders
       confidence: High - recent engineering blog posts and product launches
+    - flag: 'Strong financial recovery: $2.6B net income (2024), two consecutive profitable
+        years after crypto winter'
+      impact: Job security restored after surviving industry crisis. Company won't
+        fold during next downturn.
+      confidence: High - explicit financial statements
+      task_implications:
+      - task: Normal engineering work without survival anxiety
+        time_estimate_pct: 50-55%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: low
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_infrastructure_automation: true
+          collaboration_type: team
+          meeting_intensity: moderate
+          requires_sync_communication: false
+          timezone_spread: narrow
+        notes: Financial stability enables focus on building vs survival mode
+    - flag: $404B assets under custody, 120M verified users, 8.7M monthly transacting
+        users - real scale problems
+      impact: Legitimate technical challenges at massive scale, not vaporware or POC
+        theater
+      confidence: High - public metrics
+      task_implications:
+      - task: Scaling infrastructure for millions of users and billions in assets
+        time_estimate_pct: 15-20%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: moderate
+          uses_systems_thinking: true
+          uses_infrastructure_automation: true
+          collaboration_type: team
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: narrow
+        notes: Real scale problems match infrastructure expertise
+    - flag: Active engineering blog with Oct 2025 posts on ML, blockchain, infrastructure
+        (NodeSmith, Databricks CI/CD, traffic prediction)
+      impact: Strong technical culture that values knowledge sharing and engineering
+        excellence
+      confidence: High - public blog.coinbase.com
+      task_implications:
+      - task: Contributing to engineering blog and technical knowledge sharing
+        time_estimate_pct: 5-10%
+        characteristics:
+          conflict_exposure: none
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: low
+          uses_systems_thinking: true
+          uses_tool_building: true
+          collaboration_type: solo
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: co_located
+        notes: Matches tool-building and systems thinking strengths
+    - flag: 'Open source contributions: 166 public GitHub repos, open-sourced MPC
+        library (Sept 2025), Base L2 smart contracts with $1M bug bounties'
+      impact: Company invests in open source and technical community, not just proprietary
+        code
+      confidence: High - public GitHub
+      task_implications:
+      - task: Contributing to and maintaining open source projects
+        time_estimate_pct: 5-10%
+        characteristics:
+          conflict_exposure: none
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: low
+          uses_systems_thinking: true
+          uses_tool_building: true
+          collaboration_type: solo
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: wide
+        notes: Public work builds resume value and industry reputation
+    - flag: 'Modern polyglot stack: Python, Go, JavaScript/Node, React Native. AWS
+        + GCP infrastructure. Strong automation culture (#1-2-Automate principle)'
+      impact: Technology choices match industry best practices and infrastructure
+        automation expertise
+      confidence: High - tech blog and engineering principles
+    - flag: CEO Brian Armstrong stable since founding (June 2012, 13+ years), C-suite
+        stable 5-7 years (CFO, CLO, CPO since 2018-2020)
+      impact: Exceptional leadership stability through crypto winter demonstrates
+        resilience and strategic competence
+      confidence: High - public records
+      task_implications:
+      - task: Working within established strategic direction (minimal reorg overhead)
+        time_estimate_pct: 0-5%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: moderate
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: none
+          uses_systems_thinking: false
+          collaboration_type: team
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: narrow
+        notes: Stable leadership reduces reorg/realignment overhead
+    - flag: Base Layer-2 blockchain launched Feb 2023, now open-sourced with $1M bug
+        bounties - major technical initiative
+      impact: Opportunity to work on cutting-edge blockchain infrastructure with real
+        users and open source community
+      confidence: High - public announcements and GitHub
+      task_implications:
+      - task: Contributing to Base L2 infrastructure and ecosystem
+        time_estimate_pct: 10-15%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: moderate
+          uses_systems_thinking: true
+          uses_infrastructure_automation: true
+          collaboration_type: team
+          meeting_intensity: moderate
+          requires_sync_communication: false
+          timezone_spread: narrow
+        notes: Novel blockchain work builds unique expertise and resume value
+    - flag: 'Strong financial recovery: $2.6B net income (2024), two consecutive profitable
+        years after crypto winter'
+      impact: Job security restored after surviving industry crisis. Company won't
+        fold during next downturn.
+      confidence: High - explicit financial statements
+      task_implications:
+      - task: Normal engineering work without survival anxiety
+        time_estimate_pct: 50-55%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: low
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_infrastructure_automation: true
+          collaboration_type: team
+          meeting_intensity: moderate
+          requires_sync_communication: false
+          timezone_spread: narrow
+        notes: Financial stability enables focus on building vs survival mode
+    - flag: $404B assets under custody, 120M verified users, 8.7M monthly transacting
+        users - real scale problems
+      impact: Legitimate technical challenges at massive scale, not vaporware or POC
+        theater
+      confidence: High - public metrics
+      task_implications:
+      - task: Scaling infrastructure for millions of users and billions in assets
+        time_estimate_pct: 15-20%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: moderate
+          uses_systems_thinking: true
+          uses_infrastructure_automation: true
+          collaboration_type: team
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: narrow
+        notes: Real scale problems match infrastructure expertise
+    - flag: Active engineering blog with Oct 2025 posts on ML, blockchain, infrastructure
+        (NodeSmith, Databricks CI/CD, traffic prediction)
+      impact: Strong technical culture that values knowledge sharing and engineering
+        excellence
+      confidence: High - public blog.coinbase.com
+      task_implications:
+      - task: Contributing to engineering blog and technical knowledge sharing
+        time_estimate_pct: 5-10%
+        characteristics:
+          conflict_exposure: none
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: low
+          uses_systems_thinking: true
+          uses_tool_building: true
+          collaboration_type: solo
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: co_located
+        notes: Matches tool-building and systems thinking strengths
+    - flag: 'Open source contributions: 166 public GitHub repos, open-sourced MPC
+        library (Sept 2025), Base L2 smart contracts with $1M bug bounties'
+      impact: Company invests in open source and technical community, not just proprietary
+        code
+      confidence: High - public GitHub
+      task_implications:
+      - task: Contributing to and maintaining open source projects
+        time_estimate_pct: 5-10%
+        characteristics:
+          conflict_exposure: none
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: low
+          uses_systems_thinking: true
+          uses_tool_building: true
+          collaboration_type: solo
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: wide
+        notes: Public work builds resume value and industry reputation
+    - flag: 'Modern polyglot stack: Python, Go, JavaScript/Node, React Native. AWS
+        + GCP infrastructure. Strong automation culture (#1-2-Automate principle)'
+      impact: Technology choices match industry best practices and infrastructure
+        automation expertise
+      confidence: High - tech blog and engineering principles
+    - flag: CEO Brian Armstrong stable since founding (June 2012, 13+ years), C-suite
+        stable 5-7 years (CFO, CLO, CPO since 2018-2020)
+      impact: Exceptional leadership stability through crypto winter demonstrates
+        resilience and strategic competence
+      confidence: High - public records
+      task_implications:
+      - task: Working within established strategic direction (minimal reorg overhead)
+        time_estimate_pct: 0-5%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: moderate
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: none
+          uses_systems_thinking: false
+          collaboration_type: team
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: narrow
+        notes: Stable leadership reduces reorg/realignment overhead
+    - flag: Base Layer-2 blockchain launched Feb 2023, now open-sourced with $1M bug
+        bounties - major technical initiative
+      impact: Opportunity to work on cutting-edge blockchain infrastructure with real
+        users and open source community
+      confidence: High - public announcements and GitHub
+      task_implications:
+      - task: Contributing to Base L2 infrastructure and ecosystem
+        time_estimate_pct: 10-15%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: moderate
+          uses_systems_thinking: true
+          uses_infrastructure_automation: true
+          collaboration_type: team
+          meeting_intensity: moderate
+          requires_sync_communication: false
+          timezone_spread: narrow
+        notes: Novel blockchain work builds unique expertise and resume value
     strong_positives: &id002
     - flag: Manages $404B in assets with 120M users globally and institutional focus
         (81.86% of Q2 2025 trading volume)
@@ -102,8 +414,8 @@ green_flags:
       impact: Hiring process values real-world engineering skills you've honed over
         25 years
       confidence: High - official hiring documentation
-    - flag: "Strong board including Marc Andreessen, Tobi L\xFCtke (Shopify CEO),\
-        \ ex-federal prosecutor, former US Solicitor General, OpenAI VP"
+    - flag: Strong board including Marc Andreessen, Tobi Lütke (Shopify CEO), ex-federal
+        prosecutor, former US Solicitor General, OpenAI VP
       impact: World-class governance and connections that can open doors for company
         (and your career)
       confidence: High - public board composition
@@ -131,6 +443,140 @@ green_flags:
       impact: Low barrier to entry for senior engineers pivoting into crypto/blockchain
         space
       confidence: High - official hiring criteria
+    - flag: 'Diversified revenue model: trading fees, staking (25-35% commission),
+        subscriptions (Coinbase One), institutional custody'
+      impact: Multiple revenue streams reduce dependency on volatile crypto markets
+      confidence: High - documented business model
+    - flag: S&P 500 inclusion (May 2025) + $2.9B Deribit acquisition shows market
+        confidence
+      impact: Institutional validation and continued growth trajectory
+      confidence: High - public announcements
+    - flag: 'DORA high-performing: hundreds of deployments/day, sub-1hr lead time,
+        sub-1hr MTTR (2018 report)'
+      impact: Fast feedback loops and modern DevOps practices enable rapid iteration
+      confidence: High - public blog post citing DORA
+    - flag: 'Six Engineering Principles including #SecurityFirst, #APIDriven, #1-2-Automate
+        (automate any process done 3+ times)'
+      impact: Documented engineering values align with infrastructure automation expertise
+      confidence: High - public blog posts from 2018-2019
+    - flag: Reliability Engineering 'teach teams to fish' philosophy - up-leveling
+        for self-sufficiency vs gatekeeping
+      impact: Culture of enabling autonomy vs creating bottlenecks matches senior
+        engineer expectations
+      confidence: High - blog post about SRE mission
+    - flag: 'Fortune (April 2024): ''leadership team has proved more stable than ever
+        before'' helping push through Crypto Winter'
+      impact: External validation of leadership quality during crisis
+      confidence: High - third-party reporting
+    - flag: 'Strong board: includes Fred Ehrsam (co-founder), Marc Andreessen, Tobi
+        Lütke (Shopify CEO), ex-federal prosecutor Kathryn Haun'
+      impact: Experienced board provides strategic guidance and credibility
+      confidence: High - public board composition
+    - flag: EVP Engineering Manish Gupta from Lyft/Google (16 years on Ads platform),
+        Head of Platform Rob Witoff (rejoined 2024, was Chief Architect 2014-2017)
+      impact: Senior engineering leadership has strong track record at scale companies
+      confidence: High - LinkedIn profiles
+    - flag: Remote-first since May 2020, 95% of employees can work from home, 80.9%
+        of open positions remote (up from 41.6% in 2024)
+      impact: Strong remote culture enables timezone flexibility and eliminates commute
+        overhead
+      confidence: High - company blog and job postings
+      task_implications:
+      - task: Remote async work with quarterly in-person 'Surges'
+        time_estimate_pct: 5%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: none
+          uses_systems_thinking: false
+          collaboration_type: solo
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: moderate
+        notes: Quarterly Surges require some travel but mostly autonomous
+    - flag: Average compensation $424K per employee (2023) - high compensation tier
+      impact: Compensation at or above market rate reduces financial anxiety
+      confidence: High - financial disclosures
+    - flag: 'ML applications at scale: fraud prevention (LSTM/Transformers), traffic
+        prediction auto-scaling, GenAI customer support (tens of thousands queries/month)'
+      impact: Opportunity to work with modern ML/AI techniques at production scale
+      confidence: High - tech blog posts
+    - flag: Publicly traded on Nasdaq with S&P 500 inclusion - adds significant resume
+        credibility
+      impact: Working at major public company (top 500 US companies) carries industry
+        recognition
+      confidence: High - public listings
+    - flag: 'Diversified revenue model: trading fees, staking (25-35% commission),
+        subscriptions (Coinbase One), institutional custody'
+      impact: Multiple revenue streams reduce dependency on volatile crypto markets
+      confidence: High - documented business model
+    - flag: S&P 500 inclusion (May 2025) + $2.9B Deribit acquisition shows market
+        confidence
+      impact: Institutional validation and continued growth trajectory
+      confidence: High - public announcements
+    - flag: 'DORA high-performing: hundreds of deployments/day, sub-1hr lead time,
+        sub-1hr MTTR (2018 report)'
+      impact: Fast feedback loops and modern DevOps practices enable rapid iteration
+      confidence: High - public blog post citing DORA
+    - flag: 'Six Engineering Principles including #SecurityFirst, #APIDriven, #1-2-Automate
+        (automate any process done 3+ times)'
+      impact: Documented engineering values align with infrastructure automation expertise
+      confidence: High - public blog posts from 2018-2019
+    - flag: Reliability Engineering 'teach teams to fish' philosophy - up-leveling
+        for self-sufficiency vs gatekeeping
+      impact: Culture of enabling autonomy vs creating bottlenecks matches senior
+        engineer expectations
+      confidence: High - blog post about SRE mission
+    - flag: 'Fortune (April 2024): ''leadership team has proved more stable than ever
+        before'' helping push through Crypto Winter'
+      impact: External validation of leadership quality during crisis
+      confidence: High - third-party reporting
+    - flag: 'Strong board: includes Fred Ehrsam (co-founder), Marc Andreessen, Tobi
+        Lütke (Shopify CEO), ex-federal prosecutor Kathryn Haun'
+      impact: Experienced board provides strategic guidance and credibility
+      confidence: High - public board composition
+    - flag: EVP Engineering Manish Gupta from Lyft/Google (16 years on Ads platform),
+        Head of Platform Rob Witoff (rejoined 2024, was Chief Architect 2014-2017)
+      impact: Senior engineering leadership has strong track record at scale companies
+      confidence: High - LinkedIn profiles
+    - flag: Remote-first since May 2020, 95% of employees can work from home, 80.9%
+        of open positions remote (up from 41.6% in 2024)
+      impact: Strong remote culture enables timezone flexibility and eliminates commute
+        overhead
+      confidence: High - company blog and job postings
+      task_implications:
+      - task: Remote async work with quarterly in-person 'Surges'
+        time_estimate_pct: 5%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: none
+          uses_systems_thinking: false
+          collaboration_type: solo
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: moderate
+        notes: Quarterly Surges require some travel but mostly autonomous
+    - flag: Average compensation $424K per employee (2023) - high compensation tier
+      impact: Compensation at or above market rate reduces financial anxiety
+      confidence: High - financial disclosures
+    - flag: 'ML applications at scale: fraud prevention (LSTM/Transformers), traffic
+        prediction auto-scaling, GenAI customer support (tens of thousands queries/month)'
+      impact: Opportunity to work with modern ML/AI techniques at production scale
+      confidence: High - tech blog posts
+    - flag: Publicly traded on Nasdaq with S&P 500 inclusion - adds significant resume
+        credibility
+      impact: Working at major public company (top 500 US companies) carries industry
+        recognition
+      confidence: High - public listings
   chosen_peak:
     critical_matches: *id001
     strong_positives: *id002
@@ -147,8 +593,8 @@ red_flags:
   mountain_range:
     dealbreakers: &id003 []
     concerning: &id004
-    - flag: "Revenue highly volatile: $1.28B (2020) \u2192 $7.4B (2021) \u2192 $3.1B\
-        \ (2023) \u2192 $6.56B (2024) - 59% crash then 111% recovery"
+    - flag: 'Revenue highly volatile: $1.28B (2020) → $7.4B (2021) → $3.1B (2023)
+        → $6.56B (2024) - 59% crash then 111% recovery'
       impact: Crypto market correlation creates boom-bust compensation and job security
         cycles
       confidence: High - public financial data
@@ -217,6 +663,320 @@ red_flags:
       impact: Industry perception risk may limit future career mobility to traditional
         finance/tech
       confidence: High - recent legal history
+    - flag: 'Volatility exposure: Q1 2025 revenue $2.03B (down 24% from Q4 2024),
+        Q1 net income $65.6M (down 94% from Q1 2024 $1.18B)'
+      impact: Crypto market dependency creates revenue volatility which could trigger
+        future layoffs during downturns
+      confidence: High - quarterly earnings
+      task_implications:
+      - task: Monitoring market conditions and company performance for early warning
+          signs
+        time_estimate_pct: 5%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: moderate
+          authority_ambiguity: low
+          progress_visibility: low
+          autonomy_level: low
+          decision_speed: slow
+          learning_required: none
+          uses_systems_thinking: false
+          collaboration_type: solo
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: co_located
+        notes: Ongoing anxiety about future layoffs during crypto downturns
+    - flag: Cybersecurity incident May 2025 affecting <1% MTU with $180-400M estimated
+        remediation costs
+      impact: Security incident suggests potential infrastructure gaps; remediation
+        costs could impact budgets
+      confidence: High - public disclosure
+    - flag: No current CTO identified (Balaji Srinivasan left 2019) - unclear who
+        owns technical vision
+      impact: Lack of visible CTO could indicate fragmented technical leadership or
+        unclear technical direction
+      confidence: Medium - absence of information
+      task_implications:
+      - task: Navigating unclear technical authority and decision-making
+        time_estimate_pct: 5-10%
+        characteristics:
+          conflict_exposure: moderate
+          alignment_clarity: low
+          authority_ambiguity: high
+          progress_visibility: moderate
+          autonomy_level: moderate
+          decision_speed: slow
+          learning_required: none
+          uses_systems_thinking: false
+          collaboration_type: cross_team
+          meeting_intensity: moderate
+          requires_sync_communication: true
+          timezone_spread: narrow
+        notes: Authority ambiguity creates coordination overhead
+    - flag: 2,000+ employees laid off (18% in June 2022, 20% in Jan 2023) during crypto
+        winter - significant layoffs in short period
+      impact: 'Cultural damage from layoffs may persist: trust erosion, survivor guilt,
+        fear of future cuts'
+      confidence: High - public announcements
+      task_implications:
+      - task: Managing layoff anxiety and survivor dynamics
+        time_estimate_pct: 10-15%
+        characteristics:
+          conflict_exposure: moderate
+          alignment_clarity: moderate
+          authority_ambiguity: low
+          progress_visibility: low
+          autonomy_level: low
+          decision_speed: slow
+          learning_required: none
+          uses_systems_thinking: false
+          collaboration_type: team
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: co_located
+        notes: Emotional overhead from past layoffs persists in team dynamics
+    - flag: CEO and President personally approve all hires, 'extraordinary ability'
+        requirement (2024)
+      impact: Extreme centralization suggests control culture and possible trust issues
+        with middle management
+      confidence: High - company blog and hiring docs
+      task_implications:
+      - task: Navigating centralized control culture and proving value repeatedly
+        time_estimate_pct: 5-10%
+        characteristics:
+          conflict_exposure: moderate
+          alignment_clarity: moderate
+          authority_ambiguity: moderate
+          progress_visibility: moderate
+          autonomy_level: low
+          decision_speed: slow
+          learning_required: none
+          uses_systems_thinking: false
+          collaboration_type: cross_team
+          meeting_intensity: moderate
+          requires_sync_communication: true
+          timezone_spread: narrow
+        notes: Control culture reduces team autonomy and increases approval overhead
+    - flag: '''Mission Focused Company'' policy (Sept 2020) discouraged employee activism,
+        60 employees (5%) took severance and left'
+      impact: Indicates potential cultural mismatch for employees who value workplace
+        political engagement or social activism
+      confidence: High - public policy announcement
+    - flag: Glassdoor 3.6-3.7/5 stars, only 54-61% would recommend working there,
+        work-life balance 3.0-3.2/5
+      impact: Below-average employee sentiment suggests cultural issues or work intensity
+        problems
+      confidence: High - aggregated employee reviews
+      task_implications:
+      - task: Maintaining work-life boundaries in 'intense culture'
+        time_estimate_pct: 10-15%
+        characteristics:
+          conflict_exposure: moderate
+          alignment_clarity: moderate
+          authority_ambiguity: low
+          progress_visibility: low
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: none
+          uses_systems_thinking: false
+          collaboration_type: solo
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: co_located
+        notes: Energy management required to avoid burnout in intense environment
+    - flag: 'CEO memo Oct 2024: culture is ''intense and isn''t for everyone'', ''Rest
+        and recharge is our lowest scoring engagement area'''
+      impact: Explicit admission of burnout risk and poor work-life balance from CEO
+      confidence: High - CEO direct statement
+      task_implications:
+      - task: Active burnout prevention and energy management
+        time_estimate_pct: 5-10%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: low
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: none
+          uses_systems_thinking: false
+          collaboration_type: solo
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: co_located
+        notes: Requires deliberate effort to maintain sustainable pace
+    - flag: 'Common Glassdoor cons: ''bad work life balance'' (57 reviews), layoffs
+        (43 reviews), ''no job security'' (18-21 reviews)'
+      impact: Recurring themes in employee feedback indicate systemic issues, not
+        isolated incidents
+      confidence: High - pattern in employee reviews
+    - flag: 'Remote-first policy changing: quarterly week-long ''Surges'' now required
+        at NY/SF offices (2025), signed lease for new SF HQ (May 2025)'
+      impact: Policy evolution toward hybrid could increase travel burden and reduce
+        remote flexibility over time
+      confidence: High - company announcements
+    - flag: Interview process averages 60 days, only 5% progress beyond resume review,
+        pair programming is main failure point
+      impact: Extremely selective hiring (5% pass rate) creates high bar for entry
+        but also suggests potential elitism
+      confidence: High - company blog and Glassdoor
+    - flag: 'Volatility exposure: Q1 2025 revenue $2.03B (down 24% from Q4 2024),
+        Q1 net income $65.6M (down 94% from Q1 2024 $1.18B)'
+      impact: Crypto market dependency creates revenue volatility which could trigger
+        future layoffs during downturns
+      confidence: High - quarterly earnings
+      task_implications:
+      - task: Monitoring market conditions and company performance for early warning
+          signs
+        time_estimate_pct: 5%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: moderate
+          authority_ambiguity: low
+          progress_visibility: low
+          autonomy_level: low
+          decision_speed: slow
+          learning_required: none
+          uses_systems_thinking: false
+          collaboration_type: solo
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: co_located
+        notes: Ongoing anxiety about future layoffs during crypto downturns
+    - flag: Cybersecurity incident May 2025 affecting <1% MTU with $180-400M estimated
+        remediation costs
+      impact: Security incident suggests potential infrastructure gaps; remediation
+        costs could impact budgets
+      confidence: High - public disclosure
+    - flag: No current CTO identified (Balaji Srinivasan left 2019) - unclear who
+        owns technical vision
+      impact: Lack of visible CTO could indicate fragmented technical leadership or
+        unclear technical direction
+      confidence: Medium - absence of information
+      task_implications:
+      - task: Navigating unclear technical authority and decision-making
+        time_estimate_pct: 5-10%
+        characteristics:
+          conflict_exposure: moderate
+          alignment_clarity: low
+          authority_ambiguity: high
+          progress_visibility: moderate
+          autonomy_level: moderate
+          decision_speed: slow
+          learning_required: none
+          uses_systems_thinking: false
+          collaboration_type: cross_team
+          meeting_intensity: moderate
+          requires_sync_communication: true
+          timezone_spread: narrow
+        notes: Authority ambiguity creates coordination overhead
+    - flag: 2,000+ employees laid off (18% in June 2022, 20% in Jan 2023) during crypto
+        winter - significant layoffs in short period
+      impact: 'Cultural damage from layoffs may persist: trust erosion, survivor guilt,
+        fear of future cuts'
+      confidence: High - public announcements
+      task_implications:
+      - task: Managing layoff anxiety and survivor dynamics
+        time_estimate_pct: 10-15%
+        characteristics:
+          conflict_exposure: moderate
+          alignment_clarity: moderate
+          authority_ambiguity: low
+          progress_visibility: low
+          autonomy_level: low
+          decision_speed: slow
+          learning_required: none
+          uses_systems_thinking: false
+          collaboration_type: team
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: co_located
+        notes: Emotional overhead from past layoffs persists in team dynamics
+    - flag: CEO and President personally approve all hires, 'extraordinary ability'
+        requirement (2024)
+      impact: Extreme centralization suggests control culture and possible trust issues
+        with middle management
+      confidence: High - company blog and hiring docs
+      task_implications:
+      - task: Navigating centralized control culture and proving value repeatedly
+        time_estimate_pct: 5-10%
+        characteristics:
+          conflict_exposure: moderate
+          alignment_clarity: moderate
+          authority_ambiguity: moderate
+          progress_visibility: moderate
+          autonomy_level: low
+          decision_speed: slow
+          learning_required: none
+          uses_systems_thinking: false
+          collaboration_type: cross_team
+          meeting_intensity: moderate
+          requires_sync_communication: true
+          timezone_spread: narrow
+        notes: Control culture reduces team autonomy and increases approval overhead
+    - flag: '''Mission Focused Company'' policy (Sept 2020) discouraged employee activism,
+        60 employees (5%) took severance and left'
+      impact: Indicates potential cultural mismatch for employees who value workplace
+        political engagement or social activism
+      confidence: High - public policy announcement
+    - flag: Glassdoor 3.6-3.7/5 stars, only 54-61% would recommend working there,
+        work-life balance 3.0-3.2/5
+      impact: Below-average employee sentiment suggests cultural issues or work intensity
+        problems
+      confidence: High - aggregated employee reviews
+      task_implications:
+      - task: Maintaining work-life boundaries in 'intense culture'
+        time_estimate_pct: 10-15%
+        characteristics:
+          conflict_exposure: moderate
+          alignment_clarity: moderate
+          authority_ambiguity: low
+          progress_visibility: low
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: none
+          uses_systems_thinking: false
+          collaboration_type: solo
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: co_located
+        notes: Energy management required to avoid burnout in intense environment
+    - flag: 'CEO memo Oct 2024: culture is ''intense and isn''t for everyone'', ''Rest
+        and recharge is our lowest scoring engagement area'''
+      impact: Explicit admission of burnout risk and poor work-life balance from CEO
+      confidence: High - CEO direct statement
+      task_implications:
+      - task: Active burnout prevention and energy management
+        time_estimate_pct: 5-10%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: low
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: none
+          uses_systems_thinking: false
+          collaboration_type: solo
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: co_located
+        notes: Requires deliberate effort to maintain sustainable pace
+    - flag: 'Common Glassdoor cons: ''bad work life balance'' (57 reviews), layoffs
+        (43 reviews), ''no job security'' (18-21 reviews)'
+      impact: Recurring themes in employee feedback indicate systemic issues, not
+        isolated incidents
+      confidence: High - pattern in employee reviews
+    - flag: 'Remote-first policy changing: quarterly week-long ''Surges'' now required
+        at NY/SF offices (2025), signed lease for new SF HQ (May 2025)'
+      impact: Policy evolution toward hybrid could increase travel burden and reduce
+        remote flexibility over time
+      confidence: High - company announcements
+    - flag: Interview process averages 60 days, only 5% progress beyond resume review,
+        pair programming is main failure point
+      impact: Extremely selective hiring (5% pass rate) creates high bar for entry
+        but also suggests potential elitism
+      confidence: High - company blog and Glassdoor
   chosen_peak:
     dealbreakers: *id003
     concerning: *id004
@@ -253,8 +1013,8 @@ missing_critical_data:
 - question: What is career progression path and timeline for Staff+ engineers?
   why_important: With 25yr experience, you'll want Staff/Senior Staff/Principal trajectory
     - need to understand if growth is possible
-  how_to_find: "Ask: what does Staff\u2192Senior Staff promotion look like, typical\
-    \ timeline, IC vs management split, how many principals exist"
+  how_to_find: 'Ask: what does Staff→Senior Staff promotion look like, typical timeline,
+    IC vs management split, how many principals exist'
   mountain_element: story_worth_telling
 - question: What is the actual policy on AI/LLM tool usage (Copilot, Cursor, Claude,
     etc.)?
@@ -296,3 +1056,127 @@ missing_critical_data:
   how_to_find: 'Ask recruiter: vesting schedule, typical refresh timing and amounts,
     what happens if stock drops significantly'
   mountain_element: daily_climb
+- question: How has team culture recovered from 2022-2023 layoffs? What changed after
+    2,000+ people were let go?
+  why_important: Cultural damage from layoffs can persist for years (trust erosion,
+    survivor guilt, fear of future cuts). Need to understand current team morale.
+  how_to_find: 'Insider interviews with engineers who lived through the layoffs. Ask:
+    How did team dynamics change? Do people feel secure now? How did managers rebuild
+    trust?'
+  mountain_element: rope_team_confidence
+- question: What does 'intense culture' mean day-to-day? How many hours/week are expected?
+    What's sustainable vs burnout pace?
+  why_important: CEO explicitly stated culture is 'intense' and 'rest and recharge'
+    scores lowest. Need concrete details about work intensity expectations.
+  how_to_find: 'Insider interviews about typical work weeks, on-call expectations,
+    weekend work frequency, vacation usage patterns. Ask: What''s a typical week like?
+    When do people actually disconnect?'
+  mountain_element: daily_climb
+- question: What does CEO approval of all hires mean in practice? How autonomous are
+    engineering teams day-to-day?
+  why_important: CEO approving all hires suggests control culture. Need to understand
+    if this extends to daily work or just hiring decisions.
+  how_to_find: 'Insider interviews about decision-making authority. Ask: What decisions
+    require escalation? How much autonomy do senior engineers have? How often do you
+    need executive approval?'
+  mountain_element: rope_team_confidence
+- question: Why is work-life balance rated 3.0-3.2/5 and only 54-61% recommend working
+    there? What specific issues cause dissatisfaction?
+  why_important: Low recommendation rate and work-life balance scores indicate systemic
+    issues. Need to identify root causes (hours? on-call? culture? management?).
+  how_to_find: 'Insider interviews about satisfaction drivers. Ask: What causes work-life
+    balance issues? What would you change? Why would/wouldn''t you recommend Coinbase?'
+  mountain_element: daily_climb
+- question: Who owns technical vision and architecture decisions without a CTO? How
+    does technical strategy get set?
+  why_important: Lack of CTO could indicate fragmented technical leadership or unclear
+    decision-making authority for architecture/technology choices.
+  how_to_find: 'Insider interviews with senior engineers. Ask: Who makes technology
+    stack decisions? How does technical strategy get set? Who resolves architectural
+    disagreements?'
+  mountain_element: chosen_peak
+- question: What are the quarterly 'Surge' weeks like? How disruptive to remote work?
+    Will this trend toward more in-office requirements?
+  why_important: Remote-first policy evolving toward hybrid. Need to understand travel
+    burden and future direction (could eliminate remote flexibility).
+  how_to_find: 'Insider interviews about Surge experiences and remote policy trends.
+    Ask: How often are Surges? What happens during them? Is there pressure to go to
+    office more often?'
+  mountain_element: daily_climb
+- question: What caused the May 2025 cybersecurity incident? What are the infrastructure
+    gaps being addressed?
+  why_important: Security incident affecting <1% MTU with $180-400M remediation suggests
+    significant infrastructure gaps. Need to understand scope and fixes.
+  how_to_find: 'If joining security/infrastructure team: ask about incident root cause,
+    remediation plan, and infrastructure improvements being made.'
+  mountain_element: chosen_peak
+- question: What is the actual team coordination style? Alpine/expedition/established
+    route/orienteering/trail crew?
+  why_important: Understanding how teams make decisions and coordinate work is critical
+    for assessing fit with personal work style and terrain demands.
+  how_to_find: 'Insider interviews about team dynamics. Ask: How do teams make technical
+    decisions? How much async vs sync communication? How do you handle disagreements?
+    Do teams pivot quickly?'
+  mountain_element: chosen_peak
+- question: How has team culture recovered from 2022-2023 layoffs? What changed after
+    2,000+ people were let go?
+  why_important: Cultural damage from layoffs can persist for years (trust erosion,
+    survivor guilt, fear of future cuts). Need to understand current team morale.
+  how_to_find: 'Insider interviews with engineers who lived through the layoffs. Ask:
+    How did team dynamics change? Do people feel secure now? How did managers rebuild
+    trust?'
+  mountain_element: rope_team_confidence
+- question: What does 'intense culture' mean day-to-day? How many hours/week are expected?
+    What's sustainable vs burnout pace?
+  why_important: CEO explicitly stated culture is 'intense' and 'rest and recharge'
+    scores lowest. Need concrete details about work intensity expectations.
+  how_to_find: 'Insider interviews about typical work weeks, on-call expectations,
+    weekend work frequency, vacation usage patterns. Ask: What''s a typical week like?
+    When do people actually disconnect?'
+  mountain_element: daily_climb
+- question: What does CEO approval of all hires mean in practice? How autonomous are
+    engineering teams day-to-day?
+  why_important: CEO approving all hires suggests control culture. Need to understand
+    if this extends to daily work or just hiring decisions.
+  how_to_find: 'Insider interviews about decision-making authority. Ask: What decisions
+    require escalation? How much autonomy do senior engineers have? How often do you
+    need executive approval?'
+  mountain_element: rope_team_confidence
+- question: Why is work-life balance rated 3.0-3.2/5 and only 54-61% recommend working
+    there? What specific issues cause dissatisfaction?
+  why_important: Low recommendation rate and work-life balance scores indicate systemic
+    issues. Need to identify root causes (hours? on-call? culture? management?).
+  how_to_find: 'Insider interviews about satisfaction drivers. Ask: What causes work-life
+    balance issues? What would you change? Why would/wouldn''t you recommend Coinbase?'
+  mountain_element: daily_climb
+- question: Who owns technical vision and architecture decisions without a CTO? How
+    does technical strategy get set?
+  why_important: Lack of CTO could indicate fragmented technical leadership or unclear
+    decision-making authority for architecture/technology choices.
+  how_to_find: 'Insider interviews with senior engineers. Ask: Who makes technology
+    stack decisions? How does technical strategy get set? Who resolves architectural
+    disagreements?'
+  mountain_element: chosen_peak
+- question: What are the quarterly 'Surge' weeks like? How disruptive to remote work?
+    Will this trend toward more in-office requirements?
+  why_important: Remote-first policy evolving toward hybrid. Need to understand travel
+    burden and future direction (could eliminate remote flexibility).
+  how_to_find: 'Insider interviews about Surge experiences and remote policy trends.
+    Ask: How often are Surges? What happens during them? Is there pressure to go to
+    office more often?'
+  mountain_element: daily_climb
+- question: What caused the May 2025 cybersecurity incident? What are the infrastructure
+    gaps being addressed?
+  why_important: Security incident affecting <1% MTU with $180-400M remediation suggests
+    significant infrastructure gaps. Need to understand scope and fixes.
+  how_to_find: 'If joining security/infrastructure team: ask about incident root cause,
+    remediation plan, and infrastructure improvements being made.'
+  mountain_element: chosen_peak
+- question: What is the actual team coordination style? Alpine/expedition/established
+    route/orienteering/trail crew?
+  why_important: Understanding how teams make decisions and coordinate work is critical
+    for assessing fit with personal work style and terrain demands.
+  how_to_find: 'Insider interviews about team dynamics. Ask: How do teams make technical
+    decisions? How much async vs sync communication? How do you handle disagreements?
+    Do teams pivot quickly?'
+  mountain_element: chosen_peak

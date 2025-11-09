@@ -1,0 +1,77 @@
+{
+  "batch_number": 2,
+  "total_batches": 4,
+  "companies_in_batch": 10,
+  "companies": [
+    {
+      "name": "coinbase",
+      "stage": "stage-1",
+      "company_dir": "data/stage-1/coinbase",
+      "flags_path": "data/stage-1/coinbase/company.flags.yaml",
+      "facts_path": "data/stage-1/coinbase/company.facts.yaml"
+    },
+    {
+      "name": "definely",
+      "stage": "stage-1",
+      "company_dir": "data/stage-1/definely",
+      "flags_path": "data/stage-1/definely/company.flags.yaml",
+      "facts_path": "data/stage-1/definely/company.facts.yaml"
+    },
+    {
+      "name": "dell-ireland",
+      "stage": "stage-1",
+      "company_dir": "data/stage-1/dell-ireland",
+      "flags_path": "data/stage-1/dell-ireland/company.flags.yaml",
+      "facts_path": "data/stage-1/dell-ireland/company.facts.yaml"
+    },
+    {
+      "name": "doist",
+      "stage": "stage-1",
+      "company_dir": "data/stage-1/doist",
+      "flags_path": "data/stage-1/doist/company.flags.yaml",
+      "facts_path": "data/stage-1/doist/company.facts.yaml"
+    },
+    {
+      "name": "duckduckgo",
+      "stage": "stage-1",
+      "company_dir": "data/stage-1/duckduckgo",
+      "flags_path": "data/stage-1/duckduckgo/company.flags.yaml",
+      "facts_path": "data/stage-1/duckduckgo/company.facts.yaml"
+    },
+    {
+      "name": "fly-io",
+      "stage": "stage-1",
+      "company_dir": "data/stage-1/fly-io",
+      "flags_path": "data/stage-1/fly-io/company.flags.yaml",
+      "facts_path": "data/stage-1/fly-io/company.facts.yaml"
+    },
+    {
+      "name": "github",
+      "stage": "stage-1",
+      "company_dir": "data/stage-1/github",
+      "flags_path": "data/stage-1/github/company.flags.yaml",
+      "facts_path": "data/stage-1/github/company.facts.yaml"
+    },
+    {
+      "name": "gusto",
+      "stage": "stage-1",
+      "company_dir": "data/stage-1/gusto",
+      "flags_path": "data/stage-1/gusto/company.flags.yaml",
+      "facts_path": "data/stage-1/gusto/company.facts.yaml"
+    },
+    {
+      "name": "hashicorp",
+      "stage": "stage-1",
+      "company_dir": "data/stage-1/hashicorp",
+      "flags_path": "data/stage-1/hashicorp/company.flags.yaml",
+      "facts_path": "data/stage-1/hashicorp/company.facts.yaml"
+    },
+    {
+      "name": "intercom",
+      "stage": "stage-1",
+      "company_dir": "data/stage-1/intercom",
+      "flags_path": "data/stage-1/intercom/company.flags.yaml",
+      "facts_path": "data/stage-1/intercom/company.facts.yaml"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "batch_number": 4,
+  "total_companies": 9,
+  "completed": 9,
+  "errors": 0,
+  "error_details": [],
+  "energy_distribution_stats": {
+    "avg_moare_pct": 64.9,
+    "avg_sparingly_pct": 35.1,
+    "avg_burnout_pct": 0.0,
+    "avg_help_mentoring_pct": 0.0,
+    "companies_meeting_thresholds": 5,
+    "companies_below_threshold": [
+      {
+        "company": "tipalti",
+        "moare_pct": 50,
+        "burnout_pct": 0,
+        "concern": "Low moare "
+      },
+      {
+        "company": "waymo",
+        "moare_pct": 50,
+        "burnout_pct": 0,
+        "concern": "Low moare "
+      },
+      {
+        "company": "wayve",
+        "moare_pct": 57,
+        "burnout_pct": 0,
+        "concern": "Low moare "
+      },
+      {
+        "company": "workday",
+        "moare_pct": 58,
+        "burnout_pct": 0,
+        "concern": "Low moare "
+      }
+    ]
+  },
+  "processing_notes": "Automated annotation with detailed analysis of company facts and energy profile alignment using MOARE terminology",
+  "timestamp": "2025-11-09T10:33:36.358719"
+}

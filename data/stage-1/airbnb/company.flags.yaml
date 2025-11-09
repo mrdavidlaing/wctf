@@ -1,6 +1,6 @@
 company: Airbnb
 company_slug: airbnb
-evaluation_date: '2025-10-12'
+evaluation_date: '2025-11-09'
 evaluator_context: Extracted from conversation notes
 green_flags:
   mountain_range:
@@ -49,13 +49,160 @@ green_flags:
     - flag: Lottie animation library - 35K GitHub stars, used industry-wide
       impact: Created OSS that shaped mobile/web development practices globally
       confidence: High - GitHub 2017
+    - flag: 'Exceptional profitability: $11.1B revenue (2024), $2.6B net income, $4.5B
+        free cash flow (40% FCF margin), $4.0B Adjusted EBITDA (36% margin)'
+      impact: Eliminates financial anxiety completely. Company prints money. Zero
+        runway concerns. Can invest in long-term technical excellence.
+      confidence: High - explicit Q4 2024 financial results
+      task_implications:
+      - task: Build features and infrastructure without financial constraints
+        time_estimate_pct: 40-45%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: fast
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_glue_work: false
+          uses_infrastructure_automation: true
+          uses_decision_frameworks: false
+          learning_required: low
+          collaboration_type: team
+          meeting_intensity: moderate
+          requires_sync_communication: false
+          timezone_spread: narrow
+        notes: Core engineering work with zero financial pressure
+        energy_matrix_quadrant: moare
+    - flag: 'Dominant market position: 44% global short-term rental market share (2024),
+        up from 28% in 2019. Nearest competitors: Booking.com 18%, Expedia/Vrbo 9%'
+      impact: Working for clear market leader. Competitive moat reduces existential
+        risk. Resume value from scale.
+      confidence: High - Skift Research market data
+      task_implications: []
+    - flag: 'Massive scale: 491M nights booked (2024, up 9.5% YoY), 8.1M active listings
+        globally in 220+ countries'
+      impact: Hyperscale infrastructure challenges. Technically interesting problems.
+        Proven product-market fit at global scale.
+      confidence: High - Q4 2024 results
+      task_implications:
+      - task: Support global-scale infrastructure serving 491M bookings/year
+        time_estimate_pct: 25-30%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: fast
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_glue_work: false
+          uses_infrastructure_automation: true
+          uses_decision_frameworks: false
+          learning_required: moderate
+          collaboration_type: team
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: narrow
+        notes: Real technical depth at hyperscale
+        energy_matrix_quadrant: moare
+    - flag: 'Capital efficiency: Repurchased $3.4B of stock in 2024. Generated $4.5B
+        FCF on $11.1B revenue.'
+      impact: Company doesn't need the cash. Returning to shareholders. Opposite of
+        burn. Zero layoff risk from financial pressure.
+      confidence: High - Q4 2024 results
+      task_implications: []
+    - flag: 'Strong open source engineering culture: Created and maintains Apache
+        Airflow (workflow orchestration, 1.5+ petabytes processed daily), Lottie (35K+
+        GitHub stars), JavaScript Style Guide (148K stars), Chronon (2024 AI/ML platform)'
+      impact: Real technical credibility. Resume value from widely-used OSS. Engineering
+        culture that gives back to community. Flow state work on known tools.
+      confidence: High - github.com/airbnb with 197 repos
+      task_implications:
+      - task: Contribute to and maintain widely-used open source projects
+        time_estimate_pct: 10-15%
+        characteristics:
+          conflict_exposure: none
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: fast
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_glue_work: false
+          uses_infrastructure_automation: true
+          uses_decision_frameworks: false
+          learning_required: low
+          collaboration_type: solo
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: wide
+        notes: Flow state work with visible community impact
+        energy_matrix_quadrant: moare
+    - flag: 'Active engineering blog with strong following: Medium blog with 154K
+        followers, most recent post Sep 24, 2025. KDD 2023 presence (2 papers, 11
+        talks)'
+      impact: Culture of technical documentation and knowledge sharing. Learning from
+        production experiences. External technical engagement valued.
+      confidence: High - medium.com/airbnb-engineering
+      task_implications: []
+    - flag: 'Significant AI/ML investment: $200-250M investment announced, ~200 AI/Gen
+        AI job openings. 99% ML features on Chronon platform (10K+ features). AI fraud
+        detection cut fraud 40%.'
+      impact: Growth area with real investment. Not just AI hype - production systems
+        with measurable results. Learning opportunities in AI/ML.
+      confidence: High - AI Research Co, Constellation Research, engineering blog
+      task_implications: []
+    - flag: 'Exceptional founder tenure and stability: Brian Chesky Co-founder & CEO
+        since 2007-2008 (18+ years), 94% CEO approval. Nathan Blecharczyk Co-founder
+        & CSO (17+ years)'
+      impact: Founders still deeply engaged. Not hired-gun CEO. Long-term thinking.
+        Proven ability to navigate crisis (COVID). Zero leadership turnover risk at
+        top.
+      confidence: High - Airbnb IR, Glassdoor
+      task_implications: []
+    - flag: 'Stable C-suite with deep tenure: Ellie Mertz CFO (11 years at Airbnb
+        before promotion Jan 2024), Ari Balogh CTO since Nov 2018 (ex-Google VP Engineering)'
+      impact: Leadership promotions from within. Low executive churn. Deep company
+        knowledge at top.
+      confidence: High - Airbnb Newsroom
+      task_implications: []
+    - flag: 'Strong employee sentiment: Glassdoor 4.2/5 (2,466+ reviews), 82% recommend
+        to friend. Compensation 4.2/5, Work-Life Balance 4.1/5'
+      impact: High-functioning culture. Employees are happy. Good comp and balance.
+        Attracts talent.
+      confidence: High - Glassdoor 2025-10-12
+      task_implications: []
+    - flag: 'Historic recognition as top employer: Ranked #1 Glassdoor Best Places
+        to Work in 2016 and 2017'
+      impact: 'Culture was exceptional pre-COVID. May still retain DNA even if not
+        #1 anymore.'
+      confidence: High - Glassdoor Blog, SF Gate
+      task_implications: []
+    - flag: 'Leading remote work policy: ''Live and Work Anywhere'' since 2022 - can
+        work from anywhere, no location-based pay cuts. 25% of employees live 50+
+        miles from office (2023)'
+      impact: True remote-first culture, not COVID compromise. Geographic flexibility
+        without penalty. Designed for distributed work from policy level.
+      confidence: High - Airbnb Newsroom Apr 2022, NPR 2023
+      task_implications: []
+    - flag: 'Resume value: Airbnb is a known brand (491M nights booked), created Apache
+        Airflow, Lottie, working at hyperscale on globally-recognized product'
+      impact: Career accelerator. Brand recognition opens doors. Technical credibility
+        from association with widely-used OSS tools.
+      confidence: High - market position and OSS contributions
+      task_implications: []
     strong_positives: &id002
     - flag: $11.1B revenue in 2024, 12% YoY growth with $2.6B net income
       impact: Profitable growth means engineering investment will continue, not a
         cost center
       confidence: High - Q4 2024 financial results
-    - flag: "Employee growth 5.7% (6,907 \u2192 7,300) indicates healthy expansion\
-        \ without over-hiring"
+    - flag: Employee growth 5.7% (6,907 → 7,300) indicates healthy expansion without
+        over-hiring
       impact: Measured growth suggests thoughtful hiring, not boom-bust cycle
       confidence: High - SEC 10-K 2024
     - flag: 491M bookings, 8.1M listings globally - substantial scale and market presence
@@ -106,6 +253,55 @@ green_flags:
     - flag: Rigorous 5-7 round interview process with high technical bar
       impact: Working with vetted, high-caliber engineers who cleared tough bar
       confidence: High - interviewing.io 2024
+    - flag: 'Public company with transparent financials: NASDAQ:ABNB since Dec 2020,
+        regular earnings reports'
+      impact: No opaque private company risks. Can track health in real-time via public
+        filings.
+      confidence: High - public company
+      task_implications: []
+    - flag: 'Growing market: Global short-term rental market reached $183B in 2024.
+        Airbnb processed $81.8B GBV (45% of market spend)'
+      impact: Rising tide lifts boats. Market expansion reduces competitive pressure.
+      confidence: High - Skift Research, Business of Apps
+      task_implications: []
+    - flag: 'Established tech stack: Ruby on Rails backend (since 2008), JavaScript,
+        React, Java, MySQL, AWS, Apache Cassandra, DynamoDB'
+      impact: Mature, battle-tested stack. Not chasing hype. Proven at scale. Some
+        legacy but stability matters more.
+      confidence: High - StackShare.io, engineering blogs
+      task_implications: []
+    - flag: 'Engineering interview emphasizes culture fit: 5-7 rounds including dedicated
+        ''Host'' interviews by non-engineers, heavy culture emphasis'
+      impact: Company invests in culture match. Filters for alignment. Reduces interpersonal
+        conflict risk.
+      confidence: High - interviewing.io, career resources
+      task_implications: []
+    - flag: 'Diversity investment: Connect Engineering Apprenticeship Program for
+        underrepresented backgrounds'
+      impact: Commitment to diverse hiring pipeline. Values beyond just 'culture fit'.
+      confidence: High - careers.airbnb.com
+      task_implications: []
+    - flag: 'Long-term HQ commitment: SF headquarters lease extended through 2037'
+      impact: Not fleeing SF. Long-term stability signal. Geographic anchor for those
+        who want it.
+      confidence: High - Airbnb Newsroom Sep 2024
+      task_implications: []
+    - flag: 'Right-sized team: 7,300 employees as of Dec 31, 2024 (up 5.7% from 6,907
+        in 2023). Growing modestly with revenue.'
+      impact: Not bloated. Headcount growth tracks revenue growth. Efficient scaling.
+      confidence: High - MacroTrends, SEC 10-K
+      task_implications: []
+    - flag: 'Interesting technical challenges: Supporting 491M bookings/year, 8.1M
+        listings, global marketplace dynamics, AI/ML fraud detection, search/recommendation
+        at scale'
+      impact: Non-trivial problems. Growth opportunities. Variety of technical domains.
+      confidence: High - scale and product complexity
+      task_implications: []
+    - flag: 'Equity upside exists: Public company, stock price reflects performance.
+        Can track in real-time. Liquidity available.'
+      impact: Equity grants have clear value and liquidity. Not lottery tickets.
+      confidence: High - NASDAQ:ABNB publicly traded
+      task_implications: []
   chosen_peak:
     critical_matches: *id001
     strong_positives: *id002
@@ -158,6 +354,67 @@ red_flags:
     - flag: Employee reviews describe as 'great place to retire, not to grow professionally'
       impact: Career ceiling for ambitious engineers seeking rapid advancement
       confidence: Medium - Glassdoor reviews 2024
+    - flag: 'Major COVID layoff: 1,900 employees (25% workforce) laid off May 2020'
+      impact: Massive disruption, though COVID-driven not structural. Creates historical
+        anxiety but was 5 years ago. Company recovered and is now thriving.
+      confidence: High - Wikipedia, NPR, Fortune
+      task_implications:
+      - task: Managing historical layoff anxiety (5 years old, COVID-driven)
+        time_estimate_pct: 2-3%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: low
+          autonomy_level: low
+          decision_speed: slow
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: false
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          learning_required: none
+          collaboration_type: solo
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: co_located
+        notes: Minimal overhead - event was 5 years ago, COVID-specific, company now
+          profitable
+        energy_matrix_quadrant: burnout
+    - flag: 'Extreme customer dissatisfaction: TrustPilot consumer rating 1.3/5 stars'
+      impact: SEVERE concern. Hosts rate listings 96% 4+ stars, but customers rate
+        Airbnb itself terribly. Suggests customer service failures, policy issues,
+        or platform trust problems. Could indicate cultural issues bleeding through
+        to product.
+      confidence: High - TrustPilot rating Oct 2025
+      task_implications:
+      - task: Navigate customer dissatisfaction and potential cultural misalignment
+        time_estimate_pct: 10-15%
+        characteristics:
+          conflict_exposure: moderate
+          alignment_clarity: moderate
+          authority_ambiguity: moderate
+          progress_visibility: low
+          autonomy_level: low
+          decision_speed: slow
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: true
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          learning_required: none
+          collaboration_type: cross_team
+          meeting_intensity: moderate
+          requires_sync_communication: true
+          timezone_spread: moderate
+        notes: Potential moral injury if building features that harm customers. Need
+          to understand root cause.
+        energy_matrix_quadrant: sparingly
+    - flag: 'Lowest rated category: Career Opportunities rated 3.6/5 (vs 4.2/5 overall)'
+      impact: Growth and advancement may be harder. Need to understand why - limited
+        scope, political, or just competitive?
+      confidence: High - Glassdoor rating breakdown
+      task_implications: []
   chosen_peak:
     dealbreakers: *id003
     concerning: *id004
@@ -224,3 +481,97 @@ missing_critical_data:
   how_to_find: 'Ask recruiter: ''Can you explain the Host interview process? What
     are you assessing?'''
   mountain_element: rope_team_confidence
+- question: What is the root cause of the 1.3/5 TrustPilot consumer rating? Is this
+    customer service, policy, product, or cultural?
+  why_important: CRITICAL. Massive gap between host ratings (96% 4+ stars) and consumer
+    experience (1.3/5). Need to understand if this reflects deeper cultural issues
+    that would cause moral injury working there. Could this be review bombing or real
+    systemic problems?
+  how_to_find: Insider interview about customer satisfaction focus, support quality,
+    policy decisions. Read TrustPilot reviews to understand complaints. G2 rating
+    (3.6/5 for Airbnb for Work) also mediocre.
+  mountain_element: rope_team_confidence
+- question: What is the actual staff engineer compensation (base + equity + bonus)?
+    How does it compare to market (FAANG, Stripe, etc)?
+  why_important: Glassdoor shows 4.2/5 for comp (good), but need actual numbers. Public
+    company so equity is real, but what's the grant size?
+  how_to_find: Levels.fyi, insider interview, recruiter conversation
+  mountain_element: daily_climb
+- question: What is the team coordination style? Alpine (co-located), Expedition (structured),
+    Established Route (patterns), Orienteering (figure out), Trail Crew (maintenance)?
+  why_important: Remote-first since 2022 is positive, but need to understand coordination
+    fit. Does async-first culture exist or is it timezone-spread + sync-heavy?
+  how_to_find: Insider interview about decision-making speed, meeting culture, async
+    vs sync work patterns
+  mountain_element: chosen_peak
+- question: What percentage of time do staff engineers spend in meetings versus maker
+    time? What's the on-call burden?
+  why_important: At 7,300 person company with global scale, meeting load could be
+    significant. Need to understand sustainable balance.
+  how_to_find: Insider interview about typical week, meeting culture, on-call expectations
+  mountain_element: daily_climb
+- question: What is the engineering headcount specifically? What's the engineer-to-total
+    ratio?
+  why_important: 7,300 total employees but engineering split not documented. Ratio
+    indicates product vs sales-driven culture.
+  how_to_find: Insider interview, LinkedIn analysis, ask during interview process
+  mountain_element: chosen_peak
+- question: How has engineering culture changed since 'Live and Work Anywhere' policy
+    (2022)? Any friction between remote and office?
+  why_important: Remote policy is only 3 years old. Need to understand if it's truly
+    working or if there's in-office preference/politics.
+  how_to_find: Insider interview about remote experience, promotion equity, office
+    vs remote dynamics
+  mountain_element: daily_climb
+- question: What's the current product vision and strategy? Is direction clear or
+    uncertain?
+  why_important: Profitable company with market dominance should have clear strategy,
+    but need to verify no thrashing or unclear direction.
+  how_to_find: Insider interview about roadmap stability, strategic clarity, recent
+    pivots
+  mountain_element: rope_team_confidence
+- question: What AI/LLM tool policies exist for engineers? Can use Claude/Copilot/Cursor
+    freely?
+  why_important: Company investing $200-250M in AI, but need to know if engineers
+    can use AI tools themselves. Restrictions reduce productivity.
+  how_to_find: Insider interview about dev tools, AI policy, or ask during interview
+  mountain_element: chosen_peak
+- question: Why were 30% of recruiting (27 people) laid off in March 2023? Growth
+    slowing or efficiency?
+  why_important: Recent small layoff (2 years ago). Need to understand if this was
+    right-sizing or signal of caution. Current growth is 5.7% headcount YoY which
+    is modest.
+  how_to_find: Insider interview about hiring plans, growth trajectory, recruiting
+    layoff context
+  mountain_element: mountain_range
+- question: What's the actual career progression path for staff engineers? Examples
+    of staff → senior staff → principal advancement?
+  why_important: Career Opportunities rated lowest (3.6/5). Need concrete examples
+    of how advancement works and what scope is available.
+  how_to_find: Insider interview about career framework, promotion examples, advancement
+    timeline reality
+  mountain_element: story_worth_telling
+profile_version_used: '1.0'
+synthesis:
+  energy_matrix_analysis:
+    profile_version_used: '1.0'
+    predicted_daily_distribution:
+      moare_green_flags:
+        percentage: 85.3
+        tasks_count: 15
+      sparingly_yellow_flags:
+        percentage: 12.6
+        tasks_count: 5
+      burnout_red_flags:
+        percentage: 2.1
+        tasks_count: 5
+      help_mentoring_yellow_flags:
+        percentage: 0.0
+        tasks_count: 0
+    threshold_analysis:
+      meets_green_minimum: true
+      exceeds_red_maximum: false
+      exceeds_yellow_maximum: false
+    energy_sustainability: HIGH
+    key_insights: []
+    decision_factors: []

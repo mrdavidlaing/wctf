@@ -1,206 +1,485 @@
-company: 0xide
-evaluation_date: '2025-10-18'
-evaluator_context: Extracted from conversation notes
+company: Oxide Computer Company
+company_slug: oxide-computer-company
+evaluation_date: '2025-11-09'
+evaluator_context: Staff engineer (25+ years) seeking sustainable senior role with strong
+  technical culture and systems-level work. Values open source, engineering excellence,
+  and financial stability.
+
 green_flags:
   mountain_range:
-    critical_matches: &id001
-    - flag: Strong funding position with $100M Series B (July 2025) providing 3+ years
-        runway at current scale
-      impact: Financial stability reduces risk of layoffs or pivots, allows focus
-        on technical excellence over survival mode
-      confidence: High - explicit company announcement and funding analysis
-    - flag: Growing revenue (ARR $15.1M) with accelerating customer growth including
-        prestigious customers (Lawrence Livermore National Lab, Idaho National Lab,
-        CoreWeave)
-      impact: Product-market fit validation with technical credibility through government
-        lab partnerships
-      confidence: Medium - third-party estimates and company announcements
-    - flag: Massive addressable market ($92B → $508B by 2030, 28.3% CAGR) with 85%
-        of workloads still on-premises
-      impact: Huge growth opportunity in underserved market provides long-term career
-        stability and upside
-      confidence: High - market research reports
-    - flag: Rust-first tech stack from firmware to userspace with 324+ public GitHub
-        repositories
-      impact: Modern systems programming language aligns with cutting-edge technical
-        culture and reduces technical debt
-      confidence: High - GitHub presence
-    - flag: 'Strong open source culture with key projects: Hubris embedded OS (855
-        stars), Helios illumos (364 stars), Propolis VMM (176 stars)'
-      impact: Public technical work builds resume value and demonstrates engineering
-        excellence
-      confidence: High - GitHub metrics
-    - flag: Public RFD (Request for Discussion) process at rfd.shared.oxide.computer
-        with transparent technical design
-      impact: Thoughtful engineering culture with documented decision-making and knowledge
-        sharing
-      confidence: High - public RFD repository
-    - flag: 'Active technical community: On the Metal podcast, Oxide and Friends Discord
-        show, P99 CONF, OxCon annual conference'
-      impact: Strong technical brand and community engagement provides networking
-        and learning opportunities
-      confidence: High - public media presence
-    - flag: 'Legendary technical leadership: Bryan Cantrill (Sun Microsystems veteran,
-        CTO), Jessie Frazelle (Docker/Google/Microsoft, CPO), Steve Tuck (Joyent President/COO,
-        CEO)'
-      impact: World-class technical pedigree with proven track record in systems software
-      confidence: High - public leadership backgrounds
-    - flag: Zero executive turnover since founding (2019), all three co-founders remain
-        in original roles
-      impact: Exceptional stability indicates strong team cohesion and aligned vision
-      confidence: High - company tracking
-    - flag: Remote-first policy requiring only 4-hour Pacific Time overlap
-      impact: Flexible remote work with reasonable timezone requirement for collaboration
-      confidence: High - company careers page
-    - flag: Transparent uniform salary $235,000 for all employees (progressed from
-        $175K in 2019)
-      impact: Fair compensation structure eliminates negotiation games, strong salary
-        progression shows commitment to employees
-      confidence: High - company transparency policy
-    - flag: 100% healthcare premiums covered for employees and dependents
-      impact: Exceptional benefits reduce financial stress and demonstrate employee
-        investment
-      confidence: High - company careers page
-    - flag: Building revolutionary rack-scale cloud computer challenging incumbents
-        (VMware, Nutanix, Dell, HPE)
-      impact: Ambitious technical mission with potential for significant industry
-        impact
-      confidence: High - product positioning
-    - flag: Working on entire stack from custom firmware to control plane to customer-facing
-        APIs
-      impact: Rare opportunity for deep systems work across full hardware/software
-        integration
-      confidence: High - technical architecture
-    strong_positives: &id002
-    - flag: No licensing fees business model differentiates from VMware/Broadcom competitors
-      impact: Compelling customer value proposition in market disrupted by Broadcom
-        acquisition
-      confidence: High - product specifications
-    - flag: Included in Gartner 2024 Market Guide for Full-Stack HCI Software
-      impact: Industry recognition improves market credibility and enterprise sales
-        potential
-      confidence: High - Gartner report
-    - flag: Regular engineering blog at oxide.computer/blog with FAQ Friday series
-      impact: Commitment to technical communication and transparency
-      confidence: High - company blog activity
-    - flag: Custom hardware/software integration solving hard systems problems (firmware,
-        networking, storage)
-      impact: Deep technical challenges provide interesting work and learning opportunities
-      confidence: High - product architecture
-    - flag: Steady growth from 23 to 75-84 employees (3.3x over 4 years) with no layoffs
-        in past 18 months
-      impact: Sustainable growth trajectory without chaos or contraction
-      confidence: High - employment trackers
-    - flag: Active hiring across technical roles (Control Plane Engineer, Networking
-        Engineers, Electrical Engineer)
-      impact: Continued investment in engineering team despite market conditions
-      confidence: High - job postings
-    - flag: Values-driven engineering-focused culture per careers page
-      impact: Culture alignment with engineering excellence over business theatrics
-      confidence: Medium - careers page description
-    - flag: High-profile technical brand with 2.2k GitHub followers and active community
-      impact: Resume value from working at respected systems company
-      confidence: High - GitHub metrics
-    - flag: Equity upside potential as early-stage company ($189M total funding, growth
-        trajectory)
-      impact: Possible significant financial return if company succeeds
-      confidence: Medium - funding stage and growth indicators
+    critical_matches:
+      - flag: Strong financial position with $189M total funding and $100M Series B
+          in July 2025 provides 3+ years runway
+        impact: Financial stability reduces anxiety and allows focus on technical work
+          instead of survival concerns
+        confidence: High - explicit in company announcements
+        task_implications:
+          - task: Normal engineering work without financial distraction
+            time_estimate_pct: '0%'
+            characteristics:
+              conflict_exposure: none
+              alignment_clarity: high
+              authority_ambiguity: low
+              progress_visibility: high
+              autonomy_level: high
+              decision_speed: fast
+              learning_required: none
+              uses_systems_thinking: false
+              uses_tool_building: false
+              uses_glue_work: false
+              uses_infrastructure_automation: false
+              uses_decision_frameworks: false
+              collaboration_type: solo
+              meeting_intensity: low
+              requires_sync_communication: false
+              timezone_spread: co_located
+            notes: Healthy funding means no time lost to financial anxiety
+      - flag: Enterprise customer base including Lawrence Livermore National Lab, Idaho
+          National Lab, CoreWeave, unnamed global financial services firm
+        impact: Real production workloads and customer validation, not vaporware or
+          POC theater
+        confidence: High - explicit in company announcements
+        task_implications:
+          - task: Supporting real production deployments
+            time_estimate_pct: '15-20%'
+            characteristics:
+              conflict_exposure: low
+              alignment_clarity: high
+              authority_ambiguity: low
+              progress_visibility: high
+              autonomy_level: moderate
+              decision_speed: moderate
+              learning_required: low
+              uses_systems_thinking: true
+              uses_tool_building: false
+              uses_glue_work: true
+              uses_infrastructure_automation: true
+              uses_decision_frameworks: false
+              collaboration_type: cross_team
+              meeting_intensity: moderate
+              requires_sync_communication: true
+              timezone_spread: narrow
+            notes: Real customers provide meaningful technical challenges
+    strong_positives:
+      - flag: 'Growing employee base: 23 to 75-84 employees (3.3x growth) with no layoffs
+          in past 18 months'
+        impact: Growth indicates healthy business trajectory and stable work environment
+        confidence: High - employment trackers and job postings
+        task_implications:
+          - task: Minimal reorg overhead in stable growth environment
+            time_estimate_pct: '5%'
+            characteristics:
+              conflict_exposure: low
+              alignment_clarity: high
+              authority_ambiguity: low
+              progress_visibility: moderate
+              autonomy_level: moderate
+              decision_speed: moderate
+              learning_required: none
+              uses_systems_thinking: false
+              uses_tool_building: false
+              uses_glue_work: true
+              uses_infrastructure_automation: false
+              uses_decision_frameworks: false
+              collaboration_type: team
+              meeting_intensity: moderate
+              requires_sync_communication: false
+              timezone_spread: narrow
+            notes: Healthy growth without churn means low coordination overhead
+
   chosen_peak:
-    critical_matches: *id001
-    strong_positives: *id002
+    critical_matches:
+      - flag: Rust-dominated tech stack from firmware to userspace with 324+ public
+          GitHub repositories
+        impact: Modern systems programming language aligns with infrastructure expertise
+          and technical values
+        confidence: High - GitHub activity
+        task_implications:
+          - task: Systems programming in Rust across full stack
+            time_estimate_pct: '40-50%'
+            characteristics:
+              conflict_exposure: low
+              alignment_clarity: high
+              authority_ambiguity: low
+              progress_visibility: high
+              autonomy_level: high
+              decision_speed: fast
+              learning_required: moderate
+              uses_systems_thinking: true
+              uses_tool_building: true
+              uses_glue_work: false
+              uses_infrastructure_automation: true
+              uses_decision_frameworks: false
+              collaboration_type: team
+              meeting_intensity: low
+              requires_sync_communication: false
+              timezone_spread: narrow
+            notes: Core technical work in preferred language
+      - flag: Open source first philosophy with most software publicly available on
+          GitHub including Hubris (embedded OS), Helios (illumos), Propolis (VMM)
+        impact: Technical transparency, external contributions, and resume value from
+          recognized open source projects
+        confidence: High - GitHub organization with 2.2k followers
+        task_implications:
+          - task: Contributing to open source projects with public visibility
+            time_estimate_pct: '30-40%'
+            characteristics:
+              conflict_exposure: low
+              alignment_clarity: high
+              authority_ambiguity: low
+              progress_visibility: high
+              autonomy_level: high
+              decision_speed: fast
+              learning_required: moderate
+              uses_systems_thinking: true
+              uses_tool_building: true
+              uses_glue_work: false
+              uses_infrastructure_automation: true
+              uses_decision_frameworks: false
+              collaboration_type: team
+              meeting_intensity: low
+              requires_sync_communication: false
+              timezone_spread: narrow
+            notes: Open source work provides career value and external visibility
+    strong_positives:
+      - flag: Strong engineering culture with RFD (Request for Discussion) process,
+          regular blog posts, public technical design documents
+        impact: Structured decision-making reduces authority ambiguity and enables
+          autonomous work
+        confidence: High - public RFD site and blog
+        task_implications:
+          - task: Participating in RFD-based technical decisions
+            time_estimate_pct: '10-15%'
+            characteristics:
+              conflict_exposure: low
+              alignment_clarity: high
+              authority_ambiguity: low
+              progress_visibility: high
+              autonomy_level: high
+              decision_speed: moderate
+              learning_required: low
+              uses_systems_thinking: true
+              uses_tool_building: false
+              uses_glue_work: false
+              uses_infrastructure_automation: false
+              uses_decision_frameworks: true
+              collaboration_type: team
+              meeting_intensity: moderate
+              requires_sync_communication: false
+              timezone_spread: narrow
+            notes: RFD process prevents misalignment conflicts
+
   rope_team_confidence:
-    critical_matches: *id001
-    strong_positives: *id002
+    critical_matches:
+      - flag: Founding team stability - CEO Steve Tuck, CTO Bryan Cantrill, CPO Jessie
+          Frazelle all remain since 2019 with no major executive departures in 24 months
+        impact: Leadership continuity provides strategic stability and reduces organizational
+          churn
+        confidence: High - company tracking
+        task_implications:
+          - task: Minimal time navigating leadership changes
+            time_estimate_pct: '0%'
+            characteristics:
+              conflict_exposure: none
+              alignment_clarity: high
+              authority_ambiguity: low
+              progress_visibility: high
+              autonomy_level: high
+              decision_speed: fast
+              learning_required: none
+              uses_systems_thinking: false
+              uses_tool_building: false
+              uses_glue_work: false
+              uses_infrastructure_automation: false
+              uses_decision_frameworks: false
+              collaboration_type: solo
+              meeting_intensity: low
+              requires_sync_communication: false
+              timezone_spread: co_located
+            notes: Stable leadership means no reorg overhead
+    strong_positives:
+      - flag: Technical co-founders with strong pedigree - Bryan Cantrill (Sun Microsystems
+          DTrace), Jessie Frazelle (Docker, Google, Microsoft)
+        impact: Deep technical expertise in leadership creates engineering-first culture
+        confidence: High - public bios
+        task_implications:
+          - task: Working in technically-informed environment
+            time_estimate_pct: '0%'
+            characteristics:
+              conflict_exposure: none
+              alignment_clarity: high
+              authority_ambiguity: low
+              progress_visibility: high
+              autonomy_level: high
+              decision_speed: fast
+              learning_required: none
+              uses_systems_thinking: false
+              uses_tool_building: false
+              uses_glue_work: false
+              uses_infrastructure_automation: false
+              uses_decision_frameworks: false
+              collaboration_type: solo
+              meeting_intensity: low
+              requires_sync_communication: false
+              timezone_spread: co_located
+            notes: Technical leadership reduces need to explain or justify technical
+              decisions
+
   daily_climb:
-    critical_matches: *id001
-    strong_positives: *id002
+    critical_matches:
+      - flag: Uniform salary $235,000 for all employees with 100% healthcare premiums
+          covered for employees and dependents
+        impact: Competitive compensation removes financial anxiety drain, transparency
+          reduces equity concerns
+        confidence: High - company transparency policy
+        task_implications:
+          - task: No time spent on compensation anxiety or job searching
+            time_estimate_pct: '0%'
+            characteristics:
+              conflict_exposure: none
+              alignment_clarity: high
+              authority_ambiguity: low
+              progress_visibility: high
+              autonomy_level: high
+              decision_speed: fast
+              learning_required: none
+              uses_systems_thinking: false
+              uses_tool_building: false
+              uses_glue_work: false
+              uses_infrastructure_automation: false
+              uses_decision_frameworks: false
+              collaboration_type: solo
+              meeting_intensity: low
+              requires_sync_communication: false
+              timezone_spread: co_located
+            notes: Market-rate compensation eliminates financial drain
+    strong_positives:
+      - flag: Remote-first policy with 4-hour Pacific Time overlap requirement, headquarters
+          in Emeryville CA
+        impact: Flexibility for work-life balance while maintaining collaboration bandwidth
+        confidence: High - company careers page
+        task_implications:
+          - task: Remote work with reasonable timezone overlap
+            time_estimate_pct: '0%'
+            characteristics:
+              conflict_exposure: none
+              alignment_clarity: high
+              authority_ambiguity: low
+              progress_visibility: high
+              autonomy_level: high
+              decision_speed: fast
+              learning_required: none
+              uses_systems_thinking: false
+              uses_tool_building: false
+              uses_glue_work: false
+              uses_infrastructure_automation: false
+              uses_decision_frameworks: false
+              collaboration_type: solo
+              meeting_intensity: low
+              requires_sync_communication: false
+              timezone_spread: narrow
+            notes: Remote-first reduces commute overhead, Pacific overlap is manageable
+
   story_worth_telling:
-    critical_matches: *id001
-    strong_positives: *id002
+    critical_matches:
+      - flag: Building rack-scale cloud computer with custom firmware, full-stack integration,
+          and novel power distribution - deeply technical systems work
+        impact: Interesting technical challenges in systems software, firmware, and
+          hardware integration provide growth and resume value
+        confidence: High - product specifications
+        task_implications:
+          - task: Deep systems work on novel infrastructure
+            time_estimate_pct: '40-50%'
+            characteristics:
+              conflict_exposure: low
+              alignment_clarity: high
+              authority_ambiguity: low
+              progress_visibility: high
+              autonomy_level: high
+              decision_speed: fast
+              learning_required: moderate
+              uses_systems_thinking: true
+              uses_tool_building: true
+              uses_glue_work: false
+              uses_infrastructure_automation: true
+              uses_decision_frameworks: false
+              collaboration_type: team
+              meeting_intensity: low
+              requires_sync_communication: false
+              timezone_spread: narrow
+            notes: Novel technical work provides career growth
+    strong_positives:
+      - flag: Regular conference presence (On the Metal podcast, Oxide and Friends,
+          P99 CONF, InfoQ, annual OxCon)
+        impact: External visibility and networking opportunities enhance career trajectory
+        confidence: High - media presence
+        task_implications:
+          - task: Participating in conference speaking or content
+            time_estimate_pct: '5%'
+            characteristics:
+              conflict_exposure: low
+              alignment_clarity: high
+              authority_ambiguity: low
+              progress_visibility: high
+              autonomy_level: high
+              decision_speed: moderate
+              learning_required: low
+              uses_systems_thinking: false
+              uses_tool_building: false
+              uses_glue_work: true
+              uses_infrastructure_automation: false
+              uses_decision_frameworks: false
+              collaboration_type: solo
+              meeting_intensity: moderate
+              requires_sync_communication: true
+              timezone_spread: narrow
+            notes: External visibility enhances resume value
+
 red_flags:
   mountain_range:
-    dealbreakers: &id003 []
-    concerning: &id004
-    - flag: Not yet profitable with historical burn ~$89M over 6 years
-      impact: Continued dependency on funding rounds creates risk if market conditions
-        deteriorate
-      confidence: Medium - funding round analysis
-    - flag: Hardware startup with complex supply chain and manufacturing challenges
-      impact: Capital-intensive business model with execution risks beyond software
-      confidence: High - business model characteristics
-    - flag: Limited public customer references beyond government labs and CoreWeave
-      impact: Enterprise adoption may be slower than needed for growth targets
-      confidence: Medium - company announcements
-    - flag: Limited public AI/ML strategy despite market trend toward AI infrastructure
-      impact: May be missing major market opportunity or falling behind competitors
-      confidence: Medium - absence from public materials
-    - flag: Small team (75-84 employees) means potentially broader responsibilities
-        and less specialization
-      impact: May involve more operational work vs. pure technical focus
-      confidence: Medium - headcount data
-    - flag: Headquarters in Emeryville, CA may have occasional in-person expectations
-        despite remote-first policy
-      impact: Geographic constraint for those not near Bay Area
-      confidence: Low - policy states remote-first but HQ location is Bay Area
-    - flag: Early-stage company with execution risk - need to prove model at scale
-      impact: Career risk if company fails to achieve product-market fit
-      confidence: Medium - stage and traction
+    dealbreakers: []
+    concerning:
+      - flag: Not profitable with historical burn ~$89M over 6 years (2019-2025), estimated
+          ARR only $15.1M
+        impact: Hardware business requires significant capital, profitability timeline
+          unclear
+        confidence: Medium - inferred from funding rounds and third-party estimates
+        task_implications:
+          - task: Managing uncertainty about long-term viability
+            time_estimate_pct: '5%'
+            characteristics:
+              conflict_exposure: low
+              alignment_clarity: moderate
+              authority_ambiguity: low
+              progress_visibility: moderate
+              autonomy_level: moderate
+              decision_speed: moderate
+              learning_required: none
+              uses_systems_thinking: false
+              uses_tool_building: false
+              uses_glue_work: false
+              uses_infrastructure_automation: false
+              uses_decision_frameworks: false
+              collaboration_type: solo
+              meeting_intensity: low
+              requires_sync_communication: false
+              timezone_spread: co_located
+            notes: Some mental overhead from profitability uncertainty, but $100M runway
+              mitigates short-term risk
+
   chosen_peak:
-    dealbreakers: *id003
-    concerning: *id004
+    dealbreakers: []
+    concerning:
+      - flag: Limited public AI/ML initiatives despite market trend toward GPU/AI
+          infrastructure
+        impact: May miss wave of AI infrastructure spending, though HPC capability evidenced
+          by LLNL partnership
+        confidence: Medium - absence of AI messaging in public materials
+        task_implications:
+          - task: Monitoring market positioning vs AI trend
+            time_estimate_pct: '0%'
+            characteristics:
+              conflict_exposure: none
+              alignment_clarity: high
+              authority_ambiguity: low
+              progress_visibility: high
+              autonomy_level: high
+              decision_speed: fast
+              learning_required: none
+              uses_systems_thinking: false
+              uses_tool_building: false
+              uses_glue_work: false
+              uses_infrastructure_automation: false
+              uses_decision_frameworks: false
+              collaboration_type: solo
+              meeting_intensity: low
+              requires_sync_communication: false
+              timezone_spread: co_located
+            notes: Not a personal concern for systems work, general-purpose computing
+              still valuable
+
   rope_team_confidence:
-    dealbreakers: *id003
-    concerning: *id004
+    dealbreakers: []
+    concerning: []
+
   daily_climb:
-    dealbreakers: *id003
-    concerning: *id004
+    dealbreakers: []
+    concerning: []
+
   story_worth_telling:
-    dealbreakers: *id003
-    concerning: *id004
+    dealbreakers: []
+    concerning: []
+
 missing_critical_data:
-- question: What is the actual engineering team size and how is it structured (firmware
-    vs. control plane vs. infrastructure)?
-  why_important: Understanding team structure helps assess collaboration model and
-    areas of focus
-  how_to_find: Ask recruiter/hiring manager about team organization chart and engineering
-    headcount breakdown
-  mountain_element: rope_team_confidence
-- question: What does day-to-day look like for a staff engineer? Meeting load? Maker
-    time? On-call expectations?
-  why_important: Critical for understanding if the role allows for deep technical
-    work vs. coordination overhead
-  how_to_find: Ask during interviews about typical week, meeting culture, and on-call
-    rotation
-  mountain_element: daily_climb
-- question: What is the equity compensation structure and typical staff engineer grant?
-  why_important: Understanding upside potential for early-stage company with strong
-    growth
-  how_to_find: Discuss during offer stage, ask about option pool percentage and strike
-    price
-  mountain_element: story_worth_telling
-- question: What is the AI/ML infrastructure strategy and roadmap?
-  why_important: AI workloads are major growth driver for cloud infrastructure, need
-    to understand positioning
-  how_to_find: Ask product/engineering leadership about AI strategy during interviews
-  mountain_element: mountain_range
-- question: What is the deployment/production operations experience? How many racks
-    in production? Customer satisfaction?
-  why_important: Proof of scale and operational maturity beyond initial customers
-  how_to_find: Ask about deployment metrics, customer case studies, operational learnings
-  mountain_element: mountain_range
-- question: What does career progression look like for staff+ engineers? Is there
-    a technical track?
-  why_important: Understanding growth path and whether company values technical leadership
-  how_to_find: Ask about engineering levels, staff+ population, and promotion criteria
-  mountain_element: story_worth_telling
-- question: What is the employee satisfaction level? Any Blind or Reddit discussions?
-  why_important: Insider perspective on culture and day-to-day reality beyond public
-    image
-  how_to_find: Search Blind, Reddit, Glassdoor for employee reviews and discussions
-  mountain_element: daily_climb
-- question: What is the typical deployment timeline and customer onboarding process?
-  why_important: Understanding if product is truly productized vs. custom integration
-    work
-  how_to_find: Ask sales engineering or customer success about implementation process
-  mountain_element: mountain_range
-company_slug: 0xide
+  - question: What is the actual team coordination style (alpine/expedition/established
+      route)?
+    why_important: Need to understand if communication bandwidth and decision authority
+      match terrain volatility - critical for sustainable work given profile's severe
+      misalignment drain
+    how_to_find: Insider interviews asking about decision-making speed, autonomy levels,
+      how team handles uncertainty, recent pivots or realignments
+    mountain_element: chosen_peak
+  - question: What is the meeting intensity and maker time percentage?
+    why_important: Profile shows max 30% meeting tolerance - need to verify daily experience
+      matches
+    how_to_find: Insider interviews about typical week, calendar patterns, sync vs
+      async culture
+    mountain_element: daily_climb
+  - question: What is the typical span of control for engineering managers?
+    why_important: Manager quality and availability affects autonomy and conflict exposure
+    how_to_find: Insider interviews about team structure, manager ratios, reporting
+      relationships
+    mountain_element: rope_team_confidence
+  - question: What is the path to profitability and timeline expectations?
+    why_important: Understanding financial sustainability beyond current runway reduces
+      anxiety drain
+    how_to_find: Insider interviews about business model, unit economics, revenue
+      growth trajectory
+    mountain_element: mountain_range
+  - question: How does the team handle technical disagreements and conflicting priorities?
+    why_important: Profile shows severe drain from interpersonal conflict - need to
+      understand conflict patterns
+    how_to_find: Insider interviews about recent technical decisions, how disagreements
+      resolved, escalation patterns
+    mountain_element: rope_team_confidence
+
+synthesis:
+  organizational_health_level: 2
+  organizational_health_rationale: 'Healthy Growth - Well-funded hardware startup with
+    stable leadership, growing team (3.3x in 4 years), no layoffs, enterprise customers,
+    strong technical culture. Not profitable but typical for capital-intensive hardware
+    business with $100M Series B providing 3+ years runway.'
+  mountain_worth_climbing: 'YES'
+  sustainability_confidence: HIGH
+  overall_verdict: 'STRONG MATCH - Excellent technical culture with Rust/open source,
+    stable leadership team with deep systems expertise, solid financial position ($189M
+    raised), real enterprise customers (not vaporware). Green flags strongly outweigh
+    concerns. Primary risk is hardware business profitability timeline, but $100M
+    runway provides cushion. Missing critical data about team coordination style and
+    meeting culture, but strong indicators suggest healthy environment. Recommended
+    to proceed with insider interviews to validate coordination fit and daily experience.'
+  deception_patterns_detected: false
+  deception_details: 'No theater patterns detected - real customers (LLNL, Idaho National
+    Lab, CoreWeave), public open source code, active GitHub repositories with external
+    contributions, and conference presence all indicate legitimate technical execution.'
+  energy_matrix_summary: 'Estimated 65-70% productive work (Level 2 - Healthy Growth):
+    Core systems programming in Rust (40-50%), open source contributions (30-40%),
+    RFD participation (10-15%), supporting production deployments (15-20%), minimal
+    reorg overhead (5%), minimal profitability uncertainty (5%). Conference participation
+    adds 5% but is energizing (story worth telling). Strong alignment with profile
+    strengths (systems thinking, tool building, infrastructure automation) and low
+    conflict exposure makes this sustainable.'
+  key_decision_factors:
+    - 'Financial stability: $189M raised, $100M Series B, 3+ years runway'
+    - 'Technical culture: Rust-first, open source, RFD process, strong engineering
+      leadership'
+    - 'Leadership stability: Founding team intact since 2019, no exec departures'
+    - 'Real customers: Enterprise deployments at national labs and financial services,
+      not POC theater'
+    - 'Growth trajectory: 3.3x employee growth, no layoffs, actively hiring'
+  next_steps:
+    - Insider interviews to validate team coordination style and meeting culture
+    - Clarify profitability timeline and business model sustainability
+    - Understand manager ratios and team structure
+    - Validate conflict resolution patterns and technical decision-making
+    - Explore specific role scope and autonomy expectations

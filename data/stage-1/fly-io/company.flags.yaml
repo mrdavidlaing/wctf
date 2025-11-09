@@ -1,206 +1,398 @@
 company: fly-io
-evaluation_date: '2025-10-18'
+evaluation_date: '2025-11-09'
 evaluator_context: Extracted from conversation notes
 green_flags:
   mountain_range:
-    critical_matches: &id001
-    - flag: Runs own hardware infrastructure instead of layering on AWS - building
-        data centers for economic/performance reasons
-      impact: Deep technical challenge solving hard infrastructure problems at hardware
-        level
-      confidence: High - Fly.io blog
-    - flag: Firecracker-based VMs that boot in 250ms enabling instant scaling and
-        eliminating cold starts
-      impact: Working on cutting-edge containerization and virtualization technology
-      confidence: High - Fly.io homepage
-    - flag: CEO Kurt Mackey and CTO Jerome Gravel-Niquet stable since founding (2016),
-        successful track record (Compose→IBM)
-      impact: Experienced founders with exit, long-term commitment
-      confidence: High - Crunchbase
-    - flag: Remote-first since founding with team in Europe, Rwanda, South Africa,
-        Mexico, Argentina, Canada, USA
-      impact: Perfect match for remote-first requirement, truly distributed culture
-      confidence: High - Fly.io hiring docs
-    - flag: Same compensation everywhere in world, no cost-of-living adjustments -
-        fair global pay policy
-      impact: Geographic flexibility without penalty, values global equity
-      confidence: High - Fly.io hiring docs
-    - flag: Building edge computing infrastructure owning hardware - solving genuinely
-        hard distributed systems problems
-      impact: Unique technical challenge, not just software abstraction work
-      confidence: High - Company positioning
-    strong_positives: &id002
-    - flag: '$111M raised ($70M Series C 2023) with top-tier investors: a16z, EQT
-        Ventures, Intel Capital, Dell Technologies Capital'
-      impact: Strong investor backing provides runway and credibility
-      confidence: High - Crunchbase and press releases
-    - flag: Revenue growth $882K (2021) → $7.6M (2023) → $11.2M (2024), 47% YoY growth
-        recent year
-      impact: Solid revenue growth trajectory shows product-market fit
-      confidence: High - Getlatka estimates
-    - flag: Unit-profitable most of company life with 70% margins at optimal capacity,
-        18 months from profitability (as of June 2023)
-      impact: Path to profitability exists, not perpetual burn mode
-      confidence: High - CEO statement in Bloomberg
-    - flag: Notable customers including Fanatics, Tailscale, Supabase, Walmart Labs
-        with 3M+ apps launched
-      impact: Product validation from respected technical companies
-      confidence: High - Company website and press
-    - flag: 12x growth in virtual machines June 2022 to June 2023
-      impact: Strong usage growth indicates market demand
-      confidence: High - FinSMEs
-    - flag: 35 global edge regions for sub-100ms response times, Anycast routing,
-        instant WireGuard VPN
-      impact: Building globally distributed systems at scale
-      confidence: High - Fly.io website
-    - flag: 'Recently added GPU support (Feb 2024): A10, L40S, A100 models for ML/AI
-        workloads'
-      impact: Expanding into AI infrastructure market, staying relevant
-      confidence: High - Fly.io blog
-    - flag: Y Combinator Winter 2020 alumni with successful founder (Kurt Mackey sold
-        Compose to IBM)
-      impact: Proven entrepreneurial leadership and startup pedigree
-      confidence: High - YC and Crunchbase
-    - flag: SOC2 Type 2 attested showing commitment to security standards
-      impact: Professional security practices for enterprise customers
-      confidence: High - Fly.io homepage
-    - flag: Glassdoor 4.5/5 (though only 2 reviews) with perfect 5.0 scores for culture,
-        work-life balance, management, compensation
-      impact: Early employees extremely satisfied (small sample)
-      confidence: Medium - Glassdoor with limited reviews
-    - flag: No executive changes in past 24 months showing leadership stability
-      impact: Stable leadership team during growth phase
-      confidence: High - News searches
-    - flag: 4 months severance for September 2024 layoffs shows respectful treatment
-        of employees
-      impact: Company takes care of people even during difficult decisions
-      confidence: High - Hacker News
-    - flag: 'Massive edge computing TAM: $23.65B (2024) → $327.79B (2033) at 33% CAGR'
-      impact: Huge market opportunity in growing infrastructure category
-      confidence: High - Grand View Research
-    - flag: Working at small team (58-72 employees) means high individual impact and
-        visibility
-      impact: Staff engineer can have significant influence on product and company
-      confidence: High - Multiple sources
-    - flag: 'Equity upside potential: $467M valuation with path to profitability'
-      impact: Reasonable valuation with growth potential if execution continues
-      confidence: High - Series C valuation
+    critical_matches:
+    - flag: 'Technical excellence: Rust+Go infrastructure (fly-proxy, flyd, flyctl),
+        Phoenix/Elixir sponsor, owns hardware vs AWS layering'
+      impact: Perfect alignment with systems_thinking + tool_building + infrastructure_automation
+        expert strengths
+      confidence: High - Hiring docs, GitHub (240 repos), blog posts
+      task_implications:
+      - task: Build Rust-based Firecracker hypervisor integration for fly-proxy Anycast
+          system
+        time_estimate_pct: 30%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: low
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_glue_work: false
+          uses_infrastructure_automation: true
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: moderate
+        notes: Core MOARE work - uses 3 expert strengths, direct hardware control
+          enables deep systems work, ships-when-ready culture provides visible_progress
+          generator
+    - flag: Remote-first culture since founding, global team (Europe/Rwanda/SA/Mexico/Argentina/Canada/USA),
+        same compensation worldwide
+      impact: 'Perfect timezone flexibility match (profile: 6hr window), eliminates
+        cost-of-living compensation drama'
+      confidence: High - Hiring documentation explicit statements
+      task_implications:
+      - task: Design distributed orchestration system (flyd) coordinating VMs across
+          35 global regions
+        time_estimate_pct: 20%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: none
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_glue_work: true
+          uses_infrastructure_automation: true
+          uses_decision_frameworks: false
+          collaboration_type: cross_team
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: wide
+        notes: Remote-first = async work strength, uses glue_work expertise (bridging
+          global teams), equal pay removes compensation anxiety
+    - flag: Ships when ready (no formal roadmaps/schedules), CLI-first culture, single-pizza
+        teams (3-4 people)
+      impact: Eliminates process theater and authority_ambiguity drain, enables flow
+        state via tool_building
+      confidence: High - Hiring docs explicit
+      task_implications:
+      - task: Build flyctl CLI features (auto-released Mon-Thu 3pm EST) based on user
+          feedback
+        time_estimate_pct: 15%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: low
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_glue_work: false
+          uses_infrastructure_automation: true
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: narrow
+        notes: No roadmaps = no process overhead. Small teams = low authority_ambiguity.
+          Daily releases = visible_progress. Perfect tool_building alignment.
+    strong_positives:
+    - flag: 'Strong OSS culture: LiteFS (4.5k stars), flyctl (1.6k), Corrosion (1.2k),
+        240 public repos, platform-agnostic tools'
+      impact: Public technical recognition, not locked to Fly.io platform
+      confidence: High - GitHub metrics
+      task_implications:
+      - task: Develop LiteFS SQLite replication system and engage with external contributors
+        time_estimate_pct: 10%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: low
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_glue_work: false
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: cross_team
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: wide
+        notes: OSS = visible_progress generator (public recognition). LiteFS not locked
+          to platform = resume value.
+    - flag: 'Technical evangelism: Blog posts hit HN front page (100+ comments), SE
+        Radio, DevOps Days talks by Xe Iaso, CEO Kurt Mackey'
+      impact: Optional public speaking opportunity, aligns with glue_work strength
+        (community bridging)
+      confidence: High - Blog activity, podcast appearances, conference listings
+      task_implications:
+      - task: Write technical blog posts and give conference talks on distributed
+          systems
+        time_estimate_pct: 5%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: none
+          uses_systems_thinking: true
+          uses_tool_building: false
+          uses_glue_work: true
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: solo
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: co_located
+        notes: Optional but available. Uses glue_work expertise (external engagement).
+          Public recognition for technical depth.
+    - flag: 'Stable founder leadership: Kurt Mackey CEO since 2016, prior exit to
+        IBM (Compose), Jerome Gravel-Niquet CTO since 2016'
+      impact: Low leadership churn reduces authority_ambiguity and misalignment risk
+      confidence: High - Crunchbase, company about page
+      task_implications:
+      - task: Operate in stable technical direction with experienced infrastructure
+          founders
+        time_estimate_pct: 5%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: moderate
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: none
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: false
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: narrow
+        notes: Background stability - reduces organizational churn overhead. Founders
+          have infrastructure experience.
   chosen_peak:
-    critical_matches: *id001
-    strong_positives: *id002
+    critical_matches: []
+    strong_positives: []
   rope_team_confidence:
-    critical_matches: *id001
-    strong_positives: *id002
+    critical_matches: []
+    strong_positives: []
   daily_climb:
-    critical_matches: *id001
-    strong_positives: *id002
+    critical_matches: []
+    strong_positives: []
   story_worth_telling:
-    critical_matches: *id001
-    strong_positives: *id002
+    critical_matches: []
+    strong_positives: []
 red_flags:
   mountain_range:
-    dealbreakers: &id003 []
-    concerning: &id004
-    - flag: Recent layoffs of ~40 employees in September 2024 (30% headcount reduction)
-      impact: Financial pressure or restructuring, organizational disruption
-      confidence: High - StartupNews.fyi and multiple sources
-    - flag: Only $11.2M revenue (2024) on $467M valuation = 42x revenue multiple,
-        very high for infrastructure company
-      impact: Valuation may be inflated, down round risk if metrics don't improve
-      confidence: High - Getlatka revenue vs Crunchbase valuation
-    - flag: Still 18 months from profitability as of June 2023, unclear current status
-        post-layoffs
-      impact: Burn continues, need to understand runway and path forward
-      confidence: Medium - CEO statement timing unclear if accelerated
-    - flag: 'CEO publicly acknowledged reliability issues in community post ''Reliability:
-        It''s Not Great'''
-      impact: Production stability problems could impact customer retention and growth
-      confidence: High - Fly.io community forum
-    - flag: Multiple Hacker News discussions about outages and reliability concerns
-      impact: Public perception of reliability issues could hurt enterprise adoption
-      confidence: High - Hacker News
-    - flag: TrustPilot rating only 2.7 stars (14 reviews) vs 4.3 Capterra suggests
-        customer satisfaction issues
-      impact: Mixed customer sentiment, potential product/service gaps
-      confidence: Medium - Review platforms
-    - flag: Hardware ownership strategy creates capital intensity and operational
-        complexity
-      impact: Higher risk than pure software play, requires expertise in data center
-        operations
-      confidence: High - Business model
-    - flag: Very small team (58-72 employees) post-layoffs for complex hardware+software
-        business
-      impact: Team may be stretched thin, limited bandwidth for innovation
-      confidence: High - Multiple headcount sources
-    - flag: Only 2 Glassdoor reviews makes ratings unreliable, can't assess true culture
-      impact: Unknown cultural reality beyond small sample
-      confidence: High - Glassdoor review count
-    - flag: Key engineering team member JP Phillips left December 2024 (built orchestration
-        system)
-      impact: Loss of critical technical knowledge during growth phase
-      confidence: High - Fly.io blog
-    - flag: Small team size means likely wearing multiple hats and being on-call for
-        critical infrastructure
-      impact: Potential for high operational burden and work-life balance challenges
-      confidence: Medium - Inferred from team size and infrastructure nature
-    - flag: No specific compensation ranges available, unclear if 'same everywhere'
-        is competitive
-      impact: Unknown total comp competitiveness vs market
-      confidence: Low - Absence of data
-    - flag: Small company (60 people) with layoffs creates career risk if company
-        struggles
-      impact: Higher risk than established companies, equity may not materialize
-      confidence: Medium - Size and recent layoffs
-    - flag: Career progression unclear in 60-person company, limited staff+ population
-      impact: Growth path beyond staff may require company scale or exit
-      confidence: Medium - Company size
+    dealbreakers: []
+    concerning:
+    - flag: 'Sept 2024 layoffs: ~40 employees (30% headcount reduction), both white
+        collar + factory workers'
+      impact: 'Triggers interpersonal_conflict severe drain (profile: witnessing team
+        stress from childhood trauma) + financial_anxiety moderate drain'
+      confidence: High - Multiple sources (StartupNews, TechStory, 6figr, HN thread
+        with CEO response)
+      task_implications:
+      - task: Navigate post-layoff survivor dynamics and latent team tension
+        time_estimate_pct: 10%
+        characteristics:
+          conflict_exposure: moderate
+          alignment_clarity: moderate
+          authority_ambiguity: moderate
+          progress_visibility: low
+          autonomy_level: low
+          decision_speed: slow
+          learning_required: none
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: false
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: moderate
+          requires_sync_communication: true
+          timezone_spread: moderate
+        notes: 'SPARINGLY work - recent layoffs create latent conflict. Profile: witnessing
+          team stress = severe drain. 4mo severance suggests decent handling but still
+          draining.'
+    - flag: Not yet profitable (18 months to profitability target from June 2023),
+        not yet self-funded per Glassdoor review
+      impact: Ongoing financial pressure triggers financial_anxiety moderate drain,
+        raises survival concerns
+      confidence: High - CEO Bloomberg statement June 2023, Glassdoor employee review
+        Oct 2024
+      task_implications:
+      - task: Balance feature velocity against cost optimization pressure from profitability
+          timeline
+        time_estimate_pct: 10%
+        characteristics:
+          conflict_exposure: moderate
+          alignment_clarity: moderate
+          authority_ambiguity: moderate
+          progress_visibility: moderate
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: low
+          uses_systems_thinking: true
+          uses_tool_building: false
+          uses_glue_work: false
+          uses_infrastructure_automation: true
+          uses_decision_frameworks: true
+          collaboration_type: team
+          meeting_intensity: moderate
+          requires_sync_communication: true
+          timezone_spread: narrow
+        notes: 'SPARINGLY - financial_anxiety drain (profile: moderate severity).
+          June 2023 + 18mo = Dec 2024 target approaching. Uses some strengths but
+          under pressure.'
+    - flag: 'Reliability issues acknowledged by CEO (''Reliability: It''s Not Great''
+        post), multiple HN outage threads'
+      impact: Public criticism pressure, potential on-call burden interrupting flow
+        state
+      confidence: High - CEO community post, multiple HN threads Nov 2024
+      task_implications:
+      - task: Respond to reliability incidents, customer escalations, and public HN
+          criticism
+        time_estimate_pct: 10%
+        characteristics:
+          conflict_exposure: moderate
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: moderate
+          autonomy_level: moderate
+          decision_speed: fast
+          learning_required: low
+          uses_systems_thinking: true
+          uses_tool_building: false
+          uses_glue_work: true
+          uses_infrastructure_automation: true
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: low
+          requires_sync_communication: true
+          timezone_spread: narrow
+        notes: 'SPARINGLY - incident work interrupts flow. BUT: CEO transparency vs
+          scapegoating is positive signal. Uses infrastructure skills.'
+    - flag: Small team (58-72 employees, ~33 engineering) after 30% reduction, wear-many-hats
+        pressure
+      impact: Potential glue work overload, but could energize if autonomy high
+      confidence: High - PitchBook (58), Getlatka (60), YC (72)
+      task_implications:
+      - task: Cover multiple infrastructure domains (proxy, orchestration, storage)
+          due to lean team
+        time_estimate_pct: 10%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: moderate
+          authority_ambiguity: moderate
+          progress_visibility: moderate
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: moderate
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_glue_work: true
+          uses_infrastructure_automation: true
+          uses_decision_frameworks: false
+          collaboration_type: cross_team
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: moderate
+        notes: 'SPARINGLY - broad scope can be energizing (variety, autonomy) OR draining
+          (context switching). Profile: glue_work is expert strength, so likely manageable.'
+    - flag: JP Phillips departure Dec 2024 (built orchestration system), missing runway/burn/ARR
+        data
+      impact: Key technical departure signal + financial opacity creates uncertainty
+      confidence: Medium - Blog post on departure, missing data noted in research
+      task_implications:
+      - task: Assess technical risk from orchestration architect departure, gather
+          financial intel
+        time_estimate_pct: 5%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: moderate
+          authority_ambiguity: low
+          progress_visibility: low
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: none
+          uses_systems_thinking: true
+          uses_tool_building: false
+          uses_glue_work: true
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: moderate
+          requires_sync_communication: true
+          timezone_spread: narrow
+        notes: HELP/MENTORING - due diligence work. Key departure = warning signal.
+          Missing financials prevent risk assessment.
+    - flag: 'Mixed customer sentiment: 2.7/5 TrustPilot (14 reviews) vs 4.3/5 Capterra
+        (501 reviews), removed free tier'
+      impact: Unclear customer satisfaction + pricing pressure signal
+      confidence: Medium - TrustPilot and Capterra data, pricing page
+      task_implications:
+      - task: Address customer pain points while balancing unit economics pressure
+        time_estimate_pct: 10%
+        characteristics:
+          conflict_exposure: moderate
+          alignment_clarity: moderate
+          authority_ambiguity: low
+          progress_visibility: moderate
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: low
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_glue_work: true
+          uses_infrastructure_automation: true
+          uses_decision_frameworks: false
+          collaboration_type: cross_team
+          meeting_intensity: moderate
+          requires_sync_communication: true
+          timezone_spread: narrow
+        notes: SPARINGLY - customer pressure + financial constraints. BUT Capterra
+          4.3/5 suggests TrustPilot may not be representative.
   chosen_peak:
-    dealbreakers: *id003
-    concerning: *id004
+    dealbreakers: []
+    concerning: []
   rope_team_confidence:
-    dealbreakers: *id003
-    concerning: *id004
+    dealbreakers: []
+    concerning: []
   daily_climb:
-    dealbreakers: *id003
-    concerning: *id004
+    dealbreakers: []
+    concerning: []
   story_worth_telling:
-    dealbreakers: *id003
-    concerning: *id004
+    dealbreakers: []
+    concerning: []
 missing_critical_data:
-- question: What is current runway and burn rate after September 2024 layoffs?
-  why_important: Understanding financial sustainability and risk of further cuts
-  how_to_find: Ask CFO/leadership about cash position and monthly burn
-  mountain_element: mountain_range
-- question: What caused the September 2024 layoffs - was it financial pressure or
-    strategic restructuring?
-  why_important: Understanding whether company is in distress vs proactive optimization
-  how_to_find: Ask leadership about layoff rationale and current financial health
-  mountain_element: mountain_range
-- question: What is the status of reliability improvements since CEO's 'It's Not Great'
-    post?
-  why_important: Understanding if core product quality issues have been resolved
-  how_to_find: Ask about uptime SLAs, incident metrics, reliability roadmap
-  mountain_element: chosen_peak
-- question: What is the specific staff engineer compensation package including equity
-    strike price?
-  why_important: Understanding total comp and equity upside potential
-  how_to_find: Ask recruiter for detailed comp breakdown
-  mountain_element: daily_climb
-- question: What would staff engineer actually work on? Infrastructure? Product? Hardware?
-  why_important: Understanding specific role scope and technical challenges
-  how_to_find: Ask hiring manager about team focus and priorities
-  mountain_element: chosen_peak
-- question: What is the on-call rotation and operational burden for infrastructure
-    team?
-  why_important: Understanding work-life balance reality for running global edge infrastructure
-  how_to_find: Ask engineering manager about on-call expectations and incident load
-  mountain_element: daily_climb
-- question: How many staff+ engineers exist and what is career progression path?
-  why_important: With 25 years experience, need clear peer community and growth path
-  how_to_find: Ask about engineering levels and staff+ population
-  mountain_element: story_worth_telling
-- question: What is customer churn rate and how are reliability issues affecting retention?
-  why_important: Understanding business health beyond vanity metrics (3M apps launched)
-  how_to_find: Ask about retention metrics, NPS, customer feedback
-  mountain_element: mountain_range
+- mountain_element: mountain_range
+  question: Current runway and monthly burn rate
+  why_important: Not-yet-profitable status + layoffs + missing ARR/MRR data prevents
+    survival timeline assessment
+  how_to_find: Insider interview with finance/leadership, or CEO conversation during
+    interview process
+- mountain_element: mountain_range
+  question: Actual MRR/ARR metrics and growth trajectory
+  why_important: Only annual revenue snapshots ($7.6M 2023, $11.2M 2024) - need monthly
+    data to assess momentum toward profitability target
+  how_to_find: Ask during interview process or insider interview
+- mountain_element: rope_team_confidence
+  question: Post-layoff team morale and retention
+  why_important: 30% reduction in Sept 2024 may have damaged culture - need current
+    state assessment
+  how_to_find: Recent Glassdoor reviews (only 2 total exist), Blind.com, insider interviews
+    with survivors
+- mountain_element: rope_team_confidence
+  question: JP Phillips departure context and orchestration system continuity
+  why_important: Key technical departure signal - need to know if voluntary (better
+    offer) or involuntary (performance/layoff), and who owns orchestration now
+  how_to_find: LinkedIn outreach to JP Phillips, ask hiring manager during interview,
+    insider interview
+- mountain_element: rope_team_confidence
+  question: Current engineering org structure and reporting lines
+  why_important: Need to understand authority clarity and decision-making speed post-layoffs
+    (authority_ambiguity is moderate severity drain)
+  how_to_find: Request org chart during interview process, ask about team structure
 company_slug: fly-io

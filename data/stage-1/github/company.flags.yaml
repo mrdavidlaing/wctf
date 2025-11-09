@@ -1,15 +1,15 @@
 company: GitHub
 company_slug: github
-evaluation_date: '2025-10-18'
+evaluation_date: '2025-11-09'
 evaluator_context: Extracted from conversation notes
 green_flags:
   mountain_range:
     critical_matches: &id001
     - flag: 'Outstanding financial stability: $2B ARR doubled in 18 months, Microsoft
         backing, no layoffs since Feb 2023'
-      impact: "Job security strong despite recent restructuring - headcount grew 2,700\u2192\
-        5,609, 90% Fortune 100 penetration, estimated $16-24B valuation. Financial\
-        \ risk is minimal."
+      impact: Job security strong despite recent restructuring - headcount grew 2,700→5,609,
+        90% Fortune 100 penetration, estimated $16-24B valuation. Financial risk is
+        minimal.
       confidence: High - Microsoft CEO earnings calls, TechCrunch confirmed headcount
         growth
     - flag: Cutting-edge AI/ML work with GitHub Copilot driving 40% of revenue growth
@@ -49,13 +49,183 @@ green_flags:
       impact: Career narrative of working on cutting-edge AI-powered developer tools
         at scale - resume-worthy projects with massive impact (150M developers)
       confidence: High - Microsoft earnings, GitHub Blog Universe 2024
+    - flag: Microsoft-backed with $2B ARR
+      impact: Zero financial anxiety
+      confidence: High
+      task_implications:
+      - task: Build developer platform infrastructure
+        time_estimate_pct: 30%
+        characteristics:
+          conflict_exposure: moderate
+          alignment_clarity: moderate
+          authority_ambiguity: moderate
+          progress_visibility: high
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: low
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_glue_work: false
+          uses_infrastructure_automation: true
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: moderate
+          requires_sync_communication: false
+          timezone_spread: wide
+        notes: Test notes
+        energy_matrix_quadrant: moare
+    - flag: Microsoft-backed with $2B ARR (doubled in 18 months) and no financial
+        risk
+      impact: Zero financial anxiety - eliminates survival concerns drain. Backed
+        by profitable parent with deep pockets.
+      confidence: High - Microsoft CEO explicit statements, Q4 FY2024 earnings
+      task_implications:
+      - task: Build developer platform infrastructure serving 150M developers and
+          420M+ repositories
+        time_estimate_pct: 30%
+        characteristics:
+          conflict_exposure: moderate
+          alignment_clarity: moderate
+          authority_ambiguity: moderate
+          progress_visibility: high
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: low
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_glue_work: false
+          uses_infrastructure_automation: true
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: moderate
+          requires_sync_communication: false
+          timezone_spread: wide
+        notes: Microsoft integration creates moderate conflict/ambiguity but work
+          aligns with core strengths. Financial stability eliminates financial_anxiety
+          drain.
+        energy_matrix_quadrant: moare
+    - flag: Market leader with 56-78% market share and 90%+ Fortune 100 adoption
+      impact: Clear product-market fit and dominant position. Work has visible impact
+        on industry-leading platform.
+      confidence: High - StackOverflow surveys, multiple market research sources
+      task_implications:
+      - task: Enhance CI/CD and DevOps tooling (Actions, Packages, Codespaces) for
+          market-leading platform
+        time_estimate_pct: 25%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: none
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_glue_work: false
+          uses_infrastructure_automation: true
+          uses_decision_frameworks: true
+          collaboration_type: team
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: moderate
+        notes: Core infrastructure work on established platform - perfect alignment
+          with expert strengths. Provides visible_progress and tool_building generators.
+        energy_matrix_quadrant: moare
+    - flag: Remote-first DNA with 80%+ engineers remote pre-COVID, unlimited PTO,
+        $1500 home office stipend
+      impact: Built for async collaboration from founding. Eliminates timezone spread
+        concerns for distributed teams.
+      confidence: High - GitHub blog, Glassdoor reviews, official careers page
+      task_implications:
+      - task: Collaborate asynchronously via GitHub issues/PRs with global distributed
+          team
+        time_estimate_pct: 15%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: none
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: true
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: true
+          collaboration_type: team
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: wide
+        notes: 'Async-first culture eliminates timezone_spread drain. Matches communication_preferences
+          (async_work_capability: strong).'
+        energy_matrix_quadrant: moare
+    - flag: 'Technical excellence: 2M LOC Rails monolith, 20 deploys/day, automated
+        Rails upgrades every Monday'
+      impact: Strong engineering culture with continuous deployment and aggressive
+        tech stack modernization.
+      confidence: High - GitHub engineering blog with detailed technical posts
+      task_implications:
+      - task: Modernize Ruby/Rails infrastructure with automated upgrade workflows
+          and high-frequency deployments
+        time_estimate_pct: 20%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: moderate
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_glue_work: false
+          uses_infrastructure_automation: true
+          uses_decision_frameworks: true
+          collaboration_type: team
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: moderate
+        notes: Infrastructure automation at scale - core strength match. Provides
+          tool_building and visible_progress generators.
+        energy_matrix_quadrant: moare
+    - flag: AI innovation leader with GitHub Copilot (20M users, 1.8M paid, 40% of
+        revenue growth)
+      impact: Working on cutting-edge AI tooling transforming software development
+        industry-wide.
+      confidence: High - Microsoft earnings, TechCrunch, GitHub newsroom
+      task_implications:
+      - task: Build AI-powered developer tools (Copilot, multi-model choice, Workspace)
+          at massive scale
+        time_estimate_pct: 10%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: moderate
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_glue_work: false
+          uses_infrastructure_automation: true
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: moderate
+        notes: 'Aligns with growth_areas (ai_augmented_workflows: proficient, energizing:
+          true). Tool building at frontier of industry.'
+        energy_matrix_quadrant: moare
     strong_positives: &id002
     - flag: EU data residency launched October 2024 shows regional commitment
       impact: Demonstrates GitHub investing in EU market with Azure infrastructure,
         GDPR/SOC2/ISO 27001 compliance
       confidence: High - GitHub Blog announcement Oct 29, 2024
-    - flag: "Growing DevOps market: $10.4-13.16B in 2024 \u2192 $25.5-81B by 2028-2033\
-        \ (19-25% CAGR)"
+    - flag: 'Growing DevOps market: $10.4-13.16B in 2024 → $25.5-81B by 2028-2033
+        (19-25% CAGR)'
       impact: Market tailwinds provide opportunities for continued expansion and job
         security
       confidence: High - MarketsandMarkets, IMARC Group, Fortune Business Insights
@@ -157,9 +327,9 @@ red_flags:
     concerning: &id004
     - flag: February 2023 layoffs (10% workforce, ~300 employees) relatively recent
         at 30 months ago
-      impact: "While headcount recovered (2,700\u21925,609), restructuring combined\
-        \ with current Blind reviews suggests ongoing organizational strain rather\
-        \ than full recovery"
+      impact: While headcount recovered (2,700→5,609), restructuring combined with
+        current Blind reviews suggests ongoing organizational strain rather than full
+        recovery
       evidence: TechCrunch Feb 2023, Blind reviews Mar-Jul 2025 mention teams still
         stretched
       confidence: High
@@ -215,6 +385,159 @@ red_flags:
       evidence: No specific information found about IC track during transition, common
         concern during M&A integrations
       confidence: Low - speculation based on typical integration patterns
+    - flag: CEO departing Aug 2025 - role eliminated, GitHub integrating into Microsoft
+        CoreAI
+      impact: Major organizational restructuring ahead. Loss of independent identity
+        and autonomous leadership. Integration into Microsoft suggests potential culture
+        shift and authority ambiguity.
+      confidence: High - GitHub blog, CNBC, Axios official announcements
+      task_implications:
+      - task: Navigate organizational integration into Microsoft CoreAI with unclear
+          reporting structure
+        time_estimate_pct: 15%
+        characteristics:
+          conflict_exposure: high
+          alignment_clarity: low
+          authority_ambiguity: high
+          progress_visibility: low
+          autonomy_level: low
+          decision_speed: slow
+          learning_required: moderate
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: true
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: cross_team
+          meeting_intensity: high
+          requires_sync_communication: true
+          timezone_spread: wide
+        notes: Triggers misalignment severe drain (team moving in different directions)
+          and authority_ambiguity moderate drain. Integration restructuring creates
+          hidden conflicts.
+        energy_matrix_quadrant: burnout
+    - flag: Recent layoffs (10% in Feb 2023, ~300 employees) and closed all physical
+        offices
+      impact: While recovered to 5,609 employees, demonstrates willingness to cut
+        staff. Combined with CEO departure signals continued organizational instability.
+      confidence: High - TechCrunch, Fortune, Channel Futures
+      task_implications:
+      - task: Work through aftermath of layoffs and office closures with potential
+          future cuts ahead
+        time_estimate_pct: 10%
+        characteristics:
+          conflict_exposure: moderate
+          alignment_clarity: moderate
+          authority_ambiguity: moderate
+          progress_visibility: moderate
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: low
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: false
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: moderate
+          requires_sync_communication: false
+          timezone_spread: moderate
+        notes: Layoff anxiety creates moderate financial_anxiety drain despite Microsoft
+          backing. Recovery suggests stability but integration risk remains.
+        energy_matrix_quadrant: burnout
+    - flag: Microsoft culture erosion visible in employee reviews - original culture
+        eroding, middle management issues, lack of clear strategy
+      impact: Integration with Microsoft creating cultural friction. Reviews mention
+        declining transparency and low morale. 3.7/5 Glassdoor rating suggests significant
+        employee dissatisfaction.
+      confidence: Medium - Glassdoor, Indeed, Blind reviews from 2024-2025
+      task_implications:
+      - task: Manage cultural friction between GitHub DNA and Microsoft corporate
+          processes
+        time_estimate_pct: 10%
+        characteristics:
+          conflict_exposure: high
+          alignment_clarity: low
+          authority_ambiguity: high
+          progress_visibility: moderate
+          autonomy_level: moderate
+          decision_speed: slow
+          learning_required: low
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: true
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: cross_team
+          meeting_intensity: moderate
+          requires_sync_communication: true
+          timezone_spread: wide
+        notes: Triggers interpersonal_conflict severe drain (witnessing conflicts
+          between leadership/teams). Misalignment from unclear strategy creates severe
+          drain.
+        energy_matrix_quadrant: sparingly
+    - flag: Blind reviews warn of overwork - top people doing work of entire teams
+        and management is dire
+      impact: Post-layoff workload concentration may cause burnout. Management quality
+        concerns suggest limited support for senior ICs.
+      confidence: Medium - Multiple Blind reviews from March-July 2025
+      task_implications:
+      - task: Absorb workload from understaffed teams while dealing with weak management
+          support
+        time_estimate_pct: 15%
+        characteristics:
+          conflict_exposure: moderate
+          alignment_clarity: moderate
+          authority_ambiguity: high
+          progress_visibility: low
+          autonomy_level: low
+          decision_speed: slow
+          learning_required: low
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: true
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: high
+          requires_sync_communication: true
+          timezone_spread: moderate
+        notes: 'High workload with poor management creates multiple drains: authority_ambiguity,
+          misalignment from lack of support, low progress_visibility from spread too
+          thin.'
+        energy_matrix_quadrant: sparingly
+    - flag: Wide timezone distribution (global team) with Microsoft sync-heavy culture
+        creeping in
+      impact: While GitHub has async DNA, Microsoft integration may push toward sync
+        meetings. Wide timezone spread with uncertain problem space violates coherence
+        needs.
+      confidence: Medium - Implied from Microsoft integration, remote-first vs corporate
+        culture clash
+      task_implications:
+      - task: Coordinate with Microsoft teams across wide timezones during integration
+          period
+        time_estimate_pct: 10%
+        characteristics:
+          conflict_exposure: moderate
+          alignment_clarity: low
+          authority_ambiguity: high
+          progress_visibility: moderate
+          autonomy_level: moderate
+          decision_speed: slow
+          learning_required: low
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: true
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: cross_team
+          meeting_intensity: high
+          requires_sync_communication: true
+          timezone_spread: wide
+        notes: 'Violates organizational_coherence_needs: wide_timezone_spread + sync_heavy_culture
+          during uncertain integration creates severe_drain. Meeting intensity exceeds
+          max_pct: 30.'
+        energy_matrix_quadrant: sparingly
   chosen_peak:
     dealbreakers: *id003
     concerning: *id004
@@ -290,3 +613,52 @@ missing_critical_data:
     LangChain/LlamaIndex or custom frameworks, model serving infrastructure, and recent
     technical challenges
   mountain_element: chosen_peak
+- question: What are integration plans?
+  why_important: Need to understand timeline
+  how_to_find: Insider interview
+  mountain_element: mountain_range
+- question: What are the specific plans and timeline for GitHub integration into Microsoft
+    CoreAI?
+  why_important: Integration structure will determine authority_ambiguity and alignment_clarity
+    for next 12-18 months. Critical for assessing misalignment drain.
+  how_to_find: Insider interview with GitHub engineering manager or recent Microsoft
+    transfer
+  mountain_element: mountain_range
+- question: How has workload distribution changed post-layoffs? What is actual IC
+    workload vs expectations?
+  why_important: Blind reviews suggest top people doing work of entire teams - need
+    to verify if this is localized or widespread burnout risk.
+  how_to_find: Insider interview focusing on team staffing levels and sprint velocity
+    changes
+  mountain_element: mountain_range
+- question: What is the actual meeting intensity and async vs sync culture balance
+    today?
+  why_important: Profile requires meeting_intensity ≤30%, needs fast_sync_decision_cadence
+    OR async_first culture. Microsoft integration may shift this balance.
+  how_to_find: Insider interview about typical week schedule, meeting load, decision-making
+    processes
+  mountain_element: daily_climb
+profile_version_used: '1.0'
+synthesis:
+  energy_matrix_analysis:
+    profile_version_used: '1.0'
+    predicted_daily_distribution:
+      moare_green_flags:
+        percentage: 68.4
+        tasks_count: 30
+      sparingly_yellow_flags:
+        percentage: 18.4
+        tasks_count: 15
+      burnout_red_flags:
+        percentage: 13.2
+        tasks_count: 10
+      help_mentoring_yellow_flags:
+        percentage: 0.0
+        tasks_count: 0
+    threshold_analysis:
+      meets_green_minimum: true
+      exceeds_red_maximum: false
+      exceeds_yellow_maximum: false
+    energy_sustainability: HIGH
+    key_insights: []
+    decision_factors: []

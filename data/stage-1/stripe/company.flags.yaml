@@ -1,5 +1,5 @@
 company: stripe
-evaluation_date: '2025-10-18'
+evaluation_date: '2025-11-09'
 evaluator_context: Extracted from conversation notes
 green_flags:
   mountain_range:
@@ -9,97 +9,713 @@ green_flags:
       impact: Sustainable business model, zero financial risk, company doesn't depend
         on fundraising
       confidence: High - RTE and CoinLaw
+      task_characteristics:
+        conflict_exposure: low
+        alignment_clarity: medium
+        authority_ambiguity: medium
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: medium
+        requires_sync_communication: false
+        timezone_spread: medium
+      energy_quadrant: moare
+      energy_reasoning: 'Uses core strengths from profile (low learning required).
+
+        Moare quadrant: leverages strength while energizing.'
     - flag: 'Exceptional growth: $5.12B Dublin revenue (34% YoY), $1.4T payment volume
         processed (38% YoY)'
       impact: Strong market momentum creates abundant opportunities
       confidence: High - Irish Times and Stripe Newsroom
+      task_characteristics:
+        conflict_exposure: medium
+        alignment_clarity: medium
+        authority_ambiguity: medium
+        progress_visibility: high
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: medium
+        requires_sync_communication: false
+        timezone_spread: medium
+      energy_quadrant: moare
+      energy_reasoning: 'Provides visible_progress generator (core need).
+
+        Uses decision_frameworks strength (proficient).
+
+        Moare quadrant: leverages strength while energizing.'
     - flag: $91.5B valuation with $6.1B ARR = 15x revenue, reasonable for high-growth
         profitable SaaS
       impact: Equity has real value, not inflated like some pre-IPO companies
       confidence: High - TechCrunch and CoinLaw
+      task_characteristics:
+        conflict_exposure: medium
+        alignment_clarity: medium
+        authority_ambiguity: medium
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: medium
+        requires_sync_communication: false
+        timezone_spread: medium
+      energy_quadrant: moare
+      energy_reasoning: 'Uses core strengths from profile (low learning required).
+
+        Moare quadrant: leverages strength while energizing.'
     - flag: World's largest Ruby codebase - unique technical challenge at massive
         scale
       impact: Working with Ruby at unprecedented scale, deep technical learning
       confidence: High - Pragmatic Engineer
+      task_characteristics:
+        conflict_exposure: medium
+        alignment_clarity: medium
+        authority_ambiguity: medium
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: medium
+        requires_sync_communication: false
+        timezone_spread: medium
+      energy_quadrant: moare
+      energy_reasoning: 'Uses core strengths from profile (low learning required).
+
+        Moare quadrant: leverages strength while energizing.'
     - flag: Active open source contributions to OpenTelemetry, React, strong GitHub
         presence
       impact: Matches stated open source values, opportunity for public technical
         work
       confidence: High - GitHub
+      task_characteristics:
+        conflict_exposure: medium
+        alignment_clarity: medium
+        authority_ambiguity: medium
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: medium
+        requires_sync_communication: false
+        timezone_spread: medium
+      energy_quadrant: moare
+      energy_reasoning: 'Uses core strengths from profile (low learning required).
+
+        Moare quadrant: leverages strength while energizing.'
     - flag: Dublin is key hub for AI/ML and real-time analytics development
       impact: Working on cutting-edge tech, not just satellite office doing support
       confidence: High - Pragmatic Engineer
+      task_characteristics:
+        conflict_exposure: medium
+        alignment_clarity: medium
+        authority_ambiguity: medium
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: medium
+        requires_sync_communication: false
+        timezone_spread: medium
+      energy_quadrant: moare
+      energy_reasoning: 'Uses core strengths from profile (low learning required).
+
+        Moare quadrant: leverages strength while energizing.'
     - flag: Co-founder Patrick Collison still CEO since 2010 (15 years), long-term
         vision and stability
       impact: Founder-led company with sustained leadership
       confidence: High - Clay
+      task_characteristics:
+        conflict_exposure: medium
+        alignment_clarity: medium
+        authority_ambiguity: medium
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: medium
+        requires_sync_communication: false
+        timezone_spread: medium
+      energy_quadrant: moare
+      energy_reasoning: 'Uses core strengths from profile (low learning required).
+
+        Moare quadrant: leverages strength while energizing.'
     - flag: Working on payment infrastructure processing $1.4T annually serving millions
         of businesses globally
       impact: Massive scale and impact on global economy
       confidence: High - Stripe Newsroom
+      task_characteristics:
+        conflict_exposure: medium
+        alignment_clarity: medium
+        authority_ambiguity: medium
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: medium
+        requires_sync_communication: false
+        timezone_spread: medium
+      energy_quadrant: moare
+      energy_reasoning: 'Provides tool_building generator (core need).
+
+        Uses infrastructure_automation strength (expert).
+
+        Moare quadrant: leverages strength while energizing.'
     - flag: Stripe brand is gold-standard resume credential in fintech and infrastructure
       impact: Career accelerator, opens doors across industry
       confidence: High - Industry reputation
+      task_characteristics:
+        conflict_exposure: medium
+        alignment_clarity: medium
+        authority_ambiguity: medium
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: medium
+        requires_sync_communication: false
+        timezone_spread: medium
+      energy_quadrant: moare
+      energy_reasoning: 'Provides tool_building generator (core need).
+
+        Uses infrastructure_automation strength (expert).
+
+        Moare quadrant: leverages strength while energizing.'
+    - flag: Profitable at scale with 34% YoY growth - eliminates financial anxiety
+      impact: Company profitable in 2024 with $5.12B revenue (34% YoY), $6.1B ARR,
+        10.6% net margin, and $91.5B valuation. Processes $1.4T in payments annually.
+        Completely eliminates financial_anxiety drain (moderate severity).
+      confidence: High - Multiple explicit financial statements from Irish Times,
+        RTE, TechCrunch, CoinLaw
+      task_implications:
+      - task: Build payment infrastructure handling $1.4 trillion annual volume with
+          99.99% uptime requirements
+        time_estimate_pct: 35%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: moderate
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_glue_work: false
+          uses_infrastructure_automation: true
+          uses_decision_frameworks: true
+          collaboration_type: team
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: moderate
+        notes: Profitable company with clear product focus eliminates financial_anxiety.
+          High autonomy in infrastructure decisions.
+        energy_matrix_quadrant: moare
+    - flag: Developer-friendly API-first culture matches systems_thinking and tool_building
+        expertise
+      impact: Core differentiator is developer-friendly APIs. World's largest Ruby
+        codebase. Strong GitHub presence and open-source contributions (OpenTelemetry,
+        React). Perfect match for expert-level tool_building and systems_thinking
+        strengths.
+      confidence: High - Pragmatic Engineer article, GitHub presence, Stripe Blog
+        technical posts
+      task_implications:
+      - task: Design and build developer-facing APIs and SDKs for payment processing
+          across multiple languages
+        time_estimate_pct: 25%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: low
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_glue_work: true
+          uses_infrastructure_automation: true
+          uses_decision_frameworks: true
+          collaboration_type: team
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: moderate
+        notes: API design is core tool_building work with visible progress. Strong
+          alignment with developer culture.
+        energy_matrix_quadrant: moare
+    - flag: AI/ML-driven infrastructure aligns with growth areas and tool_building
+        strengths
+      impact: Dublin is key hub for AI/ML and real-time analytics. Heavy investment
+        in AI/ML for fraud prevention (Stripe Radar) and automation. Recent launches
+        of AI-driven fraud prevention tools. Matches growth areas in ai_augmented_workflows
+        while leveraging tool_building expertise.
+      confidence: High - Pragmatic Engineer, Stripe Blog, Stripe Newsroom on AI launches
+      task_implications:
+      - task: Build ML-powered fraud detection systems processing millions of transactions
+          in real-time
+        time_estimate_pct: 20%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: moderate
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_glue_work: false
+          uses_infrastructure_automation: true
+          uses_decision_frameworks: true
+          collaboration_type: team
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: moderate
+        notes: Energizing growth area (ai_augmented_workflows) with clear visible
+          progress in fraud reduction metrics.
+        energy_matrix_quadrant: moare
     strong_positives: &id002
     - flag: '17.15% global payment processing market share, #2 behind PayPal'
       impact: Market leader position provides stability and brand value
       confidence: High - ChargeFlow
+      task_characteristics:
+        conflict_exposure: medium
+        alignment_clarity: medium
+        authority_ambiguity: medium
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: medium
+        requires_sync_communication: false
+        timezone_spread: medium
+      energy_quadrant: moare
+      energy_reasoning: 'Provides structured_processes generator (moderate).
+
+        Uses decision_frameworks strength (proficient).
+
+        Moare quadrant: leverages strength while energizing.'
     - flag: Expanding headcount from 8,500 to 10,000 by end 2025 despite January layoffs
       impact: Net hiring growth shows confidence in business trajectory
       confidence: High - Irish Independent
+      task_characteristics:
+        conflict_exposure: high
+        alignment_clarity: medium
+        authority_ambiguity: medium
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: medium
+        requires_sync_communication: false
+        timezone_spread: medium
+      energy_quadrant: sparingly
+      energy_reasoning: 'Creates draining conditions despite using expertise.
+
+        Uses core strengths from profile.
+
+        Sparingly quadrant: leverages expertise but at energy cost.'
     - flag: 'Growing TAM: $103.2B (2023) → $160.0B (2028) payment processing market'
       impact: Riding secular growth trend in digital payments
       confidence: High - CapitalOneShopping
+      task_characteristics:
+        conflict_exposure: medium
+        alignment_clarity: medium
+        authority_ambiguity: medium
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: medium
+        requires_sync_communication: false
+        timezone_spread: medium
+      energy_quadrant: moare
+      energy_reasoning: 'Provides structured_processes generator (moderate).
+
+        Uses decision_frameworks strength (proficient).
+
+        Moare quadrant: leverages strength while energizing.'
     - flag: Minimal Dublin layoffs (single digits) in Jan 2025 vs 300 globally shows
         Ireland importance
       impact: Dublin office protected during cost optimization
       confidence: High - Irish Independent
+      task_characteristics:
+        conflict_exposure: high
+        alignment_clarity: medium
+        authority_ambiguity: medium
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: medium
+        requires_sync_communication: false
+        timezone_spread: medium
+      energy_quadrant: sparingly
+      energy_reasoning: 'Creates draining conditions despite using expertise.
+
+        Uses core strengths from profile.
+
+        Sparingly quadrant: leverages expertise but at energy cost.'
     - flag: 'Modern tech stack: Ruby, Java, Go with heavy AI/ML investment for fraud
         prevention'
       impact: Mix of mature and modern technologies, AI/ML opportunities
       confidence: High - Pragmatic Engineer
+      task_characteristics:
+        conflict_exposure: medium
+        alignment_clarity: medium
+        authority_ambiguity: medium
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: medium
+        requires_sync_communication: false
+        timezone_spread: medium
+      energy_quadrant: moare
+      energy_reasoning: 'Uses core strengths from profile (low learning required).
+
+        Moare quadrant: leverages strength while energizing.'
     - flag: Highly active engineering blog with posts on real-time analytics, ML,
         infrastructure
       impact: Culture of technical communication and thought leadership
       confidence: High - Stripe Blog
+      task_characteristics:
+        conflict_exposure: medium
+        alignment_clarity: medium
+        authority_ambiguity: medium
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: medium
+        requires_sync_communication: false
+        timezone_spread: medium
+      energy_quadrant: moare
+      energy_reasoning: 'Provides tool_building generator (core need).
+
+        Uses infrastructure_automation strength (expert).
+
+        Moare quadrant: leverages strength while energizing.'
     - flag: Engineers regularly present at conferences and publish technical articles
       impact: Professional development and industry visibility opportunities
       confidence: High - Stripe Blog
+      task_characteristics:
+        conflict_exposure: medium
+        alignment_clarity: medium
+        authority_ambiguity: medium
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: medium
+        requires_sync_communication: false
+        timezone_spread: medium
+      energy_quadrant: moare
+      energy_reasoning: 'Uses core strengths from profile (low learning required).
+
+        Moare quadrant: leverages strength while energizing.'
     - flag: 4.6/5 Capterra rating from 3,250 reviews shows strong product quality
       impact: Working on product customers genuinely appreciate
       confidence: High - Capterra
+      task_characteristics:
+        conflict_exposure: medium
+        alignment_clarity: medium
+        authority_ambiguity: medium
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: medium
+        requires_sync_communication: false
+        timezone_spread: medium
+      energy_quadrant: moare
+      energy_reasoning: 'Uses core strengths from profile (low learning required).
+
+        Moare quadrant: leverages strength while energizing.'
     - flag: Developer-friendly APIs, global reach, AI/ML fraud detection as key differentiators
       impact: Technical excellence is core competitive advantage
       confidence: High - Stripe Blog
+      task_characteristics:
+        conflict_exposure: medium
+        alignment_clarity: medium
+        authority_ambiguity: medium
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: medium
+        requires_sync_communication: false
+        timezone_spread: medium
+      energy_quadrant: moare
+      energy_reasoning: 'Uses core strengths from profile (low learning required).
+
+        Moare quadrant: leverages strength while energizing.'
     - flag: Dublin employs ~600 people, substantial and growing with 50+ hires planned
         for 2025
       impact: Large local team provides career mobility and collaboration
       confidence: High - Irish Independent
+      task_characteristics:
+        conflict_exposure: medium
+        alignment_clarity: medium
+        authority_ambiguity: medium
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: medium
+        requires_sync_communication: false
+        timezone_spread: medium
+      energy_quadrant: moare
+      energy_reasoning: 'Uses core strengths from profile (low learning required).
+
+        Moare quadrant: leverages strength while energizing.'
     - flag: Dublin office is joint headquarters (with SF), not satellite - true strategic
         importance
       impact: First-class citizenship in company decisions and investment
       confidence: High - Stripe Jobs
+      task_characteristics:
+        conflict_exposure: medium
+        alignment_clarity: medium
+        authority_ambiguity: medium
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: medium
+        requires_sync_communication: false
+        timezone_spread: medium
+      energy_quadrant: moare
+      energy_reasoning: 'Uses decision_frameworks strength (proficient).
+
+        Moare quadrant: leverages strength while energizing.'
     - flag: No major executive changes in Dublin in past 24 months
       impact: Stable local leadership during growth phase
       confidence: Medium - Implied from research
+      task_characteristics:
+        conflict_exposure: medium
+        alignment_clarity: medium
+        authority_ambiguity: medium
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: medium
+        requires_sync_communication: false
+        timezone_spread: medium
+      energy_quadrant: moare
+      energy_reasoning: 'Uses core strengths from profile (low learning required).
+
+        Moare quadrant: leverages strength while energizing.'
     - flag: Hybrid/remote work policy available for Dublin office
       impact: Flexibility for remote work though not purely remote-first
       confidence: Medium - Stripe Jobs description
+      task_characteristics:
+        conflict_exposure: medium
+        alignment_clarity: medium
+        authority_ambiguity: medium
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: medium
+        requires_sync_communication: false
+        timezone_spread: medium
+      energy_quadrant: moare
+      energy_reasoning: 'Uses core strengths from profile (low learning required).
+
+        Moare quadrant: leverages strength while energizing.'
     - flag: Glassdoor 3.9/5 for Dublin office shows solid employee satisfaction
       impact: Generally positive work environment
       confidence: High - Glassdoor
+      task_characteristics:
+        conflict_exposure: medium
+        alignment_clarity: medium
+        authority_ambiguity: medium
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: medium
+        requires_sync_communication: false
+        timezone_spread: medium
+      energy_quadrant: moare
+      energy_reasoning: 'Uses core strengths from profile (low learning required).
+
+        Moare quadrant: leverages strength while energizing.'
     - flag: Dublin as AI/ML hub means working on cutting-edge fraud prevention and
         analytics
       impact: Exposure to production ML at scale, rare learning opportunity
       confidence: High - Pragmatic Engineer
+      task_characteristics:
+        conflict_exposure: medium
+        alignment_clarity: medium
+        authority_ambiguity: medium
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: medium
+        requires_sync_communication: false
+        timezone_spread: medium
+      energy_quadrant: moare
+      energy_reasoning: 'Uses core strengths from profile (low learning required).
+
+        Moare quadrant: leverages strength while energizing.'
     - flag: 'Equity upside potential: $91.5B valuation with strong growth trajectory
         and profitability'
       impact: Meaningful financial upside if IPO or continued growth
       confidence: High - Valuation and metrics
+      task_characteristics:
+        conflict_exposure: low
+        alignment_clarity: medium
+        authority_ambiguity: medium
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: medium
+        requires_sync_communication: false
+        timezone_spread: medium
+      energy_quadrant: moare
+      energy_reasoning: 'Uses core strengths from profile (low learning required).
+
+        Moare quadrant: leverages strength while energizing.'
     - flag: Recent product launches in AI fraud prevention and Stripe Issuing show
         continued innovation
       impact: Not just maintenance, actively building new products
       confidence: High - Stripe Newsroom
+      task_characteristics:
+        conflict_exposure: medium
+        alignment_clarity: medium
+        authority_ambiguity: medium
+        progress_visibility: high
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: medium
+        requires_sync_communication: false
+        timezone_spread: medium
+      energy_quadrant: moare
+      energy_reasoning: 'Provides visible_progress generator (core need).
+
+        Uses core strengths from profile (low learning required).
+
+        Moare quadrant: leverages strength while energizing.'
+    - flag: Stable long-term leadership with founder-CEO since 2010
+      impact: Patrick Collison (co-founder) as CEO since 2010 provides exceptional
+        stability. No major executive churn in Dublin office in 24 months. Reduces
+        authority_ambiguity and prevents leadership conflict.
+      confidence: High - Clay and Glassdoor data
+      task_implications:
+      - task: Collaborate with stable engineering leadership on long-term platform
+          architecture decisions
+        time_estimate_pct: 5%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: moderate
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: low
+          uses_systems_thinking: true
+          uses_tool_building: false
+          uses_glue_work: true
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: true
+          collaboration_type: cross_team
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: moderate
+        notes: Stable leadership reduces authority_ambiguity drain. Clear decision-making
+          authority.
+        energy_matrix_quadrant: moare
+    - flag: Strong technical culture with active engineering blog and open-source
+        contributions
+      impact: Highly active engineering blog with frequent posts on real-time analytics,
+        ML, infrastructure. Regular conference presentations. Strong GitHub presence.
+        Matches structured_processes preference and enables visible_progress through
+        public contributions.
+      confidence: High - Stripe Blog, GitHub, multiple conference talks
+      task_implications:
+      - task: Contribute to open-source infrastructure projects and publish technical
+          blog posts on systems design
+        time_estimate_pct: 10%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: low
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_glue_work: true
+          uses_infrastructure_automation: true
+          uses_decision_frameworks: false
+          collaboration_type: solo
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: wide
+        notes: High visible_progress from public contributions. Tool_building in flow
+          state.
+        energy_matrix_quadrant: moare
+    - flag: Hybrid/remote work policy with Dublin as joint headquarters
+      impact: Dublin is joint HQ (alongside SF), not satellite office. Hybrid/remote
+        work policy provides flexibility. Supports async_work_capability (strong)
+        and 6-hour timezone_flexibility from profile.
+      confidence: High - Stripe Jobs page
+      task_implications:
+      - task: Design systems and collaborate asynchronously across Dublin-SF time
+          zones with 30% meeting load
+        time_estimate_pct: 5%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: moderate
+          learning_required: none
+          uses_systems_thinking: true
+          uses_tool_building: false
+          uses_glue_work: true
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: true
+          collaboration_type: cross_team
+          meeting_intensity: moderate
+          requires_sync_communication: true
+          timezone_spread: wide
+        notes: Matches async_work_capability (strong) and 6-hour timezone_flexibility.
+          Meeting intensity at ideal 20-30% range.
+        energy_matrix_quadrant: moare
   chosen_peak:
     critical_matches: *id001
     strong_positives: *id002
@@ -120,21 +736,199 @@ red_flags:
       impact: Cost optimization even when profitable suggests pressure on margins
         or growth targets
       confidence: High - Irish Independent
+      task_characteristics:
+        conflict_exposure: high
+        alignment_clarity: medium
+        authority_ambiguity: medium
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: medium
+        requires_sync_communication: false
+        timezone_spread: medium
+      energy_quadrant: sparingly
+      energy_reasoning: 'Creates draining conditions despite using expertise.
+
+        Uses core strengths from profile.
+
+        Sparingly quadrant: leverages expertise but at energy cost.'
     - flag: World's largest Ruby codebase could be technical debt liability vs modern
         languages
       impact: Legacy language choice may limit innovation and hiring pool
       confidence: Medium - Ruby market trends
+      task_characteristics:
+        conflict_exposure: medium
+        alignment_clarity: medium
+        authority_ambiguity: medium
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: medium
+        requires_sync_communication: false
+        timezone_spread: medium
+      energy_quadrant: sparingly
+      energy_reasoning: 'Creates draining conditions despite using expertise.
+
+        Uses core strengths from profile.
+
+        Sparingly quadrant: leverages expertise but at energy cost.'
     - flag: CTO Rahul Patil appointed 2024 replacing David Singleton - recent technical
         leadership change
       impact: New CTO may bring direction changes, uncertainty in technical strategy
       confidence: High - SiliconRepublic
+      task_characteristics:
+        conflict_exposure: medium
+        alignment_clarity: low
+        authority_ambiguity: medium
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: medium
+        requires_sync_communication: false
+        timezone_spread: medium
+      energy_quadrant: sparingly
+      energy_reasoning: 'Creates draining conditions despite using expertise.
+
+        Uses core strengths from profile.
+
+        Sparingly quadrant: leverages expertise but at energy cost.'
     - flag: Hybrid/remote policy unclear if truly remote-first or requires Dublin
         office presence
       impact: May not meet remote-first requirement depending on policy specifics
       confidence: Medium - Ambiguous policy description
+      task_characteristics:
+        conflict_exposure: medium
+        alignment_clarity: medium
+        authority_ambiguity: high
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: slow
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: medium
+        requires_sync_communication: false
+        timezone_spread: medium
+      energy_quadrant: sparingly
+      energy_reasoning: 'Exposes to authority_ambiguity drain (moderate).
+
+        Uses core strengths from profile.
+
+        Sparingly quadrant: leverages expertise but at energy cost.'
     - flag: Only 3.9/5 Glassdoor for Dublin vs 4.2-4.5 at best companies
       impact: Room for improvement in employee satisfaction
       confidence: High - Glassdoor
+      task_characteristics:
+        conflict_exposure: medium
+        alignment_clarity: medium
+        authority_ambiguity: medium
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: medium
+        requires_sync_communication: false
+        timezone_spread: medium
+      energy_quadrant: sparingly
+      energy_reasoning: 'Creates draining conditions despite using expertise.
+
+        Uses core strengths from profile.
+
+        Sparingly quadrant: leverages expertise but at energy cost.'
+    - flag: Recent layoffs (300 globally, single-digit in Dublin) despite growth
+      impact: January 2025 layoffs of 300 globally (single-digit in Dublin) despite
+        34% revenue growth and profitability. Could indicate efficiency push or shifting
+        priorities. Creates uncertainty about team stability.
+      confidence: High - Irish Independent explicit statement
+      task_implications:
+      - task: Navigate potential team restructuring while maintaining platform stability
+          during growth phase
+        time_estimate_pct: 10%
+        characteristics:
+          conflict_exposure: moderate
+          alignment_clarity: moderate
+          authority_ambiguity: moderate
+          progress_visibility: moderate
+          autonomy_level: moderate
+          decision_speed: slow
+          learning_required: low
+          uses_systems_thinking: true
+          uses_tool_building: false
+          uses_glue_work: true
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: true
+          collaboration_type: cross_team
+          meeting_intensity: moderate
+          requires_sync_communication: true
+          timezone_spread: moderate
+        notes: Layoffs during growth create uncertainty. Moderate conflict_exposure
+          and authority_ambiguity due to organizational changes.
+        energy_matrix_quadrant: sparingly
+    - flag: Moderate Glassdoor rating (3.9/5) suggests mixed employee experience
+      impact: Glassdoor rating of 3.9/5 is solid but not exceptional. Could indicate
+        some organizational friction or cultural challenges. Warrants deeper investigation
+        via insider conversations.
+      confidence: Medium - Glassdoor rating alone doesn't show full picture
+      task_implications:
+      - task: Work within teams with mixed satisfaction levels and potential cultural
+          friction
+        time_estimate_pct: 5%
+        characteristics:
+          conflict_exposure: moderate
+          alignment_clarity: moderate
+          authority_ambiguity: moderate
+          progress_visibility: moderate
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: none
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: true
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: moderate
+          requires_sync_communication: true
+          timezone_spread: narrow
+        notes: Rating suggests potential for interpersonal_conflict (severe drain).
+          Needs insider validation.
+        energy_matrix_quadrant: sparingly
+    - flag: Wide timezone spread (Dublin-SF) with moderate meeting intensity risk
+      impact: Dublin-SF coordination spans ~8 hours. If culture is sync-heavy (not
+        confirmed), could violate organizational_coherence_needs for uncertain problem
+        spaces. Profile specifies this as incompatible pattern causing severe drain.
+      confidence: Medium - Timezone spread confirmed, but sync/async culture balance
+        unknown
+      task_implications:
+      - task: Coordinate complex technical decisions across 8-hour timezone gap during
+          uncertain problem-solving
+        time_estimate_pct: 5%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: moderate
+          authority_ambiguity: moderate
+          progress_visibility: moderate
+          autonomy_level: moderate
+          decision_speed: slow
+          learning_required: low
+          uses_systems_thinking: true
+          uses_tool_building: false
+          uses_glue_work: true
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: true
+          collaboration_type: cross_team
+          meeting_intensity: moderate
+          requires_sync_communication: true
+          timezone_spread: wide
+        notes: If sync-heavy culture, this violates organizational_coherence_needs
+          causing severe drain. Needs validation of async-first culture.
+        energy_matrix_quadrant: sparingly
   chosen_peak:
     dealbreakers: *id003
     concerning: *id004
@@ -191,4 +985,101 @@ missing_critical_data:
   how_to_find: Research public IPO speculation, ask about company plans during offer
     stage
   mountain_element: story_worth_telling
+- mountain_element: daily_climb
+  question: Is the engineering culture truly async-first or sync-heavy?
+  why_important: Profile specifies 'wide_timezone_spread + sync_heavy_culture' as
+    incompatible pattern causing severe drain for uncertain problem spaces. Dublin-SF
+    coordination is 8-hour gap. If sync-heavy, this is a dealbreaker.
+  how_to_find: 'Ask insiders: Daily standup requirements? Meeting culture? Async documentation
+    practices? Decision-making speed for uncertain problems?'
+- mountain_element: daily_climb
+  question: What is the actual level of interpersonal conflict on teams?
+  why_important: Profile lists interpersonal_conflict as severe drain (childhood trauma
+    trigger). 3.9 Glassdoor rating suggests potential issues. Need to understand if
+    witnessing team/leadership conflicts is common.
+  how_to_find: 'Insider interviews: Team dynamics? Leadership alignment? Conflict
+    resolution patterns? Past experiences with team friction?'
+- mountain_element: rope_team_confidence
+  question: How clear is authority and decision-making ownership in practice?
+  why_important: Profile lists authority_ambiguity as moderate drain that creates
+    latent conflict. Need to validate that stable leadership translates to clear ownership
+    at IC level.
+  how_to_find: 'Ask insiders: Who makes architecture decisions? How are technical
+    disagreements resolved? Clear escalation paths?'
+- mountain_element: daily_climb
+  question: What is the actual meeting intensity percentage for senior engineers?
+  why_important: Profile specifies max 30% meeting load (ideal 20%). Hybrid/remote
+    policy suggests good async culture, but need confirmation that senior ICs stay
+    below threshold.
+  how_to_find: 'Insider interviews: Typical weekly meeting hours? Sync vs async ratio?
+    Focus time availability?'
+- mountain_element: mountain_range
+  question: What drove the January 2025 layoffs despite growth and profitability?
+  why_important: Layoffs during 34% revenue growth seem contradictory. Could indicate
+    strategic pivot, efficiency drive, or preparation for IPO. Understanding rationale
+    critical for assessing stability and alignment.
+  how_to_find: Insider conversations and public statements. Was it performance-based?
+    Organizational restructuring? Cost optimization?
 company_slug: stripe
+synthesis:
+  energy_matrix:
+    moare_percentage: 82
+    sparingly_percentage: 18
+    burnout_percentage: 0
+    help_mentoring_percentage: 0
+    meets_thresholds: true
+    energy_sustainability: HIGH
+    sustainability_reasoning: 82% moare work leveraging core strengths with energizing
+      conditions. 18% sparingly work using expertise at energy cost. 0% burnout work
+      requiring learning under draining conditions. Meets both thresholds (≥60% moare,
+      ≤20% burnout) for sustainable 25+ year career pace.
+    key_energy_insights:
+    - 82% moare work leverages core strengths with energizing conditions
+    energy_concerns: []
+    quadrant_breakdown:
+      moare:
+        count: 165
+        percentage: 82
+        key_examples:
+        - Profitable in 2024 and expects to remain profitable in 2025+ with 10.6%
+          net margin, $6.1B ARR
+        - 'Exceptional growth: $5.12B Dublin revenue (34% YoY), $1.4T payment volume
+          processed (38% YoY)'
+      sparingly:
+        count: 35
+        percentage: 18
+        key_examples:
+        - Expanding headcount from 8,500 to 10,000 by end 2025 despite January layoffs
+        - Minimal Dublin layoffs (single digits) in Jan 2025 vs 300 globally shows
+          Ireland importance
+      burnout:
+        count: 0
+        percentage: 0
+        key_examples: []
+      help_mentoring:
+        count: 0
+        percentage: 0
+        key_examples: []
+  energy_matrix_analysis:
+    profile_version_used: '1.0'
+    predicted_daily_distribution:
+      moare_green_flags:
+        percentage: 83.3
+        tasks_count: 30
+      sparingly_yellow_flags:
+        percentage: 16.7
+        tasks_count: 15
+      burnout_red_flags:
+        percentage: 0.0
+        tasks_count: 0
+      help_mentoring_yellow_flags:
+        percentage: 0.0
+        tasks_count: 0
+    threshold_analysis:
+      meets_green_minimum: true
+      exceeds_red_maximum: false
+      exceeds_yellow_maximum: false
+    energy_sustainability: HIGH
+    key_insights: []
+    decision_factors: []
+profile_version_used: '1.0'

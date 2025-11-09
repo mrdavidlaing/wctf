@@ -1,28 +1,768 @@
 company: SeatGeek
-evaluation_date: '2025-10-19'
+evaluation_date: '2025-11-09'
 evaluator_context: Extracted from conversation notes
 green_flags:
   mountain_range:
-    critical_matches: []
+    critical_matches:
+    - flag: Strong technical culture with active engineering blog (ChairNerd), 169
+        GitHub repos, modern stack (Python/Go/TypeScript/React/K8s/AWS)
+      impact: Aligns with systems_thinking, tool_building, and infrastructure_automation
+        core strengths
+      confidence: High - Public engineering blog, GitHub presence, job postings
+      task_implications:
+      - task: Build CI/CD infrastructure on Kubernetes with cost optimization (40%
+          reduction achieved)
+        time_estimate_pct: 30%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: none
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_glue_work: false
+          uses_infrastructure_automation: true
+          uses_decision_frameworks: true
+          collaboration_type: team
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: moderate
+        notes: Strong alignment with infrastructure_automation and tool_building expert
+          strengths. Engineering blog demonstrates visible_progress generator through
+          public sharing.
+        energy_matrix_quadrant: moare
+    - flag: Open source contributions (fuzzywuzzy with 9.3k stars, buildkit-operator)
+        demonstrate tool-building culture
+      impact: Provides visible_progress generator through public impact, aligns with
+        tool_building passion
+      confidence: High - Public GitHub repositories with significant community adoption
+      task_implications:
+      - task: Develop and open source Kubernetes operators and infrastructure tooling
+        time_estimate_pct: 15%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: low
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_glue_work: false
+          uses_infrastructure_automation: true
+          uses_decision_frameworks: false
+          collaboration_type: solo
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: co_located
+        notes: Direct alignment with tool_building core strength and visible_progress
+          energy generator. Public OSS provides external validation and impact.
+        energy_matrix_quadrant: moare
+    - flag: WorkGeek flexible workplace policy (remote/hybrid/office choice) with
+        work-life balance rating 3.9/5
+      impact: Supports async_work_capability and timezone_flexibility, respects autonomy
+        preferences
+      confidence: High - Glassdoor reviews, company benefits page
+      task_implications:
+      - task: Design distributed systems with async-first architecture
+        time_estimate_pct: 20%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: low
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_glue_work: false
+          uses_infrastructure_automation: true
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: moderate
+        notes: Flexible work policy reduces interpersonal_conflict exposure and supports
+          async_work_capability strength.
+        energy_matrix_quadrant: moare
+    - flag: Strong technical culture with active engineering blog (ChairNerd), 169
+        GitHub repos, modern stack (Python/Go/TypeScript/React/K8s/AWS)
+      impact: Aligns with systems_thinking, tool_building, and infrastructure_automation
+        core strengths
+      confidence: High - Public engineering blog, GitHub presence, job postings
+      task_implications:
+      - task: Build CI/CD infrastructure on Kubernetes with cost optimization (40%
+          reduction achieved)
+        time_estimate_pct: 30%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: none
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_glue_work: false
+          uses_infrastructure_automation: true
+          uses_decision_frameworks: true
+          collaboration_type: team
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: moderate
+        notes: Strong alignment with infrastructure_automation and tool_building expert
+          strengths. Engineering blog demonstrates visible_progress generator through
+          public sharing.
+        energy_matrix_quadrant: moare
+    - flag: Open source contributions (fuzzywuzzy with 9.3k stars, buildkit-operator)
+        demonstrate tool-building culture
+      impact: Provides visible_progress generator through public impact, aligns with
+        tool_building passion
+      confidence: High - Public GitHub repositories with significant community adoption
+      task_implications:
+      - task: Develop and open source Kubernetes operators and infrastructure tooling
+        time_estimate_pct: 15%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: low
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_glue_work: false
+          uses_infrastructure_automation: true
+          uses_decision_frameworks: false
+          collaboration_type: solo
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: co_located
+        notes: Direct alignment with tool_building core strength and visible_progress
+          energy generator. Public OSS provides external validation and impact.
+        energy_matrix_quadrant: moare
+    - flag: WorkGeek flexible workplace policy (remote/hybrid/office choice) with
+        work-life balance rating 3.9/5
+      impact: Supports async_work_capability and timezone_flexibility, respects autonomy
+        preferences
+      confidence: High - Glassdoor reviews, company benefits page
+      task_implications:
+      - task: Design distributed systems with async-first architecture
+        time_estimate_pct: 20%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: low
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_glue_work: false
+          uses_infrastructure_automation: true
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: moderate
+        notes: Flexible work policy reduces interpersonal_conflict exposure and supports
+          async_work_capability strength.
+        energy_matrix_quadrant: moare
+    - flag: Strong technical culture with active engineering blog (ChairNerd), 169
+        GitHub repos, modern stack (Python/Go/TypeScript/React/K8s/AWS)
+      impact: Aligns with systems_thinking, tool_building, and infrastructure_automation
+        core strengths
+      confidence: High - Public engineering blog, GitHub presence, job postings
+      task_implications:
+      - task: Build CI/CD infrastructure on Kubernetes with cost optimization (40%
+          reduction achieved)
+        time_estimate_pct: 30%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: none
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_glue_work: false
+          uses_infrastructure_automation: true
+          uses_decision_frameworks: true
+          collaboration_type: team
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: moderate
+        notes: Strong alignment with infrastructure_automation and tool_building expert
+          strengths. Engineering blog demonstrates visible_progress generator through
+          public sharing.
+        energy_matrix_quadrant: moare
+    - flag: Open source contributions (fuzzywuzzy with 9.3k stars, buildkit-operator)
+        demonstrate tool-building culture
+      impact: Provides visible_progress generator through public impact, aligns with
+        tool_building passion
+      confidence: High - Public GitHub repositories with significant community adoption
+      task_implications:
+      - task: Develop and open source Kubernetes operators and infrastructure tooling
+        time_estimate_pct: 15%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: low
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_glue_work: false
+          uses_infrastructure_automation: true
+          uses_decision_frameworks: false
+          collaboration_type: solo
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: co_located
+        notes: Direct alignment with tool_building core strength and visible_progress
+          energy generator. Public OSS provides external validation and impact.
+        energy_matrix_quadrant: moare
+    - flag: WorkGeek flexible workplace policy (remote/hybrid/office choice) with
+        work-life balance rating 3.9/5
+      impact: Supports async_work_capability and timezone_flexibility, respects autonomy
+        preferences
+      confidence: High - Glassdoor reviews, company benefits page
+      task_implications:
+      - task: Design distributed systems with async-first architecture
+        time_estimate_pct: 20%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: low
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_glue_work: false
+          uses_infrastructure_automation: true
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: moderate
+        notes: Flexible work policy reduces interpersonal_conflict exposure and supports
+          async_work_capability strength.
+        energy_matrix_quadrant: moare
+    - flag: Strong technical culture with active engineering blog (ChairNerd), 169
+        GitHub repos, modern stack (Python/Go/TypeScript/React/K8s/AWS)
+      impact: Aligns with systems_thinking, tool_building, and infrastructure_automation
+        core strengths
+      confidence: High - Public engineering blog, GitHub presence, job postings
+      task_implications:
+      - task: Build CI/CD infrastructure on Kubernetes with cost optimization (40%
+          reduction achieved)
+        time_estimate_pct: 30%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: none
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_glue_work: false
+          uses_infrastructure_automation: true
+          uses_decision_frameworks: true
+          collaboration_type: team
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: moderate
+        notes: Strong alignment with infrastructure_automation and tool_building expert
+          strengths. Engineering blog demonstrates visible_progress generator through
+          public sharing.
+        energy_matrix_quadrant: moare
+    - flag: Open source contributions (fuzzywuzzy with 9.3k stars, buildkit-operator)
+        demonstrate tool-building culture
+      impact: Provides visible_progress generator through public impact, aligns with
+        tool_building passion
+      confidence: High - Public GitHub repositories with significant community adoption
+      task_implications:
+      - task: Develop and open source Kubernetes operators and infrastructure tooling
+        time_estimate_pct: 15%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: low
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_glue_work: false
+          uses_infrastructure_automation: true
+          uses_decision_frameworks: false
+          collaboration_type: solo
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: co_located
+        notes: Direct alignment with tool_building core strength and visible_progress
+          energy generator. Public OSS provides external validation and impact.
+        energy_matrix_quadrant: moare
+    - flag: WorkGeek flexible workplace policy (remote/hybrid/office choice) with
+        work-life balance rating 3.9/5
+      impact: Supports async_work_capability and timezone_flexibility, respects autonomy
+        preferences
+      confidence: High - Glassdoor reviews, company benefits page
+      task_implications:
+      - task: Design distributed systems with async-first architecture
+        time_estimate_pct: 20%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: low
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_glue_work: false
+          uses_infrastructure_automation: true
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: moderate
+        notes: Flexible work policy reduces interpersonal_conflict exposure and supports
+          async_work_capability strength.
+        energy_matrix_quadrant: moare
     strong_positives:
     - flag: Well-funded with $398M raised total and $1B+ valuation from Series E in
         2022
       impact: Substantial capital backing provides runway for sustained engineering
         investment and reduces immediate financial pressure
       confidence: High - Crunchbase, TechCrunch, Sportico
+      task_characteristics:
+        conflict_exposure: low
+        alignment_clarity: medium
+        authority_ambiguity: medium
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: medium
+        requires_sync_communication: false
+        timezone_spread: medium
+      energy_quadrant: moare
+      energy_reasoning: 'Uses core strengths from profile (low learning required).
+
+        Moare quadrant: leverages strength while energizing.'
     - flag: 300 enterprise clients including major sports teams (NFL, MLB partnerships)
       impact: Diversified B2B revenue reduces consumer market risk and provides stable
         enterprise relationships
       confidence: High - Multiple sources confirm major league partnerships
+      task_characteristics:
+        conflict_exposure: medium
+        alignment_clarity: medium
+        authority_ambiguity: medium
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: medium
+        requires_sync_communication: false
+        timezone_spread: medium
+      energy_quadrant: moare
+      energy_reasoning: 'Uses tool_building strength (expert).
+
+        Moare quadrant: leverages strength while energizing.'
     - flag: Growing market share from 7.2% (2019) to 11.5% (2021) in competitive ticketing
         market
       impact: Demonstrated ability to gain ground against Ticketmaster's 66% dominance
         shows execution capability
       confidence: High - Bloomberg Second Measure, Contrary Research
+      task_characteristics:
+        conflict_exposure: medium
+        alignment_clarity: medium
+        authority_ambiguity: medium
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: medium
+        requires_sync_communication: false
+        timezone_spread: medium
+      energy_quadrant: moare
+      energy_reasoning: 'Uses core strengths from profile (low learning required).
+
+        Moare quadrant: leverages strength while energizing.'
     - flag: Net Promoter Score of 45 vs Ticketmaster's 6
       impact: Strong product-market fit and customer satisfaction provides competitive
         moat
       confidence: High - Contrary Research
+      task_characteristics:
+        conflict_exposure: medium
+        alignment_clarity: medium
+        authority_ambiguity: medium
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: medium
+        requires_sync_communication: false
+        timezone_spread: medium
+      energy_quadrant: moare
+      energy_reasoning: 'Uses core strengths from profile (low learning required).
+
+        Moare quadrant: leverages strength while energizing.'
+    - flag: ML/AI investment with Smart Pricing tool, 51.5% automated customer support
+        resolution, hiring ML engineers $145-200K
+      impact: Learning opportunity in multi_agent_orchestration growth area, aligns
+        with ai_augmented_workflows interest
+      confidence: High - Press releases, job postings, Zendesk case study
+      task_implications:
+      - task: Build ML infrastructure for real-time pricing and recommendation systems
+        time_estimate_pct: 15%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: moderate
+          learning_required: moderate
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_glue_work: false
+          uses_infrastructure_automation: true
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: moderate
+          requires_sync_communication: false
+          timezone_spread: moderate
+        notes: Aligns with ai_augmented_workflows growth area while leveraging infrastructure_automation
+          expertise. Some learning required but energizing.
+        energy_matrix_quadrant: moare
+    - flag: Long-tenured founder-CEO (16 years) and stable CTO/CFO (5+ years tenure
+        each)
+      impact: Reduces authority_ambiguity drain through consistent leadership, stable
+        decision-making
+      confidence: High - Multiple sources confirm leadership tenure
+      task_implications:
+      - task: Implement platform architecture decisions with stable leadership approval
+        time_estimate_pct: 10%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: moderate
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: none
+          uses_systems_thinking: true
+          uses_tool_building: false
+          uses_glue_work: true
+          uses_infrastructure_automation: true
+          uses_decision_frameworks: true
+          collaboration_type: cross_team
+          meeting_intensity: moderate
+          requires_sync_communication: true
+          timezone_spread: narrow
+        notes: Stable leadership eliminates authority_ambiguity drain. Leverages glue_work
+          and decision_frameworks strengths.
+        energy_matrix_quadrant: moare
+    - flag: Growing market share (7.2% to 11.5% from 2019-2021), major sports league
+        partnerships (NFL, NBA, MLB)
+      impact: Provides visible_progress through business growth, validates work impact
+      confidence: High - Industry reports, public partnerships
+      task_implications:
+      - task: Scale ticketing infrastructure for major sports events (46M app downloads)
+        time_estimate_pct: 10%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: moderate
+          learning_required: low
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_glue_work: false
+          uses_infrastructure_automation: true
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: moderate
+          requires_sync_communication: false
+          timezone_spread: moderate
+        notes: Market growth provides visible_progress energy generator. Infrastructure
+          scaling uses core strengths.
+        energy_matrix_quadrant: moare
+    - flag: ML/AI investment with Smart Pricing tool, 51.5% automated customer support
+        resolution, hiring ML engineers $145-200K
+      impact: Learning opportunity in multi_agent_orchestration growth area, aligns
+        with ai_augmented_workflows interest
+      confidence: High - Press releases, job postings, Zendesk case study
+      task_implications:
+      - task: Build ML infrastructure for real-time pricing and recommendation systems
+        time_estimate_pct: 15%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: moderate
+          learning_required: moderate
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_glue_work: false
+          uses_infrastructure_automation: true
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: moderate
+          requires_sync_communication: false
+          timezone_spread: moderate
+        notes: Aligns with ai_augmented_workflows growth area while leveraging infrastructure_automation
+          expertise. Some learning required but energizing.
+        energy_matrix_quadrant: moare
+    - flag: Long-tenured founder-CEO (16 years) and stable CTO/CFO (5+ years tenure
+        each)
+      impact: Reduces authority_ambiguity drain through consistent leadership, stable
+        decision-making
+      confidence: High - Multiple sources confirm leadership tenure
+      task_implications:
+      - task: Implement platform architecture decisions with stable leadership approval
+        time_estimate_pct: 10%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: moderate
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: none
+          uses_systems_thinking: true
+          uses_tool_building: false
+          uses_glue_work: true
+          uses_infrastructure_automation: true
+          uses_decision_frameworks: true
+          collaboration_type: cross_team
+          meeting_intensity: moderate
+          requires_sync_communication: true
+          timezone_spread: narrow
+        notes: Stable leadership eliminates authority_ambiguity drain. Leverages glue_work
+          and decision_frameworks strengths.
+        energy_matrix_quadrant: moare
+    - flag: Growing market share (7.2% to 11.5% from 2019-2021), major sports league
+        partnerships (NFL, NBA, MLB)
+      impact: Provides visible_progress through business growth, validates work impact
+      confidence: High - Industry reports, public partnerships
+      task_implications:
+      - task: Scale ticketing infrastructure for major sports events (46M app downloads)
+        time_estimate_pct: 10%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: moderate
+          learning_required: low
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_glue_work: false
+          uses_infrastructure_automation: true
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: moderate
+          requires_sync_communication: false
+          timezone_spread: moderate
+        notes: Market growth provides visible_progress energy generator. Infrastructure
+          scaling uses core strengths.
+        energy_matrix_quadrant: moare
+    - flag: ML/AI investment with Smart Pricing tool, 51.5% automated customer support
+        resolution, hiring ML engineers $145-200K
+      impact: Learning opportunity in multi_agent_orchestration growth area, aligns
+        with ai_augmented_workflows interest
+      confidence: High - Press releases, job postings, Zendesk case study
+      task_implications:
+      - task: Build ML infrastructure for real-time pricing and recommendation systems
+        time_estimate_pct: 15%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: moderate
+          learning_required: moderate
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_glue_work: false
+          uses_infrastructure_automation: true
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: moderate
+          requires_sync_communication: false
+          timezone_spread: moderate
+        notes: Aligns with ai_augmented_workflows growth area while leveraging infrastructure_automation
+          expertise. Some learning required but energizing.
+        energy_matrix_quadrant: moare
+    - flag: Long-tenured founder-CEO (16 years) and stable CTO/CFO (5+ years tenure
+        each)
+      impact: Reduces authority_ambiguity drain through consistent leadership, stable
+        decision-making
+      confidence: High - Multiple sources confirm leadership tenure
+      task_implications:
+      - task: Implement platform architecture decisions with stable leadership approval
+        time_estimate_pct: 10%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: moderate
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: none
+          uses_systems_thinking: true
+          uses_tool_building: false
+          uses_glue_work: true
+          uses_infrastructure_automation: true
+          uses_decision_frameworks: true
+          collaboration_type: cross_team
+          meeting_intensity: moderate
+          requires_sync_communication: true
+          timezone_spread: narrow
+        notes: Stable leadership eliminates authority_ambiguity drain. Leverages glue_work
+          and decision_frameworks strengths.
+        energy_matrix_quadrant: moare
+    - flag: Growing market share (7.2% to 11.5% from 2019-2021), major sports league
+        partnerships (NFL, NBA, MLB)
+      impact: Provides visible_progress through business growth, validates work impact
+      confidence: High - Industry reports, public partnerships
+      task_implications:
+      - task: Scale ticketing infrastructure for major sports events (46M app downloads)
+        time_estimate_pct: 10%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: moderate
+          learning_required: low
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_glue_work: false
+          uses_infrastructure_automation: true
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: moderate
+          requires_sync_communication: false
+          timezone_spread: moderate
+        notes: Market growth provides visible_progress energy generator. Infrastructure
+          scaling uses core strengths.
+        energy_matrix_quadrant: moare
+    - flag: ML/AI investment with Smart Pricing tool, 51.5% automated customer support
+        resolution, hiring ML engineers $145-200K
+      impact: Learning opportunity in multi_agent_orchestration growth area, aligns
+        with ai_augmented_workflows interest
+      confidence: High - Press releases, job postings, Zendesk case study
+      task_implications:
+      - task: Build ML infrastructure for real-time pricing and recommendation systems
+        time_estimate_pct: 15%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: moderate
+          learning_required: moderate
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_glue_work: false
+          uses_infrastructure_automation: true
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: moderate
+          requires_sync_communication: false
+          timezone_spread: moderate
+        notes: Aligns with ai_augmented_workflows growth area while leveraging infrastructure_automation
+          expertise. Some learning required but energizing.
+        energy_matrix_quadrant: moare
+    - flag: Long-tenured founder-CEO (16 years) and stable CTO/CFO (5+ years tenure
+        each)
+      impact: Reduces authority_ambiguity drain through consistent leadership, stable
+        decision-making
+      confidence: High - Multiple sources confirm leadership tenure
+      task_implications:
+      - task: Implement platform architecture decisions with stable leadership approval
+        time_estimate_pct: 10%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: moderate
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: none
+          uses_systems_thinking: true
+          uses_tool_building: false
+          uses_glue_work: true
+          uses_infrastructure_automation: true
+          uses_decision_frameworks: true
+          collaboration_type: cross_team
+          meeting_intensity: moderate
+          requires_sync_communication: true
+          timezone_spread: narrow
+        notes: Stable leadership eliminates authority_ambiguity drain. Leverages glue_work
+          and decision_frameworks strengths.
+        energy_matrix_quadrant: moare
+    - flag: Growing market share (7.2% to 11.5% from 2019-2021), major sports league
+        partnerships (NFL, NBA, MLB)
+      impact: Provides visible_progress through business growth, validates work impact
+      confidence: High - Industry reports, public partnerships
+      task_implications:
+      - task: Scale ticketing infrastructure for major sports events (46M app downloads)
+        time_estimate_pct: 10%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: moderate
+          learning_required: low
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_glue_work: false
+          uses_infrastructure_automation: true
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: moderate
+          requires_sync_communication: false
+          timezone_spread: moderate
+        notes: Market growth provides visible_progress energy generator. Infrastructure
+          scaling uses core strengths.
+        energy_matrix_quadrant: moare
   chosen_peak:
     critical_matches:
     - flag: 'Modern tech stack: Python/Go/C# backend, TypeScript/React frontend, Kubernetes
@@ -30,30 +770,136 @@ green_flags:
       impact: Industry-standard tools reduce technical debt risk and make it easier
         to attract/retain engineering talent
       confidence: High - Job postings, StackShare, engineering blog
+      task_characteristics:
+        conflict_exposure: medium
+        alignment_clarity: medium
+        authority_ambiguity: medium
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: medium
+        requires_sync_communication: false
+        timezone_spread: medium
+      energy_quadrant: moare
+      energy_reasoning: 'Provides tool_building generator (core need).
+
+        Uses tool_building strength (expert).
+
+        Moare quadrant: leverages strength while energizing.'
     - flag: Active engineering blog (ChairNerd) with recent posts on infrastructure,
         CI/CD, and Kubernetes migration
       impact: Demonstrates investment in engineering excellence, knowledge sharing,
         and technical growth culture
       confidence: High - chairnerd.seatgeek.com
+      task_characteristics:
+        conflict_exposure: medium
+        alignment_clarity: medium
+        authority_ambiguity: medium
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: medium
+        requires_sync_communication: false
+        timezone_spread: medium
+      energy_quadrant: moare
+      energy_reasoning: 'Provides tool_building generator (core need).
+
+        Uses infrastructure_automation strength (expert).
+
+        Moare quadrant: leverages strength while energizing.'
     - flag: Significant open source contributions including fuzzywuzzy (9.3k stars)
         and 169 public repos
       impact: Shows commitment to engineering community, technical reputation building,
         and sustainable engineering practices
       confidence: High - GitHub
+      task_characteristics:
+        conflict_exposure: medium
+        alignment_clarity: medium
+        authority_ambiguity: medium
+        progress_visibility: high
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: medium
+        requires_sync_communication: false
+        timezone_spread: medium
+      energy_quadrant: moare
+      energy_reasoning: 'Provides visible_progress generator (core need).
+
+        Uses core strengths from profile (low learning required).
+
+        Moare quadrant: leverages strength while energizing.'
     strong_positives:
     - flag: 'CI/CD improvements: queue time 16s→2s, p98 3min→4s, 40% cost reduction'
       impact: Strong DevOps culture with measurable improvements shows mature engineering
         practices and continuous optimization
       confidence: High - SeatGeek Engineering Blog
+      task_characteristics:
+        conflict_exposure: medium
+        alignment_clarity: medium
+        authority_ambiguity: medium
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: medium
+        requires_sync_communication: false
+        timezone_spread: medium
+      energy_quadrant: moare
+      energy_reasoning: 'Uses core strengths from profile (low learning required).
+
+        Moare quadrant: leverages strength while energizing.'
     - flag: Investment in AI/ML infrastructure with dedicated ML engineers ($145-200K),
         TensorFlow/PyTorch/scikit-learn stack
       impact: Forward-looking technical investments provide interesting challenges
         and career growth opportunities
       confidence: High - Job postings, engineering blog
+      task_characteristics:
+        conflict_exposure: medium
+        alignment_clarity: medium
+        authority_ambiguity: medium
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: medium
+        requires_sync_communication: false
+        timezone_spread: medium
+      energy_quadrant: moare
+      energy_reasoning: 'Provides tool_building generator (core need).
+
+        Uses infrastructure_automation strength (expert).
+
+        Moare quadrant: leverages strength while energizing.'
     - flag: Zendesk AI automation achieving 51.5% resolution rate (satisfaction 34%→70%)
       impact: Real-world AI deployment with measurable impact demonstrates practical
         ML application vs research theater
       confidence: High - Zendesk case study
+      task_characteristics:
+        conflict_exposure: medium
+        alignment_clarity: medium
+        authority_ambiguity: medium
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: medium
+        requires_sync_communication: false
+        timezone_spread: medium
+      energy_quadrant: moare
+      energy_reasoning: 'Provides tool_building generator (core need).
+
+        Uses tool_building strength (expert).
+
+        Moare quadrant: leverages strength while energizing.'
   rope_team_confidence:
     critical_matches: []
     strong_positives:
@@ -61,26 +907,111 @@ green_flags:
       impact: Long-term commitment and stability at top reduces risk of sudden strategic
         pivots or acquisition-driven chaos
       confidence: High - Multiple sources
+      task_characteristics:
+        conflict_exposure: high
+        alignment_clarity: low
+        authority_ambiguity: medium
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: medium
+        requires_sync_communication: false
+        timezone_spread: medium
+      energy_quadrant: sparingly
+      energy_reasoning: 'Exposes to interpersonal_conflict drain (severe).
+
+        Uses core strengths from profile.
+
+        Sparingly quadrant: leverages expertise but at energy cost.'
     - flag: Experienced CTO (Brian Murphy) from Tumblr and NY Times since 2019
       impact: Strong technical leadership with proven track record at scale provides
         engineering advocacy at executive level
       confidence: High - TechCrunch, Billboard
+      task_characteristics:
+        conflict_exposure: medium
+        alignment_clarity: medium
+        authority_ambiguity: medium
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: medium
+        requires_sync_communication: false
+        timezone_spread: medium
+      energy_quadrant: moare
+      energy_reasoning: 'Uses core strengths from profile (low learning required).
+
+        Moare quadrant: leverages strength while energizing.'
   daily_climb:
     critical_matches:
     - flag: 'WorkGeek flexible policy: choose remote, hybrid, or full-time office'
       impact: Maximum autonomy over work location enables sustainable work-life integration
         for 25+ year career
       confidence: High - Glassdoor Benefits
+      task_characteristics:
+        conflict_exposure: medium
+        alignment_clarity: medium
+        authority_ambiguity: medium
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: medium
+        requires_sync_communication: false
+        timezone_spread: medium
+      energy_quadrant: moare
+      energy_reasoning: 'Uses core strengths from profile (low learning required).
+
+        Moare quadrant: leverages strength while energizing.'
     - flag: Work-life balance rated 3.9/5 on Glassdoor
       impact: Above-average work-life balance critical for long-term sustainability
         and avoiding burnout
       confidence: High - Glassdoor with 280+ reviews
+      task_characteristics:
+        conflict_exposure: medium
+        alignment_clarity: medium
+        authority_ambiguity: medium
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: medium
+        requires_sync_communication: false
+        timezone_spread: medium
+      energy_quadrant: moare
+      energy_reasoning: 'Eliminates financial_anxiety drain (moderate) by providing
+        financial stability.
+
+        Uses core strengths from profile (low learning required).
+
+        Moare quadrant: leverages strength while energizing.'
     strong_positives:
     - flag: Multiple office locations (NYC, Portland, Manchester UK, Berlin, Copenhagen,
         Israel)
       impact: Geographic flexibility provides relocation options without changing
         employers
       confidence: High - LinkedIn, Unify GTM
+      task_characteristics:
+        conflict_exposure: medium
+        alignment_clarity: medium
+        authority_ambiguity: medium
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: medium
+        requires_sync_communication: false
+        timezone_spread: medium
+      energy_quadrant: moare
+      energy_reasoning: 'Uses core strengths from profile (low learning required).
+
+        Moare quadrant: leverages strength while energizing.'
   story_worth_telling:
     critical_matches: []
     strong_positives:
@@ -89,10 +1020,42 @@ green_flags:
       impact: High-visibility domain with real technical challenges (scale, pricing,
         search, fraud) provides resume value
       confidence: High - Market position data
+      task_characteristics:
+        conflict_exposure: medium
+        alignment_clarity: medium
+        authority_ambiguity: medium
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: medium
+        requires_sync_communication: false
+        timezone_spread: medium
+      energy_quadrant: moare
+      energy_reasoning: 'Uses infrastructure_automation strength (expert).
+
+        Moare quadrant: leverages strength while energizing.'
     - flag: 12-week internship program covering Backend, Frontend, Mobile, Platform
       impact: Investment in junior talent development suggests growth paths and mentorship
         opportunities
       confidence: High - SeatGeek careers page
+      task_characteristics:
+        conflict_exposure: medium
+        alignment_clarity: medium
+        authority_ambiguity: medium
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: medium
+        requires_sync_communication: false
+        timezone_spread: medium
+      energy_quadrant: moare
+      energy_reasoning: 'Uses infrastructure_automation strength (expert).
+
+        Moare quadrant: leverages strength while energizing.'
 red_flags:
   mountain_range:
     dealbreakers: []
@@ -102,21 +1065,764 @@ red_flags:
       impact: Recent cost-cutting raises questions about runway, profitability timeline,
         and indicates potential financial stress despite $1B valuation
       confidence: High - Digital Music News, TicketNews, The Ticketing Business
+      task_characteristics:
+        conflict_exposure: high
+        alignment_clarity: medium
+        authority_ambiguity: medium
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: medium
+        requires_sync_communication: false
+        timezone_spread: medium
+      energy_quadrant: moare
+      energy_reasoning: 'Eliminates financial_anxiety drain (moderate) by providing
+        financial stability.
+
+        Uses core strengths from profile (low learning required).
+
+        Moare quadrant: leverages strength while energizing.'
     - flag: IPO filed April 2023, expected end of 2024, still not executed as of October
         2025
       impact: 18-month delay suggests unfavorable market conditions or internal readiness
         issues, limiting equity liquidity timeline
       confidence: High - Bloomberg, multiple sources
+      task_characteristics:
+        conflict_exposure: medium
+        alignment_clarity: medium
+        authority_ambiguity: medium
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: medium
+        requires_sync_communication: false
+        timezone_spread: medium
+      energy_quadrant: sparingly
+      energy_reasoning: 'Creates draining conditions despite using expertise.
+
+        Uses core strengths from profile.
+
+        Sparingly quadrant: leverages expertise but at energy cost.'
     - flag: $80M net loss in 2021, profitability target missed (expected H2 2023,
         unconfirmed 2024-2025)
       impact: Path to profitability unclear, increasing risk of further cost cuts
         or down rounds
       confidence: High - Yahoo Finance, The Motley Fool; Medium - lack of 2024 confirmation
+      task_characteristics:
+        conflict_exposure: medium
+        alignment_clarity: medium
+        authority_ambiguity: high
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: slow
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: medium
+        requires_sync_communication: false
+        timezone_spread: medium
+      energy_quadrant: sparingly
+      energy_reasoning: 'Exposes to authority_ambiguity drain (moderate).
+
+        Uses core strengths from profile.
+
+        Sparingly quadrant: leverages expertise but at energy cost.'
     - flag: No confirmed 2024 revenue data (estimates range $125M-$750M), limited
         financial transparency post-SPAC cancellation
       impact: Information asymmetry makes it difficult to assess true financial health
         and growth trajectory
       confidence: Medium - Multiple conflicting sources
+      task_characteristics:
+        conflict_exposure: low
+        alignment_clarity: medium
+        authority_ambiguity: medium
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: medium
+        requires_sync_communication: false
+        timezone_spread: medium
+      energy_quadrant: moare
+      energy_reasoning: 'Uses core strengths from profile (low learning required).
+
+        Moare quadrant: leverages strength while energizing.'
+    - flag: 15% workforce reduction in February 2025 affecting engineering roles including
+        software engineers and UX specialists
+      impact: Triggers interpersonal_conflict drain (witnessing departures), financial_anxiety
+        about stability
+      confidence: High - Multiple news sources confirm layoffs
+      task_implications:
+      - task: Navigate post-layoff team dynamics and morale recovery
+        time_estimate_pct: 10%
+        characteristics:
+          conflict_exposure: moderate
+          alignment_clarity: moderate
+          authority_ambiguity: moderate
+          progress_visibility: low
+          autonomy_level: low
+          decision_speed: slow
+          learning_required: moderate
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: true
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: cross_team
+          meeting_intensity: high
+          requires_sync_communication: true
+          timezone_spread: moderate
+        notes: Layoffs trigger interpersonal_conflict drain (witnessing departures)
+          and financial_anxiety. Requires glue_work but draining without technical
+          progress.
+        energy_matrix_quadrant: burnout
+    - flag: Executive team rated D+ (Bottom 25%), only 48% positive business outlook,
+        54% would recommend to friend
+      impact: Signals potential misalignment drain, authority_ambiguity from poor
+        leadership ratings
+      confidence: High - Comparably employee ratings, Glassdoor reviews
+      task_implications:
+      - task: Work around leadership decisions that may lack strategic clarity
+        time_estimate_pct: 8%
+        characteristics:
+          conflict_exposure: moderate
+          alignment_clarity: low
+          authority_ambiguity: high
+          progress_visibility: moderate
+          autonomy_level: moderate
+          decision_speed: slow
+          learning_required: low
+          uses_systems_thinking: true
+          uses_tool_building: false
+          uses_glue_work: true
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: true
+          collaboration_type: cross_team
+          meeting_intensity: high
+          requires_sync_communication: true
+          timezone_spread: narrow
+        notes: Poor executive ratings trigger authority_ambiguity and misalignment
+          drains. Requires decision_frameworks to navigate uncertainty.
+        energy_matrix_quadrant: sparingly
+    - flag: Low compensation with 3-4% annual raises and no bonuses, compensation
+        rating 3.6/5
+      impact: Triggers financial_anxiety drain, reduces energy for progress work
+      confidence: High - Multiple Glassdoor reviews cite compensation concerns
+      task_implications:
+      - task: Manage compensation expectations and negotiate for market rates
+        time_estimate_pct: 5%
+        characteristics:
+          conflict_exposure: moderate
+          alignment_clarity: moderate
+          authority_ambiguity: moderate
+          progress_visibility: low
+          autonomy_level: low
+          decision_speed: slow
+          learning_required: moderate
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: false
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: solo
+          meeting_intensity: moderate
+          requires_sync_communication: true
+          timezone_spread: co_located
+        notes: Low compensation directly triggers financial_anxiety severe drain.
+          Energy leak without using any core strengths.
+        energy_matrix_quadrant: burnout
+    - flag: Delayed IPO (filed April 2023, not yet executed as of October 2025) suggests
+        market challenges or internal readiness issues
+      impact: Creates financial_anxiety about company stability and potential future
+        layoffs
+      confidence: High - Bloomberg, multiple financial news sources
+      task_implications:
+      - task: Operate under uncertainty about company's financial future and liquidity
+          event
+        time_estimate_pct: 7%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: moderate
+          authority_ambiguity: moderate
+          progress_visibility: moderate
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: none
+          uses_systems_thinking: false
+          uses_tool_building: true
+          uses_glue_work: false
+          uses_infrastructure_automation: true
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: moderate
+        notes: IPO delay creates background financial_anxiety. Can still do technical
+          work but drain is present.
+        energy_matrix_quadrant: moare
+    - flag: BBB F rating with 1,866 complaints (despite 4.3/5 Trustpilot) suggests
+        customer service issues
+      impact: Potential misalignment between company values and customer experience
+        quality
+      confidence: High - BBB official rating, Wikipedia documentation
+      task_implications:
+      - task: Build infrastructure for company with reputation management challenges
+        time_estimate_pct: 5%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: moderate
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: moderate
+          learning_required: none
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_glue_work: false
+          uses_infrastructure_automation: true
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: moderate
+        notes: BBB rating suggests potential misalignment drain but technical work
+          remains aligned with strengths.
+        energy_matrix_quadrant: moare
+    - flag: Limited career progression mentioned in reviews, only 48% positive business
+        outlook
+      impact: Reduces visible_progress generator through lack of advancement opportunities
+      confidence: Medium - Glassdoor reviews cite this pattern
+      task_implications:
+      - task: Seek growth opportunities in organization with limited advancement paths
+        time_estimate_pct: 5%
+        characteristics:
+          conflict_exposure: moderate
+          alignment_clarity: low
+          authority_ambiguity: moderate
+          progress_visibility: low
+          autonomy_level: low
+          decision_speed: slow
+          learning_required: moderate
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: true
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: cross_team
+          meeting_intensity: high
+          requires_sync_communication: true
+          timezone_spread: narrow
+        notes: Limited progression dampens visible_progress generator and creates
+          misalignment drain.
+        energy_matrix_quadrant: burnout
+    - flag: 15% workforce reduction in February 2025 affecting engineering roles including
+        software engineers and UX specialists
+      impact: Triggers interpersonal_conflict drain (witnessing departures), financial_anxiety
+        about stability
+      confidence: High - Multiple news sources confirm layoffs
+      task_implications:
+      - task: Navigate post-layoff team dynamics and morale recovery
+        time_estimate_pct: 10%
+        characteristics:
+          conflict_exposure: moderate
+          alignment_clarity: moderate
+          authority_ambiguity: moderate
+          progress_visibility: low
+          autonomy_level: low
+          decision_speed: slow
+          learning_required: moderate
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: true
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: cross_team
+          meeting_intensity: high
+          requires_sync_communication: true
+          timezone_spread: moderate
+        notes: Layoffs trigger interpersonal_conflict drain (witnessing departures)
+          and financial_anxiety. Requires glue_work but draining without technical
+          progress.
+        energy_matrix_quadrant: burnout
+    - flag: Executive team rated D+ (Bottom 25%), only 48% positive business outlook,
+        54% would recommend to friend
+      impact: Signals potential misalignment drain, authority_ambiguity from poor
+        leadership ratings
+      confidence: High - Comparably employee ratings, Glassdoor reviews
+      task_implications:
+      - task: Work around leadership decisions that may lack strategic clarity
+        time_estimate_pct: 8%
+        characteristics:
+          conflict_exposure: moderate
+          alignment_clarity: low
+          authority_ambiguity: high
+          progress_visibility: moderate
+          autonomy_level: moderate
+          decision_speed: slow
+          learning_required: low
+          uses_systems_thinking: true
+          uses_tool_building: false
+          uses_glue_work: true
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: true
+          collaboration_type: cross_team
+          meeting_intensity: high
+          requires_sync_communication: true
+          timezone_spread: narrow
+        notes: Poor executive ratings trigger authority_ambiguity and misalignment
+          drains. Requires decision_frameworks to navigate uncertainty.
+        energy_matrix_quadrant: sparingly
+    - flag: Low compensation with 3-4% annual raises and no bonuses, compensation
+        rating 3.6/5
+      impact: Triggers financial_anxiety drain, reduces energy for progress work
+      confidence: High - Multiple Glassdoor reviews cite compensation concerns
+      task_implications:
+      - task: Manage compensation expectations and negotiate for market rates
+        time_estimate_pct: 5%
+        characteristics:
+          conflict_exposure: moderate
+          alignment_clarity: moderate
+          authority_ambiguity: moderate
+          progress_visibility: low
+          autonomy_level: low
+          decision_speed: slow
+          learning_required: moderate
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: false
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: solo
+          meeting_intensity: moderate
+          requires_sync_communication: true
+          timezone_spread: co_located
+        notes: Low compensation directly triggers financial_anxiety severe drain.
+          Energy leak without using any core strengths.
+        energy_matrix_quadrant: burnout
+    - flag: Delayed IPO (filed April 2023, not yet executed as of October 2025) suggests
+        market challenges or internal readiness issues
+      impact: Creates financial_anxiety about company stability and potential future
+        layoffs
+      confidence: High - Bloomberg, multiple financial news sources
+      task_implications:
+      - task: Operate under uncertainty about company's financial future and liquidity
+          event
+        time_estimate_pct: 7%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: moderate
+          authority_ambiguity: moderate
+          progress_visibility: moderate
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: none
+          uses_systems_thinking: false
+          uses_tool_building: true
+          uses_glue_work: false
+          uses_infrastructure_automation: true
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: moderate
+        notes: IPO delay creates background financial_anxiety. Can still do technical
+          work but drain is present.
+        energy_matrix_quadrant: moare
+    - flag: BBB F rating with 1,866 complaints (despite 4.3/5 Trustpilot) suggests
+        customer service issues
+      impact: Potential misalignment between company values and customer experience
+        quality
+      confidence: High - BBB official rating, Wikipedia documentation
+      task_implications:
+      - task: Build infrastructure for company with reputation management challenges
+        time_estimate_pct: 5%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: moderate
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: moderate
+          learning_required: none
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_glue_work: false
+          uses_infrastructure_automation: true
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: moderate
+        notes: BBB rating suggests potential misalignment drain but technical work
+          remains aligned with strengths.
+        energy_matrix_quadrant: moare
+    - flag: Limited career progression mentioned in reviews, only 48% positive business
+        outlook
+      impact: Reduces visible_progress generator through lack of advancement opportunities
+      confidence: Medium - Glassdoor reviews cite this pattern
+      task_implications:
+      - task: Seek growth opportunities in organization with limited advancement paths
+        time_estimate_pct: 5%
+        characteristics:
+          conflict_exposure: moderate
+          alignment_clarity: low
+          authority_ambiguity: moderate
+          progress_visibility: low
+          autonomy_level: low
+          decision_speed: slow
+          learning_required: moderate
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: true
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: cross_team
+          meeting_intensity: high
+          requires_sync_communication: true
+          timezone_spread: narrow
+        notes: Limited progression dampens visible_progress generator and creates
+          misalignment drain.
+        energy_matrix_quadrant: burnout
+    - flag: 15% workforce reduction in February 2025 affecting engineering roles including
+        software engineers and UX specialists
+      impact: Triggers interpersonal_conflict drain (witnessing departures), financial_anxiety
+        about stability
+      confidence: High - Multiple news sources confirm layoffs
+      task_implications:
+      - task: Navigate post-layoff team dynamics and morale recovery
+        time_estimate_pct: 10%
+        characteristics:
+          conflict_exposure: moderate
+          alignment_clarity: moderate
+          authority_ambiguity: moderate
+          progress_visibility: low
+          autonomy_level: low
+          decision_speed: slow
+          learning_required: moderate
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: true
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: cross_team
+          meeting_intensity: high
+          requires_sync_communication: true
+          timezone_spread: moderate
+        notes: Layoffs trigger interpersonal_conflict drain (witnessing departures)
+          and financial_anxiety. Requires glue_work but draining without technical
+          progress.
+        energy_matrix_quadrant: burnout
+    - flag: Executive team rated D+ (Bottom 25%), only 48% positive business outlook,
+        54% would recommend to friend
+      impact: Signals potential misalignment drain, authority_ambiguity from poor
+        leadership ratings
+      confidence: High - Comparably employee ratings, Glassdoor reviews
+      task_implications:
+      - task: Work around leadership decisions that may lack strategic clarity
+        time_estimate_pct: 8%
+        characteristics:
+          conflict_exposure: moderate
+          alignment_clarity: low
+          authority_ambiguity: high
+          progress_visibility: moderate
+          autonomy_level: moderate
+          decision_speed: slow
+          learning_required: low
+          uses_systems_thinking: true
+          uses_tool_building: false
+          uses_glue_work: true
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: true
+          collaboration_type: cross_team
+          meeting_intensity: high
+          requires_sync_communication: true
+          timezone_spread: narrow
+        notes: Poor executive ratings trigger authority_ambiguity and misalignment
+          drains. Requires decision_frameworks to navigate uncertainty.
+        energy_matrix_quadrant: sparingly
+    - flag: Low compensation with 3-4% annual raises and no bonuses, compensation
+        rating 3.6/5
+      impact: Triggers financial_anxiety drain, reduces energy for progress work
+      confidence: High - Multiple Glassdoor reviews cite compensation concerns
+      task_implications:
+      - task: Manage compensation expectations and negotiate for market rates
+        time_estimate_pct: 5%
+        characteristics:
+          conflict_exposure: moderate
+          alignment_clarity: moderate
+          authority_ambiguity: moderate
+          progress_visibility: low
+          autonomy_level: low
+          decision_speed: slow
+          learning_required: moderate
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: false
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: solo
+          meeting_intensity: moderate
+          requires_sync_communication: true
+          timezone_spread: co_located
+        notes: Low compensation directly triggers financial_anxiety severe drain.
+          Energy leak without using any core strengths.
+        energy_matrix_quadrant: burnout
+    - flag: Delayed IPO (filed April 2023, not yet executed as of October 2025) suggests
+        market challenges or internal readiness issues
+      impact: Creates financial_anxiety about company stability and potential future
+        layoffs
+      confidence: High - Bloomberg, multiple financial news sources
+      task_implications:
+      - task: Operate under uncertainty about company's financial future and liquidity
+          event
+        time_estimate_pct: 7%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: moderate
+          authority_ambiguity: moderate
+          progress_visibility: moderate
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: none
+          uses_systems_thinking: false
+          uses_tool_building: true
+          uses_glue_work: false
+          uses_infrastructure_automation: true
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: moderate
+        notes: IPO delay creates background financial_anxiety. Can still do technical
+          work but drain is present.
+        energy_matrix_quadrant: moare
+    - flag: BBB F rating with 1,866 complaints (despite 4.3/5 Trustpilot) suggests
+        customer service issues
+      impact: Potential misalignment between company values and customer experience
+        quality
+      confidence: High - BBB official rating, Wikipedia documentation
+      task_implications:
+      - task: Build infrastructure for company with reputation management challenges
+        time_estimate_pct: 5%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: moderate
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: moderate
+          learning_required: none
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_glue_work: false
+          uses_infrastructure_automation: true
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: moderate
+        notes: BBB rating suggests potential misalignment drain but technical work
+          remains aligned with strengths.
+        energy_matrix_quadrant: moare
+    - flag: Limited career progression mentioned in reviews, only 48% positive business
+        outlook
+      impact: Reduces visible_progress generator through lack of advancement opportunities
+      confidence: Medium - Glassdoor reviews cite this pattern
+      task_implications:
+      - task: Seek growth opportunities in organization with limited advancement paths
+        time_estimate_pct: 5%
+        characteristics:
+          conflict_exposure: moderate
+          alignment_clarity: low
+          authority_ambiguity: moderate
+          progress_visibility: low
+          autonomy_level: low
+          decision_speed: slow
+          learning_required: moderate
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: true
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: cross_team
+          meeting_intensity: high
+          requires_sync_communication: true
+          timezone_spread: narrow
+        notes: Limited progression dampens visible_progress generator and creates
+          misalignment drain.
+        energy_matrix_quadrant: burnout
+    - flag: 15% workforce reduction in February 2025 affecting engineering roles including
+        software engineers and UX specialists
+      impact: Triggers interpersonal_conflict drain (witnessing departures), financial_anxiety
+        about stability
+      confidence: High - Multiple news sources confirm layoffs
+      task_implications:
+      - task: Navigate post-layoff team dynamics and morale recovery
+        time_estimate_pct: 10%
+        characteristics:
+          conflict_exposure: moderate
+          alignment_clarity: moderate
+          authority_ambiguity: moderate
+          progress_visibility: low
+          autonomy_level: low
+          decision_speed: slow
+          learning_required: moderate
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: true
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: cross_team
+          meeting_intensity: high
+          requires_sync_communication: true
+          timezone_spread: moderate
+        notes: Layoffs trigger interpersonal_conflict drain (witnessing departures)
+          and financial_anxiety. Requires glue_work but draining without technical
+          progress.
+        energy_matrix_quadrant: burnout
+    - flag: Executive team rated D+ (Bottom 25%), only 48% positive business outlook,
+        54% would recommend to friend
+      impact: Signals potential misalignment drain, authority_ambiguity from poor
+        leadership ratings
+      confidence: High - Comparably employee ratings, Glassdoor reviews
+      task_implications:
+      - task: Work around leadership decisions that may lack strategic clarity
+        time_estimate_pct: 8%
+        characteristics:
+          conflict_exposure: moderate
+          alignment_clarity: low
+          authority_ambiguity: high
+          progress_visibility: moderate
+          autonomy_level: moderate
+          decision_speed: slow
+          learning_required: low
+          uses_systems_thinking: true
+          uses_tool_building: false
+          uses_glue_work: true
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: true
+          collaboration_type: cross_team
+          meeting_intensity: high
+          requires_sync_communication: true
+          timezone_spread: narrow
+        notes: Poor executive ratings trigger authority_ambiguity and misalignment
+          drains. Requires decision_frameworks to navigate uncertainty.
+        energy_matrix_quadrant: sparingly
+    - flag: Low compensation with 3-4% annual raises and no bonuses, compensation
+        rating 3.6/5
+      impact: Triggers financial_anxiety drain, reduces energy for progress work
+      confidence: High - Multiple Glassdoor reviews cite compensation concerns
+      task_implications:
+      - task: Manage compensation expectations and negotiate for market rates
+        time_estimate_pct: 5%
+        characteristics:
+          conflict_exposure: moderate
+          alignment_clarity: moderate
+          authority_ambiguity: moderate
+          progress_visibility: low
+          autonomy_level: low
+          decision_speed: slow
+          learning_required: moderate
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: false
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: solo
+          meeting_intensity: moderate
+          requires_sync_communication: true
+          timezone_spread: co_located
+        notes: Low compensation directly triggers financial_anxiety severe drain.
+          Energy leak without using any core strengths.
+        energy_matrix_quadrant: burnout
+    - flag: Delayed IPO (filed April 2023, not yet executed as of October 2025) suggests
+        market challenges or internal readiness issues
+      impact: Creates financial_anxiety about company stability and potential future
+        layoffs
+      confidence: High - Bloomberg, multiple financial news sources
+      task_implications:
+      - task: Operate under uncertainty about company's financial future and liquidity
+          event
+        time_estimate_pct: 7%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: moderate
+          authority_ambiguity: moderate
+          progress_visibility: moderate
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: none
+          uses_systems_thinking: false
+          uses_tool_building: true
+          uses_glue_work: false
+          uses_infrastructure_automation: true
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: moderate
+        notes: IPO delay creates background financial_anxiety. Can still do technical
+          work but drain is present.
+        energy_matrix_quadrant: moare
+    - flag: BBB F rating with 1,866 complaints (despite 4.3/5 Trustpilot) suggests
+        customer service issues
+      impact: Potential misalignment between company values and customer experience
+        quality
+      confidence: High - BBB official rating, Wikipedia documentation
+      task_implications:
+      - task: Build infrastructure for company with reputation management challenges
+        time_estimate_pct: 5%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: moderate
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: moderate
+          learning_required: none
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_glue_work: false
+          uses_infrastructure_automation: true
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: moderate
+        notes: BBB rating suggests potential misalignment drain but technical work
+          remains aligned with strengths.
+        energy_matrix_quadrant: moare
+    - flag: Limited career progression mentioned in reviews, only 48% positive business
+        outlook
+      impact: Reduces visible_progress generator through lack of advancement opportunities
+      confidence: Medium - Glassdoor reviews cite this pattern
+      task_implications:
+      - task: Seek growth opportunities in organization with limited advancement paths
+        time_estimate_pct: 5%
+        characteristics:
+          conflict_exposure: moderate
+          alignment_clarity: low
+          authority_ambiguity: moderate
+          progress_visibility: low
+          autonomy_level: low
+          decision_speed: slow
+          learning_required: moderate
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: true
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: cross_team
+          meeting_intensity: high
+          requires_sync_communication: true
+          timezone_spread: narrow
+        notes: Limited progression dampens visible_progress generator and creates
+          misalignment drain.
+        energy_matrix_quadrant: burnout
   chosen_peak:
     dealbreakers: []
     concerning: []
@@ -127,14 +1833,68 @@ red_flags:
       impact: Poor executive ratings from employees suggests leadership dysfunction
         that could impact engineering autonomy and strategy
       confidence: High - Comparably
+      task_characteristics:
+        conflict_exposure: medium
+        alignment_clarity: medium
+        authority_ambiguity: medium
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: medium
+        requires_sync_communication: false
+        timezone_spread: medium
+      energy_quadrant: sparingly
+      energy_reasoning: 'Creates draining conditions despite using expertise.
+
+        Uses core strengths from profile.
+
+        Sparingly quadrant: leverages expertise but at energy cost.'
     - flag: Only 48% positive business outlook and 54% would recommend to friend (Glassdoor)
       impact: Below-majority employee confidence indicates cultural or strategic issues
         that affect day-to-day morale
       confidence: High - Glassdoor, 280+ reviews
+      task_characteristics:
+        conflict_exposure: medium
+        alignment_clarity: medium
+        authority_ambiguity: medium
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: medium
+        requires_sync_communication: false
+        timezone_spread: medium
+      energy_quadrant: sparingly
+      energy_reasoning: 'Creates draining conditions despite using expertise.
+
+        Uses core strengths from profile.
+
+        Sparingly quadrant: leverages expertise but at energy cost.'
     - flag: Managing Director for EMEA stepped down after 13 years in October 2024
       impact: Senior leadership departure after long tenure may signal strategic disagreements
         or concerns about future direction
       confidence: High - TheTicketingBusiness News
+      task_characteristics:
+        conflict_exposure: medium
+        alignment_clarity: medium
+        authority_ambiguity: medium
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: medium
+        requires_sync_communication: false
+        timezone_spread: medium
+      energy_quadrant: sparingly
+      energy_reasoning: 'Creates draining conditions despite using expertise.
+
+        Uses core strengths from profile.
+
+        Sparingly quadrant: leverages expertise but at energy cost.'
   daily_climb:
     dealbreakers: []
     concerning:
@@ -143,10 +1903,46 @@ red_flags:
       impact: Below-market comp limits ability to build wealth, especially concerning
         for staff-level role expecting competitive TC
       confidence: High - Glassdoor employee reviews
+      task_characteristics:
+        conflict_exposure: medium
+        alignment_clarity: medium
+        authority_ambiguity: medium
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: medium
+        requires_sync_communication: false
+        timezone_spread: medium
+      energy_quadrant: sparingly
+      energy_reasoning: 'Creates draining conditions despite using expertise.
+
+        Uses core strengths from profile.
+
+        Sparingly quadrant: leverages expertise but at energy cost.'
     - flag: Limited career progression cited as main con in employee reviews
       impact: Staff engineer role may have limited growth path to principal/distinguished
         levels
       confidence: Medium - Glassdoor reviews indicate pattern
+      task_characteristics:
+        conflict_exposure: medium
+        alignment_clarity: medium
+        authority_ambiguity: medium
+        progress_visibility: high
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: medium
+        requires_sync_communication: false
+        timezone_spread: medium
+      energy_quadrant: moare
+      energy_reasoning: 'Provides visible_progress generator (core need).
+
+        Uses core strengths from profile (low learning required).
+
+        Moare quadrant: leverages strength while energizing.'
   story_worth_telling:
     dealbreakers: []
     concerning:
@@ -155,6 +1951,24 @@ red_flags:
       impact: Constrained market position limits scale of impact and international
         growth opportunities
       confidence: High - Bloomberg Second Measure, Contrary Research
+      task_characteristics:
+        conflict_exposure: medium
+        alignment_clarity: medium
+        authority_ambiguity: medium
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: medium
+        requires_sync_communication: false
+        timezone_spread: medium
+      energy_quadrant: sparingly
+      energy_reasoning: 'Creates draining conditions despite using expertise.
+
+        Uses core strengths from profile.
+
+        Sparingly quadrant: leverages expertise but at energy cost.'
 missing_critical_data:
 - question: What is the current monthly burn rate and runway in months?
   why_important: Critical for assessing financial stability and risk of further layoffs
@@ -196,4 +2010,118 @@ missing_critical_data:
     certs is concerning
   how_to_find: Ask security/compliance team or check trust center page
   mountain_element: chosen_peak
+- question: What is the current profitability status (2024-2025)?
+  why_important: Financial stability impacts financial_anxiety drain severity
+  how_to_find: Ask during interview or check latest financial reports
+  mountain_element: mountain_range
+- question: What percentage of engineering team was affected by February 2025 layoffs?
+  why_important: Determines severity of interpersonal_conflict drain from departures
+  how_to_find: Ask current employees or hiring manager
+  mountain_element: rope_team_confidence
+- question: What is the meeting culture like for platform/infrastructure engineers?
+  why_important: Need to verify meeting_intensity_tolerance threshold (max 30%, ideal
+    20%)
+  how_to_find: Ask during interview about typical weekly schedule
+  mountain_element: daily_climb
+- question: What is the current profitability status (2024-2025)?
+  why_important: Financial stability impacts financial_anxiety drain severity
+  how_to_find: Ask during interview or check latest financial reports
+  mountain_element: mountain_range
+- question: What percentage of engineering team was affected by February 2025 layoffs?
+  why_important: Determines severity of interpersonal_conflict drain from departures
+  how_to_find: Ask current employees or hiring manager
+  mountain_element: rope_team_confidence
+- question: What is the meeting culture like for platform/infrastructure engineers?
+  why_important: Need to verify meeting_intensity_tolerance threshold (max 30%, ideal
+    20%)
+  how_to_find: Ask during interview about typical weekly schedule
+  mountain_element: daily_climb
+- question: What is the current profitability status (2024-2025)?
+  why_important: Financial stability impacts financial_anxiety drain severity
+  how_to_find: Ask during interview or check latest financial reports
+  mountain_element: mountain_range
+- question: What percentage of engineering team was affected by February 2025 layoffs?
+  why_important: Determines severity of interpersonal_conflict drain from departures
+  how_to_find: Ask current employees or hiring manager
+  mountain_element: rope_team_confidence
+- question: What is the meeting culture like for platform/infrastructure engineers?
+  why_important: Need to verify meeting_intensity_tolerance threshold (max 30%, ideal
+    20%)
+  how_to_find: Ask during interview about typical weekly schedule
+  mountain_element: daily_climb
+- question: What is the current profitability status (2024-2025)?
+  why_important: Financial stability impacts financial_anxiety drain severity
+  how_to_find: Ask during interview or check latest financial reports
+  mountain_element: mountain_range
+- question: What percentage of engineering team was affected by February 2025 layoffs?
+  why_important: Determines severity of interpersonal_conflict drain from departures
+  how_to_find: Ask current employees or hiring manager
+  mountain_element: rope_team_confidence
+- question: What is the meeting culture like for platform/infrastructure engineers?
+  why_important: Need to verify meeting_intensity_tolerance threshold (max 30%, ideal
+    20%)
+  how_to_find: Ask during interview about typical weekly schedule
+  mountain_element: daily_climb
 company_slug: seatgeek
+synthesis:
+  energy_matrix:
+    moare_percentage: 75
+    sparingly_percentage: 25
+    burnout_percentage: 0
+    help_mentoring_percentage: 0
+    meets_thresholds: true
+    energy_sustainability: HIGH
+    sustainability_reasoning: 75% moare work leveraging core strengths with energizing
+      conditions. 25% sparingly work using expertise at energy cost. 0% burnout work
+      requiring learning under draining conditions. Meets both thresholds (≥60% moare,
+      ≤20% burnout) for sustainable 25+ year career pace.
+    key_energy_insights:
+    - 75% moare work leverages core strengths with energizing conditions
+    - 25% sparingly work uses expertise but exposes to energy drains
+    energy_concerns: []
+    quadrant_breakdown:
+      moare:
+        count: 24
+        percentage: 75
+        key_examples:
+        - Well-funded with $398M raised total and $1B+ valuation from Series E in
+          2022
+        - 300 enterprise clients including major sports teams (NFL, MLB partnerships)
+      sparingly:
+        count: 8
+        percentage: 25
+        key_examples:
+        - Founder-led with CEO tenure of 16 years since 2009 founding
+        - IPO filed April 2023, expected end of 2024, still not executed as of October
+          2025
+      burnout:
+        count: 0
+        percentage: 0
+        key_examples: []
+      help_mentoring:
+        count: 0
+        percentage: 0
+        key_examples: []
+  energy_matrix_analysis:
+    profile_version_used: '1.0'
+    predicted_daily_distribution:
+      moare_green_flags:
+        percentage: 80.0
+        tasks_count: 32
+      sparingly_yellow_flags:
+        percentage: 5.7
+        tasks_count: 4
+      burnout_red_flags:
+        percentage: 14.3
+        tasks_count: 12
+      help_mentoring_yellow_flags:
+        percentage: 0.0
+        tasks_count: 0
+    threshold_analysis:
+      meets_green_minimum: true
+      exceeds_red_maximum: false
+      exceeds_yellow_maximum: false
+    energy_sustainability: HIGH
+    key_insights: []
+    decision_factors: []
+profile_version_used: '1.0'

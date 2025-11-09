@@ -1,5 +1,5 @@
 company: intercom
-evaluation_date: '2025-10-18'
+evaluation_date: '2025-11-09'
 evaluator_context: Extracted from conversation notes
 green_flags:
   mountain_range:
@@ -12,6 +12,125 @@ green_flags:
         Lee (Chief Engineer)'
       impact: Founder-led with long-term commitment and product vision
       confidence: High - Intercom About page
+    - flag: Cash flow positive with $343M revenue (25% YoY growth) and 80% gross margins
+      impact: Financial stability eliminates survival anxiety, enables long-term technical
+        investments
+      confidence: High - Multiple sources (Sacra, Getlatka) confirm profitability
+        since late 2023
+      task_implications:
+      - task: Build AI-powered customer service infrastructure (Fin AI Agent) processing
+          1M+ tickets/week
+        time_estimate_pct: 35%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: low
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_glue_work: false
+          uses_infrastructure_automation: true
+          uses_decision_frameworks: true
+          collaboration_type: team
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: moderate
+        notes: Profitability eliminates financial_anxiety drain. Clear AI-first vision
+          provides aligned_collaboration generator. Infrastructure work at scale uses
+          all core expert strengths.
+        energy_matrix_quadrant: moare
+    - flag: AI-first platform with proprietary Fin AI Engine (patented architecture)
+        achieving 51% resolution rate
+      impact: Cutting-edge technical challenges aligned with tool building and systems
+        thinking strengths
+      confidence: High - Committed $100M to AI replatforming, launched Fin in March
+        2023
+      task_implications:
+      - task: Design and scale proprietary ML models (fin-cx-retrieval, fin-cx-reranker)
+          for customer service
+        time_estimate_pct: 25%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: moderate
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_glue_work: false
+          uses_infrastructure_automation: true
+          uses_decision_frameworks: false
+          collaboration_type: paired
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: narrow
+        notes: AI/ML development aligns with growth area (ai_augmented_workflows).
+          Clear product vision provides aligned_collaboration. Some learning required
+          for ML-specific domains.
+        energy_matrix_quadrant: moare
+    - flag: Rails monolith with 2M+ LOC shipping 100+ deploys/day - pragmatic engineering
+        culture
+      impact: Fast iteration cycles with visible progress, values simplicity over
+        complexity
+      confidence: High - Engineering blog explicitly states monolith strategy for
+        shipping speed
+      task_implications:
+      - task: Build platform tooling and automation for 100+ daily deployments on
+          Rails monolith
+        time_estimate_pct: 20%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: none
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_glue_work: true
+          uses_infrastructure_automation: true
+          uses_decision_frameworks: true
+          collaboration_type: solo
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: moderate
+        notes: Perfect match for tool_building core strength and visible_progress
+          generator. Deployment automation in expert wheelhouse.
+        energy_matrix_quadrant: moare
+    - flag: 'Strong product-market fit: 30,000 customers including Amazon, Microsoft,
+        Shopify, 93% using 2.5+ products'
+      impact: Stable customer base reduces pivot risk, enables focused technical execution
+      confidence: High - Customer list verified, strong growth metrics
+      task_implications:
+      - task: Design APIs and SDKs (TypeScript, Ruby, Python, PHP) for 30K+ customer
+          integrations
+        time_estimate_pct: 15%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: none
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_glue_work: false
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: true
+          collaboration_type: paired
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: moderate
+        notes: API/SDK development aligns perfectly with tool_building strength. Clear
+          product direction provides aligned_collaboration generator.
+        energy_matrix_quadrant: moare
     strong_positives: &id002
     - flag: 30K customers including Amazon, Microsoft, Atlassian, Shopify with 600M
         monthly end users
@@ -80,6 +199,35 @@ green_flags:
         employees can sell shares'
       impact: Equity has liquidity options even without IPO
       confidence: High - CEO statement
+    - flag: Hybrid work model (2+ days in office, some fully remote) with offices
+        in SF, Dublin, Chicago, London, Sydney
+      impact: Geographic flexibility with manageable timezone spread, reduces relocation
+        pressure
+      confidence: Medium - Mentioned in blog posts, some remote roles visible
+      task_implications:
+      - task: Collaborate asynchronously across SF/Dublin/London time zones on infrastructure
+          work
+        time_estimate_pct: 5%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: moderate
+          autonomy_level: high
+          decision_speed: moderate
+          learning_required: none
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: true
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: cross_team
+          meeting_intensity: moderate
+          requires_sync_communication: false
+          timezone_spread: moderate
+        notes: Matches async_work_capability (strong) and timezone_flexibility (6
+          hours) from profile. Uses glue_work strength for coordination.
+        energy_matrix_quadrant: sparingly
   chosen_peak:
     critical_matches: *id001
     strong_positives: *id002
@@ -144,6 +292,118 @@ red_flags:
     - flag: Growth reacceleration dependent on AI success - single point of failure
       impact: If AI adoption slows, back to 10% growth or worse
       confidence: Medium - Market dependency
+    - flag: Three layoff rounds (2020, Sept 2022, Nov 2022) totaling 212 employees
+        with ongoing job security concerns
+      impact: Creates interpersonal conflict exposure and financial anxiety despite
+        current profitability
+      confidence: High - Multiple news sources document layoffs, Glassdoor reviews
+        cite job insecurity
+      task_implications:
+      - task: Navigate organizational uncertainty and morale management after layoffs
+        time_estimate_pct: 10%
+        characteristics:
+          conflict_exposure: moderate
+          alignment_clarity: moderate
+          authority_ambiguity: moderate
+          progress_visibility: low
+          autonomy_level: low
+          decision_speed: slow
+          learning_required: none
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: true
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: moderate
+          requires_sync_communication: true
+          timezone_spread: moderate
+        notes: Triggers financial_anxiety (moderate drain) and potential interpersonal_conflict
+          (severe drain). Layoff history creates latent anxiety.
+        energy_matrix_quadrant: sparingly
+    - flag: 'CEO transition turbulence: McCabe → Karen Peacock (2020) → McCabe returns
+        (2022)'
+      impact: Leadership instability signals potential authority ambiguity and strategic
+        uncertainty
+      confidence: High - Leadership changes documented in multiple sources
+      task_implications:
+      - task: Adapt to leadership direction changes and potential org restructuring
+        time_estimate_pct: 8%
+        characteristics:
+          conflict_exposure: moderate
+          alignment_clarity: moderate
+          authority_ambiguity: moderate
+          progress_visibility: low
+          autonomy_level: moderate
+          decision_speed: slow
+          learning_required: none
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: true
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: cross_team
+          meeting_intensity: moderate
+          requires_sync_communication: true
+          timezone_spread: moderate
+        notes: Triggers authority_ambiguity (moderate drain) and misalignment (severe
+          drain) concerns. Leadership changes create circular motion vs forward progress.
+        energy_matrix_quadrant: sparingly
+    - flag: Customer Support org has particularly negative sentiment (Blind discussions)
+      impact: Organizational silos could create cross-team conflict and misalignment
+      confidence: Medium - Blind discussions are anecdotal but show consistent pattern
+      task_implications:
+      - task: Navigate cross-functional work with Customer Support org during AI transformation
+        time_estimate_pct: 7%
+        characteristics:
+          conflict_exposure: moderate
+          alignment_clarity: moderate
+          authority_ambiguity: low
+          progress_visibility: moderate
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: none
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: true
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: true
+          collaboration_type: cross_team
+          meeting_intensity: moderate
+          requires_sync_communication: true
+          timezone_spread: moderate
+        notes: Risk of interpersonal_conflict (severe drain) if working across org
+          boundaries. AI automation may threaten Support org.
+        energy_matrix_quadrant: sparingly
+    - flag: Low engineering blog activity (7 posts in 2 years) suggests limited external
+        knowledge sharing culture
+      impact: Reduced learning community and external visibility opportunities
+      confidence: Medium - Observable from public blog, may have internal knowledge
+        sharing
+      task_implications:
+      - task: Build internal knowledge base and documentation without external community
+          engagement
+        time_estimate_pct: 5%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: moderate
+          authority_ambiguity: low
+          progress_visibility: moderate
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: none
+          uses_systems_thinking: false
+          uses_tool_building: true
+          uses_glue_work: false
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: solo
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: narrow
+        notes: Minor concern - limits story_worth_telling aspect. Internal documentation
+          still uses tool_building strength.
+        energy_matrix_quadrant: moare
   chosen_peak:
     dealbreakers: *id003
     concerning: *id004
@@ -196,4 +456,41 @@ missing_critical_data:
     users
   how_to_find: Ask engineering manager about on-call rotation and incident load
   mountain_element: daily_climb
+- mountain_element: rope_team_confidence
+  question: What is the actual Engineering team culture and Product/R&D vs Support
+    org divide?
+  why_important: Blind mentions Support org negativity while Product/R&D is better
+    - need to understand if Engineering roles isolated from organizational tension
+  how_to_find: Insider interviews with current engineers, ask about cross-functional
+    work and org dynamics
+- mountain_element: chosen_peak
+  question: How stable is the current AI-first strategy and $100M investment commitment?
+  why_important: Recent pivot to AI could be sustainable transformation or executive
+    theater - affects alignment_clarity
+  how_to_find: Track AI feature adoption metrics, revenue attribution, ask engineers
+    about cancelled vs delivered AI projects
 company_slug: intercom
+profile_version_used: '1.0'
+synthesis:
+  energy_matrix_analysis:
+    profile_version_used: '1.0'
+    predicted_daily_distribution:
+      moare_green_flags:
+        percentage: 76.9
+        tasks_count: 25
+      sparingly_yellow_flags:
+        percentage: 23.1
+        tasks_count: 20
+      burnout_red_flags:
+        percentage: 0.0
+        tasks_count: 0
+      help_mentoring_yellow_flags:
+        percentage: 0.0
+        tasks_count: 0
+    threshold_analysis:
+      meets_green_minimum: true
+      exceeds_red_maximum: false
+      exceeds_yellow_maximum: false
+    energy_sustainability: HIGH
+    key_insights: []
+    decision_factors: []

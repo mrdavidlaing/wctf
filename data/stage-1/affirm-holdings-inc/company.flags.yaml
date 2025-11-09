@@ -1,6 +1,6 @@
 company: Affirm Holdings Inc.
 company_slug: affirm-holdings-inc
-evaluation_date: '2025-10-18'
+evaluation_date: '2025-11-09'
 evaluator_context: Senior Staff Engineer with 15+ years experience, seeking remote-first
   fintech role with strong technical culture, modern data infrastructure (especially
   ML/AI at scale), and meaningful mission. Values technical excellence, work-life
@@ -18,6 +18,56 @@ green_flags:
       impact: Market leader position with strong competitive moat in growing industry
         - job security and impact
       confidence: High - multiple investor sources, Wikipedia
+    - flag: First profitable fiscal year FY2025 with $52.2M net income after years
+        of losses
+      impact: Demonstrates path to sustainability, reduces existential risk and layoff
+        probability
+      confidence: High - SEC filing data, explicit statement
+      task_implications:
+      - task: Build on proven business model rather than pivot/scramble
+        time_estimate_pct: 55%
+        characteristics:
+          conflict_exposure: moderate
+          alignment_clarity: moderate
+          authority_ambiguity: moderate
+          progress_visibility: high
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: moderate
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_infrastructure_automation: true
+          uses_glue_work: false
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: moderate
+          requires_sync_communication: false
+          timezone_spread: narrow
+        notes: Primary productive work on scaling infrastructure for profitable growth
+    - flag: 'Strong revenue growth: 38.8% YoY (FY2025 TTM $3.224B), 47% in Q2 FY2025'
+      impact: Growing business creates engineering opportunities, not cutback mode
+      confidence: High - SEC filings, explicit statement
+      task_implications:
+      - task: Scale systems for growth (included in 55% above)
+        time_estimate_pct: 0%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: low
+          uses_systems_thinking: true
+          uses_infrastructure_automation: true
+          uses_tool_building: true
+          uses_glue_work: false
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: narrow
+        notes: Covered in primary productive work allocation
     strong_positives:
     - flag: 'Blue-chip partnerships expanding: Amazon (25% GMV), Shopify exclusive
         international expansion, Apple Pay integration, JPMorgan Chase, Costco'
@@ -34,6 +84,30 @@ green_flags:
       impact: Mission-aligned business model with consumer-friendly approach - meaningful
         work building honest financial products
       confidence: High - Affirm press releases comparing to Klarna
+    - flag: 23.0M active consumers (up 24% YoY), 377K active merchants (up 24% YoY)
+        - sixth consecutive quarter of accelerating growth
+      impact: Real customer traction, not vaporware or POC theater
+      confidence: High - shareholder letter Q4 FY2025
+      task_implications:
+      - task: Support real customer scale (included in 55% above)
+        time_estimate_pct: 0%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: low
+          uses_systems_thinking: true
+          uses_infrastructure_automation: true
+          uses_tool_building: false
+          uses_glue_work: false
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: narrow
   chosen_peak:
     critical_matches:
     - flag: 'AI-first company founded by four computer scientists with production
@@ -53,6 +127,31 @@ green_flags:
         (scikit-learn, pandas, xgboost, pytorch) with online learning
       impact: Modern, pragmatic tech stack aligned with industry best practices
       confidence: High - job postings, StackShare, GitHub
+    - flag: AI-first from founding - 'founded by four computer scientists, AI-driven
+        from inception' per CEO
+      impact: Matches growth area interest in AI-augmented workflows, core to business
+        not bolt-on
+      confidence: High - CEO quote, Yahoo Finance interview
+      task_implications:
+      - task: Build AI-augmented infrastructure and tooling (included in 55% above)
+        time_estimate_pct: 0%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: moderate
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_infrastructure_automation: true
+          uses_glue_work: false
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: narrow
     strong_positives:
     - flag: Active engineering blog (5 posts in 2024) with Distinguished Engineer
         bylines on technical deep dives (60% database latency reduction, Apache Iceberg
@@ -81,6 +180,54 @@ green_flags:
         2025) and President doing technical podcast about BNPL infrastructure
       impact: Technical leadership visible and engaged in external technical community
       confidence: High - SiliconANGLE, theCUBE interview, podcast
+    - flag: 'Modern infrastructure stack: Python/Kotlin, AWS, Kubernetes, Apache Iceberg,
+        Snowflake'
+      impact: Aligns with infrastructure automation expertise, proven modern toolchain
+      confidence: High - job postings, tech blog, conference presentations
+      task_implications:
+      - task: Platform engineering work on modern stack (included in 55% above)
+        time_estimate_pct: 0%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: low
+          uses_systems_thinking: true
+          uses_infrastructure_automation: true
+          uses_tool_building: true
+          uses_glue_work: false
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: narrow
+    - flag: Active engineering blog (tech.affirm.com) - 5 posts in 2024, quality technical
+        content on scaling databases, Apache Iceberg
+      impact: Evidence of technical investment and knowledge sharing culture
+      confidence: High - Medium blog, explicit posts
+      task_implications:
+      - task: Knowledge sharing and technical writing (included in productive work)
+        time_estimate_pct: 0%
+        characteristics:
+          conflict_exposure: none
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: moderate
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: low
+          uses_systems_thinking: true
+          uses_tool_building: false
+          uses_glue_work: true
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: solo
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: co_located
   rope_team_confidence:
     critical_matches:
     - flag: Founder CEO Max Levchin (PayPal co-founder) with 13+ years tenure, stable
@@ -89,6 +236,30 @@ green_flags:
       impact: Experienced fintech leadership with long tenure - strategic continuity
         and deep domain expertise
       confidence: High - investor relations pages
+    - flag: Founder CEO (Max Levchin, PayPal co-founder) with 13+ years tenure since
+        2012
+      impact: Leadership stability reduces reorg churn, proven track record
+      confidence: High - investor relations, Wikipedia
+      task_implications:
+      - task: Work under stable strategic direction (reduces overhead)
+        time_estimate_pct: 0%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: none
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: false
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: narrow
     strong_positives:
     - flag: Great Place to Work certified (April 2025-2026) with 94% employees saying
         great place to work vs 57% typical US company
@@ -103,6 +274,55 @@ green_flags:
         restructuring, no layoffs since Feb 2024
       impact: Company past restructuring phase and in growth mode - hiring stability
       confidence: High - SEC 10-K filings, MacroTrends
+    - flag: President (Libor Michalek) ~10 years tenure, stable senior leadership
+        team
+      impact: Continuity in technical and operational direction reduces thrash
+      confidence: High - investor relations, explicit dates
+      task_implications:
+      - task: Build on established patterns (reduces relearning)
+        time_estimate_pct: 0%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: moderate
+          authority_ambiguity: moderate
+          progress_visibility: moderate
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: low
+          uses_systems_thinking: true
+          uses_infrastructure_automation: true
+          uses_tool_building: false
+          uses_glue_work: false
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: moderate
+          requires_sync_communication: false
+          timezone_spread: narrow
+    - flag: Great Place to Work Certification (April 2025-2026) - 94% say great place
+        to work vs 57% typical US company
+      impact: Despite Glassdoor complaints, certified positive employee experience
+        suggests issues may be isolated
+      confidence: Medium - certification process, but conflicts with Glassdoor 3.7/5
+      task_implications:
+      - task: Navigate mixed culture signals (requires caution)
+        time_estimate_pct: 0%
+        characteristics:
+          conflict_exposure: moderate
+          alignment_clarity: moderate
+          authority_ambiguity: moderate
+          progress_visibility: moderate
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: none
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: true
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: true
+          collaboration_type: team
+          meeting_intensity: moderate
+          requires_sync_communication: true
+          timezone_spread: narrow
   daily_climb:
     critical_matches:
     - flag: Remote-first company with COO stating 'We have not looked back since committing
@@ -122,6 +342,31 @@ green_flags:
       impact: Exceptional work-life balance benefits - company invests in employee
         wellbeing
       confidence: High - careers page, job postings
+    - flag: Remote-first company - 'would be very difficult to go back' per COO, employees
+        can work anywhere in home country
+      impact: Eliminates commute, timezone flexibility (UK/Poland offices), matches
+        preference
+      confidence: High - COO quote, careers page, flexjobs listing
+      task_implications:
+      - task: Remote async collaboration (natural fit)
+        time_estimate_pct: 0%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: none
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: false
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: moderate
     strong_positives:
     - flag: 'Base salary ranges publicly posted: ML Engineer II $142K-$192K (most
         states), $160K-$210K (high cost areas)'
@@ -138,6 +383,76 @@ green_flags:
     - flag: Direct mentorship program for early career engineers
       impact: Investment in growing engineers and knowledge sharing culture
       confidence: Medium - job postings
+    - flag: Compensation & Benefits rated 4.4/5 - highest category on Glassdoor
+      impact: Above-market comp eliminates financial anxiety energy drain
+      confidence: High - 576-610 Glassdoor reviews
+      task_implications:
+      - task: Focus on work not job hunting (reduces overhead)
+        time_estimate_pct: 0%
+        characteristics:
+          conflict_exposure: none
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: none
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: false
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: solo
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: co_located
+    - flag: 18 weeks paid parental leave (birth + non-birth), 100% subsidized medical,
+        20-25 Away Days/year
+      impact: Strong benefits package supports work-life sustainability
+      confidence: High - careers page, job postings
+      task_implications:
+      - task: Sustainable work practices (benefit utilization)
+        time_estimate_pct: 0%
+        characteristics:
+          conflict_exposure: none
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: moderate
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: none
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: false
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: solo
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: co_located
+    - flag: Work-Life Balance rated 3.7/5 on Glassdoor
+      impact: Decent balance supports sustainable daily climb, though not exceptional
+      confidence: High - Glassdoor aggregate
+      task_implications:
+      - task: Manage sustainable pace (requires boundary setting)
+        time_estimate_pct: 0%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: moderate
+          authority_ambiguity: low
+          progress_visibility: moderate
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: low
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: false
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: true
+          collaboration_type: solo
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: co_located
   story_worth_telling:
     critical_matches:
     - flag: Working on production ML systems making tens of thousands of credit decisions
@@ -164,6 +479,79 @@ green_flags:
         technical work and presenting at conferences
       impact: Can advance as IC without going into management
       confidence: High - career framework blog, conference presentations
+    - flag: Production AI/ML at scale - 2/3 customer inquiries via AI chatbots, Adapt
+        AI 5% GMV uplift, AI-driven underwriting 95% repeat transactions
+      impact: Real AI deployment experience, not theoretical, matches growth area
+        in AI-augmented workflows
+      confidence: High - CEO interview, earnings analysis
+      task_implications:
+      - task: Build production AI systems (included in 55% productive work)
+        time_estimate_pct: 0%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: moderate
+          learning_required: moderate
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_infrastructure_automation: true
+          uses_glue_work: false
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: moderate
+          requires_sync_communication: false
+          timezone_spread: narrow
+    - flag: Fintech scale challenges - $36.7B GMV, 23M consumers, real-time fraud/credit
+        decisions
+      impact: Resume-worthy scaling problems, financial systems complexity
+      confidence: High - SEC filings, shareholder letters
+      task_implications:
+      - task: Solve large-scale infrastructure problems (included in productive work)
+        time_estimate_pct: 0%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: moderate
+          uses_systems_thinking: true
+          uses_infrastructure_automation: true
+          uses_tool_building: true
+          uses_glue_work: false
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: moderate
+          requires_sync_communication: false
+          timezone_spread: narrow
+    - flag: Open source contributions - 113 public GitHub repos, Shparkley (Spark
+        Shapley Values), mobile SDKs
+      impact: Technical reputation building through open source work
+      confidence: High - GitHub profile
+      task_implications:
+      - task: Open source contributions (occasional, low percentage)
+        time_estimate_pct: 0%
+        characteristics:
+          conflict_exposure: none
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: low
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_infrastructure_automation: false
+          uses_glue_work: false
+          uses_decision_frameworks: false
+          collaboration_type: solo
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: wide
 red_flags:
   mountain_range:
     dealbreakers: []
@@ -182,6 +570,83 @@ red_flags:
       impact: Product experience issues could indicate systemic problems or create
         existential business risk
       confidence: High - Trustpilot direct
+    - flag: High merchant concentration risk - Top 5 merchants = 51% GMV, Amazon alone
+        = 25%
+      impact: Single merchant loss could significantly impact business, creates anxiety
+        about partnership stability
+      confidence: High - TradingView, Globe and Mail reporting
+      task_implications:
+      - task: Monitor partnership health and diversification efforts
+        time_estimate_pct: 5%
+        characteristics:
+          conflict_exposure: moderate
+          alignment_clarity: moderate
+          authority_ambiguity: moderate
+          progress_visibility: low
+          autonomy_level: low
+          decision_speed: slow
+          learning_required: moderate
+          uses_systems_thinking: true
+          uses_tool_building: false
+          uses_glue_work: true
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: cross_team
+          meeting_intensity: moderate
+          requires_sync_communication: true
+          timezone_spread: narrow
+        notes: Business risk creates background anxiety, requires strategic awareness
+    - flag: Lost Walmart exclusivity to Klarna (March 2025), Walmart was ~5% of GMV
+      impact: Demonstrates competitive pressure, though offset by new partnerships
+        (JPMorgan, Costco)
+      confidence: High - Payments Dive, Wikipedia
+      task_implications:
+      - task: Support partnership pivots and new integrations
+        time_estimate_pct: 0%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: moderate
+          authority_ambiguity: moderate
+          progress_visibility: moderate
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: moderate
+          uses_systems_thinking: true
+          uses_infrastructure_automation: true
+          uses_tool_building: false
+          uses_glue_work: false
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: moderate
+          requires_sync_communication: false
+          timezone_spread: narrow
+        notes: Included in primary productive work, not separate overhead
+    - flag: Poor customer reviews - 2.4/5 Trustpilot (Poor rating) from 7,000+ reviews
+        despite A+ BBB rating
+      impact: Product quality concerns or customer expectations mismatch, potential
+        reputational risk
+      confidence: High - Trustpilot aggregate, US News review
+      task_implications:
+      - task: Address customer pain points through technical improvements
+        time_estimate_pct: 0%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: moderate
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: low
+          uses_systems_thinking: true
+          uses_infrastructure_automation: true
+          uses_tool_building: false
+          uses_glue_work: false
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: moderate
+          requires_sync_communication: false
+          timezone_spread: narrow
+        notes: Product improvement work, part of normal engineering
   chosen_peak:
     dealbreakers: []
     concerning:
@@ -200,6 +665,31 @@ red_flags:
       impact: May not evaluate real engineering skills effectively - standard big
         tech interview process
       confidence: Medium - Glassdoor, InterviewPal reviews
+    - flag: No current CTO - Libor Michalek transitioned from CTO to President with
+        no replacement announced
+      impact: Potential gap in technical leadership, unclear who sets technical strategy
+      confidence: Medium - implied from investor relations org chart
+      task_implications:
+      - task: Navigate unclear technical authority and strategy ownership
+        time_estimate_pct: 5%
+        characteristics:
+          conflict_exposure: moderate
+          alignment_clarity: low
+          authority_ambiguity: high
+          progress_visibility: low
+          autonomy_level: moderate
+          decision_speed: slow
+          learning_required: low
+          uses_systems_thinking: true
+          uses_tool_building: false
+          uses_glue_work: true
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: true
+          collaboration_type: cross_team
+          meeting_intensity: moderate
+          requires_sync_communication: true
+          timezone_spread: narrow
+        notes: Authority ambiguity drain - who owns technical direction?
   rope_team_confidence:
     dealbreakers: []
     concerning:
@@ -220,6 +710,84 @@ red_flags:
     - flag: Exited cryptocurrency business March 2023 to deemphasize uncertain revenue
       impact: Strategic pivots may indicate lack of clear direction or wasteful investments
       confidence: High - americanbanker.com
+    - flag: Two rounds of layoffs - 19% (Feb 2023) + 6% (Feb 2024) = 640 employees
+        cut, 24% of peak workforce
+      impact: Layoff anxiety energy drain, trust damage, though employee count rebounded
+        10% in FY2025
+      confidence: High - CNBC, Payments Dive reporting, SEC filings
+      task_implications:
+      - task: Manage layoff anxiety and survivor guilt
+        time_estimate_pct: 10%
+        characteristics:
+          conflict_exposure: moderate
+          alignment_clarity: moderate
+          authority_ambiguity: low
+          progress_visibility: low
+          autonomy_level: low
+          decision_speed: slow
+          learning_required: none
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: false
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: solo
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: co_located
+        notes: 2 layoffs in 2 years = 10-15% overhead per guidance
+    - flag: Consistent employee complaints about internal politics and toxic VP culture
+        - 'lots of interoffice politics,' 'VPs creating toxic culture'
+      impact: SEVERE ENERGY DRAIN - interpersonal conflict exposure, especially witnessing
+        conflicts between leaders (childhood trauma trigger)
+      confidence: High - multiple Glassdoor reviews 2023-2025
+      task_implications:
+      - task: Navigate toxic political dynamics and leadership conflicts
+        time_estimate_pct: 15%
+        characteristics:
+          conflict_exposure: high
+          alignment_clarity: low
+          authority_ambiguity: high
+          progress_visibility: low
+          autonomy_level: low
+          decision_speed: slow
+          learning_required: none
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: false
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: cross_team
+          meeting_intensity: high
+          requires_sync_communication: true
+          timezone_spread: narrow
+        notes: CRITICAL RED FLAG - directly triggers profile's 'severe' interpersonal
+          conflict drain, particularly witnessing conflicts between VPs/leaders
+    - flag: Moderate employee sentiment - 3.7/5 Glassdoor, only 64-65% would recommend
+      impact: Mixed signals about culture health, suggests significant dissatisfaction
+        subset
+      confidence: High - 576-610 Glassdoor reviews
+      task_implications:
+      - task: Navigate mixed culture and build support network
+        time_estimate_pct: 0%
+        characteristics:
+          conflict_exposure: moderate
+          alignment_clarity: moderate
+          authority_ambiguity: moderate
+          progress_visibility: moderate
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: low
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: true
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: moderate
+          requires_sync_communication: true
+          timezone_spread: narrow
+        notes: Included in political navigation overhead, not separate
   daily_climb:
     dealbreakers: []
     concerning:
@@ -236,6 +804,56 @@ red_flags:
         pressure
       impact: WLB may be getting worse as company pushes for profitability
       confidence: Medium - Glassdoor reviews 2023-2025
+    - flag: Career opportunities rated 3.5/5 - lowest category, 'limited career growth'
+        complaint
+      impact: Potential for stagnation, may need external moves for advancement
+      confidence: High - Glassdoor category rating, review themes
+      task_implications:
+      - task: Proactively manage career development and external visibility
+        time_estimate_pct: 5%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: moderate
+          authority_ambiguity: moderate
+          progress_visibility: moderate
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: low
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: false
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: true
+          collaboration_type: solo
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: co_located
+        notes: Career management overhead, networking, conference talks, etc.
+    - flag: Work-life balance deteriorating per reviews - though rated 3.7/5, concerning
+        trend
+      impact: Risk of burnout if balance degrades, requires active boundary management
+      confidence: Medium - review mentions but aggregate still decent
+      task_implications:
+      - task: Actively maintain work-life boundaries
+        time_estimate_pct: 0%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: moderate
+          authority_ambiguity: low
+          progress_visibility: moderate
+          autonomy_level: high
+          decision_speed: moderate
+          learning_required: low
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: false
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: true
+          collaboration_type: solo
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: co_located
+        notes: Personal practice, not org overhead
   story_worth_telling:
     dealbreakers: []
     concerning:
@@ -335,6 +953,64 @@ missing_critical_data:
   how_to_find: 'Research: Check NASDAQ:AFRM current price, compare to IPO price ($49),
     look at historical performance. Ask: ''What is the equity story and growth potential?'''
   mountain_element: daily_climb
+- question: What is the specific nature of the 'toxic VP culture' and internal politics?
+    Which VPs/orgs are involved?
+  why_important: CRITICAL for evaluating interpersonal conflict exposure - this is
+    a SEVERE energy drain trigger. Need to understand if this affects platform/infrastructure
+    org or isolated to other areas.
+  how_to_find: Insider interviews with current/former engineers, specific questions
+    about leadership dynamics, which VPs have reputation issues, whether conflict
+    is witnessed in meetings/all-hands
+  mountain_element: rope_team_confidence
+- question: What is the actual meeting load percentage for platform/infrastructure
+    engineers? How much maker time vs meeting time?
+  why_important: Need to validate whether remote-first actually means async-friendly
+    or just Zoom-heavy sync culture. Meeting intensity >30% is incompatible with profile.
+  how_to_find: Insider interviews asking about typical week structure, calendar analysis,
+    team norms around sync vs async
+  mountain_element: daily_climb
+- question: How does the lack of CTO actually manifest? Who owns technical strategy
+    and architecture decisions?
+  why_important: Authority ambiguity creates latent conflict (moderate energy drain).
+    Need to understand if this creates decision paralysis or empowers VPs/teams.
+  how_to_find: Insider interviews about technical decision-making process, who has
+    final say on architecture, how technical direction is set
+  mountain_element: chosen_peak
+- question: What coordination style does the platform/infrastructure team actually
+    use? Alpine, expedition, established route, orienteering, trail crew?
+  why_important: Need to assess whether team coordination matches terrain demands.
+    Mismatch patterns create severe energy drain.
+  how_to_find: 'Insider interviews asking about: decision autonomy, communication
+    patterns (sync/async), planning cadence, how direction changes are handled, team
+    tenure/shared context'
+  mountain_element: chosen_peak
+- question: How has the company culture changed post-layoffs? Is there visible rebuilding
+    of trust or ongoing survivor anxiety?
+  why_important: Two layoffs could mean either 'necessary correction, now stable'
+    or 'ongoing uncertainty.' Big difference in energy drain.
+  how_to_find: Insider interviews about morale, leadership messaging, whether hiring
+    is aggressive or cautious, how survivors discuss the layoffs
+  mountain_element: rope_team_confidence
+- question: What is the actual comp range for Staff/Senior Staff infrastructure engineers
+    in 2025?
+  why_important: 4.4/5 benefits rating suggests above-market, but need numbers to
+    eliminate financial anxiety drain. Market is ~$200K-$280K base for Staff in fintech.
+  how_to_find: levels.fyi, insider interviews, job postings with ranges (CA required
+    by law)
+  mountain_element: daily_climb
+- question: What is the relationship between SVP of Engineering (Geddes Munson) and
+    President (Libor Michalek)? Who actually runs engineering day-to-day?
+  why_important: Authority clarity - unclear reporting structure creates ambiguity
+    drain
+  how_to_find: Org chart from insider, LinkedIn research on reporting structure
+  mountain_element: rope_team_confidence
+- question: How did the Amazon partnership concentration get so high (25% GMV)? Is
+    there active diversification strategy?
+  why_important: Risk management - losing Amazon would be catastrophic. Need to know
+    if leadership is taking this seriously.
+  how_to_find: Insider interviews about strategic priorities, investor calls discussing
+    diversification
+  mountain_element: mountain_range
 synthesis:
   mountain_worth_climbing: MAYBE
   sustainability_confidence: MEDIUM

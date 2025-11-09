@@ -1,0 +1,77 @@
+{
+  "batch_number": 1,
+  "total_batches": 4,
+  "companies_in_batch": 10,
+  "companies": [
+    {
+      "name": "0xide",
+      "stage": "stage-1",
+      "company_dir": "data/stage-1/0xide",
+      "flags_path": "data/stage-1/0xide/company.flags.yaml",
+      "facts_path": "data/stage-1/0xide/company.facts.yaml"
+    },
+    {
+      "name": "1password",
+      "stage": "stage-1",
+      "company_dir": "data/stage-1/1password",
+      "flags_path": "data/stage-1/1password/company.flags.yaml",
+      "facts_path": "data/stage-1/1password/company.facts.yaml"
+    },
+    {
+      "name": "accenture",
+      "stage": "stage-1",
+      "company_dir": "data/stage-1/accenture",
+      "flags_path": "data/stage-1/accenture/company.flags.yaml",
+      "facts_path": "data/stage-1/accenture/company.facts.yaml"
+    },
+    {
+      "name": "adobe",
+      "stage": "stage-1",
+      "company_dir": "data/stage-1/adobe",
+      "flags_path": "data/stage-1/adobe/company.flags.yaml",
+      "facts_path": "data/stage-1/adobe/company.facts.yaml"
+    },
+    {
+      "name": "affirm-holdings-inc",
+      "stage": "stage-1",
+      "company_dir": "data/stage-1/affirm-holdings-inc",
+      "flags_path": "data/stage-1/affirm-holdings-inc/company.flags.yaml",
+      "facts_path": "data/stage-1/affirm-holdings-inc/company.facts.yaml"
+    },
+    {
+      "name": "airbnb",
+      "stage": "stage-1",
+      "company_dir": "data/stage-1/airbnb",
+      "flags_path": "data/stage-1/airbnb/company.flags.yaml",
+      "facts_path": "data/stage-1/airbnb/company.facts.yaml"
+    },
+    {
+      "name": "anthropic",
+      "stage": "stage-1",
+      "company_dir": "data/stage-1/anthropic",
+      "flags_path": "data/stage-1/anthropic/company.flags.yaml",
+      "facts_path": "data/stage-1/anthropic/company.facts.yaml"
+    },
+    {
+      "name": "canonical",
+      "stage": "stage-1",
+      "company_dir": "data/stage-1/canonical",
+      "flags_path": "data/stage-1/canonical/company.flags.yaml",
+      "facts_path": "data/stage-1/canonical/company.facts.yaml"
+    },
+    {
+      "name": "cato-networks",
+      "stage": "stage-1",
+      "company_dir": "data/stage-1/cato-networks",
+      "flags_path": "data/stage-1/cato-networks/company.flags.yaml",
+      "facts_path": "data/stage-1/cato-networks/company.facts.yaml"
+    },
+    {
+      "name": "circleci",
+      "stage": "stage-1",
+      "company_dir": "data/stage-1/circleci",
+      "flags_path": "data/stage-1/circleci/company.flags.yaml",
+      "facts_path": "data/stage-1/circleci/company.facts.yaml"
+    }
+  ]
+}

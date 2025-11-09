@@ -1,0 +1,371 @@
+company: kaseya
+evaluation_date: '2025-11-09'
+evaluator_context: Extracted from conversation notes
+green_flags:
+  mountain_range:
+    critical_matches:
+    - flag: Large MSP market presence (50K customers, 300M devices managed)
+      impact: Massive scale provides infrastructure/automation challenges
+      confidence: High - Company website, press releases
+      task_implications:
+      - task: Build RMM automation for 300M+ devices across 50K MSPs
+        time_estimate_pct: 25%
+        characteristics:
+          conflict_exposure: moderate
+          alignment_clarity: moderate
+          authority_ambiguity: high
+          progress_visibility: high
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: low
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_glue_work: false
+          uses_infrastructure_automation: true
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: moderate
+          requires_sync_communication: false
+          timezone_spread: moderate
+        notes: Scale work uses expert strengths but authority_ambiguity from C-suite
+          chaos
+        energy_matrix_quadrant: moare
+    - flag: Cooper AI proprietary platform (5yr investment, 250+ automations)
+      impact: Deep automation/AI work aligns with tool_building strength
+      confidence: High - Company blog, product docs
+      task_implications:
+      - task: Extend Cooper AI automation platform (Copilot/Bots/Insights)
+        time_estimate_pct: 20%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: moderate
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: moderate
+          learning_required: moderate
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_glue_work: false
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: narrow
+        notes: AI automation aligns with growth_areas (ai_augmented_workflows)
+        energy_matrix_quadrant: moare
+    - flag: Strong security posture (SOC2, ISO27001, offensive security team)
+      impact: Security-first culture after 2021 ransomware attack
+      confidence: High - Trust Center, post-breach investment
+      task_implications:
+      - task: Build security automation and hardening for MSP platform
+        time_estimate_pct: 15%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: moderate
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_glue_work: false
+          uses_infrastructure_automation: true
+          uses_decision_frameworks: true
+          collaboration_type: team
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: narrow
+        notes: Security engineering uses decision_frameworks strength
+        energy_matrix_quadrant: moare
+    strong_positives:
+    - flag: Remote/distributed engineering (Krakow, Dublin, Bengaluru, Miami)
+      impact: Async-friendly work environment
+      confidence: High - Job postings
+      task_implications:
+      - task: Collaborate across global engineering hubs on platform features
+        time_estimate_pct: 10%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: moderate
+          authority_ambiguity: moderate
+          progress_visibility: moderate
+          autonomy_level: high
+          decision_speed: moderate
+          learning_required: low
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: true
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: cross_team
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: wide
+        notes: Uses glue_work strength, async_work_capability preference
+        energy_matrix_quadrant: sparingly
+    - flag: Agile/DevOps practices (Jenkins, Azure DevOps, Scrum)
+      impact: Modern SDLC enables fast iteration
+      confidence: Medium - Job postings, LinkedIn profiles
+      task_implications:
+      - task: Maintain CI/CD pipelines for multi-product platform
+        time_estimate_pct: 10%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: none
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_glue_work: false
+          uses_infrastructure_automation: true
+          uses_decision_frameworks: false
+          collaboration_type: solo
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: co_located
+        notes: Core infrastructure_automation strength, flow state work
+        energy_matrix_quadrant: moare
+  chosen_peak:
+    critical_matches: []
+    strong_positives: []
+  rope_team_confidence:
+    critical_matches: []
+    strong_positives: []
+  daily_climb:
+    critical_matches: []
+    strong_positives: []
+  story_worth_telling:
+    critical_matches: []
+    strong_positives: []
+red_flags:
+  mountain_range:
+    dealbreakers: []
+    concerning:
+    - flag: 'Complete C-suite overhaul (2024-2025: CEO, CFO, COO, CPO, CRO, CTO)'
+      impact: Severe authority_ambiguity and alignment_clarity drain
+      confidence: High - Press releases, leadership announcements
+      task_implications:
+      - task: Navigate leadership transitions and shifting priorities
+        time_estimate_pct: 15%
+        characteristics:
+          conflict_exposure: high
+          alignment_clarity: low
+          authority_ambiguity: high
+          progress_visibility: low
+          autonomy_level: low
+          decision_speed: slow
+          learning_required: none
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: false
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: cross_team
+          meeting_intensity: high
+          requires_sync_communication: true
+          timezone_spread: moderate
+        notes: Triggers authority_ambiguity (moderate) and misalignment (severe) drains
+          from profile
+        energy_matrix_quadrant: burnout
+    - flag: $3.875B debt load (2.6x ARR) from Datto acquisition
+      impact: Financial anxiety drain, pressure on headcount/comp
+      confidence: High - PitchBook, SEC filings
+      task_implications:
+      - task: Work under financial pressure and potential future cuts
+        time_estimate_pct: 10%
+        characteristics:
+          conflict_exposure: moderate
+          alignment_clarity: moderate
+          authority_ambiguity: low
+          progress_visibility: moderate
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: none
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: false
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: solo
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: co_located
+        notes: Triggers financial_anxiety (moderate) drain from profile
+        energy_matrix_quadrant: burnout
+    - flag: Disputed performance terminations (150-300 in Apr 2024, mostly sales)
+      impact: Scapegoating culture, trust erosion
+      confidence: High - HR Grapevine, employee reports
+      task_implications:
+      - task: Work in environment where terminations may be misrepresented
+        time_estimate_pct: 8%
+        characteristics:
+          conflict_exposure: high
+          alignment_clarity: low
+          authority_ambiguity: moderate
+          progress_visibility: moderate
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: none
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: false
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: moderate
+          requires_sync_communication: false
+          timezone_spread: moderate
+        notes: Deception pattern creates interpersonal_conflict risk (severe drain
+          if witnessed)
+        energy_matrix_quadrant: burnout
+    - flag: Poor customer satisfaction (TrustPilot 1.8/5, slow support, billing issues)
+      impact: Product quality concerns, support burden on engineering
+      confidence: High - TrustPilot, G2, Capterra reviews
+      task_implications:
+      - task: Address technical debt and customer escalations
+        time_estimate_pct: 10%
+        characteristics:
+          conflict_exposure: moderate
+          alignment_clarity: moderate
+          authority_ambiguity: moderate
+          progress_visibility: low
+          autonomy_level: low
+          decision_speed: slow
+          learning_required: moderate
+          uses_systems_thinking: true
+          uses_tool_building: false
+          uses_glue_work: true
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: cross_team
+          meeting_intensity: high
+          requires_sync_communication: true
+          timezone_spread: wide
+        notes: Reactive work reduces visible_progress generator, high meeting_intensity
+        energy_matrix_quadrant: sparingly
+    - flag: Minimal external tech presence (limited OSS, no conference talks)
+      impact: Product-focused culture, not innovation/learning culture
+      confidence: Medium - GitHub analysis, conference searches
+      task_implications:
+      - task: Work in insular engineering culture with limited external engagement
+        time_estimate_pct: 5%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: moderate
+          authority_ambiguity: low
+          progress_visibility: moderate
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: moderate
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: false
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: narrow
+        notes: Reduces learning opportunities, story_worth_telling limited
+        energy_matrix_quadrant: burnout
+    - flag: PE-backed roll-up strategy (17 acquisitions, integration overhead)
+      impact: Integration churn, misalignment across product lines
+      confidence: High - CB Insights, acquisition history
+      task_implications:
+      - task: Integrate acquired products and resolve technical conflicts
+        time_estimate_pct: 12%
+        characteristics:
+          conflict_exposure: high
+          alignment_clarity: low
+          authority_ambiguity: high
+          progress_visibility: low
+          autonomy_level: low
+          decision_speed: slow
+          learning_required: high
+          uses_systems_thinking: true
+          uses_tool_building: false
+          uses_glue_work: true
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: true
+          collaboration_type: cross_team
+          meeting_intensity: high
+          requires_sync_communication: true
+          timezone_spread: wide
+        notes: Triggers misalignment (severe) drain, high meeting_intensity exceeds
+          30% tolerance
+        energy_matrix_quadrant: sparingly
+  chosen_peak:
+    dealbreakers: []
+    concerning: []
+  rope_team_confidence:
+    dealbreakers: []
+    concerning: []
+  daily_climb:
+    dealbreakers: []
+    concerning: []
+  story_worth_telling:
+    dealbreakers: []
+    concerning: []
+missing_critical_data:
+- question: What is current profitability/EBITDA and cash flow situation?
+  why_important: Need to assess actual financial_anxiety vs debt service capacity.
+    Growing revenue but massive debt could mean burn.
+  how_to_find: Request in recruiter screen, check insider interviews, search for analyst
+    reports
+  mountain_element: mountain_range
+- question: How are new C-suite leaders (CTO Pratik Wadher, CRO Anthony Anzevino)
+    actually performing?
+  why_important: Authority_ambiguity severity depends on whether new leaders are stabilizing
+    or adding chaos.
+  how_to_find: Insider interviews with engineers who report up through CTO, check
+    glassdoor reviews post-Sep 2025
+  mountain_element: rope_team_confidence
+- question: What was the real reason for Apr 2024 terminations?
+  why_important: Determines if scapegoating is cultural pattern or isolated incident.
+    Affects interpersonal_conflict risk.
+  how_to_find: Insider interviews with survivors, LinkedIn outreach to terminated
+    employees
+  mountain_element: rope_team_confidence
+- question: How is Cooper AI actually built vs marketed? Is it truly proprietary or
+    repackaged 3rd party?
+  why_important: If vaporware/POC theater, reduces green flag value. If real, validates
+    innovation investment.
+  how_to_find: Technical deep-dive in interviews, request architecture review, check
+    patent filings
+  mountain_element: chosen_peak
+profile_version_used: '1.0'
+company_slug: kaseya
+synthesis:
+  energy_matrix_analysis:
+    profile_version_used: '1.0'
+    predicted_daily_distribution:
+      moare_green_flags:
+        percentage: 50.0
+        tasks_count: 4
+      sparingly_yellow_flags:
+        percentage: 22.9
+        tasks_count: 3
+      burnout_red_flags:
+        percentage: 27.1
+        tasks_count: 4
+      help_mentoring_yellow_flags:
+        percentage: 0.0
+        tasks_count: 0
+    threshold_analysis:
+      meets_green_minimum: false
+      exceeds_red_maximum: true
+      exceeds_yellow_maximum: false
+    energy_sustainability: LOW
+    key_insights:
+    - 50.0% of work in draining quadrants (sparingly + burnout)
+    - 27.1% burnout quadrant work exceeds 20% threshold
+    - Insufficient moare quadrant work (50.0% vs 60% needed)
+    decision_factors:
+    - 'REJECT: 27.1% burnout quadrant exceeds 20% threshold'
+    - 'RED: Only 50.0% moare quadrant (need ≥60%)'

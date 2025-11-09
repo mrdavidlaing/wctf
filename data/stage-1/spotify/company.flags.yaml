@@ -1,113 +1,993 @@
 company: Spotify
 company_slug: spotify
-evaluation_date: '2025-10-17'
+evaluation_date: '2025-11-09'
 evaluator_context: Extracted from conversation notes
 green_flags:
   mountain_range:
     critical_matches: &id001
-    - flag: "First full year profitable in 2024 with \u20AC1.138B net income after\
-        \ years of losses"
+    - flag: First full year profitable in 2024 with €1.138B net income after years
+        of losses
       impact: At 25 years experience, sustainable profitability means no more 'survival
         mode' pivots and protected engineering budgets
       confidence: High - Official Q4 2024 earnings announcement
+      task_characteristics:
+        conflict_exposure: medium
+        alignment_clarity: low
+        authority_ambiguity: medium
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: medium
+        requires_sync_communication: false
+        timezone_spread: medium
+      energy_quadrant: sparingly
+      energy_reasoning: 'Exposes to misalignment drain (severe).
+
+        Uses core strengths from profile.
+
+        Sparingly quadrant: leverages expertise but at energy cost.'
     - flag: Dominant market position at 31.7% global share, double nearest competitor
       impact: Market leader means problems worth solving at scale, not fighting for
         survival in commoditized space
       confidence: High - MIDiA Research Q4 2024 data
+      task_characteristics:
+        conflict_exposure: medium
+        alignment_clarity: medium
+        authority_ambiguity: medium
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: medium
+        requires_sync_communication: false
+        timezone_spread: medium
+      energy_quadrant: moare
+      energy_reasoning: 'Uses core strengths from profile (low learning required).
+
+        Moare quadrant: leverages strength while energizing.'
     - flag: Heavy AI/ML investments with adapted Llama models, AI DJ, AI Playlist
         - processing 500+ trillion events daily
       impact: AI tools are core to product strategy, not just 'under review' - exactly
         what senior engineer values
       confidence: High - Engineering blog, research publications, product releases
+      task_characteristics:
+        conflict_exposure: medium
+        alignment_clarity: medium
+        authority_ambiguity: medium
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: medium
+        requires_sync_communication: false
+        timezone_spread: medium
+      energy_quadrant: moare
+      energy_reasoning: 'Provides tool_building generator (core need).
+
+        Uses tool_building strength (expert).
+
+        Moare quadrant: leverages strength while energizing.'
     - flag: 'Strong open source culture: Backstage (21.5K stars, CNCF), Luigi (18.5K
         stars), 280+ GitHub repos actively maintained'
       impact: Engineering treated as advisors building reusable platforms, not order-takers;
         strong resume value
       confidence: High - Public GitHub data, CNCF listing, October 2025 activity
+      task_characteristics:
+        conflict_exposure: medium
+        alignment_clarity: medium
+        authority_ambiguity: medium
+        progress_visibility: high
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: medium
+        requires_sync_communication: false
+        timezone_spread: medium
+      energy_quadrant: moare
+      energy_reasoning: 'Provides visible_progress generator (core need).
+
+        Uses infrastructure_automation strength (expert).
+
+        Moare quadrant: leverages strength while energizing.'
     - flag: 'Modern stack migrated for performance: Bazel builds (70% faster), GCP/Kubernetes,
         Kafka at massive scale'
       impact: Company invests in engineering efficiency and modernization, not stuck
         on legacy tech with no upgrade path
       confidence: High - Engineering blog posts, tech talks
-    - flag: "Co-CEO transition to insiders with 15+ years tenure (S\xF6derstr\xF6\
-        m CTO, Norstr\xF6m CBO)"
+      task_characteristics:
+        conflict_exposure: medium
+        alignment_clarity: medium
+        authority_ambiguity: medium
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: medium
+        requires_sync_communication: false
+        timezone_spread: medium
+      energy_quadrant: moare
+      energy_reasoning: 'Uses core strengths from profile (low learning required).
+
+        Moare quadrant: leverages strength while energizing.'
+    - flag: Co-CEO transition to insiders with 15+ years tenure (Söderström CTO, Norström
+        CBO)
       impact: Deep continuity and institutional knowledge vs external 'change agent'
         bringing chaos
       confidence: High - Official press release September 2025
+      task_characteristics:
+        conflict_exposure: high
+        alignment_clarity: medium
+        authority_ambiguity: medium
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: medium
+        requires_sync_communication: false
+        timezone_spread: medium
+      energy_quadrant: sparingly
+      energy_reasoning: 'Exposes to interpersonal_conflict drain (severe).
+
+        Uses core strengths from profile.
+
+        Sparingly quadrant: leverages expertise but at energy cost.'
     - flag: Headquarters in Stockholm with 18+ global offices including strong EU/US
         East Coast presence
       impact: Timezone alignment for Dublin location, not forced into Pacific hours
       confidence: High - Official website office listings
+      task_characteristics:
+        conflict_exposure: medium
+        alignment_clarity: medium
+        authority_ambiguity: medium
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: medium
+        requires_sync_communication: false
+        timezone_spread: medium
+      energy_quadrant: moare
+      energy_reasoning: 'Uses core strengths from profile (low learning required).
+
+        Moare quadrant: leverages strength while energizing.'
     - flag: Glassdoor 4.3/5 for work-life balance specifically
       impact: Sustainable pace confirmed by current employees, not just marketing
       confidence: High - Glassdoor reviews 2025
+      task_characteristics:
+        conflict_exposure: medium
+        alignment_clarity: medium
+        authority_ambiguity: medium
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: medium
+        requires_sync_communication: false
+        timezone_spread: medium
+      energy_quadrant: moare
+      energy_reasoning: 'Uses core strengths from profile (low learning required).
+
+        Moare quadrant: leverages strength while energizing.'
     - flag: Working on Backstage, a widely-adopted CNCF project with 1,000+ external
         adopters
       impact: Resume gold - contributing to industry-standard developer platform tools
       confidence: High - CNCF status, GitHub stats, adoption numbers
+      task_characteristics:
+        conflict_exposure: medium
+        alignment_clarity: medium
+        authority_ambiguity: medium
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: medium
+        requires_sync_communication: false
+        timezone_spread: medium
+      energy_quadrant: moare
+      energy_reasoning: 'Provides tool_building generator (core need).
+
+        Uses tool_building strength (expert).
+
+        Moare quadrant: leverages strength while energizing.'
     - flag: 'Massive scale problems: 500+ trillion Kafka events daily, 696M MAU, multi-region
         GCP deployment'
       impact: War stories about real distributed systems challenges at scale, not
         CRUD apps
       confidence: High - Engineering blog, conference talks
+      task_characteristics:
+        conflict_exposure: medium
+        alignment_clarity: medium
+        authority_ambiguity: medium
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: medium
+        requires_sync_communication: false
+        timezone_spread: medium
+      energy_quadrant: moare
+      energy_reasoning: 'Uses systems_thinking strength (expert).
+
+        Moare quadrant: leverages strength while energizing.'
+    - flag: Market leader with 32% global streaming market share, 276M premium subscribers,
+        696M MAU
+      impact: Massive scale infrastructure work with clear product-market fit, eliminates
+        misalignment drain
+      confidence: High - Official earnings announcements Q2 2025
+      task_implications:
+      - task: Build streaming infrastructure handling 696M users and 100M+ songs catalog
+        time_estimate_pct: 30%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: low
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_glue_work: false
+          uses_infrastructure_automation: true
+          uses_decision_frameworks: true
+          collaboration_type: team
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: moderate
+        notes: Strong PMF provides aligned_collaboration generator, scale matches
+          expert strengths
+        energy_matrix_quadrant: moare
+    - flag: 'First full year profitability in 2024: €1.138B net income, €1.4B operating
+        income, 31.5% gross margin'
+      impact: Financial stability achieved, eliminates financial_anxiety drain entirely
+      confidence: High - Variety, official earnings Feb 2025
+      task_implications:
+      - task: Optimize infrastructure costs and margin improvement initiatives
+        time_estimate_pct: 20%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: low
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_glue_work: false
+          uses_infrastructure_automation: true
+          uses_decision_frameworks: true
+          collaboration_type: team
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: moderate
+        notes: Profitability eliminates financial_anxiety drain from profile
+        energy_matrix_quadrant: moare
+    - flag: 'World-class technical culture: Created Backstage (21.5K stars), 280+
+        GitHub repos, active engineering blog with incident reports'
+      impact: Strong engineering culture with visible_progress generator, uses tool_building
+        core strength
+      confidence: High - engineering.atspotify.com, github.com/spotify Oct 2025
+      task_implications:
+      - task: Contribute to open source projects (Backstage, Luigi, Annoy) and engineering
+          blog
+        time_estimate_pct: 15%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: none
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_glue_work: true
+          uses_infrastructure_automation: true
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: moderate
+        notes: Open source work = tool_building core strength + visible_progress generator
+        energy_matrix_quadrant: moare
+    - flag: 'Advanced ML/AI infrastructure: Processing 0.5T+ events daily, AI DJ,
+        Discover Weekly, adapted Llama models'
+      impact: Cutting-edge systems work aligned with systems_thinking and infrastructure_automation
+        strengths
+      confidence: High - research.atspotify.com, Marketing AI Institute 2024
+      task_implications:
+      - task: Build ML infrastructure and recommendation systems at massive scale
+        time_estimate_pct: 25%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: moderate
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_glue_work: false
+          uses_infrastructure_automation: true
+          uses_decision_frameworks: true
+          collaboration_type: team
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: moderate
+        notes: AI/ML aligns with growth area (multi_agent_orchestration, ai_augmented_workflows)
+        energy_matrix_quadrant: moare
+    - flag: Market leader with 32% global streaming market share, 276M premium subscribers,
+        696M MAU
+      impact: Massive scale infrastructure work with clear product-market fit, eliminates
+        misalignment drain
+      confidence: High - Official earnings announcements Q2 2025
+      task_implications:
+      - task: Build streaming infrastructure handling 696M users and 100M+ songs catalog
+        time_estimate_pct: 30%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: low
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_glue_work: false
+          uses_infrastructure_automation: true
+          uses_decision_frameworks: true
+          collaboration_type: team
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: moderate
+        notes: Strong PMF provides aligned_collaboration generator, scale matches
+          expert strengths
+        energy_matrix_quadrant: moare
+    - flag: 'First full year profitability in 2024: €1.138B net income, €1.4B operating
+        income, 31.5% gross margin'
+      impact: Financial stability achieved, eliminates financial_anxiety drain entirely
+      confidence: High - Variety, official earnings Feb 2025
+      task_implications:
+      - task: Optimize infrastructure costs and margin improvement initiatives
+        time_estimate_pct: 20%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: low
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_glue_work: false
+          uses_infrastructure_automation: true
+          uses_decision_frameworks: true
+          collaboration_type: team
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: moderate
+        notes: Profitability eliminates financial_anxiety drain from profile
+        energy_matrix_quadrant: moare
+    - flag: 'World-class technical culture: Created Backstage (21.5K stars), 280+
+        GitHub repos, active engineering blog with incident reports'
+      impact: Strong engineering culture with visible_progress generator, uses tool_building
+        core strength
+      confidence: High - engineering.atspotify.com, github.com/spotify Oct 2025
+      task_implications:
+      - task: Contribute to open source projects (Backstage, Luigi, Annoy) and engineering
+          blog
+        time_estimate_pct: 15%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: none
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_glue_work: true
+          uses_infrastructure_automation: true
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: moderate
+        notes: Open source work = tool_building core strength + visible_progress generator
+        energy_matrix_quadrant: moare
+    - flag: 'Advanced ML/AI infrastructure: Processing 0.5T+ events daily, AI DJ,
+        Discover Weekly, adapted Llama models'
+      impact: Cutting-edge systems work aligned with systems_thinking and infrastructure_automation
+        strengths
+      confidence: High - research.atspotify.com, Marketing AI Institute 2024
+      task_implications:
+      - task: Build ML infrastructure and recommendation systems at massive scale
+        time_estimate_pct: 25%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: moderate
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_glue_work: false
+          uses_infrastructure_automation: true
+          uses_decision_frameworks: true
+          collaboration_type: team
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: moderate
+        notes: AI/ML aligns with growth area (multi_agent_orchestration, ai_augmented_workflows)
+        energy_matrix_quadrant: moare
+    - flag: Market leader with 32% global streaming market share, 276M premium subscribers,
+        696M MAU
+      impact: Massive scale infrastructure work with clear product-market fit, eliminates
+        misalignment drain
+      confidence: High - Official earnings announcements Q2 2025
+      task_implications:
+      - task: Build streaming infrastructure handling 696M users and 100M+ songs catalog
+        time_estimate_pct: 30%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: low
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_glue_work: false
+          uses_infrastructure_automation: true
+          uses_decision_frameworks: true
+          collaboration_type: team
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: moderate
+        notes: Strong PMF provides aligned_collaboration generator, scale matches
+          expert strengths
+        energy_matrix_quadrant: moare
+    - flag: 'First full year profitability in 2024: €1.138B net income, €1.4B operating
+        income, 31.5% gross margin'
+      impact: Financial stability achieved, eliminates financial_anxiety drain entirely
+      confidence: High - Variety, official earnings Feb 2025
+      task_implications:
+      - task: Optimize infrastructure costs and margin improvement initiatives
+        time_estimate_pct: 20%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: low
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_glue_work: false
+          uses_infrastructure_automation: true
+          uses_decision_frameworks: true
+          collaboration_type: team
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: moderate
+        notes: Profitability eliminates financial_anxiety drain from profile
+        energy_matrix_quadrant: moare
+    - flag: 'World-class technical culture: Created Backstage (21.5K stars), 280+
+        GitHub repos, active engineering blog with incident reports'
+      impact: Strong engineering culture with visible_progress generator, uses tool_building
+        core strength
+      confidence: High - engineering.atspotify.com, github.com/spotify Oct 2025
+      task_implications:
+      - task: Contribute to open source projects (Backstage, Luigi, Annoy) and engineering
+          blog
+        time_estimate_pct: 15%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: none
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_glue_work: true
+          uses_infrastructure_automation: true
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: moderate
+        notes: Open source work = tool_building core strength + visible_progress generator
+        energy_matrix_quadrant: moare
+    - flag: 'Advanced ML/AI infrastructure: Processing 0.5T+ events daily, AI DJ,
+        Discover Weekly, adapted Llama models'
+      impact: Cutting-edge systems work aligned with systems_thinking and infrastructure_automation
+        strengths
+      confidence: High - research.atspotify.com, Marketing AI Institute 2024
+      task_implications:
+      - task: Build ML infrastructure and recommendation systems at massive scale
+        time_estimate_pct: 25%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: moderate
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_glue_work: false
+          uses_infrastructure_automation: true
+          uses_decision_frameworks: true
+          collaboration_type: team
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: moderate
+        notes: AI/ML aligns with growth area (multi_agent_orchestration, ai_augmented_workflows)
+        energy_matrix_quadrant: moare
     strong_positives: &id002
     - flag: Revenue growth continues at 10-18% YoY with improving margins (32.2% peak)
       impact: Growth without cash burn means sustainable expansion, not desperation
         moves
       confidence: High - Q2 2025 official earnings
+      task_characteristics:
+        conflict_exposure: medium
+        alignment_clarity: medium
+        authority_ambiguity: medium
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: medium
+        requires_sync_communication: false
+        timezone_spread: medium
+      energy_quadrant: moare
+      energy_reasoning: 'Eliminates financial_anxiety drain (moderate) by providing
+        financial stability.
+
+        Uses core strengths from profile (low learning required).
+
+        Moare quadrant: leverages strength while energizing.'
     - flag: 696M MAU and 276M premium subscribers, both growing double digits YoY
       impact: Customer validation through actual usage and paid conversions, not just
         funding rounds
       confidence: High - Q2 2025 official earnings
+      task_characteristics:
+        conflict_exposure: low
+        alignment_clarity: medium
+        authority_ambiguity: medium
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: medium
+        requires_sync_communication: false
+        timezone_spread: medium
+      energy_quadrant: moare
+      energy_reasoning: 'Uses core strengths from profile (low learning required).
+
+        Moare quadrant: leverages strength while energizing.'
     - flag: Stock up 154.7% in 2024, 62% YTD 2025, showing market confidence recovery
       impact: If joining now, equity could have meaningful upside as profitability
         story continues
       confidence: High - Public market data via MacroTrends
+      task_characteristics:
+        conflict_exposure: medium
+        alignment_clarity: medium
+        authority_ambiguity: medium
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: medium
+        requires_sync_communication: false
+        timezone_spread: medium
+      energy_quadrant: moare
+      energy_reasoning: 'Uses core strengths from profile (low learning required).
+
+        Moare quadrant: leverages strength while energizing.'
     - flag: Active engineering blog with transparent incident reports, QCon presentations
         on infrastructure
       impact: Technical culture values learning from failures publicly, not hiding
         problems
       confidence: High - engineering.atspotify.com, InfoQ presentations
+      task_characteristics:
+        conflict_exposure: medium
+        alignment_clarity: medium
+        authority_ambiguity: medium
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: medium
+        requires_sync_communication: false
+        timezone_spread: medium
+      energy_quadrant: moare
+      energy_reasoning: 'Provides tool_building generator (core need).
+
+        Uses infrastructure_automation strength (expert).
+
+        Moare quadrant: leverages strength while energizing.'
     - flag: FOSS Fund supporting open source dependencies they rely on
       impact: Company puts money behind open source, not just consuming it
       confidence: High - Engineering blog announcement 2024
+      task_characteristics:
+        conflict_exposure: medium
+        alignment_clarity: medium
+        authority_ambiguity: medium
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: medium
+        requires_sync_communication: false
+        timezone_spread: medium
+      energy_quadrant: moare
+      energy_reasoning: 'Uses core strengths from profile (low learning required).
+
+        Moare quadrant: leverages strength while energizing.'
     - flag: Technology Fellowship Program for non-traditional backgrounds with 18-week
         structured onboarding
       impact: Investment in growing talent, not just hiring and burning out experienced
         engineers
       confidence: Medium - fellowship.spotify.com program description
+      task_characteristics:
+        conflict_exposure: medium
+        alignment_clarity: medium
+        authority_ambiguity: medium
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: medium
+        requires_sync_communication: false
+        timezone_spread: medium
+      energy_quadrant: moare
+      energy_reasoning: 'Eliminates financial_anxiety drain (moderate) by providing
+        financial stability.
+
+        Provides structured_processes generator (moderate).
+
+        Uses core strengths from profile (low learning required).
+
+        Moare quadrant: leverages strength while energizing.'
     - flag: Work From Anywhere policy since 2021 with 50% attrition reduction after
         implementation
       impact: Remote work is proven and valued, not 'temporary pandemic policy' under
         threat
       confidence: High - CHRO confirmed October 2024, Fortune reporting on attrition
         data
+      task_characteristics:
+        conflict_exposure: medium
+        alignment_clarity: medium
+        authority_ambiguity: medium
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: medium
+        requires_sync_communication: false
+        timezone_spread: medium
+      energy_quadrant: moare
+      energy_reasoning: 'Uses core strengths from profile (low learning required).
+
+        Moare quadrant: leverages strength while energizing.'
     - flag: Glassdoor 4.3/5 for work-life balance, 76% CEO approval, 80% would recommend
       impact: Current employees genuinely satisfied with balance and leadership, not
         toxic environment
       confidence: High - Glassdoor aggregate data 2025
+      task_characteristics:
+        conflict_exposure: medium
+        alignment_clarity: medium
+        authority_ambiguity: medium
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: medium
+        requires_sync_communication: false
+        timezone_spread: medium
+      energy_quadrant: moare
+      energy_reasoning: 'Uses core strengths from profile (low learning required).
+
+        Moare quadrant: leverages strength while energizing.'
     - flag: Values-driven interview process evaluating Innovative, Collaborative,
         Sincere, Passionate, Playful
       impact: Cultural fit taken seriously in hiring, not just 'can you code' desperation
         hiring
       confidence: High - Official careers site, interview guides
+      task_characteristics:
+        conflict_exposure: medium
+        alignment_clarity: medium
+        authority_ambiguity: medium
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: medium
+        requires_sync_communication: false
+        timezone_spread: medium
+      energy_quadrant: moare
+      energy_reasoning: 'Provides structured_processes generator (moderate).
+
+        Uses decision_frameworks strength (proficient).
+
+        Moare quadrant: leverages strength while energizing.'
     - flag: Proven WFA policy with no mandatory office attendance reaffirmed October
         2024
       impact: Fully remote is real and stable, not being walked back
       confidence: High - CHRO Berg statement October 2024
+      task_characteristics:
+        conflict_exposure: medium
+        alignment_clarity: medium
+        authority_ambiguity: medium
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: medium
+        requires_sync_communication: false
+        timezone_spread: medium
+      energy_quadrant: moare
+      energy_reasoning: 'Uses core strengths from profile (low learning required).
+
+        Moare quadrant: leverages strength while energizing.'
     - flag: 2,700+ engineers managing 14,000+ components via Backstage internally
       impact: Large enough engineering org for specialized roles, tooling investment,
         not startup scrappiness
       confidence: High - Engineering blog about internal Backstage usage
+      task_characteristics:
+        conflict_exposure: medium
+        alignment_clarity: medium
+        authority_ambiguity: medium
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: medium
+        requires_sync_communication: false
+        timezone_spread: medium
+      energy_quadrant: moare
+      energy_reasoning: 'Provides tool_building generator (core need).
+
+        Uses tool_building strength (expert).
+
+        Moare quadrant: leverages strength while energizing.'
     - flag: Pivotal role in music industry transformation with 100M songs, 7M podcasts
         reaching 180+ countries
       impact: Product solves real problems for real people - passes the 'Mom Test'
         proudly
       confidence: High - Product data, market position
+      task_characteristics:
+        conflict_exposure: medium
+        alignment_clarity: low
+        authority_ambiguity: medium
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: medium
+        requires_sync_communication: false
+        timezone_spread: medium
+      energy_quadrant: sparingly
+      energy_reasoning: 'Exposes to misalignment drain (severe).
+
+        Uses core strengths from profile.
+
+        Sparingly quadrant: leverages expertise but at energy cost.'
     - flag: Strong technical brand with QCon talks, engineering blog, respected open
         source contributions
       impact: Being 'ex-Spotify engineer' carries weight in industry, opens doors
       confidence: High - Conference track record, open source impact
+      task_characteristics:
+        conflict_exposure: medium
+        alignment_clarity: medium
+        authority_ambiguity: medium
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: medium
+        requires_sync_communication: false
+        timezone_spread: medium
+      energy_quadrant: moare
+      energy_reasoning: 'Uses core strengths from profile (low learning required).
+
+        Moare quadrant: leverages strength while energizing.'
+    - flag: Work From Anywhere policy since Feb 2021, reduced attrition 50%
+      impact: Matches timezone_flexibility preference (6 hours), async-friendly culture
+      confidence: High - Fortune, HR Grapevine Oct 2024
+      task_implications:
+      - task: Async-first collaboration across global engineering teams
+        time_estimate_pct: 5%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: moderate
+          learning_required: none
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: true
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: true
+          collaboration_type: cross_team
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: wide
+        notes: 'Async culture matches communication_preferences (async_work_capability:
+          strong)'
+        energy_matrix_quadrant: moare
+    - flag: 'Modern tech stack: Migrated to GCP, uses Kafka (0.5T events/day), Cassandra,
+        Bazel (70% faster builds)'
+      impact: Modern infrastructure tooling aligned with infrastructure_automation
+        expertise
+      confidence: High - BairesDev Sept 2024, engineering blog
+      task_implications:
+      - task: Develop platform tooling and build infrastructure on modern stack
+        time_estimate_pct: 10%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: low
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_glue_work: false
+          uses_infrastructure_automation: true
+          uses_decision_frameworks: true
+          collaboration_type: team
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: moderate
+        notes: Platform engineering matches infrastructure_automation core strength
+        energy_matrix_quadrant: moare
+    - flag: Work From Anywhere policy since Feb 2021, reduced attrition 50%
+      impact: Matches timezone_flexibility preference (6 hours), async-friendly culture
+      confidence: High - Fortune, HR Grapevine Oct 2024
+      task_implications:
+      - task: Async-first collaboration across global engineering teams
+        time_estimate_pct: 5%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: moderate
+          learning_required: none
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: true
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: true
+          collaboration_type: cross_team
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: wide
+        notes: 'Async culture matches communication_preferences (async_work_capability:
+          strong)'
+        energy_matrix_quadrant: moare
+    - flag: 'Modern tech stack: Migrated to GCP, uses Kafka (0.5T events/day), Cassandra,
+        Bazel (70% faster builds)'
+      impact: Modern infrastructure tooling aligned with infrastructure_automation
+        expertise
+      confidence: High - BairesDev Sept 2024, engineering blog
+      task_implications:
+      - task: Develop platform tooling and build infrastructure on modern stack
+        time_estimate_pct: 10%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: low
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_glue_work: false
+          uses_infrastructure_automation: true
+          uses_decision_frameworks: true
+          collaboration_type: team
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: moderate
+        notes: Platform engineering matches infrastructure_automation core strength
+        energy_matrix_quadrant: moare
+    - flag: Work From Anywhere policy since Feb 2021, reduced attrition 50%
+      impact: Matches timezone_flexibility preference (6 hours), async-friendly culture
+      confidence: High - Fortune, HR Grapevine Oct 2024
+      task_implications:
+      - task: Async-first collaboration across global engineering teams
+        time_estimate_pct: 5%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: moderate
+          learning_required: none
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: true
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: true
+          collaboration_type: cross_team
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: wide
+        notes: 'Async culture matches communication_preferences (async_work_capability:
+          strong)'
+        energy_matrix_quadrant: moare
+    - flag: 'Modern tech stack: Migrated to GCP, uses Kafka (0.5T events/day), Cassandra,
+        Bazel (70% faster builds)'
+      impact: Modern infrastructure tooling aligned with infrastructure_automation
+        expertise
+      confidence: High - BairesDev Sept 2024, engineering blog
+      task_implications:
+      - task: Develop platform tooling and build infrastructure on modern stack
+        time_estimate_pct: 10%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: low
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_glue_work: false
+          uses_infrastructure_automation: true
+          uses_decision_frameworks: true
+          collaboration_type: team
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: moderate
+        notes: Platform engineering matches infrastructure_automation core strength
+        energy_matrix_quadrant: moare
   chosen_peak:
     critical_matches: *id001
     strong_positives: *id002
@@ -128,37 +1008,503 @@ red_flags:
       impact: Recent organizational trauma - survivors may be burned out, processes
         may be broken, projects killed
       confidence: High - Official announcements, NPR reporting
+      task_characteristics:
+        conflict_exposure: high
+        alignment_clarity: medium
+        authority_ambiguity: medium
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: medium
+        requires_sync_communication: false
+        timezone_spread: medium
+      energy_quadrant: sparingly
+      energy_reasoning: 'Exposes to financial_anxiety drain (moderate).
+
+        Uses decision_frameworks strength (proficient) to navigate challenges.
+
+        Sparingly quadrant: leverages expertise but at energy cost.'
     - flag: 33+ senior executives departed 2018-2021, recent CFO change March 2024
       impact: Leadership instability at senior levels suggests dysfunction or strategic
         uncertainty
       confidence: High - Music Business Worldwide tracking, Billboard CFO coverage
-    - flag: "\u20AC5M GDPR fine for inadequate data subject request handling"
+      task_characteristics:
+        conflict_exposure: high
+        alignment_clarity: low
+        authority_ambiguity: medium
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: medium
+        requires_sync_communication: false
+        timezone_spread: medium
+      energy_quadrant: sparingly
+      energy_reasoning: 'Exposes to interpersonal_conflict drain (severe).
+
+        Uses core strengths from profile.
+
+        Sparingly quadrant: leverages expertise but at energy cost.'
+    - flag: €5M GDPR fine for inadequate data subject request handling
       impact: Compliance/data governance maturity questions - could signal technical
         debt in data systems
       confidence: High - Swedish Authority for Privacy Protection official fine
+      task_characteristics:
+        conflict_exposure: medium
+        alignment_clarity: medium
+        authority_ambiguity: medium
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: medium
+        requires_sync_communication: false
+        timezone_spread: medium
+      energy_quadrant: moare
+      energy_reasoning: 'Uses systems_thinking strength (expert).
+
+        Moare quadrant: leverages strength while energizing.'
     - flag: CEO transition to co-CEO model effective January 2026 with founder moving
         to Chairman
       impact: Major leadership change creates uncertainty; co-CEO structures often
         struggle with accountability
       confidence: High - Official announcement September 2025, effective in 3 months
+      task_characteristics:
+        conflict_exposure: medium
+        alignment_clarity: low
+        authority_ambiguity: medium
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: medium
+        requires_sync_communication: false
+        timezone_spread: medium
+      energy_quadrant: sparingly
+      energy_reasoning: 'Creates draining conditions despite using expertise.
+
+        Uses core strengths from profile.
+
+        Sparingly quadrant: leverages expertise but at energy cost.'
     - flag: New CFO Christian Luiga just joined Q3 2024, previous CFO departed March
         2024
       impact: CFO stability critical for cost discipline post-layoffs; new CFO learning
         curve during execution phase
       confidence: High - Billboard reporting April 2024
+      task_characteristics:
+        conflict_exposure: high
+        alignment_clarity: medium
+        authority_ambiguity: medium
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: medium
+        requires_sync_communication: false
+        timezone_spread: medium
+      energy_quadrant: sparingly
+      energy_reasoning: 'Exposes to interpersonal_conflict drain (severe).
+
+        Uses core strengths from profile.
+
+        Sparingly quadrant: leverages expertise but at energy cost.'
     - flag: Glassdoor only 3.5/5 for career opportunities (lowest category)
       impact: Limited growth paths despite large org size - may hit ceiling quickly
         as staff engineer
       confidence: High - Glassdoor aggregate ratings 2025
+      task_characteristics:
+        conflict_exposure: medium
+        alignment_clarity: medium
+        authority_ambiguity: medium
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: medium
+        requires_sync_communication: false
+        timezone_spread: medium
+      energy_quadrant: sparingly
+      energy_reasoning: 'Creates draining conditions despite using expertise.
+
+        Uses core strengths from profile.
+
+        Sparingly quadrant: leverages expertise but at energy cost.'
     - flag: Compensation rated 3.9/5 on Glassdoor, reportedly below FAANG levels
       impact: At 25 years experience, comp matters - may not be maximizing earning
         years
       confidence: Medium - Glassdoor reviews mention this pattern
+      task_characteristics:
+        conflict_exposure: medium
+        alignment_clarity: medium
+        authority_ambiguity: medium
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: medium
+        requires_sync_communication: false
+        timezone_spread: medium
+      energy_quadrant: sparingly
+      energy_reasoning: 'Creates draining conditions despite using expertise.
+
+        Uses core strengths from profile.
+
+        Sparingly quadrant: leverages expertise but at energy cost.'
     - flag: Post-layoff environment with 20% workforce reduction may limit scope for
         new initiatives
       impact: May be more maintenance/efficiency focused than innovation/growth focused
         currently
       confidence: Medium - Implied from profitability focus after layoffs
+      task_characteristics:
+        conflict_exposure: high
+        alignment_clarity: medium
+        authority_ambiguity: medium
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: medium
+        requires_sync_communication: false
+        timezone_spread: medium
+      energy_quadrant: sparingly
+      energy_reasoning: 'Creates draining conditions despite using expertise.
+
+        Uses core strengths from profile.
+
+        Sparingly quadrant: leverages expertise but at energy cost.'
+    - flag: 'Major layoffs in 2023: 2,300 employees (25% of workforce) in three rounds'
+      impact: Creates interpersonal_conflict exposure (childhood trauma trigger),
+        though post-layoff stability improving
+      confidence: High - NPR, Quartz, CNBC Dec 2023, workforce down to 7,261 by end
+        2024
+      task_implications:
+      - task: Navigate post-layoff organizational dynamics and survivor dynamics
+        time_estimate_pct: 10%
+        characteristics:
+          conflict_exposure: moderate
+          alignment_clarity: moderate
+          authority_ambiguity: moderate
+          progress_visibility: moderate
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: low
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: true
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: true
+          collaboration_type: cross_team
+          meeting_intensity: moderate
+          requires_sync_communication: true
+          timezone_spread: moderate
+        notes: Layoffs trigger interpersonal_conflict drain (moderate severity, past
+          event but lingering effects)
+        energy_matrix_quadrant: sparingly
+    - flag: 'CEO transition in Jan 2026: Daniel Ek → co-CEO model (Gustav Söderström
+        & Alex Norström)'
+      impact: Creates temporary authority_ambiguity during transition, though both
+        co-CEOs have 15+ years at Spotify
+      confidence: High - Official press release Sept 2025
+      task_implications:
+      - task: Adapt to co-CEO leadership model and potential shifts in priorities/culture
+        time_estimate_pct: 8%
+        characteristics:
+          conflict_exposure: moderate
+          alignment_clarity: moderate
+          authority_ambiguity: moderate
+          progress_visibility: moderate
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: low
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: true
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: true
+          collaboration_type: cross_team
+          meeting_intensity: moderate
+          requires_sync_communication: true
+          timezone_spread: moderate
+        notes: Authority_ambiguity drain (moderate severity) during leadership transition
+        energy_matrix_quadrant: sparingly
+    - flag: 33+ senior executive departures 2018-2021, CFO change in 2024
+      impact: Historical leadership churn creates uncertainty, though stabilizing
+        recently
+      confidence: Medium - Music Business Worldwide Oct 2021, Billboard Apr 2024
+      task_implications:
+      - task: Build relationships with new leadership and navigate changing priorities
+        time_estimate_pct: 5%
+        characteristics:
+          conflict_exposure: moderate
+          alignment_clarity: moderate
+          authority_ambiguity: moderate
+          progress_visibility: low
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: low
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: true
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: cross_team
+          meeting_intensity: moderate
+          requires_sync_communication: true
+          timezone_spread: moderate
+        notes: Leadership churn creates authority_ambiguity and potential misalignment
+        energy_matrix_quadrant: sparingly
+    - flag: €5M GDPR fine for inadequate data subject request handling
+      impact: Indicates process/compliance gaps, potential for conflicting priorities
+        between speed and compliance
+      confidence: Medium - DataGuard, ManageEngine 2023-2024
+      task_implications:
+      - task: Balance feature velocity with privacy compliance requirements
+        time_estimate_pct: 7%
+        characteristics:
+          conflict_exposure: moderate
+          alignment_clarity: moderate
+          authority_ambiguity: moderate
+          progress_visibility: moderate
+          autonomy_level: low
+          decision_speed: slow
+          learning_required: moderate
+          uses_systems_thinking: true
+          uses_tool_building: false
+          uses_glue_work: true
+          uses_infrastructure_automation: true
+          uses_decision_frameworks: true
+          collaboration_type: cross_team
+          meeting_intensity: moderate
+          requires_sync_communication: true
+          timezone_spread: moderate
+        notes: Compliance work can create misalignment between engineering velocity
+          and legal requirements
+        energy_matrix_quadrant: sparingly
+    - flag: 'Major layoffs in 2023: 2,300 employees (25% of workforce) in three rounds'
+      impact: Creates interpersonal_conflict exposure (childhood trauma trigger),
+        though post-layoff stability improving
+      confidence: High - NPR, Quartz, CNBC Dec 2023, workforce down to 7,261 by end
+        2024
+      task_implications:
+      - task: Navigate post-layoff organizational dynamics and survivor dynamics
+        time_estimate_pct: 10%
+        characteristics:
+          conflict_exposure: moderate
+          alignment_clarity: moderate
+          authority_ambiguity: moderate
+          progress_visibility: moderate
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: low
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: true
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: true
+          collaboration_type: cross_team
+          meeting_intensity: moderate
+          requires_sync_communication: true
+          timezone_spread: moderate
+        notes: Layoffs trigger interpersonal_conflict drain (moderate severity, past
+          event but lingering effects)
+        energy_matrix_quadrant: sparingly
+    - flag: 'CEO transition in Jan 2026: Daniel Ek → co-CEO model (Gustav Söderström
+        & Alex Norström)'
+      impact: Creates temporary authority_ambiguity during transition, though both
+        co-CEOs have 15+ years at Spotify
+      confidence: High - Official press release Sept 2025
+      task_implications:
+      - task: Adapt to co-CEO leadership model and potential shifts in priorities/culture
+        time_estimate_pct: 8%
+        characteristics:
+          conflict_exposure: moderate
+          alignment_clarity: moderate
+          authority_ambiguity: moderate
+          progress_visibility: moderate
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: low
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: true
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: true
+          collaboration_type: cross_team
+          meeting_intensity: moderate
+          requires_sync_communication: true
+          timezone_spread: moderate
+        notes: Authority_ambiguity drain (moderate severity) during leadership transition
+        energy_matrix_quadrant: sparingly
+    - flag: 33+ senior executive departures 2018-2021, CFO change in 2024
+      impact: Historical leadership churn creates uncertainty, though stabilizing
+        recently
+      confidence: Medium - Music Business Worldwide Oct 2021, Billboard Apr 2024
+      task_implications:
+      - task: Build relationships with new leadership and navigate changing priorities
+        time_estimate_pct: 5%
+        characteristics:
+          conflict_exposure: moderate
+          alignment_clarity: moderate
+          authority_ambiguity: moderate
+          progress_visibility: low
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: low
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: true
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: cross_team
+          meeting_intensity: moderate
+          requires_sync_communication: true
+          timezone_spread: moderate
+        notes: Leadership churn creates authority_ambiguity and potential misalignment
+        energy_matrix_quadrant: sparingly
+    - flag: €5M GDPR fine for inadequate data subject request handling
+      impact: Indicates process/compliance gaps, potential for conflicting priorities
+        between speed and compliance
+      confidence: Medium - DataGuard, ManageEngine 2023-2024
+      task_implications:
+      - task: Balance feature velocity with privacy compliance requirements
+        time_estimate_pct: 7%
+        characteristics:
+          conflict_exposure: moderate
+          alignment_clarity: moderate
+          authority_ambiguity: moderate
+          progress_visibility: moderate
+          autonomy_level: low
+          decision_speed: slow
+          learning_required: moderate
+          uses_systems_thinking: true
+          uses_tool_building: false
+          uses_glue_work: true
+          uses_infrastructure_automation: true
+          uses_decision_frameworks: true
+          collaboration_type: cross_team
+          meeting_intensity: moderate
+          requires_sync_communication: true
+          timezone_spread: moderate
+        notes: Compliance work can create misalignment between engineering velocity
+          and legal requirements
+        energy_matrix_quadrant: sparingly
+    - flag: 'Major layoffs in 2023: 2,300 employees (25% of workforce) in three rounds'
+      impact: Creates interpersonal_conflict exposure (childhood trauma trigger),
+        though post-layoff stability improving
+      confidence: High - NPR, Quartz, CNBC Dec 2023, workforce down to 7,261 by end
+        2024
+      task_implications:
+      - task: Navigate post-layoff organizational dynamics and survivor dynamics
+        time_estimate_pct: 10%
+        characteristics:
+          conflict_exposure: moderate
+          alignment_clarity: moderate
+          authority_ambiguity: moderate
+          progress_visibility: moderate
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: low
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: true
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: true
+          collaboration_type: cross_team
+          meeting_intensity: moderate
+          requires_sync_communication: true
+          timezone_spread: moderate
+        notes: Layoffs trigger interpersonal_conflict drain (moderate severity, past
+          event but lingering effects)
+        energy_matrix_quadrant: sparingly
+    - flag: 'CEO transition in Jan 2026: Daniel Ek → co-CEO model (Gustav Söderström
+        & Alex Norström)'
+      impact: Creates temporary authority_ambiguity during transition, though both
+        co-CEOs have 15+ years at Spotify
+      confidence: High - Official press release Sept 2025
+      task_implications:
+      - task: Adapt to co-CEO leadership model and potential shifts in priorities/culture
+        time_estimate_pct: 8%
+        characteristics:
+          conflict_exposure: moderate
+          alignment_clarity: moderate
+          authority_ambiguity: moderate
+          progress_visibility: moderate
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: low
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: true
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: true
+          collaboration_type: cross_team
+          meeting_intensity: moderate
+          requires_sync_communication: true
+          timezone_spread: moderate
+        notes: Authority_ambiguity drain (moderate severity) during leadership transition
+        energy_matrix_quadrant: sparingly
+    - flag: 33+ senior executive departures 2018-2021, CFO change in 2024
+      impact: Historical leadership churn creates uncertainty, though stabilizing
+        recently
+      confidence: Medium - Music Business Worldwide Oct 2021, Billboard Apr 2024
+      task_implications:
+      - task: Build relationships with new leadership and navigate changing priorities
+        time_estimate_pct: 5%
+        characteristics:
+          conflict_exposure: moderate
+          alignment_clarity: moderate
+          authority_ambiguity: moderate
+          progress_visibility: low
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: low
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: true
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: cross_team
+          meeting_intensity: moderate
+          requires_sync_communication: true
+          timezone_spread: moderate
+        notes: Leadership churn creates authority_ambiguity and potential misalignment
+        energy_matrix_quadrant: sparingly
+    - flag: €5M GDPR fine for inadequate data subject request handling
+      impact: Indicates process/compliance gaps, potential for conflicting priorities
+        between speed and compliance
+      confidence: Medium - DataGuard, ManageEngine 2023-2024
+      task_implications:
+      - task: Balance feature velocity with privacy compliance requirements
+        time_estimate_pct: 7%
+        characteristics:
+          conflict_exposure: moderate
+          alignment_clarity: moderate
+          authority_ambiguity: moderate
+          progress_visibility: moderate
+          autonomy_level: low
+          decision_speed: slow
+          learning_required: moderate
+          uses_systems_thinking: true
+          uses_tool_building: false
+          uses_glue_work: true
+          uses_infrastructure_automation: true
+          uses_decision_frameworks: true
+          collaboration_type: cross_team
+          meeting_intensity: moderate
+          requires_sync_communication: true
+          timezone_spread: moderate
+        notes: Compliance work can create misalignment between engineering velocity
+          and legal requirements
+        energy_matrix_quadrant: sparingly
   chosen_peak:
     dealbreakers: *id003
     concerning: *id004
@@ -185,8 +1531,8 @@ missing_critical_data:
     how long from PR merge to production?'''
   mountain_element: chosen_peak
 - question: What is typical manager span of control and how are teams sized?
-  why_important: "Need managers with \u22646 reports for proper bandwidth, not underwater\
-    \ managers with 12+ reports"
+  why_important: Need managers with ≤6 reports for proper bandwidth, not underwater
+    managers with 12+ reports
   how_to_find: 'Ask in interviews: ''How many direct reports does the hiring manager
     have?'' and ''What''s typical team size?'''
   mountain_element: rope_team_confidence
@@ -229,3 +1575,114 @@ missing_critical_data:
   how_to_find: 'Ask hiring managers and skip-levels: ''What does staff+ progression
     look like here?'' and ''Can you introduce me to a Staff+ IC?'''
   mountain_element: story_worth_telling
+- question: What is the organizational health level post-layoffs? Are teams understaffed?
+  why_important: 25% workforce reduction could create burnout or misalignment if teams
+    are stretched thin
+  how_to_find: Insider interviews with current engineers about workload, team capacity,
+    hiring plans
+  mountain_element: rope_team_confidence
+- question: How will the co-CEO model affect engineering culture and decision-making?
+  why_important: Co-CEO structure could create authority_ambiguity or conflicting
+    priorities
+  how_to_find: Insider interviews about org structure, decision-making speed, engineering
+    autonomy
+  mountain_element: rope_team_confidence
+- question: What are current compensation ranges for senior/staff engineers?
+  why_important: Post-layoff compensation may be constrained despite profitability
+  how_to_find: levels.fyi, Glassdoor salary data, insider interviews
+  mountain_element: mountain_range
+- question: What is the organizational health level post-layoffs? Are teams understaffed?
+  why_important: 25% workforce reduction could create burnout or misalignment if teams
+    are stretched thin
+  how_to_find: Insider interviews with current engineers about workload, team capacity,
+    hiring plans
+  mountain_element: rope_team_confidence
+- question: How will the co-CEO model affect engineering culture and decision-making?
+  why_important: Co-CEO structure could create authority_ambiguity or conflicting
+    priorities
+  how_to_find: Insider interviews about org structure, decision-making speed, engineering
+    autonomy
+  mountain_element: rope_team_confidence
+- question: What are current compensation ranges for senior/staff engineers?
+  why_important: Post-layoff compensation may be constrained despite profitability
+  how_to_find: levels.fyi, Glassdoor salary data, insider interviews
+  mountain_element: mountain_range
+- question: What is the organizational health level post-layoffs? Are teams understaffed?
+  why_important: 25% workforce reduction could create burnout or misalignment if teams
+    are stretched thin
+  how_to_find: Insider interviews with current engineers about workload, team capacity,
+    hiring plans
+  mountain_element: rope_team_confidence
+- question: How will the co-CEO model affect engineering culture and decision-making?
+  why_important: Co-CEO structure could create authority_ambiguity or conflicting
+    priorities
+  how_to_find: Insider interviews about org structure, decision-making speed, engineering
+    autonomy
+  mountain_element: rope_team_confidence
+- question: What are current compensation ranges for senior/staff engineers?
+  why_important: Post-layoff compensation may be constrained despite profitability
+  how_to_find: levels.fyi, Glassdoor salary data, insider interviews
+  mountain_element: mountain_range
+synthesis:
+  energy_matrix:
+    moare_percentage: 71
+    sparingly_percentage: 29
+    burnout_percentage: 0
+    help_mentoring_percentage: 0
+    meets_thresholds: true
+    energy_sustainability: HIGH
+    sustainability_reasoning: 71% moare work leveraging core strengths with energizing
+      conditions. 29% sparingly work using expertise at energy cost. 0% burnout work
+      requiring learning under draining conditions. Meets both thresholds (≥60% moare,
+      ≤20% burnout) for sustainable 25+ year career pace.
+    key_energy_insights:
+    - 71% moare work leverages core strengths with energizing conditions
+    - 29% sparingly work uses expertise but exposes to energy drains
+    energy_concerns: []
+    quadrant_breakdown:
+      moare:
+        count: 145
+        percentage: 71
+        key_examples:
+        - Dominant market position at 31.7% global share, double nearest competitor
+        - Heavy AI/ML investments with adapted Llama models, AI DJ, AI Playlist -
+          processing 500+ trillion eve...
+      sparingly:
+        count: 60
+        percentage: 29
+        key_examples:
+        - First full year profitable in 2024 with €1.138B net income after years of
+          losses
+        - Co-CEO transition to insiders with 15+ years tenure (Söderström CTO, Norström
+          CBO)
+      burnout:
+        count: 0
+        percentage: 0
+        key_examples: []
+      help_mentoring:
+        count: 0
+        percentage: 0
+        key_examples: []
+  energy_matrix_analysis:
+    profile_version_used: '1.0'
+    predicted_daily_distribution:
+      moare_green_flags:
+        percentage: 77.8
+        tasks_count: 90
+      sparingly_yellow_flags:
+        percentage: 22.2
+        tasks_count: 60
+      burnout_red_flags:
+        percentage: 0.0
+        tasks_count: 0
+      help_mentoring_yellow_flags:
+        percentage: 0.0
+        tasks_count: 0
+    threshold_analysis:
+      meets_green_minimum: true
+      exceeds_red_maximum: false
+      exceeds_yellow_maximum: false
+    energy_sustainability: HIGH
+    key_insights: []
+    decision_factors: []
+profile_version_used: '1.0'

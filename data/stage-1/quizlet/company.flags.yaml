@@ -1,0 +1,403 @@
+company: quizlet
+evaluation_date: '2025-11-09'
+evaluator_context: Extracted from conversation notes
+green_flags:
+  mountain_range:
+    critical_matches:
+    - flag: Test flag
+      impact: Test impact
+      confidence: High
+      task_implications:
+      - task: Test task
+        time_estimate_pct: 10%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: none
+          uses_systems_thinking: true
+          uses_tool_building: false
+          uses_glue_work: false
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: solo
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: co_located
+        notes: Test
+        energy_matrix_quadrant: moare
+    - flag: Test
+      impact: Test
+      confidence: High
+      task_implications:
+      - task: Test
+        time_estimate_pct: 10%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: none
+          uses_systems_thinking: true
+          uses_tool_building: false
+          uses_glue_work: false
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: solo
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: co_located
+        notes: Test
+        energy_matrix_quadrant: moare
+    - flag: Established product with 60M MAU and 500M+ user-generated flashcard sets
+      impact: Massive user base provides clear product-market fit and visible impact
+      confidence: High - TechCrunch, Wikipedia
+      task_implications:
+      - task: Build ML/AI features for 60M monthly active users
+        time_estimate_pct: 30%
+        characteristics:
+          conflict_exposure: moderate
+          alignment_clarity: moderate
+          authority_ambiguity: moderate
+          progress_visibility: high
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: low
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_glue_work: false
+          uses_infrastructure_automation: true
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: moderate
+          requires_sync_communication: false
+          timezone_spread: moderate
+        notes: Large scale provides visible_progress generator. 85% AI adoption shows
+          alignment.
+        energy_matrix_quadrant: moare
+    - flag: Strong infrastructure (BigQuery 287M events/day, Go, K8s, ArgoCD)
+      impact: Infrastructure work aligns with systems_thinking and infrastructure_automation
+        strengths
+      confidence: High - Engineering blog
+      task_implications:
+      - task: Design and scale data pipeline processing 287M events/day
+        time_estimate_pct: 25%
+        characteristics:
+          conflict_exposure: moderate
+          alignment_clarity: high
+          authority_ambiguity: moderate
+          progress_visibility: high
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: low
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_glue_work: false
+          uses_infrastructure_automation: true
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: moderate
+          requires_sync_communication: false
+          timezone_spread: moderate
+        notes: Core infrastructure uses expert strengths. Director departures create
+          moderate authority_ambiguity.
+        energy_matrix_quadrant: moare
+    strong_positives:
+    - flag: Remote work culture (SF, Denver, London, NYC)
+      impact: Timezone flexibility aligns with profile
+      confidence: Medium - Job postings, Glassdoor
+      task_implications:
+      - task: Collaborate across distributed team
+        time_estimate_pct: 15%
+        characteristics:
+          conflict_exposure: moderate
+          alignment_clarity: moderate
+          authority_ambiguity: moderate
+          progress_visibility: moderate
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: none
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: true
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: cross_team
+          meeting_intensity: moderate
+          requires_sync_communication: true
+          timezone_spread: moderate
+        notes: New CEO may reduce remote flexibility.
+        energy_matrix_quadrant: sparingly
+    - flag: AI/ML focus with 85% adoption
+      impact: Growth area alignment
+      confidence: High - PR Newswire Aug 2024
+      task_implications:
+      - task: Build AI-powered study tools
+        time_estimate_pct: 20%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: moderate
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_glue_work: false
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: paired
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: narrow
+        notes: Clear AI direction. Learning is energizing.
+        energy_matrix_quadrant: moare
+    - flag: Profitable ($80M revenue)
+      impact: Eliminates financial_anxiety drain
+      confidence: High - Getlatka
+      task_implications:
+      - task: Optimize subscription conversion
+        time_estimate_pct: 10%
+        characteristics:
+          conflict_exposure: moderate
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: moderate
+          uses_systems_thinking: true
+          uses_tool_building: false
+          uses_glue_work: false
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: true
+          collaboration_type: team
+          meeting_intensity: moderate
+          requires_sync_communication: false
+          timezone_spread: moderate
+        notes: User backlash creates some conflict.
+        energy_matrix_quadrant: moare
+  chosen_peak:
+    critical_matches: []
+    strong_positives: []
+  rope_team_confidence:
+    critical_matches: []
+    strong_positives: []
+  daily_climb:
+    critical_matches: []
+    strong_positives: []
+  story_worth_telling:
+    critical_matches: []
+    strong_positives: []
+red_flags:
+  mountain_range:
+    dealbreakers: []
+    concerning:
+    - flag: Multiple layoffs 2023-2024, 'pro layoffs' culture, no notice
+      impact: Severe interpersonal_conflict drain
+      confidence: High - Glassdoor 2023-2024
+      task_implications:
+      - task: Work during ongoing layoff cycles
+        time_estimate_pct: 15%
+        characteristics:
+          conflict_exposure: high
+          alignment_clarity: low
+          authority_ambiguity: high
+          progress_visibility: low
+          autonomy_level: low
+          decision_speed: slow
+          learning_required: none
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: false
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: high
+          requires_sync_communication: true
+          timezone_spread: moderate
+        notes: Triggers severe interpersonal_conflict and misalignment drains.
+        energy_matrix_quadrant: burnout
+    - flag: 3 CEO changes since 2022, 5 engineering directors departed
+      impact: High authority_ambiguity
+      confidence: High - Wikipedia, Glassdoor
+      task_implications:
+      - task: Navigate leadership transitions
+        time_estimate_pct: 10%
+        characteristics:
+          conflict_exposure: high
+          alignment_clarity: low
+          authority_ambiguity: high
+          progress_visibility: low
+          autonomy_level: low
+          decision_speed: slow
+          learning_required: none
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: true
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: cross_team
+          meeting_intensity: high
+          requires_sync_communication: true
+          timezone_spread: moderate
+        notes: Unstable reporting chains create hidden conflicts.
+        energy_matrix_quadrant: sparingly
+    - flag: Top-down culture, 'decisions changed without communication'
+      impact: Misalignment and authority_ambiguity
+      confidence: High - Glassdoor
+      task_implications:
+      - task: Execute while direction changes without notice
+        time_estimate_pct: 10%
+        characteristics:
+          conflict_exposure: moderate
+          alignment_clarity: low
+          authority_ambiguity: high
+          progress_visibility: low
+          autonomy_level: low
+          decision_speed: slow
+          learning_required: none
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: false
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: moderate
+          requires_sync_communication: true
+          timezone_spread: moderate
+        notes: Circular motion instead of progress.
+        energy_matrix_quadrant: burnout
+    - flag: Freemium trap (10% conversion), AI disruption
+      impact: Unclear sustainable future
+      confidence: Medium - Glassdoor, analysis
+      task_implications:
+      - task: Build features facing existential AI competition
+        time_estimate_pct: 10%
+        characteristics:
+          conflict_exposure: moderate
+          alignment_clarity: low
+          authority_ambiguity: moderate
+          progress_visibility: moderate
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: low
+          uses_systems_thinking: false
+          uses_tool_building: true
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: moderate
+          requires_sync_communication: false
+          timezone_spread: moderate
+        notes: Uncertain if work contributes to sustainable direction.
+        energy_matrix_quadrant: sparingly
+    - flag: 'Poor sentiment: 3.5/5, 47% recommend, 45% positive'
+      impact: Low morale, high interpersonal_conflict
+      confidence: High - Glassdoor
+      task_implications:
+      - task: Collaborate with demoralized team
+        time_estimate_pct: 10%
+        characteristics:
+          conflict_exposure: high
+          alignment_clarity: low
+          authority_ambiguity: moderate
+          progress_visibility: low
+          autonomy_level: low
+          decision_speed: slow
+          learning_required: none
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: true
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: moderate
+          requires_sync_communication: true
+          timezone_spread: moderate
+        notes: High conflict_exposure triggers severe drains.
+        energy_matrix_quadrant: sparingly
+    - flag: User backlash (TrustPilot 1.4/5, 'predatory')
+      impact: Working on resented features
+      confidence: High - TrustPilot
+      task_implications:
+      - task: Implement paywalls users hate
+        time_estimate_pct: 5%
+        characteristics:
+          conflict_exposure: moderate
+          alignment_clarity: moderate
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: low
+          decision_speed: fast
+          learning_required: low
+          uses_systems_thinking: false
+          uses_tool_building: true
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: narrow
+        notes: Negative user impact undermines aligned_collaboration.
+        energy_matrix_quadrant: moare
+  chosen_peak:
+    dealbreakers: []
+    concerning: []
+  rope_team_confidence:
+    dealbreakers: []
+    concerning: []
+  daily_climb:
+    dealbreakers: []
+    concerning: []
+  story_worth_telling:
+    dealbreakers: []
+    concerning: []
+missing_critical_data:
+- question: Current engineering team size/structure after director departures?
+  why_important: Understand if authority_ambiguity improves or worsens
+  how_to_find: Insider conversation, LinkedIn org chart, job postings
+  mountain_element: rope_team_confidence
+- question: Kurt Beidler's strategy for competing with ChatGPT?
+  why_important: Determines viable path forward - impacts alignment_clarity
+  how_to_find: Insider with product/engineering leadership, All Hands notes
+  mountain_element: mountain_range
+- question: Remote work policy direction under new CEO?
+  why_important: Could eliminate timezone_flexibility advantage
+  how_to_find: Insider conversations, recent policy announcements
+  mountain_element: daily_climb
+- question: Are layoffs continuing in 2025 or stabilized?
+  why_important: Ongoing layoffs trigger severe interpersonal_conflict drain
+  how_to_find: Insider, recent Glassdoor (2025), WARN Act, employee count
+  mountain_element: rope_team_confidence
+profile_version_used: '1.0'
+company_slug: quizlet
+synthesis:
+  energy_matrix_analysis:
+    profile_version_used: '1.0'
+    predicted_daily_distribution:
+      moare_green_flags:
+        percentage: 61.1
+        tasks_count: 7
+      sparingly_yellow_flags:
+        percentage: 25.0
+        tasks_count: 4
+      burnout_red_flags:
+        percentage: 13.9
+        tasks_count: 2
+      help_mentoring_yellow_flags:
+        percentage: 0.0
+        tasks_count: 0
+    threshold_analysis:
+      meets_green_minimum: true
+      exceeds_red_maximum: false
+      exceeds_yellow_maximum: false
+    energy_sustainability: HIGH
+    key_insights: []
+    decision_factors: []

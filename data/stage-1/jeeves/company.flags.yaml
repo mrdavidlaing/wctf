@@ -1,5 +1,5 @@
 company: Jeeves
-evaluation_date: '2025-10-19'
+evaluation_date: '2025-11-09'
 evaluator_context: Extracted from conversation notes
 green_flags:
   mountain_range:
@@ -9,65 +9,460 @@ green_flags:
       impact: Directly addresses layoff risk concern - shows financial discipline
         and sustainable growth during industry downturn
       confidence: High - explicit statement from TechCrunch and TrueUp layoff database
+      task_characteristics:
+        conflict_exposure: low
+        alignment_clarity: high
+        authority_ambiguity: low
+        progress_visibility: high
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: medium
+        requires_sync_communication: false
+        timezone_spread: wide
+      energy_quadrant: moare
+      energy_reasoning: 'Eliminating financial_anxiety drain (moderate drain from
+        profile) by demonstrating financial stability.
+
+        No layoffs indicates structured_processes generator (moderate) with disciplined
+        decision-making.
+
+        Uses decision_frameworks strength (proficient level) to manage costs without
+        cutting people.
+
+        Moare quadrant: leverages strength while reducing drain.
+
+        '
     - flag: 3+ years runway as of mid-2023 with $380M-$447M total funding raised
       impact: Strong financial cushion reduces immediate financial stress risk - company
         can weather market volatility
       confidence: High - explicit statement from TechCrunch
+      task_characteristics:
+        conflict_exposure: low
+        alignment_clarity: high
+        authority_ambiguity: low
+        progress_visibility: high
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: medium
+        requires_sync_communication: false
+        timezone_spread: wide
+      energy_quadrant: moare
+      energy_reasoning: 'Eliminates financial_anxiety drain (moderate) with 3+ year
+        runway providing stability.
+
+        Provides structured_processes generator (moderate) by removing survival pressure
+        from decisions.
+
+        Uses decision_frameworks strength (proficient) to assess financial health.
+
+        Moare quadrant: leverages strength while energizing.
+
+        '
     - flag: Reduced operating costs by 40-50% over five months (July 2023) while maintaining
         headcount
       impact: Shows financial discipline and operational efficiency without resorting
         to layoffs - sustainable cost management
       confidence: High - explicit statement from TechCrunch
+      task_characteristics:
+        conflict_exposure: low
+        alignment_clarity: high
+        authority_ambiguity: low
+        progress_visibility: high
+        autonomy_level: medium
+        decision_speed: fast
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: medium
+        requires_sync_communication: false
+        timezone_spread: wide
+      energy_quadrant: moare
+      energy_reasoning: 'Demonstrates decision_frameworks strength (proficient) in
+        cost optimization.
+
+        Eliminates financial_anxiety drain (moderate) while avoiding layoffs.
+
+        Provides structured_processes generator (moderate) through disciplined management.
+
+        Moare quadrant: uses strength while energizing.
+
+        '
+    - flag: 'Strong revenue growth: $40M+ ARR (up 250% YoY), 900% growth between Series
+        B and C'
+      impact: Demonstrates strong product-market fit and business momentum. Eliminates
+        financial_anxiety drain from profile.
+      confidence: High - Explicit TechCrunch reporting from 2023
+      task_implications:
+      - task: Build multi-currency payment infrastructure for 30+ countries
+        time_estimate_pct: 30%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: low
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_glue_work: false
+          uses_infrastructure_automation: true
+          uses_decision_frameworks: true
+          collaboration_type: team
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: wide
+        notes: Strong growth eliminates financial_anxiety drain. Infrastructure work
+          uses expert strengths (systems_thinking, infrastructure_automation, tool_building).
+          Wide timezone spread but async-capable work.
+        energy_matrix_quadrant: moare
+    - flag: 'Unique market position: Only expense management company issuing local
+        cards in LatAm, NA, and EU simultaneously'
+      impact: Strong competitive moat and technical differentiation. Principal member
+        status with Mastercard shows infrastructure strength.
+      confidence: High - Explicit statement from TechCrunch 2023
+      task_implications:
+      - task: Design card issuance systems with local BINs across 22 countries
+        time_estimate_pct: 25%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: moderate
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_glue_work: false
+          uses_infrastructure_automation: true
+          uses_decision_frameworks: true
+          collaboration_type: team
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: wide
+        notes: Complex fintech infrastructure aligns with systems_thinking and infrastructure_automation
+          strengths. Learning moderate due to fintech compliance domain.
+        energy_matrix_quadrant: moare
+    - flag: No layoffs despite fintech downturn (2022-2024), team grew from 150 to
+        182
+      impact: Financial stability and team investment. Low interpersonal_conflict
+        drain risk from profile.
+      confidence: High - Verified absence in TrueUp layoff database, explicit TechCrunch
+        reporting
+      task_implications:
+      - task: Build expense management automation with AI OCR across 22 countries
+        time_estimate_pct: 20%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: moderate
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_glue_work: false
+          uses_infrastructure_automation: true
+          uses_decision_frameworks: false
+          collaboration_type: paired
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: wide
+        notes: AI/ML infrastructure work with visible impact. Growing team reduces
+          conflict_exposure. Aligns with tool_building generator from profile.
+        energy_matrix_quadrant: moare
     strong_positives:
     - flag: Revenue grew 250% YoY entering 2023 ($40M+ ARR) with 900% growth between
         Series B and C
       impact: Strong revenue growth trajectory indicates product-market fit and business
         sustainability
       confidence: High - explicit statement from TechCrunch
+      task_characteristics:
+        conflict_exposure: medium
+        alignment_clarity: medium
+        authority_ambiguity: medium
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: medium
+        requires_sync_communication: false
+        timezone_spread: medium
+      energy_quadrant: moare
+      energy_reasoning: 'Uses core strengths from profile (low learning required).
+
+        Moare quadrant: leverages strength while energizing.'
     - flag: Customer base grew from hundreds (2021) to 5,000+ clients (May 2024) with
         notable enterprise customers (Burger King, H&M)
       impact: Diverse, growing customer base with enterprise adoption reduces single-customer
         dependency risk
       confidence: High - explicit statements from PR Newswire, FinTech Global
+      task_characteristics:
+        conflict_exposure: medium
+        alignment_clarity: medium
+        authority_ambiguity: medium
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: medium
+        requires_sync_communication: false
+        timezone_spread: medium
+      energy_quadrant: moare
+      energy_reasoning: 'Uses tool_building strength (expert).
+
+        Moare quadrant: leverages strength while energizing.'
     - flag: Payment volumes increased 150%+ YTD as of May 2024
       impact: Recent continued growth signals ongoing business momentum post-2023
       confidence: High - explicit statement from PR Newswire
+      task_characteristics:
+        conflict_exposure: medium
+        alignment_clarity: medium
+        authority_ambiguity: medium
+        progress_visibility: high
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: medium
+        requires_sync_communication: false
+        timezone_spread: medium
+      energy_quadrant: moare
+      energy_reasoning: 'Provides visible_progress generator (core need).
+
+        Uses core strengths from profile (low learning required).
+
+        Moare quadrant: leverages strength while energizing.'
     - flag: 'Unique market position: only expense management company issuing local
         cards in LATAM, North America, and Europe simultaneously'
       impact: Technical moat and differentiation from competitors like Ramp/Brex -
         not competing on features alone
       confidence: High - explicit statement from TechCrunch
+      task_characteristics:
+        conflict_exposure: medium
+        alignment_clarity: medium
+        authority_ambiguity: medium
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: medium
+        requires_sync_communication: false
+        timezone_spread: medium
+      energy_quadrant: moare
+      energy_reasoning: 'Uses core strengths from profile (low learning required).
+
+        Moare quadrant: leverages strength while energizing.'
     - flag: Full principal member with Mastercard in Colombia, Mexico, Brazil with
         local BINs in 22 countries
       impact: Deep infrastructure partnerships create competitive moat - hard to replicate
       confidence: High - explicit statement from TechCrunch
+      task_characteristics:
+        conflict_exposure: medium
+        alignment_clarity: medium
+        authority_ambiguity: medium
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: medium
+        requires_sync_communication: false
+        timezone_spread: medium
+      energy_quadrant: moare
+      energy_reasoning: 'Provides tool_building generator (core need).
+
+        Uses infrastructure_automation strength (expert).
+
+        Moare quadrant: leverages strength while energizing.'
+    - flag: 3+ years runway as of mid-2023, recent $75M credit facility (May 2024)
+      impact: Extended financial stability removes short-term pressure and financial_anxiety
+      confidence: High - Explicit TechCrunch and PR Newswire reporting
+      task_implications:
+      - task: Design B2B payment rails for 150+ countries in 40+ currencies
+        time_estimate_pct: 15%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: low
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_glue_work: true
+          uses_infrastructure_automation: true
+          uses_decision_frameworks: true
+          collaboration_type: cross_team
+          meeting_intensity: moderate
+          requires_sync_communication: false
+          timezone_spread: wide
+        notes: Cross-border payment infrastructure uses glue_work to coordinate with
+          banking partners. 3+ year runway eliminates financial_anxiety drain.
+        energy_matrix_quadrant: moare
+    - flag: Remote/hybrid culture with 75% team outside US across 5 international
+        offices
+      impact: Aligns with profile's 6-hour timezone flexibility and async work capability
+      confidence: High - Explicit TechCrunch and company website reporting
+      task_implications:
+      - task: Build integrations with QuickBooks/Xero accounting platforms
+        time_estimate_pct: 10%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: low
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_glue_work: true
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: solo
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: narrow
+        notes: Remote-first culture supports async collaboration. API integration
+          work fits tool_building strength.
+        energy_matrix_quadrant: moare
   chosen_peak:
     critical_matches:
     - flag: 'Modern tech stack: React, TypeScript, AWS - standard industry tools'
       impact: Familiar, well-supported technologies reduce technical friction for
         senior engineers
       confidence: High - explicit from job posting analysis via TrueUp
+      task_characteristics:
+        conflict_exposure: medium
+        alignment_clarity: medium
+        authority_ambiguity: medium
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: medium
+        requires_sync_communication: false
+        timezone_spread: medium
+      energy_quadrant: moare
+      energy_reasoning: 'Provides tool_building generator (core need).
+
+        Uses tool_building strength (expert).
+
+        Moare quadrant: leverages strength while energizing.'
     - flag: Builds proprietary banking-as-a-service (BaaS) infrastructure
       impact: Complex technical challenges in regulated fintech space - meaningful
         work for senior IC
       confidence: High - explicit statement from TechCrunch
+      task_characteristics:
+        conflict_exposure: medium
+        alignment_clarity: medium
+        authority_ambiguity: medium
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: medium
+        requires_sync_communication: false
+        timezone_spread: medium
+      energy_quadrant: moare
+      energy_reasoning: 'Provides tool_building generator (core need).
+
+        Uses systems_thinking strength (expert).
+
+        Moare quadrant: leverages strength while energizing.'
     - flag: Implemented AI OCR engine for invoice scanning across 22 countries with
         multi-language support
       impact: Interesting ML/AI challenges at scale with real business impact - technical
         depth opportunity
       confidence: High - explicit from LinkedIn post by CTO Arpan Nanavati
+      task_characteristics:
+        conflict_exposure: medium
+        alignment_clarity: medium
+        authority_ambiguity: medium
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: medium
+        requires_sync_communication: false
+        timezone_spread: medium
+      energy_quadrant: moare
+      energy_reasoning: 'Uses core strengths from profile (low learning required).
+
+        Moare quadrant: leverages strength while energizing.'
     strong_positives:
     - flag: Engineering team shipped 300,693 new lines of code in summer 2023 product
         launch
       impact: High velocity engineering team capable of significant product delivery
       confidence: High - explicit from CTO LinkedIn post
+      task_characteristics:
+        conflict_exposure: medium
+        alignment_clarity: medium
+        authority_ambiguity: medium
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: medium
+        requires_sync_communication: false
+        timezone_spread: medium
+      energy_quadrant: moare
+      energy_reasoning: 'Uses core strengths from profile (low learning required).
+
+        Moare quadrant: leverages strength while energizing.'
     - flag: Uses modern AI-driven features for receipt categorization and fraud detection
       impact: Investing in ML/AI capabilities beyond core fintech - expanding technical
         scope
       confidence: High - explicit from company blog
+      task_characteristics:
+        conflict_exposure: medium
+        alignment_clarity: medium
+        authority_ambiguity: medium
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: medium
+        requires_sync_communication: false
+        timezone_spread: medium
+      energy_quadrant: moare
+      energy_reasoning: 'Uses core strengths from profile (low learning required).
+
+        Moare quadrant: leverages strength while energizing.'
     - flag: Won 'PayTech Startup of the Year' at Banking Tech Awards
       impact: Industry recognition for technical and product innovation
       confidence: High - explicit from LinkedIn
+      task_characteristics:
+        conflict_exposure: medium
+        alignment_clarity: medium
+        authority_ambiguity: medium
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: medium
+        requires_sync_communication: false
+        timezone_spread: medium
+      energy_quadrant: moare
+      energy_reasoning: 'Uses core strengths from profile (low learning required).
+
+        Moare quadrant: leverages strength while energizing.'
   rope_team_confidence:
     critical_matches: []
     strong_positives:
@@ -76,29 +471,127 @@ green_flags:
       impact: Proven operator who has scaled and exited a company successfully - reduces
         execution risk
       confidence: High - explicit from tryjeeves.com, FF News
+      task_characteristics:
+        conflict_exposure: medium
+        alignment_clarity: medium
+        authority_ambiguity: medium
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: medium
+        requires_sync_communication: false
+        timezone_spread: medium
+      energy_quadrant: moare
+      energy_reasoning: 'Uses core strengths from profile (low learning required).
+
+        Moare quadrant: leverages strength while energizing.'
     - flag: C-suite scaled in 2022-2023 with experienced hires from public companies
         (CFO from Payoneer, CCO from Marqeta, CRO from Brex)
       impact: Organizational maturity increasing with experienced leadership - addressing
         'avoid chaotic early-stage' concern
       confidence: High - explicit from TechCrunch, FFNews
+      task_characteristics:
+        conflict_exposure: medium
+        alignment_clarity: medium
+        authority_ambiguity: medium
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: medium
+        requires_sync_communication: false
+        timezone_spread: medium
+      energy_quadrant: moare
+      energy_reasoning: 'Uses core strengths from profile (low learning required).
+
+        Moare quadrant: leverages strength while energizing.'
     - flag: Angela Strange (a16z General Partner) on board
       impact: Strong board oversight from top-tier VC with fintech expertise
       confidence: High - explicit from a16z.com
+      task_characteristics:
+        conflict_exposure: medium
+        alignment_clarity: medium
+        authority_ambiguity: medium
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: medium
+        requires_sync_communication: false
+        timezone_spread: medium
+      energy_quadrant: moare
+      energy_reasoning: 'Uses core strengths from profile (low learning required).
+
+        Moare quadrant: leverages strength while energizing.'
   daily_climb:
     critical_matches:
     - flag: Fully remote/hybrid-remote with 75% of team outside US, offices in São
         Paulo, Bogotá, Mexico City, Madrid
       impact: Directly addresses remote flexibility priority - distributed-first culture
       confidence: High - explicit from TechCrunch, Refresh Miami
+      task_characteristics:
+        conflict_exposure: medium
+        alignment_clarity: medium
+        authority_ambiguity: medium
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: medium
+        requires_sync_communication: false
+        timezone_spread: medium
+      energy_quadrant: moare
+      energy_reasoning: 'Uses core strengths from profile (low learning required).
+
+        Moare quadrant: leverages strength while energizing.'
     - flag: Employee reviews highlight remote flexibility and great colleagues as
         pros
       impact: Confirmed positive work-life balance signals from actual employees
       confidence: 'Medium - from Glassdoor reviews (small sample: 13 reviews)'
+      task_characteristics:
+        conflict_exposure: medium
+        alignment_clarity: medium
+        authority_ambiguity: medium
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: medium
+        requires_sync_communication: false
+        timezone_spread: medium
+      energy_quadrant: moare
+      energy_reasoning: 'Uses core strengths from profile (low learning required).
+
+        Moare quadrant: leverages strength while energizing.'
     strong_positives:
     - flag: 150-260 employee company size - mid-stage not early chaos
       impact: Right-sized organization avoiding early-stage chaos while maintaining
         impact potential
       confidence: High - explicit from multiple sources
+      task_characteristics:
+        conflict_exposure: high
+        alignment_clarity: medium
+        authority_ambiguity: medium
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: medium
+        requires_sync_communication: false
+        timezone_spread: medium
+      energy_quadrant: sparingly
+      energy_reasoning: 'Exposes to interpersonal_conflict drain (severe).
+
+        Uses core strengths from profile.
+
+        Sparingly quadrant: leverages expertise but at energy cost.'
   story_worth_telling:
     critical_matches: []
     strong_positives:
@@ -106,15 +599,65 @@ green_flags:
         Stanford)
       impact: Significant equity upside potential if company continues growth trajectory
       confidence: High - explicit from TechCrunch
+      task_characteristics:
+        conflict_exposure: medium
+        alignment_clarity: medium
+        authority_ambiguity: medium
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: medium
+        requires_sync_communication: false
+        timezone_spread: medium
+      energy_quadrant: moare
+      energy_reasoning: 'Uses core strengths from profile (low learning required).
+
+        Moare quadrant: leverages strength while energizing.'
     - flag: Complex multi-region fintech infrastructure (30+ countries, 22 local BINs,
         cross-border payments)
       impact: Resume-worthy technical challenge - global scale fintech infrastructure
         is rare experience
       confidence: High - explicit from tryjeeves.com, TechCrunch
+      task_characteristics:
+        conflict_exposure: medium
+        alignment_clarity: medium
+        authority_ambiguity: medium
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: medium
+        requires_sync_communication: false
+        timezone_spread: medium
+      energy_quadrant: moare
+      energy_reasoning: 'Provides tool_building generator (core need).
+
+        Uses systems_thinking strength (expert).
+
+        Moare quadrant: leverages strength while energizing.'
     - flag: Operating in high-growth market ($336.94B projected by 2033 at 7.6% CAGR
         for corporate cards)
       impact: Industry tailwinds support long-term career growth and company sustainability
       confidence: High - explicit from Business Research Insights
+      task_characteristics:
+        conflict_exposure: medium
+        alignment_clarity: medium
+        authority_ambiguity: medium
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: medium
+        requires_sync_communication: false
+        timezone_spread: medium
+      energy_quadrant: moare
+      energy_reasoning: 'Uses core strengths from profile (low learning required).
+
+        Moare quadrant: leverages strength while energizing.'
 red_flags:
   mountain_range:
     dealbreakers: []
@@ -124,19 +667,200 @@ red_flags:
       impact: Financial sustainability unclear - path to profitability not demonstrated
         despite $40M ARR
       confidence: High - explicit from TechCrunch (mid-2023 data, now 1.5 years old)
+      task_characteristics:
+        conflict_exposure: low
+        alignment_clarity: medium
+        authority_ambiguity: high
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: slow
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: medium
+        requires_sync_communication: false
+        timezone_spread: medium
+      energy_quadrant: moare
+      energy_reasoning: 'Uses core strengths from profile (low learning required).
+
+        Moare quadrant: leverages strength while energizing.'
     - flag: Competing against much larger, better-funded rivals (Brex $12.3B valuation,
         Ramp $8.1B)
       impact: Resource disadvantage vs competitors could limit growth and increase
         financial pressure
       confidence: High - explicit from CB Insights, TechCrunch
+      task_characteristics:
+        conflict_exposure: low
+        alignment_clarity: medium
+        authority_ambiguity: medium
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: medium
+        requires_sync_communication: false
+        timezone_spread: medium
+      energy_quadrant: moare
+      energy_reasoning: 'Uses core strengths from profile (low learning required).
+
+        Moare quadrant: leverages strength while energizing.'
     - flag: Customer complaints about credit lines decreased without notice and cross-border
         fees added
       impact: Potential revenue pressure forcing customer-unfriendly changes - sign
         of financial stress
       confidence: Medium - from TrustPilot reviews (4.1/5 rating suggests not widespread)
+      task_characteristics:
+        conflict_exposure: low
+        alignment_clarity: medium
+        authority_ambiguity: medium
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: medium
+        requires_sync_communication: false
+        timezone_spread: medium
+      energy_quadrant: moare
+      energy_reasoning: 'Eliminates financial_anxiety drain (moderate) by providing
+        financial stability.
+
+        Uses core strengths from profile (low learning required).
+
+        Moare quadrant: leverages strength while energizing.'
     - flag: No financial data beyond May 2024 - 5+ months visibility gap
       impact: Cannot assess current financial health or recent trajectory
       confidence: High - confirmed gap in available data
+      task_characteristics:
+        conflict_exposure: low
+        alignment_clarity: medium
+        authority_ambiguity: medium
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: medium
+        requires_sync_communication: false
+        timezone_spread: medium
+      energy_quadrant: moare
+      energy_reasoning: 'Uses core strengths from profile (low learning required).
+
+        Moare quadrant: leverages strength while energizing.'
+    - flag: CTO departure after only 2 years (Jan 2024), position appears unfilled
+      impact: Leadership instability in critical technical role. Could indicate product/engineering
+        issues mentioned in Glassdoor reviews.
+      confidence: High - LinkedIn and ContactOut verification
+      task_implications:
+      - task: Navigate engineering leadership vacuum and potential strategic uncertainty
+        time_estimate_pct: 10%
+        characteristics:
+          conflict_exposure: moderate
+          alignment_clarity: moderate
+          authority_ambiguity: high
+          progress_visibility: moderate
+          autonomy_level: moderate
+          decision_speed: slow
+          learning_required: low
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: true
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: true
+          collaboration_type: cross_team
+          meeting_intensity: moderate
+          requires_sync_communication: true
+          timezone_spread: wide
+        notes: CTO absence creates authority_ambiguity (profile drain). May trigger
+          misalignment if engineering direction unclear. Uses decision_frameworks
+          and glue_work but without visible_progress generator.
+        energy_matrix_quadrant: sparingly
+    - flag: Employee reviews mention 'challenges with product and engineering leadership'
+      impact: Potential interpersonal_conflict exposure (severe drain from profile).
+        Could indicate organizational dysfunction.
+      confidence: Medium - Limited Glassdoor sample (13 reviews)
+      task_implications:
+      - task: Work through product/engineering leadership challenges and potential
+          team conflicts
+        time_estimate_pct: 8%
+        characteristics:
+          conflict_exposure: high
+          alignment_clarity: low
+          authority_ambiguity: high
+          progress_visibility: low
+          autonomy_level: low
+          decision_speed: slow
+          learning_required: moderate
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: true
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: true
+          collaboration_type: cross_team
+          meeting_intensity: high
+          requires_sync_communication: true
+          timezone_spread: wide
+        notes: Leadership challenges trigger interpersonal_conflict (severe drain
+          from profile) and misalignment. High meeting_intensity with wide timezone_spread
+          violates profile coherence needs.
+        energy_matrix_quadrant: sparingly
+    - flag: Not yet profitable, contribution profit focus suggests unit economics
+        still being optimized
+      impact: Some financial_anxiety (moderate drain from profile) despite strong
+        runway. Growth vs profitability tension.
+      confidence: High - Explicit TechCrunch reporting mid-2023
+      task_implications:
+      - task: Balance feature development against cost optimization initiatives
+        time_estimate_pct: 7%
+        characteristics:
+          conflict_exposure: moderate
+          alignment_clarity: moderate
+          authority_ambiguity: moderate
+          progress_visibility: moderate
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: low
+          uses_systems_thinking: true
+          uses_tool_building: false
+          uses_glue_work: true
+          uses_infrastructure_automation: true
+          uses_decision_frameworks: true
+          collaboration_type: cross_team
+          meeting_intensity: moderate
+          requires_sync_communication: true
+          timezone_spread: moderate
+        notes: Pre-profitability creates some financial_anxiety despite 3+ year runway.
+          Trade-offs between growth and efficiency may slow decision_speed.
+        energy_matrix_quadrant: sparingly
+    - flag: Customer complaints about credit lines decreased without notice, card
+        functionality issues
+      impact: Product reliability and customer trust issues. May indicate technical
+        debt or operational immaturity.
+      confidence: Medium - TrustPilot reviews (4.1/5 rating, 103 reviews)
+      task_implications:
+      - task: Fix production reliability issues and rebuild customer trust in core
+          card platform
+        time_estimate_pct: 5%
+        characteristics:
+          conflict_exposure: moderate
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: moderate
+          decision_speed: fast
+          learning_required: moderate
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_glue_work: false
+          uses_infrastructure_automation: true
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: moderate
+          requires_sync_communication: true
+          timezone_spread: moderate
+        notes: Operational issues provide visible_progress opportunity (profile generator)
+          when fixed. Uses infrastructure_automation and systems_thinking strengths.
+        energy_matrix_quadrant: moare
   chosen_peak:
     dealbreakers:
     - flag: CTO departed January 2024 after only 2 years, position unfilled 9+ months,
@@ -145,23 +869,95 @@ red_flags:
         for senior IC seeking strong technical leadership
       confidence: High - multiple sources confirm CTO departure, vacancy duration,
         and employee feedback
+      task_characteristics:
+        conflict_exposure: high
+        alignment_clarity: medium
+        authority_ambiguity: medium
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: medium
+        requires_sync_communication: false
+        timezone_spread: medium
+      energy_quadrant: sparingly
+      energy_reasoning: 'Exposes to interpersonal_conflict drain (severe).
+
+        Uses core strengths from profile.
+
+        Sparingly quadrant: leverages expertise but at energy cost.'
     concerning:
     - flag: Employee reviews mention 'challenges with product and engineering leadership'
       impact: Direct signal of weak engineering culture and leadership issues - core
         concern for evaluator
       confidence: 'Medium - from Glassdoor (small sample: 13 reviews, but specific
         to concern area)'
+      task_characteristics:
+        conflict_exposure: medium
+        alignment_clarity: medium
+        authority_ambiguity: medium
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: medium
+        requires_sync_communication: false
+        timezone_spread: medium
+      energy_quadrant: sparingly
+      energy_reasoning: 'Creates draining conditions despite using expertise.
+
+        Uses core strengths from profile.
+
+        Sparingly quadrant: leverages expertise but at energy cost.'
     - flag: No open source presence, no engineering blog, no conference talks, no
         public GitHub
       impact: Limited external technical visibility suggests insular engineering culture
         - may not be investing in engineering brand or technical thought leadership
       confidence: High - confirmed absence across multiple sources
+      task_characteristics:
+        conflict_exposure: medium
+        alignment_clarity: medium
+        authority_ambiguity: medium
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: medium
+        requires_sync_communication: false
+        timezone_spread: medium
+      energy_quadrant: sparingly
+      energy_reasoning: 'Creates draining conditions despite using expertise.
+
+        Uses core strengths from profile.
+
+        Sparingly quadrant: leverages expertise but at energy cost.'
     - flag: Coordination style unknown - no visibility into team practices, decision-making,
         or realignment ability
       impact: Cannot assess if team coordination style matches demands of multi-region
         fintech infrastructure complexity
       confidence: High - no data on engineering practices, team structure, decision
         authority
+      task_characteristics:
+        conflict_exposure: medium
+        alignment_clarity: medium
+        authority_ambiguity: medium
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: medium
+        requires_sync_communication: false
+        timezone_spread: medium
+      energy_quadrant: moare
+      energy_reasoning: 'Provides tool_building generator (core need).
+
+        Uses systems_thinking strength (expert).
+
+        Moare quadrant: leverages strength while energizing.'
   rope_team_confidence:
     dealbreakers: []
     concerning:
@@ -170,15 +966,69 @@ red_flags:
       impact: Critical leadership instability in engineering - suggests either hiring
         challenges or organizational issues
       confidence: High - explicit from LinkedIn, ContactOut
+      task_characteristics:
+        conflict_exposure: high
+        alignment_clarity: medium
+        authority_ambiguity: medium
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: medium
+        requires_sync_communication: false
+        timezone_spread: medium
+      energy_quadrant: sparingly
+      energy_reasoning: 'Creates draining conditions despite using expertise.
+
+        Uses core strengths from profile.
+
+        Sparingly quadrant: leverages expertise but at energy cost.'
     - flag: Only 13 Glassdoor reviews for 150-260 person company - very limited employee
         feedback
       impact: Low transparency into actual employee experience - cannot validate culture
         claims
       confidence: High - explicit from Glassdoor
+      task_characteristics:
+        conflict_exposure: medium
+        alignment_clarity: medium
+        authority_ambiguity: medium
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: medium
+        requires_sync_communication: false
+        timezone_spread: medium
+      energy_quadrant: sparingly
+      energy_reasoning: 'Creates draining conditions despite using expertise.
+
+        Uses core strengths from profile.
+
+        Sparingly quadrant: leverages expertise but at energy cost.'
     - flag: Employee cons specifically call out engineering leadership challenges
       impact: Direct negative signal about engineering management quality - key evaluator
         concern
       confidence: Medium - small Glassdoor sample size, but specific feedback
+      task_characteristics:
+        conflict_exposure: medium
+        alignment_clarity: medium
+        authority_ambiguity: medium
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: medium
+        requires_sync_communication: false
+        timezone_spread: medium
+      energy_quadrant: sparingly
+      energy_reasoning: 'Creates draining conditions despite using expertise.
+
+        Uses core strengths from profile.
+
+        Sparingly quadrant: leverages expertise but at energy cost.'
   daily_climb:
     dealbreakers:
     - flag: Majority of engineering in LATAM timezones (São Paulo 32%, Mexico City
@@ -187,6 +1037,24 @@ red_flags:
         for EU-based senior IC role - cannot participate in real-time discussions,
         code reviews, or architectural decisions
       confidence: High - explicit from TrueUp job posting analysis
+      task_characteristics:
+        conflict_exposure: medium
+        alignment_clarity: medium
+        authority_ambiguity: medium
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: medium
+        requires_sync_communication: false
+        timezone_spread: medium
+      energy_quadrant: sparingly
+      energy_reasoning: 'Creates draining conditions despite using expertise.
+
+        Uses decision_frameworks strength (proficient) to navigate challenges.
+
+        Sparingly quadrant: leverages expertise but at energy cost.'
     concerning: []
   story_worth_telling:
     dealbreakers: []
@@ -196,6 +1064,24 @@ red_flags:
       impact: Cannot confirm 'senior IC growth path without forced management' priority
         - critical unknown
       confidence: High - no data found on engineering career ladders or IC tracks
+      task_characteristics:
+        conflict_exposure: medium
+        alignment_clarity: medium
+        authority_ambiguity: medium
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: medium
+        requires_sync_communication: false
+        timezone_spread: medium
+      energy_quadrant: sparingly
+      energy_reasoning: 'Creates draining conditions despite using expertise.
+
+        Uses core strengths from profile.
+
+        Sparingly quadrant: leverages expertise but at energy cost.'
 missing_critical_data:
 - question: Who is currently leading engineering after CTO departure in Jan 2024?
     What is the engineering leadership structure?
@@ -287,12 +1173,73 @@ synthesis:
     (multi-region BaaS infrastructure), these positives cannot overcome the engineering
     culture and timezone mismatch dealbreakers.'
   key_decision_factors:
-  - 'Engineering leadership is fundamentally broken - CTO vacancy for 9+ months with
-    employee complaints is disqualifying'
+  - Engineering leadership is fundamentally broken - CTO vacancy for 9+ months with
+    employee complaints is disqualifying
   - EU timezone incompatibility makes effective collaboration impossible
   - These two dealbreakers override any positive financial or technical aspects
   recommended_next_steps:
   - Do not pursue this opportunity
   - Archive as reference case for identifying engineering leadership red flags
   - Use timezone distribution analysis for future company evaluations
+  energy_matrix:
+    moare_percentage: 76
+    sparingly_percentage: 24
+    burnout_percentage: 0
+    help_mentoring_percentage: 0
+    meets_thresholds: true
+    energy_sustainability: HIGH
+    sustainability_reasoning: 76% moare work leveraging core strengths with energizing
+      conditions. 24% sparingly work using expertise at energy cost. 0% burnout work
+      requiring learning under draining conditions. Meets both thresholds (≥60% moare,
+      ≤20% burnout) for sustainable 25+ year career pace.
+    key_energy_insights:
+    - 76% moare work leverages core strengths with energizing conditions
+    - 24% sparingly work uses expertise but exposes to energy drains
+    energy_concerns: []
+    quadrant_breakdown:
+      moare:
+        count: 35
+        percentage: 76
+        key_examples:
+        - No layoffs despite 2022-2024 fintech industry cuts, with employee count
+          growing from 150 to 182 (202...
+        - 3+ years runway as of mid-2023 with $380M-$447M total funding raised
+      sparingly:
+        count: 11
+        percentage: 24
+        key_examples:
+        - 150-260 employee company size - mid-stage not early chaos
+        - CTO departed January 2024 after only 2 years, position unfilled 9+ months,
+          with employee reviews cit...
+      burnout:
+        count: 0
+        percentage: 0
+        key_examples: []
+      help_mentoring:
+        count: 0
+        percentage: 0
+        key_examples: []
+  energy_matrix_analysis:
+    profile_version_used: '1.0'
+    predicted_daily_distribution:
+      moare_green_flags:
+        percentage: 80.8
+        tasks_count: 6
+      sparingly_yellow_flags:
+        percentage: 19.2
+        tasks_count: 3
+      burnout_red_flags:
+        percentage: 0.0
+        tasks_count: 0
+      help_mentoring_yellow_flags:
+        percentage: 0.0
+        tasks_count: 0
+    threshold_analysis:
+      meets_green_minimum: true
+      exceeds_red_maximum: false
+      exceeds_yellow_maximum: false
+    energy_sustainability: HIGH
+    key_insights: []
+    decision_factors: []
 company_slug: jeeves
+profile_version_used: '1.0'

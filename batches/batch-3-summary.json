@@ -1,0 +1,30 @@
+{
+  "batch_number": 3,
+  "total_companies": 10,
+  "completed": 10,
+  "errors": 0,
+  "error_details": [],
+  "energy_distribution_stats": {
+    "avg_moare_pct": 69.2,
+    "avg_sparingly_pct": 30.5,
+    "avg_burnout_pct": 0.0,
+    "avg_help_mentoring_pct": 0.3,
+    "companies_meeting_thresholds": 8,
+    "companies_below_threshold": [
+      {
+        "company": "mechanical-orchard",
+        "moare_pct": 20,
+        "burnout_pct": 0,
+        "concern": "Moare 20% (<60% target) and/or burnout 0% (>20% limit)"
+      },
+      {
+        "company": "samsara",
+        "moare_pct": 55,
+        "burnout_pct": 0,
+        "concern": "Moare 55% (<60% target) and/or burnout 0% (>20% limit)"
+      }
+    ]
+  },
+  "processing_notes": "Automated Energy Matrix annotation with detailed flag-by-flag analysis",
+  "timestamp": "2025-11-09T10:30:03.370385"
+}

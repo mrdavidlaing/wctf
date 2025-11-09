@@ -1,5 +1,5 @@
 company: HashiCorp
-evaluation_date: '2025-10-27'
+evaluation_date: '2025-11-09'
 evaluator_context: Extracted from conversation notes
 green_flags:
   mountain_range:
@@ -16,6 +16,178 @@ green_flags:
         adoption - problems you solve affect millions of engineers globally
       confidence: High - Next Platform and IBM Newsroom explicit statements (2023-09-05,
         2024-04-24)
+    - flag: Strong technical foundation with 2B+ Terraform downloads
+      impact: World-class infrastructure automation tooling
+      confidence: High
+      task_implications: []
+    - flag: Strong technical foundation with 2B+ Terraform downloads, 85% Fortune
+        500 adoption
+      impact: World-class infrastructure automation tooling with proven scale
+      confidence: High - explicit download and customer metrics
+      task_implications:
+      - task: Build infrastructure automation tools (Terraform, Vault, Consul) handling
+          Fortune 500 scale
+        time_estimate_pct: 35%
+        characteristics:
+          conflict_exposure: moderate
+          alignment_clarity: moderate
+          authority_ambiguity: moderate
+          progress_visibility: high
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: low
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_glue_work: false
+          uses_infrastructure_automation: true
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: moderate
+          requires_sync_communication: false
+          timezone_spread: moderate
+        notes: IBM acquisition creates moderate authority_ambiguity and alignment
+          uncertainty. Strong match for systems_thinking, tool_building, infrastructure_automation
+          strengths. Visible progress generator through infrastructure tooling.
+        energy_matrix_quadrant: moare
+    - flag: Path to profitability with first positive non-GAAP EPS, strong 83-86%
+        gross margins
+      impact: Financial stability, eliminates burn rate anxiety
+      confidence: High - Q3 FY2024 financial results
+      task_implications:
+      - task: Build features focused on customer value rather than survival pivots
+        time_estimate_pct: 25%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: low
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_glue_work: false
+          uses_infrastructure_automation: true
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: moderate
+        notes: Profitability eliminates financial_anxiety drain (moderate severity).
+          Enables high autonomy and fast decision_speed. Clear product focus supports
+          alignment.
+        energy_matrix_quadrant: moare
+    - flag: Remote-first culture with 80%+ remote across 30+ states and 13+ countries
+      impact: Timezone flexibility, async-friendly culture
+      confidence: High - explicit company policy
+      task_implications:
+      - task: Collaborate asynchronously across distributed team with clear documentation
+        time_estimate_pct: 15%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: moderate
+          authority_ambiguity: moderate
+          progress_visibility: moderate
+          autonomy_level: high
+          decision_speed: moderate
+          learning_required: none
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: true
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: wide
+        notes: Remote-first enables async_first_culture from profile coherence needs.
+          High autonomy supports autonomy_level generator. Low meeting intensity fits
+          20-30% ideal from profile.
+        energy_matrix_quadrant: sparingly
+    - flag: Strong technical foundation with 2B+ Terraform downloads, 85% Fortune
+        500 adoption
+      impact: World-class infrastructure automation tooling with proven scale
+      confidence: High - explicit download and customer metrics
+      task_implications:
+      - task: Build infrastructure automation tools (Terraform, Vault, Consul) handling
+          Fortune 500 scale
+        time_estimate_pct: 35%
+        characteristics:
+          conflict_exposure: moderate
+          alignment_clarity: moderate
+          authority_ambiguity: moderate
+          progress_visibility: high
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: low
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_glue_work: false
+          uses_infrastructure_automation: true
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: moderate
+          requires_sync_communication: false
+          timezone_spread: moderate
+        notes: IBM acquisition creates moderate authority_ambiguity and alignment
+          uncertainty. Strong match for systems_thinking, tool_building, infrastructure_automation
+          strengths. Visible progress generator through infrastructure tooling.
+        energy_matrix_quadrant: moare
+    - flag: Path to profitability with first positive non-GAAP EPS, strong 83-86%
+        gross margins
+      impact: Financial stability, eliminates burn rate anxiety
+      confidence: High - Q3 FY2024 financial results
+      task_implications:
+      - task: Build features focused on customer value rather than survival pivots
+        time_estimate_pct: 25%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: low
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_glue_work: false
+          uses_infrastructure_automation: true
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: moderate
+        notes: Profitability eliminates financial_anxiety drain (moderate severity).
+          Enables high autonomy and fast decision_speed. Clear product focus supports
+          alignment.
+        energy_matrix_quadrant: moare
+    - flag: Remote-first culture with 80%+ remote across 30+ states and 13+ countries
+      impact: Timezone flexibility, async-friendly culture
+      confidence: High - explicit company policy
+      task_implications:
+      - task: Collaborate asynchronously across distributed team with clear documentation
+        time_estimate_pct: 15%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: moderate
+          authority_ambiguity: moderate
+          progress_visibility: moderate
+          autonomy_level: high
+          decision_speed: moderate
+          learning_required: none
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: true
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: wide
+        notes: Remote-first enables async_first_culture from profile coherence needs.
+          High autonomy supports autonomy_level generator. Low meeting intensity fits
+          20-30% ideal from profile.
+        energy_matrix_quadrant: sparingly
     strong_positives:
     - flag: Strong gross margins of 83-86% with improving profitability trajectory
         (first profitable quarter Q3 FY2024 with $5.6M non-GAAP net income)
@@ -28,6 +200,114 @@ green_flags:
       impact: No financial stress or layoff risk from cash constraints - can focus
         on technical work rather than survival mode
       confidence: High - IBM Newsroom explicit statement (2025-02-27)
+    - flag: Go-based engineering culture with 923 GitHub repos, no LeetCode interviews
+      impact: Practical engineering culture aligned with real-world problem solving
+      confidence: High - explicit hiring documentation
+      task_implications:
+      - task: Write production Go code with code pairing and system design focus
+        time_estimate_pct: 15%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: moderate
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_glue_work: false
+          uses_infrastructure_automation: true
+          uses_decision_frameworks: false
+          collaboration_type: paired
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: moderate
+        notes: Go expertise required but moderate learning_required given systems
+          background. Practical interviews eliminate algorithm theater. Code pairing
+          supports visible_progress generator.
+        energy_matrix_quadrant: moare
+    - flag: Strong employee satisfaction (4.0/5 Glassdoor, 93% Great Place to Work)
+      impact: Positive culture despite acquisition uncertainty
+      confidence: High - multiple review sources
+      task_implications:
+      - task: Work with engaged colleagues who value culture principles (Integrity,
+          Kindness, Pragmatism)
+        time_estimate_pct: 10%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: moderate
+          authority_ambiguity: moderate
+          progress_visibility: moderate
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: none
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: true
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: moderate
+          requires_sync_communication: false
+          timezone_spread: moderate
+        notes: Strong culture reduces interpersonal_conflict drain risk. 9 foundational
+          principles provide decision_frameworks for conflict prevention.
+        energy_matrix_quadrant: sparingly
+    - flag: Go-based engineering culture with 923 GitHub repos, no LeetCode interviews
+      impact: Practical engineering culture aligned with real-world problem solving
+      confidence: High - explicit hiring documentation
+      task_implications:
+      - task: Write production Go code with code pairing and system design focus
+        time_estimate_pct: 15%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: moderate
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_glue_work: false
+          uses_infrastructure_automation: true
+          uses_decision_frameworks: false
+          collaboration_type: paired
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: moderate
+        notes: Go expertise required but moderate learning_required given systems
+          background. Practical interviews eliminate algorithm theater. Code pairing
+          supports visible_progress generator.
+        energy_matrix_quadrant: moare
+    - flag: Strong employee satisfaction (4.0/5 Glassdoor, 93% Great Place to Work)
+      impact: Positive culture despite acquisition uncertainty
+      confidence: High - multiple review sources
+      task_implications:
+      - task: Work with engaged colleagues who value culture principles (Integrity,
+          Kindness, Pragmatism)
+        time_estimate_pct: 10%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: moderate
+          authority_ambiguity: moderate
+          progress_visibility: moderate
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: none
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: true
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: moderate
+          requires_sync_communication: false
+          timezone_spread: moderate
+        notes: Strong culture reduces interpersonal_conflict drain risk. 9 foundational
+          principles provide decision_frameworks for conflict prevention.
+        energy_matrix_quadrant: sparingly
   chosen_peak:
     critical_matches:
     - flag: Engineering interview process focuses on real engineering skills (machine
@@ -151,6 +431,272 @@ red_flags:
       impact: Recent layoffs indicate financial stress and willingness to cut engineering
         - survivors often face increased workload and reduced morale
       confidence: High - ChannelWeb explicit statement (2023-06-08)
+    - flag: IBM acquisition integration uncertainty - only 9 months post-close
+      impact: Potential culture clash, authority ambiguity, strategic direction changes
+      confidence: High - recent acquisition with mixed employee reviews
+      task_implications:
+      - task: Navigate IBM integration changes and unclear reporting structures
+        time_estimate_pct: 15%
+        characteristics:
+          conflict_exposure: high
+          alignment_clarity: low
+          authority_ambiguity: high
+          progress_visibility: low
+          autonomy_level: low
+          decision_speed: slow
+          learning_required: moderate
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: true
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: cross_team
+          meeting_intensity: high
+          requires_sync_communication: true
+          timezone_spread: moderate
+        notes: Acquisition triggers authority_ambiguity (moderate drain) and misalignment
+          (severe drain). Post-acquisition reviews show 'concerns about changes and
+          ambiguity'. High conflict_exposure risk.
+        energy_matrix_quadrant: burnout
+    - flag: Growth deceleration from 48% to 19% YoY, declining NDR from 119% to 109%
+      impact: Market maturity pressure, potential for cost-cutting and layoffs
+      confidence: High - explicit financial metrics
+      task_implications:
+      - task: Work under efficiency pressure with potential headcount uncertainty
+        time_estimate_pct: 10%
+        characteristics:
+          conflict_exposure: moderate
+          alignment_clarity: moderate
+          authority_ambiguity: moderate
+          progress_visibility: moderate
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: none
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: false
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: moderate
+          requires_sync_communication: false
+          timezone_spread: moderate
+        notes: Prior 8% layoffs (2023) create financial_anxiety moderate drain. Declining
+          growth may trigger cost focus. NDR decline shows customer contraction.
+        energy_matrix_quadrant: burnout
+    - flag: Co-founder Mitchell Hashimoto departed Dec 2023, CFO resigned Sept 2024
+      impact: Leadership instability during critical acquisition integration period
+      confidence: High - explicit departures
+      task_implications:
+      - task: Adapt to leadership changes and potential strategic shifts
+        time_estimate_pct: 8%
+        characteristics:
+          conflict_exposure: moderate
+          alignment_clarity: low
+          authority_ambiguity: high
+          progress_visibility: low
+          autonomy_level: moderate
+          decision_speed: slow
+          learning_required: low
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: true
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: moderate
+          requires_sync_communication: true
+          timezone_spread: moderate
+        notes: Leadership departures worsen authority_ambiguity and alignment_clarity.
+          Co-founder exit removes technical vision anchor. Interim CFO adds uncertainty.
+        energy_matrix_quadrant: sparingly
+    - flag: BSL 1.1 license change from MPL 2.0 (Aug 2023) restricting commercial
+        use
+      impact: Community backlash, fork risk (OpenTofu), OSS reputation damage
+      confidence: High - documented license change
+      task_implications:
+      - task: Navigate community relations and fork ecosystem challenges
+        time_estimate_pct: 7%
+        characteristics:
+          conflict_exposure: high
+          alignment_clarity: moderate
+          authority_ambiguity: moderate
+          progress_visibility: low
+          autonomy_level: low
+          decision_speed: slow
+          learning_required: moderate
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: true
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: true
+          collaboration_type: cross_team
+          meeting_intensity: high
+          requires_sync_communication: true
+          timezone_spread: moderate
+        notes: License controversy creates external conflict_exposure. OpenTofu fork
+          divides community. High interpersonal_conflict risk in community interactions.
+        energy_matrix_quadrant: sparingly
+    - flag: Only 56% positive business outlook post-acquisition (Glassdoor)
+      impact: Low employee confidence in future direction
+      confidence: Medium - sentiment from reviews
+      task_implications:
+      - task: Work amidst colleague uncertainty and potential morale challenges
+        time_estimate_pct: 10%
+        characteristics:
+          conflict_exposure: moderate
+          alignment_clarity: low
+          authority_ambiguity: moderate
+          progress_visibility: moderate
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: none
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: true
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: moderate
+          requires_sync_communication: false
+          timezone_spread: moderate
+        notes: Low confidence (56% vs typical 70%+) indicates misalignment concerns.
+          Team may be moving in different directions - triggers severe misalignment
+          drain.
+        energy_matrix_quadrant: sparingly
+    - flag: IBM acquisition integration uncertainty - only 9 months post-close
+      impact: Potential culture clash, authority ambiguity, strategic direction changes
+      confidence: High - recent acquisition with mixed employee reviews
+      task_implications:
+      - task: Navigate IBM integration changes and unclear reporting structures
+        time_estimate_pct: 15%
+        characteristics:
+          conflict_exposure: high
+          alignment_clarity: low
+          authority_ambiguity: high
+          progress_visibility: low
+          autonomy_level: low
+          decision_speed: slow
+          learning_required: moderate
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: true
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: cross_team
+          meeting_intensity: high
+          requires_sync_communication: true
+          timezone_spread: moderate
+        notes: Acquisition triggers authority_ambiguity (moderate drain) and misalignment
+          (severe drain). Post-acquisition reviews show 'concerns about changes and
+          ambiguity'. High conflict_exposure risk.
+        energy_matrix_quadrant: burnout
+    - flag: Growth deceleration from 48% to 19% YoY, declining NDR from 119% to 109%
+      impact: Market maturity pressure, potential for cost-cutting and layoffs
+      confidence: High - explicit financial metrics
+      task_implications:
+      - task: Work under efficiency pressure with potential headcount uncertainty
+        time_estimate_pct: 10%
+        characteristics:
+          conflict_exposure: moderate
+          alignment_clarity: moderate
+          authority_ambiguity: moderate
+          progress_visibility: moderate
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: none
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: false
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: moderate
+          requires_sync_communication: false
+          timezone_spread: moderate
+        notes: Prior 8% layoffs (2023) create financial_anxiety moderate drain. Declining
+          growth may trigger cost focus. NDR decline shows customer contraction.
+        energy_matrix_quadrant: burnout
+    - flag: Co-founder Mitchell Hashimoto departed Dec 2023, CFO resigned Sept 2024
+      impact: Leadership instability during critical acquisition integration period
+      confidence: High - explicit departures
+      task_implications:
+      - task: Adapt to leadership changes and potential strategic shifts
+        time_estimate_pct: 8%
+        characteristics:
+          conflict_exposure: moderate
+          alignment_clarity: low
+          authority_ambiguity: high
+          progress_visibility: low
+          autonomy_level: moderate
+          decision_speed: slow
+          learning_required: low
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: true
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: moderate
+          requires_sync_communication: true
+          timezone_spread: moderate
+        notes: Leadership departures worsen authority_ambiguity and alignment_clarity.
+          Co-founder exit removes technical vision anchor. Interim CFO adds uncertainty.
+        energy_matrix_quadrant: sparingly
+    - flag: BSL 1.1 license change from MPL 2.0 (Aug 2023) restricting commercial
+        use
+      impact: Community backlash, fork risk (OpenTofu), OSS reputation damage
+      confidence: High - documented license change
+      task_implications:
+      - task: Navigate community relations and fork ecosystem challenges
+        time_estimate_pct: 7%
+        characteristics:
+          conflict_exposure: high
+          alignment_clarity: moderate
+          authority_ambiguity: moderate
+          progress_visibility: low
+          autonomy_level: low
+          decision_speed: slow
+          learning_required: moderate
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: true
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: true
+          collaboration_type: cross_team
+          meeting_intensity: high
+          requires_sync_communication: true
+          timezone_spread: moderate
+        notes: License controversy creates external conflict_exposure. OpenTofu fork
+          divides community. High interpersonal_conflict risk in community interactions.
+        energy_matrix_quadrant: sparingly
+    - flag: Only 56% positive business outlook post-acquisition (Glassdoor)
+      impact: Low employee confidence in future direction
+      confidence: Medium - sentiment from reviews
+      task_implications:
+      - task: Work amidst colleague uncertainty and potential morale challenges
+        time_estimate_pct: 10%
+        characteristics:
+          conflict_exposure: moderate
+          alignment_clarity: low
+          authority_ambiguity: moderate
+          progress_visibility: moderate
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: none
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: true
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: moderate
+          requires_sync_communication: false
+          timezone_spread: moderate
+        notes: Low confidence (56% vs typical 70%+) indicates misalignment concerns.
+          Team may be moving in different directions - triggers severe misalignment
+          drain.
+        energy_matrix_quadrant: sparingly
   chosen_peak:
     dealbreakers: []
     concerning:
@@ -293,4 +839,59 @@ missing_critical_data:
   how_to_find: Ask product management about compliance roadmap; ask about government
     customer pipeline
   mountain_element: mountain_range
+- question: What is IBM integration timeline and autonomy level for HashiCorp division?
+  why_important: Integration speed affects authority_ambiguity and alignment_clarity
+  how_to_find: Insider conversations with current engineers about IBM involvement
+  mountain_element: rope_team_confidence
+- question: How has technical decision-making changed post-acquisition?
+  why_important: Decision_speed and autonomy_level critical for tool_building work
+    satisfaction
+  how_to_find: Ask engineers about approval processes, architecture decisions, tooling
+    choices
+  mountain_element: daily_climb
+- question: What is retention rate of senior engineers post-acquisition?
+  why_important: Indicates whether experienced colleagues are staying through transition
+  how_to_find: LinkedIn analysis, insider conversations about team stability
+  mountain_element: rope_team_confidence
+- question: What is IBM integration timeline and autonomy level for HashiCorp division?
+  why_important: Integration speed affects authority_ambiguity and alignment_clarity
+  how_to_find: Insider conversations with current engineers about IBM involvement
+  mountain_element: rope_team_confidence
+- question: How has technical decision-making changed post-acquisition?
+  why_important: Decision_speed and autonomy_level critical for tool_building work
+    satisfaction
+  how_to_find: Ask engineers about approval processes, architecture decisions, tooling
+    choices
+  mountain_element: daily_climb
+- question: What is retention rate of senior engineers post-acquisition?
+  why_important: Indicates whether experienced colleagues are staying through transition
+  how_to_find: LinkedIn analysis, insider conversations about team stability
+  mountain_element: rope_team_confidence
 company_slug: hashicorp
+profile_version_used: '1.0'
+synthesis:
+  energy_matrix_analysis:
+    profile_version_used: '1.0'
+    predicted_daily_distribution:
+      moare_green_flags:
+        percentage: 50.0
+        tasks_count: 6
+      sparingly_yellow_flags:
+        percentage: 33.3
+        tasks_count: 10
+      burnout_red_flags:
+        percentage: 16.7
+        tasks_count: 4
+      help_mentoring_yellow_flags:
+        percentage: 0.0
+        tasks_count: 0
+    threshold_analysis:
+      meets_green_minimum: false
+      exceeds_red_maximum: false
+      exceeds_yellow_maximum: true
+    energy_sustainability: MEDIUM
+    key_insights:
+    - 50.0% of work in draining quadrants (sparingly + burnout)
+    - Insufficient moare quadrant work (50.0% vs 60% needed)
+    decision_factors:
+    - 'RED: Only 50.0% moare quadrant (need ≥60%)'

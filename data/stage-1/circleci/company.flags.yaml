@@ -1,195 +1,361 @@
-company: circleci
-evaluation_date: '2025-10-18'
-evaluator_context: Extracted from conversation notes
+company: CircleCI
+company_slug: circleci
+evaluation_date: '2025-11-09'
+evaluator_context: Re-extracted with updated time estimate guidance for organizational
+  dysfunction (Level 4 - Severe Dysfunction)
+profile_version_used: '1.0'
 green_flags:
   mountain_range:
-    critical_matches: &id001
-    - flag: 'Interesting tech stack: Entire platform written in Clojure (functional
-        programming on JVM), Go for agents/CLI'
-      impact: Opportunity to work with Clojure at scale, unique and intellectually
-        stimulating
-      confidence: High - CircleCI blog and StackShare
-    - flag: Active engineering blog with substantive technical content (Clojure microservices,
-        Go agents)
-      impact: Culture of technical communication and knowledge sharing
-      confidence: High - CircleCI blog
-    - flag: Fully remote/distributed global workforce with no office requirement
-      impact: Perfect match for remote-first requirement, true distributed company
-      confidence: High - CircleCI blog and job postings
-    strong_positives: &id002
+    critical_matches: []
+    strong_positives:
+    - flag: Well-funded with $316M raised across 7 rounds, $1.7B valuation (Series
+        F May 2021)
+      impact: Financial runway suggests company isn't immediately at risk despite
+        recent layoffs
+      confidence: High - explicit from Tracxn, Crunchbase, Wikipedia
+      task_implications: []
     - flag: Strong customer base including Spotify, Coinbase, Samsung, Ford, Facebook
-        serving 1M+ engineers with 2.5M jobs/day
-      impact: Product validation with major enterprise customers demonstrates market
-        fit
-      confidence: High - Business Wire and Wikipedia
-    - flag: Claims to be world's largest shared CI/CD platform processing 2.5M jobs
-        daily
-      impact: Market leadership position in critical developer infrastructure
-      confidence: Medium - CircleCI marketing claims
-    - flag: 'Modern infrastructure: Kubernetes, Docker, PostgreSQL migration, Redis,
-        MongoDB'
-      impact: Working with industry-standard cloud-native technologies
-      confidence: High - CircleCI blog
-    - flag: Publishes annual State of Software Delivery report analyzing 15M data
-        points from 22K teams
-      impact: Thought leadership in CI/CD space, research-oriented culture
-      confidence: High - Business Wire
-    - flag: Open source CircleCI Orbs and GitHub presence
-      impact: Some commitment to open source ecosystem
-      confidence: Medium - CircleCI documentation
-    - flag: CEO Jim Rose and CTO Rob Zuber both 10+ years tenure since 2014/2015
-      impact: Leadership stability with long-term commitment
-      confidence: High - Wikipedia and CircleCI blog
-    - flag: Work-life balance rated 4.5/5 on Glassdoor, highest category
-      impact: Strong work-life balance culture despite startup environment
-      confidence: High - Glassdoor
-    - flag: Employees consistently mention 'great people/team' as top pro
-      impact: Strong engineering culture and colleague quality
-      confidence: High - Glassdoor and Indeed
-    - flag: Quarterly wellness days implemented as employee benefit
-      impact: Company invests in employee wellbeing and sustainable pace
-      confidence: High - LinkedIn employee post
-    - flag: Working on developer tools used by 1M+ engineers globally
-      impact: Direct impact on software engineering profession and productivity
-      confidence: High - TechCrunch
-    - flag: Clojure at scale provides unique technical challenge and resume differentiation
-      impact: Rare opportunity to work with functional programming in production system
-      confidence: High - Tech stack
+      impact: Working with high-profile enterprise customers validates technical complexity
+      confidence: High - explicit from Wikipedia, Business Wire
+      task_implications: []
   chosen_peak:
-    critical_matches: *id001
-    strong_positives: *id002
+    critical_matches:
+    - flag: Core platform in Clojure with Go for performance-critical components (build
+        agents, CLI)
+      impact: Interesting functional programming stack, modern language choices for
+        tooling
+      confidence: High - explicit from CircleCI blog, StackShare
+      task_implications:
+      - task: Build/maintain Clojure microservices for CI/CD orchestration
+        time_estimate_pct: 20-25%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: moderate
+          authority_ambiguity: moderate
+          progress_visibility: high
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: moderate
+          uses_systems_thinking: true
+          uses_tool_building: false
+          uses_glue_work: false
+          uses_infrastructure_automation: true
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: moderate
+          requires_sync_communication: false
+          timezone_spread: moderate
+        notes: Clojure expertise building, but reorg churn affects project continuity
+        energy_matrix_quadrant: moare
+      - task: Design/optimize Go-based build agents and CLI tools
+        time_estimate_pct: 10-15%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: moderate
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: low
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_glue_work: false
+          uses_infrastructure_automation: true
+          uses_decision_frameworks: false
+          collaboration_type: solo
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: narrow
+        notes: Clean tool-building work within expertise zone
+        energy_matrix_quadrant: moare
+    - flag: Infrastructure uses Docker/Kubernetes for service orchestration
+      impact: Modern container platform matches infrastructure automation expertise
+      confidence: High - explicit from CircleCI blog
+      task_implications:
+      - task: Optimize Kubernetes deployment and resource management
+        time_estimate_pct: 10-12%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: moderate
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: moderate
+          learning_required: low
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_glue_work: false
+          uses_infrastructure_automation: true
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: narrow
+        notes: Infrastructure work directly in expertise zone
+        energy_matrix_quadrant: moare
+    strong_positives:
+    - flag: Active engineering blog with technical content (Clojure microservices,
+        Go code review agents)
+      impact: Company invests in technical thought leadership and knowledge sharing
+      confidence: High - explicit from CircleCI blog
+      task_implications: []
   rope_team_confidence:
-    critical_matches: *id001
-    strong_positives: *id002
+    critical_matches: []
+    strong_positives:
+    - flag: CEO Jim Rose and CTO Rob Zuber both joined via Distiller acquisition in
+        2014, stable leadership at executive level
+      impact: Long-tenured executive team suggests continuity at the top despite org
+        churn below
+      confidence: High - explicit from Wikipedia, CircleCI blog
+      task_implications: []
+    - flag: Employee reviews frequently mention 'great people/team' as top pro
+      impact: Strong peer relationships despite organizational dysfunction
+      confidence: High - explicit from Glassdoor, Indeed, Capterra
+      task_implications: []
   daily_climb:
-    critical_matches: *id001
-    strong_positives: *id002
+    critical_matches:
+    - flag: Fully remote/distributed global workforce since founding (15+ years)
+      impact: Genuine remote-first culture, not pandemic-forced; matches async work
+        preference
+      confidence: High - explicit from CircleCI blog, Glassdoor, Indeed
+      task_implications: []
+    - flag: Glassdoor 4.5/5 for work-life balance
+      impact: Despite organizational issues, daily work rhythm is sustainable
+      confidence: High - explicit from Glassdoor
+      task_implications: []
+    strong_positives:
+    - flag: Quarterly wellness days implemented as employee benefit
+      impact: Company invests in preventing burnout
+      confidence: High - explicit from LinkedIn employee post
+      task_implications: []
   story_worth_telling:
-    critical_matches: *id001
-    strong_positives: *id002
+    critical_matches: []
+    strong_positives:
+    - flag: Clojure/functional programming experience in production at scale
+      impact: Rare opportunity to work with FP in real-world CI/CD platform
+      confidence: High - explicit from CircleCI blog, Wikipedia
+      task_implications: []
+    - flag: CI/CD domain expertise at platform scale (2.5M jobs/day, 1M+ engineers)
+      impact: High-scale distributed systems experience, strong resume value
+      confidence: High - explicit from TechCrunch, Business Wire
+      task_implications: []
 red_flags:
   mountain_range:
-    dealbreakers: &id003
-    - flag: Three rounds of layoffs in 18 months (2022-2024) including 17% cut in
-        Dec 2022 (~100 people)
-      impact: Severe financial distress and organizational instability, high risk
-        of more cuts
-      confidence: High - Blind, Pragmatic Engineer, Glassdoor
-    - flag: Co-founder Paul Biggar removed from board Dec 2023 allegedly for blog
-        post about Israel-Gaza
-      impact: Suggests board intolerance for dissent or controversial opinions, cultural
-        red flag
-      confidence: High - Wikipedia
-    - flag: High risk of company failure or fire sale given financial trajectory and
-        layoffs
-      impact: Career risk - company may not exist in 12-24 months, equity likely worthless
-      confidence: Medium - Financial indicators and layoff patterns
-    concerning: &id004
-    - flag: ARR only $55.7M (2024) despite $1.7B valuation and $316M raised - concerning
-        unit economics
-      impact: Valuation disconnected from reality, burn likely unsustainable, exit
-        pressure
-      confidence: Medium - Getlatka estimates
-    - flag: Current ~500 employees down from peak suggests continued contraction
-      impact: Company shrinking, not growing - reduces opportunities and increases
-        risk
-      confidence: Medium - TrueUp.io estimates
-    - flag: 'Market share declining: 3.2% mindshare down from 3.9% previous year on
-        PeerSpot'
-      impact: Losing ground to competitors (GitHub Actions, GitLab CI), existential
-        threat
-      confidence: High - PeerSpot data
-    - flag: No profitability information available and multiple layoffs suggests continued
-        burn with unclear path to sustainability
-      impact: Financial runway uncertain, risk of shutdown or fire sale acquisition
-      confidence: Medium - Absence of profitability data plus layoffs
-    - flag: Clojure tech stack is niche and limits hiring pool, may be liability vs
-        asset
-      impact: Difficult to hire, could limit career mobility after CircleCI
-      confidence: Medium - Clojure market dynamics
-    - flag: Intense competition from free/bundled alternatives (GitHub Actions, GitLab
-        CI)
-      impact: Product commoditization risk, pressure on pricing and differentiation
-      confidence: High - Competitive landscape
-    - flag: Overall Glassdoor 3.7/5 (vs 4.2-4.5 at strong companies), only 65% recommend
-      impact: Below-average employee sentiment, many unhappy employees
-      confidence: High - Glassdoor
-    - flag: 'Major employee complaints: weak leadership direction, reorgs every 6
-        months, disconnected executives'
-      impact: Leadership dysfunction and constant organizational chaos
-      confidence: High - Glassdoor reviews
-    - flag: Multiple reviews cite layoffs damaging culture and morale severely
-      impact: Toxic environment from repeated cuts and uncertainty
-      confidence: High - Indeed and Glassdoor
-    - flag: Career opportunities rated low 3.4/5 on Glassdoor
-      impact: Limited growth paths, likely due to company contraction
-      confidence: High - Glassdoor
-    - flag: Compensation rated 3.7/5 with reviews stating 'below market' repeatedly
-      impact: Not competitive pay despite needing to retain talent during crisis
-      confidence: High - Glassdoor reviews
-    - flag: Constant reorgs every 6 months creates organizational instability
-      impact: Projects canceled, priorities shift, difficult to maintain focus
-      confidence: High - Glassdoor reviews
-    - flag: 'Equity upside minimal: $1.7B valuation disconnected from $55.7M ARR,
-        down rounds likely'
-      impact: Stock options probably underwater or will be, no financial upside
-      confidence: Medium - Valuation vs revenue mismatch
-    - flag: Resume value declining as CircleCI loses market share to GitHub Actions
-      impact: Less impressive to have worked on shrinking vs growing product
-      confidence: Medium - Market dynamics
+    dealbreakers: []
+    concerning:
+    - flag: Three rounds of layoffs in 18 months period (including 17% in Dec 2022)
+      impact: Financial stress despite $316M funding; ongoing job security concerns
+      confidence: High - explicit from Blind, Pragmatic Engineer, LinkedIn, Glassdoor
+      task_implications:
+      - task: Manage ongoing layoff anxiety and team morale after 3 layoffs
+        time_estimate_pct: 18-22%
+        characteristics:
+          conflict_exposure: moderate
+          alignment_clarity: low
+          authority_ambiguity: high
+          progress_visibility: low
+          autonomy_level: low
+          decision_speed: slow
+          learning_required: none
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: true
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: cross_team
+          meeting_intensity: high
+          requires_sync_communication: true
+          timezone_spread: wide
+        notes: Severe drain from repeated trauma, team rebuilding overhead
+        energy_matrix_quadrant: sparingly
+    - flag: ARR estimated at $55.7M (2024) appears low relative to $1.7B valuation
+        and $316M raised
+      impact: Revenue/valuation gap suggests business model or competitive pressure
+        issues
+      confidence: Medium - implied from Getlatka estimate
+      task_implications: []
+    - flag: 'Market share declining: 3.2% mindshare down from 3.9% on PeerSpot'
+      impact: Losing ground to competitors (GitHub Actions, GitLab CI)
+      confidence: High - explicit from PeerSpot rankings
+      task_implications: []
   chosen_peak:
-    dealbreakers: *id003
-    concerning: *id004
+    dealbreakers: []
+    concerning:
+    - flag: Major security breach Dec 2022 (employee laptop malware, customer secrets
+        exfiltrated)
+      impact: Platform security incident requiring trust rebuilding, post-breach hardening
+        work
+      confidence: High - explicit from CircleCI blog, TechCrunch, Infosecurity Magazine
+      task_implications:
+      - task: Security improvements and trust rebuilding post-breach
+        time_estimate_pct: 5-8%
+        characteristics:
+          conflict_exposure: moderate
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: moderate
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: moderate
+          uses_systems_thinking: true
+          uses_tool_building: false
+          uses_glue_work: false
+          uses_infrastructure_automation: true
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: moderate
+          requires_sync_communication: true
+          timezone_spread: moderate
+        notes: Reactive work, but within expertise zone
+        energy_matrix_quadrant: sparingly
+    - flag: Product vision described as 'all over the place' in employee reviews
+      impact: 'Coordination style mismatch: team cannot realign faster than terrain
+        changes'
+      confidence: High - explicit from Glassdoor reviews
+      task_implications: []
   rope_team_confidence:
-    dealbreakers: *id003
-    concerning: *id004
+    dealbreakers: []
+    concerning:
+    - flag: Glassdoor 3.7/5 overall rating with only 65% recommending to friend
+      impact: Below-average employee sentiment (approaching <3.0 threshold)
+      confidence: High - explicit from Glassdoor (163-167 reviews)
+      task_implications: []
+    - flag: Employee reviews cite 'reorgs every 6 months' as major complaint
+      impact: 'Severe misalignment drain: constant realignment overhead, authority
+        ambiguity'
+      confidence: High - explicit from Glassdoor reviews
+      task_implications:
+      - task: Navigate reorgs every 6 months (constant team restructuring)
+        time_estimate_pct: 25-28%
+        characteristics:
+          conflict_exposure: high
+          alignment_clarity: low
+          authority_ambiguity: high
+          progress_visibility: low
+          autonomy_level: low
+          decision_speed: slow
+          learning_required: none
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: true
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: true
+          collaboration_type: cross_team
+          meeting_intensity: high
+          requires_sync_communication: true
+          timezone_spread: wide
+        notes: Severe misalignment drain per profile - constant circular motion instead
+          of progress
+        energy_matrix_quadrant: sparingly
+    - flag: 'Manager churn: employees report 5-6 managers in 2 years'
+      impact: 'Authority ambiguity drain: constantly re-proving value, relationship
+        rebuilding'
+      confidence: High - explicit from Glassdoor reviews
+      task_implications:
+      - task: Manage high manager churn overhead (5-6 managers in 2 years)
+        time_estimate_pct: 12-15%
+        characteristics:
+          conflict_exposure: moderate
+          alignment_clarity: low
+          authority_ambiguity: high
+          progress_visibility: low
+          autonomy_level: low
+          decision_speed: slow
+          learning_required: none
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: true
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: cross_team
+          meeting_intensity: high
+          requires_sync_communication: true
+          timezone_spread: moderate
+        notes: Authority ambiguity drain per profile, overlaps with reorg overhead
+          but adds relationship rebuild cost
+        energy_matrix_quadrant: sparingly
+    - flag: 'Leadership complaints: ''weak leadership direction'', ''disconnected
+        executives'''
+      impact: Top-down alignment failures cascade down, exacerbates reorg churn
+      confidence: High - explicit from Glassdoor reviews
+      task_implications: []
   daily_climb:
-    dealbreakers: *id003
-    concerning: *id004
+    dealbreakers: []
+    concerning:
+    - flag: Compensation reportedly below market according to employee reviews (3.7/5
+        rating)
+      impact: Financial anxiety drain, especially combined with layoff concerns
+      confidence: High - explicit from Glassdoor reviews
+      task_implications:
+      - task: Compensation stress and potential job search given below-market pay
+          + layoff risk
+        time_estimate_pct: 15-18%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: low
+          autonomy_level: high
+          decision_speed: moderate
+          learning_required: none
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: false
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: solo
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: narrow
+        notes: Financial anxiety drain per profile - severe gap + layoffs = active
+          job search time
+        energy_matrix_quadrant: burnout
+    - flag: Fully remote with global distribution creates timezone spread challenges
+      impact: Async coordination overhead for cross-team work during reorgs
+      confidence: High - explicit from CircleCI blog, Glassdoor
+      task_implications:
+      - task: Navigate async timezone collaboration across global team
+        time_estimate_pct: 8-12%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: moderate
+          authority_ambiguity: moderate
+          progress_visibility: moderate
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: low
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: true
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: cross_team
+          meeting_intensity: moderate
+          requires_sync_communication: false
+          timezone_spread: wide
+        notes: Async overhead amplified by reorg churn
+        energy_matrix_quadrant: sparingly
   story_worth_telling:
-    dealbreakers: *id003
-    concerning: *id004
+    dealbreakers: []
+    concerning: []
 missing_critical_data:
-- question: What is the current runway and burn rate? How many months until next funding
-    needed?
-  why_important: Critical for assessing layoff risk and company survival probability
-  how_to_find: Ask CFO or leadership during interviews, research investor updates
+- question: What is the current burn rate and runway given layoffs?
+  why_important: Need to understand if more layoffs are likely
+  how_to_find: Insider interview with finance/exec team member
   mountain_element: mountain_range
-- question: What is the plan to return to profitability or growth after three layoff
-    rounds?
-  why_important: Need to understand if there's a viable path forward or just managed
-    decline
-  how_to_find: Ask CEO/leadership about strategic direction and financial targets
-  mountain_element: mountain_range
-- question: Why is ARR only $55.7M with 1M users? What is monetization challenge?
-  why_important: Understanding unit economics and whether business model is fundamentally
-    broken
-  how_to_find: Ask about pricing strategy, customer conversion, and revenue growth
-    plans
-  mountain_element: mountain_range
-- question: How is CircleCI competing against free GitHub Actions and GitLab CI bundled
-    offerings?
-  why_important: Understanding competitive moat and differentiation strategy
-  how_to_find: Ask product leadership about competitive positioning and roadmap
-  mountain_element: mountain_range
-- question: What is the actual staff engineer compensation package including equity
-    strike price?
-  why_important: Understanding if comp is truly below market and if equity has any
-    value
-  how_to_find: Ask recruiter for detailed compensation breakdown, research Levels.fyi
-  mountain_element: daily_climb
-- question: What is the current engineering headcount and how many more cuts are planned?
-  why_important: Understanding team size and whether more layoffs are coming
-  how_to_find: Ask engineering leadership about team size and headcount plans
-  mountain_element: rope_team_confidence
-- question: What specifically led to Paul Biggar being removed from the board?
-  why_important: Understanding governance and whether company tolerates diverse viewpoints
-  how_to_find: Research public statements, ask during interviews if appropriate
-  mountain_element: rope_team_confidence
-- question: What percentage of engineering time is firefighting vs innovation given
-    the reorgs?
-  why_important: Understanding if role would be chaotic maintenance vs building new
-    things
-  how_to_find: Ask engineering manager about typical sprint composition and priorities
+- question: What is the actual engineering team size and breakdown?
+  why_important: Understand if team is appropriately sized for platform scale
+  how_to_find: Insider interview or LinkedIn headcount analysis
   mountain_element: chosen_peak
-company_slug: circleci
+- question: What is driving the 6-month reorg cycle?
+  why_important: Determine if structural or leadership issue
+  how_to_find: Insider interview with mid-level manager
+  mountain_element: rope_team_confidence
+- question: How does compensation actually compare to market (specific numbers)?
+  why_important: Understand financial anxiety impact
+  how_to_find: Levels.fyi data + insider interview
+  mountain_element: daily_climb
+- question: What is the actual path to profitability given current ARR vs funding?
+  why_important: Assess long-term viability
+  how_to_find: Insider interview with product/finance leadership
+  mountain_element: mountain_range

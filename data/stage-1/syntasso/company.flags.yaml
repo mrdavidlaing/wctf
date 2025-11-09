@@ -1,0 +1,387 @@
+company: syntasso
+evaluation_date: '2025-11-09'
+evaluator_context: Extracted from conversation notes
+green_flags:
+  mountain_range:
+    critical_matches:
+    - flag: Experienced founding team with proven exit (CloudCredo → Pivotal/VMware)
+      impact: Founders Colin Humphreys (CEO, ex-VMware Tanzu CTO), Paula Kennedy (COO,
+        ex-VMware Tanzu Education), Chris Hedley (VP Eng, 15+ yrs platform building)
+        stayed together since 2021, no executive departures
+      confidence: High - Companies House filings, LinkedIn profiles
+      task_implications:
+      - task: Build Kratix platform engineering framework in Go
+        time_estimate_pct: 40%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: moderate
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: low
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_glue_work: false
+          uses_infrastructure_automation: true
+          uses_decision_frameworks: true
+          collaboration_type: team
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: narrow
+        notes: Eliminates financial_anxiety drain (well-funded). Provides aligned_collaboration
+          generator (clear platform vision). Uses all core expert strengths.
+        energy_matrix_quadrant: moare
+    - flag: Growing platform engineering market ($7B in 2024 → $40B by 2032, 24% CAGR)
+      impact: Gartner predicts 80% of large orgs will have platform teams by 2026.
+        Kratix addresses massive TAM with strong timing
+      confidence: High - Multiple market research reports (SNS Insider, Market Intelo)
+      task_implications:
+      - task: Design composable platform abstractions (Kratix Promises)
+        time_estimate_pct: 25%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: low
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_glue_work: true
+          uses_infrastructure_automation: true
+          uses_decision_frameworks: true
+          collaboration_type: solo
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: narrow
+        notes: Market validation reduces misalignment risk. Aligns with tool_building
+          core strength.
+        energy_matrix_quadrant: moare
+    - flag: 'Strong technical culture: CNCF membership, 6 talks at PlatformCon 2024,
+        research Fridays'
+      impact: Team deeply embedded in platform engineering community (2 CNCF Ambassadors,
+        co-lead Platforms WG). Bi-weekly research/learning days foster innovation
+      confidence: High - Conference listings, CNCF announcements, careers page
+      task_implications:
+      - task: Contribute to CNCF platform engineering initiatives
+        time_estimate_pct: 10%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: moderate
+          uses_systems_thinking: true
+          uses_tool_building: false
+          uses_glue_work: true
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: cross_team
+          meeting_intensity: moderate
+          requires_sync_communication: true
+          timezone_spread: moderate
+        notes: Aligned with visible_progress generator (shipping talks, specs). Uses
+          glue_work strength.
+        energy_matrix_quadrant: moare
+    - flag: 'Healthy work-life balance: 35-hour work week, hybrid (3 days office max),
+        fortnightly team days'
+      impact: Sustainable pace with flexibility. Research Fridays promote learning.
+        Office near London Bridge accessible
+      confidence: High - Careers page explicit statements
+      task_implications:
+      - task: Collaborate with UK-based team on platform features
+        time_estimate_pct: 15%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: moderate
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: low
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_glue_work: true
+          uses_infrastructure_automation: true
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: narrow
+        notes: 35-hour week reduces burnout risk. Hybrid model supports focus time.
+        energy_matrix_quadrant: moare
+    strong_positives:
+    - flag: No layoffs in past 18 months, all founders retained
+      impact: Organizational stability indicator
+      confidence: Medium - Absence of evidence from layoff databases
+      task_implications:
+      - task: Participate in fortnightly team office days
+        time_estimate_pct: 5%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: moderate
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: none
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: true
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: moderate
+          requires_sync_communication: true
+          timezone_spread: co_located
+        notes: Mandatory team days require UK presence but build cohesion
+        energy_matrix_quadrant: moare
+    - flag: 'Active OSS development: Kratix has 658 GitHub stars, 124 releases, 22
+        contributors'
+      impact: Real community traction, not vaporware
+      confidence: High - GitHub metrics
+      task_implications:
+      - task: Maintain Kratix OSS framework and community support
+        time_estimate_pct: 10%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: moderate
+          learning_required: low
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_glue_work: true
+          uses_infrastructure_automation: true
+          uses_decision_frameworks: false
+          collaboration_type: cross_team
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: wide
+        notes: OSS work provides visible_progress generator
+        energy_matrix_quadrant: moare
+  chosen_peak:
+    critical_matches: []
+    strong_positives: []
+  rope_team_confidence:
+    critical_matches: []
+    strong_positives: []
+  daily_climb:
+    critical_matches: []
+    strong_positives: []
+  story_worth_telling:
+    critical_matches: []
+    strong_positives: []
+red_flags:
+  mountain_range:
+    dealbreakers: []
+    concerning:
+    - flag: 'Pre-revenue startup despite 2021 founding: All software still OSS, SKE
+        revenue model unproven'
+      impact: Financial sustainability uncertain. Claims 'multi-year runway' from
+        2019 careers page (outdated?). No ARR/MRR data. Requires validating actual
+        runway
+      confidence: Medium - Explicit in OpenUK case study, but runway claims old
+      task_implications:
+      - task: Navigate financial uncertainty during revenue model transition
+        time_estimate_pct: 10%
+        characteristics:
+          conflict_exposure: moderate
+          alignment_clarity: moderate
+          authority_ambiguity: moderate
+          progress_visibility: moderate
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: moderate
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: false
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: true
+          collaboration_type: team
+          meeting_intensity: moderate
+          requires_sync_communication: true
+          timezone_spread: narrow
+        notes: Triggers financial_anxiety drain (moderate). Uncertain revenue model
+          reduces sustainability confidence.
+        energy_matrix_quadrant: burnout
+    - flag: 'Headcount opacity: LinkedIn (11-50), PitchBook (19), Tracxn (3) - 6x
+        discrepancy'
+      impact: Conflicting employee counts suggest limited operational transparency
+        or maturity. Small team size means individual impact high but role clarity
+        low
+      confidence: High - Multiple contradictory sources
+      task_implications:
+      - task: Establish role clarity in small, evolving team structure
+        time_estimate_pct: 10%
+        characteristics:
+          conflict_exposure: moderate
+          alignment_clarity: moderate
+          authority_ambiguity: high
+          progress_visibility: moderate
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: moderate
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: true
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: true
+          collaboration_type: team
+          meeting_intensity: moderate
+          requires_sync_communication: true
+          timezone_spread: narrow
+        notes: Triggers authority_ambiguity drain (moderate). Small team needs process
+          building.
+        energy_matrix_quadrant: sparingly
+    - flag: 'Limited customer validation: Only 1 public case study (NatWest), no G2/Capterra
+        reviews'
+      impact: SKE adoption claims lack verification. 'Growing adoption in financial
+        services' unsupported beyond single customer. Potential POC theater
+      confidence: High - Explicit searches found no reviews
+      task_implications:
+      - task: Validate SKE product-market fit with limited customer feedback
+        time_estimate_pct: 15%
+        characteristics:
+          conflict_exposure: moderate
+          alignment_clarity: low
+          authority_ambiguity: moderate
+          progress_visibility: low
+          autonomy_level: moderate
+          decision_speed: slow
+          learning_required: moderate
+          uses_systems_thinking: true
+          uses_tool_building: false
+          uses_glue_work: true
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: true
+          collaboration_type: cross_team
+          meeting_intensity: high
+          requires_sync_communication: true
+          timezone_spread: moderate
+        notes: Triggers misalignment drain (uncertain direction). Low progress_visibility
+          reduces energy.
+        energy_matrix_quadrant: sparingly
+    - flag: UK timezone + office requirement limits global collaboration
+      impact: Fortnightly mandatory Wednesdays + UK timezone requirement reduces flexibility.
+        Max 3 days/week office contradicts 'remote-friendly' claims
+      confidence: High - Explicit in careers page
+      task_implications:
+      - task: Coordinate with UK-based team across timezones
+        time_estimate_pct: 5%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: moderate
+          authority_ambiguity: low
+          progress_visibility: moderate
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: none
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: true
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: moderate
+          requires_sync_communication: true
+          timezone_spread: narrow
+        notes: UK requirement limits timezone_flexibility (profile allows 6 hours).
+          Fortnightly office days manageable.
+        energy_matrix_quadrant: sparingly
+    - flag: 'Competitive landscape unclear: Named competitors (Crossplane, Humanitec)
+        but market differentiation vague'
+      impact: Kratix positioning as 'complements Backstage' vs 'competes with Crossplane'
+        unclear. Market share unknown. Revenue comparison missing
+      confidence: Medium - Multiple competitors listed but positioning unclear
+      task_implications:
+      - task: Define competitive moat and differentiation strategy
+        time_estimate_pct: 10%
+        characteristics:
+          conflict_exposure: moderate
+          alignment_clarity: low
+          authority_ambiguity: moderate
+          progress_visibility: low
+          autonomy_level: moderate
+          decision_speed: slow
+          learning_required: moderate
+          uses_systems_thinking: true
+          uses_tool_building: false
+          uses_glue_work: true
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: true
+          collaboration_type: cross_team
+          meeting_intensity: high
+          requires_sync_communication: true
+          timezone_spread: narrow
+        notes: Low alignment_clarity triggers misalignment drain. Uncertain market
+          position.
+        energy_matrix_quadrant: sparingly
+  chosen_peak:
+    dealbreakers: []
+    concerning: []
+  rope_team_confidence:
+    dealbreakers: []
+    concerning: []
+  daily_climb:
+    dealbreakers: []
+    concerning: []
+  story_worth_telling:
+    dealbreakers: []
+    concerning: []
+missing_critical_data:
+- question: What is actual current runway in months? Is $7M funding sufficient to
+    reach profitability?
+  why_important: Financial_anxiety drain depends on runway clarity. 'Multi-year' claim
+    from 2019 careers page unreliable
+  how_to_find: Ask founders directly in interview about burn rate and path to profitability
+  mountain_element: mountain_range
+- question: How many paying SKE customers beyond NatWest? What is current ARR?
+  why_important: Validates SKE product-market fit. Single case study insufficient
+    to assess sustainability
+  how_to_find: Request customer list and revenue metrics from leadership. Check LinkedIn
+    for customer engineers
+  mountain_element: mountain_range
+- question: What is actual employee count and team structure?
+  why_important: Authority_ambiguity assessment requires knowing org chart. 3-50 employee
+    range too wide
+  how_to_find: Ask for org chart in interview. Confirm engineering team size and reporting
+    structure
+  mountain_element: rope_team_confidence
+- question: What percentage of time is spent on OSS vs SKE? Revenue allocation strategy?
+  why_important: Misalignment risk if unclear whether focus is community building
+    vs revenue generation
+  how_to_find: Ask about product roadmap prioritization. Request breakdown of engineering
+    allocation
+  mountain_element: chosen_peak
+profile_version_used: '1.0'
+company_slug: syntasso
+synthesis:
+  energy_matrix_analysis:
+    profile_version_used: '1.0'
+    predicted_daily_distribution:
+      moare_green_flags:
+        percentage: 67.7
+        tasks_count: 6
+      sparingly_yellow_flags:
+        percentage: 25.8
+        tasks_count: 4
+      burnout_red_flags:
+        percentage: 6.5
+        tasks_count: 1
+      help_mentoring_yellow_flags:
+        percentage: 0.0
+        tasks_count: 0
+    threshold_analysis:
+      meets_green_minimum: true
+      exceeds_red_maximum: false
+      exceeds_yellow_maximum: false
+    energy_sustainability: HIGH
+    key_insights: []
+    decision_factors: []

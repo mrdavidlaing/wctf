@@ -1,0 +1,77 @@
+{
+  "batch_number": 3,
+  "total_batches": 4,
+  "companies_in_batch": 10,
+  "companies": [
+    {
+      "name": "jeeves",
+      "stage": "stage-1",
+      "company_dir": "data/stage-1/jeeves",
+      "flags_path": "data/stage-1/jeeves/company.flags.yaml",
+      "facts_path": "data/stage-1/jeeves/company.facts.yaml"
+    },
+    {
+      "name": "mechanical-orchard",
+      "stage": "stage-1",
+      "company_dir": "data/stage-1/mechanical-orchard",
+      "flags_path": "data/stage-1/mechanical-orchard/company.flags.yaml",
+      "facts_path": "data/stage-1/mechanical-orchard/company.facts.yaml"
+    },
+    {
+      "name": "meta-dublin",
+      "stage": "stage-1",
+      "company_dir": "data/stage-1/meta-dublin",
+      "flags_path": "data/stage-1/meta-dublin/company.flags.yaml",
+      "facts_path": "data/stage-1/meta-dublin/company.facts.yaml"
+    },
+    {
+      "name": "pliant",
+      "stage": "stage-1",
+      "company_dir": "data/stage-1/pliant",
+      "flags_path": "data/stage-1/pliant/company.flags.yaml",
+      "facts_path": "data/stage-1/pliant/company.facts.yaml"
+    },
+    {
+      "name": "redpanda-data",
+      "stage": "stage-1",
+      "company_dir": "data/stage-1/redpanda-data",
+      "flags_path": "data/stage-1/redpanda-data/company.flags.yaml",
+      "facts_path": "data/stage-1/redpanda-data/company.facts.yaml"
+    },
+    {
+      "name": "samsara",
+      "stage": "stage-1",
+      "company_dir": "data/stage-1/samsara",
+      "flags_path": "data/stage-1/samsara/company.flags.yaml",
+      "facts_path": "data/stage-1/samsara/company.facts.yaml"
+    },
+    {
+      "name": "seatgeek",
+      "stage": "stage-1",
+      "company_dir": "data/stage-1/seatgeek",
+      "flags_path": "data/stage-1/seatgeek/company.flags.yaml",
+      "facts_path": "data/stage-1/seatgeek/company.facts.yaml"
+    },
+    {
+      "name": "sourcegraph",
+      "stage": "stage-1",
+      "company_dir": "data/stage-1/sourcegraph",
+      "flags_path": "data/stage-1/sourcegraph/company.flags.yaml",
+      "facts_path": "data/stage-1/sourcegraph/company.facts.yaml"
+    },
+    {
+      "name": "spotify",
+      "stage": "stage-1",
+      "company_dir": "data/stage-1/spotify",
+      "flags_path": "data/stage-1/spotify/company.flags.yaml",
+      "facts_path": "data/stage-1/spotify/company.facts.yaml"
+    },
+    {
+      "name": "stripe",
+      "stage": "stage-1",
+      "company_dir": "data/stage-1/stripe",
+      "flags_path": "data/stage-1/stripe/company.flags.yaml",
+      "facts_path": "data/stage-1/stripe/company.facts.yaml"
+    }
+  ]
+}

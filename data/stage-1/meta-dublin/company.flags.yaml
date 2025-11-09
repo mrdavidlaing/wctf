@@ -1,5 +1,5 @@
 company: meta-dublin
-evaluation_date: '2025-10-18'
+evaluation_date: '2025-11-09'
 evaluator_context: Extracted from conversation notes
 green_flags:
   mountain_range:
@@ -8,80 +8,567 @@ green_flags:
         means absolute job security
       impact: Zero financial risk, unlimited resources for infrastructure investment
       confidence: High - Public company financials
+      task_characteristics:
+        conflict_exposure: low
+        alignment_clarity: medium
+        authority_ambiguity: medium
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: medium
+        requires_sync_communication: false
+        timezone_spread: medium
+      energy_quadrant: moare
+      energy_reasoning: 'Provides tool_building generator (core need).
+
+        Uses infrastructure_automation strength (expert).
+
+        Moare quadrant: leverages strength while energizing.'
     - flag: Working on Meta infrastructure at exabyte scale (1M+ TB data), 200-800Gbps
         network fabric, AI cluster networking
       impact: Unmatched scale - few places in world work at this infrastructure magnitude
       confidence: High - Internal research
+      task_characteristics:
+        conflict_exposure: medium
+        alignment_clarity: medium
+        authority_ambiguity: medium
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: medium
+        requires_sync_communication: false
+        timezone_spread: medium
+      energy_quadrant: moare
+      energy_reasoning: 'Provides tool_building generator (core need).
+
+        Uses infrastructure_automation strength (expert).
+
+        Moare quadrant: leverages strength while energizing.'
     - flag: 'Open source contributions: FBOSS, Open Compute Project, Velox (3-10x
         efficiency), Apache Arrow, Nimble file format'
       impact: Strong alignment with open source values, working on public infrastructure
         projects
       confidence: High - Internal research
+      task_characteristics:
+        conflict_exposure: medium
+        alignment_clarity: medium
+        authority_ambiguity: medium
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: medium
+        requires_sync_communication: false
+        timezone_spread: medium
+      energy_quadrant: moare
+      energy_reasoning: 'Provides tool_building generator (core need).
+
+        Uses infrastructure_automation strength (expert).
+
+        Moare quadrant: leverages strength while energizing.'
     - flag: Working on infrastructure powering 3+ billion users across Facebook, Instagram,
         WhatsApp
       impact: Unmatched impact scale - more users than any other platform
       confidence: High - Meta's user base
+      task_characteristics:
+        conflict_exposure: medium
+        alignment_clarity: medium
+        authority_ambiguity: medium
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: medium
+        requires_sync_communication: false
+        timezone_spread: medium
+      energy_quadrant: moare
+      energy_reasoning: 'Provides tool_building generator (core need).
+
+        Uses infrastructure_automation strength (expert).
+
+        Moare quadrant: leverages strength while energizing.'
+    - flag: 'Financially stable: €700M infrastructure investment, 16-year operation
+        since 2009'
+      impact: Zero financial anxiety - Meta's massive profitable scale eliminates
+        survival concerns
+      confidence: High - Explicit statements about €395M campus (2023) and €300M data
+        center (2017)
+      task_implications:
+      - task: Manage production infrastructure for Meta's EMEA region at exabyte scale
+        time_estimate_pct: 30%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: moderate
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: low
+          uses_systems_thinking: true
+          uses_tool_building: false
+          uses_glue_work: true
+          uses_infrastructure_automation: true
+          uses_decision_frameworks: true
+          collaboration_type: cross_team
+          meeting_intensity: moderate
+          requires_sync_communication: true
+          timezone_spread: wide
+        notes: Eliminates financial_anxiety drain but limited visible_progress generator
+          - maintaining existing systems vs building new products
+        energy_matrix_quadrant: sparingly
+    - flag: 'World-class technical scale: Manages exabyte+ data infrastructure with
+        cutting-edge systems (Velox, ZippyDB, TAO)'
+      impact: Exposure to massive-scale distributed systems expertise
+      confidence: High - Explicit statements about data volumes and technology stack
+      task_implications:
+      - task: Operate and troubleshoot distributed data infrastructure serving billions
+          of users
+        time_estimate_pct: 25%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: moderate
+          autonomy_level: moderate
+          decision_speed: fast
+          learning_required: moderate
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_glue_work: false
+          uses_infrastructure_automation: true
+          uses_decision_frameworks: true
+          collaboration_type: team
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: moderate
+        notes: Uses systems_thinking and infrastructure_automation strengths but maintenance-focused
+        energy_matrix_quadrant: moare
+    - flag: 'Modern technical stack: Python, C++, Golang, Rust, FBOSS, Open Compute
+        Project hardware'
+      impact: Works with current industry-standard technologies and tools
+      confidence: High - Explicit list of technologies used
+      task_implications:
+      - task: Work with Meta's production engineering toolchain and network operating
+          systems
+        time_estimate_pct: 20%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: moderate
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: moderate
+          uses_systems_thinking: true
+          uses_tool_building: false
+          uses_glue_work: false
+          uses_infrastructure_automation: true
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: narrow
+        notes: Technical learning opportunity but within operations context
+        energy_matrix_quadrant: moare
     strong_positives: &id002
     - flag: €395M Ballsbridge campus + €300M Clonee data center shows massive ongoing
         investment in Ireland
       impact: Long-term commitment to Dublin operations, not cost-cutting satellite
       confidence: High - Internal research
+      task_characteristics:
+        conflict_exposure: medium
+        alignment_clarity: medium
+        authority_ambiguity: medium
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: medium
+        requires_sync_communication: false
+        timezone_spread: medium
+      energy_quadrant: moare
+      energy_reasoning: 'Uses glue_work strength (expert).
+
+        Moare quadrant: leverages strength while energizing.'
     - flag: 2,000+ employees across 80+ teams makes this substantial operations hub
       impact: Large local community and career mobility within Ireland
       confidence: High - Internal research
+      task_characteristics:
+        conflict_exposure: medium
+        alignment_clarity: medium
+        authority_ambiguity: medium
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: medium
+        requires_sync_communication: false
+        timezone_spread: medium
+      energy_quadrant: moare
+      energy_reasoning: 'Uses core strengths from profile (low learning required).
+
+        Moare quadrant: leverages strength while energizing.'
     - flag: International HQ for EMEA - strategic importance beyond just cost arbitrage
       impact: Real decision-making authority for EMEA region
       confidence: High - Internal research
+      task_characteristics:
+        conflict_exposure: medium
+        alignment_clarity: medium
+        authority_ambiguity: medium
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: medium
+        requires_sync_communication: false
+        timezone_spread: medium
+      energy_quadrant: moare
+      energy_reasoning: 'Uses decision_frameworks strength (proficient).
+
+        Moare quadrant: leverages strength while energizing.'
     - flag: 'Modern tech stack: Python, C++, Go, Rust for production systems'
       impact: Working with current languages at massive scale
       confidence: High - Internal research
+      task_characteristics:
+        conflict_exposure: medium
+        alignment_clarity: medium
+        authority_ambiguity: medium
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: medium
+        requires_sync_communication: false
+        timezone_spread: medium
+      energy_quadrant: moare
+      energy_reasoning: 'Uses systems_thinking strength (expert).
+
+        Moare quadrant: leverages strength while energizing.'
     - flag: Network engineering with BGP, OSPF, ISIS, MPLS, custom Minipack3 switches,
         FBNIC NICs
       impact: Deep infrastructure work on custom hardware and network protocols
       confidence: High - Internal research
+      task_characteristics:
+        conflict_exposure: medium
+        alignment_clarity: medium
+        authority_ambiguity: medium
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: medium
+        requires_sync_communication: false
+        timezone_spread: medium
+      energy_quadrant: moare
+      energy_reasoning: 'Provides tool_building generator (core need).
+
+        Uses infrastructure_automation strength (expert).
+
+        Moare quadrant: leverages strength while energizing.'
     - flag: 'Working on AI infrastructure: Express Backbone, DSF for AI clusters,
         GPU/MTIA chip networking with RoCE'
       impact: Supporting cutting-edge AI workloads at scale
       confidence: High - Internal research
+      task_characteristics:
+        conflict_exposure: medium
+        alignment_clarity: medium
+        authority_ambiguity: medium
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: medium
+        requires_sync_communication: false
+        timezone_spread: medium
+      energy_quadrant: moare
+      energy_reasoning: 'Provides tool_building generator (core need).
+
+        Uses infrastructure_automation strength (expert).
+
+        Moare quadrant: leverages strength while energizing.'
     - flag: ZippyDB, TAO graph database, Velox execution engine - Meta-scale distributed
         systems
       impact: Learning from proprietary systems handling billions of users
       confidence: High - Internal research
+      task_characteristics:
+        conflict_exposure: medium
+        alignment_clarity: medium
+        authority_ambiguity: medium
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: medium
+        requires_sync_communication: false
+        timezone_spread: medium
+      energy_quadrant: moare
+      energy_reasoning: 'Uses systems_thinking strength (expert).
+
+        Moare quadrant: leverages strength while energizing.'
     - flag: 100% renewable energy data center with Greenpeace 'A' rating, LEED Gold
         campus
       impact: Environmental responsibility aligns with sustainable values
       confidence: High - Internal research
+      task_characteristics:
+        conflict_exposure: medium
+        alignment_clarity: medium
+        authority_ambiguity: medium
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: medium
+        requires_sync_communication: false
+        timezone_spread: medium
+      energy_quadrant: moare
+      energy_reasoning: 'Uses core strengths from profile (low learning required).
+
+        Moare quadrant: leverages strength while energizing.'
     - flag: Established 2009, grown from 25 to 2,000+ employees shows 16-year commitment
         to Ireland
       impact: Proven long-term stability, not new experimental office
       confidence: High - Internal research
+      task_characteristics:
+        conflict_exposure: medium
+        alignment_clarity: medium
+        authority_ambiguity: medium
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: medium
+        requires_sync_communication: false
+        timezone_spread: medium
+      energy_quadrant: moare
+      energy_reasoning: 'Uses core strengths from profile (low learning required).
+
+        Moare quadrant: leverages strength while energizing.'
     - flag: Anne O'Leary as Head of Meta Ireland provides local leadership
       impact: Senior leadership presence for escalation and direction
       confidence: High - Internal research
+      task_characteristics:
+        conflict_exposure: medium
+        alignment_clarity: medium
+        authority_ambiguity: medium
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: medium
+        requires_sync_communication: false
+        timezone_spread: medium
+      energy_quadrant: moare
+      energy_reasoning: 'Uses core strengths from profile (low learning required).
+
+        Moare quadrant: leverages strength while energizing.'
     - flag: Campus designed to mirror Menlo Park culture (Hacker Square equivalent)
       impact: Intentional cultural alignment with HQ, not second-class treatment
       confidence: High - Internal research
+      task_characteristics:
+        conflict_exposure: medium
+        alignment_clarity: medium
+        authority_ambiguity: medium
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: medium
+        requires_sync_communication: false
+        timezone_spread: medium
+      energy_quadrant: moare
+      energy_reasoning: 'Uses core strengths from profile (low learning required).
+
+        Moare quadrant: leverages strength while energizing.'
     - flag: 110+ nationalities represented shows diverse, international environment
       impact: Global perspective and multicultural collaboration
       confidence: High - Internal research
+      task_characteristics:
+        conflict_exposure: medium
+        alignment_clarity: medium
+        authority_ambiguity: medium
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: medium
+        requires_sync_communication: false
+        timezone_spread: medium
+      energy_quadrant: moare
+      energy_reasoning: 'Uses core strengths from profile (low learning required).
+
+        Moare quadrant: leverages strength while energizing.'
     - flag: €395M state-of-the-art Ballsbridge campus with rooftop gardens, exercise
         track, collaborative spaces
       impact: World-class facilities for in-office days
       confidence: High - Internal research
+      task_characteristics:
+        conflict_exposure: medium
+        alignment_clarity: medium
+        authority_ambiguity: medium
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: medium
+        requires_sync_communication: false
+        timezone_spread: medium
+      energy_quadrant: moare
+      energy_reasoning: 'Uses glue_work strength (expert).
+
+        Moare quadrant: leverages strength while energizing.'
     - flag: 'Meta brand provides exceptional comp: Levels.fyi shows top-tier total
         compensation'
       impact: Financial package likely competitive with best in industry
       confidence: High - Public compensation data
+      task_characteristics:
+        conflict_exposure: low
+        alignment_clarity: medium
+        authority_ambiguity: medium
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: medium
+        requires_sync_communication: false
+        timezone_spread: medium
+      energy_quadrant: moare
+      energy_reasoning: 'Uses core strengths from profile (low learning required).
+
+        Moare quadrant: leverages strength while energizing.'
     - flag: Meta on resume is top-tier credential for infrastructure/systems engineering
       impact: Career accelerator, opens doors across industry
       confidence: High - Brand reputation
+      task_characteristics:
+        conflict_exposure: medium
+        alignment_clarity: medium
+        authority_ambiguity: medium
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: medium
+        requires_sync_communication: false
+        timezone_spread: medium
+      energy_quadrant: moare
+      energy_reasoning: 'Provides tool_building generator (core need).
+
+        Uses systems_thinking strength (expert).
+
+        Moare quadrant: leverages strength while energizing.'
     - flag: Production Engineering is largest org in Dublin with several hundred engineers
       impact: Strong peer community for staff+ engineers
       confidence: High - Internal research
+      task_characteristics:
+        conflict_exposure: medium
+        alignment_clarity: medium
+        authority_ambiguity: medium
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: medium
+        requires_sync_communication: false
+        timezone_spread: medium
+      energy_quadrant: moare
+      energy_reasoning: 'Uses core strengths from profile (low learning required).
+
+        Moare quadrant: leverages strength while energizing.'
     - flag: Network fabric evolution 200→800Gbps, AI infrastructure work shows innovation
         not just maintenance
       impact: Cutting-edge infrastructure problems, not legacy systems
       confidence: High - Internal research
+      task_characteristics:
+        conflict_exposure: medium
+        alignment_clarity: medium
+        authority_ambiguity: medium
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: medium
+        requires_sync_communication: false
+        timezone_spread: medium
+      energy_quadrant: moare
+      energy_reasoning: 'Provides tool_building generator (core need).
+
+        Uses systems_thinking strength (expert).
+
+        Moare quadrant: leverages strength while energizing.'
+    - flag: 'Established organization: 2,000+ employees across 80+ teams with clear
+        structure'
+      impact: Mature processes and reduced organizational chaos
+      confidence: High - Explicit statement
+      task_implications:
+      - task: Navigate large organizational structure with established teams and processes
+        time_estimate_pct: 10%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: moderate
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: low
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: true
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: true
+          collaboration_type: cross_team
+          meeting_intensity: moderate
+          requires_sync_communication: true
+          timezone_spread: moderate
+        notes: Organizational stability reduces misalignment drain
+        energy_matrix_quadrant: sparingly
+    - flag: 'Sustainability focus: 100% renewable energy, LEED Gold campus, Greenpeace
+        ''A'' rating'
+      impact: Environmental values alignment and operational excellence
+      confidence: High - Multiple explicit certifications
+      task_implications:
+      - task: Work in environmentally conscious infrastructure operations
+        time_estimate_pct: 5%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: low
+          decision_speed: moderate
+          learning_required: none
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: false
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: solo
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: co_located
+        notes: Values alignment but minimal direct involvement
+        energy_matrix_quadrant: help_mentoring
   chosen_peak:
     critical_matches: *id001
     strong_positives: *id002
@@ -102,40 +589,386 @@ red_flags:
       impact: Limited to infrastructure/operations work, not building user-facing
         products
       confidence: High - Explicit statement in research
+      task_characteristics:
+        conflict_exposure: medium
+        alignment_clarity: medium
+        authority_ambiguity: medium
+        progress_visibility: high
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: medium
+        requires_sync_communication: false
+        timezone_spread: medium
+      energy_quadrant: moare
+      energy_reasoning: 'Provides visible_progress generator (core need).
+
+        Uses infrastructure_automation strength (expert).
+
+        Moare quadrant: leverages strength while energizing.'
     - flag: Infrastructure/operations role not product development - if you want to
         build user-facing products, look elsewhere
       impact: Career type mismatch if interested in product engineering vs infrastructure
       confidence: High - Office charter
+      task_characteristics:
+        conflict_exposure: medium
+        alignment_clarity: medium
+        authority_ambiguity: medium
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: medium
+        requires_sync_communication: false
+        timezone_spread: medium
+      energy_quadrant: moare
+      energy_reasoning: 'Provides tool_building generator (core need).
+
+        Uses infrastructure_automation strength (expert).
+
+        Moare quadrant: leverages strength while energizing.'
     concerning: &id004
     - flag: WhatsApp, Ads engineering focus on operations/support not core algorithms
         or features
       impact: Even when products present, Dublin does operational support not development
       confidence: High - Internal research
+      task_characteristics:
+        conflict_exposure: medium
+        alignment_clarity: medium
+        authority_ambiguity: medium
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: medium
+        requires_sync_communication: false
+        timezone_spread: medium
+      energy_quadrant: sparingly
+      energy_reasoning: 'Creates draining conditions despite using expertise.
+
+        Uses core strengths from profile.
+
+        Sparingly quadrant: leverages expertise but at energy cost.'
     - flag: AI work is infrastructure support (networking, GPUs) not model development
         or AI research
       impact: Supporting AI vs building it - second-order impact
       confidence: High - Internal research
+      task_characteristics:
+        conflict_exposure: medium
+        alignment_clarity: medium
+        authority_ambiguity: medium
+        progress_visibility: high
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: medium
+        requires_sync_communication: false
+        timezone_spread: medium
+      energy_quadrant: moare
+      energy_reasoning: 'Provides visible_progress generator (core need).
+
+        Uses infrastructure_automation strength (expert).
+
+        Moare quadrant: leverages strength while energizing.'
     - flag: Reality Labs in Cork (250km away) not Dublin, limits VR/AR opportunities
       impact: Geographically separated from cutting-edge product work
       confidence: High - Internal research
+      task_characteristics:
+        conflict_exposure: medium
+        alignment_clarity: medium
+        authority_ambiguity: medium
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: medium
+        requires_sync_communication: false
+        timezone_spread: medium
+      energy_quadrant: sparingly
+      energy_reasoning: 'Creates draining conditions despite using expertise.
+
+        Uses core strengths from profile.
+
+        Sparingly quadrant: leverages expertise but at energy cost.'
     - flag: Meta global has had layoffs (2022-2023) though Dublin-specific impact
         unclear
       impact: Company-wide uncertainty even if Dublin protected
       confidence: Medium - Public layoffs, Dublin impact unknown
+      task_characteristics:
+        conflict_exposure: high
+        alignment_clarity: low
+        authority_ambiguity: high
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: slow
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: medium
+        requires_sync_communication: false
+        timezone_spread: medium
+      energy_quadrant: sparingly
+      energy_reasoning: 'Exposes to authority_ambiguity drain (moderate).
+
+        Uses core strengths from profile.
+
+        Sparingly quadrant: leverages expertise but at energy cost.'
     - flag: Work model specifics (remote/hybrid) not documented - likely hybrid given
         €395M campus investment
       impact: Uncertain if remote-first possible, campus investment suggests office-centric
       confidence: Medium - Inferred from campus investment
+      task_characteristics:
+        conflict_exposure: medium
+        alignment_clarity: low
+        authority_ambiguity: medium
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: medium
+        requires_sync_communication: false
+        timezone_spread: medium
+      energy_quadrant: sparingly
+      energy_reasoning: 'Creates draining conditions despite using expertise.
+
+        Uses core strengths from profile.
+
+        Sparingly quadrant: leverages expertise but at energy cost.'
     - flag: 24/7 on-call rotations for global infrastructure required
       impact: Operational burden and potential work-life balance challenges
       confidence: High - Explicit statement
+      task_characteristics:
+        conflict_exposure: medium
+        alignment_clarity: medium
+        authority_ambiguity: medium
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: medium
+        requires_sync_communication: false
+        timezone_spread: medium
+      energy_quadrant: moare
+      energy_reasoning: 'Provides tool_building generator (core need).
+
+        Uses infrastructure_automation strength (expert).
+
+        Moare quadrant: leverages strength while energizing.'
     - flag: '''Move fast'' culture with strong ownership may mean intense pace'
       impact: Potential for burnout or unsustainable workload
       confidence: Medium - Cultural expectation
+      task_characteristics:
+        conflict_exposure: medium
+        alignment_clarity: medium
+        authority_ambiguity: medium
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: medium
+        requires_sync_communication: false
+        timezone_spread: medium
+      energy_quadrant: sparingly
+      energy_reasoning: 'Exposes to financial_anxiety drain (moderate).
+
+        Uses core strengths from profile.
+
+        Sparingly quadrant: leverages expertise but at energy cost.'
     - flag: Limited product ownership and creative freedom - work defined by Menlo
         Park priorities
       impact: Execution focus rather than product vision or strategy
       confidence: High - Satellite office nature
+      task_characteristics:
+        conflict_exposure: medium
+        alignment_clarity: medium
+        authority_ambiguity: medium
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: medium
+        requires_sync_communication: false
+        timezone_spread: medium
+      energy_quadrant: sparingly
+      energy_reasoning: 'Creates draining conditions despite using expertise.
+
+        Uses core strengths from profile.
+
+        Sparingly quadrant: leverages expertise but at energy cost.'
+    - flag: 'Operations/maintenance focus: Dublin is infrastructure hub, NOT product
+        development center'
+      impact: Limited opportunities for building new products - conflicts with core
+        'visible_progress' and 'tool_building' needs
+      confidence: High - Explicit statements that consumer product engineering remains
+        in U.S. offices
+      task_implications:
+      - task: Maintain and operate existing production systems built by US product
+          teams
+        time_estimate_pct: 35%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: moderate
+          authority_ambiguity: low
+          progress_visibility: low
+          autonomy_level: low
+          decision_speed: moderate
+          learning_required: low
+          uses_systems_thinking: true
+          uses_tool_building: false
+          uses_glue_work: true
+          uses_infrastructure_automation: true
+          uses_decision_frameworks: false
+          collaboration_type: cross_team
+          meeting_intensity: moderate
+          requires_sync_communication: true
+          timezone_spread: wide
+        notes: SEVERE misalignment with 'visible_progress' and 'tool_building' core
+          generators - maintenance work not building
+        energy_matrix_quadrant: sparingly
+    - flag: 24/7 on-call rotations required for global infrastructure support
+      impact: Potential for work-life balance disruption and burnout
+      confidence: High - Explicit statement about on-call rotations
+      task_implications:
+      - task: Participate in on-call rotation for production incidents across global
+          time zones
+        time_estimate_pct: 15%
+        characteristics:
+          conflict_exposure: moderate
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: low
+          autonomy_level: low
+          decision_speed: fast
+          learning_required: moderate
+          uses_systems_thinking: true
+          uses_tool_building: false
+          uses_glue_work: false
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: high
+          requires_sync_communication: true
+          timezone_spread: wide
+        notes: On-call work drains energy without creative output - interrupts flow
+          state
+        energy_matrix_quadrant: burnout
+    - flag: 'No core product engineering: Instagram, Facebook, Messenger, WhatsApp
+        all centralized in US'
+      impact: Executing others' vision rather than owning product direction
+      confidence: High - Multiple explicit statements about lack of product presence
+      task_implications:
+      - task: Support US product teams' infrastructure needs without product ownership
+        time_estimate_pct: 20%
+        characteristics:
+          conflict_exposure: moderate
+          alignment_clarity: moderate
+          authority_ambiguity: moderate
+          progress_visibility: low
+          autonomy_level: low
+          decision_speed: slow
+          learning_required: low
+          uses_systems_thinking: true
+          uses_tool_building: false
+          uses_glue_work: true
+          uses_infrastructure_automation: true
+          uses_decision_frameworks: false
+          collaboration_type: cross_team
+          meeting_intensity: moderate
+          requires_sync_communication: true
+          timezone_spread: wide
+        notes: Conflicts with 'visible_progress' generator - supporting others' products
+          vs building own
+        energy_matrix_quadrant: sparingly
+    - flag: 'No AI research: Research happens in Menlo Park, London, Zurich, Paris
+        - not Dublin'
+      impact: Missing cutting-edge innovation work, limited to supporting infrastructure
+      confidence: High - Explicit statement about AI research locations
+      task_implications:
+      - task: Provide infrastructure support for AI/ML workloads (networking, GPUs)
+          without research involvement
+        time_estimate_pct: 10%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: moderate
+          authority_ambiguity: low
+          progress_visibility: low
+          autonomy_level: low
+          decision_speed: moderate
+          learning_required: moderate
+          uses_systems_thinking: true
+          uses_tool_building: false
+          uses_glue_work: true
+          uses_infrastructure_automation: true
+          uses_decision_frameworks: false
+          collaboration_type: cross_team
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: wide
+        notes: Peripheral involvement in AI (hot topic) but no creative contribution
+        energy_matrix_quadrant: sparingly
+    - flag: 'GDPR compliance focus: Data Protection Office operates from Dublin managing
+        EMEA compliance'
+      impact: Significant time spent on regulatory compliance vs product innovation
+      confidence: High - Explicit statement about GDPR/ODPO function
+      task_implications:
+      - task: Navigate GDPR compliance requirements for EMEA infrastructure operations
+        time_estimate_pct: 10%
+        characteristics:
+          conflict_exposure: moderate
+          alignment_clarity: high
+          authority_ambiguity: moderate
+          progress_visibility: low
+          autonomy_level: low
+          decision_speed: slow
+          learning_required: high
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: true
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: true
+          collaboration_type: cross_team
+          meeting_intensity: moderate
+          requires_sync_communication: true
+          timezone_spread: narrow
+        notes: Drains energy without using core strengths - necessary overhead not
+          value creation
+        energy_matrix_quadrant: burnout
+    - flag: Graduate program rotations suggest junior talent focus over senior expertise
+        investment
+      impact: May indicate limited senior engineering growth opportunities or investment
+      confidence: Medium - Implied from Network Production Engineer University Graduate
+        Program mention
+      task_implications:
+      - task: Potential mentoring responsibilities for rotating graduates
+        time_estimate_pct: 10%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: moderate
+          authority_ambiguity: moderate
+          progress_visibility: low
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: moderate
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: true
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: true
+          collaboration_type: paired
+          meeting_intensity: moderate
+          requires_sync_communication: true
+          timezone_spread: co_located
+        notes: Glue work but may indicate ops role rather than senior technical leadership
+          track
+        energy_matrix_quadrant: sparingly
   chosen_peak:
     dealbreakers: *id003
     concerning: *id004
@@ -185,4 +1018,94 @@ missing_critical_data:
   why_important: Assessing job security and organizational stability
   how_to_find: Research Dublin news, ask during interviews
   mountain_element: mountain_range
+- question: What percentage of engineering time is spent on new tool/system development
+    vs operations/maintenance?
+  why_important: Critical to understand if 'tool_building' strength actually used
+    or if role is purely operational
+  how_to_find: Ask current Production Engineers in Dublin about typical sprint breakdown
+  mountain_element: chosen_peak
+- question: How much autonomy do Dublin engineers have in technical decisions vs following
+    US-dictated designs?
+  why_important: Determines if 'autonomy_level' and 'decision_speed' are actually
+    high or theoretical only
+  how_to_find: Ask about decision-making process for infrastructure changes - who
+    approves, how long, how much local input
+  mountain_element: daily_climb
+- question: What opportunities exist for Dublin-based engineers to work on product
+    features vs pure infrastructure?
+  why_important: Essential to evaluate if 'visible_progress' generator can be satisfied
+    through product impact
+  how_to_find: Ask about recent projects with direct user impact or product feature
+    ownership
+  mountain_element: chosen_peak
+- question: What is the on-call rotation frequency and incident volume?
+  why_important: Quantifies actual disruption to work-life balance and flow state
+  how_to_find: Ask about typical on-call frequency (e.g., one week per month), average
+    pages per shift, sleep disruption
+  mountain_element: daily_climb
 company_slug: meta-dublin
+synthesis:
+  energy_matrix:
+    moare_percentage: 84
+    sparingly_percentage: 16
+    burnout_percentage: 0
+    help_mentoring_percentage: 0
+    meets_thresholds: true
+    energy_sustainability: HIGH
+    sustainability_reasoning: 84% moare work leveraging core strengths with energizing
+      conditions. 16% sparingly work using expertise at energy cost. 0% burnout work
+      requiring learning under draining conditions. Meets both thresholds (≥60% moare,
+      ≤20% burnout) for sustainable 25+ year career pace.
+    key_energy_insights:
+    - 84% moare work leverages core strengths with energizing conditions
+    energy_concerns: []
+    quadrant_breakdown:
+      moare:
+        count: 155
+        percentage: 84
+        key_examples:
+        - Meta's financial strength ($133B+ revenue globally, highly profitable) means
+          absolute job security
+        - Working on Meta infrastructure at exabyte scale (1M+ TB data), 200-800Gbps
+          network fabric, AI cluste...
+      sparingly:
+        count: 30
+        percentage: 16
+        key_examples:
+        - WhatsApp, Ads engineering focus on operations/support not core algorithms
+          or features
+        - Reality Labs in Cork (250km away) not Dublin, limits VR/AR opportunities
+      burnout:
+        count: 0
+        percentage: 0
+        key_examples: []
+      help_mentoring:
+        count: 0
+        percentage: 0
+        key_examples: []
+  energy_matrix_analysis:
+    profile_version_used: '1.0'
+    predicted_daily_distribution:
+      moare_green_flags:
+        percentage: 23.7
+        tasks_count: 10
+      sparingly_yellow_flags:
+        percentage: 60.5
+        tasks_count: 30
+      burnout_red_flags:
+        percentage: 13.2
+        tasks_count: 10
+      help_mentoring_yellow_flags:
+        percentage: 2.6
+        tasks_count: 5
+    threshold_analysis:
+      meets_green_minimum: false
+      exceeds_red_maximum: false
+      exceeds_yellow_maximum: true
+    energy_sustainability: LOW
+    key_insights:
+    - 73.7% of work in draining quadrants (sparingly + burnout)
+    - Insufficient moare quadrant work (23.7% vs 60% needed)
+    decision_factors:
+    - 'RED: Only 23.7% moare quadrant (need ≥60%)'
+profile_version_used: '1.0'

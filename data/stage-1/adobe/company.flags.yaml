@@ -1,5 +1,5 @@
 company: adobe
-evaluation_date: '2025-10-18'
+evaluation_date: '2025-11-09'
 evaluator_context: Extracted from conversation notes
 green_flags:
   mountain_range:
@@ -28,6 +28,201 @@ green_flags:
         2017) with 93-98% employee approval, Top 5% of similar-sized companies
       impact: Exceptional leadership stability and employee confidence in direction
       confidence: High - Adobe profiles and Comparably
+    - flag: 'Exceptional financial health: $21.51B revenue FY2024 with 11% YoY growth,
+        $5.99B Q3 FY2025 (10% growth), $164.65B market cap'
+      impact: Eliminates financial anxiety - company is thriving with consistent growth,
+        providing stability for long-term career investment
+      confidence: High - explicit 10-K and earnings reports
+      task_implications:
+      - task: Building product features and platform capabilities with stable funding
+        time_estimate_pct: 60-70%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: moderate
+          learning_required: low
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_infrastructure_automation: true
+          collaboration_type: team
+          meeting_intensity: moderate
+          requires_sync_communication: false
+          timezone_spread: moderate
+        notes: Stable company enables focus on building vs survival
+    - flag: 'Strong recurring revenue model: $18.59B Digital Media ARR Q3 FY2025 (11.7%
+        growth), $5B+ AI-influenced ARR'
+      impact: Predictable revenue stream reduces risk of sudden layoffs or funding
+        issues
+      confidence: High - Q3 FY2025 earnings
+      task_implications:
+      - task: Working on subscription platform features with low churn risk
+        time_estimate_pct: Part of productive work (already counted)
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: moderate
+          learning_required: none
+          uses_systems_thinking: true
+          collaboration_type: team
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: moderate
+    - flag: 'Strong open source presence: 1,037+ GitHub repos, React Spectrum (14.4K
+        stars), Magento stewardship (1,000+ contributors)'
+      impact: Technical culture values openness and community contribution - aligns
+        with staff engineer growth
+      confidence: High - GitHub verified
+      task_implications:
+      - task: Contributing to/maintaining open source projects
+        time_estimate_pct: 5-10%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: low
+          uses_systems_thinking: true
+          uses_tool_building: true
+          collaboration_type: cross_team
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: wide
+        notes: Optional but career-enhancing work
+    - flag: 'Modern technical stack: Python, TypeScript, K8s, Docker, Helm, Jenkins,
+        Spinnaker across AWS/Azure'
+      impact: Matches infrastructure expertise, supports systems thinking and tool
+        building strengths
+      confidence: High - engineering blog and job postings
+      task_implications:
+      - task: Part of core infrastructure work (included in 60-70% productive time)
+        time_estimate_pct: N/A
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: moderate
+          learning_required: low
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_infrastructure_automation: true
+          collaboration_type: team
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: moderate
+    - flag: 'Comprehensive CI/CD: SonarQube, automated testing, Red/Black and Canary
+        deployments'
+      impact: Strong engineering practices enable safe iteration and visible progress
+      confidence: High - Adobe tech blog
+      task_implications:
+      - task: Part of core engineering work (included in productive time)
+        time_estimate_pct: N/A
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: none
+          uses_infrastructure_automation: true
+          collaboration_type: team
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: narrow
+    - flag: 'Exceptional CEO approval: 93-98% employee rating, Top 5% of CEOs at similar-sized
+        companies'
+      impact: Strong leadership trust reduces organizational anxiety and conflict
+        exposure
+      confidence: High - Comparably data
+      task_implications:
+      - task: Working under stable, trusted leadership (reduces defensive overhead)
+        time_estimate_pct: Enables 5-15% defensive time (vs 15-25% for Level 3)
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: moderate
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: none
+          collaboration_type: team
+          meeting_intensity: moderate
+          requires_sync_communication: false
+          timezone_spread: moderate
+    - flag: 'Long-term CEO stability: Shantanu Narayen CEO since 2007 (17+ years),
+        Chairman since 2017'
+      impact: Eliminates leadership churn overhead and provides strategic continuity
+      confidence: High - Adobe executive profiles
+      task_implications:
+      - task: No time wasted on leadership transitions or strategy pivots
+        time_estimate_pct: Saves 10-15% vs high-churn orgs
+        characteristics:
+          conflict_exposure: none
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: moderate
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: none
+          collaboration_type: team
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: moderate
+    - flag: 'Permanent hybrid work model: 50% office time (~2-3 days/week) with flexibility
+        as default since June 2021'
+      impact: Hybrid model provides maker time balance and reduces meeting intensity,
+        matches async work capability
+      confidence: High - Adobe blog and Hubble research
+      task_implications:
+      - task: Balancing remote deep work (2-3 days) with office collaboration (2-3
+          days)
+        time_estimate_pct: Work mode distribution (already included)
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: moderate
+          learning_required: none
+          uses_systems_thinking: true
+          uses_tool_building: true
+          collaboration_type: team
+          meeting_intensity: moderate
+          requires_sync_communication: false
+          timezone_spread: narrow
+        notes: Dublin office (3K+ employees) provides local collaboration
+    - flag: 'Industry-leading products at massive scale: 37M Creative Cloud subscribers,
+        $18.59B ARR'
+      impact: Resume value - working on products that millions of creative professionals
+        depend on
+      confidence: High - financial reports
+      task_implications:
+      - task: Part of core product work (included in productive time)
+        time_estimate_pct: N/A
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: low
+          uses_systems_thinking: true
+          collaboration_type: team
+          meeting_intensity: moderate
+          requires_sync_communication: false
+          timezone_spread: moderate
     strong_positives: &id002
     - flag: Digital Media ARR $18.59B growing 11.7% YoY, Creative Cloud 37M paid subscribers,
         dominant market position
@@ -112,6 +307,98 @@ green_flags:
         ARR, global operations'
       impact: Learn to build/operate systems at scale most engineers never see
       confidence: High - Financial reports
+    - flag: 'Market leadership position: Creative Cloud (37M paid subscribers), Document
+        Cloud, Experience Cloud with SOC 2 Type 2 and ISO certifications'
+      impact: Working on industry-leading products with strong market validation
+      confidence: High - official data and trust center
+      task_implications:
+      - task: Part of core product development (already counted in 60-70%)
+        time_estimate_pct: N/A
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: low
+          uses_systems_thinking: true
+          collaboration_type: team
+          meeting_intensity: moderate
+          requires_sync_communication: false
+          timezone_spread: moderate
+    - flag: 'Active AI/GenAI investment: Firefly (launched March 2023), Adobe Sensei
+        with Google FLAN-T5 and Azure OpenAI'
+      impact: Opportunity to work on cutting-edge GenAI applications with production
+        scale
+      confidence: High - Adobe newsroom and Firefly launch
+      task_implications:
+      - task: Contributing to AI/ML platform capabilities
+        time_estimate_pct: Part of core work or 10-15% if specialized
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: moderate
+          uses_systems_thinking: true
+          uses_tool_building: true
+          collaboration_type: team
+          meeting_intensity: moderate
+          requires_sync_communication: true
+          timezone_spread: moderate
+        notes: High growth area but may require some learning
+    - flag: 'Strong research presence: SIGGRAPH and ICCV 2025, Aaron Hertzmann won
+        CG Achievement award 2024'
+      impact: Culture values technical excellence and innovation beyond immediate
+        product needs
+      confidence: High - Adobe Research website and awards
+    - flag: 'Strong employee sentiment: 4.2/5 Glassdoor (84% recommend globally),
+        4.3/5 Dublin office (77% recommend)'
+      impact: Positive culture reduces interpersonal conflict exposure (severe energy
+        drain)
+      confidence: High - Glassdoor verified reviews
+    - flag: 'Very low attrition: 7.8% total attrition FY2024'
+      impact: Team stability enables better collaboration and reduces onboarding overhead
+      confidence: High - 10-K report
+      task_implications:
+      - task: Working with stable teams (less rework from turnover)
+        time_estimate_pct: Saves 5-10% vs high-churn orgs
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: low
+          collaboration_type: team
+          meeting_intensity: moderate
+          requires_sync_communication: false
+          timezone_spread: moderate
+    - flag: 'Dublin office ratings: Work-life balance 3.9/5, Culture 4.1/5, Compensation
+        4.1/5'
+      impact: Local office has solid day-to-day experience ratings
+      confidence: Medium - Glassdoor Dublin-specific (77 reviews)
+    - flag: 'Substantial Dublin presence: 3,000+ employees, R&D/licensing/distribution
+        hub for non-Americas'
+      impact: Large local team provides collaboration opportunities and career paths
+      confidence: High - Irish Times 2018 (may be dated)
+    - flag: 'Refurbished Dublin office: Modern design by Gensler with open-plan, games
+        room, wellbeing focus'
+      impact: Quality work environment supports productivity and comfort
+      confidence: High - Gensler projects
+    - flag: 'Cutting-edge GenAI work: $5B+ AI-influenced ARR, Firefly trained on 300M+
+        Adobe Stock assets'
+      impact: Opportunity to work on production GenAI at scale with commercial safety
+        focus
+      confidence: High - Q3 FY2025 earnings and Firefly launch
+    - flag: 'Strong comp: $165K-$495K total comp for Software Engineers (P10-P60),
+        median $250K US'
+      impact: Competitive compensation reduces financial anxiety
+      confidence: Medium - Levels.fyi data (US-based, not Dublin-specific)
   chosen_peak:
     critical_matches: *id001
     strong_positives: *id002
@@ -165,6 +452,88 @@ red_flags:
     - flag: Large org may limit scope and impact compared to smaller companies
       impact: Risk of being one of thousands vs. high-impact contributor
       confidence: Low - Implied from company size
+    - flag: 69% positive interview experience - suggests some interview process friction
+      impact: May indicate hiring bar inconsistency or interview process issues
+      confidence: Medium - Glassdoor data
+      task_implications:
+      - task: Potentially working with candidates who had mixed interview experiences
+        time_estimate_pct: Minimal - 1-2%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: moderate
+          authority_ambiguity: low
+          progress_visibility: moderate
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: none
+          collaboration_type: team
+          meeting_intensity: moderate
+          requires_sync_communication: true
+          timezone_spread: narrow
+    - flag: 'Recent executive turnover: CSO Scott Belsky resigned March 2025, GC Dana
+        Rao left Sept 2024'
+      impact: Some leadership instability at executive level - worth monitoring for
+        impact on strategy
+      confidence: High - TipRanks and Yahoo Finance
+      task_implications:
+      - task: Navigating potential strategy shifts from new CMO (Dec 2024) and missing
+          CSO/GC
+        time_estimate_pct: 5-10%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: moderate
+          authority_ambiguity: moderate
+          progress_visibility: moderate
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: none
+          collaboration_type: cross_team
+          meeting_intensity: moderate
+          requires_sync_communication: true
+          timezone_spread: moderate
+        notes: Coordination overhead from leadership changes
+    - flag: 'Dublin office lower recommendation rate: 77% recommend vs 84% globally'
+      impact: Dublin-specific experience may be less positive than company average
+        - needs investigation
+      confidence: Medium - Glassdoor (77 reviews vs 11,655 global)
+      task_implications:
+      - task: Potentially navigating Dublin-specific cultural or organizational issues
+        time_estimate_pct: 5-10%
+        characteristics:
+          conflict_exposure: moderate
+          alignment_clarity: moderate
+          authority_ambiguity: moderate
+          progress_visibility: moderate
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: none
+          collaboration_type: team
+          meeting_intensity: moderate
+          requires_sync_communication: false
+          timezone_spread: narrow
+        notes: Small sample size (77 reviews) but gap is notable
+    - flag: Career opportunities rated 3.8/5 (global) - lower than other dimensions
+      impact: Potential ceiling for growth and advancement within organization
+      confidence: Medium - Glassdoor aggregate
+    - flag: Blind management rating only 3.3/5 (lowest dimension)
+      impact: Management quality concerns could impact day-to-day experience and growth
+      confidence: Medium - Blind employee reviews
+      task_implications:
+      - task: Navigating variable manager quality
+        time_estimate_pct: 5-10%
+        characteristics:
+          conflict_exposure: moderate
+          alignment_clarity: moderate
+          authority_ambiguity: moderate
+          progress_visibility: moderate
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: none
+          collaboration_type: team
+          meeting_intensity: moderate
+          requires_sync_communication: true
+          timezone_spread: narrow
+        notes: Manager quality lottery - may need to navigate
   chosen_peak:
     dealbreakers: *id003
     concerning: *id004
@@ -229,4 +598,52 @@ missing_critical_data:
   how_to_find: Ask about typical weekly schedule, number of recurring meetings, maker
     time blocks
   mountain_element: daily_climb
+- question: What is current Dublin office employee count (2024-2025)?
+  why_important: 3,000+ number is from 2017-2018, need to know if Dublin team has
+    grown, stayed stable, or contracted
+  how_to_find: 'Ask in insider interview: ''How large is the Dublin team now? Has
+    it grown or contracted in recent years?'''
+  mountain_element: rope_team_confidence
+- question: What are Dublin-specific compensation ranges for Staff Software Engineers?
+  why_important: Levels.fyi data is US-based ($165K-$495K) - need EU/Ireland numbers
+    to assess financial competitiveness
+  how_to_find: 'Ask in insider interview: ''What''s the typical total comp range for
+    Staff engineers in Dublin?'' or check Ireland salary surveys'
+  mountain_element: daily_climb
+- question: What products/services does the Dublin office specifically work on?
+  why_important: Dublin is described as 'R&D, licensing, distribution' but unclear
+    which product lines (Creative Cloud vs Document Cloud vs Experience Cloud)
+  how_to_find: 'Ask in insider interview: ''What products does the Dublin team primarily
+    work on? Is it all three clouds or focused on specific areas?'''
+  mountain_element: story_worth_telling
+- question: What is the team coordination style in Dublin engineering teams?
+  why_important: Need to understand if teams operate as alpine (co-located, high bandwidth),
+    expedition (distributed, async), or other style - impacts fit with profile needs
+  how_to_find: 'Ask in insider interview: ''How do Dublin teams coordinate? High sync
+    meetings vs async? How much autonomy do teams have?'''
+  mountain_element: chosen_peak
+- question: What is the current on-call rotation and incident response structure?
+  why_important: On-call burden impacts work-life balance and sustainability - critical
+    for evaluating daily climb
+  how_to_find: 'Ask in insider interview: ''What''s the on-call rotation like? How
+    often? What''s the incident load typically?'''
+  mountain_element: daily_climb
+- question: What are the promotion timelines and criteria for Staff to Principal engineer?
+  why_important: Career growth path is rated 3.8/5 (lower) - need to understand if
+    Staff is a terminal level or if there's clear path upward
+  how_to_find: 'Ask in insider interview: ''How long does it typically take to go
+    from Staff to Principal? What are the expectations?'''
+  mountain_element: story_worth_telling
+- question: What caused the 77% vs 84% recommendation gap for Dublin office?
+  why_important: Significant delta suggests Dublin-specific issues - need to understand
+    if it's cultural, management, or structural
+  how_to_find: 'Ask in insider interview: ''What are the biggest challenges specific
+    to the Dublin office? How does it compare to other Adobe locations?'''
+  mountain_element: daily_climb
+- question: How has the executive turnover (CSO, GC) impacted engineering strategy?
+  why_important: Recent departures of CSO (March 2025) and GC (Sept 2024) plus new
+    CMO (Dec 2024) could signal strategy shifts
+  how_to_find: 'Ask in insider interview: ''Has there been any noticeable change in
+    direction or strategy following Scott Belsky''s departure?'''
+  mountain_element: rope_team_confidence
 company_slug: adobe

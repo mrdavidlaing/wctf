@@ -1,6 +1,6 @@
 company: Canonical
 company_slug: canonical
-evaluation_date: '2025-10-17'
+evaluation_date: '2025-11-09'
 evaluator_context: Extracted from conversation notes
 green_flags:
   mountain_range:
@@ -35,8 +35,8 @@ green_flags:
       impact: Future-proofed technical direction, working on cutting-edge ML infrastructure
         vs legacy systems
       confidence: High - company blog, partnership announcements
-    - flag: "27% of revenue spent on R&D, 4x expansion of documentation team (6\u2192\
-        28 authors)"
+    - flag: 27% of revenue spent on R&D, 4x expansion of documentation team (6→28
+        authors)
       impact: High engineering investment, documentation-as-product culture, quality
         over shipping fast
       confidence: High - financial filings, blog posts
@@ -60,6 +60,84 @@ green_flags:
       impact: 'Resume-builder: working on internet-scale infrastructure, high industry
         recognition'
       confidence: High - market data, partnerships
+    - flag: 'Dominant market position: Ubuntu holds 33.9% of Linux distribution market,
+        most popular globally'
+      impact: Working on widely-used platform (35k+ companies) provides meaningful
+        impact and resume value
+      confidence: High - Enterprise Apps Today 2024, explicit market share data
+      task_implications:
+      - task: Contributing to core Ubuntu OS and platform services used by tens of
+          thousands of companies
+        time_estimate_pct: 30-40%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: moderate
+          learning_required: moderate
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_glue_work: false
+          uses_infrastructure_automation: true
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: wide
+        notes: Core infrastructure work with clear scope and high autonomy, distributed
+          team requires async capability
+    - flag: 'Modern infrastructure stack: Kubernetes/MicroK8s, OpenStack, LXD containers,
+        Python, Go, Rust focus'
+      impact: Strong match for infrastructure automation and systems thinking strengths
+      confidence: High - Canonical job postings, GitHub repos 2024-10
+      task_implications:
+      - task: Designing K8s operators, container orchestration, and platform infrastructure
+        time_estimate_pct: 25-35%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: low
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_glue_work: false
+          uses_infrastructure_automation: true
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: narrow
+    - flag: 'Remote-first culture: Fully distributed since 2004, operates across 70+
+        countries, meets in-person twice yearly'
+      impact: Matches async work capability (strong) and timezone flexibility (6 hours);
+        enables work-life integration
+      confidence: High - Canonical careers page 2024
+      task_implications:
+      - task: Async collaboration with globally distributed team
+        time_estimate_pct: 0%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: moderate
+          learning_required: none
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: true
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: wide
+        notes: Remote-first is natural fit, no overhead - this is how work gets done
     strong_positives: &id002
     - flag: No external funding pressure - privately held, self-funded by founder
         since 2004, no VC/PE involvement
@@ -106,6 +184,191 @@ green_flags:
         within technical tracks
       impact: IC growth path exists, can advance technically without management pressure
       confidence: Medium - Glassdoor ratings
+    - flag: 'Strong financial health: $292M revenue (16.3% YoY growth), $15.5M operating
+        profit (5.3% margin), profitable since 2017'
+      impact: Financial stability reduces layoff risk and provides sustainable long-term
+        environment
+      confidence: High - UK Companies House filings via Phoronix, Linuxiac 2025-06
+      task_implications:
+      - task: No defensive work needed for financial instability
+        time_estimate_pct: 0%
+        characteristics:
+          conflict_exposure: none
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: none
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: false
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: solo
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: co_located
+    - flag: 'Founder-funded with no VC pressure: Privately held, fully self-funded
+        by Mark Shuttleworth since 2004, no external VC/PE'
+      impact: Reduces pressure for unsustainable growth or forced exits, allows long-term
+        technical investments
+      confidence: High - Crunchbase, TechCrunch 2025-10
+      task_implications:
+      - task: Building for long-term quality vs short-term growth metrics
+        time_estimate_pct: 0%
+        characteristics:
+          conflict_exposure: none
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: none
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_glue_work: false
+          uses_infrastructure_automation: true
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: narrow
+    - flag: 'Growing market: Global Linux OS market $21.97B (2024) projected to reach
+        $99.69B by 2032'
+      impact: Tailwind for career growth and job security in expanding market
+      confidence: High - Fortune Business Insights 2024
+      task_implications: []
+    - flag: 'Strong customer base: Major enterprise customers include Google, AWS,
+        Microsoft Azure, Netflix, Tesla, Bank of America, Uber, Wikipedia, Intel,
+        Walmart, US DoD'
+      impact: Working with tier-1 customers provides exposure to high-scale problems
+        and resume value
+      confidence: High - ReadyContacts, Canonical website 2024-2025
+      task_implications: []
+    - flag: 'Established Route coordination style: Mature 21-year-old company with
+        stable processes, remote-first since founding'
+      impact: Matches need for structured processes and decision frameworks; async-first
+        culture fits timezone flexibility
+      confidence: Medium - implied from age, remote-first operation, distributed team
+        across 70+ countries
+      task_implications:
+      - task: Navigating established remote-async processes and decision frameworks
+        time_estimate_pct: 10-15%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: moderate
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: moderate
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: true
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: true
+          collaboration_type: cross_team
+          meeting_intensity: moderate
+          requires_sync_communication: false
+          timezone_spread: wide
+    - flag: 'Active open source presence: 1,963 public GitHub repos including cloud-init
+        (3.5k stars), dqlite (4.2k stars), MicroK8s, Juju, LXD, Snapd'
+      impact: Opportunity for public technical reputation building and resume value
+      confidence: High - GitHub 2024-10
+      task_implications:
+      - task: Contributing to open source projects, engaging with community
+        time_estimate_pct: 5-10%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: low
+          uses_systems_thinking: false
+          uses_tool_building: true
+          uses_glue_work: false
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: solo
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: co_located
+    - flag: 'Cloud-native focus: Ubuntu is reference platform for Kubernetes on all
+        major clouds (GKE, AKS, EKS), powers ~70% of Linux on hyperscalers'
+      impact: Working on critical cloud infrastructure with massive scale and impact
+      confidence: High - Cleverism, Microsoft Pulse 2020-2025
+      task_implications: []
+    - flag: 'AI/MLOps investments: Charmed Kubeflow, Charmed MLflow, Data Science
+        Stack, NVIDIA partnerships for AI workloads'
+      impact: Opportunity to work in growing AI infrastructure space, matches interest
+        in ai_augmented_workflows
+      confidence: High - Canonical Blog 2024
+      task_implications:
+      - task: Building AI/ML platform tooling and infrastructure
+        time_estimate_pct: 10-15%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: moderate
+          learning_required: moderate
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_glue_work: false
+          uses_infrastructure_automation: true
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: moderate
+          requires_sync_communication: false
+          timezone_spread: narrow
+        notes: Growth area with energizing potential, building AI infrastructure tooling
+    - flag: 'Stable leadership: Mark Shuttleworth CEO 8+ continuous years (returned
+        2017, previously 2004-2010), Neil French COO 10+ years'
+      impact: Reduces manager churn risk and provides consistent strategic direction
+      confidence: High - Wikipedia, ContactOut, Crunchbase
+      task_implications:
+      - task: Navigating manager changes (unlikely with stable leadership)
+        time_estimate_pct: 2-5%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: moderate
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: low
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: true
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: paired
+          meeting_intensity: moderate
+          requires_sync_communication: true
+          timezone_spread: narrow
+    - flag: 'Mature organization: 21 years old, 1,200+ employees across 70+ countries,
+        remote-first with twice-yearly in-person sprints'
+      impact: Established processes reduce misalignment risk; remote culture fits
+        async preference
+      confidence: High - Canonical website, Wikipedia 2025
+      task_implications: []
+    - flag: 'Ubuntu brand recognition: #1 Linux distribution (33.9% market share),
+        4.5/5 stars on G2 with 2,145 reviews'
+      impact: Strong resume value and industry recognition for contributions to widely-known
+        platform
+      confidence: High - Enterprise Apps Today 2024, G2 2025
+      task_implications: []
+    - flag: 'Cloud platform dominance: Reference platform for K8s on all major clouds,
+        powers 70% of Linux footprint on hyperscalers'
+      impact: Career growth in critical cloud infrastructure space with massive scale
+        exposure
+      confidence: High - Cleverism, Microsoft Pulse 2020-2025
+      task_implications: []
   chosen_peak:
     critical_matches: *id001
     strong_positives: *id002
@@ -185,6 +448,245 @@ red_flags:
       impact: Difficult to build long-term career if constantly worried about performance
         rankings
       confidence: Medium - combined employee feedback
+    - flag: 'Geographic revenue concentration: US generates ~80% of revenue ($232M
+        of $292M), indicating heavy geographic risk'
+      impact: Concentration risk if US market weakens or regulatory changes; limits
+        geographic diversification
+      confidence: High - Linuxiac 2025-06
+      task_implications:
+      - task: Monitoring market concentration risks (passive awareness)
+        time_estimate_pct: 1-2%
+        characteristics:
+          conflict_exposure: none
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: low
+          autonomy_level: high
+          decision_speed: slow
+          learning_required: none
+          uses_systems_thinking: true
+          uses_tool_building: false
+          uses_glue_work: false
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: solo
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: co_located
+    - flag: 'Failed IPO plans: Planned IPO for 2023 announced in 2022 but did not
+        materialize; company remains private as of Oct 2025'
+      impact: Equity illiquidity concern - no clear path to liquidity for employee
+        equity; may indicate market/execution challenges
+      confidence: High - TechCrunch, Phoronix 2025-06
+      task_implications:
+      - task: No equity liquidity planning (illiquid equity is nearly worthless for
+          comp planning)
+        time_estimate_pct: 1-2%
+        characteristics:
+          conflict_exposure: none
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: low
+          autonomy_level: high
+          decision_speed: slow
+          learning_required: none
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: false
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: solo
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: co_located
+        notes: Assume equity is worth $0 for comp purposes unless IPO happens
+    - flag: 'Coordination mismatch risk: Wide timezone spread (70+ countries) with
+        unclear evidence of fast sync decision cadence or fully async culture'
+      impact: For uncertain problem spaces, wide timezone + uncertain async maturity
+        could create severe drain (profile requirement violated)
+      confidence: Medium - remote-first implies async, but interview process (CEO
+        interviews all roles) suggests sync culture
+      task_implications:
+      - task: Navigating timezone coordination challenges in uncertain problem spaces
+        time_estimate_pct: 10-15%
+        characteristics:
+          conflict_exposure: moderate
+          alignment_clarity: moderate
+          authority_ambiguity: moderate
+          progress_visibility: moderate
+          autonomy_level: moderate
+          decision_speed: slow
+          learning_required: moderate
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: true
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: true
+          collaboration_type: cross_team
+          meeting_intensity: moderate
+          requires_sync_communication: true
+          timezone_spread: wide
+        notes: 'CRITICAL: Verify async maturity in interviews - this could be severe
+          drain if profile requirement violated'
+    - flag: 'Poor employee sentiment: 3.1/5 Glassdoor (475 reviews), only 47% would
+        recommend, 43% positive business outlook'
+      impact: Indicates cultural issues that could cause interpersonal conflict (severe
+        drain per profile); suggests morale/engagement problems
+      confidence: High - Glassdoor 2025-10
+      task_implications:
+      - task: Navigating low morale environment and potential interpersonal tensions
+        time_estimate_pct: 10-15%
+        characteristics:
+          conflict_exposure: moderate
+          alignment_clarity: moderate
+          authority_ambiguity: moderate
+          progress_visibility: moderate
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: low
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: true
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: moderate
+          requires_sync_communication: true
+          timezone_spread: narrow
+        notes: 'CRITICAL: Low sentiment is severe red flag given childhood trauma
+          from conflict (profile)'
+    - flag: 'PIP quotas introduced 2023: Amazon-style forced ranking system with Performance
+        Improvement Plan quotas'
+      impact: Creates defensive culture, interpersonal conflict (severe drain), and
+        misalignment as people compete vs collaborate
+      confidence: Medium - Blind employee forum 2023-07
+      task_implications:
+      - task: Navigating PIP culture - defensive positioning, internal competition
+          dynamics
+        time_estimate_pct: 10-15%
+        characteristics:
+          conflict_exposure: high
+          alignment_clarity: low
+          authority_ambiguity: moderate
+          progress_visibility: moderate
+          autonomy_level: low
+          decision_speed: slow
+          learning_required: moderate
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: true
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: moderate
+          requires_sync_communication: true
+          timezone_spread: narrow
+        notes: 'DEALBREAKER RISK: Forced ranking + conflict sensitivity (profile)
+          = severe energy drain'
+    - flag: 'CEO approval required for ALL hires: Mark Shuttleworth interviews every
+        role including individual contributors'
+      impact: Bottleneck for team growth, potential authority ambiguity (moderate
+        drain), slow hiring velocity
+      confidence: High - Canonical careers, Glassdoor, InterviewQuery 2024-10
+      task_implications:
+      - task: Waiting for team growth due to CEO bottleneck in hiring
+        time_estimate_pct: 3-5%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: moderate
+          authority_ambiguity: moderate
+          progress_visibility: low
+          autonomy_level: low
+          decision_speed: slow
+          learning_required: none
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: false
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: co_located
+    - flag: 'Brutal interview process: 2.5-6 months, 38-question written interview,
+        psychometric testing, 3+ technical interviews, CEO interview; only 14% positive
+        experience'
+      impact: Indicates process-heavy culture that may extend to daily work; poor
+        candidate experience suggests employee experience issues
+      confidence: High - Glassdoor, InterviewQuery, Canonical careers 2024-10
+      task_implications:
+      - task: Navigating process-heavy bureaucracy in daily work
+        time_estimate_pct: 5-10%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: moderate
+          authority_ambiguity: moderate
+          progress_visibility: moderate
+          autonomy_level: low
+          decision_speed: slow
+          learning_required: low
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: true
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: cross_team
+          meeting_intensity: moderate
+          requires_sync_communication: true
+          timezone_spread: narrow
+        notes: Interview process is preview of internal culture - expect similar bureaucracy
+    - flag: 'Low compensation ratings: Glassdoor Compensation & Benefits 3.2/5, below
+        market for remote-first company'
+      impact: Potential financial anxiety (moderate drain per profile) if comp is
+        below market; may need to negotiate hard
+      confidence: Medium - Glassdoor 2025-10, no specific comp data
+      task_implications:
+      - task: Managing financial anxiety from below-market compensation
+        time_estimate_pct: 5-10%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: low
+          autonomy_level: high
+          decision_speed: slow
+          learning_required: none
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: false
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: solo
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: co_located
+        notes: 'CRITICAL: Get comp offer in writing early, compare to market data
+          before proceeding'
+    - flag: 'Low career opportunity ratings: Glassdoor Career Opportunities 3.2/5,
+        suggesting limited growth paths'
+      impact: May not provide strong career progression or learning opportunities
+        expected for staff+ role
+      confidence: Medium - Glassdoor 2025-10
+      task_implications:
+      - task: Self-directed career growth vs structured opportunities
+        time_estimate_pct: 5-8%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: moderate
+          authority_ambiguity: moderate
+          progress_visibility: moderate
+          autonomy_level: high
+          decision_speed: moderate
+          learning_required: low
+          uses_systems_thinking: false
+          uses_tool_building: true
+          uses_glue_work: false
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: solo
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: co_located
   chosen_peak:
     dealbreakers: *id003
     concerning: *id004
@@ -261,3 +763,66 @@ missing_critical_data:
     if employees benefit
   how_to_find: Ask about equity/profit-sharing in compensation discussion
   mountain_element: story_worth_telling
+- question: What is the actual async maturity level? Do teams have established async
+    decision frameworks or is sync communication still dominant?
+  why_important: 'Profile requirement: uncertain_problem_space requires async_first
+    OR co_located OR fast_sync_decision_cadence. Wide timezone spread (70+ countries)
+    + sync-heavy culture = severe drain.'
+  how_to_find: 'Interview questions: ''How do distributed teams make decisions across
+    timezones?'' ''What''s your RFC/design doc process?'' ''How much meeting time
+    vs maker time?'' Talk to current engineers about decision velocity.'
+  mountain_element: chosen_peak
+- question: How severe is the PIP quota culture in practice? Is it actually enforced
+    with quotas or just used for genuine performance issues?
+  why_important: Forced ranking creates interpersonal conflict (childhood trauma trigger),
+    misalignment (people compete vs collaborate), authority ambiguity. Could be dealbreaker
+    if severe.
+  how_to_find: 'Insider interviews with current/former employees. Ask: ''How are PIPs
+    used in practice?'' ''What % of team is on PIP at any time?'' ''Is there a quota?''
+    Blind posts, Glassdoor reviews mentioning PIPs.'
+  mountain_element: rope_team_confidence
+- question: What is the actual compensation range for staff engineer roles? How does
+    it compare to market rates for remote-first companies?
+  why_important: Below-market comp creates financial anxiety (moderate drain). Need
+    to know if equity is meaningful (failed IPO suggests illiquid).
+  how_to_find: Levels.fyi data for Canonical, Glassdoor salary reports, ask for comp
+    range in recruiter screen, insider interviews about comp satisfaction.
+  mountain_element: daily_climb
+- question: What is the meeting load and maker time culture? Remote-first can still
+    be meeting-heavy if async is weak.
+  why_important: Profile needs max 30% meeting intensity (ideal 20%). Process-heavy
+    interview + CEO-interviews-everyone suggests sync culture.
+  how_to_find: 'Interview questions: ''What''s a typical week''s meeting schedule?''
+    ''How much maker time do senior engineers get?'' ''Do teams have no-meeting days?''
+    Ask about calendar norms.'
+  mountain_element: daily_climb
+- question: How do teams handle realignment when direction changes? Is there evidence
+    of practiced pivots?
+  why_important: Coordination fit requires realignment ability (can team adapt faster
+    than conditions change?). Mature company may have ossified processes.
+  how_to_find: 'Interview questions: ''Tell me about a time the team had to pivot
+    direction quickly.'' ''How do you handle changing requirements?'' ''What''s the
+    process for challenging technical direction?'' Look for psychological safety signals.'
+  mountain_element: chosen_peak
+- question: What caused the 2017 layoff beyond 'Unity desktop discontinuation'? Was
+    it financial stress or strategic pivot?
+  why_important: Understanding layoff root cause helps assess future layoff risk.
+    Single strategic pivot layoff is different from financial desperation.
+  how_to_find: Research 2017 Ubuntu Unity discontinuation decision, insider interviews
+    with people there in 2017, archive.org for contemporaneous blog posts/announcements.
+  mountain_element: rope_team_confidence
+- question: Why did the 2023 IPO plans fail? Was it market conditions, company readiness,
+    or execution issues?
+  why_important: Failed IPO raises questions about company trajectory and equity liquidity.
+    Need to understand if it's timing or fundamental issues.
+  how_to_find: Research tech IPO market conditions 2023, insider interviews about
+    IPO prep and decision to postpone, any public statements from Mark Shuttleworth.
+  mountain_element: mountain_range
+- question: What is the actual team coordination style in practice? Is it Alpine (co-located
+    pairs), Established Route (documented processes), or something else?
+  why_important: Need to assess coordination-terrain match. 70+ countries suggests
+    Established Route but CEO-interviews-everyone suggests Alpine.
+  how_to_find: 'Interview questions: ''How do teams make technical decisions?'' ''What''s
+    your documentation culture?'' ''Do you pair program?'' ''How do you onboard new
+    engineers?'' Observe team communication patterns.'
+  mountain_element: chosen_peak

@@ -1,27 +1,38 @@
 company: Mechanical Orchard
-company_slug: mechanical-orchard
-evaluation_date: 2025-09-27
-evaluator_context: 25yr staff engineer, sustainable excellence focus - WITH COMPLETE
-  INSIDER KNOWLEDGE
-staff_engineer_alignment:
-  organizational_maturity: POOR
-  technical_culture: CONCERNING
-  decision_making: POOR
-  work_sustainability: POOR
-  growth_trajectory: POOR
+evaluation_date: '2025-11-09'
+evaluator_context: "Re-extracted with theater/deception pattern guidance - final calibration test. Organizational Level 5 (Terminal Decline) based on: customer loss + sales failure + vaporware + pivot."
 green_flags:
   mountain_range:
     critical_matches: []
     strong_positives:
-    - flag: 18 months runway despite revenue collapse
-      impact: Enough time for orderly wind-down or acquisition
-      confidence: HIGH - but burn rate could accelerate
+    - flag: 18 months runway maintained as of late 2024
+      impact: Enough runway for orderly wind-down or potential acquisition
+      confidence: HIGH - insider confirmed
+      task_implications:
+      - task: Continue infrastructure maintenance while company searches for exit
+        time_estimate_pct: 10-15%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: moderate
+          authority_ambiguity: moderate
+          progress_visibility: moderate
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: none
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: false
+          uses_infrastructure_automation: true
+          uses_decision_frameworks: false
+          collaboration_type: solo
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: narrow
+        notes: Minimal productive work - keeping lights on while searching for exit
+        energy_matrix_quadrant: sparingly
   chosen_peak:
     critical_matches: []
-    strong_positives:
-    - flag: XP/TDD practices established pre-crisis
-      impact: Engineering discipline might survive chaos
-      confidence: LOW - likely degrading under pressure
+    strong_positives: []
   rope_team_confidence:
     critical_matches: []
     strong_positives: []
@@ -29,57 +40,183 @@ green_flags:
     critical_matches: []
     strong_positives:
     - flag: Remote-first with European offices maintained
-      impact: Timezone alignment still works
-      confidence: MEDIUM - may change if cost-cutting
+      impact: Timezone alignment still works (for now)
+      confidence: MEDIUM - may change during cost-cutting
+      task_implications: []
   story_worth_telling:
     critical_matches: []
     strong_positives: []
 red_flags:
   mountain_range:
     dealbreakers:
-    - flag: Lost 50% of revenue when 1 of 2 customers acquired
+    - flag: Lost 50% of revenue when 1 of 2 customers acquired end of 2023
       impact: Catastrophic customer concentration - basic business failure
       confidence: HIGH - insider confirmed
+      task_implications:
+      - task: Navigate financial anxiety and runway concerns
+        time_estimate_pct: 10-15%
+        characteristics:
+          conflict_exposure: moderate
+          alignment_clarity: low
+          authority_ambiguity: moderate
+          progress_visibility: low
+          autonomy_level: low
+          decision_speed: slow
+          learning_required: none
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: false
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: cross_team
+          meeting_intensity: moderate
+          requires_sync_communication: true
+          timezone_spread: narrow
+        notes: Ongoing survival stress, exit planning discussions
+        energy_matrix_quadrant: burnout
     - flag: Zero new customers landed throughout entire 2024
-      impact: Complete product-market fit failure after 2 years
+      impact: Complete product-market fit failure after 2+ years
       confidence: HIGH - insider confirmed
-    - flag: No longer profitable, burning investor money
-      impact: Unsustainable without dramatic change
+      task_implications:
+      - task: Perform POC theater with Fortune 500 prospects
+        time_estimate_pct: 15-20%
+        characteristics:
+          conflict_exposure: moderate
+          alignment_clarity: low
+          authority_ambiguity: high
+          progress_visibility: low
+          autonomy_level: low
+          decision_speed: slow
+          learning_required: none
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: true
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: cross_team
+          meeting_intensity: high
+          requires_sync_communication: true
+          timezone_spread: moderate
+        notes: Sales theater - running POCs knowing they won't convert. Moral injury
+          work.
+        energy_matrix_quadrant: sparingly
+    - flag: No longer profitable, burning through investor money
+      impact: Unsustainable business model without dramatic change
       confidence: HIGH - trajectory is down
+      task_implications: []
     concerning:
-    - flag: 5 POCs but zero conversions to date
-      impact: POC theater, not real business
+    - flag: 5 paid POCs at Fortune 500 companies but zero conversions to date
+      impact: POC theater pattern - running POCs without ability/intent to convert
       confidence: HIGH - pattern recognition says these won't convert
-    - flag: Thoughtworks partnership as distribution strategy
-      impact: Outsourcing sales = desperation move
+      task_implications: []
+    - flag: Thoughtworks partnership as go-to-market distribution strategy
+      impact: Outsourcing sales capability = desperation move
       confidence: HIGH - can't sell product themselves
-    - flag: Series B was 'unsolicited' but took it anyway
-      impact: Grabbed money knowing trouble ahead
-      confidence: MEDIUM - suspicious timing
+      task_implications: []
+    - flag: Series B funding was 'unsolicited' but accepted anyway in August 2024
+      impact: Leadership knew trouble was ahead, grabbed money
+      confidence: MEDIUM - suspicious timing after customer loss
+      task_implications: []
   chosen_peak:
     dealbreakers:
-    - flag: Product is vaporware despite April 2025 'launch'
-      impact: Building demos and lies, not real software
-      confidence: HIGH - insider confirmed
+    - flag: Product is vaporware despite April 2025 public 'launch' announcement
+      impact: Building demos and lies, not real software - destroys meaning and morale
+      confidence: HIGH - insider confirmed 'currently vaporware'
+      task_implications:
+      - task: Build demo ware pretending it's a real product
+        time_estimate_pct: 20-25%
+        characteristics:
+          conflict_exposure: high
+          alignment_clarity: low
+          authority_ambiguity: high
+          progress_visibility: low
+          autonomy_level: low
+          decision_speed: moderate
+          learning_required: low
+          uses_systems_thinking: false
+          uses_tool_building: true
+          uses_glue_work: false
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: high
+          requires_sync_communication: true
+          timezone_spread: moderate
+        notes: Vaporware construction - BURNOUT work. Moral injury from building lies.
+        energy_matrix_quadrant: sparingly
     concerning:
-    - flag: '''Demo ware'' at Google conference'
-      impact: Potemkin village engineering work
-      confidence: HIGH - fake it till you make it
+    - flag: Launched 'demo ware' at Google Cloud Next conference
+      impact: Potemkin village engineering - theater instead of product development
+      confidence: HIGH - insider confirmed demo ware launch
+      task_implications: []
   rope_team_confidence:
     dealbreakers:
-    - flag: Pivoted from services to product company end 2024
-      impact: Panic pivot - exactly the instability you avoid
-      confidence: HIGH - strategy thrashing confirmed
+    - flag: Pivoted from services to product company end of 2024
+      impact: Panic pivot after sales failure - exactly the strategy thrashing to
+        avoid
+      confidence: HIGH - insider confirmed panic pivot
+      task_implications:
+      - task: Navigate constant strategy thrashing and reprioritization
+        time_estimate_pct: 20-25%
+        characteristics:
+          conflict_exposure: high
+          alignment_clarity: low
+          authority_ambiguity: high
+          progress_visibility: low
+          autonomy_level: low
+          decision_speed: slow
+          learning_required: none
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: true
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: cross_team
+          meeting_intensity: high
+          requires_sync_communication: true
+          timezone_spread: moderate
+        notes: Unclear product vision - 'all over the place' reprioritization waste
+        energy_matrix_quadrant: sparingly
     concerning:
-    - flag: Kent Beck departed during company crisis
-      impact: Technical thought leader abandoned ship
+    - flag: Kent Beck (Chief Scientist, XP creator) departed in 2024
+      impact: Technical thought leader abandoned ship during crisis
       confidence: HIGH - timing speaks volumes
-    - flag: Head of Sales terminated not resigned
-      impact: Scapegoating for strategic failures
-      confidence: HIGH - layoff during crisis
-    - flag: No CTO despite being 'tech company'
+      task_implications: []
+    - flag: Head of Sales laid off end of 2024 (not resigned)
+      impact: Scapegoating culture - blaming individuals for strategic failures
+      confidence: HIGH - termination during crisis
+      task_implications:
+      - task: Navigate scapegoating dynamics and blame culture
+        time_estimate_pct: 10-15%
+        characteristics:
+          conflict_exposure: high
+          alignment_clarity: low
+          authority_ambiguity: moderate
+          progress_visibility: low
+          autonomy_level: low
+          decision_speed: slow
+          learning_required: none
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: false
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: cross_team
+          meeting_intensity: moderate
+          requires_sync_communication: true
+          timezone_spread: narrow
+        notes: Blame vs fix culture - severe interpersonal conflict drain
+        energy_matrix_quadrant: burnout
+    - flag: No CTO despite positioning as 'AI-native technology company'
       impact: Technical strategy vacuum at executive level
-      confidence: HIGH - organizational gap
+      confidence: HIGH - structural organizational gap
+      task_implications: []
+    - flag: Rob Mee's Pivotal Labs success was PAST (2.7B acquisition), current execution
+        is failure
+      impact: Founder pedigree doesn't protect from current reality - proven leader
+        failing NOW
+      confidence: HIGH - zero customers, vaporware, sales failure despite pedigree
+      task_implications: []
   daily_climb:
     dealbreakers: []
     concerning: []
@@ -87,34 +224,112 @@ red_flags:
     dealbreakers: []
     concerning: []
 missing_critical_data:
-- question: What percentage of engineering building vaporware vs real product?
+- question: What percentage of engineering time building vaporware vs real product?
   why_important: Determines if you'd be coding or performing theater
-  how_to_find: Ask point-blank about demo vs production code ratio
+  how_to_find: Ask engineers point-blank about demo vs production code ratio
   mountain_element: chosen_peak
-- question: Real monthly burn rate and runway calculation?
-  why_important: 18 months could be optimistic
-  how_to_find: CFO should share if they're honest
+- question: Real monthly burn rate and runway calculation methodology?
+  why_important: 18 months could be optimistic if burn accelerates
+  how_to_find: CFO should share if they're being honest about situation
   mountain_element: mountain_range
-- question: POC conversion probability and timeline?
-  why_important: Difference between hope and delusion
-  how_to_find: Ask for historical POC conversion rates (they won't have any)
+- question: POC conversion probability and realistic timeline for any conversions?
+  why_important: Difference between hope and delusion about business viability
+  how_to_find: 'Ask for historical POC conversion rates (spoiler: they won''t have
+    any)'
   mountain_element: mountain_range
-- question: Why did Kent Beck really leave?
-  why_important: The canary in the coal mine
-  how_to_find: Network with ex-employees
+- question: Why did Kent Beck really leave and when exactly?
+  why_important: The canary in the coal mine - technical leader's departure timing
+  how_to_find: Network with ex-employees, ask Kent directly if possible
   mountain_element: rope_team_confidence
+profile_version_used: '1.0'
+company_slug: mechanical-orchard
 synthesis:
   mountain_worth_climbing: false
   sustainability_confidence: LOW
+  organizational_level: 5
+  organizational_level_description: "Terminal Decline - customer loss + sales failure + vaporware + panic pivot = death spiral"
+
   primary_strengths:
-  - Has money to burn for 18 more months
-  - European presence if it survives
-  - Theoretical AI focus if product existed
+    - "18 months runway for orderly wind-down or acquisition"
+    - "Remote-first culture still maintained (for now)"
+    - "European presence if company survives (unlikely)"
+
   primary_risks:
-  - Classic startup death spiral already in motion
-  - Building vaporware not products - soul destroying
-  - Customer concentration risk already killed them once
-  - Multiple pivots ahead as desperation increases
-  - Leadership scapegoating instead of fixing root causes
+    - "Level 5 Terminal Decline - classic startup death spiral in motion"
+    - "Vaporware construction (20-25% time) - soul destroying moral injury work"
+    - "Sales failure: zero new customers in 2+ years of operation"
+    - "Customer concentration killed them (lost 1 of 2 customers = 50% revenue)"
+    - "POC theater (15-20% time) - running POCs with no conversion ability/intent"
+    - "Strategy thrashing (20-25% time) - services → product panic pivot"
+    - "Scapegoating culture (10-15% time) - Head of Sales termination during crisis"
+    - "Financial anxiety (10-15% time) - ongoing survival stress"
+    - "Founder pedigree discount: Rob Mee's past success ≠ current execution failure"
+    - "Kent Beck departure during crisis (canary fled coal mine)"
+    - "No CTO despite being 'AI-native tech company'"
+
+  time_allocation_estimate:
+    green_productive_work_pct: "10-15%"
+    yellow_coordination_pct: "30-35%"
+    red_survival_exit_pct: "50-60%"
+    notes: "Level 5 (Terminal Decline) time allocation. Theater/deception patterns (vaporware 20-25%, POC theater 15-20%, scapegoating 10-15%, strategy thrashing 20-25%, financial anxiety 10-15%) leave only 10-15% for actual productive work. Tasks overlap, total ~100%."
+
+  theater_deception_patterns:
+    vaporware_detected: true
+    vaporware_time_pct: "20-25%"
+    vaporware_evidence: "Product is 'currently vaporware' per insider. April 2025 'launch' was demo ware. Building lies not real software."
+
+    poc_theater_detected: true
+    poc_theater_time_pct: "15-20%"
+    poc_theater_evidence: "5 paid POCs but zero conversions. Sales failure throughout 2024. POCs run without ability/intent to convert."
+
+    scapegoating_detected: true
+    scapegoating_time_pct: "10-15%"
+    scapegoating_evidence: "Head of Sales terminated (not resigned) during crisis. Blame vs fix culture."
+
+    escalation_triggers_present:
+      - "Customer loss (1 of 2 customers acquired)"
+      - "Sales failure (zero new customers in 2024)"
+      - "Vaporware (product doesn't exist, only demos)"
+      - "Panic pivot (services → product end 2024)"
+    escalation_outcome: "AUTO-ESCALATED to Level 5 (Terminal Decline)"
+
+  founder_pedigree_discount:
+    founder: "Rob Mee"
+    past_success: "Pivotal Labs → $2.7B acquisition by VMware"
+    current_reality: "Zero customers, vaporware, sales failure, panic pivot"
+    discount_applied: "Past success does NOT protect from current failure. Proven leader failing NOW is RED flag, not green."
+
+  energy_sustainability: LOW
+  energy_sustainability_rationale: "75.3% SPARINGLY + 24.7% BURNOUT = 100% draining quadrants. Zero MOARE work. Vaporware construction creates moral injury. Scapegoating triggers severe interpersonal conflict drain. Strategy thrashing blocks progress. Only 10-15% productive work possible in Level 5 terminal decline."
+
   confidence_level: HIGH
-  next_investigation: Don't waste time - this is a clear NO
+  next_investigation: "Don't waste time - this is a clear HARD NO"
+  verdict: "HARD NO - Level 5 Terminal Decline with vaporware, POC theater, sales failure, and scapegoating culture"
+
+  energy_matrix_analysis:
+    profile_version_used: '1.0'
+    predicted_daily_distribution:
+      moare_green_flags:
+        percentage: 0.0
+        tasks_count: 0
+      sparingly_yellow_flags:
+        percentage: 75.3
+        tasks_count: 4
+      burnout_red_flags:
+        percentage: 24.7
+        tasks_count: 2
+      help_mentoring_yellow_flags:
+        percentage: 0.0
+        tasks_count: 0
+    threshold_analysis:
+      meets_green_minimum: false
+      exceeds_red_maximum: true
+      exceeds_yellow_maximum: true
+    energy_sustainability: LOW
+    key_insights:
+    - 100.0% of work in draining quadrants (sparingly + burnout)
+    - 24.7% burnout quadrant work exceeds 20% threshold
+    - Insufficient moare quadrant work (0.0% vs 60% needed)
+    decision_factors:
+    - 'REJECT: 24.7% burnout quadrant exceeds 20% threshold'
+    - 'RED: Only 0.0% moare quadrant (need ≥60%)'

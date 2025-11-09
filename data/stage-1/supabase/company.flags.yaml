@@ -1,5 +1,5 @@
 company: supabase
-evaluation_date: '2025-10-18'
+evaluation_date: '2025-11-09'
 evaluator_context: Extracted from conversation notes
 green_flags:
   mountain_range:
@@ -9,109 +9,865 @@ green_flags:
       impact: Explosive momentum creates abundant opportunities and validates product-market
         fit
       confidence: High - TechCrunch and Fortune
+      task_characteristics:
+        conflict_exposure: medium
+        alignment_clarity: medium
+        authority_ambiguity: medium
+        progress_visibility: high
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: cross_team
+        meeting_intensity: low
+        requires_sync_communication: false
+        timezone_spread: wide
+      energy_quadrant: sparingly
+      energy_reasoning: 'Hyper-growth (553% valuation, 300% user growth) creates organizational
+        chaos.
+
+        Triggers misalignment drain (severe) as team scales rapidly from 80 to 127
+        people.
+
+        Exposes to authority_ambiguity drain (moderate) with unclear ownership during
+        scaling.
+
+        Uses glue_work strength (expert) to navigate growth challenges.
+
+        Sparingly quadrant: leverages expertise but at significant energy cost from
+        scaling pains.'
     - flag: No layoffs since founding despite being venture-backed, ~50% headcount
         growth past year to 124-127 employees
       impact: Healthy growth without boom/bust cycles, sustainable scaling
       confidence: High - Multiple sources, layoffs.fyi absence
+      task_characteristics:
+        conflict_exposure: medium
+        alignment_clarity: medium
+        authority_ambiguity: medium
+        progress_visibility: high
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: cross_team
+        meeting_intensity: low
+        requires_sync_communication: false
+        timezone_spread: wide
+      energy_quadrant: sparingly
+      energy_reasoning: 'Hyper-growth (553% valuation, 300% user growth) creates organizational
+        chaos.
+
+        Triggers misalignment drain (severe) as team scales rapidly from 80 to 127
+        people.
+
+        Exposes to authority_ambiguity drain (moderate) with unclear ownership during
+        scaling.
+
+        Uses glue_work strength (expert) to navigate growth challenges.
+
+        Sparingly quadrant: leverages expertise but at significant energy cost from
+        scaling pains.'
     - flag: Enterprise customers include PwC, McDonald's, Johnson & Johnson, GitHub,
         1Password with 100K+ paying customers
       impact: Enterprise validation demonstrates product maturity beyond startups
       confidence: High - PR Newswire
+      task_characteristics:
+        conflict_exposure: low
+        alignment_clarity: high
+        authority_ambiguity: low
+        progress_visibility: high
+        autonomy_level: high
+        decision_speed: fast
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: low
+        requires_sync_communication: false
+        timezone_spread: narrow
+      energy_quadrant: moare
+      energy_reasoning: 'Enterprise validation (PwC, McDonald''s, J&J) eliminates
+        financial_anxiety drain (moderate).
+
+        Provides visible_progress generator (core need) through customer growth.
+
+        Uses systems_thinking strength (expert) for enterprise-scale architecture.
+
+        Moare quadrant: leverages core strength while energizing.'
     - flag: Core open source PostgreSQL product with 81K GitHub stars (top 125 globally),
         employs PostgREST and pgsodium maintainers
       impact: Perfect alignment with stated open source values, working on genuinely
         open infrastructure
       confidence: High - GitHub and Contrary Research
+      task_characteristics:
+        conflict_exposure: low
+        alignment_clarity: high
+        authority_ambiguity: low
+        progress_visibility: high
+        autonomy_level: high
+        decision_speed: fast
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: low
+        requires_sync_communication: false
+        timezone_spread: narrow
+      energy_quadrant: moare
+      energy_reasoning: 'Uses tool_building strength (expert) and systems_thinking
+        strength (expert).
+
+        Provides visible_progress generator (core need) through shipping features.
+
+        Open source alignment with PostgreSQL ecosystem energizing.
+
+        Moare quadrant: leverages core strengths while highly energizing.'
     - flag: Paid $80K+ to open source contributors, acquired OrioleDB ($500K investment),
         hires maintainers of key OSS projects
       impact: Actions match rhetoric - genuinely investing in open source ecosystem
       confidence: High - Supabase blog and Contrary Research
+      task_characteristics:
+        conflict_exposure: low
+        alignment_clarity: high
+        authority_ambiguity: low
+        progress_visibility: high
+        autonomy_level: high
+        decision_speed: fast
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: low
+        requires_sync_communication: false
+        timezone_spread: narrow
+      energy_quadrant: moare
+      energy_reasoning: 'Uses tool_building strength (expert) and systems_thinking
+        strength (expert).
+
+        Provides visible_progress generator (core need) through shipping features.
+
+        Open source alignment with PostgreSQL ecosystem energizing.
+
+        Moare quadrant: leverages core strengths while highly energizing.'
     - flag: Developing Multigres for enterprise Postgres and investing in PostgreSQL
         core innovation
       impact: Technical depth beyond wrapper product, solving hard distributed database
         problems
       confidence: High - Fortune
+      task_characteristics:
+        conflict_exposure: low
+        alignment_clarity: high
+        authority_ambiguity: low
+        progress_visibility: high
+        autonomy_level: high
+        decision_speed: fast
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: low
+        requires_sync_communication: false
+        timezone_spread: narrow
+      energy_quadrant: moare
+      energy_reasoning: 'Uses tool_building strength (expert) and systems_thinking
+        strength (expert).
+
+        Provides visible_progress generator (core need) through shipping features.
+
+        Open source alignment with PostgreSQL ecosystem energizing.
+
+        Moare quadrant: leverages core strengths while highly energizing.'
     - flag: Co-founders Paul Copplestone (CEO) and Ant Wilson (CTO) stable since 2020
         founding, no executive departures
       impact: Founder-led with stable leadership, long-term vision
       confidence: High - Multiple sources
+      task_characteristics:
+        conflict_exposure: low
+        alignment_clarity: high
+        authority_ambiguity: low
+        progress_visibility: high
+        autonomy_level: high
+        decision_speed: fast
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: low
+        requires_sync_communication: false
+        timezone_spread: narrow
+      energy_quadrant: moare
+      energy_reasoning: 'No layoffs eliminates interpersonal_conflict drain (severe
+        from team instability).
+
+        Healthy 50% headcount growth avoids financial_anxiety drain (moderate).
+
+        Provides structured_processes generator (moderate) with sustainable scaling.
+
+        Uses glue_work strength (expert) in stable growth environment.
+
+        Moare quadrant: leverages strength without major drains.'
     - flag: '''Generational'' long-term vision, explicitly not short-term IPO focus'
       impact: Building for longevity vs quick exit, aligns with sustainable values
       confidence: High - CEO quote in Fortune
+      task_characteristics:
+        conflict_exposure: low
+        alignment_clarity: high
+        authority_ambiguity: low
+        progress_visibility: high
+        autonomy_level: high
+        decision_speed: fast
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: low
+        requires_sync_communication: false
+        timezone_spread: narrow
+      energy_quadrant: moare
+      energy_reasoning: 'Founder-led with stable leadership eliminates interpersonal_conflict
+        drain (severe from leadership churn).
+
+        Long-term "generational" vision provides aligned_collaboration generator (strong).
+
+        Clear direction avoids misalignment drain (severe).
+
+        Uses decision_frameworks strength (proficient) in stable org structure.
+
+        Moare quadrant: leverages strength in energizing stable environment.'
     - flag: Fully remote across six continents, no offices, truly distributed model
       impact: Perfect match for remote-first requirement, proven remote culture
       confidence: High - Supabase careers page
+      task_characteristics:
+        conflict_exposure: low
+        alignment_clarity: high
+        authority_ambiguity: low
+        progress_visibility: high
+        autonomy_level: high
+        decision_speed: fast
+        learning_required: low
+        collaboration_type: independent
+        meeting_intensity: low
+        requires_sync_communication: false
+        timezone_spread: wide
+      energy_quadrant: moare
+      energy_reasoning: 'One meeting per week policy aligns with communication preference
+        (max 30%, ideal 20%).
+
+        Fully remote culture fits timezone_flexibility (6 hours) and async_work_capability
+        (strong).
+
+        Provides structured_processes generator (moderate) with clear async-first
+        framework.
+
+        Avoids authority_ambiguity drain (moderate) with explicit decision rights.
+
+        Moare quadrant: perfect alignment with communication profile.'
     - flag: '''One meeting per week'' company-wide policy maximizes maker time'
       impact: Extraordinary focus on deep work vs meeting culture, ideal for engineering
       confidence: High - Contrary Research
+      task_characteristics:
+        conflict_exposure: low
+        alignment_clarity: high
+        authority_ambiguity: low
+        progress_visibility: high
+        autonomy_level: high
+        decision_speed: fast
+        learning_required: low
+        collaboration_type: independent
+        meeting_intensity: low
+        requires_sync_communication: false
+        timezone_spread: wide
+      energy_quadrant: moare
+      energy_reasoning: 'One meeting per week policy aligns with communication preference
+        (max 30%, ideal 20%).
+
+        Fully remote culture fits timezone_flexibility (6 hours) and async_work_capability
+        (strong).
+
+        Provides structured_processes generator (moderate) with clear async-first
+        framework.
+
+        Avoids authority_ambiguity drain (moderate) with explicit decision rights.
+
+        Moare quadrant: perfect alignment with communication profile.'
     - flag: Building open source Firebase alternative used by 4M developers, defining
         next generation of BaaS
       impact: Generational impact on developer infrastructure, reshaping industry
         away from proprietary platforms
       confidence: High - Market position
+      task_characteristics:
+        conflict_exposure: low
+        alignment_clarity: high
+        authority_ambiguity: low
+        progress_visibility: high
+        autonomy_level: high
+        decision_speed: fast
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: low
+        requires_sync_communication: false
+        timezone_spread: narrow
+      energy_quadrant: moare
+      energy_reasoning: 'Uses tool_building strength (expert) and systems_thinking
+        strength (expert).
+
+        Provides visible_progress generator (core need) through shipping features.
+
+        Open source alignment with PostgreSQL ecosystem energizing.
+
+        Moare quadrant: leverages core strengths while highly energizing.'
     - flag: 'Massive equity upside potential: $5B valuation growing 553% in 13 months
         with strong growth metrics'
       impact: Joining at inflection point with significant financial upside if trajectory
         continues
       confidence: High - Valuation growth
+      task_characteristics:
+        conflict_exposure: medium
+        alignment_clarity: medium
+        authority_ambiguity: medium
+        progress_visibility: high
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: cross_team
+        meeting_intensity: low
+        requires_sync_communication: false
+        timezone_spread: wide
+      energy_quadrant: sparingly
+      energy_reasoning: 'Hyper-growth (553% valuation, 300% user growth) creates organizational
+        chaos.
+
+        Triggers misalignment drain (severe) as team scales rapidly from 80 to 127
+        people.
+
+        Exposes to authority_ambiguity drain (moderate) with unclear ownership during
+        scaling.
+
+        Uses glue_work strength (expert) to navigate growth challenges.
+
+        Sparingly quadrant: leverages expertise but at significant energy cost from
+        scaling pains.'
+    - flag: Strong technical culture - open-source PostgreSQL, employs maintainers
+        of PostgREST and pgsodium
+      impact: Direct alignment with systems_thinking and tool_building strengths,
+        no vendor lock-in
+      confidence: High - Multiple sources confirm open-source commitment
+      task_implications:
+      - task: Design and build PostgreSQL extensions and tooling for 1M+ databases
+        time_estimate_pct: 30%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: low
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_glue_work: false
+          uses_infrastructure_automation: true
+          uses_decision_frameworks: true
+          collaboration_type: team
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: wide
+        notes: Open-source PostgreSQL work uses all expert strengths (systems_thinking,
+          tool_building, infrastructure_automation). One meeting/week = low meeting
+          intensity. Provides aligned_collaboration and visible_progress generators.
+        energy_matrix_quadrant: moare
+    - flag: Exceptional organizational stability - no layoffs since 2020 founding,
+        50% headcount growth, 96% offer close rate
+      impact: Zero interpersonal_conflict drain from layoff anxiety or reorgs
+      confidence: High - Explicit statements from multiple sources
+      task_implications:
+      - task: Build infrastructure for hypergrowth (1M databases, 2,500 new daily)
+        time_estimate_pct: 25%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: low
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_glue_work: false
+          uses_infrastructure_automation: true
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: wide
+        notes: No layoffs eliminates interpersonal_conflict drain. Hypergrowth infrastructure
+          = visible_progress generator.
+        energy_matrix_quadrant: moare
+    - flag: Minimal meeting culture - one company-wide meeting per week, fully remote
+        across 6 continents
+      impact: Maximizes autonomy, matches async-first preference, avoids meeting_intensity_tolerance
+        drain
+      confidence: High - Explicit from Contrary Research
+      task_implications:
+      - task: Develop backend-as-a-service features async across distributed team
+        time_estimate_pct: 20%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: low
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_glue_work: false
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: paired
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: wide
+        notes: One meeting/week = well below 30% max meeting tolerance. Async-first
+          culture matches profile communication_preferences. Provides autonomy and
+          tool_building generators.
+        energy_matrix_quadrant: moare
+    - flag: Impressive growth momentum - 4M developers (300% growth in 12 months),
+        100K+ paying customers, 50%+ of YC W25 batch
+      impact: Strong market validation, sustainable product-market fit, exciting technical
+        challenges
+      confidence: High - Explicit from Fortune and PR Newswire
+      task_implications:
+      - task: Scale realtime infrastructure for exponential user growth
+        time_estimate_pct: 15%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: moderate
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_glue_work: false
+          uses_infrastructure_automation: true
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: wide
+        notes: Rapid growth = visible_progress generator. Realtime infrastructure
+          scaling uses systems_thinking + infrastructure_automation strengths.
+        energy_matrix_quadrant: moare
+    - flag: Active open-source investment - paid $80K+ to contributors, $500K invested
+        in OrioleDB, employs core maintainers
+      impact: Aligns with tool_building strength, gives back to community, demonstrates
+        long-term technical commitment
+      confidence: High - Explicit from Contrary Research and Supabase blog
+      task_implications:
+      - task: Contribute to PostgreSQL ecosystem and maintain open-source tooling
+        time_estimate_pct: 10%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: low
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_glue_work: true
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: cross_team
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: wide
+        notes: Open-source work uses tool_building + glue_work strengths, provides
+          visible_progress and aligned_collaboration generators.
+        energy_matrix_quadrant: moare
     strong_positives: &id002
     - flag: 'Capital efficient: Series B ($80M) lasted 2.5 years, ''only recently
         dipping into reserves'', near-zero ad spend'
       impact: Lean operation suggests path to profitability without excessive burn
       confidence: High - CEO statement in TechCrunch
+      task_characteristics:
+        conflict_exposure: low
+        alignment_clarity: high
+        authority_ambiguity: low
+        progress_visibility: high
+        autonomy_level: high
+        decision_speed: fast
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: low
+        requires_sync_communication: false
+        timezone_spread: narrow
+      energy_quadrant: moare
+      energy_reasoning: 'Uses core strengths (systems_thinking, tool_building, infrastructure_automation).
+
+        Provides energy generators (visible_progress, aligned_collaboration).
+
+        Avoids major energy drains.
+
+        Moare quadrant: leverages expertise in energizing environment.'
     - flag: 'Strong AI positioning: 30% new signups are AI builders, default for Bolt/Lovable/Figma
         Make, 50%+ of YC W25 batch'
       impact: Riding AI wave with market validation from developer tools
       confidence: High - Fortune
+      task_characteristics:
+        conflict_exposure: low
+        alignment_clarity: high
+        authority_ambiguity: low
+        progress_visibility: high
+        autonomy_level: high
+        decision_speed: fast
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: low
+        requires_sync_communication: false
+        timezone_spread: narrow
+      energy_quadrant: moare
+      energy_reasoning: 'Uses core strengths (systems_thinking, tool_building, infrastructure_automation).
+
+        Provides energy generators (visible_progress, aligned_collaboration).
+
+        Avoids major energy drains.
+
+        Moare quadrant: leverages expertise in energizing environment.'
     - flag: 'Massive BaaS TAM: $5.1B→$23.3B by 2032 (18.4% CAGR)'
       impact: Large growing market provides long-term runway
       confidence: High - IndexBox
+      task_characteristics:
+        conflict_exposure: low
+        alignment_clarity: high
+        authority_ambiguity: low
+        progress_visibility: high
+        autonomy_level: high
+        decision_speed: fast
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: low
+        requires_sync_communication: false
+        timezone_spread: narrow
+      energy_quadrant: moare
+      energy_reasoning: 'Uses core strengths (systems_thinking, tool_building, infrastructure_automation).
+
+        Provides energy generators (visible_progress, aligned_collaboration).
+
+        Avoids major energy drains.
+
+        Moare quadrant: leverages expertise in energizing environment.'
     - flag: Managing 1M+ databases, launching 2.5K daily, processing 4B log events
         weekly shows real scale
       impact: Operating at meaningful infrastructure scale, not toy project
       confidence: High - Fortune and TechCrunch
+      task_characteristics:
+        conflict_exposure: low
+        alignment_clarity: high
+        authority_ambiguity: low
+        progress_visibility: high
+        autonomy_level: high
+        decision_speed: fast
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: low
+        requires_sync_communication: false
+        timezone_spread: narrow
+      energy_quadrant: moare
+      energy_reasoning: 'Uses tool_building strength (expert) and systems_thinking
+        strength (expert).
+
+        Provides visible_progress generator (core need) through shipping features.
+
+        Open source alignment with PostgreSQL ecosystem energizing.
+
+        Moare quadrant: leverages core strengths while highly energizing.'
     - flag: 'Recent hire: Sugu Sougoumarane (co-creator of Vitess) for enterprise
         Postgres work'
       impact: Attracting world-class database talent, serious technical ambition
       confidence: High - Fortune
+      task_characteristics:
+        conflict_exposure: low
+        alignment_clarity: high
+        authority_ambiguity: low
+        progress_visibility: high
+        autonomy_level: high
+        decision_speed: fast
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: low
+        requires_sync_communication: false
+        timezone_spread: narrow
+      energy_quadrant: moare
+      energy_reasoning: 'Enterprise validation (PwC, McDonald''s, J&J) eliminates
+        financial_anxiety drain (moderate).
+
+        Provides visible_progress generator (core need) through customer growth.
+
+        Uses systems_thinking strength (expert) for enterprise-scale architecture.
+
+        Moare quadrant: leverages core strength while energizing.'
     - flag: Active technical blog with substantive engineering content, not just marketing
       impact: Culture of technical communication and knowledge sharing
       confidence: High - Supabase blog
+      task_characteristics:
+        conflict_exposure: low
+        alignment_clarity: high
+        authority_ambiguity: low
+        progress_visibility: high
+        autonomy_level: high
+        decision_speed: fast
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: low
+        requires_sync_communication: false
+        timezone_spread: narrow
+      energy_quadrant: moare
+      energy_reasoning: 'Uses core strengths (systems_thinking, tool_building, infrastructure_automation).
+
+        Provides energy generators (visible_progress, aligned_collaboration).
+
+        Avoids major energy drains.
+
+        Moare quadrant: leverages expertise in energizing environment.'
     - flag: Built on PostgreSQL, PostgREST, GoTrue, Realtime - modern open source
         stack with no vendor lock-in
       impact: Customers can leave easily = must compete on quality, not lock-in
       confidence: High - Supabase documentation
+      task_characteristics:
+        conflict_exposure: low
+        alignment_clarity: high
+        authority_ambiguity: low
+        progress_visibility: high
+        autonomy_level: high
+        decision_speed: fast
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: low
+        requires_sync_communication: false
+        timezone_spread: narrow
+      energy_quadrant: moare
+      energy_reasoning: 'Uses tool_building strength (expert) and systems_thinking
+        strength (expert).
+
+        Provides visible_progress generator (core need) through shipping features.
+
+        Open source alignment with PostgreSQL ecosystem energizing.
+
+        Moare quadrant: leverages core strengths while highly energizing.'
     - flag: SOC 2 compliant with HIPAA configurations for enterprise requirements
       impact: Professional security standards for regulated industries
       confidence: High - Contrary Research
+      task_characteristics:
+        conflict_exposure: low
+        alignment_clarity: high
+        authority_ambiguity: low
+        progress_visibility: high
+        autonomy_level: high
+        decision_speed: fast
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: low
+        requires_sync_communication: false
+        timezone_spread: narrow
+      energy_quadrant: moare
+      energy_reasoning: 'Enterprise validation (PwC, McDonald''s, J&J) eliminates
+        financial_anxiety drain (moderate).
+
+        Provides visible_progress generator (core need) through customer growth.
+
+        Uses systems_thinking strength (expert) for enterprise-scale architecture.
+
+        Moare quadrant: leverages core strength while energizing.'
     - flag: Dedicated PostgreSQL per project vs multi-tenant shows commitment to isolation
         and performance
       impact: Higher quality architecture vs cheaper multi-tenant shortcuts
       confidence: High - Sacra analysis
+      task_characteristics:
+        conflict_exposure: low
+        alignment_clarity: high
+        authority_ambiguity: low
+        progress_visibility: high
+        autonomy_level: high
+        decision_speed: fast
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: low
+        requires_sync_communication: false
+        timezone_spread: narrow
+      energy_quadrant: moare
+      energy_reasoning: 'Uses tool_building strength (expert) and systems_thinking
+        strength (expert).
+
+        Provides visible_progress generator (core need) through shipping features.
+
+        Open source alignment with PostgreSQL ecosystem energizing.
+
+        Moare quadrant: leverages core strengths while highly energizing.'
     - flag: 28% of employees are former founders, bringing entrepreneurial mindset
       impact: High-agency culture with experienced builders
       confidence: High - Contrary Research
+      task_characteristics:
+        conflict_exposure: low
+        alignment_clarity: high
+        authority_ambiguity: low
+        progress_visibility: high
+        autonomy_level: high
+        decision_speed: fast
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: low
+        requires_sync_communication: false
+        timezone_spread: narrow
+      energy_quadrant: moare
+      energy_reasoning: 'Founder-led with stable leadership eliminates interpersonal_conflict
+        drain (severe from leadership churn).
+
+        Long-term "generational" vision provides aligned_collaboration generator (strong).
+
+        Clear direction avoids misalignment drain (severe).
+
+        Uses decision_frameworks strength (proficient) in stable org structure.
+
+        Moare quadrant: leverages strength in energizing stable environment.'
     - flag: 96% close rate on job offers suggests strong employer brand and candidate
         selection
       impact: People genuinely want to work here, selectivity ensures quality
       confidence: High - Contrary Research
+      task_characteristics:
+        conflict_exposure: low
+        alignment_clarity: high
+        authority_ambiguity: low
+        progress_visibility: high
+        autonomy_level: high
+        decision_speed: fast
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: low
+        requires_sync_communication: false
+        timezone_spread: narrow
+      energy_quadrant: moare
+      energy_reasoning: 'Uses core strengths (systems_thinking, tool_building, infrastructure_automation).
+
+        Provides energy generators (visible_progress, aligned_collaboration).
+
+        Avoids major energy drains.
+
+        Moare quadrant: leverages expertise in energizing environment.'
     - flag: 20% profit-sharing program for employees shows commitment to shared success
       impact: Aligned incentives beyond just equity
       confidence: High - Contrary Research
+      task_characteristics:
+        conflict_exposure: low
+        alignment_clarity: high
+        authority_ambiguity: low
+        progress_visibility: high
+        autonomy_level: high
+        decision_speed: fast
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: low
+        requires_sync_communication: false
+        timezone_spread: narrow
+      energy_quadrant: moare
+      energy_reasoning: 'Uses core strengths (systems_thinking, tool_building, infrastructure_automation).
+
+        Provides energy generators (visible_progress, aligned_collaboration).
+
+        Avoids major energy drains.
+
+        Moare quadrant: leverages expertise in energizing environment.'
     - flag: Community co-investment opportunity in Series E demonstrates transparency
         and inclusion
       impact: Unusual openness about company access and value sharing
       confidence: High - PR Newswire
+      task_characteristics:
+        conflict_exposure: low
+        alignment_clarity: high
+        authority_ambiguity: low
+        progress_visibility: high
+        autonomy_level: high
+        decision_speed: fast
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: low
+        requires_sync_communication: false
+        timezone_spread: narrow
+      energy_quadrant: moare
+      energy_reasoning: 'Uses core strengths (systems_thinking, tool_building, infrastructure_automation).
+
+        Provides energy generators (visible_progress, aligned_collaboration).
+
+        Avoids major energy drains.
+
+        Moare quadrant: leverages expertise in energizing environment.'
     - flag: Active hiring across functions shows continued investment in team growth
       impact: Expanding team creates opportunities for impact and advancement
       confidence: High - Careers page
+      task_characteristics:
+        conflict_exposure: medium
+        alignment_clarity: medium
+        authority_ambiguity: medium
+        progress_visibility: high
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: cross_team
+        meeting_intensity: low
+        requires_sync_communication: false
+        timezone_spread: wide
+      energy_quadrant: sparingly
+      energy_reasoning: 'Hyper-growth (553% valuation, 300% user growth) creates organizational
+        chaos.
+
+        Triggers misalignment drain (severe) as team scales rapidly from 80 to 127
+        people.
+
+        Exposes to authority_ambiguity drain (moderate) with unclear ownership during
+        scaling.
+
+        Uses glue_work strength (expert) to navigate growth challenges.
+
+        Sparingly quadrant: leverages expertise but at significant energy cost from
+        scaling pains.'
     - flag: Working on PostgreSQL at scale (1M databases) with world-class team (Sugu
         from Vitess)
       impact: Deep learning opportunities in distributed databases from experts
       confidence: High - Team and scale
+      task_characteristics:
+        conflict_exposure: low
+        alignment_clarity: high
+        authority_ambiguity: low
+        progress_visibility: high
+        autonomy_level: high
+        decision_speed: fast
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: low
+        requires_sync_communication: false
+        timezone_spread: narrow
+      energy_quadrant: moare
+      energy_reasoning: 'Uses tool_building strength (expert) and systems_thinking
+        strength (expert).
+
+        Provides visible_progress generator (core need) through shipping features.
+
+        Open source alignment with PostgreSQL ecosystem energizing.
+
+        Moare quadrant: leverages core strengths while highly energizing.'
     - flag: 'Resume value: Supabase is hot brand in developer tools, open source credibility'
       impact: Strong signal for future opportunities in infrastructure/database space
       confidence: High - Community traction
+      task_characteristics:
+        conflict_exposure: low
+        alignment_clarity: high
+        authority_ambiguity: low
+        progress_visibility: high
+        autonomy_level: high
+        decision_speed: fast
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: low
+        requires_sync_communication: false
+        timezone_spread: narrow
+      energy_quadrant: moare
+      energy_reasoning: 'Uses tool_building strength (expert) and systems_thinking
+        strength (expert).
+
+        Provides visible_progress generator (core need) through shipping features.
+
+        Open source alignment with PostgreSQL ecosystem energizing.
+
+        Moare quadrant: leverages core strengths while highly energizing.'
   chosen_peak:
     critical_matches: *id001
     strong_positives: *id002
@@ -133,45 +889,446 @@ red_flags:
       impact: Financial opacity creates uncertainty about business health and valuation
         sustainability
       confidence: High - CEO statement in Fortune, varying estimates
+      task_characteristics:
+        conflict_exposure: low
+        alignment_clarity: medium
+        authority_ambiguity: low
+        progress_visibility: medium
+        autonomy_level: high
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: low
+        requires_sync_communication: false
+        timezone_spread: narrow
+      energy_quadrant: sparingly
+      energy_reasoning: 'Financial uncertainty ($16M-$70M revenue range, 71x multiple)
+        triggers financial_anxiety drain (moderate).
+
+        CEO declined to disclose revenue creates unclear business health.
+
+        Uses decision_frameworks strength (proficient) to assess risk.
+
+        Sparingly quadrant: leverages analytical skills but at energy cost from uncertainty.'
     - flag: Valuation $5B on estimated $70M ARR = 71x revenue multiple, extremely
         high for infrastructure
       impact: Valuation may be inflated, significant down round risk if growth slows
       confidence: Medium - Sacra estimate vs valuation
+      task_characteristics:
+        conflict_exposure: low
+        alignment_clarity: medium
+        authority_ambiguity: low
+        progress_visibility: medium
+        autonomy_level: high
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: low
+        requires_sync_communication: false
+        timezone_spread: narrow
+      energy_quadrant: sparingly
+      energy_reasoning: 'Financial uncertainty ($16M-$70M revenue range, 71x multiple)
+        triggers financial_anxiety drain (moderate).
+
+        CEO declined to disclose revenue creates unclear business health.
+
+        Uses decision_frameworks strength (proficient) to assess risk.
+
+        Sparingly quadrant: leverages analytical skills but at energy cost from uncertainty.'
     - flag: Only 2.77% market share vs Firebase 6.44%, still David vs Goliath (Google)
       impact: Competitive pressure from well-funded incumbent with distribution advantage
       confidence: High - Contrary Research
+      task_characteristics:
+        conflict_exposure: low
+        alignment_clarity: high
+        authority_ambiguity: low
+        progress_visibility: high
+        autonomy_level: high
+        decision_speed: fast
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: low
+        requires_sync_communication: false
+        timezone_spread: narrow
+      energy_quadrant: sparingly
+      energy_reasoning: 'Competing against Google Firebase (6.44% vs 2.77% share)
+        creates competitive pressure.
+
+        Minor financial_anxiety drain (moderate) from David vs Goliath dynamics.
+
+        Uses systems_thinking strength (expert) to navigate competition.
+
+        Sparingly quadrant: leverages expertise but with competitive stress.'
     - flag: $380M raised in 12 months suggests either aggressive growth investment
         or burn concerns
       impact: Rapid fundraising pace may indicate capital intensity or pressure
       confidence: Medium - Funding timeline
+      task_characteristics:
+        conflict_exposure: low
+        alignment_clarity: medium
+        authority_ambiguity: low
+        progress_visibility: medium
+        autonomy_level: high
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: low
+        requires_sync_communication: false
+        timezone_spread: narrow
+      energy_quadrant: sparingly
+      energy_reasoning: 'Rapid fundraising ($380M in 12 months) suggests high burn
+        or capital intensity.
+
+        Triggers financial_anxiety drain (moderate) about sustainability.
+
+        Uses decision_frameworks strength (proficient) to assess financial health.
+
+        Sparingly quadrant: analytical work but with drain from uncertainty.'
     - flag: Small team (124-127 people) for massive infrastructure scope (1M databases,
         4M developers)
       impact: Team may be stretched thin, high operational burden likely
       confidence: High - Headcount vs scale
+      task_characteristics:
+        conflict_exposure: medium
+        alignment_clarity: medium
+        authority_ambiguity: medium
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: low
+        requires_sync_communication: true
+        timezone_spread: wide
+      energy_quadrant: sparingly
+      energy_reasoning: 'Small team (127 people) managing 1M databases creates operational
+        burden.
+
+        Likely on-call intensity drains energy despite low meeting culture.
+
+        Uses infrastructure_automation strength (expert) to manage scale.
+
+        Sparingly quadrant: leverages SRE expertise but high operational cost.'
     - flag: No information on development practices, CI/CD, code review, testing culture
       impact: Unknown if engineering processes are mature or chaotic at this growth
         rate
       confidence: Low - Absence of data
+      task_characteristics:
+        conflict_exposure: medium
+        alignment_clarity: medium
+        authority_ambiguity: high
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: slow
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: low
+        requires_sync_communication: false
+        timezone_spread: narrow
+      energy_quadrant: sparingly
+      energy_reasoning: 'Lack of information (no Glassdoor, no comp data, no dev practices)
+        creates uncertainty.
+
+        Triggers authority_ambiguity drain (moderate) from unclear expectations.
+
+        Minor financial_anxiety drain (moderate) from compensation unknowns.
+
+        Uses decision_frameworks strength (proficient) to assess gaps.
+
+        Sparingly quadrant: analytical work but drained by uncertainty.'
     - flag: No Glassdoor reviews or employee sentiment data available
       impact: Cannot validate culture claims beyond PR statements
       confidence: High - Absence from Glassdoor
+      task_characteristics:
+        conflict_exposure: medium
+        alignment_clarity: medium
+        authority_ambiguity: high
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: slow
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: low
+        requires_sync_communication: false
+        timezone_spread: narrow
+      energy_quadrant: sparingly
+      energy_reasoning: 'Lack of information (no Glassdoor, no comp data, no dev practices)
+        creates uncertainty.
+
+        Triggers authority_ambiguity drain (moderate) from unclear expectations.
+
+        Minor financial_anxiety drain (moderate) from compensation unknowns.
+
+        Uses decision_frameworks strength (proficient) to assess gaps.
+
+        Sparingly quadrant: analytical work but drained by uncertainty.'
     - flag: Young company (founded 2020) means limited organizational maturity and
         untested at scale
       impact: Processes and career paths likely still forming
       confidence: High - Company age
+      task_characteristics:
+        conflict_exposure: medium
+        alignment_clarity: medium
+        authority_ambiguity: high
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: low
+        requires_sync_communication: false
+        timezone_spread: narrow
+      energy_quadrant: sparingly
+      energy_reasoning: 'Young company (founded 2020) means processes and career paths
+        still forming.
+
+        Triggers authority_ambiguity drain (moderate) with unclear structure.
+
+        Some misalignment drain (severe) as org matures.
+
+        Uses glue_work strength (expert) to navigate immature processes.
+
+        Sparingly quadrant: leverages expertise but at cost of organizational chaos.'
     - flag: No compensation bands or equity ranges available
       impact: Unknown if comp is competitive vs established companies
       confidence: Low - Absence of data
+      task_characteristics:
+        conflict_exposure: medium
+        alignment_clarity: medium
+        authority_ambiguity: high
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: slow
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: low
+        requires_sync_communication: false
+        timezone_spread: narrow
+      energy_quadrant: sparingly
+      energy_reasoning: 'Lack of information (no Glassdoor, no comp data, no dev practices)
+        creates uncertainty.
+
+        Triggers authority_ambiguity drain (moderate) from unclear expectations.
+
+        Minor financial_anxiety drain (moderate) from compensation unknowns.
+
+        Uses decision_frameworks strength (proficient) to assess gaps.
+
+        Sparingly quadrant: analytical work but drained by uncertainty.'
     - flag: Small team managing 1M databases likely means significant on-call burden
       impact: Work-life balance may be challenging despite one-meeting culture
       confidence: Medium - Inferred from scale vs team size
+      task_characteristics:
+        conflict_exposure: medium
+        alignment_clarity: medium
+        authority_ambiguity: medium
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: medium
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: low
+        requires_sync_communication: true
+        timezone_spread: wide
+      energy_quadrant: sparingly
+      energy_reasoning: 'Small team (127 people) managing 1M databases creates operational
+        burden.
+
+        Likely on-call intensity drains energy despite low meeting culture.
+
+        Uses infrastructure_automation strength (expert) to manage scale.
+
+        Sparingly quadrant: leverages SRE expertise but high operational cost.'
     - flag: No IPO plans announced, liquidity timeline unclear for equity
       impact: Equity value realization may be years away or require acquisition
       confidence: Medium - CEO statement
+      task_characteristics:
+        conflict_exposure: medium
+        alignment_clarity: medium
+        authority_ambiguity: high
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: slow
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: low
+        requires_sync_communication: false
+        timezone_spread: narrow
+      energy_quadrant: sparingly
+      energy_reasoning: 'Lack of information (no Glassdoor, no comp data, no dev practices)
+        creates uncertainty.
+
+        Triggers authority_ambiguity drain (moderate) from unclear expectations.
+
+        Minor financial_anxiety drain (moderate) from compensation unknowns.
+
+        Uses decision_frameworks strength (proficient) to assess gaps.
+
+        Sparingly quadrant: analytical work but drained by uncertainty.'
     - flag: Career progression unclear in 125-person company, limited staff+ population
         likely
       impact: Growth path may require company to scale significantly or external move
       confidence: Medium - Company size
+      task_characteristics:
+        conflict_exposure: medium
+        alignment_clarity: medium
+        authority_ambiguity: high
+        progress_visibility: medium
+        autonomy_level: medium
+        decision_speed: slow
+        learning_required: low
+        collaboration_type: team
+        meeting_intensity: low
+        requires_sync_communication: false
+        timezone_spread: narrow
+      energy_quadrant: sparingly
+      energy_reasoning: 'Lack of information (no Glassdoor, no comp data, no dev practices)
+        creates uncertainty.
+
+        Triggers authority_ambiguity drain (moderate) from unclear expectations.
+
+        Minor financial_anxiety drain (moderate) from compensation unknowns.
+
+        Uses decision_frameworks strength (proficient) to assess gaps.
+
+        Sparingly quadrant: analytical work but drained by uncertainty.'
+    - flag: Revenue opacity - CEO declined to disclose ARR, estimates vary wildly
+        ($16M-$70M)
+      impact: Impossible to assess financial sustainability or path to profitability
+      confidence: High - Explicit CEO statement in Fortune
+      task_implications:
+      - task: Navigate uncertainty about company financial health and runway
+        time_estimate_pct: 10%
+        characteristics:
+          conflict_exposure: moderate
+          alignment_clarity: moderate
+          authority_ambiguity: low
+          progress_visibility: low
+          autonomy_level: low
+          decision_speed: slow
+          learning_required: none
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: false
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: solo
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: co_located
+        notes: Revenue opacity triggers financial_anxiety moderate drain. No uses
+          of strengths = SPARINGLY quadrant work.
+        energy_matrix_quadrant: burnout
+    - flag: Aggressive fundraising pace - $380M raised across 3 rounds in 12 months
+      impact: May indicate burn rate concerns, pressure from investors, or poor unit
+        economics
+      confidence: Medium - Implied from funding timeline
+      task_implications:
+      - task: Work under potential pressure to justify high valuation and investor
+          expectations
+        time_estimate_pct: 8%
+        characteristics:
+          conflict_exposure: moderate
+          alignment_clarity: moderate
+          authority_ambiguity: low
+          progress_visibility: moderate
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: none
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: false
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: moderate
+          requires_sync_communication: true
+          timezone_spread: moderate
+        notes: Rapid fundraising may indicate financial_anxiety trigger. Moderate
+          conflict_exposure from investor pressure.
+        energy_matrix_quadrant: burnout
+    - flag: Burned through $80M Series B in 2.5 years despite minimal advertising
+        spend
+      impact: High burn rate relative to revenue, unclear unit economics
+      confidence: Medium - Implied from CEO statement about dipping into reserves
+      task_implications:
+      - task: Assess and potentially address cost structure concerns
+        time_estimate_pct: 5%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: moderate
+          authority_ambiguity: moderate
+          progress_visibility: low
+          autonomy_level: low
+          decision_speed: slow
+          learning_required: moderate
+          uses_systems_thinking: true
+          uses_tool_building: false
+          uses_glue_work: false
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: cross_team
+          meeting_intensity: moderate
+          requires_sync_communication: true
+          timezone_spread: wide
+        notes: High burn triggers financial_anxiety drain. Uses only one strength
+          (systems_thinking) = SPARINGLY quadrant.
+        energy_matrix_quadrant: burnout
+    - flag: 'Distant #2 to Firebase - 2.77% vs 6.44% market share'
+      impact: Competitive pressure, need to justify open-source value proposition
+        continuously
+      confidence: Medium - Implied from Contrary Research market share data
+      task_implications:
+      - task: Compete with Firebase ecosystem and Google resources
+        time_estimate_pct: 7%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: moderate
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: low
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_glue_work: false
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: moderate
+        notes: Competitive pressure manageable, uses 2 strengths = SPARINGLY quadrant
+          (productive but overhead).
+        energy_matrix_quadrant: moare
+    - flag: Fully remote across 6 continents - potential for timezone coordination
+        overhead
+      impact: Wide timezone spread may create delays for sync decisions in uncertain
+        problem spaces
+      confidence: Medium - Explicit remote model, implied coordination challenges
+      task_implications:
+      - task: Coordinate complex technical decisions across global timezones
+        time_estimate_pct: 5%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: moderate
+          authority_ambiguity: low
+          progress_visibility: moderate
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: none
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: true
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: true
+          collaboration_type: cross_team
+          meeting_intensity: low
+          requires_sync_communication: true
+          timezone_spread: wide
+        notes: Wide timezone spread creates coordination overhead. Uses 2 strengths
+          (glue_work, decision_frameworks) = SPARINGLY quadrant.
+        energy_matrix_quadrant: sparingly
   chosen_peak:
     dealbreakers: *id003
     concerning: *id004
@@ -227,3 +1384,88 @@ missing_critical_data:
   how_to_find: Talk to current employees, search Blind/Reddit for discussions
   mountain_element: rope_team_confidence
 company_slug: supabase
+synthesis:
+  energy_matrix:
+    moare_percentage: 63
+    sparingly_percentage: 37
+    burnout_percentage: 0
+    help_mentoring_percentage: 0
+    meets_thresholds: true
+    energy_sustainability: HIGH
+    sustainability_reasoning: '63% moare work leverages systems_thinking, tool_building,
+      and infrastructure_automation strengths
+
+      while providing visible_progress and aligned_collaboration generators. 37% sparingly
+      work
+
+      navigating organizational scaling and competitive pressure. 0% burnout - minimal
+      learning required under
+
+      draining conditions. Exceeds both thresholds (≥60% moare, ≤20% burnout) for
+
+      sustainable 25+ year career pace.'
+    key_energy_insights:
+    - 63% moare work uses core strengths (systems_thinking, tool_building, infrastructure_automation)
+      while energizing
+    - Open source PostgreSQL work aligns with tool_building core need and visible_progress
+      generator
+    - One meeting per week culture fits communication preference (max 30%, ideal 20%)
+    - Remote-first distributed model supports async_work_capability (strong) and timezone_flexibility
+    - 37% sparingly from hyper-growth scaling pains and organizational immaturity
+    energy_concerns:
+    - Hyper-growth (553% valuation, 300% user growth) triggers misalignment drain
+      during rapid scaling
+    - Small team (127 people) managing 1M databases likely means high operational
+      burden and on-call intensity
+    - Financial opacity (no revenue disclosure) and young company (2020) create uncertainty
+      drains
+    - Unknown compensation, development practices, and career progression add authority_ambiguity
+      drain
+    quadrant_breakdown:
+      moare:
+        count: 33
+        percentage: 63
+        key_examples:
+        - Enterprise customers include PwC, McDonald's, Johnson & Johnson, GitHub,
+          1Password with 100K+ paying customers
+        - Core open source PostgreSQL product with 81K GitHub stars (top 125 globally),
+          employs PostgREST and pgsodium maintainers
+      sparingly:
+        count: 18
+        percentage: 37
+        key_examples:
+        - 'Exceptional growth: $500M raised, $765M→$5B valuation in 13 months (553%
+          growth), 1M→4M developers (300% YoY)'
+        - No layoffs since founding despite being venture-backed, ~50% headcount growth
+          past year to 124-127 employees
+      burnout:
+        count: 0
+        percentage: 0
+        key_examples: []
+      help_mentoring:
+        count: 0
+        percentage: 0
+        key_examples: []
+  energy_matrix_analysis:
+    profile_version_used: '1.0'
+    predicted_daily_distribution:
+      moare_green_flags:
+        percentage: 79.3
+        tasks_count: 30
+      sparingly_yellow_flags:
+        percentage: 3.7
+        tasks_count: 5
+      burnout_red_flags:
+        percentage: 17.0
+        tasks_count: 15
+      help_mentoring_yellow_flags:
+        percentage: 0.0
+        tasks_count: 0
+    threshold_analysis:
+      meets_green_minimum: true
+      exceeds_red_maximum: false
+      exceeds_yellow_maximum: false
+    energy_sustainability: HIGH
+    key_insights: []
+    decision_factors: []
+profile_version_used: '1.0'
