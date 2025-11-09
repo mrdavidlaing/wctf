@@ -77,6 +77,15 @@ Create a tailored CV in markdown format highlighting relevant experience from re
 - Keep to 1-2 pages when rendered as PDF
 
 **Format:**
+- **MUST include Hugo frontmatter** at the top:
+  ```yaml
+  ---
+  title: "David Laing - <Job Title>"
+  type: "wctf"
+  layout: "single"
+  draft: false
+  ---
+  ```
 - Clean professional markdown
 - Use headers for sections (Summary, Experience, Skills, Education)
 - Bullet points for achievements
@@ -118,6 +127,18 @@ Create a tailored cover letter using the **WCTF-informed but subtle approach**.
 - Forward-looking (what you'd contribute)
 - Professional and genuine
 - 1-2 pages maximum
+
+**Format:**
+- **MUST include Hugo frontmatter** at the top:
+  ```yaml
+  ---
+  title: "David Laing - Cover Letter - <Company> <Job Title>"
+  type: "wctf"
+  layout: "single"
+  draft: false
+  ---
+  ```
+- Follow with standard cover letter structure
 
 Save to: `data/stage-2/<company>/applications/<job-slug>/mrdavidlaing-cover-letter-YYYYMMDD.md`
 
