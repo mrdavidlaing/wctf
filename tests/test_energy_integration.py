@@ -153,9 +153,10 @@ missing_critical_data: []
 
     synthesis = flags_data["synthesis"]["energy_matrix_analysis"]
 
-    # Should have 20% moare and 40% burnout
-    assert synthesis["predicted_daily_distribution"]["moare_green_flags"]["percentage"] == 20
-    assert synthesis["predicted_daily_distribution"]["burnout_red_flags"]["percentage"] == 40
+    # Should normalize 20% moare + 40% burnout (60% total) to 100%
+    # moare: 20/60 * 100 = 33.3%, burnout: 40/60 * 100 = 66.7%
+    assert synthesis["predicted_daily_distribution"]["moare_green_flags"]["percentage"] == 33.3
+    assert synthesis["predicted_daily_distribution"]["burnout_red_flags"]["percentage"] == 66.7
 
     # Should fail thresholds
     assert synthesis["threshold_analysis"]["meets_green_minimum"] is False

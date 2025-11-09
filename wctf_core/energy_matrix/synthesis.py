@@ -69,7 +69,7 @@ def _aggregate_quadrant_distribution(flags: CompanyFlags) -> Dict[str, Dict[str,
             for impl in flag.task_implications
         )
 
-    # Aggregate by quadrant
+    # Aggregate by quadrant (sum raw percentages first)
     for impl in all_implications:
         if impl.energy_matrix_quadrant is None:
             continue
@@ -88,6 +88,14 @@ def _aggregate_quadrant_distribution(flags: CompanyFlags) -> Dict[str, Dict[str,
         elif impl.energy_matrix_quadrant == "help_mentoring":
             distribution["help_mentoring_yellow_flags"]["percentage"] += time_pct
             distribution["help_mentoring_yellow_flags"]["tasks_count"] += 1
+
+    # Normalize percentages to sum to 100%
+    total_pct = sum(d["percentage"] for d in distribution.values())
+    if total_pct > 0:
+        for quadrant_data in distribution.values():
+            # Calculate normalized percentage and round to 1 decimal place
+            normalized = (quadrant_data["percentage"] / total_pct) * 100
+            quadrant_data["percentage"] = round(normalized, 1)
 
     return distribution
 

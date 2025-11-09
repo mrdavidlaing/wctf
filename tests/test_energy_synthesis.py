@@ -145,9 +145,10 @@ def test_generate_energy_synthesis_calculates_distribution(sample_flags_with_qua
     assert "moare_green_flags" in dist
     assert "burnout_red_flags" in dist
 
-    # Should have 30% moare and 40% burnout based on time estimates
-    assert dist["moare_green_flags"]["percentage"] == 30
-    assert dist["burnout_red_flags"]["percentage"] == 40
+    # Should normalize 30% moare + 40% burnout (70% total) to 100%
+    # moare: 30/70 * 100 = 42.9%, burnout: 40/70 * 100 = 57.1%
+    assert dist["moare_green_flags"]["percentage"] == 42.9
+    assert dist["burnout_red_flags"]["percentage"] == 57.1
 
 
 def test_generate_energy_synthesis_checks_thresholds(sample_flags_with_quadrants, sample_profile):
@@ -156,10 +157,10 @@ def test_generate_energy_synthesis_checks_thresholds(sample_flags_with_quadrants
 
     thresholds = synthesis["energy_matrix_analysis"]["threshold_analysis"]
 
-    # 30% moare < 60% required
+    # 42.9% moare < 60% required
     assert thresholds["meets_green_minimum"] is False
 
-    # 40% burnout > 20% allowed
+    # 57.1% burnout > 20% allowed
     assert thresholds["exceeds_red_maximum"] is True
 
 
