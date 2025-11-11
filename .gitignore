@@ -70,3 +70,15 @@ build/
 node_modules/
 package.json
 package-lock.json
+
+# Temporary extraction scripts and work files
+extract_*.py
+prepare_*.py
+run_*.py
+report_*.py
+*_extraction_context.txt
+*_new_flags.yaml
+
+# Backup files
+*.backup
+*.backup-*
