@@ -87,3 +87,66 @@ class TestOrgMetrics:
         )
 
         assert metrics.recent_changes == []
+
+
+class TestCoordinationSignals:
+    """Tests for CoordinationSignals model."""
+
+    def test_coordination_signals_valid(self):
+        """Test CoordinationSignals with valid style."""
+        from wctf_core.models.orgmap import CoordinationSignals
+
+        signals = CoordinationSignals(
+            style_indicators="expedition",
+            evidence=["8+ teams coordinating", "Quarterly planning"],
+            realignment_signals=["Pivoted VMs to containers"]
+        )
+
+        assert signals.style_indicators == "expedition"
+        assert len(signals.evidence) == 2
+        assert len(signals.realignment_signals) == 1
+
+    def test_coordination_signals_minimal(self):
+        """Test CoordinationSignals with minimal fields."""
+        from wctf_core.models.orgmap import CoordinationSignals
+
+        signals = CoordinationSignals(
+            style_indicators="alpine",
+            evidence=["Fast autonomous decisions"]
+        )
+
+        assert signals.realignment_signals == []
+
+
+class TestInsiderConnection:
+    """Tests for InsiderConnection model."""
+
+    def test_insider_connection_valid(self):
+        """Test InsiderConnection with valid data."""
+        from wctf_core.models.orgmap import InsiderConnection
+
+        connection = InsiderConnection(
+            name="Bob Jones",
+            relationship="Former Google colleague",
+            role="Senior Staff Engineer",
+            team="Kubernetes Platform",
+            last_contact="2025-09",
+            willing_to_intro=True
+        )
+
+        assert connection.name == "Bob Jones"
+        assert connection.willing_to_intro is True
+
+    def test_insider_connection_default_willing_to_intro(self):
+        """Test InsiderConnection defaults willing_to_intro to False."""
+        from wctf_core.models.orgmap import InsiderConnection
+
+        connection = InsiderConnection(
+            name="Jane Doe",
+            relationship="Met at conference",
+            role="Staff Engineer",
+            team="Observability",
+            last_contact="2025-10"
+        )
+
+        assert connection.willing_to_intro is False

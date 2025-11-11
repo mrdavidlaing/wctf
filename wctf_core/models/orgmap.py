@@ -28,3 +28,22 @@ class OrgMetrics(BaseModel):
         if '-' not in v:
             raise ValueError(f"Headcount must be range format like '40-50', got: {v}")
         return v
+
+
+class CoordinationSignals(BaseModel):
+    """Team coordination style indicators."""
+
+    style_indicators: Literal["alpine", "expedition", "established", "orienteering", "trail_crew"]
+    evidence: List[str] = Field(description="Observable signals of coordination style")
+    realignment_signals: List[str] = Field(default_factory=list, description="Evidence of adaptation ability")
+
+
+class InsiderConnection(BaseModel):
+    """Network contact info."""
+
+    name: str
+    relationship: str = Field(description="How you know them")
+    role: str
+    team: str
+    last_contact: str = Field(description="YYYY-MM format")
+    willing_to_intro: bool = Field(default=False)
