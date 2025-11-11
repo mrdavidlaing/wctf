@@ -1,10 +1,86 @@
 company: intel
-evaluation_date: '2025-11-09'
+evaluation_date: '2025-11-11'
 evaluator_context: Extracted from conversation notes
 green_flags:
   mountain_range:
     critical_matches: []
-    strong_positives: []
+    strong_positives:
+    - flag: Dominant 75.4% consumer PC market share and 63.3% server market share
+      impact: Company has strong market position in core business segments, indicating
+        established customer base and revenue streams
+      confidence: High - Mercury Research Q4 2024 data
+      task_implications:
+      - task: Working on products for established, dominant market position
+        time_estimate_pct: 15-20%
+        characteristics:
+          conflict_exposure: moderate
+          alignment_clarity: moderate
+          authority_ambiguity: moderate
+          progress_visibility: moderate
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: moderate
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_glue_work: false
+          uses_infrastructure_automation: true
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: moderate
+          requires_sync_communication: true
+          timezone_spread: wide
+        energy_matrix_quadrant: sparingly
+    - flag: 'Substantial government support: $8.9B US equity investment (10% stake)
+        + $7.86B CHIPS Act funding'
+      impact: Significant financial backing reduces immediate bankruptcy risk, provides
+        runway for turnaround
+      confidence: High - Intel Newsroom August 2025, November 2024
+      task_implications:
+      - task: Navigating government reporting requirements and compliance overhead
+        time_estimate_pct: 5-10%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: low
+          decision_speed: slow
+          learning_required: moderate
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: true
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: cross_team
+          meeting_intensity: moderate
+          requires_sync_communication: true
+          timezone_spread: narrow
+        energy_matrix_quadrant: moare
+    - flag: Strategic investments from NVIDIA ($5B, 4% stake) and SoftBank ($2B)
+      impact: Major tech companies investing signals potential for technology collaboration
+        and strategic partnerships
+      confidence: High - NVIDIA Newsroom September 2025, CNBC August 2025
+      task_implications:
+      - task: Potential collaboration work with NVIDIA on AI/GPU integration
+        time_estimate_pct: 10-15%
+        characteristics:
+          conflict_exposure: moderate
+          alignment_clarity: moderate
+          authority_ambiguity: moderate
+          progress_visibility: moderate
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: moderate
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_glue_work: false
+          uses_infrastructure_automation: true
+          uses_decision_frameworks: false
+          collaboration_type: cross_team
+          meeting_intensity: moderate
+          requires_sync_communication: true
+          timezone_spread: wide
+        energy_matrix_quadrant: sparingly
   chosen_peak:
     critical_matches:
     - flag: 'World-class technical culture: 19,000 software engineers, 1,315 GitHub
@@ -59,15 +135,219 @@ green_flags:
           timezone_spread: narrow
         notes: Work-life balance provides recovery from organizational stress
         energy_matrix_quadrant: moare
+    - flag: 'Strong open source culture: Largest Linux contributor since 2007, 1,315
+        GitHub repos, contributes to 300+ projects including PyTorch, TensorFlow,
+        Kubernetes'
+      impact: Demonstrates technical excellence and community engagement, indicates
+        modern development practices
+      confidence: High - Intel Open Ecosystem page, GitHub intel organization
+      task_implications:
+      - task: Contributing to open source projects and Intel's open source initiatives
+        time_estimate_pct: 10-15%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: low
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_glue_work: false
+          uses_infrastructure_automation: true
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: wide
+        energy_matrix_quadrant: moare
+    - flag: 19,000 software engineers, 700+ Intel Labs researchers, 200+ academic
+        papers annually, $100M university research investment
+      impact: Large engineering organization with strong research focus provides learning
+        opportunities and technical depth
+      confidence: High - Intel Labs Overview, FLOSS Weekly podcast
+      task_implications:
+      - task: Collaboration with research teams and academic partners
+        time_estimate_pct: 5-10%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: moderate
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: moderate
+          uses_systems_thinking: true
+          uses_tool_building: false
+          uses_glue_work: true
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: cross_team
+          meeting_intensity: moderate
+          requires_sync_communication: true
+          timezone_spread: moderate
+        energy_matrix_quadrant: sparingly
+    - flag: 'Modern tech stack: oneAPI/SYCL, C/C++/Python, GitHub Enterprise (1Source
+        initiative), agile/scrum processes'
+      impact: Modern development tools and practices indicate technical maturity
+      confidence: High - Intel Developer documentation, GitHub customer stories
+      task_implications:
+      - task: Working with oneAPI and heterogeneous computing platforms
+        time_estimate_pct: 15-20%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: moderate
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_glue_work: false
+          uses_infrastructure_automation: true
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: wide
+        energy_matrix_quadrant: moare
   rope_team_confidence:
     critical_matches: []
-    strong_positives: []
+    strong_positives:
+    - flag: New CEO Lip-Bu Tan (March 2025) brings semiconductor expertise from Cadence
+        (CEO 2009-2021, 3,200% stock appreciation)
+      impact: Industry veteran with proven track record of semiconductor company success
+      confidence: High - Intel Newsroom March 2025
+      task_implications:
+      - task: Adapting to new CEO's strategic direction and organizational changes
+        time_estimate_pct: 10-15%
+        characteristics:
+          conflict_exposure: moderate
+          alignment_clarity: low
+          authority_ambiguity: moderate
+          progress_visibility: low
+          autonomy_level: moderate
+          decision_speed: slow
+          learning_required: low
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: true
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: cross_team
+          meeting_intensity: high
+          requires_sync_communication: true
+          timezone_spread: narrow
+        energy_matrix_quadrant: sparingly
   daily_climb:
     critical_matches: []
-    strong_positives: []
+    strong_positives:
+    - flag: 'Strong work-life balance ratings: 4.0/5 on Glassdoor, 4.1/5 on Blind,
+        3.9/5 on Indeed'
+      impact: Employees consistently report good work-life balance, sustainable pace
+      confidence: High - Glassdoor, Blind, Indeed reviews 2025
+      task_implications:
+      - task: Working reasonable hours with sustainable pace
+        time_estimate_pct: 0-5%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: none
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: false
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: solo
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: narrow
+        energy_matrix_quadrant: help_mentoring
+    - flag: Comprehensive benefits package praised by employees
+      impact: Strong benefits provide security and support
+      confidence: Medium - Glassdoor reviews aggregated
+      task_implications:
+      - task: Managing benefits and compensation
+        time_estimate_pct: 0-5%
+        characteristics:
+          conflict_exposure: none
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: none
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: false
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: solo
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: co_located
+        energy_matrix_quadrant: help_mentoring
   story_worth_telling:
     critical_matches: []
-    strong_positives: []
+    strong_positives:
+    - flag: 'Cutting-edge technology work: Gaudi 3 AI accelerators, Core Ultra processors
+        with 48 TOPS NPU, 100M+ AI PCs shipping by end 2025'
+      impact: Working on industry-leading technology provides resume value and technical
+        growth
+      confidence: High - Intel Q4 2024 Financial Results
+      task_implications:
+      - task: Contributing to cutting-edge AI and processor technology
+        time_estimate_pct: 20-25%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: moderate
+          uses_systems_thinking: true
+          uses_tool_building: true
+          uses_glue_work: false
+          uses_infrastructure_automation: true
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: wide
+        energy_matrix_quadrant: moare
+    - flag: Global operations in 46 countries, work with major partners (Microsoft,
+        Dell, AWS, Google Cloud)
+      impact: Exposure to global enterprise customers and cloud providers, broad industry
+        impact
+      confidence: High - Intel Partner Showcase, Intel Around the World
+      task_implications:
+      - task: Coordinating with global teams and major cloud providers
+        time_estimate_pct: 10-15%
+        characteristics:
+          conflict_exposure: moderate
+          alignment_clarity: moderate
+          authority_ambiguity: moderate
+          progress_visibility: moderate
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: low
+          uses_systems_thinking: true
+          uses_tool_building: false
+          uses_glue_work: true
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: cross_team
+          meeting_intensity: moderate
+          requires_sync_communication: true
+          timezone_spread: wide
+        energy_matrix_quadrant: sparingly
 red_flags:
   mountain_range:
     dealbreakers:
@@ -204,18 +484,385 @@ red_flags:
           timezone_spread: co_located
         notes: Pure overhead, reduces async capability
         energy_matrix_quadrant: burnout
+    - flag: 'Massive financial losses: $18.8B net loss in 2024 (GAAP), Intel Foundry
+        business $13B annual loss, breakeven not until 2027'
+      impact: Severe financial distress indicates company viability concerns, potential
+        for further cuts and instability
+      confidence: High - Intel Q4 2024 Earnings Release
+      task_implications:
+      - task: Navigating constant cost-cutting pressure and efficiency demands
+        time_estimate_pct: 15-20%
+        characteristics:
+          conflict_exposure: high
+          alignment_clarity: low
+          authority_ambiguity: high
+          progress_visibility: low
+          autonomy_level: low
+          decision_speed: slow
+          learning_required: none
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: true
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: cross_team
+          meeting_intensity: high
+          requires_sync_communication: true
+          timezone_spread: narrow
+        energy_matrix_quadrant: sparingly
+    - flag: 'Negative free cash flow: Trailing 12-month FCF of -$10.9B, indicating
+        severe cash challenges'
+      impact: Cash burn at this rate with limited runway increases bankruptcy risk
+        despite government support
+      confidence: High - The Motley Fool October 2025
+      task_implications:
+      - task: Managing within severe resource constraints, project cancellations
+        time_estimate_pct: 10-15%
+        characteristics:
+          conflict_exposure: high
+          alignment_clarity: low
+          authority_ambiguity: high
+          progress_visibility: low
+          autonomy_level: low
+          decision_speed: slow
+          learning_required: none
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: true
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: high
+          requires_sync_communication: true
+          timezone_spread: narrow
+        energy_matrix_quadrant: sparingly
+    - flag: 'Severe market share erosion: AMD now at 36.5% servers (vs Intel''s 90%+
+        in 2020), AMD outsold Intel DCAI in Q3 2024, NVIDIA dominates AI with $130.5B
+        FY2025 revenue'
+      impact: Losing competitive position in critical growth markets (servers, AI)
+        threatens long-term viability
+      confidence: High - Tom's Hardware, Wikipedia October 2024
+      task_implications:
+      - task: Dealing with competitive pressure and potential product pivots
+        time_estimate_pct: 10-15%
+        characteristics:
+          conflict_exposure: high
+          alignment_clarity: low
+          authority_ambiguity: moderate
+          progress_visibility: moderate
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: low
+          uses_systems_thinking: true
+          uses_tool_building: false
+          uses_glue_work: true
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: cross_team
+          meeting_intensity: moderate
+          requires_sync_communication: true
+          timezone_spread: wide
+        energy_matrix_quadrant: sparingly
+    - flag: Stock removed from Dow Jones Industrial Average November 2024, replaced
+        by NVIDIA; market cap declined 59% in 2024
+      impact: Loss of prestigious Dow status and severe stock decline indicates lost
+        investor confidence
+      confidence: High - Wikipedia, Public.com
+      task_implications:
+      - task: Managing morale impact and external perception challenges
+        time_estimate_pct: 5-10%
+        characteristics:
+          conflict_exposure: moderate
+          alignment_clarity: moderate
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: none
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: true
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: narrow
+        energy_matrix_quadrant: sparingly
   chosen_peak:
     dealbreakers: []
-    concerning: []
+    concerning:
+    - flag: CEO Tan flattening organizational structure, eliminating 'Intel Products'
+        CEO role, creating new Central Engineering division
+      impact: Major organizational restructuring creates uncertainty, reporting changes,
+        potential for misalignment
+      confidence: High - SiliconANGLE, TechCrunch September 2025
+      task_implications:
+      - task: Navigating organizational restructuring and new reporting structures
+        time_estimate_pct: 15-20%
+        characteristics:
+          conflict_exposure: high
+          alignment_clarity: low
+          authority_ambiguity: high
+          progress_visibility: low
+          autonomy_level: low
+          decision_speed: slow
+          learning_required: low
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: true
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: cross_team
+          meeting_intensity: high
+          requires_sync_communication: true
+          timezone_spread: narrow
+        energy_matrix_quadrant: sparingly
   rope_team_confidence:
     dealbreakers: []
-    concerning: []
+    concerning:
+    - flag: 'Extreme leadership instability: 4th CEO in 7 years (Krzanich 2013-2018,
+        Swan 2019-2021, Gelsinger 2021-2024, Tan 2025-present)'
+      impact: Constant CEO turnover indicates board dysfunction, strategic whiplash,
+        cultural instability
+      confidence: High - Fortune, Wikipedia
+      task_implications:
+      - task: Adapting to strategic direction changes and priority shifts
+        time_estimate_pct: 15-20%
+        characteristics:
+          conflict_exposure: high
+          alignment_clarity: low
+          authority_ambiguity: high
+          progress_visibility: low
+          autonomy_level: low
+          decision_speed: slow
+          learning_required: low
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: true
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: cross_team
+          meeting_intensity: high
+          requires_sync_communication: true
+          timezone_spread: narrow
+        energy_matrix_quadrant: sparingly
+    - flag: Only 36% of employees have positive business outlook, significantly below
+        average
+      impact: Extremely low employee confidence indicates deep organizational pessimism
+        about company direction
+      confidence: High - Glassdoor 2025
+      task_implications:
+      - task: Managing low morale and pessimistic organizational culture
+        time_estimate_pct: 10-15%
+        characteristics:
+          conflict_exposure: moderate
+          alignment_clarity: low
+          authority_ambiguity: moderate
+          progress_visibility: low
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: none
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: true
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: moderate
+          requires_sync_communication: true
+          timezone_spread: narrow
+        energy_matrix_quadrant: sparingly
+    - flag: New CEO Lip-Bu Tan has only 48% approval rating, unusually low for first
+        year CEO
+      impact: Low CEO approval rating in honeymoon period suggests employee skepticism
+        about turnaround prospects
+      confidence: High - Glassdoor 2025
+      task_implications:
+      - task: Managing skepticism about leadership effectiveness
+        time_estimate_pct: 5-10%
+        characteristics:
+          conflict_exposure: moderate
+          alignment_clarity: low
+          authority_ambiguity: moderate
+          progress_visibility: low
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: none
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: true
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: team
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: narrow
+        energy_matrix_quadrant: sparingly
+    - flag: 'Major executive turnover: Michelle Johnston Holthaus (30+ year veteran,
+        interim co-CEO) departed September 2025 due to ''material reduction in duties'''
+      impact: Loss of institutional knowledge and experienced leaders signals potential
+        for further executive exodus
+      confidence: High - Intel Newsroom, SiliconANGLE September 2025
+      task_implications:
+      - task: Dealing with loss of institutional knowledge and relationship rebuilding
+        time_estimate_pct: 5-10%
+        characteristics:
+          conflict_exposure: moderate
+          alignment_clarity: low
+          authority_ambiguity: moderate
+          progress_visibility: moderate
+          autonomy_level: moderate
+          decision_speed: moderate
+          learning_required: low
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: true
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: cross_team
+          meeting_intensity: moderate
+          requires_sync_communication: true
+          timezone_spread: narrow
+        energy_matrix_quadrant: sparingly
   daily_climb:
-    dealbreakers: []
-    concerning: []
+    dealbreakers:
+    - flag: 'Massive ongoing layoffs: 24,000 jobs cut (24% of workforce) reducing
+        from 108,900 to ~75,000 by end 2025, following 23,000 cuts 2022-2024'
+      impact: Constant layoff threat creates survival anxiety, impacts productivity
+        and retention of top talent
+      confidence: High - Intel Q2 2025 Earnings, CNN Business, TrendForce
+      task_implications:
+      - task: Managing constant layoff anxiety and survival stress
+        time_estimate_pct: 20-25%
+        characteristics:
+          conflict_exposure: high
+          alignment_clarity: low
+          authority_ambiguity: high
+          progress_visibility: low
+          autonomy_level: low
+          decision_speed: slow
+          learning_required: none
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: false
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: solo
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: co_located
+        notes: This is BURNOUT territory - constant threat to livelihood
+        energy_matrix_quadrant: burnout
+    concerning:
+    - flag: Mandatory 4-day in-office requirement effective September 1, 2025 (increased
+        from 3-day hybrid)
+      impact: Reduced flexibility, especially problematic for Dublin Ireland location
+        preference
+      confidence: High - TechCrunch, Tech.co April 2025
+      task_implications:
+      - task: Commuting 4 days per week and adjusting to reduced flexibility
+        time_estimate_pct: 5-10%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: low
+          decision_speed: fast
+          learning_required: none
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: false
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: solo
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: co_located
+        energy_matrix_quadrant: help_mentoring
+    - flag: Employee reviews report below-market compensation compared to competitors,
+        benefits reductions (sabbatical changes, coffee/fruit eliminated)
+      impact: Below-market pay with benefit cuts increases financial stress and triggers
+        active job search
+      confidence: Medium - Glassdoor, Blind, Indeed reviews aggregated
+      task_implications:
+      - task: Managing compensation gap and considering outside opportunities
+        time_estimate_pct: 15-20%
+        characteristics:
+          conflict_exposure: low
+          alignment_clarity: high
+          authority_ambiguity: low
+          progress_visibility: high
+          autonomy_level: high
+          decision_speed: fast
+          learning_required: none
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: false
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: solo
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: narrow
+        notes: Severe compensation gap (>20%) + layoffs = active job search overhead
+        energy_matrix_quadrant: help_mentoring
+    - flag: 'Recurring negative themes: frequent reorgs (every 2 quarters per some
+        reviews), poor communication from leadership, limited career advancement'
+      impact: Constant organizational churn creates adaptation overhead and career
+        stagnation
+      confidence: Medium - Glassdoor, Blind, Indeed reviews aggregated
+      task_implications:
+      - task: Navigating constant reorganizations and communication gaps
+        time_estimate_pct: 20-25%
+        characteristics:
+          conflict_exposure: high
+          alignment_clarity: low
+          authority_ambiguity: high
+          progress_visibility: low
+          autonomy_level: low
+          decision_speed: slow
+          learning_required: none
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: true
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: cross_team
+          meeting_intensity: high
+          requires_sync_communication: true
+          timezone_spread: narrow
+        notes: Reorgs every 6 months = 20-30% overhead per calibration guidance
+        energy_matrix_quadrant: sparingly
   story_worth_telling:
     dealbreakers: []
-    concerning: []
+    concerning:
+    - flag: Limited career advancement opportunities reported by employees
+      impact: Career stagnation risk due to organizational dysfunction and survival
+        mode
+      confidence: Medium - Glassdoor, Blind, Indeed reviews aggregated
+      task_implications:
+      - task: Managing career development in constrained environment
+        time_estimate_pct: 5-10%
+        characteristics:
+          conflict_exposure: moderate
+          alignment_clarity: low
+          authority_ambiguity: moderate
+          progress_visibility: low
+          autonomy_level: moderate
+          decision_speed: slow
+          learning_required: low
+          uses_systems_thinking: false
+          uses_tool_building: false
+          uses_glue_work: true
+          uses_infrastructure_automation: false
+          uses_decision_frameworks: false
+          collaboration_type: solo
+          meeting_intensity: low
+          requires_sync_communication: false
+          timezone_spread: narrow
+        energy_matrix_quadrant: sparingly
 missing_critical_data:
 - question: What is actual compensation for senior infrastructure engineers?
   why_important: Below-market comp amplifies financial_anxiety
@@ -229,6 +876,65 @@ missing_critical_data:
   why_important: Government projects may have reduced layoff risk
   how_to_find: Research CHIPS Act staffing, insider interviews
   mountain_element: mountain_range
+- question: What is Intel's policy on AI coding tools (GitHub Copilot, Cursor, etc.)
+    for engineers?
+  why_important: Essential for productivity and key evaluator requirement - staff
+    engineer needs access to modern AI coding assistants
+  how_to_find: 'Ask in insider interview: ''What AI coding tools are approved and
+    actively used by engineering teams?'' Check with engineers about tool availability
+    and approval process'
+  mountain_element: chosen_peak
+- question: What are the specific DORA metrics (deployment frequency, lead time, MTTR,
+    change failure rate) for engineering teams?
+  why_important: Core indicator of engineering excellence and team effectiveness -
+    evaluator specifically seeks 'high DORA metrics'
+  how_to_find: 'Ask engineering leaders or senior engineers: ''What are your deployment
+    frequency and lead time metrics? How often do you ship to production?'' Check
+    internal engineering dashboards if available'
+  mountain_element: chosen_peak
+- question: What is the actual retention rate for engineers during the 2024-2025 layoffs?
+  why_important: Understanding who left (bottom performers vs top talent exodus) indicates
+    organizational health and future team quality
+  how_to_find: 'Ask insider: ''Are top performers staying or leaving? What percentage
+    of senior engineers have left voluntarily vs layoffs?'' Check with former employees
+    on LinkedIn'
+  mountain_element: rope_team_confidence
+- question: What is the compensation structure for senior/staff engineers compared
+    to market (e.g., FAANG, AMD, NVIDIA)?
+  why_important: Below-market compensation is repeatedly mentioned in reviews - need
+    specific data on compensation gap and equity value
+  how_to_find: 'Ask insider: ''How does staff engineer total comp compare to AMD,
+    NVIDIA, Google? What''s the equity refresh policy?'' Check levels.fyi for Intel
+    vs competitors'
+  mountain_element: daily_climb
+- question: What is the product roadmap stability and strategic direction under new
+    CEO Lip-Bu Tan?
+  why_important: 4 CEOs in 7 years means constant strategic whiplash - need to understand
+    if current direction is stable
+  how_to_find: 'Ask insider: ''How stable is the current product roadmap? Have priorities
+    changed significantly under Tan? Is there clarity on the next 12-18 months?''
+    Review recent all-hands communications'
+  mountain_element: rope_team_confidence
+- question: What is Intel's presence and hiring appetite in Dublin Ireland?
+  why_important: Evaluator specifically mentions 'Remote-first or hybrid in Dublin
+    Ireland is acceptable' - need to confirm role availability and team size
+  how_to_find: Check Intel Ireland careers page, ask recruiter about Dublin-based
+    roles, contact Intel Ireland employees on LinkedIn about team size and growth
+    plans
+  mountain_element: daily_climb
+- question: What percentage of time do senior engineers spend on technical debt vs
+    new feature development?
+  why_important: In survival mode companies, innovation work often gets squeezed out
+    for firefighting and maintenance - impacts 'Story Worth Telling'
+  how_to_find: 'Ask insider: ''What percentage of your time is spent on new development
+    vs maintaining existing systems? Is there time for technical exploration and improvement?'''
+  mountain_element: chosen_peak
+- question: What is the manager churn rate - how often do engineers change managers?
+  why_important: High manager churn (reported in reviews) creates re-proving overhead
+    - need specific data on stability
+  how_to_find: 'Ask insider: ''How long has your current manager been in role? How
+    many managers have you had in the past 2 years?'' Check average manager tenure'
+  mountain_element: rope_team_confidence
 profile_version_used: '1.0'
 company_slug: intel
 synthesis:
@@ -236,26 +942,24 @@ synthesis:
     profile_version_used: '1.0'
     predicted_daily_distribution:
       moare_green_flags:
-        percentage: 31.6
-        tasks_count: 2
+        percentage: 22.0
+        tasks_count: 6
       sparingly_yellow_flags:
-        percentage: 10.5
-        tasks_count: 1
+        percentage: 51.7
+        tasks_count: 17
       burnout_red_flags:
-        percentage: 57.9
-        tasks_count: 4
+        percentage: 19.2
+        tasks_count: 5
       help_mentoring_yellow_flags:
-        percentage: 0.0
-        tasks_count: 0
+        percentage: 7.0
+        tasks_count: 4
     threshold_analysis:
       meets_green_minimum: false
-      exceeds_red_maximum: true
-      exceeds_yellow_maximum: false
+      exceeds_red_maximum: false
+      exceeds_yellow_maximum: true
     energy_sustainability: LOW
     key_insights:
-    - 68.4% of work in draining quadrants (sparingly + burnout)
-    - 57.9% burnout quadrant work exceeds 20% threshold
-    - Insufficient moare quadrant work (31.6% vs 60% needed)
+    - 70.9% of work in draining quadrants (sparingly + burnout)
+    - Insufficient moare quadrant work (22.0% vs 60% needed)
     decision_factors:
-    - 'REJECT: 57.9% burnout quadrant exceeds 20% threshold'
-    - 'RED: Only 31.6% moare quadrant (need ≥60%)'
+    - 'RED: Only 22.0% moare quadrant (need ≥60%)'
