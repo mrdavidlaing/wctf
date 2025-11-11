@@ -150,3 +150,110 @@ class TestInsiderConnection:
         )
 
         assert connection.willing_to_intro is False
+
+
+class TestRopeTeam:
+    """Tests for RopeTeam model."""
+
+    def test_rope_team_valid(self):
+        """Test RopeTeam with valid data."""
+        from wctf_core.models.orgmap import RopeTeam, Leadership
+
+        team = RopeTeam(
+            team_id="apple_k8s_platform",
+            team_name="Kubernetes Platform",
+            leadership=Leadership(director_name="Alex Chen"),
+            mission="Build internal K8s platform",
+            estimated_size="40-50 engineers",
+            tech_focus=["Kubernetes", "control plane"],
+            public_presence=["KubeCon 2024 talk"],
+            insider_info={"contact": "Bob Jones", "notes": "Good WLB"}
+        )
+
+        assert team.team_id == "apple_k8s_platform"
+        assert len(team.tech_focus) == 2
+        assert team.has_insider_connection is True
+
+    def test_rope_team_no_insider_connection(self):
+        """Test RopeTeam without insider connection."""
+        from wctf_core.models.orgmap import RopeTeam, Leadership
+
+        team = RopeTeam(
+            team_id="apple_observability",
+            team_name="Observability",
+            leadership=Leadership(director_name="Sam Lee"),
+            mission="Build observability platform",
+            estimated_size="30-40 engineers",
+            tech_focus=["Prometheus", "Grafana"]
+        )
+
+        assert team.has_insider_connection is False
+
+
+class TestPeak:
+    """Tests for Peak model."""
+
+    def test_peak_valid(self):
+        """Test Peak with valid data."""
+        from wctf_core.models.orgmap import Peak, Leadership, OrgMetrics, CoordinationSignals, InsiderConnection, RopeTeam
+
+        peak = Peak(
+            peak_id="apple_cloud_services",
+            peak_name="Cloud Services",
+            leadership=Leadership(vp_name="Jane Smith"),
+            mission="Build cloud infrastructure",
+            org_metrics=OrgMetrics(
+                estimated_headcount="800-1000",
+                growth_trend="expanding"
+            ),
+            tech_focus={"primary": ["Kubernetes"], "secondary": ["security"]},
+            coordination_signals=CoordinationSignals(
+                style_indicators="expedition",
+                evidence=["Quarterly planning"]
+            ),
+            insider_connections=[
+                InsiderConnection(
+                    name="Bob Jones",
+                    relationship="Former colleague",
+                    role="Staff Engineer",
+                    team="K8s Platform",
+                    last_contact="2025-09"
+                )
+            ],
+            rope_teams=[
+                RopeTeam(
+                    team_id="apple_k8s",
+                    team_name="K8s Platform",
+                    leadership=Leadership(director_name="Alex Chen"),
+                    mission="Build K8s",
+                    estimated_size="40-50",
+                    tech_focus=["Kubernetes"],
+                    insider_info={"contact": "Bob"}
+                )
+            ]
+        )
+
+        assert peak.peak_id == "apple_cloud_services"
+        assert peak.total_insider_connections == 2  # 1 peak-level + 1 rope team
+
+    def test_peak_no_insider_connections(self):
+        """Test Peak without insider connections."""
+        from wctf_core.models.orgmap import Peak, Leadership, OrgMetrics, CoordinationSignals
+
+        peak = Peak(
+            peak_id="test_peak",
+            peak_name="Test Peak",
+            leadership=Leadership(vp_name="Test VP"),
+            mission="Test mission",
+            org_metrics=OrgMetrics(
+                estimated_headcount="100-200",
+                growth_trend="stable"
+            ),
+            tech_focus={"primary": ["Python"]},
+            coordination_signals=CoordinationSignals(
+                style_indicators="alpine",
+                evidence=["Fast decisions"]
+            )
+        )
+
+        assert peak.total_insider_connections == 0

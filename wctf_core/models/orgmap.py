@@ -47,3 +47,44 @@ class InsiderConnection(BaseModel):
     team: str
     last_contact: str = Field(description="YYYY-MM format")
     willing_to_intro: bool = Field(default=False)
+
+
+class RopeTeam(BaseModel):
+    """Director-level team cluster."""
+
+    team_id: str = Field(description="Unique identifier, e.g., 'apple_k8s_platform'")
+    team_name: str
+    leadership: Leadership
+    mission: str
+    estimated_size: str = Field(description="e.g., '40-50 engineers'")
+    tech_focus: List[str] = Field(description="Primary technologies")
+    public_presence: List[str] = Field(default_factory=list, description="Talks, blog posts")
+    insider_info: Optional[Dict] = Field(default=None, description="Contact and notes")
+
+    @computed_field
+    @property
+    def has_insider_connection(self) -> bool:
+        """Check if we have insider contact for this team."""
+        return self.insider_info is not None
+
+
+class Peak(BaseModel):
+    """VP-level organization."""
+
+    peak_id: str = Field(description="Unique identifier, e.g., 'apple_cloud_services'")
+    peak_name: str
+    leadership: Leadership
+    mission: str
+    org_metrics: OrgMetrics
+    tech_focus: Dict[str, List[str]] = Field(description="primary and secondary tech areas")
+    coordination_signals: CoordinationSignals
+    insider_connections: List[InsiderConnection] = Field(default_factory=list)
+    rope_teams: List[RopeTeam] = Field(default_factory=list)
+
+    @computed_field
+    @property
+    def total_insider_connections(self) -> int:
+        """Count insider connections across all rope teams."""
+        return len(self.insider_connections) + sum(
+            1 for team in self.rope_teams if team.has_insider_connection
+        )
