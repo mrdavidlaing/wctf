@@ -88,3 +88,34 @@ class Peak(BaseModel):
         return len(self.insider_connections) + sum(
             1 for team in self.rope_teams if team.has_insider_connection
         )
+
+
+class CompanyOrgMap(BaseModel):
+    """Complete organizational map."""
+
+    company: str
+    company_slug: str
+    last_updated: str = Field(description="YYYY-MM-DD format")
+    mapping_metadata: Dict = Field(description="sources, confidence, notes")
+    peaks: List[Peak]
+
+    @field_validator('company_slug', mode='before')
+    @classmethod
+    def generate_slug(cls, v, info):
+        """Auto-generate slug if not provided."""
+        if not v and 'company' in info.data:
+            from wctf_core.utils.paths import slugify_company_name
+            return slugify_company_name(info.data['company'])
+        return v
+
+    @computed_field
+    @property
+    def total_peaks(self) -> int:
+        """Count VP orgs."""
+        return len(self.peaks)
+
+    @computed_field
+    @property
+    def total_rope_teams(self) -> int:
+        """Count Director teams across all peaks."""
+        return sum(len(peak.rope_teams) for peak in self.peaks)

@@ -257,3 +257,96 @@ class TestPeak:
         )
 
         assert peak.total_insider_connections == 0
+
+
+class TestCompanyOrgMap:
+    """Tests for CompanyOrgMap model."""
+
+    def test_company_orgmap_valid(self):
+        """Test CompanyOrgMap with valid data."""
+        from wctf_core.models.orgmap import CompanyOrgMap, Peak, Leadership, OrgMetrics, CoordinationSignals
+
+        orgmap = CompanyOrgMap(
+            company="Test Company",
+            company_slug="test-company",
+            last_updated="2025-11-11",
+            mapping_metadata={"sources": ["LinkedIn"], "confidence": "high"},
+            peaks=[
+                Peak(
+                    peak_id="test_peak",
+                    peak_name="Test Peak",
+                    leadership=Leadership(vp_name="VP Name"),
+                    mission="Test mission",
+                    org_metrics=OrgMetrics(
+                        estimated_headcount="100-200",
+                        growth_trend="stable"
+                    ),
+                    tech_focus={"primary": ["Python"]},
+                    coordination_signals=CoordinationSignals(
+                        style_indicators="alpine",
+                        evidence=["Fast"]
+                    )
+                )
+            ]
+        )
+
+        assert orgmap.company == "Test Company"
+        assert orgmap.company_slug == "test-company"
+        assert orgmap.total_peaks == 1
+        assert orgmap.total_rope_teams == 0
+
+    def test_company_orgmap_auto_generates_slug(self):
+        """Test CompanyOrgMap auto-generates slug from company name."""
+        from wctf_core.models.orgmap import CompanyOrgMap
+
+        orgmap = CompanyOrgMap(
+            company="Toast, Inc.",
+            company_slug="",  # Empty slug should trigger generation
+            last_updated="2025-11-11",
+            mapping_metadata={},
+            peaks=[]
+        )
+
+        assert orgmap.company_slug == "toast-inc"
+
+    def test_company_orgmap_counts_rope_teams(self):
+        """Test CompanyOrgMap counts rope teams across peaks."""
+        from wctf_core.models.orgmap import CompanyOrgMap, Peak, Leadership, OrgMetrics, CoordinationSignals, RopeTeam
+
+        orgmap = CompanyOrgMap(
+            company="Test",
+            company_slug="test",
+            last_updated="2025-11-11",
+            mapping_metadata={},
+            peaks=[
+                Peak(
+                    peak_id="peak1",
+                    peak_name="Peak 1",
+                    leadership=Leadership(vp_name="VP1"),
+                    mission="Mission 1",
+                    org_metrics=OrgMetrics(estimated_headcount="50-100", growth_trend="stable"),
+                    tech_focus={"primary": ["Python"]},
+                    coordination_signals=CoordinationSignals(style_indicators="alpine", evidence=["Fast"]),
+                    rope_teams=[
+                        RopeTeam(
+                            team_id="team1",
+                            team_name="Team 1",
+                            leadership=Leadership(director_name="Dir1"),
+                            mission="Mission",
+                            estimated_size="20-30",
+                            tech_focus=["Python"]
+                        ),
+                        RopeTeam(
+                            team_id="team2",
+                            team_name="Team 2",
+                            leadership=Leadership(director_name="Dir2"),
+                            mission="Mission",
+                            estimated_size="30-40",
+                            tech_focus=["Go"]
+                        )
+                    ]
+                )
+            ]
+        )
+
+        assert orgmap.total_rope_teams == 2
