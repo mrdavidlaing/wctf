@@ -71,7 +71,7 @@ Established Data Reliability Practice for 100PB data warehouse, then maintained 
 
 Built telemetry data platform providing analytics across VMware's R&D portfolio.
 
-- **Processed 2TB+ daily telemetry ingest** using Python, Dagster, BigQuery, and Apache Impala
+- **Processed product telemetry across the Tanzu product portfolio** using Python, Dagster, BigQuery, and Apache Impala
 - Created data-driven feedback loops enabling strategic decisions across business units
 - Applied SRE principles to data pipeline reliability and observability
 
