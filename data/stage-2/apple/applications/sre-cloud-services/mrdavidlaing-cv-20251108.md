@@ -110,6 +110,18 @@ Led R&D transformation at financial services company, establishing modern engine
 
 <div class="keep-together">
 
+### Founder
+**Stayup.io** | March 2015 - December 2015
+
+Founded startup to commercialize LogSearch open-source project. Acquired by Pivotal Software.
+
+- Built commercial product offering for LogSearch, providing log aggregation and analysis for Cloud Foundry deployments
+- Startup acquired by Pivotal Software, leading to role building SRE team in Dublin
+
+</div>
+
+<div class="keep-together">
+
 ### Earlier Career (2001-2008)
 
 **Agile Developer** | BBC Worldwide | May 2008 - October 2008
