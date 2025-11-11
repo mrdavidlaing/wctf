@@ -43,9 +43,13 @@ applications:
         reasoning: "Architectural decisions made in Cupertino, Dublin implements"
         validation_method: "Day-to-day work examples and decision authority discussion"
 
-    status: "materials_prepared"
+    status: "submitted"
+
+    timeline:
+      materials_prepared: "2025-11-08"
+      submitted: "2025-11-11"
+
     next_steps:
-      - "Convert markdown to PDF"
-      - "Publish PDFs to davidlaing.com"
-      - "Submit application"
+      - "Monitor application status in Apple careers portal"
+      - "Prepare for potential phone screen"
       - "Request referral from James if needed"
