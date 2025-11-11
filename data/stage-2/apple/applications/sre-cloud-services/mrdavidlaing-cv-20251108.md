@@ -85,7 +85,7 @@ Built telemetry data platform providing analytics across VMware's R&D portfolio.
 Built Dublin SRE team from scratch. Orchestrated initiatives across 80+ R&D teams in 6 global offices.
 
 - **Built and led SRE team operating Cloud Foundry and Kubernetes platforms** for enterprise customers globally
-- **Contributed AWS Spot instance support to Cloud Foundry BOSH**, enabling cost-optimized infrastructure orchestration at scale
+- **Scaled LogSearch to process 2TB daily log ingest** for Pivotal Web Services using Elasticsearch on BOSH-managed infrastructure
 - **Operated Redis and Elasticsearch clusters on BOSH-managed VMs** for platform services at scale
 - **Collaborated with Google SRE engineers** on SLI/SLO design and error budget implementation
 - Maintained **pivotaltracker.com reliability (1M active users)** and UK charity donation platforms processing **£1B+ annual donations**
@@ -100,7 +100,8 @@ Built Dublin SRE team from scratch. Orchestrated initiatives across 80+ R&D team
 
 Led R&D transformation at financial services company, establishing modern engineering practices.
 
-- **Led LogSearch open-source project processing 2TB daily log ingest** for Cloud Foundry ecosystem using Elasticsearch on BOSH-managed infrastructure
+- **Led LogSearch open-source project** for Cloud Foundry ecosystem using Elasticsearch on BOSH-managed infrastructure, becoming City Index's first cloud-native trading platform component
+- **Contributed AWS Spot instance support to Cloud Foundry BOSH**, enabling cost-optimized infrastructure orchestration at scale
 - **Pioneered AWS and Ubuntu adoption** for distributed systems management, catching the infrastructure management bug
 - Established TDD/Agile practices across development teams
 - Operated critical systems for financial trading platform serving retail and institutional clients
