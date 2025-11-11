@@ -1,6 +1,3 @@
-company: Mechanical Orchard
-company_slug: mechanical-orchard
-research_date: '2025-09-27'
 financial_health:
   facts_found:
   - fact: Raised $50 million Series B funding led by GV (Google Ventures) in August
@@ -55,10 +52,10 @@ financial_health:
     date: '2025-09-27'
     confidence: explicit_statement
   missing_information:
-  - Specific burn rate not publicly disclosed
   - Customer concentration percentages unavailable (though insider info reveals it
     was 50%)
   - MRR/ARR breakdown not available
+  - Specific burn rate not publicly disclosed
 market_position:
   facts_found:
   - fact: Main product is Imogen, an end-to-end mainframe modernization platform launched
@@ -138,10 +135,10 @@ market_position:
     date: '2024-12-31'
     confidence: explicit_statement
   missing_information:
-  - Customer reviews on G2, Capterra, or Gartner Peer Insights not available
-  - Specific market share percentage not disclosed
   - Pricing model and typical contract values not public
   - Conversion rate of POCs to full contracts unknown
+  - Customer reviews on G2, Capterra, or Gartner Peer Insights not available
+  - Specific market share percentage not disclosed
 organizational_stability:
   facts_found:
   - fact: CEO Rob Mee is founder and former CEO of Pivotal Labs
@@ -188,13 +185,50 @@ organizational_stability:
     source: Clay
     date: '2024-01-07'
     confidence: explicit_statement
+  - fact: In October 2025, Ingo Wiegand was appointed as Vice President of Product,
+      joining the executive team and reporting directly to CEO Rob Mee
+    source: Yahoo Finance - Mechanical Orchard Enhances Product Leadership (October
+      2025)
+    date: '2025-10-01'
+    confidence: explicit_statement
+  - fact: Ingo Wiegand brings background in product management and digital transformation,
+      having previously held senior roles at Samsara and McKinsey & Company
+    source: Mechanical Orchard company announcement (October 2025)
+    date: '2025-10-01'
+    confidence: explicit_statement
+  - fact: Co-founder Matthew Work publicly announced his departure from Mechanical
+      Orchard in late October 2025 after three years with the company
+    source: LinkedIn post by Matthew Work (October 2025)
+    date: '2025-10-31'
+    confidence: explicit_statement
+  - fact: Edward Hieatt was appointed Chief Customer Officer according to company's
+      October 2025 updates
+    source: Mechanical Orchard Insights page (October 2025)
+    date: '2025-10-01'
+    confidence: explicit_statement
+  - fact: Mikey McCormack, Senior Vice President of Engineering and first executive
+      hire, left his position in October 2025 after three years
+    source: LinkedIn profile - Mikey McCormack (October 2025)
+    date: '2025-10-31'
+    confidence: explicit_statement
+  - fact: Rob Mee continues to lead the company as CEO with no reported changes at
+      the CEO level as of October-November 2025
+    source: Mechanical Orchard About Us page (November 2025)
+    date: '2025-11-01'
+    confidence: explicit_statement
+  - fact: Multiple executive leadership changes occurred within a short timeframe
+      (October 2025), including two departures (co-founder and SVP Engineering) and
+      two new appointments (VP Product and Chief Customer Officer)
+    source: Synthesis of October 2025 company announcements and LinkedIn posts
+    date: '2025-10-31'
+    confidence: explicit_statement
   missing_information:
-  - No CTO role identified, VP R&D appears to be senior technical leader
   - Glassdoor engineering-specific rating not available (only 2 total reviews)
+  - LinkedIn hiring velocity metrics not accessible
+  - No CTO role identified, VP R&D appears to be senior technical leader
+  - Impact of sales leadership departure on organization
   - Specific details on Kent Beck's departure timing and reasons (though correlates
     with business struggles)
-  - LinkedIn hiring velocity metrics not accessible
-  - Impact of sales leadership departure on organization
 technical_culture:
   facts_found:
   - fact: Primary languages are Elixir, Golang, and Java
@@ -246,13 +280,16 @@ technical_culture:
     date: '2024-03-07'
     confidence: explicit_statement
   missing_information:
-  - StackShare profile not found
-  - Hacker News discussion threads not significant
   - Specific open source contribution metrics beyond repository count
-  - Detailed GitHub activity metrics (commits, contributors)
   - Engineering allocation between vaporware demos vs real product development
+  - Detailed GitHub activity metrics (commits, contributors)
+  - Hacker News discussion threads not significant
+  - StackShare profile not found
 summary:
-  total_facts_found: 61
-  information_completeness: high
-  most_recent_data_point: '2025-09-27'
-  oldest_data_point: '2022-10-17'
+  total_facts_found: 60
+  information_completeness: medium
+  most_recent_data_point: '2025-11-01'
+  oldest_data_point: '2025-10-01'
+  research_quality_notes: Leadership changes documented from official company announcements
+    and LinkedIn posts
+company_slug: mechanical-orchard
