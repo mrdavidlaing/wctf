@@ -1,0 +1,489 @@
+company: GoCardless
+research_date: '2025-10-27'
+financial_health:
+  facts_found:
+  - fact: GoCardless raised $312 million in Series G funding on February 8, 2022,
+      led by Permira with new investor BlackRock Private Equity Partners
+    source: GoCardless official press release, TechCrunch, Bloomberg
+    date: '2022-02-08'
+    confidence: explicit_statement
+  - fact: Series G round valued GoCardless at $2.1 billion, achieving unicorn status
+    source: GoCardless official press release, CNBC, Bloomberg
+    date: '2022-02-08'
+    confidence: explicit_statement
+  - fact: GoCardless has raised $540 million total over 9 funding rounds with 26 investors
+      including Permira, BlackRock, Bain Capital Ventures, Accel, GV (Google Ventures),
+      and Balderton Capital
+    source: Tracxn, Crunchbase
+    date: '2024-07-01'
+    confidence: explicit_statement
+  - fact: Generated £126.8 million in revenue for fiscal year 2024 (July 1, 2023 -
+      June 30, 2024), representing 38% year-on-year growth
+    source: GoCardless official Companies House filing, press release
+    date: '2025-02-03'
+    confidence: explicit_statement
+  - fact: Processed £39.6 billion worth of transactions in FY24, a 28% increase year-on-year
+    source: GoCardless official press release
+    date: '2025-02-03'
+    confidence: explicit_statement
+  - fact: International revenues grew 47% to £30.8 million in FY24, now accounting
+      for 24% of total revenue; Europe and North America each grew approximately 50%
+    source: GoCardless official press release
+    date: '2025-02-03'
+    confidence: explicit_statement
+  - fact: NOT profitable on annual basis but recorded net losses of £35.1 million
+      in FY24, down 55% from £78.0 million in FY23
+    source: GoCardless Companies House filing, CNBC
+    date: '2025-02-03'
+    confidence: explicit_statement
+  - fact: Achieved first-ever profitable month in March 2024
+    source: CNBC, Sifted
+    date: '2025-02-03'
+    confidence: explicit_statement
+  - fact: Recorded first EBITDA positive quarter (on adjusted basis) in Q4 FY25 (April-June
+      2025)
+    source: GoCardless official press release
+    date: '2025-10-08'
+    confidence: explicit_statement
+  - fact: Targeting full-year profitability by mid-2026
+    source: CNBC, Sifted
+    date: '2025-02-03'
+    confidence: explicit_statement
+  - fact: Had £86 million in available cash as of June 30, 2024, down by more than
+      a third from prior year, but described as sufficient to maintain operations
+      until profitability
+    source: Bloomberg, PYMNTS
+    date: '2025-02-03'
+    confidence: explicit_statement
+  - fact: Currently has approximately 600+ employees as of June 2024, down from 764
+      at start of FY24
+    source: BusinessCloud, CNBC
+    date: '2025-02-03'
+    confidence: explicit_statement
+  - fact: Cut 15% of global workforce (135 roles) in June 2023 across UK, US, Australia
+      and New Zealand, plus moved 15 roles from UK to Latvia, totaling 150 impacted
+      roles (17% of headcount)
+    source: UK Tech News, PYMNTS, CNBC, Sifted
+    date: '2023-06-13'
+    confidence: explicit_statement
+  - fact: Reduced senior leadership team by approximately 25% as part of June 2023
+      restructuring
+    source: PYMNTS, CNBC
+    date: '2023-06-13'
+    confidence: explicit_statement
+  - fact: Salary expenses decreased 13% to £79.2 million in FY24 following the restructuring
+    source: CNBC
+    date: '2025-02-03'
+    confidence: explicit_statement
+  - fact: Serves over 94,000 organizations globally as of June 30, 2024
+    source: GoCardless official press release
+    date: '2025-02-03'
+    confidence: explicit_statement
+  - fact: Notable customers include DocuSign, Klarna, TripAdvisor, Epson, The Guardian,
+      Topps Tiles, JustGiving, AON, Xero, Sage, and QuickBooks
+    source: GoCardless official press releases, Tech.eu
+    date: '2022-02-08'
+    confidence: explicit_statement
+  - fact: Hired investment bank Lazard to advise on $200 million secondary share sale
+      to provide liquidity for employees and early investors, expected to close in
+      early 2025
+    source: Bloomberg, BNN Bloomberg, FinTech Futures
+    date: '2024-11-20'
+    confidence: explicit_statement
+  - fact: Completed acquisition of Sentenial Ltd (operating as Nuapay) from EML Payments
+      Limited in September 2024
+    source: GoCardless official press release
+    date: '2024-09-01'
+    confidence: explicit_statement
+  missing_information:
+  - Specific monthly or quarterly burn rate figures
+  - Exact runway timeline in months (only stated as 'sufficient until profitability')
+  - Complete details on all 9 funding rounds (Seed, Series A-E specifics)
+  - Revenue breakdown by product line (direct debit vs. open banking vs. other services)
+  - Customer churn metrics or retention rates
+  - ARR (Annual Recurring Revenue) separately reported
+  - Precise historical employee counts before 2022
+market_position:
+  facts_found:
+  - fact: GoCardless is a fintech company specializing in bank payments, including
+      recurring payments, Direct Debit processing and Open Banking, on a mission to
+      become the world's bank payment network
+    source: G2.com, Wikipedia, Y Combinator
+    date: '2025-01-01'
+    confidence: explicit_statement
+  - fact: Founded in 2011 by Hiroki Takeuchi (current CEO), Matt Robinson, and Tom
+      Blomfield at Oxford University, participated in Y Combinator Summer 2011 batch
+    source: Wikipedia, Y Combinator, Tracxn
+    date: '2011-01-01'
+    confidence: explicit_statement
+  - fact: 'Core products include: Direct Debit payments (recurring and one-off), Instant
+      Bank Pay for same-day payments, International payments from 30+ countries, Success+
+      for automated payment recovery (70% recovery rate), Protect+ for fraud prevention,
+      Variable Recurring Payments (VRPs) using open banking'
+    source: GoCardless pricing page, G2.com, noda.live
+    date: '2024-01-01'
+    confidence: explicit_statement
+  - fact: Integrates with 350+ partner software platforms including Xero, Sage, QuickBooks,
+      Zuora, and offers REST API for custom integrations
+    source: GoCardless pricing page, G2.com, Wikipedia
+    date: '2024-01-01'
+    confidence: explicit_statement
+  - fact: Operates in 30+ countries with offices in London (HQ), Paris, Riga, Melbourne,
+      San Francisco, New York, and Munich
+    source: Contrary Research, Wikipedia, LinkedIn, G2.com
+    date: '2024-01-01'
+    confidence: explicit_statement
+  - fact: Primary markets are UK (80% of 2022 revenue), France (8%), Germany (3%),
+      US (2%), and Australia (2%)
+    source: Contrary Research
+    date: '2022-01-01'
+    confidence: explicit_statement
+  - fact: Primarily targets businesses with recurring payment needs; customer base
+      spans from small businesses (61% have <50 employees) to large enterprises (11%
+      have >1000 employees)
+    source: G2.com, enlyft.com, Contrary Research
+    date: '2024-01-01'
+    confidence: explicit_statement
+  - fact: Has very low market share in payment management (0.23% per 6sense, 0.02%
+      in eCommerce per enlyft)
+    source: Contrary Research, 6sense.com, enlyft.com
+    date: '2023-01-01'
+    confidence: explicit_statement
+  - fact: 'Pricing: Standard Plan (1% + £0.20 domestic, 2% + £0.20 international,
+      caps at £4-5), Advanced Plan (caps at £5-6.25), Pro Plan (caps at £5.60-7);
+      US pricing: 0.05% + $0.05 (cap $5) for domestic on Standard'
+    source: GoCardless pricing page, support.gocardless.com, wise.com
+    date: '2023-01-01'
+    confidence: explicit_statement
+  - fact: Primary competitors include Stripe (34.87% market share), PayPal (31.57%),
+      Venmo (9.98%), Adyen, Klarna, Square, Recurly
+    source: 6sense.com, Contrary Research, noda.live
+    date: '2024-01-01'
+    confidence: explicit_statement
+  - fact: 'Competitive advantages claimed: lower transaction fees than cards (1% vs
+      2.9% for Stripe), 97.3% first-time payment success rate (99.5% with Success+),
+      specialized for recurring payments'
+    source: gocardless.com vs Stripe comparison page
+    date: '2024-01-01'
+    confidence: explicit_statement
+  - fact: 'G2 rating: 4.6 out of 5 stars based on 316-319 reviews; 86% five-star,
+      96% rated 4-5 stars, 95% would recommend'
+    source: G2.com
+    date: '2025-01-01'
+    confidence: explicit_statement
+  - fact: 'TrustPilot rating: 2.4 out of 5 stars based on 2,258 reviews, described
+      as ''Poor'' overall rating'
+    source: Trustpilot.com, wise.com
+    date: '2025-01-01'
+    confidence: explicit_statement
+  - fact: 'Capterra/GetApp rating: 4.0 out of 5 stars based on 79 reviews'
+    source: Capterra.com, GetApp.com
+    date: '2025-07-01'
+    confidence: explicit_statement
+  - fact: ISO 27001 certified since September 2016 for information security management,
+      routinely audited by independent third party
+    source: gocardless.com/legal/gdpr
+    date: '2016-09-01'
+    confidence: explicit_statement
+  - fact: Regulated by Financial Conduct Authority (FCA) in UK; FinCEN-registered
+      money services business in US (registration 31000261158426); GDPR compliant
+    source: gocardless.com support pages
+    date: '2020-01-01'
+    confidence: explicit_statement
+  missing_information:
+  - SOC 2 certification status (Type 1 or Type 2)
+  - Specific market share for direct debit/bank payment segment
+  - Detailed competitive win/loss data against specific competitors
+  - Exact churn rate data
+  - Cyber Essentials certification
+organizational_stability:
+  facts_found:
+  - fact: Hiroki Takeuchi is Co-founder and CEO, in role since founding in 2011
+    source: GoCardless official website, Clay.com, The Org
+    date: '2023-11-23'
+    confidence: explicit_statement
+  - fact: Paul Stoddart appointed as President on May 4, 2022, joining from Mastercard
+      where he was President of New Payment Platforms
+    source: GoCardless official blog post
+    date: '2022-05-04'
+    confidence: explicit_statement
+  - fact: Catherine Birkett serves as CFO with over 20 years experience, previously
+      CFO at Interoute
+    source: Clay.com, The Org
+    date: '2024-11-23'
+    confidence: explicit_statement
+  - fact: Neil Turner is CTO since September 2018, previously Senior Director of Technology
+      at Capital One
+    source: The Org
+    date: '2024-01-01'
+    confidence: explicit_statement
+  - fact: Alan Cairns appointed as Chief People Officer on June 6, 2023, joining from
+      iTech Media where he was COO
+    source: GoCardless official blog post
+    date: '2023-06-06'
+    confidence: explicit_statement
+  - fact: Jolawn Victor appointed as Chief Growth Officer on May 15, 2024, previously
+      VP and Country Manager at Intuit UK
+    source: PaymentExpert.com
+    date: '2024-05-15'
+    confidence: explicit_statement
+  - fact: Franck Cohen appointed as first Chair of the Board on July 11, 2023, with
+      10+ years at SAP as EMEA President and Global Chief Commercial Officer
+    source: GoCardless official blog post
+    date: '2023-07-11'
+    confidence: explicit_statement
+  - fact: Matt Robinson (co-founder) and Carlos Gonzalez-Cadenas (former COO/CPO/CTO,
+      now Index Ventures partner) are board members
+    source: Crunchbase, Index Ventures website
+    date: '2024-01-01'
+    confidence: explicit_statement
+  - fact: Has offices in London (HQ), Riga (Latvia), Paris, Munich, Melbourne, San
+      Francisco, and New York City
+    source: We Work Remotely, GoCardless official blog
+    date: '2021-02-18'
+    confidence: explicit_statement
+  - fact: Latvia/Riga office expanded to accommodate 300+ employees by end of 2024
+    source: Business of Payments
+    date: '2024-04-15'
+    confidence: explicit_statement
+  - fact: Implemented 'Adaptive Working' model announced May 12, 2021, allowing employees
+      autonomy to decide number of office days with teams
+    source: GoCardless official blog
+    date: '2021-05-12'
+    confidence: explicit_statement
+  - fact: '''Work Away'' policy allows employees to work from any location for up
+      to 90 days in any 12-month period'
+    source: GoCardless official blog, Finextra
+    date: '2021-05-12'
+    confidence: explicit_statement
+  - fact: 'Overall Glassdoor rating: 3.5 out of 5 stars based on 295-307 employee
+      reviews'
+    source: Glassdoor UK
+    date: '2025-01-01'
+    confidence: explicit_statement
+  - fact: Work-life balance rated 3.9 out of 5
+    source: Glassdoor UK
+    date: '2025-01-01'
+    confidence: explicit_statement
+  - fact: Culture and values rated 3.8 out of 5
+    source: Glassdoor UK
+    date: '2025-01-01'
+    confidence: explicit_statement
+  - fact: Career opportunities rated 3.0 out of 5
+    source: Glassdoor UK
+    date: '2025-01-01'
+    confidence: explicit_statement
+  - fact: Compensation and benefits rated 3.9 out of 5
+    source: Glassdoor UK
+    date: '2025-01-01'
+    confidence: explicit_statement
+  - fact: Diversity and inclusion rated 4.1 out of 5
+    source: Glassdoor UK
+    date: '2025-01-01'
+    confidence: explicit_statement
+  - fact: Senior management rated 3.3 out of 5
+    source: Glassdoor UK
+    date: '2025-01-01'
+    confidence: explicit_statement
+  - fact: 57% of employees would recommend working at GoCardless to a friend
+    source: Glassdoor UK
+    date: '2025-01-01'
+    confidence: explicit_statement
+  - fact: 86% of employees approve of CEO Hiroki Takeuchi
+    source: Glassdoor UK
+    date: '2025-01-01'
+    confidence: explicit_statement
+  - fact: 48-50% of employees have positive business outlook for GoCardless
+    source: Glassdoor UK, Glassdoor US
+    date: '2025-01-01'
+    confidence: explicit_statement
+  - fact: Employees highlight 'great people,' 'strong culture,' 'challenging and fast-paced
+      work,' 'good salary and benefits,' 'psychological safety,' and 'work-life balance'
+      as strengths
+    source: Glassdoor reviews (multiple reviews)
+    date: '2025-01-01'
+    confidence: explicit_statement
+  - fact: Employees cite concerns about 'career opportunities,' 'no upward mobility,'
+      'mass layoffs due to VC backing,' and company being 'in a tough spot financially'
+    source: Glassdoor reviews (multiple reviews)
+    date: '2025-01-01'
+    confidence: explicit_statement
+  missing_information:
+  - Specific start dates/tenure length for several executives (CFO, CPO, COO, CCO)
+  - Complete board composition beyond 6 identified members
+  - Historical Glassdoor rating trends year-over-year
+  - Specific equity/compensation details beyond satisfaction rating
+  - Detailed org chart by department
+technical_culture:
+  facts_found:
+  - fact: Uses Ruby on Rails for backend development and React with TypeScript/JavaScript
+      for frontend
+    source: Job posting for Software Development Engineer - Full Stack
+    date: '2025-10-10'
+    confidence: explicit_statement
+  - fact: 'Primary infrastructure: Google Kubernetes Engine (GKE) for container orchestration,
+      PostgreSQL database, Google Cloud Platform services including Cloud Pub/Sub,
+      Cloud Storage, Cloud Dataflow, and BigQuery'
+    source: Google Cloud Case Study, StackShare
+    date: '2019-01-01'
+    confidence: explicit_statement
+  - fact: Technology stack includes Docker, Slack, RabbitMQ, and PHP; uses 'Utopia'
+      framework to help developers build, deploy and operate services
+    source: LeadIQ, Medium Engineering Blog
+    date: '2019-01-01'
+    confidence: explicit_statement
+  - fact: Achieved 25% reduction in infrastructure costs after migrating to Google
+      Cloud
+    source: Google Cloud Case Study
+    date: '2019-01-01'
+    confidence: explicit_statement
+  - fact: Has 160 public repositories on GitHub at github.com/gocardless
+    source: GitHub organization page
+    date: '2025-01-01'
+    confidence: explicit_statement
+  - fact: Open-sourced 'Theatre' - collection of Kubernetes extensions including operators
+      and admission controller webhooks
+    source: GitHub repository github.com/gocardless/theatre
+    date: '2024-01-01'
+    confidence: explicit_statement
+  - fact: Maintains API client libraries in Ruby, Python, Node.js, Go, Java, PHP,
+      .NET, and Android SDK
+    source: GitHub repositories under gocardless organization
+    date: '2025-01-01'
+    confidence: explicit_statement
+  - fact: Top programming languages in open source repositories are Ruby, Go, JavaScript,
+      Python, and PHP
+    source: GitHub organization page
+    date: '2025-01-01'
+    confidence: explicit_statement
+  - fact: Maintains engineering blog at medium.com/gocardless-tech titled 'Tech @
+      GoCardless'
+    source: Medium publication page
+    date: '2025-01-01'
+    confidence: explicit_statement
+  - fact: CTO Neil Turner published 'An overview of engineering at GoCardless' providing
+      detailed insights into engineering structure and practices
+    source: Medium post
+    date: '2020-01-01'
+    confidence: explicit_statement
+  - fact: 'Software engineer interview process consists of: 1) Preliminary call with
+      Talent team (30-45 min), 2) Coding interview with pair-programming (60 min),
+      3) Final loop including Technical interview, System Design, and Values interview'
+    source: Medium post 'Software Development Engineer Interviewing Process at GoCardless'
+      by Jorja Hung
+    date: '2023-01-24'
+    confidence: explicit_statement
+  - fact: Coding interviews are 'not leetcode, algorithm, hackerrank type session'
+      but rather pair-programming exercises on real-world problems
+    source: Medium interview process post
+    date: '2023-01-24'
+    confidence: explicit_statement
+  - fact: Interview process takes approximately 1 week according to candidates
+    source: Indeed company reviews
+    date: '2023-01-01'
+    confidence: explicit_statement
+  - fact: Has formal policy allowing engineers to move between teams via internal
+      jobs board if they meet tenure criteria and are in good standing
+    source: Medium post by Neil Turner
+    date: '2020-01-01'
+    confidence: explicit_statement
+  - fact: Promotes engineers based on impact, runs promotion committees twice per
+      year with representatives from across Product Development
+    source: Medium post by Neil Turner
+    date: '2020-01-01'
+    confidence: explicit_statement
+  - fact: As of 2020, women made up 23% of Product Development, 14% of engineering,
+      and 33% of engineering management
+    source: Medium post by Neil Turner
+    date: '2020-01-01'
+    confidence: explicit_statement
+  - fact: Won 'Techies 2017 prize for Best Place for Developers to Work'
+    source: Blog post 'What keeps the GoCardless engineering team motivated?'
+    date: '2017-01-01'
+    confidence: explicit_statement
+  - fact: Uses automated testing extensively, continuous integration (CI) processes
+      including automated syntax checking, GitHub as central hub for code with automated
+      CI running tests before pull request reviews
+    source: Blog posts 'What keeps the GoCardless engineering team motivated?' and
+      'Moving fast at GoCardless'
+    date: '2017-01-01'
+    confidence: explicit_statement
+  - fact: Teams organized with Engineering Managers (responsible for delivery, team
+      health, well-being) and Technical Leads (responsible for scalable, secure, reliable
+      architecture)
+    source: Medium post by Neil Turner
+    date: '2020-01-01'
+    confidence: explicit_statement
+  - fact: Uses two-way door vs one-way door decision-making framework (popularized
+      by Amazon) - optimizing for quality on irreversible decisions and speed on reversible
+      ones
+    source: Medium post by Neil Turner
+    date: '2020-01-01'
+    confidence: explicit_statement
+  - fact: Sets company OKRs yearly with maximum of 3 to ensure focus, with engineering
+      work informed by product, group and team goals
+    source: Medium post by Neil Turner
+    date: '2020-01-01'
+    confidence: explicit_statement
+  - fact: Provides conference budgets and presentation training to engineers to speak
+      at conferences
+    source: Blog post 'What keeps the GoCardless engineering team motivated?'
+    date: '2017-01-01'
+    confidence: explicit_statement
+  - fact: Launched 'Same Day Settlement+' in 2025, an AI-powered tool using machine
+      learning to optimize payment timing, reducing late payment failures by over
+      80%
+    source: GoCardless press release
+    date: '2025-01-01'
+    confidence: explicit_statement
+  - fact: Same Day Settlement+ leverages transaction data from over 38 million accounts
+      to create bespoke predictive models
+    source: Financial IT article
+    date: '2025-01-01'
+    confidence: explicit_statement
+  - fact: Launched 'Success+' in April 2020, using machine learning to analyze trends
+      from recurring payments data and identify optimal retry times for failed payments,
+      recovering 76% of failed payments
+    source: PR Newswire press release, GoCardless blog
+    date: '2020-04-22'
+    confidence: explicit_statement
+  - fact: Launched 'Protect+' in October 2022, using machine learning models to detect
+      and prevent fraud by combining data from billions of transactions
+    source: GoCardless blog post
+    date: '2022-10-24'
+    confidence: explicit_statement
+  - fact: Follows '8 principles of responsible machine learning development' as ethical
+      framework for ML models
+    source: Blog post 'How we built Success+ using our ethical machine learning programme'
+    date: '2020-01-01'
+    confidence: explicit_statement
+  - fact: Uses differential privacy techniques and combines individual-level data
+      with population averages in ML models to minimize personal data use
+    source: Blog post 'How we built Success+ using our ethical machine learning programme'
+    date: '2020-01-01'
+    confidence: explicit_statement
+  - fact: Has Senior Machine Learning Engineer role, responsible for leading architecture
+      and design of ML solutions
+    source: Built In job listings
+    date: '2025-01-01'
+    confidence: explicit_statement
+  - fact: Engineering team grew to more than 80 engineers by end of 2019, with Product
+      Development over 150 people total
+    source: Medium post by Neil Turner
+    date: '2020-01-01'
+    confidence: explicit_statement
+  missing_information:
+  - Recent engineering blog publication frequency (2023-2025)
+  - Specific tech stack versions currently in use
+  - Detailed CI/CD pipeline tools (Jenkins, CircleCI, GitHub Actions specifics)
+  - Testing frameworks (RSpec, Jest, etc.)
+  - Monitoring and observability tools (Datadog, New Relic, Prometheus)
+  - Recent 2024-2025 conference talks
+  - Specific Agile/Scrum practices details
+  - Code review practices details (number of reviewers required, approval processes)
+summary:
+  total_facts_found: 89
+  information_completeness: high
+  most_recent_data_point: '2025-10-10'
+  oldest_data_point: '2011-01-01'
+company_slug: gocardless
