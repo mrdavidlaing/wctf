@@ -310,3 +310,21 @@ class TestPathsIntegration:
             flags = get_flags_path(company, base_path=tmp_path)
             assert facts.parent.name == slug
             assert flags.parent.name == slug
+
+
+class TestOrgmapPaths:
+    """Tests for orgmap path utilities."""
+
+    def test_get_orgmap_path(self, tmp_path):
+        """Test getting orgmap file path."""
+        from wctf_core.utils.paths import get_orgmap_path
+
+        path = get_orgmap_path("Test Company", base_path=tmp_path)
+        assert path == tmp_path / "data" / "test-company" / "company.orgmap.yaml"
+
+    def test_get_roles_path(self, tmp_path):
+        """Test getting roles file path."""
+        from wctf_core.utils.paths import get_roles_path
+
+        path = get_roles_path("Test Company", base_path=tmp_path)
+        assert path == tmp_path / "data" / "test-company" / "company.roles.yaml"

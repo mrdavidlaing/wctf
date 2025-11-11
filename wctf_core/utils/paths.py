@@ -327,3 +327,41 @@ def list_all_companies_by_stage(
                 companies.append((stage_num, company_dir.name))
 
     return companies
+
+
+def get_orgmap_path(company_name: str, base_path: Optional[Path] = None) -> Path:
+    """Get path to company orgmap file.
+
+    Args:
+        company_name: Company name
+        base_path: Optional custom base directory
+
+    Returns:
+        Path to company.orgmap.yaml file
+
+    Example:
+        >>> get_orgmap_path("Test Company")  # doctest: +SKIP
+        PosixPath('data/test-company/company.orgmap.yaml')
+    """
+    slug = slugify_company_name(company_name)
+    data_dir = get_data_dir(base_path)
+    return data_dir / slug / "company.orgmap.yaml"
+
+
+def get_roles_path(company_name: str, base_path: Optional[Path] = None) -> Path:
+    """Get path to company roles file.
+
+    Args:
+        company_name: Company name
+        base_path: Optional custom base directory
+
+    Returns:
+        Path to company.roles.yaml file
+
+    Example:
+        >>> get_roles_path("Test Company")  # doctest: +SKIP
+        PosixPath('data/test-company/company.roles.yaml')
+    """
+    slug = slugify_company_name(company_name)
+    data_dir = get_data_dir(base_path)
+    return data_dir / slug / "company.roles.yaml"
