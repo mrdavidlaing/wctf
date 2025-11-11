@@ -1,6 +1,6 @@
 company: Chronosphere
 company_slug: chronosphere
-research_date: '2025-10-12'
+research_date: '2025-10-30'
 financial_health:
   facts_found:
   - fact: Chronosphere raised $11M Series A led by Greylock with Lee Fixel participating
@@ -29,9 +29,28 @@ financial_health:
     source: Yahoo Finance, company press release
     date: '2025-02-27'
     confidence: explicit_statement
-  - fact: Layoffs of ~50 people (15% of workforce) conducted in July 2023
-    source: Blind posts, Glassdoor reviews
+  - fact: Layoffs of ~50 people (15% of workforce) conducted in July 2023 - CEO Martin
+      Mao acknowledged as 'hardest decision' in blog post
+    source: Blind posts, Glassdoor reviews, CEO blog
     date: '2023-07-12'
+    confidence: explicit_statement
+  - fact: 'LAYOFF ANALYSIS (Oct 2025): Only ONE confirmed layoff round (July 2023).
+      Exhaustive research found NO evidence of second round despite rumors. Headcount
+      grew 28% from post-layoff low of 230 (Dec 2023) to 302-311 (Oct 2025)'
+    source: Comprehensive research across layoff trackers, tech news, Blind, Glassdoor,
+      LinkedIn
+    date: '2025-10-30'
+    confidence: explicit_statement
+  - fact: 'Headcount recovery trajectory: 250 peak (Jan 2023) → 230 low (Dec 2023
+      post-layoff) → 295 (Nov 2024) → 302-311 (Oct 2025). Current hiring: 16 open
+      positions'
+    source: Tracxn, LinkedIn company data, TrueUp
+    date: '2025-10-30'
+    confidence: explicit_statement
+  - fact: 'Revenue growth 79% YoY in 2024: $23.6M (2023) → $42.3M (2024), demonstrating
+      strong business fundamentals despite 2023 correction'
+    source: GetLatka estimates
+    date: '2025-10-30'
     confidence: explicit_statement
   - fact: "Employee count: 2 (2019) \u2192 13 (Nov 2019) \u2192 50 (Jan 2021) \u2192\
       \ 130 (Feb 2022) \u2192 227 (Sep 2022) \u2192 295 (Oct 2024)"
@@ -436,6 +455,26 @@ organizational_stability:
       big layoff, dysfunction in sales org'''
     source: Glassdoor
     date: '2024-09-13'
+    confidence: explicit_statement
+  - fact: 'SALES ORG DYSFUNCTION (Oct 2025 research): Multiple independent reviews
+      confirm sales team problems - ''how many reps have left on their own because
+      of dysfunction'', ''all miserable with clueless managers'', ''sales and marketing
+      not aligned'''
+    source: Multiple Glassdoor reviews (Sep 2024, Feb 2025), comprehensive analysis
+    date: '2025-10-30'
+    confidence: explicit_statement
+  - fact: 'Engineering org stability VALIDATED: Consistently praised across all timeframes
+      - ''high talent density'', ''minimal attrition'', ''strong engineers'', ''competent
+      senior leadership''. April 2024 staff engineer: company ''appears to be back
+      with lots of new deals landing'''
+    source: Multiple Glassdoor reviews (2023-2025), comprehensive analysis
+    date: '2025-10-30'
+    confidence: explicit_statement
+  - fact: 'Function-specific performance: Engineering org (117 people) stable with
+      high satisfaction. Sales org (52 quota reps) has high voluntary turnover and
+      leadership criticism. Clear organizational divide by department'
+    source: GetLatka data, Glassdoor reviews, comprehensive analysis
+    date: '2025-10-30'
     confidence: explicit_statement
   - fact: 'CEO emphasizes ''no egos'' culture: ''If culture is terrible, no one will
       enjoy the company'''
