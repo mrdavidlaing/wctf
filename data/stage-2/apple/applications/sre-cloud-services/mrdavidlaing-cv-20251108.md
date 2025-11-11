@@ -46,6 +46,7 @@ Staff SRE with 25 years operating distributed systems at exabyte scale. Contribu
 Built cloud infrastructure for mainframe modernization platform. Established AI-augmented development workflows using Claude Code for code generation, infrastructure automation and cross team communication and decision making.
 
 - Built GCP and AWS infrastructure using **Terraform and Kubernetes** for Imogen modernization platform serving enterprise clients
+- **Pioneered LLM-based techniques for follow-the-sun collaboration** across team spanning 8 timezones (EU to US West Coast), enabling effective context sharing and distributed decision making for round-the-clock work
 - Integrated LLM workflows into daily work; focussed on multi-language Release Engineering; Kubernetes and Terraform devops work and cross team communication and decision making
 
 </div>
