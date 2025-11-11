@@ -1,0 +1,529 @@
+company: "Honeycomb"
+company_slug: "honeycomb"
+research_date: "2025-11-07"
+
+financial_health:
+  facts_found:
+    - fact: "Raised $147-150M across seven funding rounds from 2016-2023"
+      source: "TechCrunch, PR Newswire, honeycomb.io/blog, Crunchbase"
+      date: "2023-04-06"
+      confidence: "explicit_statement"
+
+    - fact: "Series D funding of $50M led by Headline in April 2023, described as 'rare Series D funding' in challenging economic environment"
+      source: "honeycomb.io/blog Series D announcement"
+      date: "2023-04-06"
+      confidence: "explicit_statement"
+
+    - fact: "Achieved 2x year-over-year revenue growth for multiple consecutive years (2020, 2022, 2023)"
+      source: "honeycomb.io/blog announcements"
+      date: "2023-04-06"
+      confidence: "explicit_statement"
+
+    - fact: "Net revenue retention rates of 138-160% (company-disclosed, 2022-2023)"
+      source: "honeycomb.io/blog"
+      date: "2023-04-06"
+      confidence: "explicit_statement"
+
+    - fact: "Closed 'best quarter in company history' in Q3 2023 with record bookings and projected 50% ARR increase for full year"
+      source: "honeycomb.io/blog"
+      date: "2023-10-01"
+      confidence: "explicit_statement"
+
+    - fact: "Customer count doubled from 300+ companies in 2020 to 600+ globally by 2023"
+      source: "honeycomb.io/blog Series B and recent announcements"
+      date: "2023-04-06"
+      confidence: "explicit_statement"
+
+    - fact: "Marquee customers include Stripe, Slack, HelloFresh, Vanguard, Vercel, and Robinhood"
+      source: "honeycomb.io website"
+      date: "2025-11-07"
+      confidence: "explicit_statement"
+
+    - fact: "Notable enterprise customer wins in 2023 included Frasers Group, Equinix, and Moov"
+      source: "honeycomb.io announcements"
+      date: "2023-12-31"
+      confidence: "explicit_statement"
+
+    - fact: "Employee count grew from 238 in 2024 to 284 in 2025, with no evidence of layoffs or restructuring"
+      source: "PitchBook, Crunchbase"
+      date: "2025-11-07"
+      confidence: "explicit_statement"
+
+    - fact: "Completed first acquisition in April 2025: Grit, an open-source query system and AI agent company"
+      source: "honeycomb.io/blog acquisition announcement"
+      date: "2025-04-01"
+      confidence: "explicit_statement"
+
+    - fact: "Series A-II in September 2019 raised $11.4M led by Scale Venture Partners, total $26.9M (doubled ARR in prior 6 months, doubled six-figure contracts, on track to triple ARR by end of 2019)"
+      source: "TechCrunch"
+      date: "2019-09-26"
+      confidence: "explicit_statement"
+
+    - fact: "Series B in February 2020 raised $20M led by e.ventures Growth (doubled business to 300+ companies, doubled headcount, doubled ARR, tripled enterprise customers)"
+      source: "honeycomb.io/blog"
+      date: "2020-02-02"
+      confidence: "explicit_statement"
+
+    - fact: "Series C in October 2021 raised $50M led by Insight Partners less than 1 year after Series B"
+      source: "PR Newswire"
+      date: "2021-10-20"
+      confidence: "explicit_statement"
+
+  missing_information:
+    - "Company valuation (no figures for any funding round)"
+    - "Profitability status"
+    - "Burn rate and runway"
+    - "Cash reserves"
+    - "Specific ARR dollar amounts (only growth rates disclosed)"
+    - "Debt financing details"
+
+market_position:
+  facts_found:
+    - fact: "Positions as 'the only observability platform you need' with full-stack observability designed for high-cardinality data"
+      source: "honeycomb.io website"
+      date: "2025-11-07"
+      confidence: "explicit_statement"
+
+    - fact: "Core value proposition: unified event data (versus siloed logs/metrics/traces), unlimited dimensionality, machine-learning-powered insights like BubbleUp"
+      source: "honeycomb.io product pages"
+      date: "2025-11-07"
+      confidence: "explicit_statement"
+
+    - fact: "OpenTelemetry-native platform, describes itself as 'the best place to send your OpenTelemetry data'"
+      source: "honeycomb.io website"
+      date: "2025-11-07"
+      confidence: "explicit_statement"
+
+    - fact: "All plans include 60-day data retention with unlimited users, unlimited services, unlimited querying, and unlimited custom fields at no additional cost"
+      source: "honeycomb.io/pricing"
+      date: "2025-11-07"
+      confidence: "explicit_statement"
+
+    - fact: "Launched Query Assistant in May 2023, first observability platform with fully-executing natural language querying using generative AI"
+      source: "honeycomb.io/blog"
+      date: "2023-05-01"
+      confidence: "explicit_statement"
+
+    - fact: "G2 rating of 4.5-4.6/5 stars"
+      source: "G2 review platform"
+      date: "2025-11-07"
+      confidence: "explicit_statement"
+
+    - fact: "Gartner Peer Insights rating of 4.7/5 (17 reviews)"
+      source: "Gartner Peer Insights"
+      date: "2025-11-07"
+      confidence: "explicit_statement"
+
+    - fact: "TrustRadius rating of 9.0/10"
+      source: "TrustRadius"
+      date: "2025-11-07"
+      confidence: "explicit_statement"
+
+    - fact: "Capterra rating of 4.9/5 (18 verified reviews)"
+      source: "Capterra"
+      date: "2025-11-07"
+      confidence: "explicit_statement"
+
+    - fact: "Named Leader in Gartner Magic Quadrant for APM and Observability in 2022 and 2023 (first time in 2022)"
+      source: "honeycomb.io/blog Gartner announcements"
+      date: "2023-12-31"
+      confidence: "explicit_statement"
+
+    - fact: "Named Visionary in 2025 Gartner Magic Quadrant for Observability Platforms (published Aug 2024)"
+      source: "honeycomb.io/blog"
+      date: "2024-08-01"
+      confidence: "explicit_statement"
+
+    - fact: "Main competitors include Datadog, Dynatrace, New Relic, Splunk AppDynamics, IBM Instana, Sumo Logic, SolarWinds, and LogicMonitor"
+      source: "Market research reports"
+      date: "2025-11-07"
+      confidence: "explicit_statement"
+
+    - fact: "Observability platform market estimated at $2.9B in 2025 growing to $6.1B by 2030 (Mordor Intelligence, 15.9% CAGR)"
+      source: "Mordor Intelligence"
+      date: "2025-11-07"
+      confidence: "explicit_statement"
+
+    - fact: "Alternative market estimate: $23.6B in 2024 growing to $137.8B by 2034 (Market Research Future, 19.3% CAGR)"
+      source: "Market Research Future"
+      date: "2025-11-07"
+      confidence: "explicit_statement"
+
+    - fact: "SOC 2 Type II certified (announced 2020-06-03, ongoing annual certification)"
+      source: "honeycomb.io/blog"
+      date: "2020-06-03"
+      confidence: "explicit_statement"
+
+    - fact: "ISO/IEC 27001: Services run in certified environments (AWS, GCP)"
+      source: "honeycomb.io/docs"
+      date: "2025-11-07"
+      confidence: "explicit_statement"
+
+    - fact: "HIPAA compliant, will sign Business Associate Agreements (BAAs) with Pro/Enterprise customers"
+      source: "honeycomb.io/docs"
+      date: "2025-11-07"
+      confidence: "explicit_statement"
+
+    - fact: "GDPR compliant with standard DPA through Terms of Service, comprehensive DPA for enterprise"
+      source: "honeycomb.io/docs"
+      date: "2025-11-07"
+      confidence: "explicit_statement"
+
+    - fact: "Deployed SaaS cloud in European Union in February 2024 for GDPR and local data residency requirements"
+      source: "PR Newswire"
+      date: "2024-02-29"
+      confidence: "explicit_statement"
+
+    - fact: "Free plan offers up to 20M events/month with distributed tracing, BubbleUp, 60-day retention at $0 forever"
+      source: "honeycomb.io/pricing"
+      date: "2025-11-07"
+      confidence: "explicit_statement"
+
+    - fact: "Pro plan starts at $130/month for 100M events, scales to 1.5B events"
+      source: "honeycomb.io/pricing"
+      date: "2025-11-07"
+      confidence: "explicit_statement"
+
+    - fact: "Enterprise plan custom pricing starting with 10B events/year"
+      source: "honeycomb.io/pricing"
+      date: "2025-11-07"
+      confidence: "explicit_statement"
+
+  missing_information:
+    - "Specific market share percentage"
+    - "Total customer count breakdown by segment"
+    - "ISO 27001 direct certification status (vs running in certified environments)"
+    - "Exact G2 review count"
+
+organizational_stability:
+  facts_found:
+    - fact: "Founded in 2016 by Christine Yen (CEO) and Charity Majors (CTO), both formerly at Parse (acquired by Facebook)"
+      source: "Wikipedia, honeycomb.io/about"
+      date: "2016-01-01"
+      confidence: "explicit_statement"
+
+    - fact: "Co-founders swapped roles around 2019 - Majors was initially CEO, Yen initially held different role - both remained with company for all 9 years"
+      source: "Wikipedia"
+      date: "2025-11-07"
+      confidence: "explicit_statement"
+
+    - fact: "Glassdoor overall rating of 3.7-3.8/5 stars (32-34 reviews)"
+      source: "Glassdoor"
+      date: "2025-11-07"
+      confidence: "explicit_statement"
+
+    - fact: "Glassdoor Work-Life Balance rating: 4.0/5"
+      source: "Glassdoor"
+      date: "2025-11-07"
+      confidence: "explicit_statement"
+
+    - fact: "Glassdoor Culture & Values rating: 3.6/5"
+      source: "Glassdoor"
+      date: "2025-11-07"
+      confidence: "explicit_statement"
+
+    - fact: "Glassdoor Career Opportunities rating: 3.4/5"
+      source: "Glassdoor"
+      date: "2025-11-07"
+      confidence: "explicit_statement"
+
+    - fact: "Glassdoor Compensation & Benefits rating: 4.3/5"
+      source: "Glassdoor"
+      date: "2025-11-07"
+      confidence: "explicit_statement"
+
+    - fact: "58-62% of Glassdoor reviewers would recommend Honeycomb to a friend"
+      source: "Glassdoor"
+      date: "2025-11-07"
+      confidence: "explicit_statement"
+
+    - fact: "Multiple Glassdoor reviews state 'Sales and Marketing leadership turns over completely every year'"
+      source: "Glassdoor employee reviews"
+      date: "2025-11-07"
+      confidence: "explicit_statement"
+
+    - fact: "July 2025 Glassdoor review (2.0/5, 3+ year employee): 'Product direction changes on a whim. Leadership doesn't know how to develop or manage non-engineer roles'"
+      source: "Glassdoor"
+      date: "2025-07-01"
+      confidence: "explicit_statement"
+
+    - fact: "Engineering department receives 100% positive reviews internally per Comparably data"
+      source: "Comparably"
+      date: "2025-11-07"
+      confidence: "explicit_statement"
+
+    - fact: "Comparably shows 96/100 executive team approval (A+ rating, Top 5% of companies with 51-200 employees)"
+      source: "Comparably"
+      date: "2025-11-07"
+      confidence: "explicit_statement"
+
+    - fact: "Jeff Gray (COO) has 3+ years tenure, joined around 2021"
+      source: "honeycomb.io/about"
+      date: "2025-11-07"
+      confidence: "implied"
+
+    - fact: "Emily Nakashima promoted to VP Engineering in February 2020, promoted to SVP Engineering in September 2025"
+      source: "honeycomb.io/blog announcements"
+      date: "2025-09-01"
+      confidence: "explicit_statement"
+
+    - fact: "Julie Neumann joined as CMO in April 2025, replacing Reet Mand who joined late 2023"
+      source: "honeycomb.io/blog"
+      date: "2025-04-01"
+      confidence: "explicit_statement"
+
+    - fact: "Matt Nelson joined as CRO in April 2025"
+      source: "honeycomb.io/blog"
+      date: "2025-04-01"
+      confidence: "explicit_statement"
+
+    - fact: "Liz Fong-Jones joined as Field CTO in February 2019, former Google SRE"
+      source: "honeycomb.io/blog"
+      date: "2019-02-01"
+      confidence: "explicit_statement"
+
+    - fact: "Remote-first company with stated policy: 'Remote is here to stay. You're not going to see a back to office email from us'"
+      source: "honeycomb.io/careers, Built In SF"
+      date: "2025-11-07"
+      confidence: "explicit_statement"
+
+    - fact: "Salaries based on San Francisco market regardless of location with semi-annual compensation reviews"
+      source: "Built In SF benefits page"
+      date: "2025-11-07"
+      confidence: "explicit_statement"
+
+    - fact: "Benefits include 100% employer-covered medical/dental/vision, flexible PTO with expressed minimum, paid sabbatical, up to 16 weeks parental leave, home setup stipend, 401K, equity"
+      source: "Built In SF benefits page"
+      date: "2025-11-07"
+      confidence: "explicit_statement"
+
+    - fact: "Executive team, board, and employees each at least 50% women and non-binary as of 2023 (47% men, 43% women, 7% non-binary)"
+      source: "honeycomb.io/blog diversity announcement"
+      date: "2023-12-31"
+      confidence: "explicit_statement"
+
+    - fact: "Majority-women board and leadership team"
+      source: "honeycomb.io/about"
+      date: "2025-11-07"
+      confidence: "explicit_statement"
+
+    - fact: "Great Place to Work certification with 96% ranking company as great place to work"
+      source: "Great Place to Work certification"
+      date: "2025-11-07"
+      confidence: "explicit_statement"
+
+    - fact: "Employee Net Promoter Score (eNPS) of 88 rated by 69 employees"
+      source: "Comparably"
+      date: "2025-11-07"
+      confidence: "explicit_statement"
+
+    - fact: "Comparably awards in 10+ categories in 2022 including Best Company Outlook, Best Company for Diversity, Best Leadership Teams, Best Company Culture"
+      source: "Comparably"
+      date: "2022-12-31"
+      confidence: "explicit_statement"
+
+    - fact: "Appointed employee board representative in December 2021 as 'experiment in co-determination' - uncommon governance practice for US companies"
+      source: "honeycomb.io/blog"
+      date: "2021-12-01"
+      confidence: "explicit_statement"
+
+    - fact: "Kelly Watkins (former Slack VP Global Marketing, Abstract CEO) joined board in April 2023"
+      source: "honeycomb.io/blog Series D announcement"
+      date: "2023-04-06"
+      confidence: "explicit_statement"
+
+    - fact: "Company values: 1) Fast and close to right is better than perfect, 2) We hire adults, 3) Everything's an experiment, 4) Feedback is a gift"
+      source: "honeycomb.io/careers"
+      date: "2025-11-07"
+      confidence: "explicit_statement"
+
+    - fact: "Total employees: 284 (2025) up from 238 (2024), historical reporting suggests ~200 employees as of 2022"
+      source: "PitchBook, Crunchbase"
+      date: "2025-11-07"
+      confidence: "explicit_statement"
+
+  missing_information:
+    - "CEO approval rating on Glassdoor"
+    - "Specific dates of Sales/Marketing VP departures mentioned in reviews"
+    - "Detailed org chart and department sizes"
+    - "Historical VP of Marketing (Jo Ann Sanders) replacement timing between 2020 and 2023"
+    - "Remote vs in-office employee split"
+
+technical_culture:
+  facts_found:
+    - fact: "Team of ~200 employees includes engineers from Facebook, Google, Parse, LinkedIn, GitHub, and Bugsnag"
+      source: "honeycomb.io/about, LinkedIn profiles"
+      date: "2025-11-07"
+      confidence: "explicit_statement"
+
+    - fact: "Proprietary Retriever columnar database inspired by Facebook's Scuba, custom-built for high-cardinality event data"
+      source: "honeycomb.io/blog technical posts"
+      date: "2025-11-07"
+      confidence: "explicit_statement"
+
+    - fact: "Uses Apache Kafka for buffering 'for the entirety of Honeycomb's existence'"
+      source: "honeycomb.io/blog"
+      date: "2025-11-07"
+      confidence: "explicit_statement"
+
+    - fact: "Cloud infrastructure runs on AWS with Graviton2-based ARM processors (early Graviton adopter promoted by Amazon)"
+      source: "honeycomb.io/blog"
+      date: "2025-11-07"
+      confidence: "explicit_statement"
+
+    - fact: "Go (Golang) is primary language for major services and open source projects"
+      source: "GitHub repositories"
+      date: "2025-11-07"
+      confidence: "explicit_statement"
+
+    - fact: "React used for customer-facing app including query builder"
+      source: "honeycomb.io/blog, QCon London 2018 talk"
+      date: "2025-11-07"
+      confidence: "explicit_statement"
+
+    - fact: "10+ active open source repositories including Refinery (trace-aware sampling proxy), libhoney-go, honeyaws, dynsampler-go"
+      source: "GitHub"
+      date: "2025-11-07"
+      confidence: "explicit_statement"
+
+    - fact: "Refinery latest release 2.12.0 in January 2025, originally built by CircleCI"
+      source: "GitHub"
+      date: "2025-01-01"
+      confidence: "explicit_statement"
+
+    - fact: "High-frequency technical blogging at honeycomb.io/blog with multiple posts per month covering Software Engineering, AI & LLMs, Observability, OpenTelemetry"
+      source: "honeycomb.io/blog"
+      date: "2025-11-07"
+      confidence: "explicit_statement"
+
+    - fact: "Published O'Reilly book 'Observability Engineering' in May 2022 by Charity Majors, Liz Fong-Jones, and George Miranda, described as 'first piece of literature that provides concrete blueprint on how to build a practice of observability'"
+      source: "O'Reilly, GOTO Book Club podcast"
+      date: "2022-05-01"
+      confidence: "explicit_statement"
+
+    - fact: "Deployment frequency: hourly deployments if there's a change, 1-2 new commits per build, 12+ deploys per day"
+      source: "honeycomb.io/blog"
+      date: "2025-11-07"
+      confidence: "explicit_statement"
+
+    - fact: "Lead time: 3 hours to deploy a change (10-min builds x3 at worst, 1-hour peer review, hourly push train)"
+      source: "honeycomb.io/blog"
+      date: "2025-11-07"
+      confidence: "explicit_statement"
+
+    - fact: "Change failure rate: <0.1%"
+      source: "honeycomb.io/blog"
+      date: "2025-11-07"
+      confidence: "explicit_statement"
+
+    - fact: "Time to restore: flag flip takes 30 seconds, rollback to previous build <10 minutes, fix-forward 20 minutes"
+      source: "honeycomb.io/blog"
+      date: "2025-11-07"
+      confidence: "explicit_statement"
+
+    - fact: "Build times target: keep builds under 15 minutes, 'taking percussive action when build times got over 15 minutes'"
+      source: "honeycomb.io/blog"
+      date: "2025-10-02"
+      confidence: "explicit_statement"
+
+    - fact: "Data latency: 'When you send something into Honeycomb, you see it immediately. You don't need to wait 10 minutes... Usually it's more like one [second]'"
+      source: "honeycomb.io/blog"
+      date: "2025-11-07"
+      confidence: "explicit_statement"
+
+    - fact: "Honeycomb Intelligence suite launched September 11, 2025, described as 'AI-native observability suite' and 'the developer interface of the future'"
+      source: "honeycomb.io/blog"
+      date: "2025-09-11"
+      confidence: "explicit_statement"
+
+    - fact: "Canvas (2025) - AI-guided workspace combining AI assistant with interactive notebook for visualizing query results and traces, accepts natural language questions"
+      source: "honeycomb.io/blog"
+      date: "2025-09-11"
+      confidence: "explicit_statement"
+
+    - fact: "Honeycomb MCP Server GA in 2025 - hosted Model Context Protocol server enabling AI IDEs to query observability data, listed in AWS Marketplace AI Agents and Tools category"
+      source: "honeycomb.io/blog, AWS Marketplace"
+      date: "2025-09-01"
+      confidence: "explicit_statement"
+
+    - fact: "Query Assistant launched May 2023, 'the first of its kind to hit the market' - LLM-backed natural language querying feature"
+      source: "honeycomb.io/blog"
+      date: "2023-05-01"
+      confidence: "explicit_statement"
+
+    - fact: "Engineering ladder uses PSHE framework (Problem, Solution, How, Execution) from YouTube, focuses on ownership rather than scope"
+      source: "honeycomb.io/blog Engineering Levels post"
+      date: "2023-12-31"
+      confidence: "explicit_statement"
+
+    - fact: "Charity Majors background: Facebook Production Engineering Manager, Parse Infrastructure Tech Lead, college dropout from University of Idaho, classical piano background"
+      source: "Wikipedia, TheOrg profiles"
+      date: "2025-11-07"
+      confidence: "explicit_statement"
+
+    - fact: "Liz Fong-Jones background: Google SRE on Cloud Load Balancer and Google Flights, MIT EECS BS (graduated 2014)"
+      source: "LinkedIn, conference speaker pages"
+      date: "2025-11-07"
+      confidence: "explicit_statement"
+
+    - fact: "Emily Nakashima background: Former Bugsnag and GitHub Director of Engineering, frontend engineering and performance optimization specialist"
+      source: "honeycomb.io/blog, LinkedIn"
+      date: "2025-11-07"
+      confidence: "explicit_statement"
+
+    - fact: "Regular conference speaking by founders and technical leaders at QCon, SREcon, AWS Summit, Velocity, Strange Loop, DeveloperWeek"
+      source: "Conference speaker pages, honeycomb.io/blog"
+      date: "2025-11-07"
+      confidence: "explicit_statement"
+
+    - fact: "Company-hosted Observability Day conferences in San Francisco (September 11, 2025) and London"
+      source: "honeycomb.io events"
+      date: "2025-09-11"
+      confidence: "explicit_statement"
+
+    - fact: "Internal adoption of AI: 'Honeycomb engineers were amongst the earliest adopters of this technology. Not in the widely parodied top-down, VP-mandated, go be AI leaders nao plz kind of way, but in a bottoms-up, experimental kind of way'"
+      source: "honeycomb.io/blog"
+      date: "2025-11-07"
+      confidence: "explicit_statement"
+
+    - fact: "Christine Yen on hiring philosophy (2019): 'Every engineer that we interviewed, we would sit them down and make sure they understood both of these sides are important to building a business. We are not just here for the cool tech'"
+      source: "InfoQ podcast"
+      date: "2019-12-31"
+      confidence: "explicit_statement"
+
+    - fact: "Open roles as of 2025-11-07: Senior AI Engineer II positions for Remote - Canada and Remote - United States"
+      source: "honeycomb.io/careers"
+      date: "2025-11-07"
+      confidence: "explicit_statement"
+
+  missing_information:
+    - "Specific test coverage metrics"
+    - "Code review process details beyond '1 hour for peer review'"
+    - "CI/CD tooling specifics (though GitHub context suggests GitHub Actions)"
+    - "Interview process stages and technical assessment details"
+    - "Exact blog post count for 2024-2025"
+    - "GitHub star counts for major repositories"
+    - "Engineering team structure details beyond executive level"
+
+summary:
+  total_facts_found: 94
+  information_completeness: "medium-high"
+  most_recent_data: "2025-11-07"
+  oldest_data: "2016-01-01"
+  date_range_emphasis: "80%+ of facts from 2023-2025"
+  key_strengths:
+    - "Well-capitalized with $147M raised and no layoffs"
+    - "Consistent 2x annual revenue growth with 138-160% NRR"
+    - "Strong customer base (600+) including Stripe, Slack, HelloFresh"
+    - "Gartner Leader (2022-2023) and Visionary (2025)"
+    - "Founder-led stability (9 years)"
+    - "Remote-first with SF salaries anywhere"
+    - "Exceptional engineering practices (12+ daily deploys, <0.1% change failure rate)"
+    - "Active open source and technical blogging culture"
+    - "Cutting-edge AI/ML investments"
+  key_concerns:
+    - "Sales/Marketing leadership 'turns over completely every year' per reviews"
+    - "58% recommendation rate (below tech norms)"
+    - "3.7/5 overall Glassdoor rating"
+    - "Profitability status unknown"
+    - "Conflicting data between Comparably (96/100 executive approval) and Glassdoor (turnover concerns)"
