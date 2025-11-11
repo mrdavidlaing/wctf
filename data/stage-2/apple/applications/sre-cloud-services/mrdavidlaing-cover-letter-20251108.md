@@ -13,11 +13,7 @@ Dublin, Ireland
 
 **RE: Site Reliability Engineer - Role 200566030-0562**
 
-</section>
-
 ---
-
-<section>
 
 Dear Hiring Manager,
 
