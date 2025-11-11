@@ -350,3 +350,197 @@ class TestCompanyOrgMap:
         )
 
         assert orgmap.total_rope_teams == 2
+
+
+class TestWCTFAnalysis:
+    """Tests for WCTFAnalysis model."""
+
+    def test_wctf_analysis_empty(self):
+        """Test WCTFAnalysis with empty/default fields."""
+        from wctf_core.models.orgmap import WCTFAnalysis
+
+        analysis = WCTFAnalysis()
+
+        assert analysis.analyzed_date is None
+        assert analysis.coordination_style is None
+        assert analysis.is_complete is False
+
+    def test_wctf_analysis_complete(self):
+        """Test WCTFAnalysis with all required fields."""
+        from wctf_core.models.orgmap import WCTFAnalysis
+
+        analysis = WCTFAnalysis(
+            analyzed_date="2025-11-11",
+            coordination_style="expedition",
+            terrain_match="good_fit",
+            mountain_clarity="clear",
+            energy_matrix={"predicted_quadrant": "moare"},
+            alignment_signals={"green_flags": ["Good culture"]}
+        )
+
+        assert analysis.is_complete is True
+
+
+class TestRole:
+    """Tests for Role model."""
+
+    def test_role_mapped(self):
+        """Test Role with orgmap mapping."""
+        from wctf_core.models.orgmap import Role, WCTFAnalysis
+
+        role = Role(
+            role_id="apple_202511_senior_swe",
+            title="Senior SWE - K8s",
+            url="https://jobs.apple.com/123",
+            posted_date="2025-11-01",
+            location="Cupertino, CA",
+            rope_team_id="apple_k8s_platform",
+            rope_team_name="K8s Platform",
+            seniority="senior_ic",
+            description="Build K8s control plane",
+            requirements=["8+ years experience"],
+            salary_range="$180k-$250k"
+        )
+
+        assert role.is_mapped is True
+        assert role.is_analyzed is False
+
+    def test_role_unmapped(self):
+        """Test Role without orgmap mapping."""
+        from wctf_core.models.orgmap import Role
+
+        role = Role(
+            role_id="mystery_role",
+            title="Senior Engineer",
+            url="https://jobs.com/456",
+            posted_date="2025-11-05",
+            location="Remote",
+            seniority="senior_ic",
+            description="Special projects"
+        )
+
+        assert role.is_mapped is False
+
+    def test_role_with_analysis(self):
+        """Test Role with complete WCTF analysis."""
+        from wctf_core.models.orgmap import Role, WCTFAnalysis
+
+        role = Role(
+            role_id="analyzed_role",
+            title="Staff Engineer",
+            url="https://jobs.com/789",
+            posted_date="2025-11-10",
+            location="Remote",
+            seniority="staff_plus",
+            description="Lead platform work",
+            wctf_analysis=WCTFAnalysis(
+                analyzed_date="2025-11-11",
+                coordination_style="expedition",
+                terrain_match="good_fit",
+                mountain_clarity="clear"
+            )
+        )
+
+        assert role.is_analyzed is True
+
+
+class TestPeakRoles:
+    """Tests for PeakRoles model."""
+
+    def test_peak_roles_counts(self):
+        """Test PeakRoles computed properties."""
+        from wctf_core.models.orgmap import PeakRoles, Role, WCTFAnalysis
+
+        peak_roles = PeakRoles(
+            peak_id="test_peak",
+            peak_name="Test Peak",
+            roles=[
+                Role(
+                    role_id="role1",
+                    title="Senior SWE",
+                    url="http://jobs.com/1",
+                    posted_date="2025-11-01",
+                    location="Remote",
+                    seniority="senior_ic",
+                    description="Build stuff"
+                ),
+                Role(
+                    role_id="role2",
+                    title="Staff SWE",
+                    url="http://jobs.com/2",
+                    posted_date="2025-11-02",
+                    location="Remote",
+                    seniority="staff_plus",
+                    description="Lead stuff",
+                    wctf_analysis=WCTFAnalysis(
+                        analyzed_date="2025-11-11",
+                        coordination_style="alpine",
+                        terrain_match="good_fit",
+                        mountain_clarity="clear"
+                    )
+                )
+            ]
+        )
+
+        assert peak_roles.role_count == 2
+        assert peak_roles.analyzed_count == 1
+
+
+class TestCompanyRoles:
+    """Tests for CompanyRoles model."""
+
+    def test_company_roles_counts(self):
+        """Test CompanyRoles computed properties."""
+        from wctf_core.models.orgmap import CompanyRoles, PeakRoles, Role
+
+        company_roles = CompanyRoles(
+            company="Test Company",
+            company_slug="test-company",
+            last_updated="2025-11-11",
+            search_metadata={"sources": ["careers_page"]},
+            peaks=[
+                PeakRoles(
+                    peak_id="peak1",
+                    peak_name="Peak 1",
+                    roles=[
+                        Role(
+                            role_id="role1",
+                            title="Role 1",
+                            url="http://1",
+                            posted_date="2025-11-01",
+                            location="Remote",
+                            seniority="senior_ic",
+                            description="Desc"
+                        )
+                    ]
+                )
+            ],
+            unmapped_roles=[
+                Role(
+                    role_id="unmapped1",
+                    title="Unmapped Role",
+                    url="http://2",
+                    posted_date="2025-11-02",
+                    location="Remote",
+                    seniority="senior_ic",
+                    description="Desc"
+                )
+            ]
+        )
+
+        assert company_roles.total_roles == 2
+        assert company_roles.mapped_roles == 1
+        assert company_roles.unmapped_count == 1
+
+    def test_company_roles_auto_generates_slug(self):
+        """Test CompanyRoles auto-generates slug."""
+        from wctf_core.models.orgmap import CompanyRoles
+
+        company_roles = CompanyRoles(
+            company="Affirm Holdings Inc.",
+            company_slug="",
+            last_updated="2025-11-11",
+            search_metadata={}
+        )
+
+        assert company_roles.company_slug == "affirm-holdings-inc"

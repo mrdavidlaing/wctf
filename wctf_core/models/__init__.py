@@ -38,6 +38,10 @@ from wctf_core.models.orgmap import (
     RopeTeam,
     Peak,
     CompanyOrgMap,
+    WCTFAnalysis,
+    Role,
+    PeakRoles,
+    CompanyRoles,
 )
 
 # Rebuild models that have forward references to TaskImplication
@@ -83,4 +87,8 @@ __all__ = [
     "RopeTeam",
     "Peak",
     "CompanyOrgMap",
+    "WCTFAnalysis",
+    "Role",
+    "PeakRoles",
+    "CompanyRoles",
 ]

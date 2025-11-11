@@ -119,3 +119,118 @@ class CompanyOrgMap(BaseModel):
     def total_rope_teams(self) -> int:
         """Count Director teams across all peaks."""
         return sum(len(peak.rope_teams) for peak in self.peaks)
+
+
+class WCTFAnalysis(BaseModel):
+    """WCTF framework analysis of role."""
+
+    analyzed_date: Optional[str] = Field(None, description="YYYY-MM-DD when analyzed")
+    coordination_style: Optional[Literal["alpine", "expedition", "established", "orienteering", "trail_crew"]] = None
+    terrain_match: Optional[Literal["good_fit", "workable", "mismatched"]] = None
+    mountain_clarity: Optional[Literal["clear", "unclear", "conflicting"]] = None
+    energy_matrix: Dict = Field(default_factory=dict, description="Predicted quadrants and tasks")
+    alignment_signals: Dict = Field(default_factory=dict, description="Green/red flags")
+
+    @computed_field
+    @property
+    def is_complete(self) -> bool:
+        """Check if analysis has been done."""
+        return all([
+            self.analyzed_date,
+            self.coordination_style,
+            self.terrain_match,
+            self.mountain_clarity
+        ])
+
+
+class Role(BaseModel):
+    """Job role posting."""
+
+    role_id: str = Field(description="Unique identifier, e.g., 'apple_202511_senior_swe_k8s'")
+    title: str
+    url: str
+    posted_date: str = Field(description="YYYY-MM-DD format")
+    location: str
+
+    # Link to orgmap
+    rope_team_id: Optional[str] = Field(None, description="References company.orgmap.yaml")
+    rope_team_name: Optional[str] = None
+
+    # Role details
+    seniority: Literal["senior_ic", "staff_plus", "management"]
+    description: str
+    requirements: List[str] = Field(default_factory=list)
+    salary_range: Optional[str] = None
+
+    # WCTF Analysis
+    wctf_analysis: WCTFAnalysis = Field(default_factory=WCTFAnalysis)
+
+    @computed_field
+    @property
+    def is_mapped(self) -> bool:
+        """Check if role is linked to orgmap."""
+        return self.rope_team_id is not None
+
+    @computed_field
+    @property
+    def is_analyzed(self) -> bool:
+        """Check if WCTF analysis is complete."""
+        return self.wctf_analysis.is_complete
+
+
+class PeakRoles(BaseModel):
+    """Roles for one VP org."""
+
+    peak_id: str = Field(description="References company.orgmap.yaml")
+    peak_name: str
+    roles: List[Role]
+
+    @computed_field
+    @property
+    def role_count(self) -> int:
+        """Count roles in this peak."""
+        return len(self.roles)
+
+    @computed_field
+    @property
+    def analyzed_count(self) -> int:
+        """Count roles with complete WCTF analysis."""
+        return sum(1 for role in self.roles if role.is_analyzed)
+
+
+class CompanyRoles(BaseModel):
+    """All roles for company."""
+
+    company: str
+    company_slug: str
+    last_updated: str = Field(description="YYYY-MM-DD format")
+    search_metadata: Dict = Field(description="sources, last_search_date")
+    peaks: List[PeakRoles] = Field(default_factory=list)
+    unmapped_roles: List[Role] = Field(default_factory=list, description="Roles not linked to orgmap")
+
+    @field_validator('company_slug', mode='before')
+    @classmethod
+    def generate_slug(cls, v, info):
+        """Auto-generate slug if not provided."""
+        if not v and 'company' in info.data:
+            from wctf_core.utils.paths import slugify_company_name
+            return slugify_company_name(info.data['company'])
+        return v
+
+    @computed_field
+    @property
+    def total_roles(self) -> int:
+        """Count all roles."""
+        return sum(p.role_count for p in self.peaks) + len(self.unmapped_roles)
+
+    @computed_field
+    @property
+    def mapped_roles(self) -> int:
+        """Count roles linked to orgmap."""
+        return sum(p.role_count for p in self.peaks)
+
+    @computed_field
+    @property
+    def unmapped_count(self) -> int:
+        """Count roles not linked to orgmap."""
+        return len(self.unmapped_roles)
