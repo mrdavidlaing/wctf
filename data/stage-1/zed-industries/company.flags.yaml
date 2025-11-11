@@ -1,0 +1,405 @@
+company: Zed Industries
+evaluation_date: '2025-11-11'
+evaluator_context: Extracted from conversation notes
+green_flags:
+  mountain_range:
+    critical_matches:
+    - flag: Raised $32M Series B led by Sequoia Capital in August 2025, total funding
+        $42-44.5M
+      impact: 18-24 month runway with tier-1 investor validation. Financial stability
+        for near-term. Sequoia only backs potential category leaders.
+      confidence: High - multiple press releases confirm Series B amount and investor
+      task_implications: []
+    - flag: AI code editor market valued at $1.47B (2024), projected $12.62B by 2033
+        at 23.9% CAGR
+      impact: Massive TAM expansion with secular tailwind from AI adoption. Not fighting
+        for scraps - participating in explosive market growth.
+      confidence: High - Growth Market Reports industry analysis
+      task_implications: []
+    - flag: 150,000 monthly active developers as of August 2025, up from 800 users
+        in private alpha (March 2023)
+      impact: Explosive user growth validates product-market fit. Real traction beyond
+        vanity metrics.
+      confidence: High - Sequoia Capital and TechCrunch explicit statements
+      task_implications: []
+    - flag: 9% of Rust developers use Zed, up from 1% year earlier - 9x growth in
+        target segment
+      impact: Category-defining adoption among sophisticated early adopters. Rust
+        community is influential beyond numbers.
+      confidence: High - Sequoia citing State of Rust Survey
+      task_implications: []
+    strong_positives:
+    - flag: Used by engineering teams at Anthropic, Linear, Ramp, and Shopify
+      impact: Validation from sophisticated engineering organizations. These teams
+        have high standards and many options.
+      confidence: High - Sequoia Capital announcement
+    - flag: 2nd most popular AI IDE overall by usage (State of AI 2025)
+      impact: Already achieved top-tier market position in crowded space. Not a moonshot
+        - validated product.
+      confidence: High - Sequoia citing State of AI 2025
+    - flag: No layoffs or restructuring events found in company history
+      impact: Financial discipline without panic. Founders making good capital allocation
+        decisions.
+      confidence: Medium - absence of evidence across multiple sources
+    - flag: Company actively hiring with 6 open positions
+      impact: Growth mode, not retrenchment. Need engineers, not cutting costs.
+      confidence: High - Wellfound job board
+  chosen_peak:
+    critical_matches:
+    - flag: Founders are creators of Atom, Electron, and Tree-sitter - legendary developer
+        tools
+      impact: Working with proven technical visionaries who shipped tools to millions
+        of developers. Not first-time founders guessing.
+      confidence: High - multiple sources confirm founders' backgrounds
+      task_implications: []
+    - flag: Entire product built from scratch in Rust with custom GPU-accelerated
+        UI framework (GPUI)
+      impact: Opportunity to work on cutting-edge systems programming, not CRUD apps.
+        World-class technical challenges.
+      confidence: High - public GitHub codebase, multiple technical articles
+      task_implications: []
+    - flag: '69,433 GitHub stars, #2 on ROSS Index 2024 (gained 52k+ stars in 2024)'
+      impact: Massive open source community engagement. Contributions have immediate
+        visibility to tens of thousands.
+      confidence: High - GitHub stats verifiable, ROSS Index from TechCrunch
+      task_implications: []
+    - flag: Went fully open source in January 2024 (GPL/AGPL/Apache 2 licenses)
+      impact: Commitment to transparency and community. Not extractive closed-source
+        play.
+      confidence: High - official blog announcement and license files public
+      task_implications: []
+    strong_positives:
+    - flag: 'Mission: next-generation code editor for high-performance collaboration
+        with humans and AI'
+      impact: Clear, ambitious vision focused on developer productivity. Addresses
+        real pain points.
+      confidence: High - stated on website and investor materials
+    - flag: Technical deep-dive blog with weekly updates and 'Zed Decoded' series
+      impact: Culture of knowledge sharing and technical writing. Engineers have time
+        for deep work.
+      confidence: High - blog is public with consistent cadence
+    - flag: Benchmarks show 142MB memory vs 730MB for VS Code, ~120 FPS rendering
+      impact: Measurably superior technical execution. Not just marketing - real performance
+        advantages.
+      confidence: High - multiple third-party benchmarks confirm
+    - flag: Available on macOS, Linux (stable), and Windows (launched Oct 2025)
+      impact: Full cross-platform support completed. Not locked to single ecosystem.
+      confidence: High - official release announcements
+    - flag: Launched Agent Server Extensions with one-click ACP-compatible agents
+        (Nov 2025)
+      impact: Pushing boundaries of AI editor integration. Technical leadership in
+        emerging space.
+      confidence: High - announced on company blog Nov 6, 2025
+  rope_team_confidence:
+    critical_matches:
+    - flag: All three co-founders (Nathan Sobo, Max Brunsfeld, Antonio Scandurra)
+        remain active and write code almost every day
+      impact: Founders are hands-on technical leaders, not just business people. Direct
+        access to world-class engineers.
+      confidence: High - stated in job postings and team page
+      task_implications: []
+    - flag: Created GPUI framework, Tree-sitter parser, Atom editor, and Electron
+        framework - proven execution
+      impact: Team has shipped multiple generation-defining tools. Track record of
+        technical excellence at scale.
+      confidence: High - these projects are widely known and attributed
+      task_implications: []
+    - flag: 'Company philosophy: ''A company for developers, by developers'''
+      impact: Values-aligned culture. Founders understand developer needs firsthand.
+      confidence: High - stated on jobs page
+      task_implications: []
+    strong_positives:
+    - flag: Team of 30+ with detailed bios on public team page showing expertise
+      impact: Transparency about team composition. Can research backgrounds before
+        joining.
+      confidence: High - team page is public at zed.dev/team
+    - flag: 1,100 open-source contributors to the project
+      impact: Strong community support. Not just internal team - external validation
+        of technical direction.
+      confidence: High - Business Wire statement
+    - flag: Angel investors include Dylan Field (Figma), Tom Preston-Werner (GitHub),
+        Spencer Kimball (CockroachDB)
+      impact: Tier-1 technical angels with relevant experience. Network effects for
+        distribution and hiring.
+      confidence: High - PRWeb and Business Wire confirmations
+    - flag: Conrad Irwin joined 2023, former CTO at Superhuman
+      impact: Attracting senior technical talent from successful startups. Validation
+        of technical vision.
+      confidence: High - team page lists background
+    - flag: Partnership with Baseten achieved 2x faster AI completions with P90 <
+        500ms
+      impact: Team knows how to build high-performance systems. Pragmatic about build
+        vs partner.
+      confidence: High - The New Stack article
+  daily_climb:
+    critical_matches:
+    - flag: Remote-first culture with team distributed across Philadelphia, SF, Oakland,
+        Dallas, Austin, and more
+      impact: Geographic flexibility, no relocation required. Infrastructure designed
+        for distributed work.
+      confidence: High - team page shows locations, job postings emphasize remote
+      task_implications: []
+    - flag: Small team (30+ people) means extremely high leverage - each engineer
+        impacts 150k developers
+      impact: Avoid big-company anonymity. Direct influence on product direction.
+        Meaningful work.
+      confidence: High - team size from multiple sources, user count from Sequoia
+      task_implications: []
+    - flag: Free forever personal tier with 2,000 edit predictions
+      impact: Mission-aligned - not just extracting value from users. Accessible to
+        all developers.
+      confidence: High - stated on pricing page
+      task_implications: []
+    strong_positives:
+    - flag: Deterministic test execution environment enabling confident large-scale
+        changes
+      impact: Mature testing despite early-stage. Can refactor aggressively without
+        fear.
+      confidence: Medium - mentioned in job postings
+    - flag: Headquarters in Boulder, Colorado with distributed team
+      impact: Mountain town culture. Outdoor access. Not stuck in SF/NYC.
+      confidence: High - multiple sources cite Boulder HQ
+    - flag: No Glassdoor profile yet - too small/new for negative reviews to accumulate
+      impact: Fresh start, not inheriting baggage from past culture problems.
+      confidence: Medium - absence of evidence
+  story_worth_telling:
+    critical_matches:
+    - flag: Building next-generation editor that makes developers 10x more productive
+        with AI
+      impact: Directly improving lives of 150k developers. Tangible impact on how
+        software gets built.
+      confidence: High - clear mission statement
+      task_implications: []
+    - flag: Endorsed by José Valim (Elixir creator), Dan Abramov (React), Mike Bostock
+        (D3.js)
+      impact: Recognized by technical luminaries. Building something the best engineers
+        respect.
+      confidence: High - quotes on website from named individuals
+      task_implications: []
+    - flag: Created Tree-sitter (21,400+ GitHub stars) - open source infrastructure
+        used by millions
+      impact: Team's prior work is foundational to modern editors. Working with proven
+        open source leaders.
+      confidence: High - Tree-sitter GitHub repository and adoption
+      task_implications: []
+    strong_positives:
+    - flag: Product Hunt reviews praise 'speed, responsiveness, clean, distraction-free
+        feel' and 'snappy performance'
+      impact: Users genuinely love the product. Not just checking boxes - creating
+        joy.
+      confidence: High - public Product Hunt reviews
+    - flag: Strong Hacker News community presence with high-engagement discussions
+      impact: Technical community takes product seriously. Thoughtful discourse, not
+        just hype.
+      confidence: High - multiple HN threads with hundreds of comments
+    - flag: Visual Studio Code dominance (74%) creates clear David vs Goliath narrative
+      impact: Underdog story with clear villain. Potential for category-defining outcome.
+      confidence: High - Stack Overflow survey data
+red_flags:
+  mountain_range:
+    dealbreakers: []
+    concerning:
+    - flag: Company explicitly stated 'not profitable' with LLM bills as biggest expense
+        and 'more paying customers = more money lost' (Sept 2024)
+      impact: Unit economics are fundamentally broken. Growth creates losses. Existential
+        risk if not fixed during Series B runway.
+      confidence: High - company blog post explicitly acknowledged problem
+      severity: High
+      task_implications: []
+    - flag: Competing against VS Code with 74% market dominance and Microsoft's infinite
+        resources
+      impact: Massive incumbent with free product and deep integration. Need to be
+        10x better to displace.
+      confidence: High - Stack Overflow survey widely cited
+      severity: Medium
+      task_implications: []
+    - flag: Pre-revenue at Series A (March 2023), shifted to usage-based pricing Sept
+        2024 - still figuring out business model
+      impact: Unproven monetization. Revenue history unknown. Risk that users stay
+        on free tier.
+      confidence: High - TechCrunch and company blog confirm
+      severity: Medium
+      task_implications: []
+    - flag: Post-Series B valuation unknown - equity value highly uncertain
+      impact: Can't assess equity compensation fairly. Early-stage lottery ticket,
+        not predictable value.
+      confidence: High - no public valuation data
+      severity: Low-Medium
+      task_implications: []
+  chosen_peak:
+    dealbreakers: []
+    concerning:
+    - flag: Only 30+ employees supporting 150k MAU and 1,100 open source contributors
+      impact: Extremely high surface area per engineer. Risk of burnout or quality
+        issues from understaffing.
+      confidence: High - team size vs user base from multiple sources
+      severity: Medium
+      task_implications: []
+    - flag: No reviews on Glassdoor, Blind, or Indeed - no transparency into work
+        culture
+      impact: Flying blind on actual work experience. Can't validate work-life balance
+        or management quality claims.
+      confidence: High - extensive search found zero employee reviews
+      severity: Medium
+      task_implications: []
+    - flag: Uses DirectX 11 (Windows), Vulkan (Linux), Metal (macOS) - complex cross-platform
+        graphics stack
+      impact: High technical complexity requires specialized graphics expertise. Steep
+        learning curve for most engineers.
+      confidence: High - blog posts detail rendering pipeline
+      severity: Low
+      task_implications: []
+  rope_team_confidence:
+    dealbreakers: []
+    concerning:
+    - flag: Only 30+ people total - very thin bench if key people leave
+      impact: Loss of single engineer could cripple entire feature area. Succession
+        risk.
+      confidence: High - team size confirmed multiple sources
+      severity: Medium
+      task_implications: []
+    - flag: Board expanded to 8 members post-Series B - potential for investor pressure
+      impact: More voices means more potential for conflict over direction. VC board
+        members want exits.
+      confidence: Medium - Crunchbase shows board composition
+      severity: Low
+      task_implications: []
+  daily_climb:
+    dealbreakers: []
+    concerning:
+    - flag: Early-stage startup pace + broken unit economics + financial pressure
+        likely means intensity
+      impact: Sustainable pace at risk. Clock is ticking on runway. Pressure to ship
+        fast and fix business model.
+      confidence: Medium - inference from situation, no direct evidence
+      severity: Medium
+      task_implications: []
+    - flag: No compensation data available - can't assess fairness or competitiveness
+      impact: Unknown if salary/equity will be competitive with FAANG or other opportunities.
+      confidence: High - no public comp data for private company this size
+      severity: Medium
+      task_implications: []
+    - flag: Recent Windows launch (Oct 2025) may bring surge of support burden and
+        platform-specific bugs
+      impact: New platform means more on-call, more debugging, more context switching
+        between OSes.
+      confidence: Medium - typical pattern for new platform launches
+      severity: Low
+      task_implications: []
+  story_worth_telling:
+    dealbreakers: []
+    concerning:
+    - flag: Developer tools are notoriously hard to monetize - Atom was free, VS Code
+        is free
+      impact: Structural challenge in market. Developers expect free tools. Path to
+        sustainable business unclear.
+      confidence: High - industry pattern well-established
+      severity: Medium
+      task_implications: []
+    - flag: If company fails, equity is worthless and timeline on resume may be seen
+        as red flag by some
+      impact: Career risk if startup craters. Short tenure harder to explain than
+        multi-year run.
+      confidence: Medium - startup failure is common risk
+      severity: Low
+      task_implications: []
+missing_critical_data:
+- question: What is the current runway in months post-Series B, and what metrics are
+    required to raise Series C or reach profitability?
+  why_important: Need to understand financial stability timeline and exit velocity
+    expectations. If runway <12 months, significantly higher risk.
+  how_to_find: 'Ask CEO or CFO directly in interview. Red flag if evasive. Also ask:
+    what needs to be true for next round?'
+  mountain_element: mountain_range
+- question: What specific steps are being taken to fix unit economics? What is timeline
+    to profitability?
+  why_important: Company said more customers = more money lost. Need concrete plan,
+    not hope. This is existential. Vague answers are massive red flag.
+  how_to_find: 'Ask CEO/CTO: ''Your blog said LLM costs unsustainable. What''s the
+    plan?'' Look for: model efficiency, pricing changes, cost-sharing, alternative
+    models.'
+  mountain_element: mountain_range
+- question: What is current revenue run rate, customer breakdown (free vs paid), and
+    revenue growth trajectory?
+  why_important: Validate monetization is working post-Sept 2024 pricing change. Growth
+    without revenue is not sustainable.
+  how_to_find: Ask CEO/CFO directly. May not share exact numbers but should share
+    trends. 'Growing X% MoM' or 'X% convert to paid'. Stonewalling is red flag.
+  mountain_element: mountain_range
+- question: What does realistic work-life balance look like? What are crunch time
+    expectations and frequency?
+  why_important: Early-stage + financial pressure + broken unit economics = potential
+    burnout. Need honest assessment from engineers, not recruiting pitch.
+  how_to_find: 'Ask engineers directly: ''Walk me through typical week. Last time
+    you worked weekend? How often vacation?'' Ask about on-call and incidents.'
+  mountain_element: daily_climb
+- question: What is compensation band for Staff/Principal level, including equity
+    details (strike price, valuation, dilution)?
+  why_important: Can't make informed decision without understanding economics. Early
+    equity can be worthless or life-changing. Need to calculate scenarios.
+  how_to_find: 'Ask recruiting for range. For equity: ask CFO for 409A valuation,
+    outstanding shares, Series C dilution expectations. Model at various exits.'
+  mountain_element: daily_climb
+- question: What is product roadmap for next 12-24 months? What are the big technical
+    challenges ahead?
+  why_important: 'Need to know if work will be interesting vs shipping features. Want
+    hard problems: distributed systems, GPU programming, language design.'
+  how_to_find: 'Ask CTO/engineering for roadmap. Ask about tech debt, architecture
+    changes, research areas. Look for: GPUI improvements, CRDT enhancements, AI model
+    work.'
+  mountain_element: chosen_peak
+- question: How is technical decision-making done? What is RFC/design doc process?
+    How much autonomy do senior engineers have?
+  why_important: At senior level, need authority to drive direction, not just execute.
+    Want collaborative but not consensus-paralysis or founder bottleneck.
+  how_to_find: 'Ask: ''Walk me through how major architectural decision gets made.
+    Who has veto? How handle disagreements?'' Review public RFCs if available.'
+  mountain_element: chosen_peak
+- question: What are customer retention and churn metrics? Are users sticky or trying
+    and leaving?
+  why_important: 150k MAU is great but are they retained or churning? High churn means
+    not sticky enough vs VS Code. Need evidence of growing retention.
+  how_to_find: 'Ask CEO/Product: ''What''s cohort retention Day 1/7/30/90?'' and ''Top
+    reasons users churn to VS Code?'' Honest answer = credibility.'
+  mountain_element: mountain_range
+- question: What is team coordination style? Alpine, expedition, established route,
+    orienteering, or trail crew? Does this match the terrain volatility?
+  why_important: Coordination style-terrain mismatch kills sustainable excellence.
+    Need to understand if team bandwidth matches decision needs.
+  how_to_find: Ask about decision process, sprint planning, deployment frequency,
+    handling unexpected issues, team tenure, recent pivots.
+  mountain_element: chosen_peak
+- question: What is realignment ability? Can team pivot faster than terrain changes?
+    Evidence of past pivots?
+  why_important: Startups face constant terrain shifts. Need team that can coordinate
+    route changes quickly. Stuck teams fail when terrain shifts.
+  how_to_find: Ask about past strategic pivots (open source, pricing model were big
+    ones). How fast did team execute? How much debate/resistance?
+  mountain_element: rope_team_confidence
+profile_version_used: '4.0'
+company_slug: zed-industries
+synthesis:
+  energy_matrix_analysis:
+    profile_version_used: '1.0'
+    predicted_daily_distribution:
+      moare_green_flags:
+        percentage: 0
+        tasks_count: 0
+      sparingly_yellow_flags:
+        percentage: 0
+        tasks_count: 0
+      burnout_red_flags:
+        percentage: 0
+        tasks_count: 0
+      help_mentoring_yellow_flags:
+        percentage: 0
+        tasks_count: 0
+    threshold_analysis:
+      meets_green_minimum: false
+      exceeds_red_maximum: false
+      exceeds_yellow_maximum: false
+    energy_sustainability: LOW
+    key_insights:
+    - Insufficient moare quadrant work (0% vs 60% needed)
+    decision_factors:
+    - 'RED: Only 0% moare quadrant (need ≥60%)'

@@ -1,0 +1,318 @@
+company: Zed Industries
+research_date: '2025-11-11'
+financial_health:
+  facts_found:
+  - fact: Raised $32 million in Series B funding led by Sequoia Capital
+    source: Business Wire
+    date: '2025-08-20'
+    confidence: explicit_statement
+  - fact: Total funding raised is $42-44.5 million across 3 rounds (seed, Series A,
+      Series B)
+    source: Business Wire / ePRNews
+    date: '2025-08-20'
+    confidence: explicit_statement
+  - fact: Raised $10 million in Series A funding led by Redpoint Ventures, bringing
+      total to $12.5 million
+    source: TechCrunch
+    date: '2023-03-15'
+    confidence: explicit_statement
+  - fact: Post-money valuation was $40 million after Series A
+    source: TechCrunch
+    date: '2023-03-15'
+    confidence: explicit_statement
+  - fact: Raised $2.5 million in seed funding from Root Ventures
+    source: TechCrunch / PRWeb
+    date: '2021-05-01'
+    confidence: implied
+  - fact: Company had 7 employees at Series A announcement
+    source: TechCrunch
+    date: '2023-03-15'
+    confidence: explicit_statement
+  - fact: Current headcount is 11-50 employees
+    source: PitchBook
+    date: '2025-11-11'
+    confidence: explicit_statement
+  - fact: 150,000 active developers per month as of August 2025
+    source: Sequoia Capital / Business Wire
+    date: '2025-08-20'
+    confidence: explicit_statement
+  - fact: Had 800 active weekly users during private alpha phase
+    source: TechCrunch
+    date: '2023-03-15'
+    confidence: explicit_statement
+  - fact: 1,100 open-source contributors to the project
+    source: Business Wire
+    date: '2025-08-20'
+    confidence: explicit_statement
+  - fact: 9% of Rust developers use Zed, up from 1% a year earlier
+    source: Sequoia Capital citing State of Rust Survey
+    date: '2025-08-20'
+    confidence: explicit_statement
+  - fact: Used by engineering teams at Anthropic, Linear, Ramp, and Shopify
+    source: Sequoia Capital
+    date: '2025-08-20'
+    confidence: explicit_statement
+  - fact: Company is not profitable; LLM bills became their biggest expense with more
+      paying customers translating to more money lost
+    source: zed.dev blog
+    date: '2024-09-24'
+    confidence: explicit_statement
+  - fact: Company was pre-revenue at Series A launch in March 2023
+    source: TechCrunch
+    date: '2023-03-15'
+    confidence: explicit_statement
+  - fact: No layoffs or restructuring events found
+    source: Multiple sources cross-referenced
+    date: '2025-11-11'
+    confidence: implied
+  - fact: Company is actively hiring with 6 open positions
+    source: Wellfound
+    date: '2025-11-11'
+    confidence: explicit_statement
+  missing_information:
+  - Annual revenue for 2023, 2024, or 2025
+  - Revenue growth rate percentages
+  - Monthly recurring revenue (MRR)
+  - Specific burn rate figures
+  - Runway estimates in months
+  - Breakdown of free vs. paid users
+  - Average revenue per user (ARPU)
+  - Customer churn rate
+  - Post-Series B valuation
+  - Gross margins
+market_position:
+  facts_found:
+  - fact: Zed is a next-generation code editor designed for high-performance collaboration
+      with humans and AI, built by the creators of Atom, Electron, and Tree-sitter
+    source: zed.dev
+    date: '2025-11-11'
+    confidence: explicit_statement
+  - fact: Written from scratch in Rust to efficiently leverage multiple CPU cores
+      and GPU
+    source: zed.dev
+    date: '2025-11-11'
+    confidence: explicit_statement
+  - fact: Zed is free and open source with GPL license for editor, AGPL for server
+      components, and Apache 2 for GPUI framework
+    source: Business Wire / Wikipedia
+    date: '2025-08-20'
+    confidence: explicit_statement
+  - fact: Went fully open-source in January 2024
+    source: zed.dev blog
+    date: '2024-01-24'
+    confidence: explicit_statement
+  - fact: Primary competitors include Visual Studio Code, Sublime Text, JetBrains
+      IDEs, Cursor, and Windsurf
+    source: PitchBook
+    date: '2025-11-11'
+    confidence: explicit_statement
+  - fact: Visual Studio Code dominates the market with 74% of developers according
+      to Stack Overflow
+    source: TechCrunch / The Register
+    date: '2025-09-30'
+    confidence: explicit_statement
+  - fact: Zed is the 2nd most popular AI IDE overall by usage
+    source: Sequoia Capital citing State of AI 2025
+    date: '2025-08-20'
+    confidence: explicit_statement
+  - fact: Benchmarks show Zed uses 142MB memory vs 730MB for VS Code
+    source: The Register / InfoWorld
+    date: '2025-09-30'
+    confidence: explicit_statement
+  - fact: Renders at ~120 FPS with GPU-accelerated performance
+    source: zed.dev blog / GitHub GPUI documentation
+    date: '2023-03-07'
+    confidence: explicit_statement
+  - fact: Available on macOS, Linux (stable), and Windows (launched October 15, 2025)
+    source: zed.dev blog
+    date: '2025-10-15'
+    confidence: explicit_statement
+  - fact: AI code editor market valued at $1.47 billion in 2024, projected to reach
+      $12.62 billion by 2033 at 23.9% CAGR
+    source: Growth Market Reports
+    date: '2025-11-11'
+    confidence: explicit_statement
+  - fact: 'Pricing model includes: Personal (free forever with 2,000 edit predictions),
+      Pro (usage-based at API cost +10%), and Enterprise (custom pricing)'
+    source: zed.dev/pricing
+    date: '2025-11-11'
+    confidence: explicit_statement
+  - fact: Shifted from unlimited AI pricing to token-based billing in September 2024
+      to address unsustainable unit economics
+    source: zed.dev blog
+    date: '2024-09-24'
+    confidence: explicit_statement
+  - fact: Product Hunt reviews praise 'speed, responsiveness, and clean, distraction-free
+      feel' with 'snappy performance and polished autocomplete'
+    source: Product Hunt
+    date: '2025-11-11'
+    confidence: explicit_statement
+  - fact: Endorsements from prominent developers including José Valim (Elixir creator),
+      Dan Abramov (React), and Mike Bostock (D3.js)
+    source: zed.dev
+    date: '2025-11-11'
+    confidence: explicit_statement
+  missing_information:
+  - Reviews on G2, Capterra, or TrustPilot (company too new for profiles on these
+    platforms)
+  - SOC2, ISO 27001, or other formal security certifications
+  - Specific market share percentage for Zed
+  - Revenue figures (private company)
+  - Named enterprise customer case studies
+  - Geographic distribution of user base
+organizational_stability:
+  facts_found:
+  - fact: Nathan Sobo is Co-Founder and CEO, led Atom team at GitHub from 2011-2018
+    source: PRWeb / TechCrunch
+    date: '2023-03-15'
+    confidence: explicit_statement
+  - fact: Max Brunsfeld is Co-Founder and Board Member, creator of Tree-sitter, joined
+      Atom team in 2013
+    source: Tracxn / Crunchbase
+    date: '2025-11-11'
+    confidence: explicit_statement
+  - fact: Antonio Scandurra is Co-Founder, joined Atom team in 2014, expert in distributed
+      systems and CRDTs
+    source: PRWeb / Crunchbase
+    date: '2023-03-15'
+    confidence: explicit_statement
+  - fact: All three co-founders remain active with no departures
+    source: zed.dev/team / Crunchbase
+    date: '2025-11-11'
+    confidence: implied
+  - fact: Conrad Irwin joined in 2023, former CTO at Superhuman
+    source: zed.dev/team
+    date: '2025-11-11'
+    confidence: explicit_statement
+  - fact: Board has 8 active members including Sonya Huang from Sequoia Capital (joined
+      August 2025)
+    source: Crunchbase
+    date: '2025-08-20'
+    confidence: explicit_statement
+  - fact: Headquartered in Boulder, Colorado
+    source: Tracxn / Business Wire
+    date: '2025-08-20'
+    confidence: explicit_statement
+  - fact: Company operates with remote/distributed work model
+    source: Remote Rocketship / zed.dev/jobs
+    date: '2025-11-11'
+    confidence: explicit_statement
+  - fact: Team members distributed across multiple cities including Philadelphia,
+      San Francisco, Oakland, Dallas, and Austin
+    source: zed.dev/team
+    date: '2025-11-11'
+    confidence: explicit_statement
+  - fact: Team page lists approximately 30+ individual team members with detailed
+      bios
+    source: zed.dev/team
+    date: '2025-11-11'
+    confidence: explicit_statement
+  - fact: Angel investors include Dylan Field (Figma), Tom Preston-Werner (GitHub),
+      Spencer Kimball (CockroachDB), and Rahul Vohra (Superhuman)
+    source: PRWeb / Business Wire
+    date: '2025-08-20'
+    confidence: explicit_statement
+  - fact: 'Company philosophy: ''A company for developers, by developers'' - all 3
+      founders still write code almost every day'
+    source: zed.dev/jobs
+    date: '2025-11-11'
+    confidence: explicit_statement
+  missing_information:
+  - Glassdoor ratings - no Glassdoor profile exists for Zed Industries (company too
+    small/new)
+  - Overall, culture, work-life balance, and compensation ratings not available
+  - Employee reviews on Glassdoor, Blind, or Indeed not found
+  - Specific VP or additional C-suite titles beyond CEO
+  - Complete board composition (only 4 of 8 members identified)
+  - Advisory board information
+  - 'Exact current headcount (only ranges: 11-50 per PitchBook, ~30 on team page)'
+  - Details about physical office space vs. fully remote
+technical_culture:
+  facts_found:
+  - fact: Entire codebase written in Rust
+    source: GitHub zed-industries/zed
+    date: '2024-01-24'
+    confidence: explicit_statement
+  - fact: Created GPUI, a custom GPU-accelerated UI framework written in Rust
+    source: gpui.rs / GitHub
+    date: '2024-01-03'
+    confidence: explicit_statement
+  - fact: Uses DirectX 11 for Windows, Vulkan for Linux, and Metal for macOS rendering
+    source: zed.dev/blog
+    date: '2025-08-19'
+    confidence: explicit_statement
+  - fact: Main GitHub repository has 69,433 stars and 5,890 forks
+    source: GitHub
+    date: '2025-11-11'
+    confidence: explicit_statement
+  - fact: 'Gained 52,000+ GitHub stars in 2024, ranked #2 on ROSS Index 2024'
+    source: TechCrunch ROSS Index 2024
+    date: '2024-12-31'
+    confidence: explicit_statement
+  - fact: Team created Tree-sitter, an open source parsing system with 21,400+ stars
+    source: GitHub tree-sitter/tree-sitter
+    date: '2018-10-31'
+    confidence: explicit_statement
+  - fact: Previously created Atom editor and Electron framework at GitHub
+    source: zed.dev/team
+    date: '2025-11-11'
+    confidence: explicit_statement
+  - fact: Active engineering blog with weekly 'This Week at Zed Industries' series
+    source: zed.dev/blog
+    date: '2025-11-11'
+    confidence: explicit_statement
+  - fact: Publishes 'Zed Decoded' technical deep-dive series covering topics like
+      Rope Optimizations, Async Rust, and Wasm extensions
+    source: zed.dev/blog
+    date: '2024-11-01'
+    confidence: explicit_statement
+  - fact: Uses CRDTs (Conflict-Free Replicated Data Types) for real-time collaboration
+    source: zed.dev/blog
+    date: '2022-12-01'
+    confidence: explicit_statement
+  - fact: Launched Zeta, an open-source language model for edit prediction
+    source: zed.dev
+    date: '2025-02-13'
+    confidence: explicit_statement
+  - fact: Partnership with Baseten achieved 2x faster AI code completions with P90
+      latency under 500ms
+    source: The New Stack
+    date: '2024-01-01'
+    confidence: explicit_statement
+  - fact: Launched Agent Server Extensions enabling one-click installation of ACP-compatible
+      agents
+    source: zed.dev/blog
+    date: '2025-11-06'
+    confidence: explicit_statement
+  - fact: Target rendering performance of 120 FPS
+    source: zed.dev/blog / GitHub GPUI docs
+    date: '2023-03-07'
+    confidence: explicit_statement
+  - fact: Uses deterministic test execution environment for confident large-scale
+      changes
+    source: Wellfound job postings
+    date: '2025-11-11'
+    confidence: explicit_statement
+  - fact: Strong Hacker News community presence with multiple high-engagement discussions
+    source: news.ycombinator.com
+    date: '2025-11-11'
+    confidence: explicit_statement
+  - fact: Max Brunsfeld presented Tree-sitter at Strange Loop 2018
+    source: thestrangeloop.com / GitHub blog
+    date: '2018-10-31'
+    confidence: explicit_statement
+  missing_information:
+  - Recent (2024-2025) conference presentations beyond blog mentions
+  - Specific interview process details or coding challenges
+  - Code review practices and PR requirements
+  - Unit test coverage requirements
+  - Detailed CI/CD pipeline configuration
+  - Engineering productivity metrics or KPIs
+  - Formal onboarding process documentation
+  - Detailed contributor guidelines beyond basic CONTRIBUTING.md
+summary:
+  total_facts_found: 60
+  information_completeness: high
+  most_recent_data_point: '2025-11-11'
+  oldest_data_point: '2018-10-31'
+company_slug: zed-industries
