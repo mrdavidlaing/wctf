@@ -9,7 +9,7 @@ class TestLeadership:
 
     def test_leadership_vp_valid(self):
         """Test creating Leadership with VP info."""
-        from wctf_core.models_orgmap import Leadership
+        from wctf_core.models.orgmap import Leadership
 
         leader = Leadership(
             vp_name="Jane Smith",
@@ -25,7 +25,7 @@ class TestLeadership:
 
     def test_leadership_director_valid(self):
         """Test creating Leadership with Director info."""
-        from wctf_core.models_orgmap import Leadership
+        from wctf_core.models.orgmap import Leadership
 
         leader = Leadership(
             director_name="Alex Chen",
@@ -38,7 +38,7 @@ class TestLeadership:
 
     def test_leadership_minimal(self):
         """Test creating Leadership with minimal fields."""
-        from wctf_core.models_orgmap import Leadership
+        from wctf_core.models.orgmap import Leadership
 
         leader = Leadership()
 
@@ -51,7 +51,7 @@ class TestOrgMetrics:
 
     def test_orgmetrics_valid_headcount(self):
         """Test OrgMetrics with valid headcount format."""
-        from wctf_core.models_orgmap import OrgMetrics
+        from wctf_core.models.orgmap import OrgMetrics
 
         metrics = OrgMetrics(
             estimated_headcount="800-1000",
@@ -67,7 +67,7 @@ class TestOrgMetrics:
 
     def test_orgmetrics_invalid_headcount_format(self):
         """Test OrgMetrics rejects invalid headcount format."""
-        from wctf_core.models_orgmap import OrgMetrics
+        from wctf_core.models.orgmap import OrgMetrics
 
         with pytest.raises(ValidationError) as exc_info:
             OrgMetrics(
@@ -79,7 +79,7 @@ class TestOrgMetrics:
 
     def test_orgmetrics_minimal(self):
         """Test OrgMetrics with minimal fields."""
-        from wctf_core.models_orgmap import OrgMetrics
+        from wctf_core.models.orgmap import OrgMetrics
 
         metrics = OrgMetrics(
             estimated_headcount="40-50",

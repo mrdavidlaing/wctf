@@ -30,6 +30,10 @@ from wctf_core.models.task import (
     TaskCharacteristics,
     TaskImplication,
 )
+from wctf_core.models.orgmap import (
+    Leadership,
+    OrgMetrics,
+)
 
 # Rebuild models that have forward references to TaskImplication
 Flag.model_rebuild()
@@ -66,4 +70,7 @@ __all__ = [
     "EnergyMatrixQuadrant",
     "TaskCharacteristics",
     "TaskImplication",
+    # Orgmap models
+    "Leadership",
+    "OrgMetrics",
 ]
