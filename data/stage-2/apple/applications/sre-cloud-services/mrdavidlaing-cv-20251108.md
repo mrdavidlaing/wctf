@@ -95,6 +95,18 @@ Built Dublin SRE team from scratch. Orchestrated initiatives across 80+ R&D team
 
 <div class="keep-together">
 
+### Founder
+**Stayup.io** | March 2015 - December 2015
+
+Founded startup to commercialize LogSearch open-source project. Acquired by Pivotal Software.
+
+- Built commercial product offering for LogSearch, providing log aggregation and analysis for Cloud Foundry deployments
+- Startup acquired by Pivotal Software, leading to role building SRE team in Dublin
+
+</div>
+
+<div class="keep-together">
+
 ### R&D Team Leader
 **City Index Ltd** | December 2008 - March 2015
 
@@ -105,18 +117,6 @@ Led R&D transformation at financial services company, establishing modern engine
 - **Pioneered AWS and Ubuntu adoption** for distributed systems management, catching the infrastructure management bug
 - Established TDD/Agile practices across development teams
 - Operated critical systems for financial trading platform serving retail and institutional clients
-
-</div>
-
-<div class="keep-together">
-
-### Founder
-**Stayup.io** | March 2015 - December 2015
-
-Founded startup to commercialize LogSearch open-source project. Acquired by Pivotal Software.
-
-- Built commercial product offering for LogSearch, providing log aggregation and analysis for Cloud Foundry deployments
-- Startup acquired by Pivotal Software, leading to role building SRE team in Dublin
 
 </div>
 
