@@ -89,7 +89,7 @@ Built Dublin SRE team from scratch. Orchestrated initiatives across 80+ R&D team
 - **Operated Redis and Elasticsearch clusters on BOSH-managed VMs** for platform services at scale
 - **Collaborated with Google SRE engineers** on SLI/SLO design and error budget implementation
 - Maintained **pivotaltracker.com reliability (1M active users)** and UK charity donation platforms processing **£1B+ annual donations**
-- Eliminated deployment friction for enterprise customers through data-driven analysis of upgrade challenges
+- **Created Freshness & Vulnerability Budget framework** applying SRE error budget principles to software update management, orchestrating upgrade initiatives across 80+ R&D teams in 6 global offices
 
 </div>
 
