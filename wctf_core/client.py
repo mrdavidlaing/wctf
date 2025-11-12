@@ -683,3 +683,42 @@ class WCTFClient:
             True
         """
         return get_evaluation_summary_op(base_path=self.data_dir)
+
+    # Organizational mapping methods
+
+    def save_orgmap(self, company_name: str, orgmap_yaml: str) -> Dict:
+        """Save organizational map.
+
+        Args:
+            company_name: Company name
+            orgmap_yaml: YAML string with org structure
+
+        Returns:
+            Dict with success status and saved orgmap
+
+        Example:
+            >>> client = WCTFClient()
+            >>> result = client.save_orgmap("Chronosphere", orgmap_yaml)  # doctest: +SKIP
+            >>> result['success']
+            True
+        """
+        from wctf_core.operations import orgmap
+        return orgmap.save_orgmap(company_name, orgmap_yaml, self.data_dir)
+
+    def get_orgmap(self, company_name: str) -> Dict:
+        """Get organizational map.
+
+        Args:
+            company_name: Company name
+
+        Returns:
+            Dict with orgmap data or error
+
+        Example:
+            >>> client = WCTFClient()
+            >>> result = client.get_orgmap("Chronosphere")  # doctest: +SKIP
+            >>> len(result['orgmap']['peaks'])
+            3
+        """
+        from wctf_core.operations import orgmap
+        return orgmap.get_orgmap(company_name, self.data_dir)

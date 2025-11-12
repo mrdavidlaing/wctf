@@ -424,3 +424,78 @@ class TestErrorMessages:
 
         # Should mention parsing or YAML
         assert "parse" in error.lower() or "yaml" in error.lower() or "invalid" in error.lower()
+
+
+class TestClientOrgmapMethods:
+    """Tests for WCTFClient orgmap methods."""
+
+    def test_save_orgmap(self, tmp_path):
+        """Test client.save_orgmap()."""
+        from wctf_core import WCTFClient
+
+        client = WCTFClient(data_dir=tmp_path)
+
+        orgmap_yaml = """
+company: Test Company
+company_slug: test-company
+last_updated: '2025-11-11'
+mapping_metadata:
+  sources: [LinkedIn]
+peaks:
+  - peak_id: test_peak
+    peak_name: Test Peak
+    leadership:
+      vp_name: VP Name
+    mission: Mission
+    org_metrics:
+      estimated_headcount: 50-100
+      growth_trend: stable
+    tech_focus:
+      primary: [Python]
+    coordination_signals:
+      style_indicators: alpine
+      evidence: [Fast]
+"""
+
+        result = client.save_orgmap("Test Company", orgmap_yaml)
+
+        assert result['success'] is True
+        assert 'orgmap' in result
+
+    def test_get_orgmap(self, tmp_path):
+        """Test client.get_orgmap()."""
+        from wctf_core import WCTFClient
+
+        client = WCTFClient(data_dir=tmp_path)
+
+        orgmap_yaml = """
+company: Test Company
+company_slug: test-company
+last_updated: '2025-11-11'
+mapping_metadata:
+  sources: [LinkedIn]
+peaks:
+  - peak_id: test_peak
+    peak_name: Test Peak
+    leadership:
+      vp_name: VP Name
+    mission: Mission
+    org_metrics:
+      estimated_headcount: 50-100
+      growth_trend: stable
+    tech_focus:
+      primary: [Python]
+    coordination_signals:
+      style_indicators: alpine
+      evidence: [Fast]
+"""
+
+        # Save first
+        client.save_orgmap("Test Company", orgmap_yaml)
+
+        # Now get
+        result = client.get_orgmap("Test Company")
+
+        assert result['success'] is True
+        assert result['orgmap']['company'] == "Test Company"
+        assert len(result['orgmap']['peaks']) == 1
