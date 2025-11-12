@@ -1,6 +1,6 @@
 # WCTF Core SDK Reference
 
-Auto-generated from wctf_core v0.2.0 on 2025-10-20
+Auto-generated from wctf_core v0.2.0 on 2025-11-12
 
 ## Overview
 
@@ -581,6 +581,92 @@ True
 
 ---
 
+### Organizational Mapping
+
+**`save_orgmap(company_name: <class 'str'>, orgmap_yaml: <class 'str'>) -> Dict`**
+
+Save organizational map.
+
+**Parameters:**
+- company_name: Company name
+- orgmap_yaml: YAML string with org structure
+
+**Returns:**
+Dict with success status and saved orgmap
+
+**Example:**
+```python
+>>> client = WCTFClient()
+>>> result = client.save_orgmap("Chronosphere", orgmap_yaml)  # doctest: +SKIP
+>>> result['success']
+True
+```
+
+
+**`get_orgmap(company_name: <class 'str'>) -> Dict`**
+
+Get organizational map.
+
+**Parameters:**
+- company_name: Company name
+
+**Returns:**
+Dict with orgmap data or error
+
+**Example:**
+```python
+>>> client = WCTFClient()
+>>> result = client.get_orgmap("Chronosphere")  # doctest: +SKIP
+>>> len(result['orgmap']['peaks'])
+3
+```
+
+
+---
+
+### Role Search
+
+**`save_roles(company_name: <class 'str'>, roles_yaml: <class 'str'>) -> Dict`**
+
+Save role search results.
+
+**Parameters:**
+- company_name: Company name
+- roles_yaml: YAML string with roles
+
+**Returns:**
+Dict with success status and saved roles
+
+**Example:**
+```python
+>>> client = WCTFClient()
+>>> result = client.save_roles("Apple", roles_yaml)  # doctest: +SKIP
+>>> result['success']
+True
+```
+
+
+**`get_roles(company_name: <class 'str'>) -> Dict`**
+
+Get open roles.
+
+**Parameters:**
+- company_name: Company name
+
+**Returns:**
+Dict with roles data or error
+
+**Example:**
+```python
+>>> client = WCTFClient()
+>>> result = client.get_roles("Apple")  # doctest: +SKIP
+>>> result['roles']['total_roles']
+15
+```
+
+
+---
+
 ## Data Models
 
 Pydantic models for validating company data structures.
@@ -623,10 +709,10 @@ Categories:
 | `company` | `<class 'str'>` | Company display name |
 | `company_slug` | `Optional[str]` | Slugified company name for filesystem (auto-generated if not provided) |
 | `research_date` | `<class 'datetime.date'>` | Date when research was conducted |
-| `financial_health` | `<class 'wctf_core.models.FactsCategory'>` | Financial health facts |
-| `market_position` | `<class 'wctf_core.models.FactsCategory'>` | Market position facts |
-| `organizational_stability` | `<class 'wctf_core.models.FactsCategory'>` | Organizational stability facts |
-| `technical_culture` | `<class 'wctf_core.models.FactsCategory'>` | Technical culture facts |
+| `financial_health` | `<class 'wctf_core.models.company.FactsCategory'>` | Financial health facts |
+| `market_position` | `<class 'wctf_core.models.company.FactsCategory'>` | Market position facts |
+| `organizational_stability` | `<class 'wctf_core.models.company.FactsCategory'>` | Organizational stability facts |
+| `technical_culture` | `<class 'wctf_core.models.company.FactsCategory'>` | Technical culture facts |
 | `summary` | `Dict[str, Any]` | Summary of all findings |
 
 ---
@@ -644,10 +730,10 @@ Complete insider facts structure for a company.
 | `company` | `<class 'str'>` | Company display name |
 | `company_slug` | `Optional[str]` | Slugified company name for filesystem (auto-generated if not provided) |
 | `last_updated` | `<class 'datetime.date'>` | Date when last updated |
-| `financial_health` | `<class 'wctf_core.models.InsiderFactsCategory'>` | Financial health facts |
-| `market_position` | `<class 'wctf_core.models.InsiderFactsCategory'>` | Market position facts |
-| `organizational_stability` | `<class 'wctf_core.models.InsiderFactsCategory'>` | Organizational stability facts |
-| `technical_culture` | `<class 'wctf_core.models.InsiderFactsCategory'>` | Technical culture facts |
+| `financial_health` | `<class 'wctf_core.models.company.InsiderFactsCategory'>` | Financial health facts |
+| `market_position` | `<class 'wctf_core.models.company.InsiderFactsCategory'>` | Market position facts |
+| `organizational_stability` | `<class 'wctf_core.models.company.InsiderFactsCategory'>` | Organizational stability facts |
+| `technical_culture` | `<class 'wctf_core.models.company.InsiderFactsCategory'>` | Technical culture facts |
 | `summary` | `Dict[str, Any]` | Summary including interview metadata |
 
 ---
@@ -659,6 +745,7 @@ Evaluation flags structure
 Complete flags structure for a company evaluation.
 
 Uses double hierarchy: mountain elements (what aspect) -> severity (how important).
+Includes task implications for Energy Matrix analysis.
 
 **Fields:**
 
@@ -668,11 +755,12 @@ Uses double hierarchy: mountain elements (what aspect) -> severity (how importan
 | `company_slug` | `Optional[str]` | Slugified company name for filesystem (auto-generated if not provided) |
 | `evaluation_date` | `<class 'datetime.date'>` | Date when evaluation was done |
 | `evaluator_context` | `<class 'str'>` | Context of the evaluator |
+| `profile_version_used` | `Optional[str]` | Version of profile.yaml used for this evaluation |
 | `staff_engineer_alignment` | `Dict[str, str]` | Alignment with staff engineer criteria |
-| `green_flags` | `Dict[str, wctf_core.models.MountainElementGreenFlags]` | Positive indicators organized by mountain element (mountain_range, chosen_peak, rope_team_confidence, daily_climb, story_worth_telling) |
-| `red_flags` | `Dict[str, wctf_core.models.MountainElementRedFlags]` | Negative indicators organized by mountain element |
-| `missing_critical_data` | `List[wctf_core.models.MissingCriticalData]` | Critical missing information |
-| `synthesis` | `Dict[str, Any]` | Overall synthesis and recommendation |
+| `green_flags` | `Dict[str, wctf_core.models.company.MountainElementGreenFlags]` | Positive indicators organized by mountain element (mountain_range, chosen_peak, rope_team_confidence, daily_climb, story_worth_telling) |
+| `red_flags` | `Dict[str, wctf_core.models.company.MountainElementRedFlags]` | Negative indicators organized by mountain element |
+| `missing_critical_data` | `List[wctf_core.models.company.MissingCriticalData]` | Critical missing information |
+| `synthesis` | `Optional[Dict[str, Any]]` | Overall synthesis and recommendation including Energy Matrix analysis |
 
 ---
 
@@ -738,7 +826,7 @@ A category of facts with found and missing information.
 
 | Field | Type | Description |
 |-------|------|-------------|
-| `facts_found` | `List[wctf_core.models.Fact]` | Facts found in this category |
+| `facts_found` | `List[wctf_core.models.company.Fact]` | Facts found in this category |
 | `missing_information` | `List[str]` | Information not found |
 
 ---
@@ -761,6 +849,130 @@ Indicates how directly the fact was stated or observed:
 Fact type enum (objective/subjective)
 
 Types of facts from insider interviews.
+
+---
+
+### CompanyOrgMap
+
+Organizational map structure
+
+Complete organizational map.
+
+**Fields:**
+
+| Field | Type | Description |
+|-------|------|-------------|
+| `company` | `<class 'str'>` |  |
+| `company_slug` | `<class 'str'>` |  |
+| `last_updated` | `<class 'str'>` | YYYY-MM-DD format |
+| `mapping_metadata` | `Dict` | sources, confidence, notes |
+| `peaks` | `List[wctf_core.models.orgmap.Peak]` |  |
+
+---
+
+### Peak
+
+VP-level organizational unit
+
+VP-level organization.
+
+**Fields:**
+
+| Field | Type | Description |
+|-------|------|-------------|
+| `peak_id` | `<class 'str'>` | Unique identifier, e.g., 'apple_cloud_services' |
+| `peak_name` | `<class 'str'>` |  |
+| `leadership` | `<class 'wctf_core.models.orgmap.Leadership'>` |  |
+| `mission` | `<class 'str'>` |  |
+| `org_metrics` | `<class 'wctf_core.models.orgmap.OrgMetrics'>` |  |
+| `tech_focus` | `Dict[str, List[str]]` | primary and secondary tech areas |
+| `coordination_signals` | `<class 'wctf_core.models.orgmap.CoordinationSignals'>` |  |
+| `insider_connections` | `List[wctf_core.models.orgmap.InsiderConnection]` |  |
+| `rope_teams` | `List[wctf_core.models.orgmap.RopeTeam]` |  |
+
+---
+
+### RopeTeam
+
+Director-level team within a Peak
+
+Director-level team cluster.
+
+**Fields:**
+
+| Field | Type | Description |
+|-------|------|-------------|
+| `team_id` | `<class 'str'>` | Unique identifier, e.g., 'apple_k8s_platform' |
+| `team_name` | `<class 'str'>` |  |
+| `leadership` | `<class 'wctf_core.models.orgmap.Leadership'>` |  |
+| `mission` | `<class 'str'>` |  |
+| `estimated_size` | `<class 'str'>` | e.g., '40-50 engineers' |
+| `tech_focus` | `List[str]` | Primary technologies |
+| `public_presence` | `List[str]` | Talks, blog posts |
+| `insider_info` | `Optional[Dict]` | Contact and notes |
+
+---
+
+### CompanyRoles
+
+Role search results structure
+
+All roles for company.
+
+**Fields:**
+
+| Field | Type | Description |
+|-------|------|-------------|
+| `company` | `<class 'str'>` |  |
+| `company_slug` | `<class 'str'>` |  |
+| `last_updated` | `<class 'str'>` | YYYY-MM-DD format |
+| `search_metadata` | `Dict` | sources, last_search_date |
+| `peaks` | `List[wctf_core.models.orgmap.PeakRoles]` |  |
+| `unmapped_roles` | `List[wctf_core.models.orgmap.Role]` | Roles not linked to orgmap |
+
+---
+
+### Role
+
+Single open role with WCTF analysis
+
+Job role posting.
+
+**Fields:**
+
+| Field | Type | Description |
+|-------|------|-------------|
+| `role_id` | `<class 'str'>` | Unique identifier, e.g., 'apple_202511_senior_swe_k8s' |
+| `title` | `<class 'str'>` |  |
+| `url` | `<class 'str'>` |  |
+| `posted_date` | `<class 'str'>` | YYYY-MM-DD format |
+| `location` | `<class 'str'>` |  |
+| `rope_team_id` | `Optional[str]` | References company.orgmap.yaml |
+| `rope_team_name` | `Optional[str]` |  |
+| `seniority` | `Literal['senior_ic', 'staff_plus', 'management']` |  |
+| `description` | `<class 'str'>` |  |
+| `requirements` | `List[str]` |  |
+| `salary_range` | `Optional[str]` |  |
+| `wctf_analysis` | `<class 'wctf_core.models.orgmap.WCTFAnalysis'>` |  |
+
+---
+
+### WCTFAnalysis
+
+WCTF framework analysis of a role
+
+WCTF framework analysis of role.
+
+**Fields:**
+
+| Field | Type | Description |
+|-------|------|-------------|
+| `analyzed_date` | `Optional[str]` | YYYY-MM-DD when analyzed |
+| `coordination_style` | `Optional[Literal['alpine', 'expedition', 'established', 'orienteering', 'trail_crew']]` |  |
+| `terrain_match` | `Optional[Literal['good_fit', 'workable', 'mismatched']]` |  |
+| `mountain_clarity` | `Optional[Literal['clear', 'unclear', 'conflicting']]` |  |
+| `energy_matrix` | `Dict` | Predicted quadrants and tasks |
+| `alignment_signals` | `Dict` | Green/red flags |
 
 ---
 

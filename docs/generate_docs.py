@@ -144,7 +144,9 @@ def generate_client_api_docs() -> str:
         "Flags Operations": ["get_flags", "get_flags_extraction_prompt", "save_flags", "add_flag"],
         "Research Workflow": ["get_research_prompt"],
         "Insider Interview": ["get_insider_extraction_prompt", "save_insider_facts"],
-        "Conversation & Decision": ["get_conversation_questions", "gut_check", "save_decision", "get_evaluation_summary"]
+        "Conversation & Decision": ["get_conversation_questions", "gut_check", "save_decision", "get_evaluation_summary"],
+        "Organizational Mapping": ["save_orgmap", "get_orgmap"],
+        "Role Search": ["save_roles", "get_roles"]
     }
 
     for category, method_names in categories.items():
@@ -208,6 +210,12 @@ def generate_models_docs() -> str:
         ("FactsCategory", models.FactsCategory, "Category of facts"),
         ("ConfidenceLevel", models.ConfidenceLevel, "Confidence level enum"),
         ("FactType", models.FactType, "Fact type enum (objective/subjective)"),
+        ("CompanyOrgMap", models.CompanyOrgMap, "Organizational map structure"),
+        ("Peak", models.Peak, "VP-level organizational unit"),
+        ("RopeTeam", models.RopeTeam, "Director-level team within a Peak"),
+        ("CompanyRoles", models.CompanyRoles, "Role search results structure"),
+        ("Role", models.Role, "Single open role with WCTF analysis"),
+        ("WCTFAnalysis", models.WCTFAnalysis, "WCTF framework analysis of a role"),
     ]
 
     for name, model_class, description in model_classes:
