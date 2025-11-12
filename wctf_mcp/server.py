@@ -720,6 +720,27 @@ async def get_roles_tool(company_name: str, ctx: Context) -> str:
 
 
 @mcp.tool()
+async def get_orgmap_extraction_prompt_tool(company_name: str, ctx: Context) -> str:
+    """Get prompt for extracting organizational map from research.
+
+    Args:
+        company_name: Company name
+
+    Returns:
+        Detailed prompt for mapping VP orgs and Director teams
+    """
+    from wctf_core.operations.prompts import get_orgmap_extraction_prompt
+
+    await ctx.info(f"Generating orgmap extraction prompt for {company_name}")
+    logger.info(f"get_orgmap_extraction_prompt_tool called for: {company_name}")
+
+    prompt = get_orgmap_extraction_prompt(company_name)
+
+    await ctx.info(f"Prompt generated for {company_name}")
+    return prompt
+
+
+@mcp.tool()
 async def get_profile(ctx: Context) -> str:
     """Get current profile.yaml for reference during flag extraction.
 
