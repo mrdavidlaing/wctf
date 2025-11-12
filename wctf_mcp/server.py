@@ -591,6 +591,70 @@ async def get_evaluation_summary_tool(ctx: Context) -> dict:
 
 
 @mcp.tool()
+async def save_orgmap_tool(company_name: str, orgmap_yaml: str, ctx: Context) -> str:
+    """Save organizational map for a company.
+
+    Args:
+        company_name: Company name
+        orgmap_yaml: YAML string with org structure (peaks, rope teams, leadership)
+
+    Returns:
+        Success message with validation results
+    """
+    from wctf_core.operations import orgmap
+
+    await ctx.info(f"Saving orgmap for {company_name}")
+    logger.info(f"save_orgmap_tool called for: {company_name}")
+
+    result = orgmap.save_orgmap(company_name, orgmap_yaml)
+
+    if result['success']:
+        orgmap_data = result['orgmap']
+        message = f"""Successfully saved orgmap for {company_name}
+
+Peaks: {orgmap_data['total_peaks']}
+Rope Teams: {orgmap_data['total_rope_teams']}
+File: {result['path']}"""
+        logger.info(f"Successfully saved orgmap for {company_name}")
+        await ctx.info(f"Orgmap saved successfully")
+        return message
+    else:
+        error_msg = f"Error saving orgmap: {result['error']}"
+        logger.warning(f"Failed to save orgmap for {company_name}: {result['error']}")
+        await ctx.warning(error_msg)
+        return error_msg
+
+
+@mcp.tool()
+async def get_orgmap_tool(company_name: str, ctx: Context) -> str:
+    """Get organizational map for a company.
+
+    Args:
+        company_name: Company name
+
+    Returns:
+        Organizational map as YAML string
+    """
+    from wctf_core.operations import orgmap
+    import yaml
+
+    await ctx.info(f"Retrieving orgmap for {company_name}")
+    logger.info(f"get_orgmap_tool called for: {company_name}")
+
+    result = orgmap.get_orgmap(company_name)
+
+    if result['success']:
+        logger.info(f"Successfully retrieved orgmap for {company_name}")
+        await ctx.info(f"Orgmap retrieved successfully")
+        return yaml.dump(result['orgmap'], sort_keys=False)
+    else:
+        error_msg = f"Error: {result['error']}"
+        logger.warning(f"Failed to retrieve orgmap for {company_name}: {result['error']}")
+        await ctx.warning(error_msg)
+        return error_msg
+
+
+@mcp.tool()
 async def get_profile(ctx: Context) -> str:
     """Get current profile.yaml for reference during flag extraction.
 
