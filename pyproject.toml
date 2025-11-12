@@ -35,6 +35,9 @@ addopts = [
     "--strict-markers",
     "--strict-config",
 ]
+markers = [
+    "asyncio: marks tests as async (used by pytest-anyio)",
+]
 
 [tool.coverage.run]
 source = ["wctf_core"]

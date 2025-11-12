@@ -655,6 +655,71 @@ async def get_orgmap_tool(company_name: str, ctx: Context) -> str:
 
 
 @mcp.tool()
+async def save_roles_tool(company_name: str, roles_yaml: str, ctx: Context) -> str:
+    """Save role search results for a company.
+
+    Args:
+        company_name: Company name
+        roles_yaml: YAML string with roles (peaks, roles, unmapped_roles)
+
+    Returns:
+        Success message with role counts
+    """
+    from wctf_core.operations import roles
+
+    await ctx.info(f"Saving roles for {company_name}")
+    logger.info(f"save_roles_tool called for: {company_name}")
+
+    result = roles.save_roles(company_name, roles_yaml)
+
+    if result['success']:
+        roles_data = result['roles']
+        message = f"""Successfully saved roles for {company_name}
+
+Total Roles: {roles_data['total_roles']}
+Mapped: {roles_data['mapped_roles']}
+Unmapped: {roles_data['unmapped_count']}
+File: {result['path']}"""
+        logger.info(f"Successfully saved roles for {company_name}")
+        await ctx.info(f"Roles saved successfully")
+        return message
+    else:
+        error_msg = f"Error saving roles: {result['error']}"
+        logger.warning(f"Failed to save roles for {company_name}: {result['error']}")
+        await ctx.warning(error_msg)
+        return error_msg
+
+
+@mcp.tool()
+async def get_roles_tool(company_name: str, ctx: Context) -> str:
+    """Get open roles for a company.
+
+    Args:
+        company_name: Company name
+
+    Returns:
+        Roles as YAML string
+    """
+    from wctf_core.operations import roles
+    import yaml
+
+    await ctx.info(f"Retrieving roles for {company_name}")
+    logger.info(f"get_roles_tool called for: {company_name}")
+
+    result = roles.get_roles(company_name)
+
+    if result['success']:
+        logger.info(f"Successfully retrieved roles for {company_name}")
+        await ctx.info(f"Roles retrieved successfully")
+        return yaml.dump(result['roles'], sort_keys=False)
+    else:
+        error_msg = f"Error: {result['error']}"
+        logger.warning(f"Failed to retrieve roles for {company_name}: {result['error']}")
+        await ctx.warning(error_msg)
+        return error_msg
+
+
+@mcp.tool()
 async def get_profile(ctx: Context) -> str:
     """Get current profile.yaml for reference during flag extraction.
 
