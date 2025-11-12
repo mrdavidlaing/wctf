@@ -499,3 +499,74 @@ peaks:
         assert result['success'] is True
         assert result['orgmap']['company'] == "Test Company"
         assert len(result['orgmap']['peaks']) == 1
+
+
+class TestClientRolesMethods:
+    """Tests for WCTFClient roles methods."""
+
+    def test_save_roles(self, tmp_path):
+        """Test client.save_roles()."""
+        from wctf_core import WCTFClient
+
+        client = WCTFClient(data_dir=tmp_path)
+
+        roles_yaml = """
+company: Test Company
+company_slug: test-company
+last_updated: '2025-11-11'
+search_metadata:
+  sources: [careers_page]
+peaks:
+  - peak_id: peak1
+    peak_name: Peak 1
+    roles:
+      - role_id: role1
+        title: Senior SWE
+        url: https://jobs.com/1
+        posted_date: '2025-11-01'
+        location: Remote
+        seniority: senior_ic
+        description: Work
+unmapped_roles: []
+"""
+
+        result = client.save_roles("Test Company", roles_yaml)
+
+        assert result['success'] is True
+        assert 'roles' in result
+
+    def test_get_roles(self, tmp_path):
+        """Test client.get_roles()."""
+        from wctf_core import WCTFClient
+
+        client = WCTFClient(data_dir=tmp_path)
+
+        roles_yaml = """
+company: Test Company
+company_slug: test-company
+last_updated: '2025-11-11'
+search_metadata:
+  sources: [careers_page]
+peaks:
+  - peak_id: peak1
+    peak_name: Peak 1
+    roles:
+      - role_id: role1
+        title: Senior SWE
+        url: https://jobs.com/1
+        posted_date: '2025-11-01'
+        location: Remote
+        seniority: senior_ic
+        description: Work
+unmapped_roles: []
+"""
+
+        # Save first
+        client.save_roles("Test Company", roles_yaml)
+
+        # Now get
+        result = client.get_roles("Test Company")
+
+        assert result['success'] is True
+        assert result['roles']['company'] == "Test Company"
+        assert result['roles']['total_roles'] == 1

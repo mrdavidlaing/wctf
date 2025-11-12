@@ -722,3 +722,42 @@ class WCTFClient:
         """
         from wctf_core.operations import orgmap
         return orgmap.get_orgmap(company_name, self.data_dir)
+
+    # Role search methods
+
+    def save_roles(self, company_name: str, roles_yaml: str) -> Dict:
+        """Save role search results.
+
+        Args:
+            company_name: Company name
+            roles_yaml: YAML string with roles
+
+        Returns:
+            Dict with success status and saved roles
+
+        Example:
+            >>> client = WCTFClient()
+            >>> result = client.save_roles("Apple", roles_yaml)  # doctest: +SKIP
+            >>> result['success']
+            True
+        """
+        from wctf_core.operations import roles
+        return roles.save_roles(company_name, roles_yaml, self.data_dir)
+
+    def get_roles(self, company_name: str) -> Dict:
+        """Get open roles.
+
+        Args:
+            company_name: Company name
+
+        Returns:
+            Dict with roles data or error
+
+        Example:
+            >>> client = WCTFClient()
+            >>> result = client.get_roles("Apple")  # doctest: +SKIP
+            >>> result['roles']['total_roles']
+            15
+        """
+        from wctf_core.operations import roles
+        return roles.get_roles(company_name, self.data_dir)
