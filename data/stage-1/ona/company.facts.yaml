@@ -1,0 +1,245 @@
+company: Ona
+company_slug: ona
+research_date: '2025-11-27'
+financial_health:
+  facts_found:
+  - fact: Raised $41 million across three funding rounds - $3M seed (Oct 2020), $13M
+      bridge (Apr 2021), $25M Series A (Nov 2022)
+    source: Company announcements and investor disclosures
+    date: '2022-11-01'
+    confidence: explicit_statement
+  - fact: Series A led by Tom Preston-Werner (GitHub founder) with participation from
+      Tobi Lütke (Shopify CEO), Olivier Pomel (Datadog CEO), and Kent Beck
+    source: Company press releases
+    date: '2022-11-01'
+    confidence: explicit_statement
+  - fact: No new funding in three years since November 2022 Series A
+    source: Public funding records
+    date: '2025-11-27'
+    confidence: explicit_statement
+  - fact: Third-party revenue estimates of $3.8-4 million annually
+    source: LeadIQ, GetLatka
+    date: '2025-11-27'
+    confidence: implied
+  - fact: Company claims Enterprise ARR has "quadrupled year-over-year" with a "near
+      8-figure contract" with single customer
+    source: Ona rebrand announcement
+    date: '2025-09-02'
+    confidence: explicit_statement
+  - fact: Series A reportedly "tripled company valuation" suggesting post-money valuation
+      of $75-120 million
+    source: Investor communications
+    date: '2022-11-01'
+    confidence: implied
+  - fact: Two significant layoff rounds - 21 employees (28%) in January 2023, followed
+      by second unreported round in April 2024
+    source: CEO acknowledgment (Jan 2023), Glassdoor reviews and Hacker News (Apr
+      2024)
+    date: '2024-04-01'
+    confidence: explicit_statement
+  - fact: Current headcount ranges from 22 to 70 people according to various sources,
+      down from ~75 peak (potentially 70%+ reduction since 2022)
+    source: Multiple third-party sources
+    date: '2025-11-27'
+    confidence: implied
+  missing_information:
+  - Current cash runway and burn rate
+  - Actual current ARR and revenue breakdown
+  - Customer concentration details beyond "near 8-figure contract"
+  - Profitability status or path to profitability
+  - Series B fundraising plans or timeline
+market_position:
+  facts_found:
+  - fact: Rebranded from Gitpod to Ona on September 2, 2025, pivoting from cloud development
+      environments to AI agent platform
+    source: Company announcement
+    date: '2025-09-02'
+    confidence: explicit_statement
+  - fact: Claims 2 million developers on platform, up from 750,000 in 2022
+    source: Company announcements
+    date: '2025-09-02'
+    confidence: explicit_statement
+  - fact: Serves "America's largest banks," "Europe's leading pharmaceutical companies,"
+      and "Asia's top sovereign wealth funds"
+    source: Ona marketing materials
+    date: '2025-11-27'
+    confidence: explicit_statement
+  - fact: Competes with GitHub Codespaces (Microsoft-backed), Coder (self-hosted),
+      DevZero ($26M Series A), and Daytona (open source)
+    source: Market analysis
+    date: '2025-11-27'
+    confidence: explicit_statement
+  - fact: G2 reviews show 16 total reviews with mixed sentiment - praise for setup
+      speed and VS Code integration, criticism for pricing and support
+    source: G2 platform
+    date: '2025-11-27'
+    confidence: explicit_statement
+  - fact: Gitpod Classic pay-as-you-go sunset on October 15, 2025, forcing migration
+      to Ona or self-hosting
+    source: Company announcement
+    date: '2025-10-15'
+    confidence: explicit_statement
+  - fact: New pricing model uses "Ona Compute Units" (OCUs) described as "somewhat
+      opaque" with "large variability in consumption"
+    source: The Register analysis
+    date: '2025-11-27'
+    confidence: explicit_statement
+  - fact: Internally claims agents "co-authored 60% of PRs merged" and "contributed
+      72% of code merged" with customers seeing "4x increase in throughput"
+    source: Ona internal metrics
+    date: '2025-11-27'
+    confidence: explicit_statement
+  missing_information:
+  - Independent verification of agent contribution metrics
+  - Customer migration rate from Gitpod Classic to Ona
+  - Customer churn rate during pivot
+  - Market share estimates in CDE or AI agent markets
+  - Competitive win/loss data
+organizational_stability:
+  facts_found:
+  - fact: All four TypeFox co-founders remain with company - Sven Efftinge (Technical
+      Fellow), Christian Weichel (CTO), Jan Köhnlein, Moritz Eysholdt
+    source: Company website and LinkedIn
+    date: '2025-11-27'
+    confidence: explicit_statement
+  - fact: Johannes Landgraf serves as CEO, joined 2020, became sole CEO when Efftinge
+      stepped back in November 2022
+    source: Company announcements
+    date: '2022-11-01'
+    confidence: explicit_statement
+  - fact: Landgraf background combines computer science (UCL), finance (Maastricht),
+      and VC experience at Target Partners
+    source: LinkedIn profile
+    date: '2025-11-27'
+    confidence: explicit_statement
+  - fact: Board includes Tom Preston-Werner (GitHub founder) and Juliet Bailin (General
+      Catalyst partner)
+    source: Company disclosures
+    date: '2025-11-27'
+    confidence: explicit_statement
+  - fact: January 2023 layoff was publicly acknowledged by CEO with apology for "hiring
+      too aggressively for macroeconomic environment" with 5-10+ weeks severance
+    source: CEO Johannes Landgraf public statement
+    date: '2023-01-01'
+    confidence: explicit_statement
+  - fact: April 2024 layoff received no official acknowledgment, surfaced only through
+      Glassdoor review from former "Head of CS" noting "product roadmap pivoted which
+      resulted in layoffs"
+    source: Glassdoor review
+    date: '2024-04-01'
+    confidence: implied
+  - fact: Glassdoor shows extremely limited data - one review with 4.0/5.0 rating
+      praising "great people, culture, flexibility" while noting pivot-driven layoffs
+    source: Glassdoor platform
+    date: '2025-11-27'
+    confidence: explicit_statement
+  - fact: Company operates remote-first from Kiel, Germany with some New York presence,
+      leadership offsites in San Francisco
+    source: Company website and job postings
+    date: '2025-11-27'
+    confidence: explicit_statement
+  missing_information:
+  - Current org chart and engineering headcount breakdown
+  - Leadership team beyond CEO and CTO
+  - Employee retention rates
+  - Employee sentiment beyond single Glassdoor review
+  - Detailed severance and handling of April 2024 layoffs
+technical_culture:
+  facts_found:
+  - fact: Founding team spent 10+ years at TypeFox building developer tools including
+      Eclipse Xtext, Eclipse Theia, and Language Server Protocol contributions
+    source: Company history and founder profiles
+    date: '2025-11-27'
+    confidence: explicit_statement
+  - fact: Technology stack centers on Go (backend, Kubernetes), TypeScript (frontend),
+      and Kubernetes with new "Flex" architecture using VM-level isolation
+    source: Technical blog and documentation
+    date: '2025-11-27'
+    confidence: explicit_statement
+  - fact: Infrastructure runs primarily on GCP with AWS VPC options for enterprise
+    source: Product documentation
+    date: '2025-11-27'
+    confidence: explicit_statement
+  - fact: Main gitpod-io GitHub repository has 13.4k stars with substantial open source
+      presence
+    source: GitHub platform
+    date: '2025-11-27'
+    confidence: explicit_statement
+  - fact: Open sourced internal tools including Leeway (build system with SLSA Level
+      3), Werft (Kubernetes-native CI), Dazzle (OCI image builder), OpenVSCode Server,
+      OpenVSX
+    source: GitHub repositories
+    date: '2025-11-27'
+    confidence: explicit_statement
+  - fact: Engineering blog features depth per CTO - "really written by our engineers,
+      not fluff" covering AI agents, infrastructure, incident management
+    source: Company blog and CTO Chris Weichel statement
+    date: '2025-11-27'
+    confidence: explicit_statement
+  - fact: Conference presence at KubeCon and CNCF events, CTO appears on podcasts
+      like "Screaming in the Cloud" and "DevX Pod"
+    source: Conference schedules and podcast listings
+    date: '2025-11-27'
+    confidence: explicit_statement
+  - fact: Built own build system (Leeway) and CI (Werft) rather than using off-the-shelf
+      solutions
+    source: GitHub repositories and technical documentation
+    date: '2025-11-27'
+    confidence: explicit_statement
+  - fact: Engineering operates in autonomous product teams with quarterly roadmaps
+      and 48-hour response targets for inbox items
+    source: Engineering blog
+    date: '2025-11-27'
+    confidence: explicit_statement
+  - fact: Company compensates candidates for interview exercises
+    source: Career page
+    date: '2025-11-27'
+    confidence: explicit_statement
+  - fact: SOC2+GxP compliance, RBAC, SSO/OIDC, command deny lists, audit trails, and
+      VPC deployment for enterprise security
+    source: Product documentation
+    date: '2025-11-27'
+    confidence: explicit_statement
+  - fact: Ona platform comprises three components - Environments (CDE with VM isolation,
+      up to 896 cores/12TB RAM), Agents (AI-powered using Claude Sonnet 4), Guardrails
+      (enterprise security)
+    source: Product documentation
+    date: '2025-09-02'
+    confidence: explicit_statement
+  missing_information:
+  - Codebase size and technical debt status
+  - Engineering team size and structure
+  - Development velocity and sprint metrics
+  - Technical career progression paths
+  - On-call rotation and operational burden
+summary:
+  total_facts_found: 36
+  information_completeness: medium
+  most_recent_data: '2025-11-27'
+  oldest_data: '2020-10-01'
+  key_gaps:
+  - Current financial runway and burn rate
+  - Actual ARR vs company claims
+  - Customer retention during pivot
+  - Employee headcount and org structure details
+  - Independent verification of agent productivity metrics
+  research_quality: High - comprehensive analysis combining company statements, third-party
+    data sources, employee reviews, and market analysis
+  confidence_assessment: Medium-High - Strong on public facts (funding, rebrand, leadership),
+    weaker on current financials and employee sentiment due to limited data
+  red_flags_identified:
+  - 70%+ workforce reduction across two layoff rounds
+  - Three years without new funding during capital-intensive pivot
+  - Significant gap between company revenue claims and third-party estimates
+  - Extremely limited employee reviews (single Glassdoor review)
+  - Second layoff (April 2024) not publicly acknowledged
+  - Customer migration forced by sunsetting Gitpod Classic
+  - Pricing model opacity drawing criticism
+  green_flags_identified:
+  - All four founders remain after 7+ years
+  - Deep technical DNA from 10+ years building developer tools
+  - Strong open source presence and engineering culture
+  - Tier-1 investor backing (GitHub founder, Shopify CEO, Datadog CEO)
+  - Strategic positioning in emerging AI agent market
+  - Enterprise traction with regulated industries
+  - SOC2+GxP compliance and security focus
