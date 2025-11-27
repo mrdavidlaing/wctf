@@ -1,6 +1,13 @@
 """Pydantic models for organizational mapping (orgmap and roles)."""
 
-from pydantic import BaseModel, Field, computed_field, field_validator
+from pydantic import (
+    BaseModel,
+    Field,
+    computed_field,
+    field_validator,
+    ValidationInfo,
+    model_validator,
+)
 from typing import List, Optional, Dict, Literal
 
 
@@ -21,11 +28,11 @@ class OrgMetrics(BaseModel):
     growth_trend: Literal["expanding", "stable", "contracting"]
     recent_changes: List[Dict[str, str]] = Field(default_factory=list)
 
-    @field_validator('estimated_headcount')
+    @field_validator("estimated_headcount")
     @classmethod
     def validate_headcount(cls, v: str) -> str:
         """Ensure format like '40-50' or '800-1000'."""
-        if '-' not in v:
+        if "-" not in v:
             raise ValueError(f"Headcount must be range format like '40-50', got: {v}")
         return v
 
@@ -33,9 +40,13 @@ class OrgMetrics(BaseModel):
 class CoordinationSignals(BaseModel):
     """Team coordination style indicators."""
 
-    style_indicators: Literal["alpine", "expedition", "established", "orienteering", "trail_crew"]
+    style_indicators: Literal[
+        "alpine", "expedition", "established", "orienteering", "trail_crew"
+    ]
     evidence: List[str] = Field(description="Observable signals of coordination style")
-    realignment_signals: List[str] = Field(default_factory=list, description="Evidence of adaptation ability")
+    realignment_signals: List[str] = Field(
+        default_factory=list, description="Evidence of adaptation ability"
+    )
 
 
 class InsiderConnection(BaseModel):
@@ -58,7 +69,9 @@ class RopeTeam(BaseModel):
     mission: str
     estimated_size: str = Field(description="e.g., '40-50 engineers'")
     tech_focus: List[str] = Field(description="Primary technologies")
-    public_presence: List[str] = Field(default_factory=list, description="Talks, blog posts")
+    public_presence: List[str] = Field(
+        default_factory=list, description="Talks, blog posts"
+    )
     insider_info: Optional[Dict] = Field(default=None, description="Contact and notes")
 
     @computed_field
@@ -76,7 +89,9 @@ class Peak(BaseModel):
     leadership: Leadership
     mission: str
     org_metrics: OrgMetrics
-    tech_focus: Dict[str, List[str]] = Field(description="primary and secondary tech areas")
+    tech_focus: Dict[str, List[str]] = Field(
+        description="primary and secondary tech areas"
+    )
     coordination_signals: CoordinationSignals
     insider_connections: List[InsiderConnection] = Field(default_factory=list)
     rope_teams: List[RopeTeam] = Field(default_factory=list)
@@ -94,19 +109,24 @@ class CompanyOrgMap(BaseModel):
     """Complete organizational map."""
 
     company: str
-    company_slug: str
+    company_slug: Optional[str] = None
     last_updated: str = Field(description="YYYY-MM-DD format")
     mapping_metadata: Dict = Field(description="sources, confidence, notes")
     peaks: List[Peak]
 
-    @field_validator('company_slug', mode='before')
+    @model_validator(mode="before")
     @classmethod
-    def generate_slug(cls, v, info):
+    def generate_slug(cls, data):
         """Auto-generate slug if not provided."""
-        if not v and 'company' in info.data:
+        if (
+            isinstance(data, dict)
+            and not data.get("company_slug")
+            and data.get("company")
+        ):
             from wctf_core.utils.paths import slugify_company_name
-            return slugify_company_name(info.data['company'])
-        return v
+
+            data["company_slug"] = slugify_company_name(data["company"])
+        return data
 
     @computed_field
     @property
@@ -125,35 +145,45 @@ class WCTFAnalysis(BaseModel):
     """WCTF framework analysis of role."""
 
     analyzed_date: Optional[str] = Field(None, description="YYYY-MM-DD when analyzed")
-    coordination_style: Optional[Literal["alpine", "expedition", "established", "orienteering", "trail_crew"]] = None
+    coordination_style: Optional[
+        Literal["alpine", "expedition", "established", "orienteering", "trail_crew"]
+    ] = None
     terrain_match: Optional[Literal["good_fit", "workable", "mismatched"]] = None
     mountain_clarity: Optional[Literal["clear", "unclear", "conflicting"]] = None
-    energy_matrix: Dict = Field(default_factory=dict, description="Predicted quadrants and tasks")
+    energy_matrix: Dict = Field(
+        default_factory=dict, description="Predicted quadrants and tasks"
+    )
     alignment_signals: Dict = Field(default_factory=dict, description="Green/red flags")
 
     @computed_field
     @property
     def is_complete(self) -> bool:
         """Check if analysis has been done."""
-        return all([
-            self.analyzed_date,
-            self.coordination_style,
-            self.terrain_match,
-            self.mountain_clarity
-        ])
+        return all(
+            [
+                self.analyzed_date,
+                self.coordination_style,
+                self.terrain_match,
+                self.mountain_clarity,
+            ]
+        )
 
 
 class Role(BaseModel):
     """Job role posting."""
 
-    role_id: str = Field(description="Unique identifier, e.g., 'apple_202511_senior_swe_k8s'")
+    role_id: str = Field(
+        description="Unique identifier, e.g., 'apple_202511_senior_swe_k8s'"
+    )
     title: str
     url: str
     posted_date: str = Field(description="YYYY-MM-DD format")
     location: str
 
     # Link to orgmap
-    rope_team_id: Optional[str] = Field(None, description="References company.orgmap.yaml")
+    rope_team_id: Optional[str] = Field(
+        None, description="References company.orgmap.yaml"
+    )
     rope_team_name: Optional[str] = None
 
     # Role details
@@ -163,7 +193,7 @@ class Role(BaseModel):
     salary_range: Optional[str] = None
 
     # WCTF Analysis
-    wctf_analysis: WCTFAnalysis = Field(default_factory=WCTFAnalysis)
+    wctf_analysis: Optional[WCTFAnalysis] = None
 
     @computed_field
     @property
@@ -175,7 +205,7 @@ class Role(BaseModel):
     @property
     def is_analyzed(self) -> bool:
         """Check if WCTF analysis is complete."""
-        return self.wctf_analysis.is_complete
+        return self.wctf_analysis.is_complete if self.wctf_analysis else False
 
 
 class PeakRoles(BaseModel):
@@ -202,20 +232,27 @@ class CompanyRoles(BaseModel):
     """All roles for company."""
 
     company: str
-    company_slug: str
+    company_slug: Optional[str] = None
     last_updated: str = Field(description="YYYY-MM-DD format")
     search_metadata: Dict = Field(description="sources, last_search_date")
     peaks: List[PeakRoles] = Field(default_factory=list)
-    unmapped_roles: List[Role] = Field(default_factory=list, description="Roles not linked to orgmap")
+    unmapped_roles: List[Role] = Field(
+        default_factory=list, description="Roles not linked to orgmap"
+    )
 
-    @field_validator('company_slug', mode='before')
+    @model_validator(mode="before")
     @classmethod
-    def generate_slug(cls, v, info):
+    def generate_slug(cls, data):
         """Auto-generate slug if not provided."""
-        if not v and 'company' in info.data:
+        if (
+            isinstance(data, dict)
+            and not data.get("company_slug")
+            and data.get("company")
+        ):
             from wctf_core.utils.paths import slugify_company_name
-            return slugify_company_name(info.data['company'])
-        return v
+
+            data["company_slug"] = slugify_company_name(data["company"])
+        return data
 
     @computed_field
     @property
