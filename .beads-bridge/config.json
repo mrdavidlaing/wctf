@@ -1,0 +1,16 @@
+{
+  "version": "2.0",
+  "backend": "github",
+  "github": {
+    "repository": "mrdavidlaing/wctf"
+  },
+  "repositories": [
+    {
+      "name": "wctf",
+      "path": "/home/mrdavidlaing/arch-workspace/wctf"
+    }
+  ],
+  "logging": {
+    "level": "info"
+  }
+}
