@@ -1,0 +1,12 @@
+company: TestCompany
+company_slug: testcompany
+last_updated: '2025-11-27'
+search_metadata:
+  sources:
+  - test
+  last_search_date: '2025-11-27'
+peaks: []
+unmapped_roles: []
+total_roles: 0
+mapped_roles: 0
+unmapped_count: 0

@@ -7,7 +7,9 @@
       "Read(//mnt/c/Users/DavidLaing/AppData/Roaming/Claude/logs/**)",
       "Bash(git mv:*)",
       "Bash(git add:*)",
-      "Bash(git commit:*)"
+      "Bash(git commit:*)",
+      "Bash(cat:*)",
+      "Bash(python3:*)"
     ],
     "deny": [],
     "ask": []

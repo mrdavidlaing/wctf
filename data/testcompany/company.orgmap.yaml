@@ -1,0 +1,10 @@
+company: TestCompany
+company_slug: testcompany
+last_updated: '2025-11-27'
+mapping_metadata:
+  sources:
+  - test
+  confidence: high
+peaks: []
+total_peaks: 0
+total_rope_teams: 0
