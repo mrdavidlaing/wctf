@@ -96,7 +96,19 @@ unmapped_roles:  # Roles that couldn't be mapped to known org structure
 
 ### 4. Save Role Data
 
-Use the WCTF SDK to save your findings:
+Use the WCTF SDK script to save your findings:
+
+```bash
+uv run python scripts/search_roles.py {{company}}
+```
+
+This will:
+- Prompt for role data in YAML format
+- Validate with WCTF SDK
+- Save to `data/{company-slug}/company.roles.yaml`
+- Show summary of mapped vs unmapped roles
+
+Or use the SDK directly:
 
 ```python
 from wctf_core import WCTFClient

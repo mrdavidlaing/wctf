@@ -105,7 +105,19 @@ peaks:
 
 ### 4. Save Organizational Map
 
-Use the WCTF SDK to save your research:
+Use the WCTF SDK script to save your findings:
+
+```bash
+uv run python scripts/map_org.py {{company}}
+```
+
+This will:
+- Prompt for organizational data in YAML format
+- Validate with WCTF SDK
+- Save to `data/{company-slug}/company.orgmap.yaml`
+- Show summary of peaks and rope teams discovered
+
+Or use the SDK directly:
 
 ```python
 from wctf_core import WCTFClient
