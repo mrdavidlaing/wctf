@@ -1,6 +1,6 @@
 # flake.nix
 {
-  description = "WCTF - World Championship of Transformative Facilitation";
+  description = "WCTF - Worth Climbing Together Framework";
 
   inputs = {
     infra.url = "github:mrdavidlaing/laingville?dir=infra";

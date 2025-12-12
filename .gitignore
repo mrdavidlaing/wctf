@@ -82,3 +82,6 @@ report_*.py
 # Backup files
 *.backup
 *.backup-*
+
+# Direnv
+.direnv/
