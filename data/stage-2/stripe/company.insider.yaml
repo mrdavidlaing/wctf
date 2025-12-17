@@ -1,0 +1,272 @@
+company: "Stripe (Dublin, Ireland)"
+last_updated: "2025-12-04"
+
+financial_health:
+  facts_found:
+    - fact: "Equity is very liquid with annual liquidity rounds"
+      source: "Tom McDonagh (Stripe Recruiter)"
+      date: "2025-12-04"
+      confidence: "firsthand_account"
+      fact_type: "objective"
+      context: "John and Patrick Collison offer liquidity rounds annually"
+
+    - fact: "Equity Choice program allows employees to take stock out as cash"
+      source: "Tom McDonagh (Stripe Recruiter)"
+      date: "2025-12-04"
+      confidence: "firsthand_account"
+      fact_type: "objective"
+
+    - fact: "Staff Engineer compensation target is €250-300k total compensation"
+      source: "Tom McDonagh (Stripe Recruiter)"
+      date: "2025-12-04"
+      confidence: "firsthand_account"
+      fact_type: "objective"
+      context: "Includes base, stock, equity, and 20% performance bonus"
+
+    - fact: "Performance Equity Grants (PEG) available on top of standard compensation for high performers"
+      source: "Tom McDonagh (Stripe Recruiter)"
+      date: "2025-12-04"
+      confidence: "firsthand_account"
+      fact_type: "objective"
+
+  missing_information:
+    - "Specific base salary vs equity split"
+    - "Current stock valuation for new grants"
+
+market_position:
+  facts_found:
+    - fact: "Revenue Experience org focuses on billing experience and tooling for Stripe users"
+      source: "Tom McDonagh (Stripe Recruiter)"
+      date: "2025-12-04"
+      confidence: "firsthand_account"
+      fact_type: "objective"
+
+    - fact: "Revenue Experience owns dashboards for merchants to understand bills and fee structures"
+      source: "Tom McDonagh (Stripe Recruiter)"
+      date: "2025-12-04"
+      confidence: "firsthand_account"
+      fact_type: "objective"
+
+    - fact: "Billing and fee explainability is an area Stripe has under-invested in historically"
+      source: "Tom McDonagh (Stripe Recruiter)"
+      date: "2025-12-04"
+      confidence: "firsthand_account"
+      fact_type: "objective"
+      context: "This is considered greenfield development opportunity"
+
+    - fact: "Revenue Experience team handles revenue recognition and invoicing automation"
+      source: "Tom McDonagh (Stripe Recruiter)"
+      date: "2025-12-04"
+      confidence: "firsthand_account"
+      fact_type: "objective"
+
+    - fact: "Team builds tooling for account teams to handle complex merchant billing issues"
+      source: "Tom McDonagh (Stripe Recruiter)"
+      date: "2025-12-04"
+      confidence: "firsthand_account"
+      fact_type: "objective"
+
+    - fact: "Multiple acquisitions (stable coins, multi-account balances, merchants of record) require systems evolution"
+      source: "Tom McDonagh (Stripe Recruiter)"
+      date: "2025-12-04"
+      confidence: "firsthand_account"
+      fact_type: "objective"
+      context: "Systems need to evolve to support acquired capabilities"
+
+  missing_information:
+    - "Specific product roadmap for Revenue Experience"
+    - "Current state of billing dashboards"
+
+organizational_stability:
+  facts_found:
+    - fact: "Company operates 50% on-site policy"
+      source: "Tom McDonagh (Stripe Recruiter)"
+      date: "2025-12-04"
+      confidence: "firsthand_account"
+      fact_type: "objective"
+
+    - fact: "Dublin is joint headquarters alongside San Francisco"
+      source: "Tom McDonagh (Stripe Recruiter)"
+      date: "2025-12-04"
+      confidence: "firsthand_account"
+      fact_type: "objective"
+
+    - fact: "Two-thirds of future growth will be outside the US"
+      source: "Tom McDonagh (Stripe Recruiter)"
+      date: "2025-12-04"
+      confidence: "firsthand_account"
+      fact_type: "objective"
+
+    - fact: "Dublin office has 7-8 floors in LinkedIn's old building"
+      source: "Tom McDonagh (Stripe Recruiter)"
+      date: "2025-12-04"
+      confidence: "firsthand_account"
+      fact_type: "objective"
+      context: "Doubled from 4 floors before pandemic"
+
+    - fact: "Estimated 1,000 employees in Dublin office"
+      source: "Tom McDonagh (Stripe Recruiter)"
+      date: "2025-12-04"
+      confidence: "firsthand_account"
+      fact_type: "objective"
+      context: "Recruiter's estimate, not verified"
+
+    - fact: "Revenue Experience org has 55 engineers across 3 teams"
+      source: "Tom McDonagh (Stripe Recruiter)"
+      date: "2025-12-04"
+      confidence: "firsthand_account"
+      fact_type: "objective"
+
+    - fact: "Commerce Systems sister org has 50 engineers"
+      source: "Tom McDonagh (Stripe Recruiter)"
+      date: "2025-12-04"
+      confidence: "firsthand_account"
+      fact_type: "objective"
+
+    - fact: "Staff engineer role would work across Revenue Experience, Commerce Systems, Snowflake, and Billing orgs"
+      source: "Tom McDonagh (Stripe Recruiter)"
+      date: "2025-12-04"
+      confidence: "firsthand_account"
+      fact_type: "objective"
+
+    - fact: "This would be the first staff engineer in Dublin for this org"
+      source: "Tom McDonagh (Stripe Recruiter)"
+      date: "2025-12-04"
+      confidence: "firsthand_account"
+      fact_type: "objective"
+      context: "Other staff engineers are in US West Coast and India"
+
+    - fact: "4-6 staff engineers total in the org, based in US and India"
+      source: "Tom McDonagh (Stripe Recruiter)"
+      date: "2025-12-04"
+      confidence: "firsthand_account"
+      fact_type: "objective"
+
+    - fact: "Hiring manager for this role is based in Dublin"
+      source: "Tom McDonagh (Stripe Recruiter)"
+      date: "2025-12-04"
+      confidence: "firsthand_account"
+      fact_type: "objective"
+
+    - fact: "Senior decision makers are primarily in the US, with Dublin having local decision makers"
+      source: "Tom McDonagh (Stripe Recruiter)"
+      date: "2025-12-04"
+      confidence: "firsthand_account"
+      fact_type: "objective"
+      context: "Everyone expected to contribute to strategy, but more seniority and tenure in US"
+
+    - fact: "West Coast US overlap window is 4-6pm Ireland time"
+      source: "Tom McDonagh (Stripe Recruiter)"
+      date: "2025-12-04"
+      confidence: "firsthand_account"
+      fact_type: "objective"
+      context: "Used for cramming meetings between Ireland and US"
+
+    - fact: "One evening per week expected for US West Coast coordination"
+      source: "Tom McDonagh (Stripe Recruiter)"
+      date: "2025-12-04"
+      confidence: "firsthand_account"
+      fact_type: "objective"
+
+    - fact: "Primary collaboration would be with India teams (4-5 hour time difference)"
+      source: "Tom McDonagh (Stripe Recruiter)"
+      date: "2025-12-04"
+      confidence: "firsthand_account"
+      fact_type: "objective"
+
+    - fact: "Employees need to set their own boundaries around working hours"
+      source: "Tom McDonagh (Stripe Recruiter)"
+      date: "2025-12-04"
+      confidence: "firsthand_account"
+      fact_type: "objective"
+      context: "No one from US will tell you to log off - you have to decide that yourself"
+
+    - fact: "Stripe no longer hires remote roles in mainland Europe due to timezone concerns"
+      source: "Tom McDonagh (Stripe Recruiter)"
+      date: "2025-12-04"
+      confidence: "firsthand_account"
+      fact_type: "objective"
+      context: "All European staff engineering roles now in Dublin HQ"
+
+    - fact: "A lot of conversations happen through documentation rather than requiring regular meetings"
+      source: "Tom McDonagh (Stripe Recruiter)"
+      date: "2025-12-04"
+      confidence: "firsthand_account"
+      fact_type: "objective"
+
+  missing_information:
+    - "On-call rotation frequency and expectations"
+    - "PTO policy and actual usage"
+    - "Promotion timeline and criteria"
+    - "Performance review process details"
+
+technical_culture:
+  facts_found:
+    - fact: "Interview process does not allow AI/LLM tools during coding exercise"
+      source: "Tom McDonagh (Stripe Recruiter)"
+      date: "2025-12-04"
+      confidence: "firsthand_account"
+      fact_type: "objective"
+      context: "Recruiter acknowledged this tests different skills than actual work"
+
+    - fact: "LLM tools are allowed for actual work after joining"
+      source: "Tom McDonagh (Stripe Recruiter)"
+      date: "2025-12-04"
+      confidence: "firsthand_account"
+      fact_type: "objective"
+
+    - fact: "Coding interview is 35 minutes actual coding time within 1 hour session"
+      source: "Tom McDonagh (Stripe Recruiter)"
+      date: "2025-12-04"
+      confidence: "firsthand_account"
+      fact_type: "objective"
+
+    - fact: "Coding interview has multiple parts; completion of all parts may be required"
+      source: "Tom McDonagh (Stripe Recruiter)"
+      date: "2025-12-04"
+      confidence: "firsthand_account"
+      fact_type: "objective"
+      context: "Speed and progress prioritized over perfect testing"
+
+    - fact: "System design interview expects production-grade solutions"
+      source: "Tom McDonagh (Stripe Recruiter)"
+      date: "2025-12-04"
+      confidence: "firsthand_account"
+      fact_type: "objective"
+
+    - fact: "System design interview focuses on requirements gathering and functional/non-functional breakdown"
+      source: "Tom McDonagh (Stripe Recruiter)"
+      date: "2025-12-04"
+      confidence: "firsthand_account"
+      fact_type: "objective"
+
+    - fact: "Staff engineers expected to know scalability, reliability, and data sharding topics deeply"
+      source: "Tom McDonagh (Stripe Recruiter)"
+      date: "2025-12-04"
+      confidence: "firsthand_account"
+      fact_type: "objective"
+      context: "Topics senior engineers wouldn't be as confident discussing"
+
+    - fact: "TypeScript is a recommended language for coding interviews"
+      source: "Tom McDonagh (Stripe Recruiter)"
+      date: "2025-12-04"
+      confidence: "firsthand_account"
+      fact_type: "objective"
+
+  missing_information:
+    - "Day-to-day tech stack for Revenue Experience team"
+    - "Code review practices and SLA"
+    - "CI/CD pipeline details"
+    - "Meeting load for staff engineers"
+    - "Maker time vs meeting time ratio"
+
+summary:
+  total_facts_found: 32
+  information_completeness: "medium"
+  most_recent_interview: "2025-12-04"
+  oldest_interview: "2025-12-04"
+  total_interviews: 1
+  interviewees:
+    - name: "Tom McDonagh"
+      role: "Stripe Recruiter"
+      interview_date: "2025-12-04"

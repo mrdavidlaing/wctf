@@ -1,0 +1,276 @@
+company: "Stripe (Dublin, Ireland)"
+company_slug: stripe
+last_updated: "2025-12-05"
+mapping_metadata:
+  sources:
+    - "Tom McDonagh (Stripe Recruiter) interview 2025-12-04"
+    - "LinkedIn searches"
+    - "Stripe job postings"
+    - "Clay.com executive dossier"
+    - "Pragmatic Engineer newsletter"
+    - "RocketReach"
+    - "TechCrunch"
+    - "Silicon Republic"
+  confidence: "medium"
+  notes: |
+    Organizational structure partially reconstructed from recruiter conversation and public sources.
+    Revenue Experience team confirmed as target; Commerce Systems identified as sister org.
+    VP-level leadership for Revenue/Billing org not publicly identified.
+    CTO position in transition after Rahul Patil departed to Anthropic (Oct 2025).
+
+executive_leadership:
+  ceo:
+    name: "Patrick Collison"
+    tenure: "Since 2010 (co-founder)"
+    notes: "Co-founder with brother John"
+  president:
+    name: "John Collison"
+    tenure: "Since 2010 (co-founder)"
+  cto:
+    name: "Unknown"
+    notes: "Rahul Patil departed to Anthropic Oct 2025; successor not publicly announced"
+    previous:
+      - name: "Rahul Patil"
+        tenure: "2024 - Oct 2025"
+        notes: "Departed to become CTO at Anthropic"
+      - name: "David Singleton"
+        tenure: "2017 - 2024"
+        notes: "Established Dublin engineering hub; departed to start own company"
+  president_product_business:
+    name: "Will Gaybrick"
+    notes: "Oversees product innovation and business strategies"
+  cro:
+    name: "Eileen O'Mara"
+    notes: "Oversees global sales; strong advocate for Stripe Billing"
+  cfo:
+    name: "Steffan Tomlinson"
+
+peaks:
+  - peak_id: "revenue_suite"
+    peak_name: "Revenue Suite / Billing"
+    leadership:
+      vp_name: "Unknown"
+      head_of_engineering: "Vinay Mathur"
+      head_of_engineering_title: "Head of Revenue Suite Product Engineering"
+      head_of_engineering_location: "California, US (West Coast)"
+      reports_to: "Unknown (likely CTO or President of Product)"
+      location_implications: |
+        Senior engineering leadership based in US West Coast.
+        Skip-level and strategic decision-makers on Pacific time.
+        Reinforces timezone coordination concerns for Dublin-based staff engineers.
+    mission: |
+      Build and operate billing infrastructure for Stripe users.
+      Includes Billing platform, Revenue Experience, and Finance Automation.
+      Powers 370,000+ customers with 80% gross margins.
+    org_metrics:
+      estimated_headcount: "150-300"
+      growth_trend: "expanding"
+      recent_changes:
+        - "Introduced subscription pricing plans June 2024"
+        - "6x increase in Sigma usage"
+        - "Prioritizing platformization work for large user base"
+    tech_focus:
+      primary: ["ruby", "java", "react"]
+      secondary: ["go", "typescript", "sql"]
+    coordination_signals:
+      style_indicators: "expedition"
+      evidence:
+        - "Cross-functional technical team spanning US, EMEA, and India"
+        - "Working on greenfield surfaces (under-invested area)"
+        - "Building user-facing and internal infrastructure"
+        - "Complex multi-timezone coordination"
+      realignment_signals:
+        - "Recognized need to prioritize platformization work"
+        - "Navigating tradeoffs from varied demands of large user base"
+    insider_connections:
+      - name: "Tom McDonagh"
+        relationship: "Recruiter contact"
+        role: "Technical Recruiter"
+        team: "Talent Acquisition"
+        last_contact: "2025-12-04"
+        willing_to_intro: true
+        notes: "Primary contact for Staff Engineer role"
+    rope_teams:
+      - team_id: "revenue_experience"
+        team_name: "Revenue Experience"
+        leadership:
+          director_name: "Unknown"
+          hiring_manager_location: "Dublin"
+        mission: |
+          Ensure users (internal and external) have best-in-class experience with billing at Stripe.
+          Build systems and processes to bill largest and most complex customers.
+          Design and deliver UI experiences for fee explainability and usage optimization.
+        estimated_size: "55 engineers across 3 teams"
+        locations:
+          - "Dublin, Ireland"
+          - "US West Coast"
+          - "India"
+        tech_focus:
+          - "billing dashboards"
+          - "fee explainability"
+          - "data pipelines"
+          - "user-facing interfaces"
+          - "internal infrastructure"
+        public_presence:
+          - "Active job postings for Staff Engineer positions"
+        insider_info:
+          source: "Tom McDonagh (Recruiter)"
+          key_facts:
+            - "Greenfield development in under-invested area"
+            - "First staff engineer in Dublin for this org"
+            - "4-6 staff engineers total in US and India"
+            - "Hiring manager based in Dublin"
+            - "Works closely with Commerce Systems sister org"
+
+      - team_id: "commerce_systems"
+        team_name: "Commerce Systems"
+        leadership:
+          director_name: "Unknown"
+        mission: |
+          Power the Revenue platform at Stripe.
+          Build platforms and tools for product and sales teams to bring products to market.
+          Enable signing of simple and complex deals.
+          Provide accurate billing that reflects customer contracts.
+        estimated_size: "50 engineers"
+        locations:
+          - "Dublin, Ireland (large portion)"
+          - "Other locations"
+        tech_focus:
+          - "revenue platform"
+          - "deal management tools"
+          - "billing accuracy"
+          - "contract management"
+        public_presence:
+          - "Technical Program Manager job postings"
+        notes: "Part of Infrastructure & Corporate Tech organization; sister org to Revenue Experience"
+
+      - team_id: "revenue_finance_automation"
+        team_name: "Revenue and Finance Automation (RFA)"
+        leadership:
+          director_name: "Unknown"
+        mission: |
+          Build highly extensible Billing platform.
+          Deliver Product Catalog and Reporting functions.
+          Launch end-to-end tax compliance solution.
+        estimated_size: "40-80"
+        tech_focus:
+          - "billing platform"
+          - "product catalog"
+          - "tax compliance"
+          - "reporting"
+        public_presence:
+          - "Engineering Manager job postings"
+          - "Software Engineer job postings"
+        notes: "80% gross margins; 370,000 customers"
+
+  - peak_id: "infrastructure"
+    peak_name: "Infrastructure & Platform"
+    leadership:
+      vp_name: "Unknown"
+    mission: |
+      Responsible for reliability, scale, performance, and cost of Stripe's systems.
+      Powers 99.9999% availability processing $1+ trillion annually.
+    org_metrics:
+      estimated_headcount: "400-600"
+      growth_trend: "stable"
+      recent_changes:
+        - "Scale growth of 50-60% YoY"
+        - "Maintains six nines of availability"
+    tech_focus:
+      primary: ["ruby", "go", "kubernetes"]
+      secondary: ["java", "python", "terraform"]
+    coordination_signals:
+      style_indicators: "established"
+      evidence:
+        - "Tier-0 critical infrastructure systems"
+        - "High reliability requirements (six nines)"
+        - "Well-defined platform capabilities"
+    rope_teams:
+      - team_id: "core_infrastructure"
+        team_name: "Core Infrastructure"
+        leadership:
+          director_name: "Unknown"
+        mission: |
+          Home for Stripe's critical tier0 infrastructure systems.
+          Includes Compute, Networking, DocumentDB, Distributed Caching, High assurance engineering.
+        estimated_size: "80-120"
+        tech_focus:
+          - "kubernetes"
+          - "networking"
+          - "databases"
+          - "caching"
+        public_presence:
+          - "Senior Staff Engineer job postings"
+          - "Engineering Manager job postings"
+
+      - team_id: "service_platform"
+        team_name: "Service Platform"
+        leadership:
+          director_name: "Unknown"
+        mission: |
+          Empower teams to build highly reliable and performant services.
+          Back payment systems and fraud detection.
+          Build service frameworks and interfaces (deployment, load balancers, web framework, databases, Kafka, Kubernetes).
+        estimated_size: "60-100"
+        tech_focus:
+          - "service frameworks"
+          - "deployment"
+          - "kafka"
+          - "kubernetes"
+
+company_wide_signals:
+  total_engineering_headcount: "~3,400 engineers (40% of 8,500 employees)"
+  codebase_metrics:
+    lines_of_code: "50+ million"
+    pull_requests_per_day: "1,145"
+    pull_requests_per_week: "8,015"
+  team_structure:
+    model: "Engineering-centric with cross-functional partners (not traditional squad model)"
+    typical_team_composition:
+      engineering_manager: "Yes - leads engineering & design processes, coaches team, shapes strategy"
+      product_manager: |
+        Yes (now) - Historically Stripe had no PMs; engineers did PM work.
+        Now have "many PMs" but engineers still expected to be close to users.
+        PMs operate as "mini GMs" with high ownership and self-defined scope.
+        PMs are partners, not gatekeepers.
+      designer: "Yes - engineers collaborate with designers as part of product development"
+      tech_lead: |
+        Unclear - Staff engineers work across teams rather than embedded as tech leads.
+        Staff role is cross-org technical leadership, not team-embedded.
+    key_cultural_traits:
+      - "Engineers own product decisions - participate in business scope, user research, cross-functional collaboration"
+      - "Engineers expected to be close to users and involved end-to-end"
+      - "Tight feedback loops between engineering and users"
+      - "Engineers collaborate with designers, lawyers, accountants, etc."
+    onboarding: "New hires grouped into temporary virtual teams for 3-4 weeks with dedicated mentor"
+    reference_team_size: "Will Larson's Foundation Engineering: 170 engineers across Dublin, SF, Seattle, and 18 remote cities"
+    sources:
+      - "https://newsletter.pragmaticengineer.com/p/stripe-part-2"
+      - "https://review.firstround.com/how-to-size-and-assess-teams-from-an-eng-lead-at-stripe-uber-and-digg/"
+      - "https://www.quora.com/Does-Stripe-have-product-managers-or-do-engineers-manage-the-products-themselves"
+  technical_culture:
+    - "World's largest Ruby codebase"
+    - "LLM tools allowed for work but not in interviews"
+    - "Heavy investment in AI/ML for fraud prevention"
+    - "Strong documentation culture (async-first signals)"
+  dublin_specific:
+    office_size: "7-8 floors (LinkedIn's old building)"
+    estimated_headcount: "~1,000"
+    status: "Joint headquarters with San Francisco"
+    growth_direction: "Two-thirds of future growth outside US"
+    work_policy: "50% onsite requirement"
+
+target_role_context:
+  role: "Staff Engineer - Revenue Experience"
+  reporting_to: "Hiring manager based in Dublin"
+  peer_group:
+    total_staff_engineers: "4-6 in org"
+    dublin_staff_engineers: "0 (would be first)"
+    locations: ["US West Coast", "India"]
+  scope:
+    teams: ["Revenue Experience", "Commerce Systems", "Snowflake", "Billing"]
+    total_engineers: "100+ across orgs"
+  timezone_coordination:
+    us_west_coast: "4-6pm Ireland overlap window; one evening per week"
+    india: "4-5 hour difference; primary collaboration"
+    dublin_commerce_systems: "Local collaboration available"
