@@ -1,0 +1,23 @@
+[project]
+name = "python-interview-prep"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "requests==2.25.1 ; python_full_version < '3.7'",
+    "requests==2.31.0 ; python_full_version >= '3.7'",
+    "six==1.16.0",
+    "urllib3<2.0",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8.0",
+    "ruff>=0.14.9",
+    "watchfiles>=1.0",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["."]
+python_files = ["test_*.py"]
